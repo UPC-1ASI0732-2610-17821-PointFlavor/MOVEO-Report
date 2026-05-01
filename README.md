@@ -735,7 +735,7 @@ La implementación y despliegue de la landing page es un paso crucial para hacer
 </p>
 
 
--Dirigirte al link de la landing page.
+- Dirigirte al link de la landing page.
 
 <p align="center">
   <img src="https://i.imgur.com/1IAJCBH.png" alt="deploy2" width="500">
