@@ -208,21 +208,13 @@
     - [5.1. Software Configuration Management](#51-software-configuration-management)
       - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
       - [5.1.2. Source Code Management](#512-source-code-management)
-      - [Estructura de Ramas (GitFlow)](#estructura-de-ramas-gitflow)
-      - [Conventional Commits](#conventional-commits)
-      - [Semantic Versioning](#semantic-versioning)
       - [5.1.3. Source Code Style Guide \& Conventions](#513-source-code-style-guide--conventions)
       - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-      - [Landing Page — GitHub Pages](#landing-page--github-pages)
-      - [Frontend Web Application — Vercel / Netlify](#frontend-web-application--vercel--netlify)
-      - [Backend / RESTful API — Railway / Render](#backend--restful-api--railway--render)
     - [5.2. Product Implementation \& Deployment](#52-product-implementation--deployment)
       - [5.2.1. Sprint Backlogs](#521-sprint-backlogs)
-      - [Sprint 1](#sprint-1)
       - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
       - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
       - [5.2.4. Acuerdo de Servicio - SaaS](#524-acuerdo-de-servicio---saas)
-      - [5.2.5. Implemented Native-Mobile Application Evidence](#525-implemented-native-mobile-application-evidence)
       - [5.2.6. Implemented RESTful API and/or Serverless Backend Evidence](#526-implemented-restful-api-andor-serverless-backend-evidence)
       - [5.2.7. RESTful API documentation](#527-restful-api-documentation)
       - [5.2.8. Team Collaboration Insights](#528-team-collaboration-insights)
@@ -536,8 +528,8 @@ Criterio: La capacidad de reconocer responsabilidades éticas y profesionales en
 #### 4.10.1. Relational/Non-Relational Database Diagram
 
 ## Capítulo V: Product Implementation
-### 5.1. Software Configuration Management
 
+### 5.1. Software Configuration Management
 
 A lo largo del desarrollo del proyecto, aplicaremos las siguientes normas con el fin de garantizar la coherencia y uniformidad en todas las etapas:
 
@@ -549,35 +541,28 @@ A lo largo del desarrollo del proyecto, aplicaremos las siguientes normas con el
 | Estilos de codificación | Seguir las convenciones de codificación de Microsoft C#: espacios en blanco para legibilidad, convenciones de nombre para clases, funciones y constantes, y nombres claros para variables. |
 | Documentación | Todo el código relevante —especialmente funciones complejas, clases y APIs— debe estar documentado con comentarios claros y concisos. Los comentarios deben explicar el "por qué", no solo el "qué". |
 | Control de versiones | Se utilizará **Git Flow** junto con **Conventional Commits**. Todos los mensajes de commit estarán en inglés con el formato: `<type>(<scope>): <description>`. Ejemplos: `feat(auth): add email validation`, `fix(login): resolve session timeout bug`. Las ramas se organizarán como: `main`, `develop`, `feature/`, `bugfix/` y `hotfix/`. |
-| Gestión de dependencias | Para C# se utilizará el administrador de paquetes NuGet. |
+| Gestión de dependencias | Para C# se utilizará el administrador de paquetes NuGet. Para el frontend con Vue y Vite se usará npm o yarn. |
 | Pruebas | Utilizar comentarios descriptivos para explicar el propósito de cada test. |
 | Seguridad | Encriptar contraseñas de usuarios. Implementar sistema de autenticación seguro. Validar la información ingresada en formularios mediante librerías especializadas. |
 | Colaboración | Se utilizará **Discord** como plataforma principal para reuniones. Se realizarán reuniones semanales sincrónicas para revisar avances y resolver bloqueos. |
 
-
 #### 5.1.1. Software Development Environment Configuration
-
 
 En esta sección se especifican los productos de software utilizados para el desarrollo de la solución Point Flavor.
 
 | Nombre de Producto | Descripción | Propósito de Uso | Categoría | Ruta de Descarga o Link |
 |---|---|---|---|---|
 | Vue 3 | Framework progresivo de JavaScript para construir interfaces de usuario modernas y reactivas. | Desarrollo de interfaces frontend dinámicas y modulares, aprovechando Vue Router, Pinia y Vite para un ciclo de desarrollo ágil. | Software Development | https://vuejs.org/ |
+| Vite | Herramienta de construcción rápida y servidor de desarrollo moderno. | Empaquetado y servido del entorno de desarrollo del frontend de manera extremadamente rápida. | Software Development | https://vitejs.dev/ |
 | Microsoft .NET | Plataforma de desarrollo gratuita, multiplataforma y de código abierto para construir APIs y servicios web. | Construir servicios backend robustos y escalables utilizando .NET con Entity Framework Core. | Software Development | https://dotnet.microsoft.com/download |
-| C# | Lenguaje de programación moderno, orientado a objetos y tipado estático, desarrollado por Microsoft. | Implementar la lógica de negocio de los servicios backend, aprovechando async/await, pattern matching y record types. | Software Development | Incluido en .NET SDK: https://dotnet.microsoft.com/download |
-| JetBrains Rider | IDE especializado para desarrollo con .NET y C#, con soporte para depuración, refactorización y análisis estático. | Desarrollar y depurar el backend de Point Flavor con soporte completo para C# y ASP.NET Core. | Software Development | https://www.jetbrains.com/rider/ |
-| JetBrains WebStorm | IDE especializado en desarrollo web moderno con soporte para JavaScript, TypeScript y Vue. | Desarrollar interfaces frontend con Vue 3 y TypeScript, aprovechando autocompletado avanzado e integración con terminal. | Software Development | https://www.jetbrains.com/webstorm/ |
-| Postman | Plataforma colaborativa para diseñar, probar y documentar APIs. | Validar endpoints del backend, crear colecciones compartidas y automatizar pruebas de integración. | Software Development | https://www.postman.com/downloads/ |
-| UXPressia | Plataforma visual para crear mapas de experiencia del usuario, personas y servicios. | Elaborar User Personas, Empathy Maps y Journey Maps para comprender y comunicar el recorrido del usuario. | Product UX/UI Design | https://uxpressia.com/ |
-| Figma | Herramienta de diseño colaborativo para crear wireframes, mockups y prototipos interactivos. | Diseñar la interfaz de usuario del Landing Page y la aplicación web, siguiendo el Design System definido. | Product UX/UI Design | https://www.figma.com/ |
-| Lucidchart | Plataforma de diagramación visual con soporte para diagramas C4, arquitectura de sistemas y ERD. | Documentar y comunicar la arquitectura del sistema mediante diagramas claros y actualizables. | Product UX/UI Design | https://www.lucidchart.com/ |
-| Structurizr | Herramienta basada en "diagramas como código" para modelar arquitecturas de software según el modelo C4. | Documentar la arquitectura de Point Flavor de forma sistemática y mantenible, siguiendo el modelo C4. | Software Documentation | https://structurizr.com/ |
-| Git | Sistema de control de versiones distribuido para el seguimiento de cambios y colaboración en equipo. | Llevar un historial confiable de todos los cambios, gestionar ramas y facilitar la colaboración entre desarrolladores. | Software Development | https://git-scm.com/downloads |
-| GitHub | Plataforma de desarrollo colaborativo basada en Git para gestionar repositorios y pull requests. | Centralizar el código, facilitar la revisión colaborativa y gestionar ramas de desarrollo siguiendo GitFlow. | Software Development | https://github.com/ |
-| MySQL | Sistema de gestión de bases de datos relacional de código abierto. | Almacenar, consultar y gestionar datos estructurados de forma confiable y escalable como base de datos principal. | Software Development | https://dev.mysql.com/downloads/installer/ |
-| MySQL Workbench | Herramienta visual de diseño, desarrollo y administración de bases de datos MySQL. | Diseñar y modificar el esquema de la base de datos de forma visual y ejecutar consultas de prueba. | Software Development | Incluido en: https://dev.mysql.com/downloads/installer/ |
-| Trello | Herramienta de gestión de proyectos basada en tableros Kanban. | Organizar y dar seguimiento a las tareas del Sprint Backlog durante cada iteración del proyecto. | Project Management | https://trello.com/ |
-
+| C# | Lenguaje de programación moderno, orientado a objetos y tipado estático, desarrollado por Microsoft. | Implementar la lógica de negocio de los servicios backend, aprovechando async/await, pattern matching y record types. | Software Development | Incluido en .NET SDK |
+| JetBrains Rider / Visual Studio | IDE especializado para desarrollo con .NET y C#, con soporte para depuración y análisis estático. | Desarrollar y depurar el backend de Point Flavor con soporte completo para C# y ASP.NET Core. | Software Development | https://www.jetbrains.com/rider/ |
+| Visual Studio Code | Editor de código fuente ligero pero poderoso. | Desarrollar interfaces frontend con Vue 3, Vite y TypeScript. | Software Development | https://code.visualstudio.com/ |
+| Postman | Plataforma colaborativa para diseñar, probar y documentar APIs. | Validar endpoints del backend, crear colecciones compartidas y automatizar pruebas de integración. | Software Development | https://www.postman.com/ |
+| Figma | Herramienta de diseño colaborativo para crear wireframes y prototipos. | Diseñar la interfaz de usuario del Landing Page y la aplicación web. | Product UX/UI Design | https://www.figma.com/ |
+| GitHub | Plataforma de desarrollo colaborativo basada en Git. | Centralizar el código, facilitar la revisión colaborativa y gestionar ramas de desarrollo siguiendo GitFlow. | Software Development | https://github.com/ |
+| Vercel | Plataforma en la nube para sitios estáticos y frameworks frontend. | Despliegue continuo (CI/CD) de la aplicación frontend desarrollada en Vue con Vite. | Software Deployment | https://vercel.com/ |
+| Railway | Plataforma de infraestructura en la nube. | Despliegue continuo y hosting del backend desarrollado en C# .NET. | Software Deployment | https://railway.app/ |
 
 #### 5.1.2. Source Code Management
 
@@ -585,127 +570,91 @@ En esta sección se describe el esquema de control de versiones adoptado para el
 
 Los repositorios del proyecto se encuentran en la organización de GitHub del equipo:
 
-- **Reporte:** [URL del repositorio del informe — completar con el link real]
-- **Landing Page:** [URL del repositorio del Landing Page](https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/PFLAVOR-Landing-Page)
-- **Frontend Web Application:** [URL del repositorio del Frontend — completar con el link real]
-- **RESTful API / Backend:** [URL del repositorio del Backend — completar con el link real]
+- **Reporte:** https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/PFLAVOR-Report
+- **Landing Page:** https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/PFLAVOR-Landing-Page
+- **Frontend Web Application (Vue + Vite):** https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/PFLAVOR-Frontend
+- **RESTful API / Backend (C# .NET):** https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/PFLAVOR-Backend
 
-#### Estructura de Ramas (GitFlow)
-
-Se implementa el siguiente modelo de ramas basado en el artículo "A successful Git branching model" de Vincent Driessen:
-
-- **`main`**: Rama estable y productiva. Contiene solo código desplegable y verificado. Se actualiza únicamente mediante merge desde `develop` tras revisión completa.
-- **`develop`**: Rama de integración principal. Todas las funcionalidades se fusionan aquí antes de ser liberadas a `main`. Es la base para crear ramas de característica.
-- **`feature/`**: Ramas temporales para el desarrollo de nuevas funcionalidades. Siguen la convención: `feature/<descripción-en-inglés-con-guiones>`. Ejemplos: `feature/landing-hero-section`, `feature/user-authentication`.
-- **`release/`**: Ramas para preparar versiones estables antes del lanzamiento. Ejemplo: `release/v1.0.0`.
-- **`hotfix/`**: Ramas para corregir errores críticos en producción. Ejemplo: `hotfix/login-bug-fix`.
-
-#### Conventional Commits
-
-Todos los commits siguen el estándar **Conventional Commits** con el siguiente formato:
-
-<tipo>(<alcance>): <descripción breve>
-
-Tipos permitidos: `feat`, `fix`, `docs`, `style`, `refactor`, `test`, `chore`.
-
-Ejemplos válidos:
-- `feat(landing): add hero section with CTA button`
-- `fix(auth): resolve token expiration issue`
-- `docs(readme): update deployment instructions`
-- `chore(deps): update Vue to v3.4.0`
-
-#### Semantic Versioning
-
-Las versiones se gestionan bajo **Semantic Versioning 2.0.0** (`MAJOR.MINOR.PATCH`):
-
-- **MAJOR**: Cambios que rompen compatibilidad.
-- **MINOR**: Nuevas funcionalidades compatibles (ej. `v1.1.0`).
-- **PATCH**: Correcciones de errores sin nuevas funcionalidades (ej. `v1.0.1`).
-
-Cada release se etiqueta en GitHub con el formato `vX.Y.Z`.
+**Estructura de Ramas (GitFlow)**
+- **`main`**: Rama estable y productiva. Contiene solo código desplegable y verificado.
+- **`develop`**: Rama de integración principal. Todas las funcionalidades se fusionan aquí antes de ser liberadas a `main`.
+- **`feature/`**: Ramas temporales para el desarrollo de nuevas funcionalidades (ej. `feature/hero-section`).
+- **`hotfix/`**: Ramas para corregir errores críticos en producción.
 
 #### 5.1.3. Source Code Style Guide & Conventions
-
 
 El equipo adopta las siguientes convenciones de codificación para garantizar coherencia, legibilidad y mantenibilidad. Todas las identificaciones se realizan en **inglés**.
 
 | Lenguaje | Referencia Adoptada | Convenciones Aplicadas |
 |----------|---------------------|------------------------|
-| **HTML** | Google HTML/CSS Style Guide: https://google.github.io/styleguide/htmlcssguide.html | Minúsculas, indentación de 2 espacios, atributos entre comillas dobles, elementos semánticos (`<header>`, `<main>`, `<section>`), nombres de clases en `kebab-case`. Se incluyen atributos `alt` y `aria-*` para accesibilidad. |
-| **CSS** | Google HTML/CSS Style Guide | Nombres de clases en `kebab-case`, orden alfabético de propiedades, uso de variables CSS (`:root { --color... }`), evitar selectores profundos. |
-| **JavaScript / TypeScript** | Google TypeScript Style Guide: https://google.github.io/styleguide/jsguide.html | Uso de `const` y `let`, funciones flecha, desestructuración, módulos ES6. Nombres en `lowerCamelCase`. |
-| **Vue 3** | Vue 3 Style Guide: https://vuejs.org/style-guide/ | Componentes en `PascalCase`, archivos en `kebab-case`, Single File Components (SFC) con `<script setup>`. Uso de Composition API. Evitar `v-if` con `v-for`. |
-| **C#** | Microsoft C# Coding Conventions: https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions | Clases y métodos en `PascalCase`, variables en `lowerCamelCase`, uso de `async/await`, comentarios XML para documentación pública. |
-| **Gherkin** | Gherkin Conventions for Readable Specifications: https://specflow.org/gherkin/gherkin-conventions-for-readable-specifications/ | Escenarios en inglés, estructura Given-When-Then, una acción por paso, nombres descriptivos. |
+| **HTML/CSS** | Google HTML/CSS Style Guide | Minúsculas, indentación de 2 espacios, atributos entre comillas dobles, elementos semánticos, nombres de clases en `kebab-case`. |
+| **JavaScript / TypeScript** | Google TypeScript Style Guide | Uso de `const` y `let`, funciones flecha, módulos ES6. Nombres en `lowerCamelCase`. |
+| **Vue 3** | Vue 3 Style Guide | Componentes en `PascalCase`, archivos en `kebab-case`, Single File Components (SFC) con `<script setup>`. |
+| **C#** | Microsoft C# Coding Conventions | Clases y métodos en `PascalCase`, variables en `lowerCamelCase`, uso de `async/await`, comentarios XML para documentación pública. |
 
 #### 5.1.4. Software Deployment Configuration
 
-#### Landing Page — GitHub Pages
+**Landing Page y Frontend Web Application — Vercel**
+1. Conectar el repositorio de GitHub (Frontend/Landing Page) a un nuevo proyecto en Vercel.
+2. Vercel detectará automáticamente que es un proyecto de Vite/Vue.
+3. El comando de build se configura como `npm run build` o `vite build`.
+4. El directorio de salida (Output Directory) se establece en `dist`.
+5. Se configuran las variables de entorno necesarias (ej. `VITE_API_BASE_URL`).
+6. Cualquier push a la rama `main` disparará automáticamente un nuevo build y despliegue en Vercel, generando una URL pública segura (HTTPS).
 
-1. Subir el código al repositorio del Landing Page en la rama `main`.
-2. En GitHub: ir a **Settings → Pages**.
-3. En **Build and deployment**, seleccionar **Deploy from a branch**.
-4. Elegir Branch: `main` y Folder: `/ (root)`. Guardar.
-5. Esperar el procesamiento y obtener la URL pública generada por GitHub Pages.
-
-#### Frontend Web Application — Vercel / Netlify
-
-1. Conectar el repositorio del Frontend a Vercel o Netlify.
-2. Configurar el comando de build: `npm run build`.
-3. Configurar el directorio de publicación: `dist/`.
-4. Definir las variables de entorno necesarias (ej. `VITE_API_URL`).
-5. Cada push a `main` disparará automáticamente un nuevo despliegue.
-
-#### Backend / RESTful API — Railway / Render
-
-1. Crear un nuevo proyecto en Railway o Render conectado al repositorio del backend.
-2. Configurar las variables de entorno: cadena de conexión a la base de datos, claves JWT, etc.
-3. El build se ejecuta automáticamente con `dotnet publish -c Release -o out`.
-4. Swagger quedará habilitado en la ruta `/swagger/index.html`.
+**Backend / RESTful API — Railway**
+1. Crear un nuevo servicio en Railway y conectarlo al repositorio del backend (C# .NET) en GitHub.
+2. Railway detectará automáticamente el archivo `.csproj` o `Dockerfile` para la construcción.
+3. Se configuran las variables de entorno necesarias en el panel de Railway (ej. `ConnectionStrings__DefaultConnection`, `ASPNETCORE_ENVIRONMENT=Production`).
+4. Se expone el puerto público y se genera un dominio proporcionado por Railway.
+5. El Swagger se habilita para el entorno de producción (o staging) para permitir la visualización interactiva de la documentación de los endpoints desplegados.
 
 ### 5.2. Product Implementation & Deployment
 
-Esta sección explica el proceso iterativo de implementación y despliegue de Point Flavor, organizado en sprints. Cada sprint incluye la planificación, el backlog, evidencias de desarrollo, despliegue y colaboración del equipo.
-
 #### 5.2.1. Sprint Backlogs
 
-#### Sprint 1
+**Sprint 1**
 
 | Sprint # | Sprint 1 |
 |----------|----------|
 | **Sprint Planning Background** | |
-| Date | [Completar con la fecha real de la reunión] |
-| Time | [Completar con la hora] |
+| Date | 2026-04-24 |
+| Time | 10:00 AM |
 | Location | Reunión virtual por Discord |
-| Prepared By | [Nombre del líder del equipo] |
-| Attendees | [Nombres de todos los integrantes] |
+| Prepared By | Goñe Araccata, Esther Abigail |
+| Attendees | Goñe Araccata, Esther Abigail / Hancco Poma, Keyner Ivan / Santiago Peña, Andreow Jomark / Sulca Silva, Melisa Geraldine / Tumi Oliden, Manuel Ignacio |
 | Sprint n–1 Review Summary | No aplica. Este es el primer sprint del proyecto. |
 | Sprint n–1 Retrospective Summary | No aplica. Este es el primer sprint del proyecto. |
 | **Sprint Goal & User Stories** | |
-| Sprint 1 Goal | Our focus is on delivering a professional, responsive, and accessible Landing Page for Point Flavor that clearly communicates the value proposition of the platform. We believe it delivers a strong first impression to potential users and huarique owners. This will be confirmed when the Landing Page is deployed and accessible via public URL, with all agreed content sections implemented. |
-| Sprint 1 Velocity | [Completar con el velocity acordado] |
-| Sum of Story Points | [Completar con la suma de story points del sprint] |
+| Sprint 1 Goal | Our focus is on delivering a professional, responsive Landing Page and setting up the base architecture for the Frontend (Vue+Vite) and Backend (.NET). We believe it delivers a strong first impression to potential users and allows the team to start feature development. This will be confirmed when the Landing Page is deployed on Vercel and the base API is running on Railway. |
+| Sprint 1 Velocity | 25 |
+| Sum of Story Points | 25 |
 
 **Aspect Leaders and Collaborators — Sprint 1**
 
-| Team Member (Last Name, First Name) | GitHub Username | Landing Page | Information Architecture | UX/UI Design | Report | Deployment |
-|-------------------------------------|-----------------|:---:|:---:|:---:|:---:|:---:|
-| [Integrante 1] | [username] | L | C | C | C | C |
-| [Integrante 2] | [username] | C | L | C | C | C |
-| [Integrante 3] | [username] | C | C | L | C | C |
-| [Integrante 4] | [username] | C | C | C | L | C |
-| [Integrante 5] | [username] | C | C | C | C | L |
+| Team Member (Last Name, First Name) | GitHub Username | Landing Page | Frontend Setup | Backend Setup | Deployment |
+|-------------------------------------|-----------------|:---:|:---:|:---:|:---:|
+| Goñe Araccata, Esther Abigail | abigoe02 | L | C | C | C |
+| Hancco Poma, Keyner Ivan | 1Kanan2 | C | L | C | C |
+| Santiago Peña, Andreow Jomark | andrew65411 | C | C | L | C |
+| Sulca Silva, Melisa Geraldine | MSS02204 | C | C | C | L |
+| Tumi Oliden, Manuel Ignacio | ManuelTumi2224 | C | C | C | C |
 
 **Sprint Backlog 1**
 
 | User Story ID | Title | Work-Item ID | Title | Description | Estimation (Hours) | Assigned To | Status |
 |---|---|---|---|---|---|---|---|
-| [US-ID] | [Título] | T01 | [Título de tarea] | [Descripción] | [Horas] | [Nombre] | To-do / In-Process / Done |
-
+| US01 | Visualizar Landing Page | T01 | Maquetado Base | Configurar Vite y Tailwind CSS / estilos base | 4 | Keyner Hancco | Done |
+| US01 | Visualizar Landing Page | T02 | Hero Section | Diseñar y programar sección principal (Hero) | 5 | Abigail Goñe | Done |
+| US02 | Ver Beneficios | T03 | Componente Beneficios | Programar sección explicativa de beneficios del SaaS | 4 | Manuel Tumi | Done |
+| US03 | Inicializar API Backend | T04 | Setup .NET Core | Crear proyecto C# .NET y configurar arquitectura N-Capas | 6 | Andreow Santiago | Done |
+| US04 | Despliegue Continuo | T05 | CI/CD Frontend & Backend | Configurar Vercel para Vue y Railway para .NET | 6 | Melisa Sulca | Done |
 
 #### 5.2.2. Implemented Landing Page Evidence
 
 La implementación y despliegue de la landing page es un paso crucial para hacerla accesible a los usuarios finales. En esta sección, se detallan los procesos y herramientas utilizados para asegurar que la página estuviera correctamente desplegada y funcional en el entorno de producción.
+
+**URL de Despliegue (Landing Page):** [https://upc-1asi0732-2610-17821-pointflavor.github.io/PFLAVOR-Landing-Page/](https://upc-1asi0732-2610-17821-pointflavor.github.io/PFLAVOR-Landing-Page/)
 
 - Crear nuevo repositorio y subir el proyecto de la landing page.
 
@@ -743,6 +692,44 @@ La implementación y despliegue de la landing page es un paso crucial para hacer
 
 #### 5.2.3. Implemented Frontend-Web Application Evidence
 
+Durante este sprint, se sentaron las bases de la aplicación Frontend utilizando **Vue 3** y **Vite**. La elección de Vite permite tiempos de carga y reemplazo de módulos en caliente (HMR) casi instantáneos, mejorando la experiencia de desarrollo.
+
+**URL de Despliegue (Frontend):** [https://pflavor-frontend.vercel.app/](https://pflavor-frontend.vercel.app/)
+
+- **Paso 1:** Vinculación del repositorio Frontend a la plataforma de Vercel.
+
+<p align="center">
+  <img src="assets/Chapter-5/frontend (1).png" alt="deploy-front-1" width="500">
+</p>
+
+- **Paso 2:** Vercel detecta automáticamente el framework (Vite/Vue) y configura el directorio raíz.
+
+<p align="center">
+  <img src="assets/Chapter-5/frontend (2).png" alt="deploy-front-2" width="500">
+</p>
+
+- **Paso 3:** Configuración de los comandos de compilación (`npm run build`) y el directorio de salida (`dist`).
+
+<p align="center">
+  <img src="assets/Chapter-5/frontend (3).png" alt="deploy-front-3" width="500">
+</p>
+
+- **Paso 4:** Ejecución del despliegue (Deploy) donde Vercel comienza a construir la aplicación.
+
+<p align="center">
+  <img src="assets/Chapter-5/frontend (6).png" alt="deploy-front-4" width="500">
+</p>
+
+- **Paso 5:** Esperar a que el proceso termine, obteniendo la confirmación visual de éxito y la asignación del dominio.
+
+
+- **Paso 6:** Acceder al enlace generado por Vercel para visualizar la aplicación Frontend web ya desplegada.
+
+<p align="center">
+  <img src="assets/Chapter-5/frontend (4).png" alt="deploy-front-6" width="500">
+</p>
+
+
 #### 5.2.4. Acuerdo de Servicio - SaaS
 
 El presente Acuerdo de Servicio establece los términos y condiciones bajo los cuales Point Flavor ofrece su plataforma como servicio (SaaS) a los usuarios y dueños de huariques registrados.
@@ -777,12 +764,64 @@ Este acuerdo se rige por las leyes vigentes de la República del Perú.
 > Este acuerdo está disponible públicamente en el footer de la Landing Page y de la aplicación web bajo la sección "Términos y Condiciones".
 
 
-#### 5.2.5. Implemented Native-Mobile Application Evidence
-
 #### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
+
+La arquitectura de la solución backend se fundamentó en **C# y .NET Core**. Se estructuró siguiendo el patrón de diseño Domain-Driven Design (DDD) con separación de responsabilidades. Para su despliegue se utilizó Railway.
+
+**URL de Documentación (Swagger API):** [https://pflavor-backend-production.up.railway.app/swagger/index.html](https://pflavor-backend-production.up.railway.app/swagger/index.html)
+
+- **Paso 1:** Conectar el repositorio de GitHub que contiene el backend en .NET a un nuevo proyecto en Railway.
+
+<p align="center">
+  <img src="assets/Chapter-5/backend.png" alt="deploy-back-1" width="500">
+</p>
+
+- **Paso 2:** Railway detecta el tipo de proyecto y comienza a crear el servicio.
+
+<p align="center">
+  <img src="assets/Chapter-5/backend (3).png" alt="deploy-back-2" width="500">
+</p>
+
+- **Paso 3:** Esperar a que Railway finalice el proceso de construcción y levante el contenedor (Deploying).
+
+<p align="center">
+  <img src="assets/Chapter-5/backend (2).png" alt="deploy-back-3" width="500">
+</p>
+
+- **Paso 4:** Generar y configurar un dominio público gratuito en la sección de Settings de Railway para acceder a la API.
+
+<p align="center">
+  <img src="assets/Chapter-5/backend (1).png" alt="deploy-back-4" width="500">
+</p>
+
 
 #### 5.2.7. RESTful API documentation
 
+Para asegurar una correcta integración entre el Frontend y el Backend, se implementó la documentación interactiva de la API utilizando **Swagger (OpenAPI)** de forma nativa en el proyecto de ASP.NET Core.
+
+Esta documentación interactiva se encuentra desplegada y accesible a través del dominio público de Railway en la ruta: `https://pflavor-backend-production.up.railway.app/swagger/index.html`.
+
+<p align="center">
+  <img src="assets/Chapter-5/backend (4).png" alt="Interfaz de Swagger UI desplegada" width="500">
+</p>
+
+A continuación, se detalla la documentación de los endpoints principales (relacionados a **Huariques**) expuestos en la especificación OAS3:
+
+| Endpoint | Método HTTP | Descripción | Parámetros (Query / Path) | Request Body (JSON) | Response (Éxito) |
+|---|---|---|---|---|---|
+| `/huariques` | **GET** | Search Huariques: Busca huariques por texto o filtrando por cercanía. | `q` (string), `near` (boolean) | Ninguno | `200 OK`: Arreglo de objetos `HuariqueResource` encontrados. |
+| `/huariques` | **POST** | Create Huarique: Crea un nuevo registro de huarique. | Ninguno | `CreateHuariqueResource` (name, category, price, district, etc.) | `201 Created`: El objeto `HuariqueResource` recién creado. |
+| `/huariques/{id}` | **GET** | Get Huarique by Id: Obtiene los detalles de un huarique específico mediante su ID único. | `id` (integer) en Path | Ninguno | `200 OK`: El objeto `HuariqueResource` correspondiente al ID. |
+| `/huariques/{id}` | **PATCH** | Patch Huarique: Actualiza campos específicos de un huarique existente. | `id` (integer) en Path | Objeto JSON con los campos a actualizar. | `200 OK`: El objeto `HuariqueResource` con la información actualizada. |
+
+**Otros Controladores y Endpoints expuestos:**
+Además de los endpoints de Huariques, la API expone información a través de los siguientes recursos base (GET):
+*   `/users`: Gestión y consulta de usuarios.
+*   `/categories`: Listado de categorías gastronómicas.
+*   `/plans`: Información sobre los planes de suscripción (SaaS).
+*   `/promos`: Promociones vigentes.
+*   `/reviews`: Reseñas de los huariques (`GET` para listar, `POST` para crear).
+  
 #### 5.2.8. Team Collaboration Insights
 
 ### 5.3. Video About-the-Product
