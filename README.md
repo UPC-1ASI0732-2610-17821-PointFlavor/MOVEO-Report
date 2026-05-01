@@ -826,6 +826,16 @@ Además de los endpoints de Huariques, la API expone información a través de l
 
 ### 5.3. Video About-the-Product
 
+En esta sección, se presenta una introducción de la plataforma PointFlavor, destacando sus características clave y cómo la app web conecta a los usuarios con huariques locales, ofreciendo una experiencia única para descubrir y apoyar pequeños negocios de comida tradicional. A través de este video, se busca mostrar de manera visual y atractiva cómo la aplicación facilita tanto a usuarios como a dueños de huariques la interacción y gestión de este valioso ecosistema gastronómico.
+
+<p align="center">
+  <img src="https://i.imgur.com/8HfP3oX.png" alt="Vide About-The-Product" width="500">
+</p>
+
+
+Link del video: [VideoAbout-the-Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/IQB0jX1Jm76wQIXVW8UiLbLVAWrqCzfy3-izqTy8BW7jTGw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cDKJni)
+
+
 
 # Part II: Verification, Validation & Pipeline
 
