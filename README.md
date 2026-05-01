@@ -493,9 +493,7 @@ Criterio: La capacidad de reconocer responsabilidades éticas y profesionales en
 ### 3.2. User Stories
 En esta sección se presentan los requisitos definidos para PuntoSabor, expresados mediante User Stories y Epics. Cada User Story incluye criterios de aceptación claros y comprobables, redactados en tiempo presente y tercera persona, siguiendo la estructura Gherkin (Given-When-Then). Se considera tanto la experiencia del usuario en la app web como aspectos técnicos del desarrollo, incluyendo historias técnicas para el RESTful API.
 
-A continuación, se muestra un cuadro resumen con los Epics y User Stories definidos, sus descripciones, criterios de aceptación y relaciones entre ellos.
- 
-Aquí está la tabla sin las columnas vacías:
+A continuación, se muestra un cuadro resumen con los Epics y User Stories definidos, sus descripciones, criterios de aceptación y relaciones entre ellos 
 
 | Epic | Título | Descripción |
 |------|--------|-------------|
