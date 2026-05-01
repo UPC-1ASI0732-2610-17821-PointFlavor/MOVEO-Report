@@ -12,7 +12,7 @@
     <strong>Producto: PuntoSabor</strong><br><br>
 </p>
 
-<table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse; width:60%; margin:auto; font-size:11px;">
+<table align="center" border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse; width:60%; margin:auto; font-size:11px;">
   <thead>
     <tr>
       <th style="text-align:center;">Código</th>
