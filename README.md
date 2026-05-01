@@ -670,8 +670,17 @@ Este segmento representa a pequeños emprendedores gastronómicos que buscan aum
   <tbody>
     <tr>
       <td style="text-align:center; vertical-align:middle;"><strong>1</strong></td>
-      <td></td>
-      <td style="text-align:center; vertical-align:middle;"></td>
+      <td style="vertical-align:top;">
+        <strong>Nombre:</strong> Luis Montañez<br>
+        <strong>Edad:</strong> 25<br>
+        <strong>Distrito:</strong> Cercado de Lima<br><br>
+        <strong>Resumen:</strong> Luis es un estudiante de 25 años que utiliza aplicaciones web de comida casi todos los fines de semana para salir con su pareja o amigos y descubrir lugares nuevos. La mayoría de los huariques los encuentra en TikTok e Instagram, donde sigue a distintos foodies, además de investigar en Google Maps las ubicaciones. Su principal prioridad al elegir un lugar para comer es el precio, ya que tiene un presupuesto ajustado como estudiante. Luego valora las fotos y los comentarios confiables, ya que esto le ayuda a evitar sitios de mala calidad. Sin embargo, ha enfrentado dificultades, como llegar a lugares que aparecen como abiertos en las apps pero están cerrados, además de que muchos huariques pequeños no están listados en ellas. Le gustaría usar una app exclusiva para huariques si tiene reseñas sinceras de usuarios similares a él. Para que la app sea útil y la use regularmente, considera esenciales los filtros por precio y tipo de comida, un mapa intuitivo y rápido, y recomendaciones personalizadas. Sus principales preocupaciones incluyen que la app se llene de publicidad, que la información sea poco confiable o que tenga pocos lugares en su ciudad, lo que haría que pierda valor.
+      </td>
+      <td style="text-align:center; vertical-align:middle;">
+        <img src="https://i.imgur.com/FU01v0h.png" alt="Evidencia" width="150"><br>
+        <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/IQD12r8RXyRYS4r7cUAyYGceAe4hWtwg7ykHYFboUUqDzHs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=3dUJ0H">📂 Ver entrevista</a><br>
+        <strong>Inicio:</strong> 00:01
+      </td>
     </tr>
   </tbody>
 </table>
@@ -813,6 +822,22 @@ Este segmento representa a pequeños emprendedores gastronómicos que buscan aum
 #### 2.2.3. Análisis de entrevistas
 
 <u><strong>Segmento Objetivo #1: Exploradores Gastronómicos</strong></u>
+
+**Luis Montañez (25 años)**
+
+Casi todos los fines de semana, utiliza aplicaciones web para salir a descubrir nuevos lugares con amigos o su pareja. La mayoría de los huariques los encuentra en TikTok, Instagram y Google Maps, siguiendo a foodies y explorando por su cuenta. El precio es su principal criterio al elegir un lugar para comer, ya que su presupuesto es ajustado, seguido por fotos y reseñas confiables para evitar malas experiencias. Ha tenido problemas con locales que aparecen como abiertos pero en realidad están cerrados, y con la falta de huariques pequeños en las apps. Se sentiría motivado a usar una aplicación dedicada exclusivamente a huariques si tiene reseñas sinceras de usuarios como él. Considera imprescindibles los filtros de precio, un mapa intuitivo y rápido, y recomendaciones personalizadas. Sus mayores preocupaciones son que la app esté llena de publicidad intrusiva y que tenga información poco confiable o poca cobertura en su ciudad.
+
+**Puntos clave:**
+- Ha enfrentado problemas con **información desactualizada** y huariques que no están en las apps.
+- Usa aplicaciones gastronómicas con frecuencia, principalmente los **fines de semana**.
+- Considera **imprescindibles** los **mapas interactivos, filtros y recomendaciones personalizadas**.
+- Descubre huariques en **Instagram**, **Google Maps** y **TikTok**.
+- Lo que más valora es el **precio**, seguido de **reseñas confiables y fotos**.
+- Se preocupa por la **poca cobertura local** y la **publicidad excesiva**.
+- Se motiva por una app exclusiva con **reseñas sinceras** de usuarios similares.
+
+<br>
+
 
 **Alexis Encalada (22 años)**
 
