@@ -1,128 +1,138 @@
-<div align="center">
+<p align="center">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" width="150"></img><br><br>
+    <strong>Universidad Peruana de Ciencias Aplicadas</strong><br><br>
+    <strong>Ingeniería de Software</strong><br><br>
+    <strong>Ciclo 202610</strong><br><br>
+    <strong>Diseño de Experimentos de Ingeniería de Software</strong><br><br>
+    <strong>NRC: 17821</strong><br><br>
+    <strong>Sección: 1ASI0732</strong><br><br>
+    <strong>Profesor: Lennin Percy Cenas Vasquez</strong><br><br>
+    <strong>Informe de Trabajo Final</strong><br><br>
+    <strong>Startup:</strong><br><br>
+    <strong>Producto: PuntoSabor</strong><br><br>
+</p>
 
-<h3>Universidad Peruana de Ciencias Aplicadas</h3>
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse; width:60%; margin:auto; font-size:11px;">
+  <thead>
+    <tr>
+      <th style="text-align:center;">Código</th>
+      <th style="text-align:center;">Apellidos y Nombres</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:center;">U202318049</td>
+      <td>Goñe Araccata, Esther Abigail</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;">U20221C726</td>
+      <td>Hancco Poma, Keyner Iván</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;">U202317362</td>
+      <td>Santiago Peña, Andreow Jomark</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;">U202224602</td>
+      <td>Sulca Silva, Melisa Geraldine</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;">U20241C134</td>
+      <td>Tumi Oliden, Manuel Ignacio</td>
+    </tr>
+  </tbody>
+</table>
 
-<img alt="upc-logo" src="assets/upc_logo.png" width="200"/><br>
+<p align="center">
+    <br><strong>Abril 2026</strong>
+</p>
 
-<strong>Ingeniería de Software - 202610</strong><br>
-<strong>1ASI0732 - Diseño de Experimentos de Ingeniería de Software</strong><br>
-<strong>NRC: 17821</strong><br>
-<strong>Sección: 2610</strong><br>
-<strong>Profesor: Lennin Percy Cenas Vasquez</strong><br>
-
-<br><strong>Informe del Trabajo Final</strong><br><br>
-
-<strong>Startup: </strong><br>
-<strong>Producto: </strong><br>
-
-### Team Members:
-
-| Member | Code |
-|:-------------------------------:|:---------:|
-| | |
-| | |
-| | |
-| | |
-| | |
-
-<strong>Abril 2026</strong><br>
-
-</div>
+---
 
 # Registro de Versiones del Informe
 
-<table>
-  <tr>
-    <th>Version</th>
-    <th>Fecha</th>
-    <th>Autor</th>
-    <th>Descripción de modificación</th>
-  </tr>
-  <tr>
-    <td>TB1</td>
-    <td></td>
-    <td>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </td>
-    <td>
-      Se han incluido los siguientes capítulos:
-      <ul>
-        <li></li>
-        <li></li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td>TP1</td>
-    <td></td>
-    <td>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </td>
-    <td>
-      Se han incluido los siguientes capítulos y secciones:
-      <ul>
-        <li></li>
-        <li></li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td>TB2</td>
-    <td></td>
-    <td>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </td>
-    <td>
-      Se han incluido los siguientes capítulos y secciones:
-      <ul>
-        <li></li>
-        <li></li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td>TF1</td>
-    <td></td>
-    <td>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </td>
-    <td>
-      Se han incluido los siguientes capítulos y secciones:
-      <ul>
-        <li></li>
-        <li></li>
-      </ul>
-    </td>
-  </tr>
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse; width:100%; font-size:11px;">
+  <thead>
+    <tr>
+      <th>Versión</th>
+      <th>Fecha</th>
+      <th>Autor(es)</th>
+      <th>Descripción de modificación</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1.0 (AV1)</td>
+      <td>22/04/2026</td>
+      <td>
+        Goñe Araccata, Esther Abigail<br><br>
+        Hancco Poma, Keyner Iván<br><br>
+        Santiago Peña, Andreow Jomark<br><br>
+        Sulca Silva, Melisa Geraldine<br><br>
+        Tumi Oliden, Manuel Ignacio
+      </td>
+      <td>Capítulo I: Startup Profile (Descripción de la Startup y perfiles del equipo), Solution Profile (Perfil de la solución), Lean UX Problem Statements (Definición de problemas), Lean UX Assumptions (Identificación de suposiciones), Lean UX Hypothesis Statements (Formulación de hipótesis), Lean UX Canvas (Canvas del proceso Lean UX), Segmentos Objetivo (Definición del público meta).</td>
+    </tr>
+    <tr>
+      <td>1.1 (AV1)</td>
+      <td>24/04/2026</td>
+      <td>
+        Goñe Araccata, Esther Abigail<br><br>
+        Hancco Poma, Keyner Iván<br><br>
+        Santiago Peña, Andreow Jomark<br><br>
+        Sulca Silva, Melisa Geraldine<br><br>
+        Tumi Oliden, Manuel Ignacio
+      </td>
+      <td>Capítulo II: Análisis Competitivo (Estudio del mercado y competidores), Estrategias frente a Competidores (Diferenciación y posicionamiento), Diseño de Entrevistas (Guía de preguntas por segmento), Registro de Entrevistas (Documentación de entrevistas realizadas), Análisis de Entrevistas (Hallazgos por segmento), User Personas (Perfiles representativos), User Task Matrix (Matriz de tareas por perfil), User Journey Mapping (Recorrido del usuario), Empathy Mapping (Mapa de empatía), As-is Scenario Mapping (Escenario actual), Ubiquitous Language (Glosario del dominio).</td>
+    </tr>
+    <tr>
+      <td>1.2 (AV1)</td>
+      <td>26/04/2026</td>
+      <td>
+        Goñe Araccata, Esther Abigail<br><br>
+        Hancco Poma, Keyner Iván<br><br>
+        Santiago Peña, Andreow Jomark<br><br>
+        Sulca Silva, Melisa Geraldine<br><br>
+        Tumi Oliden, Manuel Ignacio
+      </td>
+      <td>Capítulo III: To-Be Scenario Mapping (Escenario deseado), User Stories (Historias de usuario), Product Backlog (Backlog priorizado), Impact Mapping (Mapa de impacto). Capítulo IV: Style Guidelines (Lineamientos de diseño), Information Architecture (Arquitectura de información), Landing Page UI Design (Diseño de la landing page), Web Applications UX/UI Design (Diseño de la aplicación web), Web Applications Prototyping (Prototipo de la aplicación web), Domain-Driven Software Architecture (Arquitectura de software), Software Object-Oriented Design (Diseño orientado a objetos), Database Design (Diseño de base de datos).</td>
+    </tr>
+    <tr>
+      <td>1.3 (AV1)</td>
+      <td>29/04/2026</td>
+      <td>
+        Goñe Araccata, Esther Abigail<br><br>
+        Hancco Poma, Keyner Iván<br><br>
+        Santiago Peña, Andreow Jomark<br><br>
+        Sulca Silva, Melisa Geraldine<br><br>
+        Tumi Oliden, Manuel Ignacio
+      </td>
+      <td>Capítulo V: Software Configuration Management (Gestión de configuración), Sprint Backlogs (Backlogs por sprint), Implemented Landing Page Evidence (Evidencia del landing page), Implemented Frontend-Web Application Evidence (Evidencia del frontend), Acuerdo de Servicio SaaS (Modelo de servicio), Implemented RESTful API Evidence (Evidencia del backend), RESTful API Documentation (Documentación de la API), Team Collaboration Insights (Métricas de colaboración).</td>
+    </tr>
+    <tr>
+      <td>1.4 (AV1)</td>
+      <td>01/05/2026</td>
+      <td>
+        Goñe Araccata, Esther Abigail<br><br>
+        Hancco Poma, Keyner Iván<br><br>
+        Santiago Peña, Andreow Jomark<br><br>
+        Sulca Silva, Melisa Geraldine<br><br>
+        Tumi Oliden, Manuel Ignacio
+      </td>
+      <td>Correcciones y mejoras generales sobre todos los capítulos anteriores, Video About-the-Product (Video del producto).</td>
+    </tr>
+  </tbody>
 </table>
 
 ---
 
 # Project Report Collaboration Insights
+
+Repositorio donde se encuentra el **Project Report**: [https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/PFLAVOR-Report.git](https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/PFLAVOR-Report.git)
+
+FOTO
+
+Utilizamos Google Docs como herramienta colaborativa para redactar el informe y luego trasladamos la información al archivo README.md de nuestro repositorio.
 
 ---
 
@@ -307,149 +317,47 @@
 
 # Student Outcome
 
-ABET – EAC - Student Outcome 4
-Criterio: La capacidad de reconocer responsabilidades éticas y profesionales en situaciones de ingeniería y hacer juicios informados, que deben considerar el impacto de las soluciones de ingeniería en contextos globales, económicos, ambientales y sociales.
+El curso aporta al cumplimiento del criterio ABET: **ABET – EAC \- Student Outcome 7:** **Aprendizaje Continuo y Autónomo**
 
-<div>
-<table>
+**Criterio:** *La capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas.*
+
+En el cuadro siguiente se detallan las actividades llevadas a cabo y las conclusiones formuladas por el equipo, las cuales sirven como evidencia del logro alcanzado en el ABET – EAC \- Student Outcome.
+
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse; width:100%; font-size:11px;">
   <thead>
     <tr>
       <th>Criterio específico</th>
       <th>Nombre</th>
-      <th>Acciones realizadas</th>
       <th>Conclusiones</th>
     </tr>
   </thead>
   <tbody>
-    <!-- Criterio 4.c.1 -->
     <tr>
-      <td rowspan="5">4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software</td>
-      <td></td>
+      <td>Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.</td>
       <td>
-        <strong>TB1:</strong><br>
-        <br>
-        <strong>TP1:</strong><br>
-        <br>
-        <strong>TB2:</strong><br>
-        <br>
-        <strong>TF1:</strong><br>
+        Goñe Araccata, Esther Abigail<br><em>AV1:</em><br><br>
+        Hancco Poma, Keyner Iván<br><em>AV1:</em><br><br>
+        Santiago Peña, Andreow Jomark<br><em>AV1:</em><br><br>
+        Sulca Silva, Melisa Geraldine<br><em>AV1:</em><br><br>
+        Tumi Oliden, Manuel Ignacio<br><em>AV1:</em>
       </td>
-      <td rowspan="5"></td>
+      <td><strong>AV1:</strong></td>
     </tr>
     <tr>
-      <td></td>
+      <td>Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.</td>
       <td>
-        <strong>TB1:</strong><br>
-        <br>
-        <strong>TP1:</strong><br>
-        <br>
-        <strong>TB2:</strong><br>
-        <br>
-        <strong>TF1:</strong><br>
+        Goñe Araccata, Esther Abigail<br><em>AV1:</em><br><br>
+        Hancco Poma, Keyner Iván<br><em>AV1:</em><br><br>
+        Santiago Peña, Andreow Jomark<br><em>AV1:</em><br><br>
+        Sulca Silva, Melisa Geraldine<br><em>AV1:</em><br><br>
+        Tumi Oliden, Manuel Ignacio<br><em>AV1:</em>
       </td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>
-        <strong>TB1:</strong><br>
-        <br>
-        <strong>TP1:</strong><br>
-        <br>
-        <strong>TB2:</strong><br>
-        <br>
-        <strong>TF1:</strong><br>
-      </td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>
-        <strong>TB1:</strong><br>
-        <br>
-        <strong>TP1:</strong><br>
-        <br>
-        <strong>TB2:</strong><br>
-        <br>
-        <strong>TF1:</strong><br>
-      </td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>
-        <strong>TB1:</strong><br>
-        <br>
-        <strong>TP1:</strong><br>
-        <br>
-        <strong>TB2:</strong><br>
-        <br>
-        <strong>TF1:</strong><br>
-      </td>
-    </tr>
-    <!-- Criterio 4.c.2 -->
-    <tr>
-      <td rowspan="5">4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales</td>
-      <td></td>
-      <td>
-        <strong>TB1:</strong><br>
-        <br>
-        <strong>TP1:</strong><br>
-        <br>
-        <strong>TB2:</strong><br>
-        <br>
-        <strong>TF1:</strong><br>
-      </td>
-      <td rowspan="5"></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>
-        <strong>TB1:</strong><br>
-        <br>
-        <strong>TP1:</strong><br>
-        <br>
-        <strong>TB2:</strong><br>
-        <br>
-        <strong>TF1:</strong><br>
-      </td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>
-        <strong>TB1:</strong><br>
-        <br>
-        <strong>TP1:</strong><br>
-        <br>
-        <strong>TB2:</strong><br>
-        <br>
-        <strong>TF1:</strong><br>
-      </td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>
-        <strong>TB1:</strong><br>
-        <br>
-        <strong>TP1:</strong><br>
-        <br>
-        <strong>TB2:</strong><br>
-        <br>
-        <strong>TF1:</strong><br>
-      </td>
-    </tr>
-    <tr>
-      <td></td>
-      <td>
-        <strong>TB1:</strong><br>
-        <br>
-        <strong>TP1:</strong><br>
-        <br>
-        <strong>TB2:</strong><br>
-        <br>
-        <strong>TF1:</strong><br>
-      </td>
+      <td><strong>AV1:</strong></td>
     </tr>
   </tbody>
 </table>
-</div>
+
+---
 
 # Part I: As-Is Software Project
 
