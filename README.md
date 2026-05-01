@@ -304,18 +304,6 @@
   - [Video About-the-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
-- [**Capítulo I: Introducción** {#capítulo-i:-introducción}](#capítulo-i-introducción-capítulo-i-introducción)
-  - [1.1. Start-Up Profile {#1.1-start-up-profile}](#11-start-up-profile-11-start-up-profile)
-    - [**1.1.1. Descripción del Start-Up** {#1.1.1.-descripción-del-start-up}](#111-descripción-del-start-up-111-descripción-del-start-up)
-    - [**1.1.2. Perfiles de integrantes del equipo** {#1.1.2.-perfiles-de-integrantes-del-equipo}](#112-perfiles-de-integrantes-del-equipo-112-perfiles-de-integrantes-del-equipo)
-  - [1.2. Solution Profile {#1.2.-solution-profile}](#12-solution-profile-12-solution-profile)
-    - [**1.2.1. Antecedentes y problemática** {#1.2.1.-antecedentes-y-problemática}](#121-antecedentes-y-problemática-121-antecedentes-y-problemática)
-    - [**1.2.2. Lean UX Process.** {#1.2.2.-lean-ux-process.}](#122-lean-ux-process-122-lean-ux-process)
-      - [1.2.2.1. Lean UX Problem Statements. {#1.2.2.1.-lean-ux-problem-statements.}](#1221-lean-ux-problem-statements-1221-lean-ux-problem-statements)
-      - [1.2.2.2. Lean UX Assumptions. {#1.2.2.2.-lean-ux-assumptions.}](#1222-lean-ux-assumptions-1222-lean-ux-assumptions)
-      - [1.2.2.3. Lean UX Hypothesis Statements. {#1.2.2.3.-lean-ux-hypothesis-statements.}](#1223-lean-ux-hypothesis-statements-1223-lean-ux-hypothesis-statements)
-      - [1.2.2.4. Lean UX Canvas. {#1.2.2.4.-lean-ux-canvas.}](#1224-lean-ux-canvas-1224-lean-ux-canvas)
-  - [1.3. Segmentos objetivo. {#1.3.-segmentos-objetivo.}](#13-segmentos-objetivo-13-segmentos-objetivo)
 
 # Student Outcome
 
@@ -468,15 +456,265 @@ Criterio: La capacidad de reconocer responsabilidades éticas y profesionales en
 ## Capítulo I: Introducción
 ### 1.1. Startup Profile
 #### 1.1.1. Descripción de la Startup
+
+**NOMBRE** es una startup orientada al desarrollo de soluciones tecnológicas innovadoras que potencian la visibilidad y el crecimiento de pequeños negocios locales, especialmente en el sector gastronómico. Nació con el propósito de cerrar la brecha digital que afecta a los pequeños emprendedores, ofreciéndoles herramientas accesibles para conectar con su comunidad y expandir su presencia en el entorno digital.
+
+**Misión**  
+Desarrollar soluciones tecnológicas accesibles que conecten a los usuarios con los pequeños negocios gastronómicos locales, promoviendo su crecimiento y visibilidad en el entorno digital, y contribuyendo a preservar la cultura culinaria tradicional.
+
+**Visión**  
+Ser la plataforma de referencia en Latinoamérica para el descubrimiento y promoción de la gastronomía local, reconocida por empoderar a los pequeños emprendedores y acercar a las comunidades con su patrimonio culinario auténtico.
+
 #### 1.1.2. Perfiles de integrantes del equipo
+
+En esta sección se presentan los integrantes de la startup, detallando sus perfiles, así como sus principales habilidades y conocimientos.
+
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse; width:100%; font-size:11px;">
+  <tbody>
+    <tr>
+      <td style="text-align:center; width:20%;">
+        <img src="https://i.imgur.com/5WOw0mc.png" alt="Goñe Araccata">
+      </td>
+      <td style="vertical-align:top;">
+        <strong>Goñe Araccata, Esther Abigail</strong><br>
+        Mi nombre es Abigail Goñe, tengo 20 años y actualmente me encuentro en el séptimo ciclo de la carrera de Ingeniería de Software. Soy una persona responsable, amigable y me gusta poder ayudar a los demás en todo lo que pueda.
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:center; width:20%;">
+        <img src="https://i.imgur.com/SPZjKS9.jpeg" alt="Hancco Poma">
+      </td>
+      <td style="vertical-align:top;">
+        <strong>Hancco Poma, Keyner Iván</strong><br>
+        Soy estudiante de la carrera de Ingeniería de Software, considero que tengo dominio en tecnologías como C++, Python, CSS, HTML, Figma, SQL, JS. También considero que tengo habilidades en comunicación, organización y en el idioma inglés avanzado.
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:center; width:20%;">
+        <img src="https://i.imgur.com/ygvXHmA.png" alt="Santiago Peña">
+      </td>
+      <td style="vertical-align:top;">
+        <strong>Santiago Peña, Andreow Jomark</strong><br>
+        Soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas, con una gran pasión por el desarrollo de aplicaciones móviles y backend.
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:center; width:20%;">
+        <img src="https://i.imgur.com/hvEXYuV.png" alt="Sulca Silva">
+      </td>
+      <td style="vertical-align:top;">
+        <strong>Sulca Silva, Melisa Geraldine</strong><br>
+        Estudio la carrera de Ingeniería de Software y me interesa la tecnología y los videojuegos. Me motiva mucho aprender nuevos lenguajes de programación. Suelo trabajar bien en equipo, nuestro compromiso, perseverancia y liderazgo.
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:center; width:20%;">
+        <img src="https://i.imgur.com/9lvkuR3.png" alt="Tumi Oliden">
+      </td>
+      <td style="vertical-align:top;">
+        <strong>Tumi Oliden, Manuel Ignacio</strong><br>
+        Soy estudiante de sexto ciclo de Ingeniería de Software. Me apasiona desarrollar soluciones prácticas y creativas, tanto en proyectos académicos como personales. Me defino como una persona innovadora, con fuerte orientación al trabajo en equipo y comunicación constante.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ### 1.2. Solution Profile
+
+**PuntoSabor** es una plataforma web diseñada para cerrar la brecha digital que existe entre los exploradores gastronómicos y los pequeños huariques tradicionales peruanos. Centraliza en un solo espacio el descubrimiento, la promoción y la gestión digital de estos negocios, ofreciendo a los usuarios herramientas como búsqueda con filtros avanzados, mapas interactivos, reseñas verificadas y favoritos, mientras que los dueños de huariques cuentan con un panel de gestión sencillo para registrar y mantener actualizado su negocio, complementado con planes de membresía accesibles que les permiten escalar su visibilidad sin necesidad de conocimientos técnicos ni grandes inversiones.
+
 #### 1.2.1. Antecedentes y problemática
+
+De acuerdo con Álvarez (2020), la metodología de las 5W's y 2H's permite estructurar y desarrollar un plan de acción o estrategia detallada, constituyendo una herramienta clave para comprender a fondo las necesidades de los usuarios. Por esta razón, se utilizó para recopilar y clasificar la información del mercado, la cual se presentará a continuación.
+
+**What?:**  
+Los huariques, pequeños negocios de comida tradicional peruana, carecen de presencia en el ecosistema digital actual. Esto hace que los consumidores interesados en opciones gastronómicas auténticas y económicas no puedan encontrarlos fácilmente.
+
+**Why?:**  
+Las plataformas digitales de comida tienden a favorecer a establecimientos con mayor capacidad de inversión publicitaria, lo que relega a los huariques a un segundo plano y les impide atraer nuevos clientes mediante canales digitales.
+
+**Where?:**  
+Esta brecha se manifiesta principalmente en entornos urbanos donde los huariques son parte importante de la oferta gastronómica local, pero permanecen desconectados del mundo digital, especialmente en mercados de habla hispana con una rica tradición culinaria.
+
+**When?:**  
+La problemática es constante, aunque se ha intensificado con la acelerada digitalización del sector gastronómico en los últimos años.
+
+**Who?:**  
+Existen dos grupos afectados: **los dueños de huariques**, que luchan por competir en un mercado dominado por grandes cadenas y restaurantes con mayor presupuesto; y **los usuarios que buscan comida local, sabrosa y accesible** pero no cuentan con canales especializados donde encontrarla.
+
+**How?:**  
+El problema se manifiesta a través de la ausencia de promoción digital, la escasa o nula presencia en mapas y aplicaciones de comida, la falta de interacción con potenciales clientes y la inexistencia de una comunidad que recomiende estos lugares.
+
+**How Much?:**  
+Esta situación representa una oportunidad económica desaprovechada para miles de pequeños negocios y una pérdida cultural para el público general. A nivel de mercado, millones de usuarios y una gran cantidad de emprendimientos gastronómicos quedan fuera del ecosistema digital.
+
 #### 1.2.2. Lean UX Process
 ##### 1.2.2.1. Lean UX Problem Statements
+
+* Actualmente, los pequeños huariques no cuentan con una plataforma digital accesible y especializada que les permita promocionar sus negocios de forma efectiva. Esto limita su capacidad para atraer nuevos clientes y crecer en un mercado cada vez más digitalizado. Nuestra solución debe brindar a estos emprendedores un espacio donde puedan gestionar su presencia digital sin complicaciones técnicas ni costos elevados.
+
+* Los usuarios interesados en descubrir comida local auténtica y económica no encuentran opciones adecuadas en las grandes aplicaciones convencionales, donde los huariques rara vez tienen visibilidad. Nuestra solución debe ofrecer un canal especializado que conecte a estos usuarios con negocios gastronómicos locales de manera sencilla y confiable.
+
+* En el ecosistema digital gastronómico actual, no existe un sistema confiable de reseñas y calificaciones orientado específicamente a huariques, lo que dificulta generar confianza entre usuarios y dueños de estos negocios. Nuestra solución debe incorporar mecanismos que permitan a la comunidad compartir experiencias y valoraciones de forma transparente.
+
+* Las grandes plataformas de comida priorizan restaurantes y cadenas consolidadas con mayor capacidad de inversión publicitaria, dejando una brecha significativa en términos de visibilidad para los huariques. Nuestra solución debe nivelar ese campo, dando protagonismo a los pequeños negocios gastronómicos locales.
+
+* La mayoría de dueños de huariques opera con recursos limitados y escasa experiencia digital, sin acceso a herramientas prácticas y asequibles para administrar su presencia en línea. Nuestra solución debe ser lo suficientemente intuitiva para que cualquier emprendedor pueda usarla sin necesidad de conocimientos técnicos avanzados.
+
 ##### 1.2.2.2. Lean UX Assumptions
+
+**User Assumptions (Necesidades y comportamientos)**
+
+* **Exploradores gastronómicos:** Los usuarios que buscan opciones de comida local auténtica y económica no encuentran canales especializados donde los huariques tengan protagonismo. Están dispuestos a usar una plataforma dedicada siempre que les ofrezca información confiable, fotos reales, reseñas verificadas y herramientas como mapas y filtros que faciliten su decisión.
+
+* **Dueños de huariques:** Los pequeños emprendedores gastronómicos necesitan aumentar su visibilidad digital pero carecen de presupuesto y conocimientos técnicos para hacerlo por cuenta propia. Están dispuestos a registrar y mantener actualizado su negocio en una plataforma si el proceso es sencillo, accesible y les representa un retorno tangible en clientes.  
+
+**User Outcome Assumptions (Beneficios esperados)**
+
+* Los exploradores gastronómicos experimentarán una mejora significativa en su experiencia de búsqueda al acceder a opciones locales auténticas y económicas que no aparecen en las grandes apps convencionales, tomando decisiones más informadas gracias a reseñas, fotos y calificaciones reales.
+
+* Los dueños de huariques verán un incremento directo en el flujo de clientes y en la visibilidad de su negocio al contar con un perfil digital completo y actualizado, reduciendo su dependencia del boca a boca o de redes sociales sin estructura.
+
+* El sistema de reseñas, calificaciones y favoritos fomentará la confianza y lealtad entre ambos segmentos, generando una comunidad activa que impulse el crecimiento orgánico de la plataforma.  
+
+**Business Assumptions (Modelo de negocio y mercado)**
+
+* Un modelo de monetización basado en membresías y planes promocionales escalonados es viable para los dueños de huariques, ya que les permite elegir el nivel de inversión según su capacidad económica y los beneficios que esperan obtener.
+
+* Existe un mercado desatendido en áreas urbanas hispanohablantes donde los huariques forman parte importante de la cultura gastronómica local pero permanecen invisibles en el ecosistema digital, representando una oportunidad clara de negocio.
+
+* Los pequeños emprendedores gastronómicos adoptarán la plataforma como su herramienta principal de gestión digital al comprobar que les permite competir en visibilidad con establecimientos de mayor tamaño sin requerir grandes inversiones.
+
+* Una comunidad activa de usuarios y dueños será el factor que impulse el crecimiento orgánico y la retención, reduciendo la necesidad de inversión publicitaria constante.  
+
+**Business Outcome Assumptions (Impactos positivos en el negocio)**
+
+* Se espera un incremento sostenido en el registro de huariques a medida que los dueños comprueben que la plataforma les genera visibilidad real y clientes recurrentes.
+
+* La plataforma logrará una tasa de retención de usuarios activos superior al 60% durante el primer año, sustentada en la confianza generada por reseñas verificadas y contenido actualizado.
+
+* La consolidación de funcionalidades como búsqueda avanzada, mapa interactivo, favoritos y reseñas en un solo lugar reducirá la tasa de abandono al ofrecer valor continuo para ambos segmentos.
+
+* La marca se posicionará como el referente en descubrimiento y promoción de gastronomía local auténtica en el mercado peruano durante los primeros 24 meses de operación.  
+
+**Feature Assumptions (Funcionalidades y resolución)**
+
+* Un proceso de registro intuitivo permitirá que el 80% de los dueños de huariques configure su perfil sin requerir asistencia técnica.
+
+* Un sistema de filtros avanzado por tipo de comida, precio y ubicación permitirá a los usuarios encontrar un huarique de su interés en menos de tres minutos.
+
+* Al menos el 50% de los huariques registrados mantendrá su información actualizada dentro de los primeros tres meses gracias a incentivos como mayor visibilidad y respuesta a reseñas.
+
+* La visualización clara de perfiles con fotos, especialidades, calificaciones y ubicación será el factor determinante para que los usuarios visiten un huarique descubierto en la plataforma.
+
+**Priorización de Suposiciones (Assumptions Priority)**  
+
+Una vez identificados los supuestos, el equipo ha evaluado cada uno en función de su nivel de incertidumbre y riesgo potencial para el negocio, priorizando aquellos que, de resultar falsos, pondrían en riesgo la viabilidad completa del proyecto.
+
+**La Suposición más Riesgosa (Riskiest Assumption)**
+
+La suposición más crítica que el equipo debe validar primero es:
+
+**"*Los dueños de huariques están dispuestos a registrar y mantener activo su negocio en una plataforma digital, confiando en que un sistema de perfiles, reseñas y planes de membresía es suficiente para justificar su tiempo e inversión, aun cuando tienen experiencia limitada con herramientas tecnológicas.*"**
+
+**Justificación:** Esta declaración es el pilar de toda la propuesta. Sin una oferta suficiente de huariques registrados y activos, la plataforma no tendrá contenido de valor para los exploradores gastronómicos, lo que provocaría el fracaso del modelo independientemente de la calidad técnica del producto. Por ello, este supuesto será el foco del primer experimento de validación.
+
 ##### 1.2.2.3. Lean UX Hypothesis Statements
+
+**Descubrimiento y accesibilidad gastronómica**
+ 
+**Creemos que** ofrecer una plataforma intuitiva y especializada para descubrir huariques auténticos y económicos **logrará** aumentar la cantidad de usuarios que visitan estos negocios, al contar con un canal dedicado que las grandes apps no ofrecen.
+
+**Sabremos que esto es cierto** **cuando veamos** que al menos el 60% de los usuarios activos reportan haber visitado un huarique recomendado en la plataforma durante su primer mes de uso.
+
+**Gestión digital para dueños de huariques**
+
+**Creemos que** permitir a los dueños registrar y gestionar su negocio con fotos, especialidades y precios de forma sencilla **logrará** incentivar su participación activa y mejorar la calidad del contenido disponible para los usuarios.
+
+**Sabremos que esto es cierto cuando veamos** que al menos el 50% de los huariques registrados actualizan su información o responden reseñas dentro de los primeros tres meses tras su registro.
+
+**Geolocalización y uso recurrente**
+
+**Creemos que** la integración de mapas y funciones de geolocalización **logrará** facilitar a los usuarios el descubrimiento de huariques cercanos, incrementando la interacción y el uso recurrente de la plataforma.
+
+**Sabremos que esto es cierto cuando veamos** que al menos el 70% de los accesos diarios incluyen el uso del mapa durante el primer mes de lanzamiento.
+
+**Confianza a través de reseñas y calificaciones**
+
+**Creemos que** implementar un sistema confiable de reseñas y calificaciones enfocado en huariques **logrará** consolidar la confianza de los usuarios y posicionar la plataforma como su referencia principal para descubrir gastronomía local auténtica.
+
+**Sabremos que esto es cierto cuando veamos** que el 80% de los huariques registrados cuentan con al menos cinco reseñas activas y una valoración promedio superior a 4 estrellas durante los primeros tres meses de operación.
+
+**Monetización y sostenibilidad del modelo**
+
+**Creemos que** ofrecer planes de membresía y publicidad escalonados y accesibles para los dueños de huariques **logrará** generar ingresos recurrentes sostenibles para la plataforma al demostrarles un retorno tangible en visibilidad y clientes.
+
+**Sabremos que esto es cierto cuando veamos** que el 30% de los huariques registrados contratan al menos un plan pago durante los primeros seis meses de operación.
+
 ##### 1.2.2.4. Lean UX Canvas
+
+![](https://i.imgur.com/aiba47s.jpeg)
+
 ### 1.3. Segmentos objetivo
+
+Para garantizar que la solución responda de manera efectiva a las necesidades del mercado gastronómico local, se identificaron y analizaron los segmentos clave que enfrentan retos en el ecosistema de descubrimiento y promoción de huariques. A continuación se detallan sus perfiles estratégicos, profundizando en las características demográficas, geográficas y psicográficas que sustentan su relevancia dentro del dominio del problema.
+
+<u><strong>Segmento Objetivo #1: Exploradores Gastronómicos</strong></u>
+
+Representa a personas activas y curiosas que buscan descubrir opciones de comida local auténtica y económica fuera de los canales convencionales, y que no encuentran en las grandes plataformas gastronómicas un espacio dedicado a huariques.
+
+**Aspectos demográficos**
+
+* **Sexo:** Masculino y femenino
+
+* **Rango de edad:** 18 a 40 años
+
+* **Nivel socioeconómico:** Sectores B y C (estudiantes universitarios, jóvenes profesionales y adultos con hábitos de consumo gastronómico frecuente)
+
+**Aspectos geográficos**
+
+* **Nacionalidad:** Peruana
+
+* **Zona geográfica:** Áreas urbanas con alta densidad gastronómica y cultura culinaria local activa, con foco en Lima Metropolitana y sus distritos con mayor presencia de huariques.
+
+**Aspectos psicográficos**
+
+* Dolor principal: No cuentan con un canal especializado donde los huariques tengan visibilidad real. Las grandes aplicaciones priorizan restaurantes con mayor capacidad de inversión publicitaria, dejando fuera opciones auténticas y económicas que solo se descubren por recomendación informal o redes sociales.
+
+* Intereses: Descubrir experiencias gastronómicas locales únicas, acceder a recomendaciones confiables basadas en reseñas reales y encontrar opciones de comida cercanas y accesibles sin depender del boca a boca.
+
+* Actitudes: Estilo de vida activo y digitalmente conectado; toman decisiones de consumo sobre la marcha y priorizan la autenticidad, el precio y la confianza por encima de la popularidad del establecimiento. Están dispuestos a adoptar nuevas plataformas si estas les ofrecen información verificada y una experiencia de navegación ágil e intuitiva.
+
+* Necesidades clave: Acceso a un buscador con filtros por tipo de comida, precio y ubicación; mapas interactivos con huariques cercanos; sistema de reseñas y calificaciones confiable; posibilidad de guardar favoritos y recibir recomendaciones personalizadas.
+
+<br>
+
+<u><strong>Segmento Objetivo #2: Dueños y Administradores de Huariques</strong></u>
+
+Representa a emprendedores y pequeños negocios de comida tradicional o casera que necesitan aumentar su visibilidad digital y atraer nuevos clientes, pero carecen de presupuesto y conocimientos técnicos para hacerlo por cuenta propia.
+
+**Aspectos demográficos**
+
+* **Sexo:** Masculino y femenino
+
+* **Rango de edad:** 25 a 60 años
+
+* **Nivel socioeconómico:** Sectores B, C y D (microempresarios, emprendedores gastronómicos y administradores de negocios familiares de comida tradicional)
+
+**Aspectos geográficos**
+
+* **Nacionalidad:** Peruana  
+* **Zona geográfica:** Áreas urbanas y periurbanas de Lima Metropolitana donde los huariques forman parte activa de la oferta gastronómica local pero cuentan con escasa o nula presencia digital.
+
+**Aspectos psicográficos**
+
+* **Dolor principal:** Dependen casi exclusivamente del tráfico físico y el boca a boca para atraer clientes, sin contar con herramientas digitales accesibles que les permitan competir en visibilidad con restaurantes de mayor tamaño. Las plataformas existentes les resultan costosas, complejas o simplemente no están orientadas a su tipo de negocio.
+
+* **Intereses:** Promocionar su negocio de forma sencilla y rentable, aumentar el flujo de clientes presenciales, recibir retroalimentación directa de sus visitantes y contar con una presencia digital que refleje la autenticidad y propuesta de valor de su huarique.
+
+* **Actitudes:** Proactivos en la búsqueda de soluciones que les permitan crecer sin incurrir en grandes inversiones. Valoran la simplicidad, el soporte y los resultados concretos en términos de clientes reales, por encima de métricas abstractas de visibilidad.
+
+* **Necesidades clave:** Una herramienta intuitiva para registrar y actualizar la información de su negocio, incluyendo fotos, especialidades, horarios y precios; un sistema que les permita responder reseñas e interactuar con su comunidad; y planes de membresía o publicidad escalonados que se adapten a su capacidad de inversión.
 
 ## Capítulo II: Requirements Elicitation & Analysis
 ### 2.1. Competidores
@@ -651,270 +889,3 @@ Criterio: La capacidad de reconocer responsabilidades éticas y profesionales en
 
 ---
 
-# **Capítulo I: Introducción** {#capítulo-i:-introducción}
-
-## 1.1. Start-Up Profile {#1.1-start-up-profile}
-
-### **1.1.1. Descripción del Start-Up** {#1.1.1.-descripción-del-start-up}
-
-**NOMBRE** es una startup orientada al desarrollo de soluciones tecnológicas innovadoras que potencian la visibilidad y el crecimiento de pequeños negocios locales, especialmente en el sector gastronómico. Nació con el propósito de cerrar la brecha digital que afecta a los pequeños emprendedores, ofreciéndoles herramientas accesibles para conectar con su comunidad y expandir su presencia en el entorno digital.
-
-**Misión**  
-Desarrollar soluciones tecnológicas accesibles que conecten a los usuarios con los pequeños negocios gastronómicos locales, promoviendo su crecimiento y visibilidad en el entorno digital, y contribuyendo a preservar la cultura culinaria tradicional.
-
-**Visión**  
-Ser la plataforma de referencia en Latinoamérica para el descubrimiento y promoción de la gastronomía local, reconocida por empoderar a los pequeños emprendedores y acercar a las comunidades con su patrimonio culinario auténtico.
-
-### **1.1.2. Perfiles de integrantes del equipo** {#1.1.2.-perfiles-de-integrantes-del-equipo}
-
-En esta sección se presentan los integrantes de la startup, detallando sus perfiles, así como sus principales habilidades y conocimientos.
-
-<table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse; width:100%; font-size:11px;">
-  <tbody>
-    <tr>
-      <td style="text-align:center; width:20%;">
-        <img src="https://i.imgur.com/5WOw0mc.png" alt="Goñe Araccata">
-      </td>
-      <td style="vertical-align:top;">
-        <strong>Goñe Araccata, Esther Abigail</strong><br>
-        Mi nombre es Abigail Goñe, tengo 20 años y actualmente me encuentro en el séptimo ciclo de la carrera de Ingeniería de Software. Soy una persona responsable, amigable y me gusta poder ayudar a los demás en todo lo que pueda.
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:center; width:20%;">
-        <img src="https://i.imgur.com/SPZjKS9.jpeg" alt="Hancco Poma">
-      </td>
-      <td style="vertical-align:top;">
-        <strong>Hancco Poma, Keyner Iván</strong><br>
-        Soy estudiante de la carrera de Ingeniería de Software, considero que tengo dominio en tecnologías como C++, Python, CSS, HTML, Figma, SQL, JS. También considero que tengo habilidades en comunicación, organización y en el idioma inglés avanzado.
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:center; width:20%;">
-        <img src="https://i.imgur.com/ygvXHmA.png" alt="Santiago Peña">
-      </td>
-      <td style="vertical-align:top;">
-        <strong>Santiago Peña, Andreow Jomark</strong><br>
-        Soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas, con una gran pasión por el desarrollo de aplicaciones móviles y backend.
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:center; width:20%;">
-        <img src="https://i.imgur.com/hvEXYuV.png" alt="Sulca Silva">
-      </td>
-      <td style="vertical-align:top;">
-        <strong>Sulca Silva, Melisa Geraldine</strong><br>
-        Estudio la carrera de Ingeniería de Software y me interesa la tecnología y los videojuegos. Me motiva mucho aprender nuevos lenguajes de programación. Suelo trabajar bien en equipo, nuestro compromiso, perseverancia y liderazgo.
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:center; width:20%;">
-        <img src="https://i.imgur.com/9lvkuR3.png" alt="Tumi Oliden">
-      </td>
-      <td style="vertical-align:top;">
-        <strong>Tumi Oliden, Manuel Ignacio</strong><br>
-        Soy estudiante de sexto ciclo de Ingeniería de Software. Me apasiona desarrollar soluciones prácticas y creativas, tanto en proyectos académicos como personales. Me defino como una persona innovadora, con fuerte orientación al trabajo en equipo y comunicación constante.
-      </td>
-    </tr>
-  </tbody>
-</table>
-
----
-
-## 1.2. Solution Profile {#1.2.-solution-profile}
-
-**PuntoSabor** es una plataforma web diseñada para cerrar la brecha digital que existe entre los exploradores gastronómicos y los pequeños huariques tradicionales peruanos. Centraliza en un solo espacio el descubrimiento, la promoción y la gestión digital de estos negocios, ofreciendo a los usuarios herramientas como búsqueda con filtros avanzados, mapas interactivos, reseñas verificadas y favoritos, mientras que los dueños de huariques cuentan con un panel de gestión sencillo para registrar y mantener actualizado su negocio, complementado con planes de membresía accesibles que les permiten escalar su visibilidad sin necesidad de conocimientos técnicos ni grandes inversiones.
-
-### **1.2.1. Antecedentes y problemática** {#1.2.1.-antecedentes-y-problemática}
-
-De acuerdo con Álvarez (2020), la metodología de las 5W's y 2H's permite estructurar y desarrollar un plan de acción o estrategia detallada, constituyendo una herramienta clave para comprender a fondo las necesidades de los usuarios. Por esta razón, se utilizó para recopilar y clasificar la información del mercado, la cual se presentará a continuación.
-
-**What?:**  
-Los huariques, pequeños negocios de comida tradicional peruana, carecen de presencia en el ecosistema digital actual. Esto hace que los consumidores interesados en opciones gastronómicas auténticas y económicas no puedan encontrarlos fácilmente.
-
-**Why?:**  
-Las plataformas digitales de comida tienden a favorecer a establecimientos con mayor capacidad de inversión publicitaria, lo que relega a los huariques a un segundo plano y les impide atraer nuevos clientes mediante canales digitales.
-
-**Where?:**  
-Esta brecha se manifiesta principalmente en entornos urbanos donde los huariques son parte importante de la oferta gastronómica local, pero permanecen desconectados del mundo digital, especialmente en mercados de habla hispana con una rica tradición culinaria.
-
-**When?:**  
-La problemática es constante, aunque se ha intensificado con la acelerada digitalización del sector gastronómico en los últimos años.
-
-**Who?:**  
-Existen dos grupos afectados: **los dueños de huariques**, que luchan por competir en un mercado dominado por grandes cadenas y restaurantes con mayor presupuesto; y **los usuarios que buscan comida local, sabrosa y accesible** pero no cuentan con canales especializados donde encontrarla.
-
-**How?:**  
-El problema se manifiesta a través de la ausencia de promoción digital, la escasa o nula presencia en mapas y aplicaciones de comida, la falta de interacción con potenciales clientes y la inexistencia de una comunidad que recomiende estos lugares.
-
-**How Much?:**  
-Esta situación representa una oportunidad económica desaprovechada para miles de pequeños negocios y una pérdida cultural para el público general. A nivel de mercado, millones de usuarios y una gran cantidad de emprendimientos gastronómicos quedan fuera del ecosistema digital.
-
-### **1.2.2. Lean UX Process.** {#1.2.2.-lean-ux-process.}
-
-#### 1.2.2.1. Lean UX Problem Statements. {#1.2.2.1.-lean-ux-problem-statements.}
-
-* Actualmente, los pequeños huariques no cuentan con una plataforma digital accesible y especializada que les permita promocionar sus negocios de forma efectiva. Esto limita su capacidad para atraer nuevos clientes y crecer en un mercado cada vez más digitalizado. Nuestra solución debe brindar a estos emprendedores un espacio donde puedan gestionar su presencia digital sin complicaciones técnicas ni costos elevados.
-
-* Los usuarios interesados en descubrir comida local auténtica y económica no encuentran opciones adecuadas en las grandes aplicaciones convencionales, donde los huariques rara vez tienen visibilidad. Nuestra solución debe ofrecer un canal especializado que conecte a estos usuarios con negocios gastronómicos locales de manera sencilla y confiable.
-
-* En el ecosistema digital gastronómico actual, no existe un sistema confiable de reseñas y calificaciones orientado específicamente a huariques, lo que dificulta generar confianza entre usuarios y dueños de estos negocios. Nuestra solución debe incorporar mecanismos que permitan a la comunidad compartir experiencias y valoraciones de forma transparente.
-
-* Las grandes plataformas de comida priorizan restaurantes y cadenas consolidadas con mayor capacidad de inversión publicitaria, dejando una brecha significativa en términos de visibilidad para los huariques. Nuestra solución debe nivelar ese campo, dando protagonismo a los pequeños negocios gastronómicos locales.
-
-* La mayoría de dueños de huariques opera con recursos limitados y escasa experiencia digital, sin acceso a herramientas prácticas y asequibles para administrar su presencia en línea. Nuestra solución debe ser lo suficientemente intuitiva para que cualquier emprendedor pueda usarla sin necesidad de conocimientos técnicos avanzados.
-
-#### 1.2.2.2. Lean UX Assumptions. {#1.2.2.2.-lean-ux-assumptions.}
-
-**User Assumptions (Necesidades y comportamientos)**
-
-* **Exploradores gastronómicos:** Los usuarios que buscan opciones de comida local auténtica y económica no encuentran canales especializados donde los huariques tengan protagonismo. Están dispuestos a usar una plataforma dedicada siempre que les ofrezca información confiable, fotos reales, reseñas verificadas y herramientas como mapas y filtros que faciliten su decisión.
-
-* **Dueños de huariques:** Los pequeños emprendedores gastronómicos necesitan aumentar su visibilidad digital pero carecen de presupuesto y conocimientos técnicos para hacerlo por cuenta propia. Están dispuestos a registrar y mantener actualizado su negocio en una plataforma si el proceso es sencillo, accesible y les representa un retorno tangible en clientes.  
-
-**User Outcome Assumptions (Beneficios esperados)**
-
-* Los exploradores gastronómicos experimentarán una mejora significativa en su experiencia de búsqueda al acceder a opciones locales auténticas y económicas que no aparecen en las grandes apps convencionales, tomando decisiones más informadas gracias a reseñas, fotos y calificaciones reales.
-
-* Los dueños de huariques verán un incremento directo en el flujo de clientes y en la visibilidad de su negocio al contar con un perfil digital completo y actualizado, reduciendo su dependencia del boca a boca o de redes sociales sin estructura.
-
-* El sistema de reseñas, calificaciones y favoritos fomentará la confianza y lealtad entre ambos segmentos, generando una comunidad activa que impulse el crecimiento orgánico de la plataforma.  
-
-**Business Assumptions (Modelo de negocio y mercado)**
-
-* Un modelo de monetización basado en membresías y planes promocionales escalonados es viable para los dueños de huariques, ya que les permite elegir el nivel de inversión según su capacidad económica y los beneficios que esperan obtener.
-
-* Existe un mercado desatendido en áreas urbanas hispanohablantes donde los huariques forman parte importante de la cultura gastronómica local pero permanecen invisibles en el ecosistema digital, representando una oportunidad clara de negocio.
-
-* Los pequeños emprendedores gastronómicos adoptarán la plataforma como su herramienta principal de gestión digital al comprobar que les permite competir en visibilidad con establecimientos de mayor tamaño sin requerir grandes inversiones.
-
-* Una comunidad activa de usuarios y dueños será el factor que impulse el crecimiento orgánico y la retención, reduciendo la necesidad de inversión publicitaria constante.  
-
-**Business Outcome Assumptions (Impactos positivos en el negocio)**
-
-* Se espera un incremento sostenido en el registro de huariques a medida que los dueños comprueben que la plataforma les genera visibilidad real y clientes recurrentes.
-
-* La plataforma logrará una tasa de retención de usuarios activos superior al 60% durante el primer año, sustentada en la confianza generada por reseñas verificadas y contenido actualizado.
-
-* La consolidación de funcionalidades como búsqueda avanzada, mapa interactivo, favoritos y reseñas en un solo lugar reducirá la tasa de abandono al ofrecer valor continuo para ambos segmentos.
-
-* La marca se posicionará como el referente en descubrimiento y promoción de gastronomía local auténtica en el mercado peruano durante los primeros 24 meses de operación.  
-
-**Feature Assumptions (Funcionalidades y resolución)**
-
-* Un proceso de registro intuitivo permitirá que el 80% de los dueños de huariques configure su perfil sin requerir asistencia técnica.
-
-* Un sistema de filtros avanzado por tipo de comida, precio y ubicación permitirá a los usuarios encontrar un huarique de su interés en menos de tres minutos.
-
-* Al menos el 50% de los huariques registrados mantendrá su información actualizada dentro de los primeros tres meses gracias a incentivos como mayor visibilidad y respuesta a reseñas.
-
-* La visualización clara de perfiles con fotos, especialidades, calificaciones y ubicación será el factor determinante para que los usuarios visiten un huarique descubierto en la plataforma.
-
-**Priorización de Suposiciones (Assumptions Priority)**  
-
-Una vez identificados los supuestos, el equipo ha evaluado cada uno en función de su nivel de incertidumbre y riesgo potencial para el negocio, priorizando aquellos que, de resultar falsos, pondrían en riesgo la viabilidad completa del proyecto.
-
-**La Suposición más Riesgosa (Riskiest Assumption)**
-
-La suposición más crítica que el equipo debe validar primero es:
-
-**"*Los dueños de huariques están dispuestos a registrar y mantener activo su negocio en una plataforma digital, confiando en que un sistema de perfiles, reseñas y planes de membresía es suficiente para justificar su tiempo e inversión, aun cuando tienen experiencia limitada con herramientas tecnológicas.*"**
-
-**Justificación:** Esta declaración es el pilar de toda la propuesta. Sin una oferta suficiente de huariques registrados y activos, la plataforma no tendrá contenido de valor para los exploradores gastronómicos, lo que provocaría el fracaso del modelo independientemente de la calidad técnica del producto. Por ello, este supuesto será el foco del primer experimento de validación.
-
-#### 1.2.2.3. Lean UX Hypothesis Statements. {#1.2.2.3.-lean-ux-hypothesis-statements.}
-
-**Descubrimiento y accesibilidad gastronómica**
- 
-**Creemos que** ofrecer una plataforma intuitiva y especializada para descubrir huariques auténticos y económicos **logrará** aumentar la cantidad de usuarios que visitan estos negocios, al contar con un canal dedicado que las grandes apps no ofrecen.
-
-**Sabremos que esto es cierto** **cuando veamos** que al menos el 60% de los usuarios activos reportan haber visitado un huarique recomendado en la plataforma durante su primer mes de uso.
-
-**Gestión digital para dueños de huariques**
-
-**Creemos que** permitir a los dueños registrar y gestionar su negocio con fotos, especialidades y precios de forma sencilla **logrará** incentivar su participación activa y mejorar la calidad del contenido disponible para los usuarios.
-
-**Sabremos que esto es cierto cuando veamos** que al menos el 50% de los huariques registrados actualizan su información o responden reseñas dentro de los primeros tres meses tras su registro.
-
-**Geolocalización y uso recurrente**
-
-**Creemos que** la integración de mapas y funciones de geolocalización **logrará** facilitar a los usuarios el descubrimiento de huariques cercanos, incrementando la interacción y el uso recurrente de la plataforma.
-
-**Sabremos que esto es cierto cuando veamos** que al menos el 70% de los accesos diarios incluyen el uso del mapa durante el primer mes de lanzamiento.
-
-**Confianza a través de reseñas y calificaciones**
-
-**Creemos que** implementar un sistema confiable de reseñas y calificaciones enfocado en huariques **logrará** consolidar la confianza de los usuarios y posicionar la plataforma como su referencia principal para descubrir gastronomía local auténtica.
-
-**Sabremos que esto es cierto cuando veamos** que el 80% de los huariques registrados cuentan con al menos cinco reseñas activas y una valoración promedio superior a 4 estrellas durante los primeros tres meses de operación.
-
-**Monetización y sostenibilidad del modelo**
-
-**Creemos que** ofrecer planes de membresía y publicidad escalonados y accesibles para los dueños de huariques **logrará** generar ingresos recurrentes sostenibles para la plataforma al demostrarles un retorno tangible en visibilidad y clientes.
-
-**Sabremos que esto es cierto cuando veamos** que el 30% de los huariques registrados contratan al menos un plan pago durante los primeros seis meses de operación.
-
-#### 1.2.2.4. Lean UX Canvas. {#1.2.2.4.-lean-ux-canvas.}
-
-![](https://i.imgur.com/aiba47s.jpeg)
-
-## 1.3. Segmentos objetivo. {#1.3.-segmentos-objetivo.}
-
-Para garantizar que la solución responda de manera efectiva a las necesidades del mercado gastronómico local, se identificaron y analizaron los segmentos clave que enfrentan retos en el ecosistema de descubrimiento y promoción de huariques. A continuación se detallan sus perfiles estratégicos, profundizando en las características demográficas, geográficas y psicográficas que sustentan su relevancia dentro del dominio del problema.
-
-<u><strong>Segmento Objetivo #1: Exploradores Gastronómicos</strong></u>
-
-Representa a personas activas y curiosas que buscan descubrir opciones de comida local auténtica y económica fuera de los canales convencionales, y que no encuentran en las grandes plataformas gastronómicas un espacio dedicado a huariques.
-
-**Aspectos demográficos**
-
-* **Sexo:** Masculino y femenino
-
-* **Rango de edad:** 18 a 40 años
-
-* **Nivel socioeconómico:** Sectores B y C (estudiantes universitarios, jóvenes profesionales y adultos con hábitos de consumo gastronómico frecuente)
-
-**Aspectos geográficos**
-
-* **Nacionalidad:** Peruana
-
-* **Zona geográfica:** Áreas urbanas con alta densidad gastronómica y cultura culinaria local activa, con foco en Lima Metropolitana y sus distritos con mayor presencia de huariques.
-
-**Aspectos psicográficos**
-
-* Dolor principal: No cuentan con un canal especializado donde los huariques tengan visibilidad real. Las grandes aplicaciones priorizan restaurantes con mayor capacidad de inversión publicitaria, dejando fuera opciones auténticas y económicas que solo se descubren por recomendación informal o redes sociales.
-
-* Intereses: Descubrir experiencias gastronómicas locales únicas, acceder a recomendaciones confiables basadas en reseñas reales y encontrar opciones de comida cercanas y accesibles sin depender del boca a boca.
-
-* Actitudes: Estilo de vida activo y digitalmente conectado; toman decisiones de consumo sobre la marcha y priorizan la autenticidad, el precio y la confianza por encima de la popularidad del establecimiento. Están dispuestos a adoptar nuevas plataformas si estas les ofrecen información verificada y una experiencia de navegación ágil e intuitiva.
-
-* Necesidades clave: Acceso a un buscador con filtros por tipo de comida, precio y ubicación; mapas interactivos con huariques cercanos; sistema de reseñas y calificaciones confiable; posibilidad de guardar favoritos y recibir recomendaciones personalizadas.
-
-<br>
-
-<u><strong>Segmento Objetivo #2: Dueños y Administradores de Huariques</strong></u>
-
-Representa a emprendedores y pequeños negocios de comida tradicional o casera que necesitan aumentar su visibilidad digital y atraer nuevos clientes, pero carecen de presupuesto y conocimientos técnicos para hacerlo por cuenta propia.
-
-**Aspectos demográficos**
-
-* **Sexo:** Masculino y femenino
-
-* **Rango de edad:** 25 a 60 años
-
-* **Nivel socioeconómico:** Sectores B, C y D (microempresarios, emprendedores gastronómicos y administradores de negocios familiares de comida tradicional)
-
-**Aspectos geográficos**
-
-* **Nacionalidad:** Peruana  
-* **Zona geográfica:** Áreas urbanas y periurbanas de Lima Metropolitana donde los huariques forman parte activa de la oferta gastronómica local pero cuentan con escasa o nula presencia digital.
-
-**Aspectos psicográficos**
-
-* **Dolor principal:** Dependen casi exclusivamente del tráfico físico y el boca a boca para atraer clientes, sin contar con herramientas digitales accesibles que les permitan competir en visibilidad con restaurantes de mayor tamaño. Las plataformas existentes les resultan costosas, complejas o simplemente no están orientadas a su tipo de negocio.
-
-* **Intereses:** Promocionar su negocio de forma sencilla y rentable, aumentar el flujo de clientes presenciales, recibir retroalimentación directa de sus visitantes y contar con una presencia digital que refleje la autenticidad y propuesta de valor de su huarique.
-
-* **Actitudes:** Proactivos en la búsqueda de soluciones que les permitan crecer sin incurrir en grandes inversiones. Valoran la simplicidad, el soporte y los resultados concretos en términos de clientes reales, por encima de métricas abstractas de visibilidad.
-
-* **Necesidades clave:** Una herramienta intuitiva para registrar y actualizar la información de su negocio, incluyendo fotos, especialidades, horarios y precios; un sistema que les permita responder reseñas e interactuar con su comunidad; y planes de membresía o publicidad escalonados que se adapten a su capacidad de inversión.
