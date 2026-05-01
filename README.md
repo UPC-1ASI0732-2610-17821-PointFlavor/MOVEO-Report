@@ -586,7 +586,7 @@ En esta sección se describe el esquema de control de versiones adoptado para el
 Los repositorios del proyecto se encuentran en la organización de GitHub del equipo:
 
 - **Reporte:** [URL del repositorio del informe — completar con el link real]
-- **Landing Page:** [URL del repositorio del Landing Page — completar con el link real]
+- **Landing Page:** [URL del repositorio del Landing Page](https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/PFLAVOR-Landing-Page)
 - **Frontend Web Application:** [URL del repositorio del Frontend — completar con el link real]
 - **RESTful API / Backend:** [URL del repositorio del Backend — completar con el link real]
 
@@ -704,6 +704,42 @@ Esta sección explica el proceso iterativo de implementación y despliegue de Po
 
 
 #### 5.2.2. Implemented Landing Page Evidence
+
+La implementación y despliegue de la landing page es un paso crucial para hacerla accesible a los usuarios finales. En esta sección, se detallan los procesos y herramientas utilizados para asegurar que la página estuviera correctamente desplegada y funcional en el entorno de producción.
+
+- Crear nuevo repositorio y subir el proyecto de la landing page.
+
+<p align="center">
+  <img src="https://i.imgur.com/lTzsFLh.png" alt="deploy1" width="500">
+</p>
+
+
+- Ir a la sección de Settings del repositorio y luego dirigirse a la sección Pages.
+
+<p align="center">
+  <img src="https://i.imgur.com/yo64b8J.png" alt="deploy2" width="500">
+</p>
+
+
+- En "Source" (Build and deployment) elegir la opción "Deploy from a branch" y luego en "Branch" elegir la rama y la ruta correspondiente, luego dar al botón de "Save" para guardar cambios 
+
+<p align="center">
+  <img src="https://i.imgur.com/tvQpGIl.png" alt="deploy2" width="500">
+</p>
+
+
+- Esperar unos minutos para obtener el link del deploy en GitHub Pages.
+
+<p align="center">
+  <img src="https://i.imgur.com/ptFbrwz.png" alt="deploy2" width="500">
+</p>
+
+
+-Dirigirte al link de la landing page.
+
+<p align="center">
+  <img src="https://i.imgur.com/1IAJCBH.png" alt="deploy2" width="500">
+</p>
 
 #### 5.2.3. Implemented Frontend-Web Application Evidence
 
