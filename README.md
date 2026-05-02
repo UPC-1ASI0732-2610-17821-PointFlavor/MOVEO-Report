@@ -893,7 +893,7 @@ Este segmento representa a pequeños emprendedores gastronómicos que buscan aum
       </td>
       <td style="text-align:center; vertical-align:middle;">
         <img src="https://i.imgur.com/IhDCOeB.png" alt="Evidencia" width="150"><br>
-        <a href="https://drive.google.com/file/d/15Qma_86tWBnnfWBWlx28-MLKOQJRCrI2/view?usp=drive_link">📂 Ver entrevista</a><br>
+        <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318049_upc_edu_pe/IQA37G8T4AKwT5DB6lzX6gHjAWnKqVd6lHAKwtLCwiGegGU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=6W6rlK">📂 Ver entrevista</a><br>
         <strong>Inicio:</strong> 00:00
       </td>
     </tr>
