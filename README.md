@@ -698,8 +698,17 @@ Este segmento representa a pequeños emprendedores gastronómicos que buscan aum
   <tbody>
     <tr>
       <td style="text-align:center; vertical-align:middle;"><strong>2</strong></td>
-      <td></td>
-      <td style="text-align:center; vertical-align:middle;"></td>
+      <td style="vertical-align:top;">
+        <strong>Nombre:</strong> Joaquín Cuentas<br>
+        <strong>Edad:</strong> 23<br>
+        <strong>Distrito:</strong> San Miguel<br><br>
+        <strong>Resumen:</strong> Joaquín es un estudiante de 23 años que no suele utilizar aplicaciones web con frecuencia para buscar huariques, solo una o dos veces al mes cuando busca salir con amigos o experimentar algo diferente. La mayoría de los lugares los descubre por recomendaciones en TikTok e Instagram, y ocasionalmente en Google Maps. Al elegir un sitio, lo que más valora son las fotos y las reseñas auténticas de otros usuarios, además del precio y la cercanía. Su principal dificultad es que los huariques rara vez aparecen en las aplicaciones, predominando los restaurantes populares, y a menudo la información está incompleta o las fotos son de mala calidad. Estaría dispuesto a usar una app que muestre lugares auténticos y confiables, siempre que sea fácil de usar. Cree que las funciones esenciales deben ser fotos auténticas, reseñas sinceras, un mapa con ubicación, filtros de precio y la opción de guardar favoritos. Sus mayores preocupaciones son que la información no sea confiable, que lo envíen a lugares cerrados o de baja calidad, o que la app sea compleja y lenta.
+      </td>
+      <td style="text-align:center; vertical-align:middle;">
+        <img src="https://i.imgur.com/G1Mgiur.png" alt="Evidencia" width="150"><br>
+        <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/IQACREpwkoEKQ6KXPk0KxGbnAe-5f8JinAaeA622kb6J0o8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=DaY8NP">📂 Ver entrevista</a><br>
+        <strong>Inicio:</strong> 00:02
+      </td>
     </tr>
   </tbody>
 </table>
@@ -838,6 +847,20 @@ Casi todos los fines de semana, utiliza aplicaciones web para salir a descubrir 
 
 <br>
 
+**Joaquín Cuentas (23 años)**
+
+No suele utilizar aplicaciones para buscar huariques de manera frecuente, solo entre una o dos veces al mes cuando quiere salir con amigos o probar algo diferente. Principalmente, descubre lugares en TikTok e Instagram, y ocasionalmente en Google Maps. Al elegir un sitio, lo que más valora son las fotos reales y las reseñas genuinas, junto con el precio y la cercanía. Una de las dificultades que ha encontrado es que los huariques casi nunca aparecen en las apps, predominando los restaurantes conocidos, y la información muchas veces es incompleta o las fotos no son de calidad. Se sentiría motivado a usar una app que presente sitios auténticos y confiables, siempre que sea sencilla de usar. Considera imprescindibles fotos reales, reseñas honestas, un mapa interactivo, filtros de precio y la opción de guardar favoritos. Sus preocupaciones principales son que la información no sea fiable, que la app lo envíe a lugares cerrados o de mala calidad, y que la app sea lenta o difícil de usar.
+
+### Puntos clave:
+- **Uso esporádico** de apps (1-2 veces al mes).
+- Descubre huariques principalmente en **Google Maps** y **redes sociales**.
+- Valora **precio**, **reseñas reales**, **fotos**, y **cercanía del huarique**.
+- **Problemas**: huariques invisibles, **fotos deficientes** y **información incompleta**.
+- Se siente motivado por una app **confiable** y **auténtica**.
+- **Funcionalidades imprescindibles**: reseñas honestas, fotos reales, filtros, **mapa interactivo** y favoritos.
+- **Preocupaciones**: **lugares cerrados**, **información falsa**,**complicada la usabilidad** o **app lenta**.
+
+<br>
 
 **Alexis Encalada (22 años)**
 
