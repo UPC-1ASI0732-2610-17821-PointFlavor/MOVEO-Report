@@ -64,63 +64,51 @@
   <tbody>
     <tr>
       <td>1.0 (AV1)</td>
-      <td>22/04/2026</td>
-      <td>
-        Goñe Araccata, Esther Abigail<br><br>
-        Hancco Poma, Keyner Iván<br><br>
-        Santiago Peña, Andreow Jomark<br><br>
-        Sulca Silva, Melisa Geraldine<br><br>
-        Tumi Oliden, Manuel Ignacio
-      </td>
-      <td>Capítulo I: Startup Profile (Descripción de la Startup y perfiles del equipo), Solution Profile (Perfil de la solución), Lean UX Problem Statements (Definición de problemas), Lean UX Assumptions (Identificación de suposiciones), Lean UX Hypothesis Statements (Formulación de hipótesis), Lean UX Canvas (Canvas del proceso Lean UX), Segmentos Objetivo (Definición del público meta).</td>
+      <td>12/04/2026</td>
+      <td>Goñe Araccata, Esther Abigail</td>
+      <td>Creación del documento base. Redacción de las secciones Startup Profile, Lean UX Process, Segmentos objetivo y Análisis competitivo.</td>
     </tr>
     <tr>
       <td>1.1 (AV1)</td>
-      <td>24/04/2026</td>
-      <td>
-        Goñe Araccata, Esther Abigail<br><br>
-        Hancco Poma, Keyner Iván<br><br>
-        Santiago Peña, Andreow Jomark<br><br>
-        Sulca Silva, Melisa Geraldine<br><br>
-        Tumi Oliden, Manuel Ignacio
-      </td>
-      <td>Capítulo II: Análisis Competitivo (Estudio del mercado y competidores), Estrategias frente a Competidores (Diferenciación y posicionamiento), Diseño de Entrevistas (Guía de preguntas por segmento), Registro de Entrevistas (Documentación de entrevistas realizadas), Análisis de Entrevistas (Hallazgos por segmento), User Personas (Perfiles representativos), User Task Matrix (Matriz de tareas por perfil), User Journey Mapping (Recorrido del usuario), Empathy Mapping (Mapa de empatía), As-is Scenario Mapping (Escenario actual), Ubiquitous Language (Glosario del dominio).</td>
+      <td>15/04/2026</td>
+      <td>Goñe Araccata, Esther Abigail</td>
+      <td>Adición de las secciones de diseño de Entrevistas y técnicas de Needfinding.</td>
     </tr>
     <tr>
       <td>1.2 (AV1)</td>
-      <td>26/04/2026</td>
-      <td>
-        Goñe Araccata, Esther Abigail<br><br>
-        Hancco Poma, Keyner Iván<br><br>
-        Santiago Peña, Andreow Jomark<br><br>
-        Sulca Silva, Melisa Geraldine<br><br>
-        Tumi Oliden, Manuel Ignacio
-      </td>
-      <td>Capítulo III: To-Be Scenario Mapping (Escenario deseado), User Stories (Historias de usuario), Product Backlog (Backlog priorizado), Impact Mapping (Mapa de impacto). Capítulo IV: Style Guidelines (Lineamientos de diseño), Information Architecture (Arquitectura de información), Landing Page UI Design (Diseño de la landing page), Web Applications UX/UI Design (Diseño de la aplicación web), Web Applications Prototyping (Prototipo de la aplicación web), Domain-Driven Software Architecture (Arquitectura de software), Software Object-Oriented Design (Diseño orientado a objetos), Database Design (Diseño de base de datos).</td>
+      <td>18/04/2026</td>
+      <td>Sulca Silva, Melisa Geraldine</td>
+      <td>Registro detallado de las entrevistas realizadas al Segmento 1 y elaboración del análisis de los hallazgos de dichas entrevistas.</td>
     </tr>
     <tr>
       <td>1.3 (AV1)</td>
-      <td>29/04/2026</td>
-      <td>
-        Goñe Araccata, Esther Abigail<br><br>
-        Hancco Poma, Keyner Iván<br><br>
-        Santiago Peña, Andreow Jomark<br><br>
-        Sulca Silva, Melisa Geraldine<br><br>
-        Tumi Oliden, Manuel Ignacio
-      </td>
-      <td>Capítulo V: Software Configuration Management (Gestión de configuración), Sprint Backlogs (Backlogs por sprint), Implemented Landing Page Evidence (Evidencia del landing page), Implemented Frontend-Web Application Evidence (Evidencia del frontend), Acuerdo de Servicio SaaS (Modelo de servicio), Implemented RESTful API Evidence (Evidencia del backend), RESTful API Documentation (Documentación de la API), Team Collaboration Insights (Métricas de colaboración).</td>
+      <td>20/04/2026</td>
+      <td>Tumi Oliden, Manuel Ignacio</td>
+      <td>Elaboración y adición del To-Be Scenario Mapping, User Stories, Impact Mapping y la estructuración del Product Backlog.</td>
     </tr>
     <tr>
       <td>1.4 (AV1)</td>
+      <td>23/04/2026</td>
+      <td>Hancco Poma, Keyner Iván</td>
+      <td>Desarrollo del diseño de producto: inclusión de Web Application wireframe, wireflow, UX/UI y el landing page wireframe & UI Design.</td>
+    </tr>
+    <tr>
+      <td>1.5 (AV1)</td>
+      <td>26/04/2026</td>
+      <td>Santiago Peña, Andreow Jomark</td>
+      <td>Creación de la documentación de la API (RESTful API documentation) e inclusión de evidencias del Implemented RESTful API y Frontend-Web.</td>
+    </tr>
+    <tr>
+      <td>1.6 (AV1)</td>
+      <td>28/04/2026</td>
+      <td>Sulca Silva, Melisa Geraldine</td>
+      <td>Inclusión de las evidencias de la Landing Page implementada (Implemented Landing Page Evidence) y adición del Video About The Product.</td>
+    </tr>
+    <tr>
+      <td>1.7 (AV1)</td>
       <td>01/05/2026</td>
-      <td>
-        Goñe Araccata, Esther Abigail<br><br>
-        Hancco Poma, Keyner Iván<br><br>
-        Santiago Peña, Andreow Jomark<br><br>
-        Sulca Silva, Melisa Geraldine<br><br>
-        Tumi Oliden, Manuel Ignacio
-      </td>
-      <td>Correcciones y mejoras generales sobre todos los capítulos anteriores, Video About-the-Product (Video del producto).</td>
+      <td>Santiago Peña, Andreow Jomark</td>
+      <td>Redacción de las Conclusiones y Recomendaciones finales del proyecto para el cierre de la entrega del AV1.</td>
     </tr>
   </tbody>
 </table>
@@ -173,6 +161,8 @@ Utilizamos Google Docs como herramienta colaborativa para redactar el informe y 
     - [2.4. Ubiquitous Language](#24-ubiquitous-language)
   - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
     - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+    - [Segmento 1](#segmento-1)
+    - [Segmento 2](#segmento-2)
     - [3.2. User Stories](#32-user-stories)
     - [3.3. Product Backlog](#33-product-backlog)
     - [3.4. Impact Mapping](#34-impact-mapping)
@@ -180,9 +170,6 @@ Utilizamos Google Docs como herramienta colaborativa para redactar el informe y 
     - [4.1. Style Guidelines](#41-style-guidelines)
       - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
       - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
-      - [4.1.3. Mobile Style Guidelines](#413-mobile-style-guidelines)
-        - [4.1.3.1. iOS Mobile Style Guidelines](#4131-ios-mobile-style-guidelines)
-        - [4.1.3.2. Android Mobile Style Guidelines](#4132-android-mobile-style-guidelines)
     - [4.2. Information Architecture](#42-information-architecture)
       - [4.2.1. Organization Systems](#421-organization-systems)
       - [4.2.2. Labeling Systems](#422-labeling-systems)
@@ -192,14 +179,6 @@ Utilizamos Google Docs como herramienta colaborativa para redactar el informe y 
     - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
       - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
       - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
-    - [4.4. Mobile Applications UX/UI Design](#44-mobile-applications-uxui-design)
-      - [4.4.1. Mobile Applications Wireframes](#441-mobile-applications-wireframes)
-      - [4.4.2. Mobile Applications Wireflow Diagrams](#442-mobile-applications-wireflow-diagrams)
-      - [4.4.3. Mobile Applications Mock-ups](#443-mobile-applications-mock-ups)
-      - [4.4.4. Mobile Applications User Flow Diagrams](#444-mobile-applications-user-flow-diagrams)
-    - [4.5. Mobile Applications Prototyping](#45-mobile-applications-prototyping)
-      - [4.5.1. Android Mobile Applications Prototyping](#451-android-mobile-applications-prototyping)
-      - [4.5.2. iOS Mobile Applications Prototyping](#452-ios-mobile-applications-prototyping)
     - [4.6. Web Applications UX/UI Design](#46-web-applications-uxui-design)
       - [4.6.1. Web Applications Wireframes](#461-web-applications-wireframes)
       - [4.6.2. Web Applications Wireflow Diagrams](#462-web-applications-wireflow-diagrams)
@@ -318,11 +297,11 @@ Utilizamos Google Docs como herramienta colaborativa para redactar el informe y 
 
 # Student Outcome
 
-El curso aporta al cumplimiento del criterio ABET: **ABET – EAC \- Student Outcome 7:** **Aprendizaje Continuo y Autónomo**
+El curso aporta al cumplimiento del criterio ABET: **ABET – EAC - Student Outcome 7:** **Aprendizaje Continuo y Autónomo**
 
 **Criterio:** *La capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas.*
 
-En el cuadro siguiente se detallan las actividades llevadas a cabo y las conclusiones formuladas por el equipo, las cuales sirven como evidencia del logro alcanzado en el ABET – EAC \- Student Outcome.
+En el cuadro siguiente se detallan las actividades llevadas a cabo y las conclusiones formuladas por el equipo, las cuales sirven como evidencia del logro alcanzado en el ABET – EAC - Student Outcome.
 
 <table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse; width:100%; font-size:11px;">
   <thead>
@@ -336,24 +315,24 @@ En el cuadro siguiente se detallan las actividades llevadas a cabo y las conclus
     <tr>
       <td>Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.</td>
       <td>
-        Goñe Araccata, Esther Abigail<br><em>AV1:</em><br><br>
-        Hancco Poma, Keyner Iván<br><em>AV1:</em><br><br>
-        Santiago Peña, Andreow Jomark<br><em>AV1:</em><br><br>
-        Sulca Silva, Melisa Geraldine<br><em>AV1:</em><br><br>
-        Tumi Oliden, Manuel Ignacio<br><em>AV1:</em>
+        <strong>Goñe Araccata, Esther Abigail</strong><br><em>AV1:</em> Investigó y aplicó conceptos de la metodología Lean UX y Needfinding para estructurar adecuadamente el perfil de la startup y entender a la competencia.<br><br>
+        <strong>Hancco Poma, Keyner Iván</strong><br><em>AV1:</em> Adquirió conocimientos técnicos en herramientas de diseño de interfaces y principios de experiencia de usuario (UX/UI) para la aplicación web y landing page.<br><br>
+        <strong>Santiago Peña, Andreow Jomark</strong><br><em>AV1:</em> Se instruyó autónomamente en la lectura de documentación técnica de frameworks para implementar el Frontend-Web y estructurar la documentación de la API RESTful.<br><br>
+        <strong>Sulca Silva, Melisa Geraldine</strong><br><em>AV1:</em> Aprendió técnicas cualitativas para ejecutar entrevistas a usuarios y adquirió destrezas en despliegue web y edición audiovisual para evidenciar el producto.<br><br>
+        <strong>Tumi Oliden, Manuel Ignacio</strong><br><em>AV1:</em> Profundizó en prácticas de gestión de requerimientos ágiles, redactando eficazmente Historias de Usuario, Mapas de Impacto y gestionando el Product Backlog.
       </td>
-      <td><strong>AV1:</strong></td>
+      <td><strong>AV1:</strong> Durante esta primera entrega, el equipo ha demostrado una alta capacidad para investigar de forma autónoma. Desde metodologías de ideación (Lean UX) y diseño de interfaces (UX/UI), hasta la aplicación de tecnologías de programación (RESTful APIs) e investigación de mercado (entrevistas). Cada integrante adquirió el conocimiento técnico o metodológico exacto que su módulo requería y lo aplicó con éxito en el desarrollo del producto de software.</td>
     </tr>
     <tr>
       <td>Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.</td>
       <td>
-        Goñe Araccata, Esther Abigail<br><em>AV1:</em><br><br>
-        Hancco Poma, Keyner Iván<br><em>AV1:</em><br><br>
-        Santiago Peña, Andreow Jomark<br><em>AV1:</em><br><br>
-        Sulca Silva, Melisa Geraldine<br><em>AV1:</em><br><br>
-        Tumi Oliden, Manuel Ignacio<br><em>AV1:</em>
+        <strong>Goñe Araccata, Esther Abigail</strong><br><em>AV1:</em> Reconoce que el comportamiento del mercado cambia, por lo que es necesario aprender constantemente nuevas formas de identificar oportunidades de negocio.<br><br>
+        <strong>Hancco Poma, Keyner Iván</strong><br><em>AV1:</em> Entiende que las tendencias visuales y patrones de interacción en software evolucionan rápidamente, haciendo obligatoria la actualización en diseño web.<br><br>
+        <strong>Santiago Peña, Andreow Jomark</strong><br><em>AV1:</em> Comprende que los frameworks de desarrollo y arquitecturas de backend cambian año a año, siendo vital cultivar una cultura de autoformación técnica.<br><br>
+        <strong>Sulca Silva, Melisa Geraldine</strong><br><em>AV1:</em> Valora la necesidad de explorar de manera continua nuevas técnicas de validación con clientes y métodos de marketing para presentar soluciones de valor.<br><br>
+        <strong>Tumi Oliden, Manuel Ignacio</strong><br><em>AV1:</em> Asimila que la correcta planificación de software exige adaptar permanentemente los marcos de trabajo ágiles a escenarios del mundo real.
       </td>
-      <td><strong>AV1:</strong></td>
+      <td><strong>AV1:</strong> El equipo concluye unánimemente que en la industria del desarrollo de software es indispensable cultivar una mentalidad de aprendizaje permanente (Lifelong Learning). La acelerada evolución de los estándares de desarrollo, las herramientas de diseño, las metodologías ágiles de gestión y las expectativas de los usuarios exigen que los ingenieros de software actualicen sus habilidades técnicas y blandas de manera constante para mantener su competitividad profesional.</td>
     </tr>
   </tbody>
 </table>
@@ -2078,6 +2057,7 @@ Además de los endpoints de Huariques, la API expone información a través de l
 *   `/reviews`: Reseñas de los huariques (`GET` para listar, `POST` para crear).
   
 #### 5.2.8. Team Collaboration Insights
+
 
 ### 5.3. Video About-the-Product
 
