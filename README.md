@@ -851,7 +851,7 @@ Casi todos los fines de semana, utiliza aplicaciones web para salir a descubrir 
 
 No suele utilizar aplicaciones para buscar huariques de manera frecuente, solo entre una o dos veces al mes cuando quiere salir con amigos o probar algo diferente. Principalmente, descubre lugares en TikTok e Instagram, y ocasionalmente en Google Maps. Al elegir un sitio, lo que más valora son las fotos reales y las reseñas genuinas, junto con el precio y la cercanía. Una de las dificultades que ha encontrado es que los huariques casi nunca aparecen en las apps, predominando los restaurantes conocidos, y la información muchas veces es incompleta o las fotos no son de calidad. Se sentiría motivado a usar una app que presente sitios auténticos y confiables, siempre que sea sencilla de usar. Considera imprescindibles fotos reales, reseñas honestas, un mapa interactivo, filtros de precio y la opción de guardar favoritos. Sus preocupaciones principales son que la información no sea fiable, que la app lo envíe a lugares cerrados o de mala calidad, y que la app sea lenta o difícil de usar.
 
-### Puntos clave:
+**Puntos clave:**
 - **Uso esporádico** de apps (1-2 veces al mes).
 - Descubre huariques principalmente en **Google Maps** y **redes sociales**.
 - Valora **precio**, **reseñas reales**, **fotos**, y **cercanía del huarique**.
