@@ -12,6 +12,7 @@
     <strong>Producto: PuntoSabor</strong><br><br>
 </p>
 
+
 <table align="center" border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse; width:60%; margin:auto; font-size:11px;">
   <thead>
     <tr>
@@ -225,7 +226,6 @@ Utilizamos Google Docs como herramienta colaborativa para redactar el informe y 
       - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
       - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
       - [5.2.4. Acuerdo de Servicio - SaaS](#524-acuerdo-de-servicio---saas)
-      - [5.2.5. Implemented Native-Mobile Application Evidence](#525-implemented-native-mobile-application-evidence)
       - [5.2.6. Implemented RESTful API and/or Serverless Backend Evidence](#526-implemented-restful-api-andor-serverless-backend-evidence)
       - [5.2.7. RESTful API documentation](#527-restful-api-documentation)
       - [5.2.8. Team Collaboration Insights](#528-team-collaboration-insights)
@@ -308,8 +308,9 @@ Utilizamos Google Docs como herramienta colaborativa para redactar el informe y 
       - [8.5.1. Shareback Session Artifacts: Learning Workflow](#851-shareback-session-artifacts-learning-workflow)
     - [8.6. To-Be Software Platform Pre-launch](#86-to-be-software-platform-pre-launch)
       - [8.6.1. About-the-Product Intro Video](#861-about-the-product-intro-video)
+- [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 - [Conclusiones](#conclusiones)
-  - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+  - [Recomendaciones](#recomendaciones)
   - [Video App Validation](#video-app-validation)
   - [Video About-the-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
@@ -1419,21 +1420,314 @@ A continuación, se muestra un cuadro resumen con los Epics y User Stories defin
 #### 4.10.1. Relational/Non-Relational Database Diagram
 
 ## Capítulo V: Product Implementation
+
 ### 5.1. Software Configuration Management
+
+A lo largo del desarrollo del proyecto, aplicaremos las siguientes normas con el fin de garantizar la coherencia y uniformidad en todas las etapas:
+
+| Contexto | Convención |
+|----------|------------|
+| Nombre de archivos | Todos los archivos se nombrarán en minúsculas, utilizando guiones o puntos para separar componentes (ej. `user-service.cs`, `config.json`). |
+| Nomenclatura de código | Las propiedades de un objeto se nombrarán en `PascalCase`, las funciones y variables en `lowerCamelCase`, y las clases también en `PascalCase`. |
+| Estructura de código | Se organizará el proyecto en carpetas lógicas por módulos (ej. `Models/`, `Services/`) para facilitar la navegación y el mantenimiento. |
+| Estilos de codificación | Seguir las convenciones de codificación de Microsoft C#: espacios en blanco para legibilidad, convenciones de nombre para clases, funciones y constantes, y nombres claros para variables. |
+| Documentación | Todo el código relevante —especialmente funciones complejas, clases y APIs— debe estar documentado con comentarios claros y concisos. Los comentarios deben explicar el "por qué", no solo el "qué". |
+| Control de versiones | Se utilizará **Git Flow** junto con **Conventional Commits**. Todos los mensajes de commit estarán en inglés con el formato: `<type>(<scope>): <description>`. Ejemplos: `feat(auth): add email validation`, `fix(login): resolve session timeout bug`. Las ramas se organizarán como: `main`, `develop`, `feature/`, `bugfix/` y `hotfix/`. |
+| Gestión de dependencias | Para C# se utilizará el administrador de paquetes NuGet. Para el frontend con Vue y Vite se usará npm o yarn. |
+| Pruebas | Utilizar comentarios descriptivos para explicar el propósito de cada test. |
+| Seguridad | Encriptar contraseñas de usuarios. Implementar sistema de autenticación seguro. Validar la información ingresada en formularios mediante librerías especializadas. |
+| Colaboración | Se utilizará **Discord** como plataforma principal para reuniones. Se realizarán reuniones semanales sincrónicas para revisar avances y resolver bloqueos. |
+
 #### 5.1.1. Software Development Environment Configuration
+
+En esta sección se especifican los productos de software utilizados para el desarrollo de la solución Point Flavor.
+
+| Nombre de Producto | Descripción | Propósito de Uso | Categoría | Ruta de Descarga o Link |
+|---|---|---|---|---|
+| Vue 3 | Framework progresivo de JavaScript para construir interfaces de usuario modernas y reactivas. | Desarrollo de interfaces frontend dinámicas y modulares, aprovechando Vue Router, Pinia y Vite para un ciclo de desarrollo ágil. | Software Development | https://vuejs.org/ |
+| Vite | Herramienta de construcción rápida y servidor de desarrollo moderno. | Empaquetado y servido del entorno de desarrollo del frontend de manera extremadamente rápida. | Software Development | https://vitejs.dev/ |
+| Microsoft .NET | Plataforma de desarrollo gratuita, multiplataforma y de código abierto para construir APIs y servicios web. | Construir servicios backend robustos y escalables utilizando .NET con Entity Framework Core. | Software Development | https://dotnet.microsoft.com/download |
+| C# | Lenguaje de programación moderno, orientado a objetos y tipado estático, desarrollado por Microsoft. | Implementar la lógica de negocio de los servicios backend, aprovechando async/await, pattern matching y record types. | Software Development | Incluido en .NET SDK |
+| JetBrains Rider / Visual Studio | IDE especializado para desarrollo con .NET y C#, con soporte para depuración y análisis estático. | Desarrollar y depurar el backend de Point Flavor con soporte completo para C# y ASP.NET Core. | Software Development | https://www.jetbrains.com/rider/ |
+| Visual Studio Code | Editor de código fuente ligero pero poderoso. | Desarrollar interfaces frontend con Vue 3, Vite y TypeScript. | Software Development | https://code.visualstudio.com/ |
+| Postman | Plataforma colaborativa para diseñar, probar y documentar APIs. | Validar endpoints del backend, crear colecciones compartidas y automatizar pruebas de integración. | Software Development | https://www.postman.com/ |
+| Figma | Herramienta de diseño colaborativo para crear wireframes y prototipos. | Diseñar la interfaz de usuario del Landing Page y la aplicación web. | Product UX/UI Design | https://www.figma.com/ |
+| GitHub | Plataforma de desarrollo colaborativo basada en Git. | Centralizar el código, facilitar la revisión colaborativa y gestionar ramas de desarrollo siguiendo GitFlow. | Software Development | https://github.com/ |
+| Vercel | Plataforma en la nube para sitios estáticos y frameworks frontend. | Despliegue continuo (CI/CD) de la aplicación frontend desarrollada en Vue con Vite. | Software Deployment | https://vercel.com/ |
+| Railway | Plataforma de infraestructura en la nube. | Despliegue continuo y hosting del backend desarrollado en C# .NET. | Software Deployment | https://railway.app/ |
+
 #### 5.1.2. Source Code Management
+
+En esta sección se describe el esquema de control de versiones adoptado para el seguimiento y gestión del código fuente del proyecto Point Flavor, utilizando GitHub como plataforma centralizada de colaboración.
+
+Los repositorios del proyecto se encuentran en la organización de GitHub del equipo:
+
+- **Reporte:** https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/PFLAVOR-Report
+- **Landing Page:** https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/PFLAVOR-Landing-Page
+- **Frontend Web Application (Vue + Vite):** https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/PFLAVOR-Frontend
+- **RESTful API / Backend (C# .NET):** https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/PFLAVOR-Backend
+
+**Estructura de Ramas (GitFlow)**
+- **`main`**: Rama estable y productiva. Contiene solo código desplegable y verificado.
+- **`develop`**: Rama de integración principal. Todas las funcionalidades se fusionan aquí antes de ser liberadas a `main`.
+- **`feature/`**: Ramas temporales para el desarrollo de nuevas funcionalidades (ej. `feature/hero-section`).
+- **`hotfix/`**: Ramas para corregir errores críticos en producción.
+
 #### 5.1.3. Source Code Style Guide & Conventions
+
+El equipo adopta las siguientes convenciones de codificación para garantizar coherencia, legibilidad y mantenibilidad. Todas las identificaciones se realizan en **inglés**.
+
+| Lenguaje | Referencia Adoptada | Convenciones Aplicadas |
+|----------|---------------------|------------------------|
+| **HTML/CSS** | Google HTML/CSS Style Guide | Minúsculas, indentación de 2 espacios, atributos entre comillas dobles, elementos semánticos, nombres de clases en `kebab-case`. |
+| **JavaScript / TypeScript** | Google TypeScript Style Guide | Uso de `const` y `let`, funciones flecha, módulos ES6. Nombres en `lowerCamelCase`. |
+| **Vue 3** | Vue 3 Style Guide | Componentes en `PascalCase`, archivos en `kebab-case`, Single File Components (SFC) con `<script setup>`. |
+| **C#** | Microsoft C# Coding Conventions | Clases y métodos en `PascalCase`, variables en `lowerCamelCase`, uso de `async/await`, comentarios XML para documentación pública. |
+
 #### 5.1.4. Software Deployment Configuration
+
+**Landing Page y Frontend Web Application — Vercel**
+1. Conectar el repositorio de GitHub (Frontend/Landing Page) a un nuevo proyecto en Vercel.
+2. Vercel detectará automáticamente que es un proyecto de Vite/Vue.
+3. El comando de build se configura como `npm run build` o `vite build`.
+4. El directorio de salida (Output Directory) se establece en `dist`.
+5. Se configuran las variables de entorno necesarias (ej. `VITE_API_BASE_URL`).
+6. Cualquier push a la rama `main` disparará automáticamente un nuevo build y despliegue en Vercel, generando una URL pública segura (HTTPS).
+
+**Backend / RESTful API — Railway**
+1. Crear un nuevo servicio en Railway y conectarlo al repositorio del backend (C# .NET) en GitHub.
+2. Railway detectará automáticamente el archivo `.csproj` o `Dockerfile` para la construcción.
+3. Se configuran las variables de entorno necesarias en el panel de Railway (ej. `ConnectionStrings__DefaultConnection`, `ASPNETCORE_ENVIRONMENT=Production`).
+4. Se expone el puerto público y se genera un dominio proporcionado por Railway.
+5. El Swagger se habilita para el entorno de producción (o staging) para permitir la visualización interactiva de la documentación de los endpoints desplegados.
+
 ### 5.2. Product Implementation & Deployment
+
 #### 5.2.1. Sprint Backlogs
+
+**Sprint 1**
+
+| Sprint # | Sprint 1 |
+|----------|----------|
+| **Sprint Planning Background** | |
+| Date | 2026-04-24 |
+| Time | 10:00 AM |
+| Location | Reunión virtual por Discord |
+| Prepared By | Goñe Araccata, Esther Abigail |
+| Attendees | Goñe Araccata, Esther Abigail / Hancco Poma, Keyner Ivan / Santiago Peña, Andreow Jomark / Sulca Silva, Melisa Geraldine / Tumi Oliden, Manuel Ignacio |
+| Sprint n–1 Review Summary | No aplica. Este es el primer sprint del proyecto. |
+| Sprint n–1 Retrospective Summary | No aplica. Este es el primer sprint del proyecto. |
+| **Sprint Goal & User Stories** | |
+| Sprint 1 Goal | Our focus is on delivering a professional, responsive Landing Page and setting up the base architecture for the Frontend (Vue+Vite) and Backend (.NET). We believe it delivers a strong first impression to potential users and allows the team to start feature development. This will be confirmed when the Landing Page is deployed on Vercel and the base API is running on Railway. |
+| Sprint 1 Velocity | 25 |
+| Sum of Story Points | 25 |
+
+**Aspect Leaders and Collaborators — Sprint 1**
+
+| Team Member (Last Name, First Name) | GitHub Username | Landing Page | Frontend Setup | Backend Setup | Deployment |
+|-------------------------------------|-----------------|:---:|:---:|:---:|:---:|
+| Goñe Araccata, Esther Abigail | abigoe02 | L | C | C | C |
+| Hancco Poma, Keyner Ivan | 1Kanan2 | C | L | C | C |
+| Santiago Peña, Andreow Jomark | andrew65411 | C | C | L | C |
+| Sulca Silva, Melisa Geraldine | MSS02204 | C | C | C | L |
+| Tumi Oliden, Manuel Ignacio | ManuelTumi2224 | C | C | C | C |
+
+**Sprint Backlog 1**
+
+| User Story ID | Title | Work-Item ID | Title | Description | Estimation (Hours) | Assigned To | Status |
+|---|---|---|---|---|---|---|---|
+| US01 | Visualizar Landing Page | T01 | Maquetado Base | Configurar Vite y Tailwind CSS / estilos base | 4 | Keyner Hancco | Done |
+| US01 | Visualizar Landing Page | T02 | Hero Section | Diseñar y programar sección principal (Hero) | 5 | Abigail Goñe | Done |
+| US02 | Ver Beneficios | T03 | Componente Beneficios | Programar sección explicativa de beneficios del SaaS | 4 | Manuel Tumi | Done |
+| US03 | Inicializar API Backend | T04 | Setup .NET Core | Crear proyecto C# .NET y configurar arquitectura N-Capas | 6 | Andreow Santiago | Done |
+| US04 | Despliegue Continuo | T05 | CI/CD Frontend & Backend | Configurar Vercel para Vue y Railway para .NET | 6 | Melisa Sulca | Done |
+
 #### 5.2.2. Implemented Landing Page Evidence
+
+La implementación y despliegue de la landing page es un paso crucial para hacerla accesible a los usuarios finales. En esta sección, se detallan los procesos y herramientas utilizados para asegurar que la página estuviera correctamente desplegada y funcional en el entorno de producción.
+
+**URL de Despliegue (Landing Page):** [https://upc-1asi0732-2610-17821-pointflavor.github.io/PFLAVOR-Landing-Page/](https://upc-1asi0732-2610-17821-pointflavor.github.io/PFLAVOR-Landing-Page/)
+
+- Crear nuevo repositorio y subir el proyecto de la landing page.
+
+<p align="center">
+  <img src="https://i.imgur.com/lTzsFLh.png" alt="deploy1" width="500">
+</p>
+
+
+- Ir a la sección de Settings del repositorio y luego dirigirse a la sección Pages.
+
+<p align="center">
+  <img src="https://i.imgur.com/yo64b8J.png" alt="deploy2" width="500">
+</p>
+
+
+- En "Source" (Build and deployment) elegir la opción "Deploy from a branch" y luego en "Branch" elegir la rama y la ruta correspondiente, luego dar al botón de "Save" para guardar cambios 
+
+<p align="center">
+  <img src="https://i.imgur.com/tvQpGIl.png" alt="deploy2" width="500">
+</p>
+
+
+- Esperar unos minutos para obtener el link del deploy en GitHub Pages.
+
+<p align="center">
+  <img src="https://i.imgur.com/ptFbrwz.png" alt="deploy2" width="500">
+</p>
+
+
+- Dirigirte al link de la landing page.
+
+<p align="center">
+  <img src="https://i.imgur.com/1IAJCBH.png" alt="deploy2" width="500">
+</p>
+
 #### 5.2.3. Implemented Frontend-Web Application Evidence
+
+Durante este sprint, se sentaron las bases de la aplicación Frontend utilizando **Vue 3** y **Vite**. La elección de Vite permite tiempos de carga y reemplazo de módulos en caliente (HMR) casi instantáneos, mejorando la experiencia de desarrollo.
+
+**URL de Despliegue (Frontend):** [https://pflavor-frontend.vercel.app/](https://pflavor-frontend.vercel.app/)
+
+- **Paso 1:** Vinculación del repositorio Frontend a la plataforma de Vercel.
+
+<p align="center">
+  <img src="assets/Chapter-5/frontend (1).png" alt="deploy-front-1" width="500">
+</p>
+
+- **Paso 2:** Vercel detecta automáticamente el framework (Vite/Vue) y configura el directorio raíz.
+
+<p align="center">
+  <img src="assets/Chapter-5/frontend (2).png" alt="deploy-front-2" width="500">
+</p>
+
+- **Paso 3:** Configuración de los comandos de compilación (`npm run build`) y el directorio de salida (`dist`).
+
+<p align="center">
+  <img src="assets/Chapter-5/frontend (3).png" alt="deploy-front-3" width="500">
+</p>
+
+- **Paso 4:** Ejecución del despliegue (Deploy) donde Vercel comienza a construir la aplicación.
+
+<p align="center">
+  <img src="assets/Chapter-5/frontend (6).png" alt="deploy-front-4" width="500">
+</p>
+
+- **Paso 5:** Esperar a que el proceso termine, obteniendo la confirmación visual de éxito y la asignación del dominio.
+
+
+- **Paso 6:** Acceder al enlace generado por Vercel para visualizar la aplicación Frontend web ya desplegada.
+
+<p align="center">
+  <img src="assets/Chapter-5/frontend (4).png" alt="deploy-front-6" width="500">
+</p>
+
+
 #### 5.2.4. Acuerdo de Servicio - SaaS
-#### 5.2.5. Implemented Native-Mobile Application Evidence
+
+El presente Acuerdo de Servicio establece los términos y condiciones bajo los cuales Point Flavor ofrece su plataforma como servicio (SaaS) a los usuarios y dueños de huariques registrados.
+
+**1. Descripción del Servicio**
+Point Flavor es una plataforma web que conecta a exploradores gastronómicos con huariques auténticos y económicos. El servicio incluye funcionalidades de búsqueda, reseñas, mapas interactivos, gestión de perfiles de huarique y planes de membresía.
+
+**2. Derechos y Obligaciones del Usuario**
+- El usuario se compromete a proporcionar información veraz al registrarse y al publicar contenido en la plataforma.
+- Queda prohibido el uso de la plataforma para publicar contenido falso, ofensivo o que viole derechos de terceros.
+- El usuario es responsable de mantener la confidencialidad de sus credenciales de acceso.
+
+**3. Derechos y Obligaciones de Point Flavor**
+- Point Flavor se compromete a mantener el servicio disponible con una disponibilidad objetivo del 99% mensual.
+- La plataforma puede realizar mantenimientos programados, notificando a los usuarios con al menos 24 horas de anticipación.
+- Point Flavor no se hace responsable de la veracidad de la información publicada por los dueños de huariques.
+
+**4. Planes de Membresía**
+- Los dueños de huariques pueden acceder a planes gratuitos y planes de pago con beneficios adicionales de visibilidad y promoción.
+- Los pagos son no reembolsables salvo que Point Flavor no haya podido prestar el servicio por causas atribuibles a la plataforma.
+
+**5. Privacidad y Protección de Datos**
+- Point Flavor recopila y procesa datos personales conforme a su Política de Privacidad, disponible en el footer de la plataforma.
+- Los datos no serán vendidos ni compartidos con terceros sin consentimiento explícito del usuario.
+
+**6. Modificaciones al Servicio**
+Point Flavor se reserva el derecho de modificar, suspender o descontinuar funcionalidades del servicio, notificando a los usuarios con anticipación razonable.
+
+**7. Ley Aplicable**
+Este acuerdo se rige por las leyes vigentes de la República del Perú.
+
+> Este acuerdo está disponible públicamente en el footer de la Landing Page y de la aplicación web bajo la sección "Términos y Condiciones".
+
+
 #### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
+
+La arquitectura de la solución backend se fundamentó en **C# y .NET Core**. Se estructuró siguiendo el patrón de diseño Domain-Driven Design (DDD) con separación de responsabilidades. Para su despliegue se utilizó Railway.
+
+**URL de Documentación (Swagger API):** [https://pflavor-backend-production.up.railway.app/swagger/index.html](https://pflavor-backend-production.up.railway.app/swagger/index.html)
+
+- **Paso 1:** Conectar el repositorio de GitHub que contiene el backend en .NET a un nuevo proyecto en Railway.
+
+<p align="center">
+  <img src="assets/Chapter-5/backend.png" alt="deploy-back-1" width="500">
+</p>
+
+- **Paso 2:** Railway detecta el tipo de proyecto y comienza a crear el servicio.
+
+<p align="center">
+  <img src="assets/Chapter-5/backend (3).png" alt="deploy-back-2" width="500">
+</p>
+
+- **Paso 3:** Esperar a que Railway finalice el proceso de construcción y levante el contenedor (Deploying).
+
+<p align="center">
+  <img src="assets/Chapter-5/backend (2).png" alt="deploy-back-3" width="500">
+</p>
+
+- **Paso 4:** Generar y configurar un dominio público gratuito en la sección de Settings de Railway para acceder a la API.
+
+<p align="center">
+  <img src="assets/Chapter-5/backend (1).png" alt="deploy-back-4" width="500">
+</p>
+
+
 #### 5.2.7. RESTful API documentation
+
+Para asegurar una correcta integración entre el Frontend y el Backend, se implementó la documentación interactiva de la API utilizando **Swagger (OpenAPI)** de forma nativa en el proyecto de ASP.NET Core.
+
+Esta documentación interactiva se encuentra desplegada y accesible a través del dominio público de Railway en la ruta: `https://pflavor-backend-production.up.railway.app/swagger/index.html`.
+
+<p align="center">
+  <img src="assets/Chapter-5/backend (4).png" alt="Interfaz de Swagger UI desplegada" width="500">
+</p>
+
+A continuación, se detalla la documentación de los endpoints principales (relacionados a **Huariques**) expuestos en la especificación OAS3:
+
+| Endpoint | Método HTTP | Descripción | Parámetros (Query / Path) | Request Body (JSON) | Response (Éxito) |
+|---|---|---|---|---|---|
+| `/huariques` | **GET** | Search Huariques: Busca huariques por texto o filtrando por cercanía. | `q` (string), `near` (boolean) | Ninguno | `200 OK`: Arreglo de objetos `HuariqueResource` encontrados. |
+| `/huariques` | **POST** | Create Huarique: Crea un nuevo registro de huarique. | Ninguno | `CreateHuariqueResource` (name, category, price, district, etc.) | `201 Created`: El objeto `HuariqueResource` recién creado. |
+| `/huariques/{id}` | **GET** | Get Huarique by Id: Obtiene los detalles de un huarique específico mediante su ID único. | `id` (integer) en Path | Ninguno | `200 OK`: El objeto `HuariqueResource` correspondiente al ID. |
+| `/huariques/{id}` | **PATCH** | Patch Huarique: Actualiza campos específicos de un huarique existente. | `id` (integer) en Path | Objeto JSON con los campos a actualizar. | `200 OK`: El objeto `HuariqueResource` con la información actualizada. |
+
+**Otros Controladores y Endpoints expuestos:**
+Además de los endpoints de Huariques, la API expone información a través de los siguientes recursos base (GET):
+*   `/users`: Gestión y consulta de usuarios.
+*   `/categories`: Listado de categorías gastronómicas.
+*   `/plans`: Información sobre los planes de suscripción (SaaS).
+*   `/promos`: Promociones vigentes.
+*   `/reviews`: Reseñas de los huariques (`GET` para listar, `POST` para crear).
+  
 #### 5.2.8. Team Collaboration Insights
+
 ### 5.3. Video About-the-Product
+
+En esta sección, se presenta una introducción de la plataforma PointFlavor, destacando sus características clave y cómo la app web conecta a los usuarios con huariques locales, ofreciendo una experiencia única para descubrir y apoyar pequeños negocios de comida tradicional. A través de este video, se busca mostrar de manera visual y atractiva cómo la aplicación facilita tanto a usuarios como a dueños de huariques la interacción y gestión de este valioso ecosistema gastronómico.
+
+<p align="center">
+  <img src="https://i.imgur.com/8HfP3oX.png" alt="Vide About-The-Product" width="500">
+</p>
+
+
+Link del video: [VideoAbout-the-Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/IQB0jX1Jm76wQIXVW8UiLbLVAWrqCzfy3-izqTy8BW7jTGw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cDKJni)
+
+
 
 # Part II: Verification, Validation & Pipeline
 
@@ -1518,8 +1812,21 @@ A continuación, se muestra un cuadro resumen con los Epics y User Stories defin
 ### 8.6. To-Be Software Platform Pre-launch
 #### 8.6.1. About-the-Product Intro Video
 
+# Conclusiones y recomendaciones
 # Conclusiones
-## Conclusiones y recomendaciones
+
+- Tras culminar el ciclo de desarrollo y ejecutar las entrevistas de validación con los usuarios, se concluye que las hipótesis iniciales planteadas en el proceso de Lean UX eran correctas. Los exploradores gastronómicos valoran enormemente contar con una plataforma centralizada y confiable para descubrir *huariques* locales mediante mapas interactivos y filtros. Por su parte, los dueños de estos establecimientos confirmaron la necesidad de una herramienta digital intuitiva que mejore su visibilidad sin requerir conocimientos técnicos avanzados.
+- La adopción del enfoque Domain-Driven Design (DDD) junto con una arquitectura separada (Frontend en Vue 3 con Vite y Backend en C# .NET Core) resultó ser una decisión acertada para garantizar la escalabilidad y mantenibilidad de **PointFlavor**. La automatización de los despliegues (CI/CD) utilizando Vercel y Railway optimizó los tiempos de entrega en cada sprint, permitiendo un entorno de Entrega Continua fluido y profesional.
+- La aplicación de Scrum a través de 4 sprints, combinada con la estrategia de versionado GitFlow y Conventional Commits, permitió al equipo mantener un control riguroso sobre el código fuente y las nuevas funcionalidades. Las métricas de colaboración demuestran que el trabajo distribuido y la revisión de código por pares (Pull Requests) redujeron significativamente los errores de integración en la rama principal.
+- El diseño centrado en el usuario, guiado por la creación de User Personas y Journey Maps, se tradujo en una interfaz que resuelve directamente los puntos de dolor de ambos segmentos. Las evaluaciones heurísticas demostraron que el sistema de navegación y la presentación de tarjetas e información son altamente usables y cumplen con los estándares de diseño web responsivo.
+
+## Recomendaciones
+
+- Se recomienda expandir el ecosistema de PuntoSabor desarrollando una aplicación móvil nativa (por ejemplo, utilizando Flutter o React Native). Esto permitirá aprovechar al máximo las capacidades de geolocalización en tiempo real del dispositivo y enviar notificaciones push a los comensales cuando estén cerca de un *huarique* promocionado.
+- Para el módulo de suscripciones y membresías de los dueños de huariques, el siguiente paso debe ser la integración de una pasarela de pagos real (como Stripe, Culqi o MercadoPago) que permita procesar tarjetas de crédito/débito y automatizar la facturación mensual directamente dentro de la plataforma.
+- Se sugiere implementar un dashboard de métricas más profundo para los usuarios del Segmento 2 (Dueños). Proporcionar datos estadísticos sobre cuántas personas vieron su perfil, cuántas hicieron clic en la dirección o cuántas guardaron su local en favoritos justificará el pago de los planes *Premium* o *Pro*.
+- Para seguir la filosofía del desarrollo guiado por experimentos (Experiment-Driven Development), se recomienda implementar herramientas de A/B testing en la Landing Page y en el flujo de registro. Esto permitirá medir con datos estadísticos reales qué llamados a la acción (CTAs) o distribuciones visuales generan una mayor tasa de conversión.
+
 ## Video App Validation
 ## Video About-the-Team
 
