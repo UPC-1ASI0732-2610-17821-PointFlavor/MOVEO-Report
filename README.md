@@ -8,7 +8,7 @@
     <strong>Sección: 1ASI0732</strong><br><br>
     <strong>Profesor: Lennin Percy Cenas Vasquez</strong><br><br>
     <strong>Informe de Trabajo Final</strong><br><br>
-    <strong>Startup:</strong><br><br>
+    <strong>Startup: Point Flavor</strong><br><br>
     <strong>Producto: PuntoSabor</strong><br><br>
 </p>
 
@@ -366,7 +366,7 @@ En el cuadro siguiente se detallan las actividades llevadas a cabo y las conclus
 ### 1.1. Startup Profile
 #### 1.1.1. Descripción de la Startup
 
-**NOMBRE** es una startup orientada al desarrollo de soluciones tecnológicas innovadoras que potencian la visibilidad y el crecimiento de pequeños negocios locales, especialmente en el sector gastronómico. Nació con el propósito de cerrar la brecha digital que afecta a los pequeños emprendedores, ofreciéndoles herramientas accesibles para conectar con su comunidad y expandir su presencia en el entorno digital.
+**Point Flavor** es una startup orientada al desarrollo de soluciones tecnológicas innovadoras que potencian la visibilidad y el crecimiento de pequeños negocios locales, especialmente en el sector gastronómico. Nació con el propósito de cerrar la brecha digital que afecta a los pequeños emprendedores, ofreciéndoles herramientas accesibles para conectar con su comunidad y expandir su presencia en el entorno digital.
 
 **Misión**  
 Desarrollar soluciones tecnológicas accesibles que conecten a los usuarios con los pequeños negocios gastronómicos locales, promoviendo su crecimiento y visibilidad en el entorno digital, y contribuyendo a preservar la cultura culinaria tradicional.
