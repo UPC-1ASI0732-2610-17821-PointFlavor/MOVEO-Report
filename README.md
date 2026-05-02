@@ -297,8 +297,9 @@
       - [8.5.1. Shareback Session Artifacts: Learning Workflow](#851-shareback-session-artifacts-learning-workflow)
     - [8.6. To-Be Software Platform Pre-launch](#86-to-be-software-platform-pre-launch)
       - [8.6.1. About-the-Product Intro Video](#861-about-the-product-intro-video)
+- [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 - [Conclusiones](#conclusiones)
-  - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+  - [Recomendaciones](#recomendaciones)
   - [Video App Validation](#video-app-validation)
   - [Video About-the-Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
@@ -920,8 +921,21 @@ Link del video: [VideoAbout-the-Product](https://upcedupe-my.sharepoint.com/:v:/
 ### 8.6. To-Be Software Platform Pre-launch
 #### 8.6.1. About-the-Product Intro Video
 
+# Conclusiones y recomendaciones
 # Conclusiones
-## Conclusiones y recomendaciones
+
+- Tras culminar el ciclo de desarrollo y ejecutar las entrevistas de validación con los usuarios, se concluye que las hipótesis iniciales planteadas en el proceso de Lean UX eran correctas. Los exploradores gastronómicos valoran enormemente contar con una plataforma centralizada y confiable para descubrir *huariques* locales mediante mapas interactivos y filtros. Por su parte, los dueños de estos establecimientos confirmaron la necesidad de una herramienta digital intuitiva que mejore su visibilidad sin requerir conocimientos técnicos avanzados.
+- La adopción del enfoque Domain-Driven Design (DDD) junto con una arquitectura separada (Frontend en Vue 3 con Vite y Backend en C# .NET Core) resultó ser una decisión acertada para garantizar la escalabilidad y mantenibilidad de **PointFlavor**. La automatización de los despliegues (CI/CD) utilizando Vercel y Railway optimizó los tiempos de entrega en cada sprint, permitiendo un entorno de Entrega Continua fluido y profesional.
+- La aplicación de Scrum a través de 4 sprints, combinada con la estrategia de versionado GitFlow y Conventional Commits, permitió al equipo mantener un control riguroso sobre el código fuente y las nuevas funcionalidades. Las métricas de colaboración demuestran que el trabajo distribuido y la revisión de código por pares (Pull Requests) redujeron significativamente los errores de integración en la rama principal.
+- El diseño centrado en el usuario, guiado por la creación de User Personas y Journey Maps, se tradujo en una interfaz que resuelve directamente los puntos de dolor de ambos segmentos. Las evaluaciones heurísticas demostraron que el sistema de navegación y la presentación de tarjetas e información son altamente usables y cumplen con los estándares de diseño web responsivo.
+
+## Recomendaciones
+
+- Se recomienda expandir el ecosistema de PuntoSabor desarrollando una aplicación móvil nativa (por ejemplo, utilizando Flutter o React Native). Esto permitirá aprovechar al máximo las capacidades de geolocalización en tiempo real del dispositivo y enviar notificaciones push a los comensales cuando estén cerca de un *huarique* promocionado.
+- Para el módulo de suscripciones y membresías de los dueños de huariques, el siguiente paso debe ser la integración de una pasarela de pagos real (como Stripe, Culqi o MercadoPago) que permita procesar tarjetas de crédito/débito y automatizar la facturación mensual directamente dentro de la plataforma.
+- Se sugiere implementar un dashboard de métricas más profundo para los usuarios del Segmento 2 (Dueños). Proporcionar datos estadísticos sobre cuántas personas vieron su perfil, cuántas hicieron clic en la dirección o cuántas guardaron su local en favoritos justificará el pago de los planes *Premium* o *Pro*.
+- Para seguir la filosofía del desarrollo guiado por experimentos (Experiment-Driven Development), se recomienda implementar herramientas de A/B testing en la Landing Page y en el flujo de registro. Esto permitirá medir con datos estadísticos reales qué llamados a la acción (CTAs) o distribuciones visuales generan una mayor tasa de conversión.
+
 ## Video App Validation
 ## Video About-the-Team
 
