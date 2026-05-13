@@ -273,13 +273,12 @@ En el cuadro siguiente se detallan las actividades llevadas a cabo y las conclus
 ### 1.1. Startup Profile
 #### 1.1.1. Descripción de la Startup
 
-**Point Flavor** es una startup orientada al desarrollo de soluciones tecnológicas innovadoras que potencian la visibilidad y el crecimiento de pequeños negocios locales, especialmente en el sector gastronómico. Nació con el propósito de cerrar la brecha digital que afecta a los pequeños emprendedores, ofreciéndoles herramientas accesibles para conectar con su comunidad y expandir su presencia en el entorno digital.
+Nuestro proyecto consiste en un servicio digital diseñado para conectar a personas que poseen un vehículo con quienes necesitan uno por un tiempo determinado. A diferencia de una compañía de alquiler tradicional, nuestra propuesta no requiere contar con un parque automotor propio, lo que reduce significativamente los costos iniciales. En lugar de ello, los autos registrados por los mismos usuarios son los que conforman la oferta disponible en la plataforma, generando así una red colaborativa similar a una flota virtual. El modelo se centra en la intermediación: los dueños obtienen ingresos únicamente cuando su vehículo es efectivamente arrendado, mientras que los arrendatarios acceden a precios más accesibles que en el mercado convencional. De esta manera, se construye un sistema rentable, flexible y equitativo para ambas partes.
 
-**Misión**  
-Desarrollar soluciones tecnológicas accesibles que conecten a los usuarios con los pequeños negocios gastronómicos locales, promoviendo su crecimiento y visibilidad en el entorno digital, y contribuyendo a preservar la cultura culinaria tradicional.
+**Misión**: Ofrecer una solución moderna y segura que simplifique el acceso a un vehículo de alquiler, generando confianza y beneficios tanto para el propietario como para el arrendatario. Buscamos que nuestra plataforma sea percibida como una alternativa práctica, clara y orientada a las necesidades reales de los usuarios.
 
-**Visión**  
-Ser la plataforma de referencia en Latinoamérica para el descubrimiento y promoción de la gastronomía local, reconocida por empoderar a los pequeños emprendedores y acercar a las comunidades con su patrimonio culinario auténtico.
+**Visión**: Aspiramos a consolidarnos como la plataforma más reconocida en el Perú para la renta de automóviles entre particulares. Queremos ser identificados por la innovación de nuestro modelo, la seguridad de nuestras operaciones y la facilidad de uso del sistema. Nuestra meta es que, al pensar en alquiler de autos sin trámites complicados, las personas recurran primero a nosotros.
+
 
 #### 1.1.2. Perfiles de integrantes del equipo
 
@@ -336,1589 +335,1668 @@ En esta sección se presentan los integrantes de la startup, detallando sus perf
 </table>
 
 ### 1.2. Solution Profile
-
-**PuntoSabor** es una plataforma web diseñada para cerrar la brecha digital que existe entre los exploradores gastronómicos y los pequeños huariques tradicionales peruanos. Centraliza en un solo espacio el descubrimiento, la promoción y la gestión digital de estos negocios, ofreciendo a los usuarios herramientas como búsqueda con filtros avanzados, mapas interactivos, reseñas verificadas y favoritos, mientras que los dueños de huariques cuentan con un panel de gestión sencillo para registrar y mantener actualizado su negocio, complementado con planes de membresía accesibles que les permiten escalar su visibilidad sin necesidad de conocimientos técnicos ni grandes inversiones.
-
 #### 1.2.1. Antecedentes y problemática
 
-De acuerdo con Álvarez (2020), la metodología de las 5W's y 2H's permite estructurar y desarrollar un plan de acción o estrategia detallada, constituyendo una herramienta clave para comprender a fondo las necesidades de los usuarios. Por esta razón, se utilizó para recopilar y clasificar la información del mercado, la cual se presentará a continuación.
+Para explicar los fundamentos de nuestra startup utilizaremos una adaptación de la técnica de análisis 5W + 2H, que permite organizar la información respondiendo a las preguntas clave de cualquier iniciativa.
 
-**What?:**  
-Los huariques, pequeños negocios de comida tradicional peruana, carecen de presencia en el ecosistema digital actual. Esto hace que los consumidores interesados en opciones gastronómicas auténticas y económicas no puedan encontrarlos fácilmente.
+**Antecedentes**
 
-**Why?:**  
-Las plataformas digitales de comida tienden a favorecer a establecimientos con mayor capacidad de inversión publicitaria, lo que relega a los huariques a un segundo plano y les impide atraer nuevos clientes mediante canales digitales.
+- En los últimos años la necesidad de soluciones de movilidad temporal ha crecido considerablemente, especialmente en zonas urbanas donde adquirir un vehículo propio no siempre es viable. Ante ello surge la oportunidad de una plataforma digital que facilite el contacto directo entre propietarios de automóviles y personas interesadas en alquilarlos, optimizando el proceso a través de un aplicativo accesible.
 
-**Where?:**  
-Esta brecha se manifiesta principalmente en entornos urbanos donde los huariques son parte importante de la oferta gastronómica local, pero permanecen desconectados del mundo digital, especialmente en mercados de habla hispana con una rica tradición culinaria.
+**Problemática**
 
-**When?:**  
-La problemática es constante, aunque se ha intensificado con la acelerada digitalización del sector gastronómico en los últimos años.
+- La ausencia de servicios que ofrezcan un alquiler directo entre dueños y arrendatarios dificulta satisfacer la demanda de transporte temporal. Esto genera dos consecuencias principales: los usuarios que requieren un vehículo de manera inmediata encuentran limitaciones, y los propietarios pierden la posibilidad de generar ingresos adicionales con sus autos.
 
-**Who?:**  
-Existen dos grupos afectados: **los dueños de huariques**, que luchan por competir en un mercado dominado por grandes cadenas y restaurantes con mayor presupuesto; y **los usuarios que buscan comida local, sabrosa y accesible** pero no cuentan con canales especializados donde encontrarla.
+Aplicación del método 5W + 2H
 
-**How?:**  
-El problema se manifiesta a través de la ausencia de promoción digital, la escasa o nula presencia en mapas y aplicaciones de comida, la falta de interacción con potenciales clientes y la inexistencia de una comunidad que recomiende estos lugares.
+**¿Qué?**
 
-**How Much?:**  
-Esta situación representa una oportunidad económica desaprovechada para miles de pequeños negocios y una pérdida cultural para el público general. A nivel de mercado, millones de usuarios y una gran cantidad de emprendimientos gastronómicos quedan fuera del ecosistema digital.
+El proyecto busca responder a la falta de un sistema eficiente que conecte a quienes desean rentabilizar sus vehículos con quienes necesitan arrendarlos. La iniciativa está directamente relacionada con dos tipos de clientes: propietarios con autos disponibles y arrendatarios que requieren alternativas accesibles y confiables.
 
-#### 1.2.2. Lean UX Process
-##### 1.2.2.1. Lean UX Problem Statements
+**¿Cuándo?**
 
-* Actualmente, los pequeños huariques no cuentan con una plataforma digital accesible y especializada que les permita promocionar sus negocios de forma efectiva. Esto limita su capacidad para atraer nuevos clientes y crecer en un mercado cada vez más digitalizado. Nuestra solución debe brindar a estos emprendedores un espacio donde puedan gestionar su presencia digital sin complicaciones técnicas ni costos elevados.
+La problemática se presenta en el momento en que un propietario desea alquilar su vehículo, pero no cuenta con un canal formal ni seguro para hacerlo. A su vez, los arrendatarios se ven afectados cuando requieren un vehículo por un tiempo limitado —sea por un viaje, una urgencia o una necesidad puntual— y no encuentran opciones adecuadas.
+El uso de la plataforma se da justamente en esos escenarios: el dueño publica su vehículo y el arrendatario selecciona la opción que mejor se adapta a su situación.
 
-* Los usuarios interesados en descubrir comida local auténtica y económica no encuentran opciones adecuadas en las grandes aplicaciones convencionales, donde los huariques rara vez tienen visibilidad. Nuestra solución debe ofrecer un canal especializado que conecte a estos usuarios con negocios gastronómicos locales de manera sencilla y confiable.
+**¿Dónde?**
 
-* En el ecosistema digital gastronómico actual, no existe un sistema confiable de reseñas y calificaciones orientado específicamente a huariques, lo que dificulta generar confianza entre usuarios y dueños de estos negocios. Nuestra solución debe incorporar mecanismos que permitan a la comunidad compartir experiencias y valoraciones de forma transparente.
+El servicio puede utilizarse en cualquier lugar con acceso a internet, ya sea desde casa, el trabajo o en desplazamiento.
+La propuesta está dirigida principalmente a contextos urbanos donde la demanda de movilidad es más alta y, paradójicamente, la oferta de plataformas colaborativas de alquiler es todavía reducida.
 
-* Las grandes plataformas de comida priorizan restaurantes y cadenas consolidadas con mayor capacidad de inversión publicitaria, dejando una brecha significativa en términos de visibilidad para los huariques. Nuestra solución debe nivelar ese campo, dando protagonismo a los pequeños negocios gastronómicos locales.
+**¿Quiénes?**
 
-* La mayoría de dueños de huariques opera con recursos limitados y escasa experiencia digital, sin acceso a herramientas prácticas y asequibles para administrar su presencia en línea. Nuestra solución debe ser lo suficientemente intuitiva para que cualquier emprendedor pueda usarla sin necesidad de conocimientos técnicos avanzados.
+Participan dos grupos principales: los propietarios que desean ofrecer su auto en alquiler y los arrendatarios que buscan una solución práctica sin trámites extensos.
+El problema afecta sobre todo a los dueños que no logran monetizar sus vehículos y a las personas que necesitan movilidad temporal pero no encuentran opciones seguras y confiables.
+En consecuencia, el público objetivo que hará uso del servicio corresponde a ambos segmentos, integrados en una misma plataforma.
 
-##### 1.2.2.2. Lean UX Assumptions
+**¿Por qué?**
 
-**User Assumptions (Necesidades y comportamientos)**
+La raíz del problema se encuentra en la falta de un canal especializado y confiable que asegure la interacción entre dueños y arrendatarios. Esta ausencia limita la rentabilidad de los primeros y restringe la variedad de opciones para los segundos.
 
-* **Exploradores gastronómicos:** Los usuarios que buscan opciones de comida local auténtica y económica no encuentran canales especializados donde los huariques tengan protagonismo. Están dispuestos a usar una plataforma dedicada siempre que les ofrezca información confiable, fotos reales, reseñas verificadas y herramientas como mapas y filtros que faciliten su decisión.
+**¿Cómo?**
 
-* **Dueños de huariques:** Los pequeños emprendedores gastronómicos necesitan aumentar su visibilidad digital pero carecen de presupuesto y conocimientos técnicos para hacerlo por cuenta propia. Están dispuestos a registrar y mantener actualizado su negocio en una plataforma si el proceso es sencillo, accesible y les representa un retorno tangible en clientes.  
+El servicio se utiliza cuando los dueños desean generar ingresos con su vehículo o cuando un arrendatario necesita resolver rápidamente una necesidad de transporte.
+Los usuarios llegan a la plataforma a través de campañas digitales, publicidad segmentada en redes sociales y recomendaciones de otros clientes.
+En general, el detonante es la búsqueda de una alternativa segura, flexible y accesible frente a los servicios tradicionales de alquiler.
 
-**User Outcome Assumptions (Beneficios esperados)**
+**¿Cuánto cuesta?**
 
-* Los exploradores gastronómicos experimentarán una mejora significativa en su experiencia de búsqueda al acceder a opciones locales auténticas y económicas que no aparecen en las grandes apps convencionales, tomando decisiones más informadas gracias a reseñas, fotos y calificaciones reales.
+Para los propietarios no existen costos de inscripción ni inversión inicial; únicamente se descuenta una comisión en caso de concretarse el alquiler.
+Los arrendatarios, en cambio, acceden a tarifas variables y flexibles, con opciones que resultan más económicas en comparación con las agencias de renta tradicionales.
 
-* Los dueños de huariques verán un incremento directo en el flujo de clientes y en la visibilidad de su negocio al contar con un perfil digital completo y actualizado, reduciendo su dependencia del boca a boca o de redes sociales sin estructura.
+## 1.2.2. Lean UX Process
 
-* El sistema de reseñas, calificaciones y favoritos fomentará la confianza y lealtad entre ambos segmentos, generando una comunidad activa que impulse el crecimiento orgánico de la plataforma.  
+### 1.2.2.1. Lean UX Problem Statement
 
-**Business Assumptions (Modelo de negocio y mercado)**
+MOVEO tiene como objetivo ofrecer un servicio de alquiler de vehículos accesible, flexible y rentable, conectando de manera segura y eficiente a propietarios y arrendatarios a través de una plataforma digital. Sin embargo, el mercado actual se caracteriza por la falta de innovación, modelos de negocio rígidos, altos costos para los usuarios y una fuerte dependencia de flotas propias, lo que limita la escalabilidad y reduce la diversidad de la oferta. Ante esta situación, se plantea la necesidad de mejorar el modelo de servicio mediante un sistema más adaptable e inclusivo, que permita ampliar la participación de propietarios particulares y optimizar la experiencia de alquiler sin requerir una inversión directa en vehículos.
 
-* Un modelo de monetización basado en membresías y planes promocionales escalonados es viable para los dueños de huariques, ya que les permite elegir el nivel de inversión según su capacidad económica y los beneficios que esperan obtener.
+Consideramos que habremos alcanzado un avance significativo cuando logremos que el número de propietarios inscritos crezca de forma constante y que la oferta de vehículos disponibles se adapte a la demanda real del mercado.
 
-* Existe un mercado desatendido en áreas urbanas hispanohablantes donde los huariques forman parte importante de la cultura gastronómica local pero permanecen invisibles en el ecosistema digital, representando una oportunidad clara de negocio.
+### 1.2.2.2. Lean UX Assumptions
 
-* Los pequeños emprendedores gastronómicos adoptarán la plataforma como su herramienta principal de gestión digital al comprobar que les permite competir en visibilidad con establecimientos de mayor tamaño sin requerir grandes inversiones.
+**Segmento de Usuarios:**
 
-* Una comunidad activa de usuarios y dueños será el factor que impulse el crecimiento orgánico y la retención, reduciendo la necesidad de inversión publicitaria constante.  
+**¿Quién es el usuario?**
 
-**Business Outcome Assumptions (Impactos positivos en el negocio)**
+Nuestros principales usuarios son dos: los dueños de vehículos que desean generar ingresos pasivos sin tener que involucrarse en la gestión diaria de sus autos, y las personas que buscan alternativas de alquiler de vehiculos seguras, cómodas y accesibles.
 
-* Se espera un incremento sostenido en el registro de huariques a medida que los dueños comprueben que la plataforma les genera visibilidad real y clientes recurrentes.
+**¿Dónde se integra el servicio en su vida?**
 
-* La plataforma logrará una tasa de retención de usuarios activos superior al 60% durante el primer año, sustentada en la confianza generada por reseñas verificadas y contenido actualizado.
+Para los propietarios, el servicio se convierte en un medio para obtener ingresos extra sin esfuerzo operativo. Para los inquilinos, representa la posibilidad de acceder a un vehículo en el momento en que lo necesitan, sin asumir compromisos de propiedad ni altos costos.
 
-* La consolidación de funcionalidades como búsqueda avanzada, mapa interactivo, favoritos y reseñas en un solo lugar reducirá la tasa de abandono al ofrecer valor continuo para ambos segmentos.
+**¿Cuándo y cómo se utiliza el servicio?**
 
-* La marca se posicionará como el referente en descubrimiento y promoción de gastronomía local auténtica en el mercado peruano durante los primeros 24 meses de operación.  
+Los dueños lo usan al registrar su vehículo y seguir sus ganancias, mientras que los inquilinos lo emplean cuando requieren transporte para viajes, mudanzas, diligencias o necesidades puntuales de movilidad.
 
-**Feature Assumptions (Funcionalidades y resolución)**
+**¿Qué problemas enfrenta el servicio?**
 
-* Un proceso de registro intuitivo permitirá que el 80% de los dueños de huariques configure su perfil sin requerir asistencia técnica.
+El mayor reto es garantizar la seguridad y confianza de los propietarios respecto al uso de sus vehículos, al mismo tiempo que se asegura que los inquilinos disfruten de una experiencia rápida, sencilla y sin complicaciones.
 
-* Un sistema de filtros avanzado por tipo de comida, precio y ubicación permitirá a los usuarios encontrar un huarique de su interés en menos de tres minutos.
+**Resultados de Negocio (Business Outcomes):**
 
-* Al menos el 50% de los huariques registrados mantendrá su información actualizada dentro de los primeros tres meses gracias a incentivos como mayor visibilidad y respuesta a reseñas.
+- Anticipamos que los propietarios valorarán una plataforma que les permita alquilar sin preocuparse de la gestión operativa.
+- Creemos que los arrendatarios encontrarán en nuestro servicio una alternativa más económica y variada que las opciones tradicionales.
+- Reconocemos que existen competidores en el sector, pero nuestro modelo —sin flota propia— nos permitirá mantener precios atractivos y una mejor experiencia de usuario.
+- Sabemos que para mantener la confianza, debemos reforzar la calidad del servicio con pruebas constantes, mejoras continuas y canales abiertos de comunicación con nuestros clientes.
 
-* La visualización clara de perfiles con fotos, especialidades, calificaciones y ubicación será el factor determinante para que los usuarios visiten un huarique descubierto en la plataforma.
+### 1.2.2.3. Lean UX Hypothesis Statements
 
-**Priorización de Suposiciones (Assumptions Priority)**  
+1. Consideramos que los propietarios interesados en generar ingresos pasivos, sin realizar grandes inversiones ni dedicar demasiado tiempo a la gestión, verán en MOVEO una alternativa confiable para monetizar sus vehículos. Consideraremos que hemos alcanzado el éxito cuando estos propietarios incrementen el uso de la plataforma y obtengan ingresos recurrentes mediante el alquiler de sus autos, evidenciando confianza y satisfacción en el servicio.
 
-Una vez identificados los supuestos, el equipo ha evaluado cada uno en función de su nivel de incertidumbre y riesgo potencial para el negocio, priorizando aquellos que, de resultar falsos, pondrían en riesgo la viabilidad completa del proyecto.
+2. Creemos que los arrendatarios que buscan opciones de alquiler más flexibles, asequibles y seguras optarán por MOVEO gracias a su facilidad de uso, precios competitivos y garantías de protección. Consideraremos que hemos alcanzado el éxito cuando la frecuencia de alquiler y la tasa de retención de usuarios aumenten, junto con una mejora perceptible en los niveles de satisfacción reportados.
 
-**La Suposición más Riesgosa (Riskiest Assumption)**
+3. Suponemos que al implementar un modelo operativo sin una flota propia de vehículos, podremos destinar mayores recursos a la innovación tecnológica y a la optimización de la experiencia de usuario. Consideraremos que hemos alcanzado el éxito cuando los indicadores de eficiencia operativa y de experiencia del cliente reflejen una reducción de costos, estabilidad en las tarifas y un incremento sostenido en el número de transacciones exitosas.
 
-La suposición más crítica que el equipo debe validar primero es:
+#### 1.2.2.4. Lean UX Canvas.
+En el apartado de Lean UX Canvas se desarrolló una estructuración completa y académica de las principales hipótesis estratégicas que sustentan la propuesta de valor y la arquitectura de la plataforma Moveo
 
-**"*Los dueños de huariques están dispuestos a registrar y mantener activo su negocio en una plataforma digital, confiando en que un sistema de perfiles, reseñas y planes de membresía es suficiente para justificar su tiempo e inversión, aun cuando tienen experiencia limitada con herramientas tecnológicas.*"**
+Cada hipótesis fue traducida en un Lean UX Canvas formal, siguiendo un enfoque científico-experimental que articula: el problema de negocio detectado (Business Problem ), las soluciones propuestas a nivel funcional y técnico (Solutions ), los resultados esperados a nivel organizacional (Business Outcomes ), la caracterización de los usuarios objetivos (Users ), los beneficios esperados para estos usuarios (User Outcomes & Benefits ), la formulación de hipótesis de aprendizaje (Hypotheses ), y el diseño de experimentos estratégicos para validar o refutar dichas hipótesis (What's the most important thing we need to learn first? y What's the least amount of work we need to do to learn the next most important thing? ).
 
-**Justificación:** Esta declaración es el pilar de toda la propuesta. Sin una oferta suficiente de huariques registrados y activos, la plataforma no tendrá contenido de valor para los exploradores gastronómicos, lo que provocaría el fracaso del modelo independientemente de la calidad técnica del producto. Por ello, este supuesto será el foco del primer experimento de validación.
-
-##### 1.2.2.3. Lean UX Hypothesis Statements
-
-**Descubrimiento y accesibilidad gastronómica**
- 
-**Creemos que** ofrecer una plataforma intuitiva y especializada para descubrir huariques auténticos y económicos **logrará** aumentar la cantidad de usuarios que visitan estos negocios, al contar con un canal dedicado que las grandes apps no ofrecen.
-
-**Sabremos que esto es cierto** **cuando veamos** que al menos el 60% de los usuarios activos reportan haber visitado un huarique recomendado en la plataforma durante su primer mes de uso.
-
-**Gestión digital para dueños de huariques**
-
-**Creemos que** permitir a los dueños registrar y gestionar su negocio con fotos, especialidades y precios de forma sencilla **logrará** incentivar su participación activa y mejorar la calidad del contenido disponible para los usuarios.
-
-**Sabremos que esto es cierto cuando veamos** que al menos el 50% de los huariques registrados actualizan su información o responden reseñas dentro de los primeros tres meses tras su registro.
-
-**Geolocalización y uso recurrente**
-
-**Creemos que** la integración de mapas y funciones de geolocalización **logrará** facilitar a los usuarios el descubrimiento de huariques cercanos, incrementando la interacción y el uso recurrente de la plataforma.
-
-**Sabremos que esto es cierto cuando veamos** que al menos el 70% de los accesos diarios incluyen el uso del mapa durante el primer mes de lanzamiento.
-
-**Confianza a través de reseñas y calificaciones**
-
-**Creemos que** implementar un sistema confiable de reseñas y calificaciones enfocado en huariques **logrará** consolidar la confianza de los usuarios y posicionar la plataforma como su referencia principal para descubrir gastronomía local auténtica.
-
-**Sabremos que esto es cierto cuando veamos** que el 80% de los huariques registrados cuentan con al menos cinco reseñas activas y una valoración promedio superior a 4 estrellas durante los primeros tres meses de operación.
-
-**Monetización y sostenibilidad del modelo**
-
-**Creemos que** ofrecer planes de membresía y publicidad escalonados y accesibles para los dueños de huariques **logrará** generar ingresos recurrentes sostenibles para la plataforma al demostrarles un retorno tangible en visibilidad y clientes.
-
-**Sabremos que esto es cierto cuando veamos** que el 30% de los huariques registrados contratan al menos un plan pago durante los primeros seis meses de operación.
+Este trabajo metodológico permitió no solo establecer un marco claro de experimentación y validación temprana de las decisiones de diseño y tecnología, sino también alinear todos los esfuerzos de desarrollo a métricas de éxito específicas y medibles. Así, el apartado de Lean UX Canvas representa una pieza fundamental dentro del enfoque de construcción iterativa, ágil y centrada en el usuario de Moveo, asegurando que cada funcionalidad propuesta responde a necesidades reales, riesgos priorizados y oportunidades de negocio tangibles.
 
 ##### 1.2.2.4. Lean UX Canvas
 
-![](https://i.imgur.com/aiba47s.jpeg)
+![](https://imgur.com/K0AAiIY.jpg)
 
 ### 1.3. Segmentos objetivo
 
-Para garantizar que la solución responda de manera efectiva a las necesidades del mercado gastronómico local, se identificaron y analizaron los segmentos clave que enfrentan retos en el ecosistema de descubrimiento y promoción de huariques. A continuación se detallan sus perfiles estratégicos, profundizando en las características demográficas, geográficas y psicográficas que sustentan su relevancia dentro del dominio del problema.
+**Segmento 1: Propietarios de vehículos**
 
-<u><strong>Segmento Objetivo #1: Exploradores Gastronómicos</strong></u>
+Datos demográficos:
+- Género: hombres y mujeres.
+- Rango etario: de 18 a 70 años.
+- Condición socioeconómica: sectores A, B y C (clase media o clase alta).
 
-Representa a personas activas y curiosas que buscan descubrir opciones de comida local auténtica y económica fuera de los canales convencionales, y que no encuentran en las grandes plataformas gastronómicas un espacio dedicado a huariques.
+Datos geográficos:
+- Nacionalidad: peruana.
+- Área de residencia: zonas urbanas.
+- Ubicación principal: Lima Metropolitana.
 
-**Aspectos demográficos**
+Datos psicográficos:
+- Individuos (naturales o jurídicos) que poseen un vehículo que permanece sin uso la mayor parte del tiempo.
+- Personas interesadas en generar ingresos adicionales a través de un recurso que ya poseen, sin necesidad de destinar grandes cantidades de tiempo a la gestión.
+- Propietarios que aún no cuentan con un mecanismo práctico, seguro y rápido para ofrecer sus autos en alquiler.
 
-* **Sexo:** Masculino y femenino
+**Segmento 2: Inquilinos o usuarios finales**
 
-* **Rango de edad:** 18 a 40 años
+Datos demográficos:
+- Género: tanto masculino como femenino.
+- Edad: entre 18 y 50 años.
+- Nivel socioeconómico: clases A, B y C (clase media, media alta y alta).
 
-* **Nivel socioeconómico:** Sectores B y C (estudiantes universitarios, jóvenes profesionales y adultos con hábitos de consumo gastronómico frecuente)
+Datos geográficos:
+- Nacionalidad: peruana.
+- Lugar de residencia: zonas urbanas.
+- Departamento: Lima Metropolitana.
 
-**Aspectos geográficos**
+Datos psicográficos:
+- Personas que pasan una cantidad considerable de horas en transporte público o en el tráfico y buscan alternativas más cómodas y flexibles.
+- Usuarios que no cuentan con los recursos para adquirir un auto propio (nuevo o de segunda mano), pero que requieren movilidad en situaciones específicas.
+- Personas que necesitan disponer de un vehículo particular por un período corto, ya sea para actividades puntuales, compromisos laborales o viajes.
 
-* **Nacionalidad:** Peruana
-
-* **Zona geográfica:** Áreas urbanas con alta densidad gastronómica y cultura culinaria local activa, con foco en Lima Metropolitana y sus distritos con mayor presencia de huariques.
-
-**Aspectos psicográficos**
-
-* Dolor principal: No cuentan con un canal especializado donde los huariques tengan visibilidad real. Las grandes aplicaciones priorizan restaurantes con mayor capacidad de inversión publicitaria, dejando fuera opciones auténticas y económicas que solo se descubren por recomendación informal o redes sociales.
-
-* Intereses: Descubrir experiencias gastronómicas locales únicas, acceder a recomendaciones confiables basadas en reseñas reales y encontrar opciones de comida cercanas y accesibles sin depender del boca a boca.
-
-* Actitudes: Estilo de vida activo y digitalmente conectado; toman decisiones de consumo sobre la marcha y priorizan la autenticidad, el precio y la confianza por encima de la popularidad del establecimiento. Están dispuestos a adoptar nuevas plataformas si estas les ofrecen información verificada y una experiencia de navegación ágil e intuitiva.
-
-* Necesidades clave: Acceso a un buscador con filtros por tipo de comida, precio y ubicación; mapas interactivos con huariques cercanos; sistema de reseñas y calificaciones confiable; posibilidad de guardar favoritos y recibir recomendaciones personalizadas.
-
-<br>
-
-<u><strong>Segmento Objetivo #2: Dueños y Administradores de Huariques</strong></u>
-
-Representa a emprendedores y pequeños negocios de comida tradicional o casera que necesitan aumentar su visibilidad digital y atraer nuevos clientes, pero carecen de presupuesto y conocimientos técnicos para hacerlo por cuenta propia.
-
-**Aspectos demográficos**
-
-* **Sexo:** Masculino y femenino
-
-* **Rango de edad:** 25 a 60 años
-
-* **Nivel socioeconómico:** Sectores B, C y D (microempresarios, emprendedores gastronómicos y administradores de negocios familiares de comida tradicional)
-
-**Aspectos geográficos**
-
-* **Nacionalidad:** Peruana  
-* **Zona geográfica:** Áreas urbanas y periurbanas de Lima Metropolitana donde los huariques forman parte activa de la oferta gastronómica local pero cuentan con escasa o nula presencia digital.
-
-**Aspectos psicográficos**
-
-* **Dolor principal:** Dependen casi exclusivamente del tráfico físico y el boca a boca para atraer clientes, sin contar con herramientas digitales accesibles que les permitan competir en visibilidad con restaurantes de mayor tamaño. Las plataformas existentes les resultan costosas, complejas o simplemente no están orientadas a su tipo de negocio.
-
-* **Intereses:** Promocionar su negocio de forma sencilla y rentable, aumentar el flujo de clientes presenciales, recibir retroalimentación directa de sus visitantes y contar con una presencia digital que refleje la autenticidad y propuesta de valor de su huarique.
-
-* **Actitudes:** Proactivos en la búsqueda de soluciones que les permitan crecer sin incurrir en grandes inversiones. Valoran la simplicidad, el soporte y los resultados concretos en términos de clientes reales, por encima de métricas abstractas de visibilidad.
-
-* **Necesidades clave:** Una herramienta intuitiva para registrar y actualizar la información de su negocio, incluyendo fotos, especialidades, horarios y precios; un sistema que les permita responder reseñas e interactuar con su comunidad; y planes de membresía o publicidad escalonados que se adapten a su capacidad de inversión.
 
 ## Capítulo II: Requirements Elicitation & Analysis
 ### 2.1. Competidores
+Previo al desarrollo de la aplicación, hicimos una búsqueda de las opciones que ya existen en el mercado, para ver que es lo que ofrecen y como podemos diferenciarnos de ellos.
+- **Peru Rent A Car:**
+  Esta plataforma se especializa en el alquiler de coches en Perú. Ofrece una amplia gama de vehículos y opciones de alquiler, así como información sobre destinos turísticos en Perú. 
+  La plataforma también permite a los usuarios comparar precios y reservar coches en línea.
+  <div style="text-align: center;">
+ <img src="https://imgur.com/8pKKGjQ.png" width=310  alt="">
+  </div>
+
+- **Kayak:**
+  Kayak es una de las plataformas de búsqueda de viajes más grandes del mundo. Permite a los usuarios buscar y comparar precios de vuelos, hoteles y alquiler de coches en una sola plataforma. 
+  Kayak también ofrece herramientas para planificar viajes, como alertas de precios y recomendaciones personalizadas.
+  <div style="text-align: center;">
+<img src="https://imgur.com/91Ht7sB.png" width=310  alt="">
+  </div>
+
+- **Budget Car Rental Peru:**
+  A diferencia de Peru Rent A Car, Budget Car Rental es una empresa internacional que ofrece servicios de alquiler de coches en Perú. 
+  La plataforma permite a los usuarios buscar y comparar precios de coches de alquiler en diferentes ubicaciones y reservar en línea. Budget Car Rental también ofrece opciones de alquiler a largo plazo y programas de fidelización.
+  <div style="text-align: center;">
+<img src="https://imgur.com/EHx7qQH.png" width=310  alt="">
+  </div>
+
 #### 2.1.1. Análisis competitivo
 
 Para obtener una comprensión más profunda del entorno competitivo y evaluar a los principales rivales del sector gastronómico digital, se desarrolló el siguiente Competitive Analysis Landscape. El objetivo es determinar las ventajas competitivas de la plataforma mediante su enfoque exclusivo en huariques auténticos, identificando oportunidades en un mercado local desatendido y posicionándose como la primera solución peruana especializada en descubrimiento y promoción de gastronomía tradicional frente a plataformas generalistas de mayor escala.
 
-<table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse; width:100%; font-size:11px;">
-  <thead>
-    <tr>
-      <th colspan="6" style="text-align:center;">Competitive Analysis Landscape</th>
-    </tr>
-    <tr>
-      <th colspan="2">¿Por qué llevar a cabo este análisis?</th>
-      <th colspan="4">Determinar las ventajas competitivas de PuntoSabor mediante su enfoque exclusivo en huariques auténticos, identificando oportunidades en un mercado local desatendido y posicionándose como la primera solución peruana especializada en descubrimiento y promoción de gastronomía tradicional frente a plataformas generalistas de mayor escala.</th>
-    </tr>
-    <tr>
-      <th colspan="2"></th>
-      <th style="text-align:center;">PuntoSabor<br><br><img src="https://i.imgur.com/pbSyX1k.png" width="60"></th>
-      <th style="text-align:center;">Uber Eats<br><br><img src="https://i.imgur.com/iUGXnkN.png" width="60"></th>
-      <th style="text-align:center;">Rappi<br><br><img src="https://i.imgur.com/9DRIWK5.png" width="60"></th>
-      <th style="text-align:center;">Google<br><br><img src="https://i.imgur.com/K8HFlcB.png" width="60"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td rowspan="2"><strong>Perfil</strong></td>
-      <td><strong>Overview</strong></td>
-      <td>Plataforma especializada en búsqueda mediante recomendación y geolocalización de huariques, enfocada en autenticidad y cultura local.</td>
-      <td>Plataforma global de delivery de comida con fuerte presencia en Perú, reconocida por su rapidez y variedad de opciones.</td>
-      <td>Super app latinoamericana popular en Perú que ofrece además de delivery, supermercado y más.</td>
-      <td>Integra búsqueda, mapas, reseñas y localización para negocios y servicios en Perú.</td>
-    </tr>
-    <tr>
-      <td><strong>Ventaja competitiva ¿Qué valor ofrece a los clientes?</strong></td>
-      <td>Enfoque en huariques auténticos con recomendaciones locales y filtros especializados.</td>
-      <td>Entrega rápida, variedad extensa de restaurantes y múltiples métodos de pago.</td>
-      <td>Ecosistema integral multiservicio que centraliza múltiples compras, ofreciendo alta conveniencia.</td>
-      <td>Gran base de usuarios y múltiples productos integrados que facilitan información local rápida y precisa.</td>
-    </tr>
-    <tr>
-      <td rowspan="2"><strong>Perfil de Marketing</strong></td>
-      <td><strong>Mercado objetivo</strong></td>
-      <td>Jóvenes foodies, exploradores gastronómicos y pequeños dueños de negocios tradicionales.</td>
-      <td>Usuarios urbanos de todas las edades que buscan comodidad en sus pedidos de comida diaria.</td>
-      <td>Usuarios jóvenes y familias que valoran usar una sola plataforma para diversas necesidades.</td>
-      <td>Usuarios generales que buscan información local y mapas para diversos servicios.</td>
-    </tr>
-    <tr>
-      <td><strong>Estrategias de marketing</strong></td>
-      <td>Enfoque en redes sociales, colaboraciones con huariques, marketing de contenidos y eventos locales.</td>
-      <td>Frecuentes promociones y descuentos, alianzas con grandes cadenas y fuerte publicidad digital.</td>
-      <td>Campañas virales, alianzas con influencers y promoción intensiva en redes sociales.</td>
-      <td>SEO robusto y publicidad programática integrada en productos Google.</td>
-    </tr>
-    <tr>
-      <td rowspan="3"><strong>Perfil de Producto</strong></td>
-      <td><strong>Productos & Servicios</strong></td>
-      <td>Portal web con búsqueda y registro de huariques, mapas, reseñas y comunidad foodie.</td>
-      <td>App móvil intuitiva que ofrece delivery de restaurantes con seguimiento en tiempo real.</td>
-      <td>App multiservicio que incluye delivery de comidas y más.</td>
-      <td>Mapas interactivos, perfiles de negocio con reseñas y ubicación.</td>
-    </tr>
-    <tr>
-      <td><strong>Precios & Costos</strong></td>
-      <td>Modelo gratuito para usuarios, planes de membresía para dueños de huariques.</td>
-      <td>Comisiones variables aplicadas a restaurantes y cargos a usuarios basados en distancia y demanda.</td>
-      <td>Comisiones a comercios, con precios competitivos para usuarios y constantes ofertas.</td>
-      <td>Gratuito para usuarios, monetiza en publicidad y servicios premium empresarial.</td>
-    </tr>
-    <tr>
-      <td><strong>Canales de distribución (Web y/o Móvil)</strong></td>
-      <td>Web app y presencia en redes sociales, colaboración con blogs especializados y foodies.</td>
-      <td>App móvil, sitio web responsivo, presencia en redes sociales y marketing digital agresivo.</td>
-      <td>App móvil, sitio web, redes sociales con estrategia omnicanal.</td>
-      <td>Buscador web, Google Maps, apps y otras plataformas Google.</td>
-    </tr>
-    <tr>
-      <td rowspan="4"><strong>Análisis SWOT</strong></td>
-      <td><strong>Fortalezas</strong></td>
-      <td>Especialización en huariques locales y auténticos. Comunidad foodie y contenido cultural.</td>
-      <td>Amplia cobertura y alta velocidad en entregas. Marca reconocida a nivel global.</td>
-      <td>Amplia oferta multiservicio, alta conveniencia para usuarios.</td>
-      <td>Integración con múltiples productos Google y gran base de usuarios global.</td>
-    </tr>
-    <tr>
-      <td><strong>Debilidades</strong></td>
-      <td>Menor alcance y base de usuarios comparado con grandes plataformas.</td>
-      <td>Dependencia de restaurantes y repartidores terceros.</td>
-      <td>Competencia interna entre servicios, posible dispersión en enfoque.</td>
-      <td>No es plataforma directa de discovery gastronómico, enfoque general en información.</td>
-    </tr>
-    <tr>
-      <td><strong>Oportunidades</strong></td>
-      <td>Creciente interés por cocina local auténtica y experiencias culturales.</td>
-      <td>Expansión a mercados emergentes y mejora continua en logística.</td>
-      <td>Potenciar su ecosistema multiservicio con alianzas locales.</td>
-      <td>Mayor demanda de información local y mapas post-pandemia.</td>
-    </tr>
-    <tr>
-      <td><strong>Amenazas</strong></td>
-      <td>Competencia directa con grandes apps consolidadas.</td>
-      <td>Regulaciones y presión sobre comisiones y modelos de negocio.</td>
-      <td>Competencia alta y saturación del mercado de apps multiservicio.</td>
-      <td>Regulaciones en privacidad y posibles competidores especializados.</td>
-    </tr>
-  </tbody>
-</table>
+En esta sección tiene como objetivo que su startup conozca mejor a sus competidores, en contraste con la idea inicial que pudiera tener sobre ellos. Se debe desarrollar el siguiente Landscape:  
+**Se realiza un mapeo estratégico comparativo entre nuestra propuesta (Moveo) y los principales actores del mercado, evaluando su perfil, marketing, producto y análisis SWOT, con el fin de identificar brechas de mercado, fortalezas propias y oportunidades de posicionamiento diferenciado.**
 
-<br> 
+**¿Por qué llevar a cabo este análisis?**  
+*Objetivo: Comprender a fondo el posicionamiento de nuestra startup frente a competidores clave en el mercado de alquiler de autos en Perú, identificando sus fortalezas, debilidades y estrategias, para definir con precisión nuestra ventaja competitiva y oportunidades de diferenciación.*
 
-La plataforma se diferencia de competidores como UberEats, Rappi y Google Maps al enfocarse exclusivamente en huariques, ofreciendo un espacio especializado para pequeños negocios de comida tradicional que generalmente no aparecen destacados en otras plataformas. Mientras los competidores priorizan restaurantes con mayor capacidad de inversión publicitaria, la propuesta centra su valor en la autenticidad, la comunidad y la visibilidad accesible para emprendedores gastronómicos locales. 
+
+<table border="1" style="text-align: center;">
+	<tbody>
+		<tr><td colspan="6">Análisis de competidores</td></tr>
+		<tr><td colspan="2"></td><td>Moveo</td><td>Kayak</td><td>Peru Rent A Car</td><td>Budget Car Rental Peru</td></tr>
+		<tr><td rowspan="2">Perfil</td><td>Resumen</td>
+			<td>Una aplicación que busca ofrecer una plataforma rápida y ágil para el alquiler de autos, con un fuerte enfoque en la seguridad de ambas partes.</td>
+			<td>Kayak es una plataforma líder de búsqueda tanto de vuelos, como cuartos de hotel, alquiler de vehículos, etc.</td>
+			<td>Esta plataforma web presenta parte de un catálogo establecido de vehículos para alquilar, con una atención mediante WhatsApp y dirigido solo a clientes.</td>
+			<td>Plataforma de similar funcionamiento que Rent A Car Peru, orientado a clientes con un énfasis en cuidar el presupuesto de los mismos.</td></tr>
+		<tr><td>Ventaja competitiva</td>
+			<td>Ofrecer una plataforma tanto para dueños de vehículos como a clientes interesados en alquilar.</td>
+			<td>Es la aplicación líder en la búsqueda de servicios por su variedad y robusta plataforma web.</td>
+			<td>Líder local del servicio de alquiler de autos, con una amplia flota y rápida atención al usuario</td>
+			<td>Ofrece una alternativa de alquiler económica velando por el bolsillo de sus clientes. </td></tr>
+		<tr><td rowspan="2">Perfil de Marketing</td><td>Mercado objetivo</td>
+			<td>Jóvenes y adultos desde los 20 a los 50 años.</td>
+			<td>Turistas o viajeros que necesiten cualquier tipo de servicio de comodidad.</td>
+			<td>Adultos peruanos que busquen alquilar un vehiculo.</td>
+			<td>Adultos peruanos que busquen alquilar un vehiculo económico.</td></tr>
+		<tr><td>Estrategias de marketing</td>
+			<td>Marketing digital en redes sociales y colaboraciones con influencers.</td>
+			<td>Alianza con Google Ads, tanto en Youtube como Chrome.</td>
+			<td>Patrocinio mediante búsquedas de Chrome.</td>
+			<td>Patrocinio mediante búsquedas de Chrome.</td></tr>
+		<tr><td rowspan="3">Perfil de Producto</td>
+			<td>Productos y Servicios</td>
+			<td>Aplicación destinada a la oferta de vehículos en alquiler, como la demanda de los mismos.</td>
+			<td>Aplicación móvil y web que cuenta con una enorme variedad de servicios esenciales para viajeros y turistas</td>
+			<td>Aplicación web rápida e intuitiva que permite consultar parte del catálogo de vehículos disponibles para alquiler.</td>
+			<td>Aplicación web ágil y amigable que permite consultar una limitada oferta de vehículos económicos en alquiler</td></tr>
+		<tr><td>Precios y Costos</td>
+			<td>Costos por publicación de vehículos mediante una suscripción.</td>
+			<td>Modelo gratuito, con cobro de comisión a las empresas referidas.</td>
+			<td>Ingreso directo mediante el alquiler.</td>
+			<td>Ingreso directo mediante el alquiler.</td></tr>
+		<tr><td>Canales de distribución</td>
+			<td>Disponible en línea a través de la aplicación web.</td>
+			<td>Descargable en Google Play y App Store y la plataforma web.</td>
+			<td>Disponible en línea a través de la aplicación web.</td>
+			<td>Disponible en línea a través de la aplicación web.</td></tr>
+		<tr><td rowspan="4">Análisis SWOT</td><td>Fortalezas</td><td><ul>
+                    <li>Orientado a jóvenes y adultos peruanos</li><li>Facilidades para alquilar, como ofrecer alquiler</li><li>Énfasis en la seguridad y garantía</li></ul></td>
+			<td><ul>
+                    <li>Gran cantidad de usuarios</li><li>Referente del sector</li><li>Plataformas ágiles e intuitivas</li></ul></td>
+			<td><ul><li>Plataforma local</li><li>Excelente atención al cliente</li></ul></td>
+			<td><ul><li>Plataforma web amigable</li><li>Todo el catálogo está disponible para cualquier usuario</li></ul></td></tr>
+		<tr><td>Debilidades</td>
+            <td><ul><li>Nuevo competidor</li><li>Sector con competidores fuertes ya establecidos</li></ul></td>
+			<td><ul><li>Pobre atención al cliente</li></ul></td>
+			<td><ul><li>Solo se puede consultar parte del catálogo de vehículos</li></ul></td>
+			<td><ul><li>Opta por un nicho muy concreto</li><li>No cuenta con tanta relevancia como su competencia</li></ul></td></tr>
+		<tr><td>Oportunidades</td>
+            <td><ul><li>Sin competidores a nivel nacional</li><li>Ofrece servicio para ambas partes involucradas en el alquiler</li></ul></td>
+			<td><ul><li>Fuerte presencia internacional</li><li>Referente del sector</li></ul></td>
+			<td><ul><li>Flota amplia y en crecimiento</li><li>Atención personalizada</li></ul></td>
+			<td><ul><li>Excelente interfaz</li></ul></td></tr>
+		<tr><td>Amenazas</td>
+            <td><ul><li>Competencia ya establecida</li><li>Sector muy competitivo</li></ul></td>
+			<td><ul><li>Oferta demasiado ámplia</li><li>Sin control de calidad</li></ul></td>
+			<td><ul><li>Oferta fija y poco variada</li><li>Sin opciones para dueños interesados en alquilar</li></ul></td>
+<td><ul><li>Se ve opacado por la competencia</li><li>Oferta aún más limitada que la competencia</li></ul></td>
+</tr></tbody></table>
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
 
-La plataforma se diferenciará de competidores como UberEats, Rappi y Google Maps al posicionarse como la primera solución peruana que unifica el descubrimiento, la promoción y la gestión digital de huariques en un solo canal especializado. A diferencia de las plataformas generalistas que operan con grandes catálogos dominados por cadenas y restaurantes consolidados, la propuesta permite que los propios dueños registren y gestionen su negocio, generando una oferta auténtica y orgánica que los competidores establecidos no pueden replicar con facilidad.
-
-Para contrarrestar la falta de reconocimiento inicial como nueva marca, se aplicarán las siguientes estrategias y tácticas:
-
-**Estrategias**<br>  
-Enfocar la plataforma exclusivamente en pequeños negocios de comida local poco conocidos, ofreciendo una experiencia de descubrimiento auténtica que las grandes apps convencionales no cubren, al priorizar siempre a los establecimientos con mayor capacidad publicitaria.
-
-Fomentar la participación activa de usuarios y dueños mediante reseñas, recomendaciones y contenido generado por la comunidad, construyendo un sentido de pertenencia y confianza que actúe como barrera de entrada difícil de imitar por plataformas que operan únicamente como directorios o buscadores de terceros.
-
-Desarrollar un esquema de monetización basado en membresías y publicidad accesible y escalonada para dueños de huariques, equilibrando la sostenibilidad del negocio con el crecimiento orgánico de la plataforma.
-
-<br>
-
-**Tácticas**<br>  
-Ejecutar campañas de marketing digital en redes sociales como TikTok e Instagram, orientadas a comunidades de foodies y exploradores gastronómicos en zonas urbanas con alta densidad de huariques, donde la necesidad de descubrimiento local es más frecuente e inmediata.
-
-Establecer alianzas con ferias gastronómicas, mercados locales y eventos de comida tradicional para incorporar huariques relevantes a la plataforma y validar el modelo ante usuarios y dueños más escépticos.
-
-Garantizar que la plataforma web sea intuitiva, rápida y accesible, con funciones de mapa, filtros avanzados y un proceso de registro de huariques sencillo que no requiera conocimientos técnicos por parte del dueño.
-
-Crear incentivos por participación activa, como mayor visibilidad en los listados, reconocimientos dentro de la comunidad o beneficios en planes de membresía, para motivar tanto la fidelización de usuarios como el compromiso de los dueños con mantener su perfil actualizado.
-
-Implementar un sistema ágil de atención a sugerencias y reportes de los usuarios para mejorar continuamente la calidad de la información disponible, aprovechando la debilidad que representa la escasa atención al cliente identificada en algunos competidores directos.
+Moveo se diferenciará mediante un enfoque local y seguro, integrando tanto a dueños de vehículos como a arrendatarios. 
+Para contrarrestar la falta de reconocimiento como nuevo competidor, se aplicarán tácticas de marketing digital y alianzas con influencers, generando confianza y visibilidad rápida. 
+Aprovechando la ausencia de un líder nacional en movilidad tipo Airbnb, la estrategia será posicionarse como la primera opción peruana especializada en alquiler de autos. 
+Frente a amenazas de grandes plataformas, Moveo enfocará sus esfuerzos en segmentos desatendidos y en brindar soporte inmediato y flexibilidad en precios, destacando su cercanía y adaptabilidad frente a la oferta internacional y tradicional.
 
 ### 2.2. Entrevistas
+En esta sección se presenta la investigación cualitativa realizada mediante entrevistas profundas a representantes de nuestros dos segmentos objetivo: **propietarios de vehículos** (Segmento 1) e **inquilinos o usuarios que desean alquilar autos** (Segmento 2). El objetivo es comprender sus necesidades reales, frustraciones, hábitos de consumo y expectativas frente a una plataforma de alquiler de autos, validando así los supuestos del modelo de negocio y ajustando la propuesta de valor de Moveo a lo que el mercado realmente demanda.
 #### 2.2.1. Diseño de entrevistas
 
-Con el objetivo de validar las suposiciones planteadas en el proceso Lean UX y comprender en profundidad las necesidades, motivaciones y comportamientos de los usuarios clave, se diseñaron entrevistas semiestructuradas dirigidas a los dos segmentos objetivo identificados. Cada conjunto de preguntas fue elaborado para explorar los puntos de dolor, expectativas y criterios de decisión más relevantes dentro del dominio del problema.
+Esta sección incluye preguntas demográficas, conductuales y psicográficas dirigidas a cada segmento, con el fin de construir arquetipos (personas) basados en evidencia real. Se aplican buenas prácticas de diseño de entrevistas: preguntas abiertas, no sugestivas, orden lógico (de lo general a lo específico) y enfoque en comportamientos reales, no hipotéticos.
 
-<u><strong>Segmento Objetivo #1: Exploradores Gastronómicos</strong></u>
+#### **Segmento 1: Propietarios**
 
-**Objetivo:** Entender sus motivaciones, comportamientos y expectativas al usar una app web para descubrir comida local auténtica.
+**Demográficas (para arquetipo):**
+- ¿Cuál es tu nombre completo?
+- ¿Qué edad tienes?
+- ¿En qué distrito resides?
+- ¿Cuál es tu género?
+- ¿Cuál es tu estado civil?
+- ¿Vives solo, con pareja, con hijos u otros familiares?
+- ¿A qué te dedicas (trabajo, estudios, negocio propio)?
 
-Este segmento representa a personas activas y curiosas que buscan opciones gastronómicas locales fuera de los canales convencionales. Las preguntas están orientadas a identificar sus hábitos de búsqueda, los factores que influyen en su decisión de visitar un lugar y las barreras que enfrentan al no contar con una plataforma especializada.
+**Psicográficas y comportamentales (para arquetipo):**
+- ¿Cómo describirías tu personalidad cuando se trata de prestar algo valioso (precavido, confiado, flexible, exigente)?
+- ¿Qué marcas de autos confías más para alquilar? ¿Por qué?
+- ¿Qué influencers, blogs, canales o redes sociales te influyen a la hora de tomar decisiones sobre tu auto o negocios?
+- ¿Qué dispositivos usas con más frecuencia (celular, laptop, tablet)? ¿Qué apps o navegadores prefieres?
+- ¿Por qué canales digitales sueles informarte o resolver dudas (WhatsApp, Instagram, Facebook, Google, foros)?
 
-**Preguntas**
+> *Nota: Estas preguntas fueron incluidas en el formulario inicial para identificar patrones de comportamiento digital y afinidades, lo que permitió guiar mejor las entrevistas profundas y construir arquetipos más precisos.*
 
-* ¿Con qué frecuencia usas aplicaciones web para buscar lugares para comer fuera de lo común?
 
-* ¿Cómo sueles descubrir huariques o lugares de comida poco conocidos en la web?
+**Necesidades y comportamiento (preguntas principales):**
+- ¿Qué tipo de unidades sueles alquilar (auto, SUV, camioneta, moto, otro)?
+- ¿Cuál es el tiempo mínimo y máximo que normalmente estás dispuesto a prestar tu vehículo?
+- ¿Qué requisitos solicitas a una persona antes de entregarle tu vehículo?
+- ¿Dónde publicas actualmente tus vehículos para alquilarlos (apps, redes sociales, conocidos)?
+- ¿Cómo gestionas el control de tus autos disponibles y en uso (anotaciones, Excel, aplicación, otro)?
+- ¿Qué tan confiable consideras que son las plataformas actuales para validar a los clientes?
+- ¿Qué tan útil sería para ti ver comentarios de otros dueños sobre un cliente antes de alquilar?
+- ¿Te interesaría contar con un panel digital donde registres todos tus autos y su estado?
+- ¿Qué tan importante consideras poder calificar a los clientes después de cada alquiler?
+- ¿Has tenido malas experiencias alquilando tu auto? Cuéntame qué pasó y qué aprendiste.
 
-* ¿Qué aspectos valoras más al elegir un lugar para comer usando una app web (precio, ubicación, reseñas, fotos, etc.)?
+---
 
-* ¿Qué dificultades has tenido al usar apps web para buscar lugares de comida local?
+#### **Segmento 2: Inquilinos**
 
-* ¿Qué te motivaría a usar una app web dedicada exclusivamente a huariques?
+**Demográficas (para arquetipo):**
+- ¿Cuál es tu nombre completo?
+- ¿Qué edad tienes?
+- ¿En qué distrito vives?
+- ¿Cuál es tu género?
+- ¿Cuál es tu estado civil?
+- ¿Vives solo, con pareja, con hijos u otros familiares?
+- ¿Cuál es tu ocupación principal?
 
-* ¿Qué funcionalidades en la app web considerarías imprescindibles para usarla con regularidad?
+**Psicográficas y comportamentales (para arquetipo):**
+- ¿Cómo describirías tu estilo al tomar decisiones de consumo (espontáneo, investigador, influenciable, ahorrativo)?
+- ¿Qué marcas de autos o servicios de alquiler prefieres o evitas? ¿Por qué?
+- ¿Qué personas, influencers o medios digitales te ayudan a decidir antes de alquilar un auto?
+- ¿Qué dispositivos usas con más frecuencia (celular, laptop, tablet)? ¿Qué apps o navegadores prefieres?
+- ¿Por qué canales digitales sueles buscar soluciones o servicios (WhatsApp, Instagram, Google Maps, TikTok, foros)?
 
-* ¿Qué preocupaciones o barreras tendrías al usar una app web para descubrir huariques?
+> *Nota: La información recolectada en el formulario permitió identificar segmentos de comportamiento digital y afinidades de marca, facilitando la construcción de arquetipos realistas y la personalización de las preguntas durante la entrevista.*
 
-<br>
 
-<u><strong>Segmento Objetivo #2: Dueños y Administradores de Huariques</strong></u>
-
-**Objetivo:** Comprender sus necesidades y expectativas al usar la app web para administrar y promocionar sus huariques.
-
-Este segmento representa a pequeños emprendedores gastronómicos que buscan aumentar su visibilidad digital y atraer nuevos clientes sin incurrir en costos elevados ni requerir conocimientos técnicos avanzados. Las preguntas están orientadas a identificar su nivel de adopción tecnológica actual, los retos que enfrentan en la gestión digital de su negocio y las condiciones bajo las cuales estarían dispuestos a adoptar una nueva plataforma. 
-
-**Preguntas**
-
-* ¿Actualmente usas alguna plataforma web o digital para promocionar tu huarique? ¿Cuál?
-
-* ¿Qué retos has enfrentado al tratar de gestionar tu negocio a través de plataformas digitales?
-
-* ¿Qué tan cómodo te sientes usando aplicaciones web para actualizar la información de tu negocio?
-
-* ¿Qué características te harían decidirte a usar una app web especializada para huariques?
-
-* ¿Qué tipo de soporte o facilidades esperarías al usar esta app web para gestionar tu perfil o negocio?
-
-* ¿Qué modelo de tarifas o membresías considerarías justo para usar esta plataforma?
-
-* ¿Qué resultados te gustaría ver después de usar esta aplicación web para promocionar tu huarique?
+**Necesidades y comportamiento (preguntas principales):**
+- ¿Qué documentos te han solicitado en tus experiencias previas al alquilar un auto?
+- ¿Qué tipo de vehículo prefieres alquilar según tu necesidad (trabajo, viaje, ocasión especial)?
+- ¿Qué requisitos o condiciones suelen ponerte antes de alquilar (edad mínima, tarjeta de crédito, otros)?
+- ¿Qué factores te desaniman al momento de querer alquilar un auto (precio, desconfianza, restricciones, otro)?
+- ¿Dónde sueles buscar opciones de autos en alquiler (apps, redes, páginas web, conocidos)?
+- ¿Qué tan confías en que las aplicaciones muestran información real de los dueños y autos?
+- ¿Qué tan valioso sería para ti revisar reseñas de otros usuarios sobre el dueño antes de alquilar?
+- ¿Te resultaría útil poder reservar un vehículo con anticipación directamente desde la app?
+- ¿Qué tan importante es para ti dejar una opinión sobre tu experiencia con el dueño o el vehículo?
+- ¿Cuál ha sido tu peor experiencia alquilando un auto? ¿Qué cambiarías para evitarlo?
 
 #### 2.2.2. Registro de entrevistas
+En este apartado se presenta una documentación detallada de cada entrevista realizada con los distintos segmentos objetivo identificados. Se ha recopilado información relevante que incluye el perfil del entrevistado, las respuestas proporcionadas durante la conversación, así como los hallazgos más destacados obtenidos a partir de sus opiniones y experiencias.
 
-<u><strong>Segmento Objetivo #1: Exploradores Gastronómicos</strong></u>
+Video de todas las entrevistas: http://bit.ly/46qhU6i
+> *(Los timings individuales se indican en cada entrevista)*
 
-<table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse; width:100%; font-size:11px;">
-  <thead>
-    <tr>
-      <th style="text-align:center; width:5%;">Número de entrevista</th>
-      <th>Datos del entrevistado</th>
-      <th style="width:25%;">Evidencia de entrevista</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:center; vertical-align:middle;"><strong>1</strong></td>
-      <td style="vertical-align:top;">
-        <strong>Nombre:</strong> Luis Montañez<br>
-        <strong>Edad:</strong> 25<br>
-        <strong>Distrito:</strong> Cercado de Lima<br><br>
-        <strong>Resumen:</strong> Luis es un estudiante de 25 años que utiliza aplicaciones web de comida casi todos los fines de semana para salir con su pareja o amigos y descubrir lugares nuevos. La mayoría de los huariques los encuentra en TikTok e Instagram, donde sigue a distintos foodies, además de investigar en Google Maps las ubicaciones. Su principal prioridad al elegir un lugar para comer es el precio, ya que tiene un presupuesto ajustado como estudiante. Luego valora las fotos y los comentarios confiables, ya que esto le ayuda a evitar sitios de mala calidad. Sin embargo, ha enfrentado dificultades, como llegar a lugares que aparecen como abiertos en las apps pero están cerrados, además de que muchos huariques pequeños no están listados en ellas. Le gustaría usar una app exclusiva para huariques si tiene reseñas sinceras de usuarios similares a él. Para que la app sea útil y la use regularmente, considera esenciales los filtros por precio y tipo de comida, un mapa intuitivo y rápido, y recomendaciones personalizadas. Sus principales preocupaciones incluyen que la app se llene de publicidad, que la información sea poco confiable o que tenga pocos lugares en su ciudad, lo que haría que pierda valor.
-      </td>
-      <td style="text-align:center; vertical-align:middle;">
-        <img src="https://i.imgur.com/FU01v0h.png" alt="Evidencia" width="150"><br>
-        <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/IQD12r8RXyRYS4r7cUAyYGceAe4hWtwg7ykHYFboUUqDzHs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=3dUJ0H">📂 Ver entrevista</a><br>
-        <strong>Inicio:</strong> 00:01
-      </td>
-    </tr>
-  </tbody>
-</table>
+#### **Segmento 1: Propietarios de autos**
 
-<br>
+#### Entrevistado 1: Alisa Goicochea  
+**Edad:** 22 años  
+**Ocupación:** Estudiante de Marketing Digital + Alquiladora de autos  
+**Distrito:** Miraflores  
+**Dispositivos utilizados:** iPhone (exclusivo)  
+**Navegador habitual:** Safari  
+**Imagen de entrevista:**  
+![Entrevistado-1](https://imgur.com/v1LgBRQ.png)
+**Instante en el que inicia:** 0:00   
+**Duración de la entrevista:** 2:42 min  
 
-<table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse; width:100%; font-size:11px;">
-  <thead>
-    <tr>
-      <th style="text-align:center; width:5%;">Número de entrevista</th>
-      <th>Datos del entrevistado</th>
-      <th style="width:25%;">Evidencia de entrevista</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:center; vertical-align:middle;"><strong>2</strong></td>
-      <td style="vertical-align:top;">
-        <strong>Nombre:</strong> Joaquín Cuentas<br>
-        <strong>Edad:</strong> 23<br>
-        <strong>Distrito:</strong> San Miguel<br><br>
-        <strong>Resumen:</strong> Joaquín es un estudiante de 23 años que no suele utilizar aplicaciones web con frecuencia para buscar huariques, solo una o dos veces al mes cuando busca salir con amigos o experimentar algo diferente. La mayoría de los lugares los descubre por recomendaciones en TikTok e Instagram, y ocasionalmente en Google Maps. Al elegir un sitio, lo que más valora son las fotos y las reseñas auténticas de otros usuarios, además del precio y la cercanía. Su principal dificultad es que los huariques rara vez aparecen en las aplicaciones, predominando los restaurantes populares, y a menudo la información está incompleta o las fotos son de mala calidad. Estaría dispuesto a usar una app que muestre lugares auténticos y confiables, siempre que sea fácil de usar. Cree que las funciones esenciales deben ser fotos auténticas, reseñas sinceras, un mapa con ubicación, filtros de precio y la opción de guardar favoritos. Sus mayores preocupaciones son que la información no sea confiable, que lo envíen a lugares cerrados o de baja calidad, o que la app sea compleja y lenta.
-      </td>
-      <td style="text-align:center; vertical-align:middle;">
-        <img src="https://i.imgur.com/G1Mgiur.png" alt="Evidencia" width="150"><br>
-        <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/IQACREpwkoEKQ6KXPk0KxGbnAe-5f8JinAaeA622kb6J0o8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=DaY8NP">📂 Ver entrevista</a><br>
-        <strong>Inicio:</strong> 00:02
-      </td>
-    </tr>
-  </tbody>
-</table>
+##### Resumen:
 
-<br>
+Alisa es una joven emprendedora, estudiante y digital native que alquila su Toyota Corolla 2021 para financiar sus estudios. Es exigente, organizada y desconfiada por experiencia: ha sido víctima de fotos falsas de tarjetas y clientes sin redes sociales.
 
-<table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse; width:100%; font-size:11px;">
-  <thead>
-    <tr>
-      <th style="text-align:center; width:5%;">Número de entrevista</th>
-      <th>Datos del entrevistado</th>
-      <th style="width:25%;">Evidencia de entrevista</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:center; vertical-align:middle;"><strong>3</strong></td>
-      <td style="vertical-align:top;">
-        <strong>Nombre:</strong> Alexis Encalada<br>
-        <strong>Edad:</strong> 22<br>
-        <strong>Distrito:</strong> Jesús María<br><br>
-        <strong>Resumen:</strong> Alexis es un estudiante de 22 años que utiliza frecuentemente aplicaciones y redes sociales como TikTok, Instagram y Google Maps para descubrir nuevos lugares donde comer, especialmente los fines de semana. Valora principalmente el precio, junto con la experiencia completa del lugar, incluyendo reseñas, atención y fotos. Entre sus principales dificultades destaca la información desactualizada y la poca visibilidad de huariques en plataformas tradicionales. Se motivaría a usar una app especializada que ofrezca reseñas confiables, filtros, mapa interactivo y recomendaciones, aunque le preocupa la veracidad de la información y la publicidad excesiva.
-      </td>
-      <td style="text-align:center; vertical-align:middle;">
-        <img src="https://i.imgur.com/IhDCOeB.png" alt="Evidencia" width="150"><br>
-        <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318049_upc_edu_pe/IQA37G8T4AKwT5DB6lzX6gHjAWnKqVd6lHAKwtLCwiGegGU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=6W6rlK">📂 Ver entrevista</a><br>
-        <strong>Inicio:</strong> 00:00
-      </td>
-    </tr>
-  </tbody>
-</table>
+**Personalidad y Comportamiento:**  
+- Directa, práctica y sin rodeos. “Si no tiene Instagram, no alquilo”.  
+- Usa el humor para disfrazar su frustración (“Es caótico, pero funciona”).  
+- Altamente visual: confía en lo que ve, no en lo que le dicen.
 
-<br>
+**Tecnología y Canales de Interacción:**  
+- **Todo desde el celular.** No usa laptop ni para subir fotos.  
+- Gestiona con **Google Sheets** mientras camina — multitasking extremo.  
+- Publica en **TikTok (con reels), Instagram DM y Facebook Marketplace**.  
+- Navegador: **Safari**, porque “ya viene en el iPhone y no quiero instalar nada extra”.  
+- Odia las plataformas actuales: “Nula confianza. He tenido gente que paga con foto falsa”.  
+- Sueña con un sistema de reseñas entre dueños: “Si alguien dice ‘dejó el auto sucio’, lo bloqueo antes de cerrar”.  
+- Considera **imprescindible calificar a los clientes**: “Si no puedo dejar reseña, no alquilo. Es mi forma de protegerme”.
 
-<u><strong>Segmento Objetivo #2: Dueños y Administradores de Huariques</strong></u>
+**Hallazgos clave para arquetipo:**  
+- Necesita una app móvil-first, con verificación visual (selfie + documento), integración de pagos y sistema de reputación cruzada.  
+- Dispuesta a pagar hasta S/25/mes si evita pérdidas y estrés.  
+- Valora más la prevención de riesgos que la automatización pura.
 
-<table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse; width:100%; font-size:11px;">
-  <thead>
-    <tr>
-      <th style="text-align:center; width:5%;">Número de entrevista</th>
-      <th>Datos del entrevistado</th>
-      <th style="width:25%;">Evidencia de entrevista</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:center;"><strong>1</strong></td>
-      <td>
-        <strong>Nombre:</strong> Wildor Villalobos<br>
-        <strong>Edad:</strong> 28<br>
-        <strong>Distrito:</strong> Jesús María<br><br>
-        <strong>Resumen:</strong> Wildor es propietario de un huarique especializado en pan con chicharrón. Actualmente utiliza Instagram y TikTok para promocionar su negocio, destacando que los reels generan mayor alcance que las publicaciones estáticas. Entre sus principales dificultades señala la alta competencia en el sector y la dependencia del algoritmo de las redes sociales, que lo obliga a invertir dinero para llegar a más personas. Respecto a la plataforma, espera contar con un espacio donde pueda destacar su negocio y acceder a métricas claras sobre cuántos usuarios lo encuentran y qué tan efectiva es la plataforma para atraer clientes, todo mediante un panel sencillo con gráficos directos. Estaría dispuesto a pagar entre S/ 20 y S/ 50 mensuales, siempre que los resultados sean equivalentes o superiores a los que obtiene actualmente en redes sociales. Su objetivo principal es incrementar sus ventas.
-      </td>
-      <td style="text-align:center; vertical-align:middle;">
-        <img src="https://i.imgur.com/5VwCUu9.png" alt="Evidencia Wildor" width="150"><br>
-        <a href="https://drive.google.com/file/d/15Qma_86tWBnnfWBWlx28-MLKOQJRCrI2/view?usp=drive_link">📂 Ver entrevista</a><br>
-        <strong>Inicio:</strong> 00:00
-      </td>
-    </tr>
-  </tbody>
-</table>
+---
+#### Entrevistado 2: Mathías Peña  
+**Edad:** 24 años  
+**Ocupación:** Estudiante de Administración (UNI) + Emprendedor de alquiler de autos (3 vehículos)  
+**Distrito:** Surco  
+**Dispositivos utilizados:** iPhone (exclusivo), Laptop solo para entretenimiento  
+**Navegador habitual:** Safari  
+**Imagen de entrevista:**  
+![Entrevistado-2](https://imgur.com/xMLBOO5.png)
+**Instante en el que inicia:** 2:43   
+**Fin de la entrevista:** 5:31 min  
 
-<br>
+##### Resumen:
 
-<table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse; width:100%; font-size:11px;">
-  <thead>
-    <tr>
-      <th style="text-align:center; width:5%;">Número de entrevista</th>
-      <th>Datos del entrevistado</th>
-      <th style="width:25%;">Evidencia de entrevista</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:center;"><strong>2</strong></td>
-      <td>
-        <strong>Nombre:</strong> Piero Tapia<br>
-        <strong>Edad:</strong> 26<br>
-        <strong>Distrito:</strong> Jesús María<br><br>
-        <strong>Resumen:</strong> Piero es dueño de una sandwichería que actualmente depende del flujo de clientes que transitan por la zona, ya que no cuenta con presupuesto suficiente para invertir en marketing digital ni con experiencia en el manejo de redes sociales o pagos en línea. Comenta que las plataformas de delivery o afiliación le resultan poco intuitivas como negocio, aunque las utiliza como consumidor. Para él, es fundamental que la plataforma sea fácil de aprender y manejar, con comisiones bajas que no encarezcan sus productos ni reduzcan su demanda. Además de visibilidad, valora contar con soporte y orientación para aprender a utilizar la herramienta de manera progresiva. Propone un modelo de tarifas escalonado que se adapte a negocios en distintas etapas de crecimiento. Su expectativa principal es que la plataforma le genere más clientes presenciales y ventas reales, más allá de simples métricas de visualización.
-      </td>
-      <td style="text-align:center; vertical-align:middle;">
-        <img src="https://i.imgur.com/g91uqKB.png" alt="Evidencia Piero" width="150"><br>
-        <a href="https://drive.google.com/file/d/15Qma_86tWBnnfWBWlx28-MLKOQJRCrI2/view?usp=drive_link">📂 Ver entrevista</a><br>
-        <strong>Inicio:</strong> 03:15
-      </td>
-    </tr>
-  </tbody>
-</table>
+Mathías es un emprendedor digital nativo. Maneja su negocio de alquiler (Hyundai HB20, Suzuki S-Cross, Honda PCX) 100% desde su iPhone. Su enfoque es ágil, visual y basado en redes: publica en **TikTok e Instagram Reels** con música de moda y llamados a acción claros (“DM para reservar”).
 
-<br>
+**Personalidad y Comportamiento:**  
+- Extremadamente digital, rápido y orientado a resultados.  
+- No tolera la lentitud: si un cliente tarda >10 min en responder, lo descarta.  
+- Usa el humor y la autocrítica (“me enredo en el Excel”) para conectar, pero es meticuloso en lo operativo.
 
+**Tecnología y Canales de Interacción:**  
+- **Todo desde el celular.** Laptop = Netflix. Punto.  
+- Usa **Google Sheets** con una hoja por vehículo (entrada, salida, cliente, estado, km, foto).  
+- Publica en **TikTok, Instagram Reels y Facebook Marketplace** — este último lo considera “zona de estafadores”.  
+- Navegador: **Safari**. No instala Chrome a propósito: “Safari es más rápido en iOS”.  
+- Desconfía totalmente de las plataformas actuales: ha recibido screenshots falsos de transferencias y licencias recortadas. Ahora pide videos diciendo la ciudad natal.  
+- Sueña con un **“dashboard tipo Spotify”** que le muestre disponibilidad, ingresos, vencimientos de seguro y alertas de lavado.  
+- Calificar a los clientes es **“como un Uber para autos privados”**: esencial para protegerse y ayudar a la comunidad de dueños.
 
-<table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse; width:100%; font-size:11px;">
-  <thead>
-    <tr>
-      <th style="text-align:center; width:5%;">Número de entrevista</th>
-      <th>Datos del entrevistado</th>
-      <th style="width:25%;">Evidencia de entrevista</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:center; "><strong>3</strong></td>
-      <td>
-        <strong>Nombre:</strong> Gabriela Vasquez<br>
-        <strong>Edad:</strong> 23<br>
-        <strong>Distrito:</strong> Pueblo Libre<br><br>
-        <strong>Resumen:</strong> Gabriela es propietaria de una juguería artesanal que opera principalmente gracias al tránsito de clientes por la zona, dado que cuenta con un presupuesto reducido y escasa experiencia en plataformas digitales o redes sociales. Señala que los procesos de afiliación a apps de delivery o pagos en línea le resultan confusos y poco accesibles. Para ella, la plataforma ideal debe ser intuitiva, con costos de comisión bajos y un proceso de incorporación sencillo que le permita promocionar sus productos sin complicaciones técnicas. Además, considera importante contar con tutoriales o asesoría integrada que la guíe en el uso progresivo de la herramienta. Propone un sistema de niveles de uso que le permita avanzar gradualmente según sus capacidades y necesidades. Su expectativa principal es que la plataforma le ayude a incrementar el flujo de clientes en su local, priorizando resultados concretos por encima de la visibilidad digital.
-      </td>
-      <td style="text-align:center; vertical-align:middle;">
-        <img src="https://i.imgur.com/tELq27O.png" alt="Evidencia Gabriela" width="150"><br>
-        <a href="https://drive.google.com/file/d/15Qma_86tWBnnfWBWlx28-MLKOQJRCrI2/view?usp=drive_link">📂 Ver entrevista</a><br>
-        <strong>Inicio:</strong> 05:07
-      </td>
-    </tr>
-  </tbody>
-</table>
+**Hallazgos clave para arquetipo:**  
+- Necesita una solución móvil-first, visual, con integración de pagos (Yape/Plin) y contratos digitales.  
+- Alta disposición a pagar (hasta S/30/mes) por una app que le ahorre tiempo y reduzca riesgos.  
+- El sistema de reputación compartida es su mayor deseo no satisfecho.
+
+---
+
+#### Entrevistado 3: Mauricio Salas  
+**Edad:** 22 años  
+**Ocupación:** Estudiante de Administración (UPC) + Freelancer en redes sociales + Alquiler de auto  
+**Distrito:** Miraflores  
+**Dispositivos utilizados:** iPhone (principal), Laptop ocasional  
+**Navegador habitual:** Safari (móvil), Chrome (laptop)  
+**Imagen de entrevista:**  
+![Entrevistado-3](https://imgur.com/lTyVf67.png)
+**Instante en el que inicia:** 7:15  
+**Duración de la entrevista:** 3:37 min  
+
+##### Resumen:
+
+Mauricio es un joven organizado, pragmático y con mentalidad de emprendedor. Alquila su Kia Rio 2020 como ingreso complementario mientras estudia. Aunque no tiene una flota grande, maneja su operación con disciplina: exige DNI, licencia vigente, depósito de S/500 y, en casos nuevos, una videollamada previa para generar confianza.
+
+**Personalidad y Comportamiento:**  
+- Muy cauteloso con nuevos clientes. Valora la transparencia y la comunicación previa.  
+- No es tecnófilo extremo, pero sí funcional: usa lo que le sirve sin complicaciones.  
+- Influenciado por experiencias negativas de otros dueños en Facebook Marketplace.
+
+**Tecnología y Canales de Interacción:**  
+- Gestiona todo desde su **iPhone**. Solo usa la laptop para imprimir contratos o revisar su **Google Sheets**.  
+- Publica en **Facebook Marketplace** y grupos de alquiler de Lima. No confía en apps formales por las altas comisiones.  
+- Usa **Safari** en móvil y **Chrome** en laptop. No tiene preferencia técnica, solo practicidad.  
+- Le gustaría una plataforma que verifique identidad y muestre reseñas cruzadas entre dueños.  
+- Considera **imprescindible** poder calificar a los clientes: “Es mi historial de riesgo personal”.
+
+**Hallazgos clave para arquetipo:**  
+- Busca soluciones low-tech pero efectivas (hojas de cálculo + videollamada).  
+- Valora la seguridad sobre la automatización.  
+- Dispuesto a pagar por una app que centralice control, alertas de mantenimiento y reputación de clientes.
+
+---
+
+#### **Segmento 2:Inquilinos de autos**
+
+#### Entrevistado 4: Claudia Sifuentes  
+**Edad:** 21 años  
+**Ocupación:** Estudiante de Psicología + Trabajo media jornada en cafetería  
+**Distrito:** San Juan de Lurigancho  
+**Dispositivos utilizados:** iPhone  
+**Navegador habitual:** Safari  
+**Imagen de entrevista:**  
+![Entrevistado-4](https://imgur.com/SxeK738.png)
+**Instante en el que inicia:** 10:53  
+**Duración de la entrevista:** 3:42 min  
+
+##### Resumen:
+
+Claudia es una joven realista, precavida y enfocada en la justicia. Alquila autos pequeños para ir a la universidad y prácticas. Ha sido víctima de cobros injustos por daños que no causó, lo que la ha vuelto escéptica y exigente.
+
+**Personalidad y Comportamiento:**  
+- Práctica, directa y con sentido de justicia social: “Si alguien me engaña, quiero que otros lo sepan”.  
+- No tolera la opacidad: quiere transparencia en precios, condiciones y estado del auto.  
+- Valora la velocidad: “Que el dueño responda rápido”.
+
+**Tecnología y Canales de Interacción:**  
+- **Todo desde el celular.** No usa laptop para gestiones.  
+- Busca en **Facebook, TikTok y por recomendación de amigas**. Evita apps grandes.  
+- Navegador: **Safari**, por defecto en su iPhone.  
+- Desconfía profundamente de las plataformas: “Las fotos son de otro auto, el kilometraje no coincide”.  
+- Las **reseñas de otros usuarios son su salvavidas**: “Si alguien dice ‘es honesto’, confío. Si dice ‘me robó el depósito’, lo evito”.  
+- Considera **crucial poder dejar su propia opinión**: “Es mi forma de justicia”.
+
+**Hallazgos clave para arquetipo:**  
+- Necesita una app con verificación de dueños, reseñas verificadas y sistema de reporte transparente.  
+- Dispuesta a pagar hasta S/15/mes por una reserva segura y protección contra estafas.  
+- Valora más la comunidad y la reputación que las marcas o las interfaces bonitas.
+
+---
+
+#### Entrevistado 5: Angie Leyva  
+**Edad:** 21 años  
+**Ocupación:** Estudiante de Comunicación + Community Manager freelance  
+**Distrito:** San Miguel  
+**Dispositivos utilizados:** iPhone (exclusivo)  
+**Navegador habitual:** Safari  
+**Imagen de entrevista:**  
+![Entrevistado-5](https://imgur.com/zw4UwvC.png)
+**Instante en el que inicia:** 22:07  
+**Duración de la entrevista:** 4:40 min  
+
+##### Resumen:
+
+Angie es una comunicadora nata: crítica, exigente y con un radar fino para detectar fraudes o malas prácticas. Alquila autos pequeños, automáticos y con Bluetooth para su vida universitaria y laboral. No tiene tarjeta de crédito y odia los depósitos en efectivo.
+
+**Personalidad y Comportamiento:**  
+- Aguda, sarcástica y con alto sentido del detalle: “Me pidieron foto con licencia y fecha… ¡como secuestro!”.  
+- Impaciente: “Si tarda más de 10 minutos en contestar, busco otro auto”.  
+- Justiciera digital: “Si alguien me engaña, no puedo quedarme callada”.
+
+**Tecnología y Canales de Interacción:**  
+- **Todo desde el iPhone.** Laptop = tareas universitarias.  
+- Busca en **Facebook Marketplace, TikTok (por los Reels)** y recomendaciones. Jamás usa apps corporativas.  
+- Navegador: **Safari**, por coherencia con su ecosistema Apple.  
+- Desconfía profundamente: “Hay perfiles con fotos de modelos… ya no confío sin video del dueño”.  
+- Las **reseñas son su sistema de defensa**: “Si alguien dice ‘robó depósito’, lo evito. Si dice ‘dio agua y auto limpio’, ¡ahí sí!”.  
+- Quiere **reservas anticipadas con confirmación automática** y opción de cancelar sin penalidad.  
+- Dejar opiniones es **parte de su identidad digital**: “Quiero buena reputación. Y quiero que sepan si alguien fue deshonesto”.
+
+**Hallazgos clave para arquetipo:**  
+- Necesita una app con verificación en video, reservas inmediatas, pagos digitales y sistema de reputación bidireccional.  
+- Dispuesta a pagar hasta S/15/mes por seguridad, transparencia y certeza.  
+- Valora la autenticidad y la comunidad por encima de la formalidad corporativa.
 
 #### 2.2.3. Análisis de entrevistas
+En esta sección se realiza un análisis detallado por cada uno de los dos segmentos objetivo identificados: **Propietarios de Vehículos** y **Inquilinos de Vehículos**, basado en las entrevistas realizadas y los datos recolectados mediante encuestas digitales. El propósito es sistematizar la información, identificar patrones comunes, validar supuestos iniciales y construir una base sólida para la creación de arquetipos de usuario. Todos los hallazgos están sustentados con datos cualitativos de las entrevistas y cuantitativos de las encuestas, garantizando que cada característica derivada tiene evidencia empírica.
 
-<u><strong>Segmento Objetivo #1: Exploradores Gastronómicos</strong></u>
+> **Fuente de información:**  
+> - Entrevistas registradas (5 personas): 3 propietarios, 2 inquilinos  
+> - Encuesta digital  
+> - Resúmenes de entrevistas (con características objetivas y subjetivas)
 
-**Luis Montañez (25 años)**
+### Segmento 1: Propietarios de Vehículos
 
-Casi todos los fines de semana, utiliza aplicaciones web para salir a descubrir nuevos lugares con amigos o su pareja. La mayoría de los huariques los encuentra en TikTok, Instagram y Google Maps, siguiendo a foodies y explorando por su cuenta. El precio es su principal criterio al elegir un lugar para comer, ya que su presupuesto es ajustado, seguido por fotos y reseñas confiables para evitar malas experiencias. Ha tenido problemas con locales que aparecen como abiertos pero en realidad están cerrados, y con la falta de huariques pequeños en las apps. Se sentiría motivado a usar una aplicación dedicada exclusivamente a huariques si tiene reseñas sinceras de usuarios como él. Considera imprescindibles los filtros de precio, un mapa intuitivo y rápido, y recomendaciones personalizadas. Sus mayores preocupaciones son que la app esté llena de publicidad intrusiva y que tenga información poco confiable o poca cobertura en su ciudad.
+#### Estadísticas y Aspectos Comunes
 
-**Puntos clave:**
-- Ha enfrentado problemas con **información desactualizada** y huariques que no están en las apps.
-- Usa aplicaciones gastronómicas con frecuencia, principalmente los **fines de semana**.
-- Considera **imprescindibles** los **mapas interactivos, filtros y recomendaciones personalizadas**.
-- Descubre huariques en **Instagram**, **Google Maps** y **TikTok**.
-- Lo que más valora es el **precio**, seguido de **reseñas confiables y fotos**.
-- Se preocupa por la **poca cobertura local** y la **publicidad excesiva**.
-- Se motiva por una app exclusiva con **reseñas sinceras** de usuarios similares.
+| Característica | Valor | Fuente |
+|----------------|-------|--------|
+| **Edad promedio** | 22.7 años | Entrevistas |
+| **Dispositivo más usado** | Smartphone (Android: 28.6%, iPhone: 21.4%) | Encuesta (n=14) |
+| **Navegador preferido** | Chrome (28.6%), Safari (14.3%) | Encuesta (n=14) |
+| **Apps para gestionar servicios** | WhatsApp (28.6%), Facebook Marketplace (14.3%) | Encuesta (n=14) |
+| **Canales para publicar autos** | Facebook Marketplace (57.1%), TikTok/Instagram (42.9%) | Entrevistas + Encuesta |
+| **Marcas confiables** | Toyota (57.1%), Kia (50%), Hyundai (28.6%) | Encuesta (n=14) |
+| **Personalidad al prestar algo valioso** | "Confío si hay garantías" (28.6%), "Muy precavido/a" (21.4%) | Encuesta (n=14) |
 
-<br>
+#### Características Objetivas
 
-**Joaquín Cuentas (23 años)**
+| Característica | Descripción | Relación con Entrevistas |
+|----------------|-------------|--------------------------|
+| **Uso predominante de smartphones** | 50% de los propietarios usan Android o iPhone como dispositivo principal. | Confirma que todas las entrevistas (Alisa, Mathías, Mauricio) manejan todo desde su celular. |
+| **Gestión manual de inventario** | 100% usan Excel o hojas de cálculo manuales. | Alisa usa Google Sheets; Mathías también; Mauricio lo menciona explícitamente. |
+| **Publicación en redes sociales** | 71.4% publican en Facebook Marketplace, TikTok o Instagram. | Todas las entrevistas confirmaron uso de estas plataformas. |
+| **Requisitos mínimos de validación** | DNI, licencia vigente, selfie con documento, depósito (S/500). | Mencionado por todos los entrevistados. |
+| **Desconfianza en plataformas actuales** | 71.4% no confían en apps formales por altas comisiones o falsificaciones. | Mathías menciona screenshots falsos; Alisa dice “nula confianza”. |
+| **Interés en sistema de reputación compartida** | 100% valoran ver reseñas de otros dueños sobre clientes. | “Sería mi salvación” (Mathías), “mi salvavidas” (Alisa). |
 
-No suele utilizar aplicaciones para buscar huariques de manera frecuente, solo entre una o dos veces al mes cuando quiere salir con amigos o probar algo diferente. Principalmente, descubre lugares en TikTok e Instagram, y ocasionalmente en Google Maps. Al elegir un sitio, lo que más valora son las fotos reales y las reseñas genuinas, junto con el precio y la cercanía. Una de las dificultades que ha encontrado es que los huariques casi nunca aparecen en las apps, predominando los restaurantes conocidos, y la información muchas veces es incompleta o las fotos no son de calidad. Se sentiría motivado a usar una app que presente sitios auténticos y confiables, siempre que sea sencilla de usar. Considera imprescindibles fotos reales, reseñas honestas, un mapa interactivo, filtros de precio y la opción de guardar favoritos. Sus preocupaciones principales son que la información no sea fiable, que la app lo envíe a lugares cerrados o de mala calidad, y que la app sea lenta o difícil de usar.
+#### Características Subjetivas
 
-**Puntos clave:**
-- **Uso esporádico** de apps (1-2 veces al mes).
-- Descubre huariques principalmente en **Google Maps** y **redes sociales**.
-- Valora **precio**, **reseñas reales**, **fotos**, y **cercanía del huarique**.
-- **Problemas**: huariques invisibles, **fotos deficientes** y **información incompleta**.
-- Se siente motivado por una app **confiable** y **auténtica**.
-- **Funcionalidades imprescindibles**: reseñas honestas, fotos reales, filtros, **mapa interactivo** y favoritos.
-- **Preocupaciones**: **lugares cerrados**, **información falsa**,**complicada la usabilidad** o **app lenta**.
+| Característica | Descripción | Relación con Entrevistas |
+|----------------|-------------|--------------------------|
+| **Preocupación por seguridad y riesgo** | Alta sensibilidad a fraudes, daños no reportados, y pérdida de dinero. | “He tenido gente que paga con foto falsa” (Mathías); “me robó el depósito” (Alisa). |
+| **Deseo de control total** | Buscan tener dominio absoluto sobre quién alquila su auto. | Prefieren videollamadas (Mauricio), selfies (Alisa), y videos de presentación (Mathías). |
+| **Necesidad de eficiencia** | Quieren soluciones que ahorren tiempo y reduzcan estrés. | “Me pierdo horas organizando” (Mathías); “quiero tenerlo todo en un solo lugar” (Mathías). |
+| **Visión emprendedora** | Tratan el alquiler como negocio, no como favor. | “Es mi ingreso principal” (Mathías); “para pagar mis clases” (Alisa). |
+| **Resistencia a modelos tradicionales** | No confían en apps grandes ni en sistemas rígidos. | “No confío en apps formales por las altas comisiones” (Mathías). |
 
-<br>
+#### Hallazgos Clave
 
-**Alexis Encalada (22 años)**
+- **El 71.4% de los propietarios confía más en marcas como Toyota y Kia**, lo que indica una preferencia por vehículos seguros, confiables y con buena reputación.
+- **El 100% considera crucial poder calificar a los clientes después del alquiler**, ya que esto les permite protegerse y advertir a otros.
+- **El 78.6% está dispuesto a pagar hasta S/30/mes por una app que centralice gestión, alertas y reputación**, lo que demuestra disposición económica si el valor percibido es alto.
+- **La desconfianza en plataformas actuales es mayoritaria (71.4%)**, por lo que un nuevo modelo debe ofrecer verificación real y transparencia.
+- **El uso de tecnología es móvil-first**: todos los entrevistados gestionan todo desde su celular, lo que exige una app intuitiva y funcional en móviles.
 
-Alexis es un estudiante que busca nuevos lugares para comer con frecuencia, principalmente los fines de semana. Descubre opciones gastronómicas a través de TikTok, Instagram y Google Maps, plataformas que consulta de manera habitual antes de decidir a dónde ir. Para él, el precio es el factor más determinante, aunque también valora la experiencia completa del lugar, considerando la calidad de la atención, las fotos de los platos y las reseñas de otros usuarios. Entre sus principales dificultades señala encontrar información desactualizada en las apps, lo que en ocasiones lo lleva a llegar a locales cerrados, y la escasa visibilidad que tienen los huariques en las plataformas convencionales. Se motivaría a usar una app especializada si esta le ofrece reseñas confiables, filtros por tipo de comida, precio y ubicación, un mapa interactivo y recomendaciones personalizadas. Sus principales preocupaciones son que la información no sea veraz y que la plataforma esté saturada de publicidad o cuente con pocas opciones locales.
+### Estadisticas:
 
-**Puntos clave:**
-- Usa apps **frecuentemente**, casi cada semana.
-- Descubre lugares en **TikTok, Instagram y Google Maps**.
-- Valora **precio, experiencia completa, fotos y reseñas** sobre atención y comida.
-- Problemas: **información desactualizada, poca visibilidad de huariques pequeños**.
-- Se motiva por una app **confiable y especializada en huariques**.
-- Imprescindibles: **filtros por comida, precio y ubicación, mapa interactivo, recomendaciones**.
-- Preocupaciones: **información falsa, publicidad excesiva, pocas opciones locales**.
+![Estadistica-1a](https://imgur.com/GVALfYx.png)
 
-<br>
+![Estadistica-1b](https://imgur.com/r2mqGeh.png)
 
-<u><strong>Segmento Objetivo #2: Dueños y Administradores de Huariques
-</strong></u>
+![Estadistica-1c](https://imgur.com/p4m5eKp.png)
 
-**Wildor Villalobos (28 años)**
+![Estadistica-1d](https://imgur.com/j7yka1l.png)
 
-Wildor es propietario de un huarique especializado en pan con chicharrón que utiliza Instagram y TikTok como sus principales canales de promoción, destacando que los reels generan un alcance significativamente mayor que las publicaciones estáticas. Sus mayores dificultades son la alta competencia en el sector, la complejidad del algoritmo de las redes sociales y la necesidad de invertir constantemente en publicidad para mantener visibilidad. Valora especialmente contar con métricas claras que le indiquen cuántos usuarios encuentran su negocio y qué tan efectiva es la plataforma para atraer clientes, todo a través de una interfaz simple con gráficos directos. Actualmente invierte entre S/ 20 y S/ 50 mensuales en publicidad en redes, por lo que estaría dispuesto a destinar ese mismo presupuesto en una plataforma especializada, siempre que los resultados sean equivalentes o superiores. Su objetivo principal es incrementar sus ventas de forma tangible.
+![Estadistica-1e](https://imgur.com/B9IsA1P.png)
 
-**Puntos clave:**
-- Usa **Instagram y TikTok** como canales principales de promoción.
-- Problemas: **alta competencia, algoritmos complejos, inversión constante en publicidad**.
-- Valora **métricas claras y directas** sobre alcance e impacto real en clientes.
-- Prefiere **interfaz simple con gráficos directos**.
-- Dispuesto a pagar **S/ 20–50 mensuales** si rinde igual o mejor que sus redes actuales.
-- Expectativa: que la plataforma **genere más clientes y aumente sus ventas**.
+![Estadistica-1f](https://imgur.com/upEuUMH.png)
 
-<br>
+---
 
-**Piero Tapia (26 años)**
+### Segmento 2: Inquilinos de Vehículos
 
-Piero es dueño de una sandwichería cuya clientela proviene principalmente del tráfico físico de la zona, ya que no cuenta con presupuesto para marketing digital ni con experiencia suficiente en redes sociales o pagos en línea. Aunque utiliza apps de comida como consumidor, como negocio no se siente capaz de afiliarse a ellas porque las percibe como poco intuitivas. Sus principales retos son la falta de conocimientos digitales, la dificultad para captar al público adecuado y la complejidad de los procesos de afiliación. Para él es fundamental que la plataforma sea fácil de aprender y manejar, con comisiones bajas que no afecten el precio de sus productos ni reduzcan su demanda. Además, espera contar con soporte y orientación progresiva para mejorar su gestión digital. Propone un modelo de tarifas escalonado que se adapte a negocios en distintas etapas de crecimiento. Su expectativa principal es generar más clientes presenciales y ventas reales, no solo visibilidad sin conversión.
+#### Estadísticas y Aspectos Comunes
 
-**Puntos clave:**
-- No usa plataformas digitales; depende del **tráfico físico** en su local.
-- Problemas: **falta de presupuesto, poco conocimiento digital, dificultad con afiliaciones y pagos en línea**.
-- Valora: **facilidad de uso, comisiones bajas y soporte práctico para aprender**.
-- Sugiere un **modelo de tarifas escalonado** para negocios en distintas etapas.
-- Expectativa: **atraer más clientes reales y aumentar ventas**, más allá de la visibilidad.
+| Característica | Valor | Fuente |
+|----------------|-------|--------|
+| **Edad promedio** | 21.3 años | Entrevistas |
+| **Dispositivo más usado** | Smartphone (iPhone: 25%, Android: 37.5%) | Encuesta (n=8) |
+| **Canal de búsqueda de autos** | Redes sociales (TikTok, Instagram: 25%), Grupos de Facebook (25%) | Encuesta (n=8) |
+| **App preferida para reservar** | Instagram (37.5%), Chrome (37.5%) | Encuesta (n=8) |
+| **Estilo de consumo** | Investigador/a (25%), Ahorrativo/a (25%), Influenciable (25%) | Encuesta (n=8) |
+| **Canales para resolver dudas** | Grupos de WhatsApp (21.4%), YouTube (14.3%), Google (14.3%) | Encuesta (n=14) |
+| **Factores que desaniman** | Desconfianza (62.5%), precio alto (25%), depósitos en efectivo (12.5%) | Entrevistas + Encuesta |
 
-<br>
+#### Características Objetivas
 
-**Gabriela Vasquez (23 años)**
+| Característica | Descripción | Relación con Entrevistas |
+|----------------|-------------|--------------------------|
+| **Búsqueda en redes sociales** | 50% busca en TikTok, Instagram o grupos de Facebook. | Claudia y Angie confirman uso de TikTok y Facebook Marketplace. |
+| **Uso de dispositivos móviles** | 62.5% usa smartphone como dispositivo principal. | Todas las entrevistas (Claudia, Gabriel, Angie) usan celular exclusivamente. |
+| **Dependencia de recomendaciones** | 25% se guía por recomendaciones de amigos. | Gabriel dice: “prefiero recomendaciones familiares”; Claudia: “por amigas”. |
+| **Rechazo a tarjetas de crédito** | 50% no tiene tarjeta y odia que la exijan. | Angie y Claudia mencionan explícitamente este problema. |
+| **Deseo de reservar con anticipación** | 100% considera útil reservar desde una app. | Angie: “quiero certeza, no esperar horas”; Claudia: “me notifique si se cancela”. |
+| **Necesidad de ver reseñas antes de alquilar** | 100% valora mucho revisar reseñas. | “Si alguien dice ‘me robó el depósito’, lo evito” (Angie); “si dice ‘es honesto’, confío” (Claudia). |
 
-Gabriela es propietaria de una juguería artesanal que opera principalmente gracias al tránsito local y el boca a boca, sin utilizar redes sociales ni plataformas digitales para promocionar su negocio. Los procesos de afiliación a apps de delivery o pagos digitales le resultan poco intuitivos y confusos. Su principal reto es ganar visibilidad sin perder la sencillez que caracteriza a su negocio, buscando atraer nuevos clientes sin invertir grandes sumas ni enfrentarse a procesos tecnológicos complejos. Valora que la plataforma sea fácil de usar, visualmente atractiva y accesible para personas sin experiencia en marketing digital, y considera importante contar con tutoriales o asesoría integrada que la guíe paso a paso. Propone un sistema de planes por niveles que se adapte al crecimiento progresivo del negocio sin exigir grandes pagos iniciales. Su expectativa principal es incrementar el flujo de clientes presenciales en su juguería, priorizando resultados concretos por encima de la presencia digital.
+#### Características Subjetivas
 
-**Puntos clave:**
-- No usa redes ni apps para promoción; depende del **tránsito local y el boca a boca**.
-- Problemas: **poca experiencia digital, dificultad con afiliaciones y pagos en línea**.
-- Valora: **facilidad de uso, diseño atractivo y orientación paso a paso**.
-- Busca **visibilidad real sin altos costos publicitarios**.
-- Prefiere un **modelo de membresía escalonado** (básico, intermedio, avanzado).
-- Expectativa: **aumentar la clientela presencial y fortalecer la identidad de su juguería**.
+| Característica | Descripción | Relación con Entrevistas |
+|----------------|-------------|--------------------------|
+| **Alta desconfianza en plataformas abiertas** | Temen fraudes, fotos falsas, autos mal mantenidos. | “Las fotos son de otro auto” (Angie); “no confío en nada sin video” (Angie). |
+| **Busca seguridad y transparencia** | Quiere saber que el auto es real, limpio y seguro. | “Quiero buena reputación” (Angie); “si me engaña, quiero que otros lo sepan” (Claudia). |
+| **Valoriza la comunidad y la reputación** | Considera que dejar reseñas es parte de su identidad digital. | “Es mi forma de justicia” (Claudia); “quiero que sepan si alguien fue deshonesto” (Angie). |
+| **Frustración con procesos manuales** | Odia depósitos en efectivo, falta de confirmación, espera larga. | “No me gusta el depósito en efectivo” (Angie); “no quiero esperar horas” (Claudia). |
+| **Prefiere soluciones simples y rápidas** | No quiere llenar formularios largos ni usar apps complicadas. | “No quiero aprender muchas cosas” (Claudia); “todo debe ser rápido” (Gabriel). |
 
-### 2.3. Needfinding
-#### 2.3.1. User Personas
+#### Hallazgos Clave
 
-Para comprender en profundidad las necesidades, motivaciones y comportamientos de los usuarios clave, se desarrollaron dos perfiles representativos que sintetizan las características, objetivos y puntos de dolor de cada segmento objetivo. Estos perfiles fueron construidos a partir de los hallazgos obtenidos durante las entrevistas y el proceso de needfinding, y sirven como referencia central para la toma de decisiones de diseño y desarrollo a lo largo del proyecto.
+- **El 62.5% de los inquilinos se siente desanimado por la desconfianza**, lo que indica que la **seguridad y verificación son barreras principales**.
+- **El 100% valora las reseñas de otros usuarios como herramienta clave para decidir**, lo que refuerza la necesidad de un sistema de reputación compartida.
+- **El 75% prefiere buscar en redes sociales (TikTok, Instagram, Facebook)**, lo que sugiere que cualquier plataforma debe estar integrada con estos canales.
+- **El 50% no tiene tarjeta de crédito**, por lo que el modelo debe permitir pagos digitales sin esa dependencia.
+- **El 100% estaría dispuesto a pagar hasta S/15/mes por una app que garantice una reserva segura**, lo que muestra disposición económica si se ofrece valor claro.
 
-**Persona 1: Carla, la Exploradora Gastronómica**
+### Estadisticas:
 
-Carla representa a los usuarios jóvenes y activos interesados en descubrir opciones gastronómicas auténticas y económicas que escapan de las ofertas convencionales. Es una usuaria frecuente de aplicaciones digitales, descubre nuevos lugares principalmente a través de redes sociales y valora especialmente la confiabilidad de las reseñas, la facilidad de navegación y el acceso a información clara sobre precios y ubicación. Su principal frustración es que las grandes plataformas no visibilizan los huariques que realmente busca, obligándola a depender del boca a boca o de contenido informal en redes sociales.
+![Estadistica-2a](https://imgur.com/ji3Jj9X.png)
 
-![](https://i.imgur.com/HHRB0H0.png)
+![Estadistica-2b](https://imgur.com/6Ar8kq1.png)
 
-<br>
+![Estadistica-2c](https://imgur.com/N6qxCj9.png)
 
-**Persona 2: Don Luis, Dueño de Huarique Tradicional**
+![Estadistica-2d](https://imgur.com/B1qzKsE.png)
 
-Don Luis encarna a los pequeños emprendedores gastronómicos que necesitan herramientas accesibles y prácticas para promocionar su negocio y aumentar su clientela. Con experiencia limitada en tecnología digital, depende principalmente del tráfico físico y el boca a boca para atraer clientes. Busca una solución sencilla que le permita gestionar su presencia en línea sin complicaciones técnicas ni costos elevados, y que le genere resultados concretos en términos de nuevos clientes y visibilidad real de su negocio.
+![Estadistica-2e](https://imgur.com/hJxeHNb.png)
 
-![](https://i.imgur.com/mW7LkNg.png)
+![Estadistica-2f](https://imgur.com/PNGx46s.png)
 
-#### 2.3.2. User Task Matrix
 
-A continuación se presenta la matriz de tareas de usuario para los dos perfiles principales de PuntoSabor. Esta herramienta permite identificar qué actividades realiza cada perfil dentro de la plataforma, con qué frecuencia las ejecuta y qué nivel de importancia les asigna, facilitando la priorización de funcionalidades durante el desarrollo.
 
-<table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse; width:100%; font-size:11px;">
-  <thead>
-    <tr>
-      <th rowspan="2">Tarea</th>
-      <th colspan="2" style="text-align:center;">Carla Dipes</th>
-      <th colspan="2" style="text-align:center;">Don Luis Pérez</th>
-    </tr>
-    <tr>
-      <th style="text-align:center;">Frecuencia</th>
-      <th style="text-align:center;">Importancia</th>
-      <th style="text-align:center;">Frecuencia</th>
-      <th style="text-align:center;">Importancia</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Buscar huariques en la app web</td>
-      <td style="text-align:center;">Siempre</td>
-      <td style="text-align:center;">Muy Alta</td>
-      <td style="text-align:center;">Raramente</td>
-      <td style="text-align:center;">Muy Alta</td>
-    </tr>
-    <tr>
-      <td>Consultar reseñas y calificaciones</td>
-      <td style="text-align:center;">Casi Siempre</td>
-      <td style="text-align:center;">Muy Alta</td>
-      <td style="text-align:center;">Aveces</td>
-      <td style="text-align:center;">Media</td>
-    </tr>
-    <tr>
-      <td>Visualizar mapas con geolocalización</td>
-      <td style="text-align:center;">Siempre</td>
-      <td style="text-align:center;">Alta</td>
-      <td style="text-align:center;">Raramente</td>
-      <td style="text-align:center;">Baja</td>
-    </tr>
-    <tr>
-      <td>Actualizar información del huarique</td>
-      <td style="text-align:center;">Nunca</td>
-      <td style="text-align:center;">Nunca</td>
-      <td style="text-align:center;">Casi Siempre</td>
-      <td style="text-align:center;">Alta</td>
-    </tr>
-    <tr>
-      <td>Responder a reseñas</td>
-      <td style="text-align:center;">Aveces</td>
-      <td style="text-align:center;">Media</td>
-      <td style="text-align:center;">Aveces</td>
-      <td style="text-align:center;">Media</td>
-    </tr>
-    <tr>
-      <td>Compartir opiniones y fotos</td>
-      <td style="text-align:center;">Aveces</td>
-      <td style="text-align:center;">Media</td>
-      <td style="text-align:center;">Baja</td>
-      <td style="text-align:center;">Media</td>
-    </tr>
-  </tbody>
-</table>
+### Validación de Supuestos Lean UX
 
-<br>
+| Supuesto del Lean UX | Validado? | Justificación |
+|----------------------|---------|-------------|
+| "Los propietarios necesitan una solución para gestionar múltiples autos." | Sí | 100% usan Excel manualmente; Mathías gestiona 3 autos. |
+| "Los inquilinos confían más en recomendaciones que en plataformas." | Sí | Gabriel y Claudia mencionan explícitamente que prefieren recomendaciones familiares. |
+| "Un sistema de reseñas entre usuarios aumentaría la confianza." | Sí | 100% de ambos segmentos valoran ver reseñas antes de alquilar. |
+| "Una app móvil será la mejor forma de interactuar." | Sí | 100% usan smartphone como dispositivo principal. |
+| "Los usuarios están dispuestos a pagar por una experiencia segura." | Sí | Propietarios hasta S/30/mes; inquilinos hasta S/15/mes. |
 
-Las tareas más frecuentes para cada perfil muestran diferencias claras según el rol y las necesidades de cada uno. Carla Dipes, como exploradora gastronómica, utiliza la plataforma de forma activa y constante para buscar huariques, consultar reseñas y utilizar la función de mapas con geolocalización, considerándolas cruciales para su experiencia de descubrimiento. En contraste, Don Luis Pérez, como dueño de huarique, raramente usa la plataforma para buscar o visualizar mapas, enfocándose principalmente en actualizar la información de su negocio, actividad que realiza con regularidad y considera de alta importancia para atraer nuevos clientes.
+### Conclusión del Análisis
 
-**Coincidencias**  
-Ambos perfiles interactúan ocasionalmente con la funcionalidad de responder reseñas, asignándole una importancia media dentro de su experiencia en la plataforma. De igual forma, compartir opiniones y fotos representa una tarea de frecuencia e importancia similar para ambos, aunque Carla la ejecuta con mayor regularidad que Don Luis. En términos generales, las funciones relacionadas con la interacción social y la construcción de comunidad tienen un valor medio pero constante para los dos segmentos.
+Este análisis confirma que tanto **propietarios como inquilinos** enfrentan problemas reales y comunes en el proceso de alquiler de autos, principalmente relacionados con **desconfianza, falta de transparencia y gestión manual**. Ambos segmentos muestran alta receptividad a soluciones digitales, especialmente si ofrecen:
 
-**Diferencias**  
-Carla es una usuaria frecuente de las funciones de búsqueda, consulta de reseñas y mapas, ya que su objetivo principal es descubrir huariques nuevos de forma ágil y confiable. Don Luis, en cambio, tiene una frecuencia significativamente menor en estas tareas porque su rol dentro de la plataforma es esencialmente de gestión y no de exploración. La actualización de la información del huarique es la tarea de mayor frecuencia e importancia para Don Luis, mientras que Carla nunca la realiza al no ser propietaria de un negocio. Finalmente, el uso de mapas y geolocalización es determinante para la experiencia de Carla pero prácticamente irrelevante para Don Luis, dado que sus objetivos y motivaciones dentro de la plataforma son fundamentalmente distintos.
+- **Verificación de identidad**
+- **Sistema de reputación compartida**
+- **Reservas con anticipación**
+- **Pagos digitales seguros**
+- **Dashboard móvil-intuitivo**
 
-#### 2.3.3. User Journey Mapping
+Los datos estadísticos y las entrevistas convergen en una misma dirección: existe una **brecha clara en el mercado** que puede ser cubierta con una plataforma que conecte ambas partes con **confianza, seguridad y eficiencia**.
 
-El User Journey Mapping permite visualizar de forma detallada el recorrido que realiza cada perfil de usuario a lo largo de su interacción con la plataforma, desde el primer contacto hasta la etapa de fidelización o abandono. Este artefacto facilita identificar los puntos de dolor, las emociones y las oportunidades de mejora en cada etapa del proceso, orientando las decisiones de diseño hacia una experiencia más satisfactoria y coherente para ambos segmentos.
+Este análisis servirá como base para la construcción de **User Personas**, **Empathy Maps** y **User Flows**, asegurando que todo el diseño esté profundamente **centrado en el usuario real**, con evidencia empírica detrás de cada decisión.
 
-<u><strong>Segmento Objetivo #1: Exploradores Gastronómicos</strong></u>
+## 2.3. Needfinding
 
-El siguiente mapa representa el recorrido de Carla Dipes, exploradora gastronómica que busca descubrir huariques auténticos y económicos a través de la plataforma. Su journey abarca desde el momento en que toma conciencia de la existencia de la solución, pasando por el registro, la exploración activa de huariques y la construcción de su experiencia como usuaria recurrente, hasta la etapa en que evalúa si continúa usando la plataforma en función del valor que le genera.
+Para identificar las necesidades reales y prioritarias tanto de los **propietarios de vehículos** como de los **inquilinos que buscan alquilar autos**, se realizaron entrevistas en profundidad a representantes clave de ambos segmentos. A través de estas conversaciones, surgieron patrones claros: los propietarios buscan **seguridad, control y eficiencia** en la gestión de sus autos, mientras que los inquilinos priorizan **confianza, transparencia y simplicidad** en el proceso de alquiler.
 
-A lo largo de este recorrido se identifican fricciones importantes como la dificultad para diferenciar la plataforma de otras apps generalistas, la presencia de reseñas poco confiables o fotos de baja calidad, y la posible desconfianza generada por la escasez de contenido en las etapas iniciales. Las oportunidades detectadas apuntan hacia un marketing más diferenciado, un proceso de onboarding simplificado y un sistema de validación de reseñas y fotos que refuerce la credibilidad del contenido disponible.
+Este proceso de *needfinding* permitió comprender en profundidad las motivaciones, puntos de dolor y expectativas de los usuarios, sentando las bases para el diseño de una plataforma centrada en el usuario, capaz de responder eficazmente a las demandas reales del mercado de alquiler de autos en Lima.
 
-![](https://i.imgur.com/YjgsVRr.png)
+> **Enlace para ver los User Personas en UXPressia:**  
+> https://drive.google.com/drive/folders/1gfPSZzYH1iOk98j_BjI5e1GNAR5Lxt6Q?usp=sharing
 
-<u><strong>Segmento Objetivo #2: Dueños y Administradores de Huariques
-</strong></u>
 
-El siguiente mapa representa el recorrido de Don Luis Pérez, dueño de un huarique tradicional que busca aumentar su visibilidad digital y atraer nuevos clientes sin necesidad de contar con conocimientos técnicos avanzados. Su journey abarca desde el momento en que conoce la plataforma a través de otros dueños, pasando por el registro de su negocio, la gestión de su perfil y la respuesta a reseñas, hasta la etapa en que evalúa si los resultados obtenidos justifican continuar o escalar su participación en la plataforma.
+### 2.3.1. User Persona
 
-A lo largo de este recorrido se identifican fricciones relevantes como la desconfianza inicial hacia las plataformas digitales, la falta de conocimientos para gestionar métricas o estadísticas, la frustración ante la ausencia de resultados inmediatos en términos de nuevos clientes, y la complejidad percibida en los procesos de baja o modificación del perfil. Las oportunidades detectadas apuntan hacia un asistente de registro paso a paso con tutoriales visuales, un dashboard simplificado con gráficas claras y planes de membresía con estadísticas de impacto visibles que demuestren el valor concreto de la plataforma.
+Como parte del análisis del proceso de *needfinding*, se desarrollaron **User Personas** representativas de los dos segmentos principales: **Propietarios de Vehículos** e **Inquilinos de Vehículos**. Estas personas sintetizan características clave obtenidas del análisis cualitativo de las entrevistas realizadas, tales como comportamientos recurrentes, motivaciones, frustraciones, objetivos personales, dispositivos utilizados y canales de interacción tecnológica.
 
-![](https://i.imgur.com/XcJpEz8.png)
+Estas herramientas ayudan a traducir datos reales en perfiles comprensibles y accionables, orientando decisiones estratégicas sobre funcionalidades, experiencia de usuario y priorización de desarrollo técnico. Las personas creadas reflejan claramente las necesidades emergentes durante las entrevistas, facilitando un diseño más empático y efectivo de **Moveo**.
 
-#### 2.3.4. Empathy Mapping
+---
 
-A continuación se presentan los mapas de empatía elaborados para los dos perfiles principales de usuarios. Esta herramienta permite comprender en profundidad las necesidades, pensamientos, sentimientos y comportamientos de cada segmento, yendo más allá de lo que declaran explícitamente en las entrevistas para capturar también lo que piensan, sienten, escuchan y observan en su entorno. Los hallazgos obtenidos sirven como insumo clave para tomar decisiones de diseño centradas en el usuario real y no en suposiciones del equipo.
+#### Persona 1: Propietario Emprendedor Digital
 
-<u><strong>Segmento Objetivo #1: Exploradores Gastronómicos</strong></u>
+![User-persona-1](https://imgur.com/zcDBtrG.png)
 
-El mapa de empatía de Carla Dipes revela a una usuaria joven y activa que busca autenticidad y conexión con la cultura gastronómica local. Piensa y siente que las opciones que encuentra en las plataformas convencionales son genéricas y poco confiables, y se frustra cuando no logra encontrar huariques reales con información verificada. Ve un ecosistema saturado de apps que priorizan grandes cadenas y contenido disperso sobre negocios pequeños. Escucha principalmente las recomendaciones de amigos foodies, influencers locales y comunidades en redes sociales, que son su principal fuente de descubrimiento gastronómico. Sus acciones concretas incluyen buscar y filtrar opciones, guardar favoritos y dejar reseñas para ayudar a otros usuarios. Sus principales dolores son la saturación de opciones genéricas, el poco contenido confiable y las apps difíciles de usar, mientras que sus ganancias esperadas apuntan hacia una plataforma especializada, con información clara, comunidad activa y navegación sencilla.
+**Nombre:** Roy Hsie  
+**Edad:** 24 años  
+**Ocupación:** Estudiante de Administración + Emprendedor de alquiler de autos  
+**Distrito:** Surco, Lima  
+**Perfil:** Maneja 3 vehículos (auto, SUV, moto) como negocio principal. 100% digital, rápido, exigente y enfocado en resultados. Publica en TikTok e Instagram Reels. No tolera la lentitud ni la falta de seguridad.
 
-![](https://i.imgur.com/S5pw5NA.png)
+##### Motivaciones:
+- Automatizar el control de sus autos para ahorrar tiempo.
+- Evitar pérdidas económicas por clientes irresponsables o estafadores.
+- Construir una reputación sólida mediante un sistema de calificaciones compartido.
+- Tener un panel tipo “Spotify” que le muestre ingresos, disponibilidad y alertas de mantenimiento.
 
-<br>
+##### Frustraciones:
+- Gestionar todo con Google Sheets manual y desorganizado.
+- No poder verificar la identidad real de los clientes antes de entregar el auto.
+- Perder horas en mensajes de WhatsApp por confirmaciones simples.
+- Que las plataformas actuales no permitan calificar a los clientes.
+- No recibir alertas automáticas de seguro, lavado o revisión técnica.
 
-<u><strong>Segmento Objetivo #2: Dueños y Administradores de Huariques
-</strong></u>
+##### Objetivos:
+- Centralizar toda la gestión de sus vehículos en una sola app móvil.
+- Ver reseñas de otros dueños sobre clientes potenciales.
+- Enviar contratos digitales y recibir pagos automáticos (Yape/Plin).
+- Recibir notificaciones proactivas sobre el estado de cada auto.
+- Reducir estrés y errores humanos en su operación diaria.
 
-El mapa de empatía de Don Luis Pérez refleja a un emprendedor motivado a crecer pero limitado por barreras tecnológicas y recursos escasos. Piensa y siente que la tecnología lo supera, pero tiene genuinas ganas de mejorar y desea que su esfuerzo sea reconocido y recompensado con más clientes. Ve plataformas digitales que le resultan complejas o costosas, y percibe una competencia desigual frente a grandes cadenas y apps masivas que no le dan espacio. Escucha consejos de otros emprendedores y familiares, comentarios de sus clientes habituales y sugerencias sobre cómo mejorar su presencia en línea. Sus acciones actuales se limitan al uso de WhatsApp y Facebook para promoción básica, el apoyo de familiares para actualizar información y la atención personalizada para fomentar el boca a boca. Sus principales dolores son las barreras tecnológicas, los costos elevados y la baja visibilidad online, mientras que sus ganancias esperadas se concentran en una plataforma fácil, económica, con soporte técnico y resultados concretos en aumento de clientes y ventas.
+---
 
-![](https://i.imgur.com/hBRXskx.png)
+#### Persona 2: Inquilina Justiciera Digital
+
+![User-persona-2](https://imgur.com/5kPZO0O.png)
+
+**Nombre:** Gabriel Torres  
+**Edad:** 19 años  
+**Ocupación:** Estudiante universitario  
+**Distrito:** Lima
+**Perfil:** Aunque no alquila directamente, observa y aprende de la experiencia de su padre. Es analítico, precavido y valora la transparencia. Confía más en recomendaciones personales que en plataformas abiertas. Busca autos seguros, limpios y con precio justo.
+
+##### Motivaciones:
+- Alquilar un auto sin riesgos, sin depósitos en efectivo ni tarjetas de crédito.
+- Reservar con anticipación y tener confirmación inmediata.
+- Ver reseñas reales de otros usuarios sobre el dueño y el vehículo.
+- Participar en una comunidad donde se comparta honestidad y se castigue la mala fe.
+
+##### Frustraciones:
+- Fotos falsas de autos, perfiles inventados, kilómetros mentirosos.
+- Que le exijan tarjeta de crédito o depósitos en efectivo.
+- Dueños que no responden rápido o desaparecen después del pago.
+- No poder dejar una opinión si la experiencia fue mala.
+- Apps complicadas que piden muchos pasos o datos innecesarios.
+
+##### Objetivos:
+- Encontrar un auto real, limpio y seguro en menos de 10 minutos.
+- Pagar con Yape o Plin sin necesidad de tarjeta.
+- Reservar con un clic y recibir confirmación automática.
+- Dejar una reseña honesta (buena o mala) después del alquiler.
+- Sentirse protegido por un sistema de reputación bidireccional.
+
+
+### 2.3.2. User Task Matrix
+
+| **User Task Matrix**                              | **Roy Hsieh** |           | **Gabriel Torres** |           |
+|---------------------------------------------------|---------------|-----------|--------------------|-----------|
+|                                                   | Frecuencia    | Importancia | Frecuencia       | Importancia |
+| Comunicación directa con el dueño o cliente       | *Siempre*     | *Alta*    | *A menudo*        | *Alta*    |
+| Valoración del dueño o cliente                    | *Baja*        | *Alta*    | *Baja*            | *Alta*    |
+| Historial de alquileres realizados                | *Nunca*       | *Alta*    | *Nunca*           | *Media*   |
+| Acceso a los documentos de garantía del cliente o dueño | *Siempre* | *Alta*    | *Siempre*         | *Alta*    |
+| Panel de navegación de vehículos                  | *Nunca*       | *Baja*    | *Siempre*         | *Alta*    |
+| Panel de publicación de vehículos                 | *Siempre*     | *Alta*    | *Nunca*           | *Baja*    |
+
+
+**Tareas con mayor frecuencia e importancia** <br>
+
+Para Roy Hsieh, destacan la comunicación directa con el dueño o cliente, el acceso a documentos de garantía y el panel de publicación de vehículos, todas con alta importancia y ejecutadas con mucha frecuencia. 
+Esto refleja su rol enfocado en la interacción directa y en la gestión de la oferta.
+
+Para Gabriel Torres, las más relevantes son la comunicación directa con el dueño o cliente, el acceso a documentos de garantía y el panel de navegación de vehículos, lo que evidencia que su rol está más orientado al control y monitoreo de los vehículos disponibles.
+
+**Diferencias principales** <br>
+
+Roy nunca accede al historial de alquileres ni al panel de navegación, mientras que Gabriel sí utiliza con frecuencia el panel de navegación, aunque no se involucra en la publicación de vehículos.
+Esto marca un contraste claro: Roy está centrado en publicar y relacionarse con el cliente, mientras Gabriel se dedica más a la gestión operativa y seguimiento.
+
+**Coincidencias** <br>
+
+Ambos coinciden en dar alta importancia a la comunicación con el cliente y al acceso a documentos de garantía, aunque la frecuencia varía ligeramente.
+
+También consideran la valoración del dueño o cliente como poco frecuente pero siempre muy importante para la confianza en el servicio.
+
+### 2.3.3. User Journey Mapping
+
+Con el objetivo de comprender en profundidad las necesidades, comportamientos, emociones y puntos de fricción de nuestros principales segmentos de usuario, se desarrolló un User Journey Mapping utilizando la herramienta especializada UXPressia. Este proceso nos permitió visualizar de manera estructurada y empática el recorrido que cada tipo de usuario realiza desde su primera interacción hasta la experiencia completa con Custom Host.
+
+La actividad se centró en dos segmentos clave:
+
+Segmento Objetivo 1: **Propietario de vehículos** 
+
+![journey map 2](https://imgur.com/KQpnHqr.png)
+
+Se puede evidenciar el flujo de trabajo y captación de Roy para encontrar nuevos clientes, no es ideal y se encuentra frustrado con la poca seguridad que le ofrecen las plataformas gratuitas, por eso no las usa.
+
+Segmento Objetivo 2: **Inquilinos**
+
+![journey map 2](https://imgur.com/Lp7j1dd.png)
+
+Por su lado Gabriel se siente frustrado por la falta de opciones y la poca seguridad que le ofrecen las plataformas gratuitas, por ello una vez identifica dueños confiables, deja de utilizar dicha plataforma a menos que sea estrictamente necesario.
+
+### 2.3.4. Empathy Mapping
+
+Como parte del proceso de diseño centrado en el usuario para **Moveo**, se elaboraron **mapas de empatía (Empathy Maps)** para los dos segmentos clave identificados: **Propietarios de Vehículos** e **Inquilinos de Vehículos**. Esta técnica, desarrollada inicialmente por Dave Gray, permite representar de forma visual lo que el usuario **piensa, siente, dice y hace** en relación con el proceso de alquiler de autos, ayudando a comprender mejor su experiencia emocional, cognitiva y conductual.
+
+> **Objetivo del Empathy Mapping en Moveo:**  
+> Profundizar en la perspectiva del usuario más allá de sus acciones observables, explorando sus **motivaciones, miedos, frustraciones y deseos no explícitos**. Esta herramienta resulta fundamental para detectar oportunidades de mejora desde un enfoque cualitativo, complementando la información obtenida a través de entrevistas, encuestas y análisis de comportamientos. El objetivo final es diseñar una plataforma que no solo resuelva problemas funcionales, sino que también genere confianza, reduzca ansiedad y aumente la satisfacción de ambos lados de la transacción.
+
+Segmento 1: **Propietarios**
+
+![empathy map Gabriel](https://imgur.com/0Evcxvs.png)
+
+Segmento 2: **Inquilinos**
+
+![empathy map Gabriel](https://imgur.com/a6JFPF1.png)
 
 #### 2.3.5. As-is Scenario Mapping
+<u><strong>Segmento 1: Propietario (Roy)</strong></u>
+Roy quiere generar ingresos extra alquilando su auto, pero actualmente depende de grupos de Facebook, WhatsApp y recomendaciones informales para encontrar clientes. Publica fotos manualmente, responde mensajes de desconocidos y negocia precios o condiciones
 
-El As-is Scenario Mapping permite documentar la situación actual de cada segmento objetivo, describiendo cómo realizan sus actividades hoy en día, sin contar con la solución propuesta. Este artefacto evidencia los pasos que siguen, lo que piensan y sienten en cada etapa, y los puntos de dolor que experimentan a lo largo del proceso, proporcionando una base sólida para identificar oportunidades de mejora y validar la necesidad real de la plataforma.
-
-<u><strong>Segmento Objetivo #1: Exploradores Gastronómicos</strong></u>
- 
-El siguiente escenario refleja cómo Carla Dipes, representante del segmento de exploradores gastronómicos, enfrenta actualmente el proceso de descubrir y elegir un huarique para visitar. Su recorrido inicia con una búsqueda dispersa en Google Maps, redes sociales y recomendaciones de amigos, sin contar con un canal especializado. Al seleccionar una opción, se enfrenta a reseñas de dudosa confiabilidad y fotos poco representativas que generan desconfianza. Durante la visita, mantiene una expectativa positiva pero con incertidumbre, y al finalizar su experiencia, solo regresa o recomienda el lugar si la visita superó sus expectativas. A lo largo de todo este recorrido predominan emociones de frustración, confusión y decepción ante la ausencia de una plataforma confiable y especializada en huariques auténticos.
-
-![](https://i.imgur.com/ydaCBik.png)
-
-<br>
-
-<u><strong>Segmento Objetivo #2: Dueños y Administradores de Huariques
-</strong></u>
-
-El siguiente escenario describe cómo Don Luis Pérez, representante del segmento de dueños de huariques, gestiona actualmente la promoción y visibilidad de su negocio sin herramientas digitales adecuadas. Su proceso comienza dependiendo exclusivamente del boca a boca y del tráfico físico de la zona para atraer clientes, llevando su información de manera manual en cuadernos u hojas de cálculo. Al intentar ganar presencia en línea, recurre a redes sociales sin obtener resultados significativos, y su relación con los clientes se limita a la atención presencial sin ningún mecanismo de interacción digital. En cada etapa de este recorrido predominan emociones de limitación, estrés por los procesos manuales, frustración ante la falta de herramientas accesibles e impotencia frente a la competencia desigual con grandes cadenas que sí cuentan con presencia digital consolidada.
-
-![](https://i.imgur.com/krwZ6UD.png)
-
-### 2.4. Ubiquitous Language
-
-En esta sección se presenta el glosario de términos esenciales del dominio de PuntoSabor. Cada definición busca eliminar ambigüedades y garantizar una comunicación clara y coherente entre todos los miembros del equipo y stakeholders, alineando el lenguaje técnico con el lenguaje del negocio.
-
-<table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse; width:100%; font-size:11px;">
-  <thead>
-    <tr>
-      <th>Término (inglés)</th>
-      <th>Término (español)</th>
-      <th>Definición</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>Huarique</strong></td>
-      <td><strong>Huarique</strong></td>
-      <td>Pequeño restaurante tradicional peruano, generalmente familiar o local, conocido por su comida casera, auténtica y accesible. Representa el eje central de la propuesta.</td>
-    </tr>
-    <tr>
-      <td><strong>Gastronomic Explorer</strong></td>
-      <td><strong>Explorador Gastronómico</strong></td>
-      <td>Persona que busca descubrir nuevos huariques auténticos, económicos y poco conocidos, motivada por la experiencia cultural y culinaria.</td>
-    </tr>
-    <tr>
-      <td><strong>Huarique Owner</strong></td>
-      <td><strong>Dueño de Huarique</strong></td>
-      <td>Persona responsable de la gestión de un huarique, incluyendo la preparación de los platos, la atención al cliente y la administración general del negocio.</td>
-    </tr>
-    <tr>
-      <td><strong>Review</strong></td>
-      <td><strong>Reseña</strong></td>
-      <td>Opinión o evaluación escrita por un cliente sobre su experiencia en un huarique, que incluye comentarios sobre el servicio, el ambiente y la calidad de los platos.</td>
-    </tr>
-    <tr>
-      <td><strong>Recommendation</strong></td>
-      <td><strong>Recomendación</strong></td>
-      <td>Sugerencia realizada por un cliente para que otros visitantes conozcan o prueben un huarique en particular.</td>
-    </tr>
-    <tr>
-      <td><strong>Favorite</strong></td>
-      <td><strong>Favorito</strong></td>
-      <td>Huarique que un cliente destaca como preferido por la calidad de su experiencia, y al cual desea regresar o recomendar.</td>
-    </tr>
-    <tr>
-      <td><strong>Culinary Tradition</strong></td>
-      <td><strong>Tradición Culinaria</strong></td>
-      <td>Conjunto de prácticas, recetas y costumbres gastronómicas propias de los huariques, que aportan valor cultural a la experiencia gastronómica.</td>
-    </tr>
-    <tr>
-      <td><strong>Community Interaction</strong></td>
-      <td><strong>Interacción Comunitaria</strong></td>
-      <td>Relación entre clientes y dueños de huariques mediante el intercambio de experiencias, reseñas y recomendaciones que fortalecen la confianza y visibilidad de los negocios.</td>
-    </tr>
-    <tr>
-      <td><strong>Membership</strong></td>
-      <td><strong>Membresía</strong></td>
-      <td>Acuerdo económico mediante el cual un dueño de huarique accede a beneficios adicionales de promoción y visibilidad dentro del ecosistema de la plataforma.</td>
-    </tr>
-  </tbody>
-</table>
-
-## Capítulo III: Requirements Specification
-### 3.1. To-Be Scenario Mapping
-### Segmento 1
-![](https://i.imgur.com/XgLuJCn.png)
-
-### Segmento 2
-![](https://i.imgur.com/AfTd9Dv.png)
-
-### 3.2. User Stories
-En esta sección se presentan los requisitos definidos para PuntoSabor, expresados mediante User Stories y Epics. Cada User Story incluye criterios de aceptación claros y comprobables, redactados en tiempo presente y tercera persona, siguiendo la estructura Gherkin (Given-When-Then). Se considera tanto la experiencia del usuario en la app web como aspectos técnicos del desarrollo, incluyendo historias técnicas para el RESTful API.
-
-A continuación, se muestra un cuadro resumen con los Epics y User Stories definidos, sus descripciones, criterios de aceptación y relaciones entre ellos 
-
-| Epic | Título | Descripción |
-|------|--------|-------------|
-| EP01 | Descubrimiento de Huariques | Como explorador gastronómico, quiero buscar y descubrir huariques locales para elegir dónde comer. |
-| EP02 | Gestión de Huariques | Como dueño, quiero registrar y actualizar la información de mi huarique para mantenerlo visible. |
-| EP03 | Interacción Comunitaria | Como usuario, quiero dejar reseñas y calificaciones para compartir mi opinión. |
-| EP04 | Información del Sitio Web Estático | Como visitante, quiero acceder a una landing page con información clara sobre PuntoSabor y sus servicios. |
-| EP05 | Notificaciones y Alertas | Como usuario, quiero recibir notificaciones sobre novedades, promociones o actualizaciones. |
-| EP06 | Servicios Técnicos y API | Como developer, necesito APIs RESTful para gestionar huariques, usuarios y búsquedas. |
-| EP07 | Seguridad y Autenticación | Como usuario, quiero que mis datos estén protegidos y acceder con autenticación segura. |
-| EP08 | Personalización y Recomendador | Como usuario, quiero recibir sugerencias ajustadas a mis preferencias y búsquedas previas, para descubrir huariques relevantes a mis gustos y presupuesto. |
-| EP09 | Calidad de Datos y Verificación | Como usuario, quiero que la plataforma valide horarios, estado abierto/cerrado y datos clave de los huariques para no perder tiempo en información desactualizada. |
-| EP10 | Monetización y Facturación | Como dueño de huarique, quiero acceder a planes de membresía claros y a facturación transparente para mejorar la visibilidad de mi negocio. |
-
-
-|Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
-|-----------------|--------|-------------|-------------------------|---------------------------|
-| US01 | Búsqueda avanzada | Como usuario, puedo filtrar huariques por ubicación, tipo de comida y precio para una búsqueda eficiente. | Escenario 1: Filtrado con resultados. Dado que el usuario aplica filtros válidos, Cuando realiza la búsqueda, Entonces la app muestra huariques que cumplen esos filtros. Escenario 2: Filtrado sin resultados Dado que el usuario aplica filtros estrictos sin coincidencias, Cuando realiza la búsqueda, Entonces aparece un mensaje de "No se encontraron huariques con esos filtros". Escenario 3: Búsqueda sin filtros Dado que el usuario no aplica filtros, Cuando realiza la búsqueda, Entonces la app muestra todos los huariques disponibles. | EP01 |
-| US02 | Visualización en mapa | Como usuario, quiero ver la ubicación de los huariques en un mapa para facilitar la visita. | Escenario 1: Mostrar mapa con marcadores Dado que el usuario accede a la vista de mapa, Cuando se carga la página, Entonces el mapa muestra marcadores para cada huarique visible según la búsqueda. Escenario 2: Selección de marcador Dado que el usuario selecciona un marcador en el mapa, Cuando hace clic en el marcador, Entonces se muestra un resumen con el nombre, dirección y calificación del huarique. | EP01 |
-| US03 | Guardar favoritos | Como usuario, puedo guardar huariques para acceder fácilmente después. | Escenario 1: Guardar huarique como favorito Dado que el usuario marca un huarique como favorito, Cuando confirma la acción, Entonces se guarda en su lista personal. Escenario 2: Acceder lista de favoritos Dado que el usuario accede a su lista de favoritos, Cuando la abre, Entonces puede ver y seleccionar huariques guardados. | EP01|
-| US04 | Registro de nuevo huarique | Como dueño, puedo registrar un nuevo huarique con información básica para aparecer en la plataforma. | Escenario 1: Registro exitoso Dado que el dueño completa los campos requeridos, Cuando envía el formulario, Entonces el huarique se registra y aparece en la app. Escenario 2: Campos obligatorios faltantes Dado que el dueño no completa todos los campos obligatorios, Cuando intenta registrar, Entonces la app muestra errores indicando campos faltantes. | EP02 |
-| US05 | Actualización de información | Como dueño, puedo modificar los datos de mi huarique para mantenerlos actualizados. | Escenario 1: Actualización exitosa Dado que el dueño edita la información, Cuando hace clic en guardar, Entonces los datos se actualizan correctamente. Escenario 2: Error en datos incompletos Dado que el dueño deja un campo obligatorio vacío, Cuando intenta guardar, Entonces la app muestra un error indicando llenar el campo. | EP02 |
-| US06 | Gestión multimedia | Como dueño, puedo subir fotos y videos para mostrar mi huarique. | Escenario 1: Subida exitosa Dado que el dueño selecciona archivo válido, Cuando lo sube, Entonces se añade multimedia al perfil del huarique. Escenario 2: Archivo inválido Dado que el archivo no es compatible, Cuando intenta subirlo, Entonces la app muestra un error indicando tipos permitidos. | EP02 |
-| US07 | Envío de reseñas | Como usuario, puedo dejar una reseña y calificación en un huarique. | Escenario 1: Envío exitoso Dado que el usuario completa la reseña y la calificación, Cuando confirma el envío, Entonces la reseña aparece visible para todos los usuarios. Escenario 2: Restricción de una reseña por huarique Dado que el usuario ya dejó una reseña en el huarique, Cuando intenta dejar otra, Entonces la app impide la acción con mensaje informativo. | EP03 |
-| US08 | Moderación automática | Como sistema, debo detectar reseñas inapropiadas y bloquearlas. | Escenario 1: Detección de contenido inapropiado Dado que la reseña contiene lenguaje ofensivo, Cuando se intenta publicar, Entonces el sistema bloquea o marca la reseña para revisión. | EP03 |
-| US09 | Presentación de beneficios | Como visitante, puedo ver las ventajas de PuntoSabor en la landing page. | Escenario 1: Carga de landing page Dado que el visitante entra al sitio, Cuando se carga la página, Entonces se muestran claramente los beneficios para usuarios y dueños. | EP04 |
-| US10 | Formulario de contacto | Como visitante, puedo enviar consultas a través de un formulario. | Escenario 1: Envío exitoso Dado que el visitante completa el formulario correctamente, Cuando lo envía, Entonces el equipo recibe la consulta y confirma recepción. Escenario 2: Campos obligatorios Dado que el visitante no completa datos requeridos, Cuando intenta enviar, Entonces la app muestra errores indicando los campos faltantes. | EP04 |
-| US11 | Configuración de notificaciones | Como usuario, puedo activar o desactivar notificaciones a mi preferencia. | Escenario 1: Guardar preferencias Dado que el usuario cambia su configuración, Cuando guarda, Entonces las preferencias se aplican correctamente. | EP05 |
-| US12 | Notificación de nuevas reseñas | Como dueño, recibo alertas cuando hay reseñas nuevas en mi huarique. | Escenario 1: Alerta por nueva reseña Dado que un usuario publica una reseña, Cuando ésta es aprobada, Entonces el dueño recibe una notificación inmediata. | EP05 |
-| US13 | API de búsqueda | Como developer, puedo consultar huariques filtrando por parámetros vía API. | Escenario 1: Consulta con filtros Dado que la petición API incluye criterios, Cuando se procesa, Entonces devuelve resultados acordes a los filtros. Escenario 2: Consulta sin horarios válidos Dado que la petición API tiene parámetros inválidos, Cuando se procesa, Entonces devuelve error o mensaje claro. | EP06 |
-| US14 | API de registro y actualización | Como developer, puedo crear y actualizar huariques a través de la API. | Escenario 1: Creación exitosa Dado que la petición contiene datos válidos, Cuando se procesa, Entonces se crea un nuevo huarique y responde con éxito. Escenario 2: Actualización exitosa Dado que se envían datos para modificar un huarique existente, Cuando se procesa, Entonces se actualizan los datos y responde con éxito. | EP06 |
-| US15 | Registro y login seguro | Como usuario, puedo crear cuenta y acceder con credenciales seguras. | Escenario 1: Registro exitoso Dado que el usuario completa datos válidos, Cuando envía el formulario, Entonces la cuenta se crea y puede iniciar sesión. Escenario 2: Login con credenciales incorrectas Dado que el usuario ingresa datos erróneos, Cuando intenta iniciar sesión, Entonces recibe mensaje de error y no accede. | EP07 |
-| US16 | Recuperación de contraseña | Como usuario, puedo recuperar mi contraseña en caso de olvido. | Escenario 1: Solicitud de recuperación Dado que usuario solicita recuperación, Cuando facilita su correo válido, Entonces recibe instrucciones para restablecer contraseña. | EP07 |
-| US17 | Configuración de preferencias | Como usuario, puedo guardar mis preferencias de tipo de cocina, presupuesto y ubicación para recibir recomendaciones personalizadas. | Escenario 1: Guardar preferencias. Dado que ingreso mis preferencias, Cuando confirmo, Entonces se almacenan en mi perfil. Escenario 2: Recomendaciones aplicadas. Dado que tengo preferencias guardadas, Cuando entro a “Recomendados”, Entonces aparecen huariques que cumplen esos criterios. | EP08 |
-| US18 | Recomendador automático | Como usuario, quiero que la app me sugiera huariques basados en mi historial de búsquedas y favoritos. | Escenario 1: Con historial. Dado que ya busqué huariques, Cuando accedo a “Recomendados”, Entonces aparecen opciones similares. Escenario 2: Sin historial. Dado que no tengo historial, Cuando accedo a “Recomendados”, Entonces aparecen sugerencias populares de la zona. | EP08 |
-| US19 | Sugerencias por ubicación | Como usuario, quiero recibir recomendaciones de huariques cercanos a mi ubicación actual. | Escenario 1: Geolocalización activada. Dado que otorgo permiso de ubicación, Cuando accedo a “Cerca de mí”, Entonces se muestran huariques dentro del radio definido. Escenario 2: Sin permisos. Dado que no otorgo acceso a ubicación, Cuando accedo a “Cerca de mí”, Entonces la app solicita permisos o permite búsqueda manual. | EP08 |
-| US20 | Verificación de horarios | Como usuario, quiero que la app me muestre si el horario de un huarique ha sido confirmado recientemente. | Escenario 1: Confirmado. Dado que un dueño actualiza su horario, Cuando entro al perfil, Entonces aparece la etiqueta “Horario verificado”. Escenario 2: Sin confirmar. Dado que no hay actualizaciones recientes, Cuando entro al perfil, Entonces aparece la etiqueta “Horario no verificado”. | EP09 |
-| US21 | Reporte de información incorrecta | Como usuario, puedo reportar si un huarique tiene datos erróneos (dirección, horario, estado). | Escenario 1: Reporte enviado. Dado que detecto un error, Cuando envío el reporte, Entonces queda registrado en el sistema. Escenario 2: Corrección aplicada. Dado que la información fue revisada, Cuando el administrador actualiza, Entonces el huarique refleja el cambio. | EP09 |
-| US22 | Validación automática de estado | Como sistema, quiero mostrar si un huarique está abierto o cerrado en tiempo real mediante verificación cruzada con reseñas recientes o interacción del dueño. | Escenario 1: Estado confirmado. Dado que el sistema valida apertura con datos recientes, Cuando el usuario accede al perfil, Entonces se muestra “Abierto ahora” o “Cerrado”. Escenario 2: Datos inciertos. Dado que no hay datos suficientes, Cuando accede al perfil, Entonces aparece la alerta “Estado no confirmado”. | EP09 |
-| US23 | Planes de membresía | Como dueño, quiero poder elegir entre planes de membresía con distintos beneficios (básico, pro) para dar mayor visibilidad a mi huarique. | Escenario 1: Selección de plan. Dado que elijo un plan, Cuando confirmo, Entonces la suscripción queda activa. Escenario 2: Cambio de plan. Dado que deseo cambiar de plan, Cuando lo solicito, Entonces la app actualiza la suscripción al finalizar el periodo vigente. | EP10 |
-| US24 | Pago de suscripción | Como dueño, quiero pagar mi membresía mediante tarjeta o billetera digital de forma segura. | Escenario 1: Pago válido. Dado que ingreso datos de tarjeta válidos, Cuando confirmo, Entonces la suscripción se activa y recibo comprobante. Escenario 2: Pago inválido. Dado que ingreso datos erróneos, Cuando confirmo, Entonces la app muestra un mensaje de error. | EP10 |
-| US25 | Facturación y comprobantes | Como dueño, quiero descargar facturas mensuales de mis pagos para llevar un control contable. | Escenario 1: Descarga exitosa. Dado que accedo a facturación, Cuando selecciono un mes, Entonces puedo descargar el PDF. Escenario 2: Pago fallido. Dado que hubo un problema de cobro, Cuando reviso facturación, Entonces aparece un aviso de “Pago pendiente”. | EP10 |
-| US26 | Promociones destacadas | Como dueño Pro, quiero publicar promociones que aparezcan destacadas en los listados de huariques. | Escenario 1: Crear promoción. Dado que configuro fechas y cupos, Cuando publico, Entonces la promoción aparece destacada. Escenario 2: Fin de promoción. Dado que expira la fecha límite, Cuando reviso el listado, Entonces la promoción deja de mostrarse. | EP10 |
+![As-is-roy](https://imgur.com/8Ib58hp.png)
 
-### 3.3. Product Backlog
-| # Orden | User Story ID | Título                          | Descripción                                                                 | Story Points (1 / 2 / 3 / 5 / 8) |
-|---------|---------------|----------------------------------|-----------------------------------------------------------------------------|----------------------------------|
-| 1       | US01          | Búsqueda avanzada               | Como usuario, puedo filtrar huariques por ubicación, tipo de comida y precio para una búsqueda eficiente. | 5 |
-| 2       | US02          | Visualización en mapa           | Como usuario, quiero ver la ubicación de los huariques en un mapa para facilitar la visita. | 3 |
-| 3       | US03          | Guardar favoritos               | Como usuario, puedo guardar huariques para acceder fácilmente después. | 3 |
-| 4       | US04          | Registro de nuevo huarique      | Como dueño, puedo registrar un nuevo huarique con información básica para aparecer en la plataforma. | 5 |
-| 5       | US05          | Actualización de información    | Como dueño, puedo modificar los datos de mi huarique para mantenerlos actualizados. | 3 |
-| 6       | US06          | Gestión multimedia              | Como dueño, puedo subir fotos y videos para mostrar mi huarique. | 3 |
-| 7       | US07          | Envío de reseñas                | Como usuario, puedo dejar una reseña y calificación en un huarique. | 3 |
-| 8       | US08          | Moderación automática           | Como sistema, debo detectar reseñas inapropiadas y bloquearlas. | 5 |
-| 9       | US09          | Presentación de beneficios      | Como visitante, puedo ver las ventajas de PuntoSabor en la landing page. | 2 |
-| 10      | US10          | Formulario de contacto          | Como visitante, puedo enviar consultas a través de un formulario. | 2 |
-| 11      | US11          | Configuración de notificaciones | Como usuario, puedo activar o desactivar notificaciones a mi preferencia. | 2 |
-| 12      | US12          | Notificación de nuevas reseñas  | Como dueño, recibo alertas cuando hay reseñas nuevas en mi huarique. | 2 |
-| 13      | US13          | API de búsqueda                 | Como developer, puedo consultar huariques filtrando por parámetros vía API. | 5 |
-| 14      | US14          | API de registro y actualización | Como developer, puedo crear y actualizar huariques a través de la API. | 5 |
-| 15      | US15          | Registro y login seguro         | Como usuario, puedo crear cuenta y acceder con credenciales seguras. | 5 |
-| 16      | US16          | Recuperación de contraseña      | Como usuario, puedo recuperar mi contraseña en caso de olvido. | 2 |
-| 17      | US17          | Configuración de preferencias   | Como usuario, puedo guardar mis preferencias de tipo de cocina, presupuesto y ubicación para recibir recomendaciones personalizadas. | 3 |
-| 18      | US18          | Recomendador automático         | Como usuario, quiero que la app me sugiera huariques basados en mi historial de búsquedas y favoritos. | 5 |
-| 19      | US19          | Sugerencias por ubicación       | Como usuario, quiero recibir recomendaciones de huariques cercanos a mi ubicación actual. | 3 |
-| 20      | US20          | Verificación de horarios        | Como usuario, quiero que la app muestre si el horario de un huarique ha sido confirmado recientemente. | 3 |
-| 21      | US21          | Reporte de información incorrecta | Como usuario, puedo reportar si un huarique tiene datos erróneos (dirección, horario, estado). | 2 |
-| 22      | US22          | Validación automática de estado | Como sistema, quiero mostrar si un huarique está abierto o cerrado en tiempo real mediante verificación cruzada. | 5 |
-| 23      | US23          | Planes de membresía             | Como dueño, quiero poder elegir entre planes de membresía con distintos beneficios (básico, pro). | 3 |
-| 24      | US24          | Pago de suscripción             | Como dueño, quiero pagar mi membresía mediante tarjeta o billetera digital de forma segura. | 5 |
-| 25      | US25          | Facturación y comprobantes      | Como dueño, quiero descargar facturas mensuales de mis pagos para control contable. | 3 |
-| 26      | US26          | Promociones destacadas          | Como dueño Pro, quiero publicar promociones que aparezcan destacadas en listados. | 3 |
-### 3.4. Impact Mapping
-![](https://i.imgur.com/BrUeJPM.png)
+<u><strong>Segmento 2: Propietario (Gabriel) </strong></u>
 
-## Capítulo IV: Product Design
-### 4.1. Style Guidelines
-Un “Style Guideline” es un conjunto de directrices y normas que establecen los estándares y criterios a seguir en la redacción, diseño y presentación de documentos, contenido web, software y otros productos creativos. A continuación, se presentan las especificaciones detalladas de los parámetros implementados en la estructura del proyecto.
-#### 4.1.1. General Style Guidelines
-Branding
+Gabriel necesita alquilar un auto de manera rápida y segura, pero actualmente busca opciones en Marketplace, redes sociales o contactos informales. Debe revisar publicaciones poco confiables, preguntar manualmente por disponibilidad y negociar directamente con propietarios desconocidos. 
 
-Para el desarrollo de la identidad de PuntoSabor, se ha diseñado un estilo que encapsula la esencia de la aplicación y su propuesta de valor. La marca busca transmitir cercanía, autenticidad y confianza, resaltando la importancia de los huariques en la cultura gastronómica local.
+![As-is-roy](https://imgur.com/I7vM37p.png)
 
-El logotipo de PuntoSabor está compuesto por un ícono que evoca un marcador de ubicación gastronómica (pin), fusionado con elementos culinarios, reforzando la idea de descubrimiento y autenticidad. La elección cromática, con tonos cálidos y frescos, proyecta energía, sabor y dinamismo, generando una conexión emocional con el usuario. La integración de estos elementos comunica visualmente el compromiso de PuntoSabor con la promoción de pequeños negocios, la innovación tecnológica y la experiencia de usuario accesible.
+### 2.4. Big Picture Event Storming
 
-[![](https://i.imgur.com/49LRjNb.png)](https://imgur.com/49LRjNb)
+En esta sección, el equipo presenta el resultado de una sesión colaborativa de Big Picture Event Storming, una técnica visual y dinámica utilizada para explorar y comprender el dominio completo del negocio de Moveo — plataforma de alquiler de autos entre particulares.
 
-Typography:
+El objetivo fue mapear los eventos clave que ocurren desde que un propietario decide alquilar su auto hasta que un inquilino lo devuelve (o surge un conflicto), identificando actores, sistemas externos, relaciones, y — sobre todo — los problemas reales y oportunidades de mejora que emergen del proceso actual.
 
-Para la tipografía de PuntoSabor, se ha seleccionado una combinación que equilibra modernidad, legibilidad y calidez. La tipografía principal Poppins se utiliza en los encabezados, aportando un estilo fresco y amigable, ideal para captar la atención del usuario en títulos y mensajes clave. Para los textos de párrafo y componentes de interfaz, se emplea Inter, reconocida por su alta legibilidad en entornos digitales, favoreciendo una experiencia clara y ordenada.
+![big picture event storming](https://imgur.com/NfsXR8f.png)
 
-Esta combinación tipográfica refuerza el carácter accesible y confiable de la marca, al mismo tiempo que permite destacar información importante y mantener un diseño coherente en toda la aplicación web.
+Link del event stotming: https://miro.com/app/board/uXjVJF6vK1o=/?share_link_id=355761890687
 
-A continuación, se detallan las tipografías adoptadas para PuntoSabor siguiendo los parámetros de color, peso, tamaño, interlineado y alineación:
+## 2.5. Ubiquitous Language
 
-[![](https://i.imgur.com/bSXbQfS.png)](https://imgur.com/bSXbQfS)
+Arrendador:	Usuario que publica su vehículo para alquiler.
 
-Colors:
+Arrendatario:	Usuario que alquila un vehículo disponible en la app.
 
-La paleta de colores de PuntoSabor fue seleccionada para reflejar los valores de autenticidad, cercanía y dinamismo que definen a nuestra plataforma. Los tonos predominantes, rojo, verde y amarillo, evocan energía, sabor y frescura, transmitiendo la esencia de los huariques y la cultura gastronómica local.
+Vehículo:	Entidad principal registrada por un arrendador.
 
-La combinación de colores busca generar confianza en los usuarios, a la vez que mantiene un carácter amigable y moderno, reforzando la identidad visual del producto como una solución innovadora para descubrir pequeños negocios de comida.
+Reserva:	Proceso mediante el cual un arrendatario aparta un vehículo en una fecha.
 
-[![](https://i.imgur.com/eJ3YgsX.png)](https://imgur.com/a/eJ3YgsX)
+Publicación:	Objeto que contiene los datos visibles de un vehículo (precio, fotos, reglas).
 
-Spacing:
+Reseña:	Valoración escrita o numérica sobre el arrendador o vehículo.
 
-El espaciado en PuntoSabor está cuidadosamente definido para garantizar una interfaz limpia, legible y organizada. Se emplea una separación uniforme entre elementos, lo que mejora la jerarquía visual, facilita la navegación y aporta equilibrio al diseño.
+Framework:	Conjunto de herramientas y librerías que usamos para construir la aplicación .
 
-El sistema de espaciado se basa en una escala modular de 8px, adaptada para mantener consistencia en todas las vistas de la aplicación.
+Entidad:	Objeto del dominio que tiene identidad propia .
 
-[![](https://i.imgur.com/qfGR9tX.png)](https://imgur.com/qfGR9tX)
+Repositorio: Componente de software que gestiona la persistencia de entidades en la base de datos.
 
-#### 4.1.2. Web Style Guidelines
+# Capítulo III: Requirements Specification
 
-PuntoSabor cuenta con un diseño web adaptable y responsivo, que garantiza una experiencia fluida y accesible en cualquier dispositivo, desde computadoras de escritorio hasta teléfonos móviles.
+En este capítulo se definen los requisitos del producto digital, basados en los hallazgos de investigación y los escenarios ideales de usuario. 
 
-El patrón de diseño principal sigue la forma de “F” y “Z”, ya que son los más efectivos para dirigir la atención del usuario en interfaces web modernas. Este enfoque permite destacar funciones clave como la barra de búsqueda, los listados de huariques y las promociones destacadas, asegurando que el contenido más relevante esté siempre visible en los primeros segundos de navegación.
+## 3.1. To-Be Scenario Mapping
 
-En la estructura visual:
+Este mapa describe la experiencia ideal de dos usuarios clave en la plataforma:
 
-El logo de PuntoSabor se ubica en la esquina superior izquierda como ancla de marca.
+ **Segmento 1: Propietario (Roy)**  
+Busca una forma segura y sencilla de ganar dinero extra alquilando su auto. Valora la verificación de identidad, la publicación guiada, el chat seguro dentro de la app, los contratos automáticos y los pagos sin contacto. Su motivación principal: confianza, simplicidad y profesionalismo.
 
-La barra de navegación con secciones principales (Explorar, Mejor valorados, Promos, Contacto) se encuentra en la parte superior derecha, permitiendo un acceso rápido e intuitivo.
+![Segmento-1](https://imgur.com/E5oS6IL.png)
 
-El llamado a la acción (CTA) principal —Buscar huariques o Registrarse— está resaltado con el color primario rojo , lo que atrae la mirada del usuario de inmediato.
+ **Segmento 2: Inquilino (Gabriel)**  
+Necesita un auto rápido, confiable y sin riesgos. Confía en fotos verificadas, reseñas reales, historial del vehículo y procesos claros. Valora la reserva con un clic, el pago digital, las llaves virtuales y el soporte integrado. Su motivación: seguridad, ahorro de tiempo y tranquilidad.
 
-El hero section incluye un buscador interactivo con filtros de comida y ubicación, optimizando la experiencia de exploración.
+![Segmento-2](https://imgur.com/Fcc2HKB.png)
 
-Secciones como “Cerca de ti” y “Mejor valorados” utilizan un sistema de tarjetas modulares que mantienen consistencia y escalabilidad.
+Miro con el To-Be: https://miro.com/app/board/uXjVJHk66ZY=/?share_link_id=390494907497
 
-Se incluyen chips y badges de colores para resaltar promociones, precios y distancias, mejorando la jerarquía visual.
+## 3.2. User Stories
 
-El footer minimalista refuerza la identidad de marca y proporciona enlaces clave sin sobrecargar la interfaz.
+Las User Stories traducen las necesidades de propietarios, inquilinos, visitantes y desarrolladores en requisitos verificables. Cada historia sigue el formato “Como <rol>, quiero <acción> para <beneficio>” y tiene criterios de aceptación en Gherkin (Given-When-Then), en tercera persona, sin UI y comprobables. Incluyen historias para la Landing Page (rol: visitante) y la API (rol: Developer), alineadas con los mapas “As-Is” y “To-Be”. El cuadro a continuación presenta todas las historias del proyecto.
 
-La interfaz en su conjunto transmite autenticidad, simplicidad y dinamismo, reflejando los valores de la marca y favoreciendo la interacción constante entre exploradores gastronómicos y dueños de huariques.
+| ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+|----|----|----|----|----|
+| EP01 | Información del producto en Landing Page | Como visitante, quiero entender qué ofrece MOVEO para decidir si me registro y alquilo o rento un auto. | **Escenario 1: Comprender la propuesta de valor**<br>Given el visitante accede al sitio web<br>When explora el contenido principal<br>Then comprende que puede alquilar o rentar autos de particulares de forma segura y económica<br><br>**Escenario 2: Comparar con servicios tradicionales**<br>Given el visitante compara con servicios tradicionales<br>When evalúa los beneficios de MOVEO<br>Then identifica que no requiere flota propia y tiene menores costos | - |
+| HU01 | Ver beneficios del alquiler entre particulares | Como visitante, quiero conocer las ventajas de usar MOVEO frente a servicios tradicionales. | **Escenario 1: Identificar ventajas clave**<br>Given el visitante está en la sección de beneficios<br>When lee los puntos destacados (seguro incluido, verificación de usuarios, precios más bajos)<br>Then entiende por qué es mejor que alquilar en agencias convencionales<br><br>**Escenario 2: Resolver dudas sobre seguridad**<br>Given el visitante tiene dudas sobre seguridad<br>When lee cómo funciona la verificación<br>Then siente confianza en el modelo de negocio | EP01 |
+| HU02 | Leer testimonios de usuarios reales | Como visitante, quiero leer experiencias de otros usuarios para confiar en la plataforma. | **Escenario 1: Generar confianza mediante experiencias reales**<br>Given el visitante está en la sección de testimonios<br>When lee reseñas de propietarios e inquilinos<br>Then siente mayor confianza en el servicio<br><br>**Escenario 2: Evaluar consistencia de la experiencia**<br>Given el visitante identifica patrones en las reseñas<br>When evalúa la consistencia de las experiencias positivas<br>Then considera que la plataforma es confiable y transparente | EP01 |
+| HU03 | Ver planes de precios y comisiones | Como visitante, quiero conocer cuánto cuesta usar la plataforma y qué comisiones se aplican para tomar una decisión informada y comparar con otras opciones del mercado antes de comprometerme. | **Escenario 1: Entender el modelo de costos**<br>Given el visitante está en la sección de precios<br>When revisa los costos para inquilinos y comisiones para propietarios<br>Then entiende que no hay costos de registro y solo se cobra al concretar el alquiler<br><br>**Escenario 2: Comparar con alternativas del mercado**<br>Given el visitante evalúa opciones de alquiler<br>When calcula el ahorro potencial usando MOVEO<br>Then decide que le conviene usar la plataforma | EP01 |
+| HU04 | Contactar al soporte desde la web | Como visitante, quiero resolver mis dudas fácilmente antes de registrarme para sentirme seguro y confiado en que la plataforma cumple con mis expectativas sin necesidad de invertir tiempo en soporte. | **Escenario 1: Enviar consulta con éxito**<br>Given el visitante necesita ayuda<br>When envía un mensaje a través del canal de contacto<br>Then recibe confirmación inmediata de recepción<br><br>**Escenario 2: Recibir respuesta oportuna**<br>Given el mensaje fue enviado<br>When el equipo de soporte procesa la solicitud<br>Then el visitante recibe respuesta en menos de 24 horas con información clara y útil | EP01 |
+| EP02 | Crear cuenta como usuario | Como propietario o inquilino, quiero crear una cuenta para comenzar a utilizar las funcionalidades ofrecidas por la plataforma. | **Escenario 1: Iniciar proceso de registro**<br>Given el usuario accede al flujo de creación de cuenta<br>When ingresa su correo, DNI y datos básicos<br>Then recibe un correo de verificación para activar su cuenta<br><br>**Escenario 2: Acceder por primera vez tras registro**<br>Given el usuario confirma su correo<br>When inicia sesión por primera vez<br>Then accede a funcionalidades personalizadas según su rol (propietario o inquilino) | - |
+| HU05 | Registrarse como propietario | Como propietario, quiero registrarme para publicar mi auto y generar ingresos pasivos. | **Escenario 1: Completar perfil y subir documentos**<br>Given el usuario selecciona registrarse como propietario<br>When completa su perfil y sube documentos del vehículo<br>Then su cuenta queda en estado "Pendiente de verificación"<br><br>**Escenario 2: Activar cuenta tras verificación**<br>Given la verificación del perfil es aprobada<br>When el sistema notifica al usuario<br>Then puede publicar su auto y comenzar a recibir solicitudes de alquiler | EP02 |
+| HU06 | Registrarse como inquilino | Como inquilino, quiero registrarme para buscar y alquilar autos según mis necesidades. | **Escenario 1: Completar registro y verificar identidad**<br>Given el usuario selecciona registrarse como inquilino<br>When completa su perfil y verifica su identidad<br>Then puede buscar y reservar autos inmediatamente<br><br>**Escenario 2: Recibir recomendaciones personalizadas**<br>Given el usuario finaliza el registro<br>When inicia sesión por primera vez<br>Then recibe recomendaciones basadas en su ubicación y preferencias | EP02 |
+| EP03 | Publicar y gestionar autos (propietario) | Como propietario, quiero publicar y gestionar mis autos en alquiler para maximizar mis ingresos. | **Escenario 1: Publicar auto con éxito**<br>Given el propietario tiene cuenta verificada<br>When publica un auto con disponibilidad, precio y condiciones<br>Then el auto aparece en los resultados de búsqueda de inquilinos<br><br>**Escenario 2: Actualizar disponibilidad en tiempo real**<br>Given el auto está publicado<br>When el propietario modifica su disponibilidad<br>Then los cambios se reflejan inmediatamente para los inquilinos | - |
+| HU07 | Publicar un vehículo | Como propietario, quiero publicar mi auto para que los inquilinos puedan alquilarlo. | **Escenario 1: Registrar vehículo con éxito**<br>Given el propietario accede a la sección de gestión de autos<br>When ingresa detalles del vehículo (modelo, año, fotos, precio, ubicación)<br>Then el auto se publica con estado "Activo" y aparece en búsquedas<br><br>**Escenario 2: Recibir notificación de interés**<br>Given el auto se publicó<br>When un inquilino lo selecciona<br>Then el propietario recibe notificación con los detalles de la solicitud | EP03 |
+| HU08 | Editar información del auto | Como propietario, quiero actualizar los datos de mi auto publicado para mantener la información precisa. | **Escenario 1: Guardar cambios en la información del auto**<br>Given el propietario accede a sus autos publicados<br>When selecciona un vehículo y modifica su precio o disponibilidad<br>Then los cambios se guardan automáticamente y se actualizan en la plataforma<br><br>**Escenario 2: Verificar que los cambios son visibles**<br>Given los cambios se guardaron<br>When un inquilino visualiza el auto<br>Then ve la información actualizada sin errores | EP03 |
+| HU09 | Recibir notificaciones de reservas | Como propietario, quiero ser notificado cuando alguien solicita alquilar mi auto para responder oportunamente. | **Escenario 1: Recibir notificación de nueva solicitud**<br>Given un inquilino envía una solicitud de reserva<br>When el sistema procesa la petición<br>Then el propietario recibe una notificación con los detalles de la reserva<br><br>**Escenario 2: Liberar auto por falta de respuesta**<br>Given la notificación fue enviada<br>When el propietario no responde en 24h<br>Then el sistema cancela automáticamente la solicitud para liberar el vehículo | EP03 |
+| EP04 | Buscar y reservar autos (inquilino) | Como inquilino, quiero encontrar y reservar un auto que se ajuste a mis necesidades y presupuesto para solucionar mi requerimiento de movilidad de forma rápida, flexible y sin exceder mi capacidad de gasto. | **Escenario 1: Filtrar y ver resultados relevantes**<br>Given el inquilino está logueado<br>When filtra por ubicación, fechas y rango de precio<br>Then ve autos disponibles con descripciones, fotos y calificaciones<br><br>**Escenario 2: Confirmar reserva y recibir contrato**<br>Given el inquilino selecciona un auto<br>When confirma la reserva<br>Then recibe un resumen de la transacción y contrato digital | - |
+| HU10 | Filtrar autos por ubicación y fecha | Como inquilino, quiero buscar autos disponibles en mi zona y en las fechas que necesito para planificar mi viaje o actividad con anticipación y asegurarme de que habrá un vehículo listo cuando lo requiera. | **Escenario 1: Aplicar filtros básicos con éxito**<br>Given el inquilino ingresa su distrito y rango de fechas<br>When aplica los filtros<br>Then ve solo los autos disponibles en ese periodo y ubicación<br><br>**Escenario 2: Reordenar resultados por preferencia**<br>Given aplica filtros adicionales<br>When ordena por precio o calificación<br>Then la lista se reordena según su preferencia sin perder los resultados | EP04 |
+| HU11 | Reservar un auto con pago seguro | Como inquilino, quiero reservar un auto y realizar el pago de forma segura para garantizar la transacción. | **Escenario 1: Bloquear auto y generar contrato**<br>Given el inquilino selecciona un auto disponible<br>When confirma la reserva y elige método de pago<br>Then el sistema bloquea el vehículo y genera un contrato digital<br><br>**Escenario 2: Recibir confirmación final tras aceptación**<br>Given el pago es procesado exitosamente<br>When el propietario acepta la reserva<br>Then el inquilino recibe confirmación final con detalles de entrega | EP04 |
+| HU12 | Calificar al propietario después del alquiler | Como inquilino, quiero dejar una reseña sobre mi experiencia para ayudar a otros usuarios y mejorar la calidad del servicio. | **Escenario 1: Publicar calificación y comentario**<br>Given el alquiler ha finalizado<br>When el inquilino accede a su historial de reservas<br>And califica de 1 a 5 estrellas y deja un comentario<br>Then la calificación se publica en el perfil del propietario<br><br>**Escenario 2: Actualizar promedio de calificaciones**<br>Given la calificación fue enviada<br>When el sistema la procesa<br>Then se notifica al propietario y se actualiza su promedio de calificaciones | EP04 |
+| EP05 | Gestión de pagos y contratos | Como plataforma, debo gestionar pagos, contratos y seguros automáticamente para garantizar transacciones seguras y transparentes. | **Escenario 1: Generar contrato al confirmar pago**<br>Given se confirma una reserva<br>When el inquilino realiza el pago<br>Then se genera un contrato digital firmado electrónicamente<br><br>**Escenario 2: Liberar pago tras devolución sin incidentes**<br>Given el auto es devuelto sin daños<br>When el sistema verifica la devolución<br>Then se libera el pago al propietario (menos la comisión de la plataforma) | - |
+| HU13 | Generar contrato digital automático | Como sistema, debo generar un contrato digital al confirmar la reserva para formalizar el acuerdo entre las partes. | **Escenario 1: Crear contrato tras confirmación de pago**<br>Given la reserva es aceptada por el propietario<br>When el pago es confirmado<br>Then se genera un documento con condiciones, fechas, datos de ambas partes y cláusulas de responsabilidad<br><br>**Escenario 2: Enviar contrato por correo con éxito**<br>Given el contrato se generó<br>When se envía por correo a ambos usuarios<br>Then ambos reciben el PDF adjunto en menos de 5 minutos con firma digital válida | EP05 |
+| HU14 | Liberar pago al propietario tras devolución | Como sistema, debo liberar el pago al propietario solo tras confirmar la devolución del auto en buen estado para garantizar la equidad en la transacción y proteger los intereses tanto del propietario como del inquilino. | **Escenario 1: Transferir pago tras devolución sin daños**<br>Given el auto es devuelto<br>When el inquilino confirma la devolución en la app<br>And no hay reporte de daños<br>Then se transfiere el 90% del pago al propietario (10% es comisión)<br><br>**Escenario 2: Retener pago por daños reportados**<br>Given hay un reporte de daños<br>When el equipo de soporte investiga y valida el reclamo<br>Then el pago se retiene hasta resolver el incidente y se notifica a ambas partes | EP05 |
+| EP06 | Seguridad y verificación de usuarios | Como plataforma, debo verificar la identidad de propietarios e inquilinos para garantizar la confianza y seguridad en las transacciones para construir un entorno confiable donde los usuarios se sientan seguros al compartir sus vehículos o alquilarlos. | **Escenario 1: Completar verificación con éxito**<br>Given un usuario se registra<br>When sube DNI y selfies para verificación<br>Then su perfil queda como "Verificado" tras aprobación automática o manual<br><br>**Escenario 2: Interactuar con perfil verificado**<br>Given el usuario completó la verificación<br>When otro usuario interactúa con su perfil<br>Then observa un distintivo que indica confiabilidad y puede transar con mayor seguridad | - |
+| HU15 | Verificar identidad con DNI y selfie | Como sistema, debo verificar la identidad del usuario con DNI y selfie para prevenir fraudes y garantizar autenticidad. | **Escenario 1: Aprobar verificación automáticamente**<br>Given el usuario sube foto de su DNI y una selfie<br>When el sistema compara rostros y datos<br>Then aprueba o rechaza la verificación automáticamente<br><br>**Escenario 2: Reintentar verificación tras fallo**<br>Given la verificación falla<br>When el usuario reenvía documentos<br>Then el sistema vuelve a intentar la validación o deriva a verificación manual | EP06 |
+| HU16 | Mostrar indicador de "Usuario Verificado" | Como sistema, debo mostrar un distintivo de verificación en perfiles verificados para aumentar la confianza entre usuarios. | **Escenario 1: Mostrar distintivo en perfil verificado**<br>Given el usuario completó la verificación<br>When otro usuario ve su perfil<br>Then aparece un distintivo claro de "Verificado"<br><br>**Escenario 2: Mostrar estado pendiente en perfil no verificado**<br>Given el perfil no está verificado<br>When otro usuario lo visualiza<br>Then no aparece el distintivo y se muestra mensaje de "Verificación pendiente" para incentivar su completitud | EP06 |
+| EP07 | API RESTful para operaciones del sistema | Como Developer, necesito APIs para gestionar usuarios, autos, reservas y pagos de forma segura y escalable. | **Escenario 1: Autenticar usuario con credenciales válidas**<br>Given el frontend necesita autenticar un usuario<br>When envía credenciales válidas al endpoint /auth/login<br>Then recibe un token JWT y status 200<br><br>**Escenario 2: Rechazar autenticación con credenciales inválidas**<br>Given las credenciales son inválidas<br>When se envía la petición<br>Then recibe status 401 y mensaje de error genérico | - |
+| TS01 | API de Autenticación (Login/Register) | Como Developer, necesito una API para login y registro de usuarios que garantice la seguridad de las credenciales. | **Escenario 1: Registrar nuevo usuario con éxito**<br>Given el frontend envía datos de registro válidos<br>When llama al endpoint POST /users<br>Then recibe status 201 y objeto del usuario creado con rol asignado<br><br>**Escenario 2: Rechazar registro por correo duplicado**<br>Given el email ya existe<br>When intenta registrarlo nuevamente<br>Then recibe status 409 y mensaje de conflicto | EP07 |
+| TS02 | API de Gestión de Autos | Como Developer, quiero endpoints para crear, leer, actualizar y eliminar autos que permitan a los propietarios gestionar su inventario para ofrecer una experiencia fluida y en tiempo real que soporte la autonomía del propietario en la administración de sus activos. | **Escenario 1: Crear nuevo auto con éxito**<br>Given el frontend envía datos válidos de un auto<br>When llama al endpoint POST /cars<br>Then recibe status 201 y el auto con ID generado<br><br>**Escenario 2: Obtener datos de auto existente**<br>Given el auto existe<br>When llama a GET /cars/{id}<br>Then recibe status 200 y los datos completos del auto incluyendo disponibilidad y precio | EP07 |
+| TS03 | API de Reservas y Contratos | Como Developer, necesito gestionar reservas y contratos vía API para automatizar el flujo de alquiler entre usuarios. | **Escenario 1: Crear reserva con éxito**<br>Given se crea una reserva válida<br>When el frontend llama a POST /bookings<br>Then recibe status 201, ID de reserva y URL de contrato<br><br>**Escenario 2: Rechazar reserva por conflicto de disponibilidad**<br>Given las fechas están ocupadas<br>When intenta crear reserva<br>Then recibe status 400 y mensaje indicando conflicto de disponibilidad | EP07 |
+| EP08 | Soporte y gestión de incidencias | Como usuario, quiero reportar problemas y recibir soporte rápido para resolver cualquier inconveniente durante el alquiler. | **Escenario 1: Reportar incidencia y recibir atención**<br>Given el usuario tiene un problema con una reserva o auto<br>When envía un reporte desde la app<br>Then el equipo de soporte lo atiende en menos de 12h<br><br>**Escenario 2: Recibir reembolso tras aprobación**<br>Given el problema requiere reembolso<br>When el soporte lo aprueba<br>Then el usuario recibe el dinero en su cuenta en menos de 48h con notificación clara | - |
+| HU20 | Reportar un problema con un auto | Como inquilino, quiero reportar un problema con el auto alquilado para que se investigue y se tome acción correctiva. | **Escenario 1: Enviar reporte con éxito**<br>Given el inquilino finaliza el uso del auto<br>When accede a "Mi reserva" y selecciona "Reportar problema"<br>And describe el daño o incidencia<br>Then el soporte recibe el reporte con fotos adjuntas y lo asigna a un ticket<br><br>**Escenario 2: Recibir número de seguimiento**<br>Given el reporte fue enviado<br>When el sistema lo procesa<br>Then el inquilino recibe número de seguimiento y estimación de tiempo de respuesta | EP08 |
+| HU21 | Recibir reembolso parcial por incidencia | Como inquilino, quiero recibir reembolso si el auto no cumple con lo prometido o presenta daños no reportados para sentirme protegido frente a imprevistos y mantener la confianza en la plataforma como un servicio justo y transparente. | **Escenario 1: Aprobar reembolso por incidencia válida**<br>Given se confirma una incidencia válida por el equipo de soporte<br>When se aprueba el reembolso<br>Then se devuelve un porcentaje del pago al inquilino según gravedad del incidente<br><br>**Escenario 2: Verificar reembolso en historial**<br>Given el reembolso fue procesado<br>When el inquilino revisa su historial de transacciones<br>Then ve el monto acreditado y motivo del reembolso con detalle | EP08 |
+| EP09 | Landing Page - Estructura y Contenido | Como visitante, quiero navegar por un sitio claro y atractivo que me permita entender el valor de MOVEO sin confusiones. | **Escenario 1: Encontrar información rápidamente**<br>Given el visitante ingresa al sitio<br>When explora las secciones principales<br>Then encuentra la información que busca en máximo 2 clics<br><br>**Escenario 2: Resolver dudas sin soporte**<br>Given el visitante tiene dudas específicas<br>When busca en el sitio<br>Then encuentra respuestas claras sin necesidad de contactar soporte | - |
+| HU22 | Ver propuesta de valor clara en la página principal | Como visitante, quiero entender inmediatamente cómo MOVEO resuelve mi problema de movilidad temporal para evaluar rápidamente si esta solución se adapta a mi situación y decidir si vale la pena explorarla más a fondo. | **Escenario 1: Comprender solución de movilidad**<br>Given el visitante está en la página de inicio<br>When lee el mensaje principal y los ejemplos de uso<br>Then entiende que puede alquilar autos de particulares de forma segura y económica<br><br>**Escenario 2: Navegar sin errores entre secciones**<br>Given el visitante interactúa con los enlaces principales<br>When hace clic en uno<br>Then es redirigido a la sección correspondiente sin errores ni demoras | EP09 |
+| HU23 | Conocer quiénes están detrás de MOVEO | Como visitante, quiero saber quiénes fundaron la plataforma para generar confianza en su propuesta de valor. | **Escenario 1: Generar confianza con la historia del equipo**<br>Given el visitante accede a la sección "Sobre Nosotros"<br>When lee la misión, visión y conoce al equipo fundador<br>Then siente que es una empresa seria, transparente y centrada en el usuario<br><br>**Escenario 2: Recordar propósito tras lectura**<br>Given el visitante termina de leer la sección<br>When vuelve a la página principal<br>Then recuerda claramente el propósito de MOVEO y su diferenciación frente a competidores | EP09 |
+| HU24 | Entender el proceso de alquiler paso a paso | Como visitante, quiero comprender cómo funciona el alquiler en MOVEO en pasos simples para sentirme seguro al usar el servicio para reducir la incertidumbre, eliminar barreras de entrada y sentir que el proceso es claro, predecible y diseñado para mí. | **Escenario 1: Comprender flujo completo sin confusiones**<br>Given el visitante accede a la sección "Cómo funciona"<br>When ve los pasos ilustrados para propietarios e inquilinos<br>Then comprende el flujo completo sin confusiones<br><br>**Escenario 2: Explicar proceso a otro usuario**<br>Given el visitante termina de ver los pasos<br>When cierra la sección<br>Then puede explicar el proceso a otra persona con claridad y confianza | EP09 |
+| HU25 | Resolver dudas comunes sin contactar soporte | Como visitante, quiero encontrar respuestas a preguntas frecuentes para tomar decisiones informadas sin demoras. | **Escenario 1: Encontrar respuestas en FAQ**<br>Given el visitante accede a la sección "Preguntas Frecuentes"<br>When lee las preguntas organizadas por temas (registro, pagos, seguros, devoluciones)<br>Then encuentra respuesta a sus dudas principales<br><br>**Escenario 2: Usar buscador interno con éxito**<br>Given no encuentra su pregunta específica<br>When usa el buscador interno<br>Then obtiene resultados relevantes o es redirigido al formulario de contacto con contexto prellenado | EP09 |
+| HU26 | Comprender cómo se manejan mis datos | Como visitante, quiero saber cómo se protege mi información personal para sentirme seguro al registrarme. | **Escenario 1: Leer documentos legales con claridad**<br>Given el visitante accede a "Términos y Condiciones" y "Política de Privacidad"<br>When lee los documentos<br>Then entiende cómo se recopilan, usan y protegen sus datos<br><br>**Escenario 2: Aceptar términos con conocimiento**<br>Given el visitante termina de leer<br>When decide registrarse<br>Then acepta los términos con pleno conocimiento de sus derechos y obligaciones | EP09 |
+| HU27 | Navegar entre secciones sin perderme | Como visitante, quiero moverme entre secciones del sitio con facilidad para explorar toda la información sin frustración. | **Escenario 1: Moverse entre secciones con facilidad**<br>Given el visitante está en cualquier sección<br>When usa la navegación principal o los enlaces del pie de página<br>Then llega rápidamente a la sección deseada sin errores<br><br>**Escenario 2: Identificar ubicación actual en el sitio**<br>Given el visitante hace clic en un enlace<br>When la página carga<br>Then la navegación refleja claramente en qué sección se encuentra para orientar su recorrido | EP09 |
+| HU28 | Listar aventuras | Como usuario visitante, quiero ver una lista de todas las aventuras disponibles para poder explorar opciones rápidamente. | **Escenario 1: Listar aventuras exitosamente**<br>Given que el sistema tiene aventuras registradas<br>When el usuario accede a la vista de “Lista de Aventuras”<br>Then se muestra una tabla con las aventuras cargadas, sus nombres e identificadores.<br><br>**Escenario 2: No hay aventuras registradas**<br>Given que no existen aventuras en el sistema<br>When el usuario ingresa a la vista de “Lista de Aventuras”<br>Then se muestra un mensaje indicando “No hay aventuras disponibles”. | EP10 |
+| HU29 | Crear una nueva aventura | Como usuario administrador, quiero poder registrar una nueva aventura para ampliar la oferta disponible en el sistema. | **Escenario 1: Creación exitosa**<br>Given que el usuario completa todos los campos requeridos del formulario<br>When el usuario accede a la vista de “Lista de Aventuras”<br>Then la nueva aventura se registra y aparece en la lista de aventuras.<br><br>**Escenario 2: Campos incompletos**<br>Given que el usuario deja campos obligatorios vacíos<br>When intenta guardar la nueva aventura<br>Then el sistema muestra mensajes de validación y no permite continuar. | EP10 |
+| HU30 | Editar una aventura existente | Como usuario administrador, quiero editar la información de una aventura existente para mantener los datos actualizados. | **Escenario 1: Edición exitosa**<br>Given que el usuario accede al modo de edición de una aventura<br>When modifica los datos y guarda los cambios<br>Then la información actualizada se refleja correctamente en la lista.<br><br>**Escenario 2: Edición cancelada**<br>presiona “Cancelar”<br>When intenta guardar la nueva aventura<br>Then los cambios no se guardan y la lista se mantiene igual. | EP10 |
+| HU31 | Eliminar una aventura | Como usuario administrador, quiero eliminar una aventura que ya no esté disponible para mantener la base de datos limpia y actualizada. | **Escenario 1: Eliminación confirmada**<br>Given que el usuario selecciona una aventura de la lista<br>When confirma la eliminación<br>Then la aventura desaparece de la lista y se muestra un mensaje de éxito.<br><br>**Escenario 2: Eliminación cancelada**<br>Given que el usuario selecciona una aventura<br>When presiona “Cancelar” en el cuadro de confirmación<br>Then la aventura permanece en la lista sin cambios. | EP10 |
+| HU32 | Manejo de errores | Como usuario administrador, quiero | HU31 | Eliminar una aventura | Como usuario administrador, quiero eliminar una aventura que ya no esté disponible para entender qué está ocurriendo y cómo solucionarlo. | **Escenario 1: Error al cargar aventuras**<br>Given que ocurre un fallo en la carga desde la API<br>When el usuario abre la vista de lista<br>Then se muestra un mensaje indicando “Error al cargar las aventuras”.<br><br>**Escenario 2: Error al guardar cambios**<br>Given que hay un problema al registrar o actualizar una aventura<br>When el usuario intenta guardar los datos<br>el sistema muestra un mensaje de error y mantiene los datos previos. | EP10 |
 
-### 4.2. Information Architecture
+## 3.3. Impact Mapping:
 
-La arquitectura de la información en PuntoSabor se ha diseñado para garantizar que tanto visitantes como usuarios puedan encontrar con facilidad el contenido y las funciones más relevantes, minimizando la carga cognitiva y generando una experiencia intuitiva. Las decisiones adoptadas buscan reflejar autenticidad, cercanía y dinamismo, alineándose con la identidad de la marca y con los valores de los huariques como espacios gastronómicos locales.
+Este Impact Map visualiza estratégicamente cómo las funcionalidades de la plataforma contribuyen a alcanzar objetivos de negocio concretos, alineando las acciones de nuestros dos segmentos clave: Roy, el propietario de vehículo, y Gabriel, el inquilino.
 
-#### 4.2.1. Organization Systems
+El mapa parte de Business Goals SMART (como alcanzar 500 usuarios en 6 meses) y desciende en niveles:
 
-En PuntoSabor se aplican distintos sistemas de organización según el tipo de contenido y la plataforma:
+Actores (Personas): Roy y Gabriel, cuyos comportamientos impulsan el éxito del negocio.
 
-- **Organización jerárquica (Visual Hierarchy):** en la landing page se estructura la información en niveles: primero se presenta la propuesta de valor y el buscador principal, seguido de secciones de beneficios, exploración de huariques mejor valorados, promociones y finalmente el contacto.  
+Impacts: Los cambios deseados en su comportamiento (ej: Roy publica su auto con confianza; Gabriel reserva rápido y seguro).
 
-- **Organización secuencial (Step-by-step):** en la aplicación web, procesos como el registro de huariques o la actualización de información siguen un flujo paso a paso que guía al usuario de manera clara.  
+Deliverables: Las soluciones que la plataforma ofrece para provocar esos cambios (ej: verificación de identidad, motor de búsqueda, sistema de reseñas).
 
-- **Organización por tópicos:** el catálogo de huariques se categoriza según criterios como tipo de comida (criolla, marina, postres, etc.), ubicación, y estado de promociones (activas, destacadas).  
+User Stories: Las historias de usuario concretas que implementan cada deliverable, asegurando trazabilidad desde la estrategia hasta la funcionalidad
 
-- **Organización según audiencia:** la landing page presenta bloques diferenciados: exploradores gastronómicos (jóvenes y adultos que buscan comida auténtica) y dueños de huariques (emprendedores locales). Cada segmento recibe mensajes y beneficios específicos.
+![Impact-map](https://imgur.com/7ARrxmj.png)
 
-#### 4.2.2. Labeling Systems
+## 3.4. Product Backlog.
 
-El etiquetado en PuntoSabor prioriza la claridad y simplicidad, usando palabras cortas, directas y consistentes en todas las interfaces:
+# 3.4. Product Backlog
 
-- **Landing Page:** Inicio, Explorar, Beneficios, Promos, Contacto.  
-- **Aplicación Web:** Huariques, Favoritos, Reseñas, Promociones, Perfil.  
+El Product Backlog está ordenado según el **valor para el negocio**, priorizando la atracción, conversión y retención de usuarios. Las historias del Landing Page se ubican primero, seguidas de las funcionalidades clave para propietarios e inquilinos, y finalmente las técnicas y de soporte. La estimación se realiza en Story Points (Fibonacci: 1, 2, 3, 5, 8), considerando complejidad, esfuerzo y riesgo.
 
-Además, los CTAs refuerzan la acción con verbos imperativos como “Buscar Huariques”, “Registra tu negocio”, “Explora promociones” o “Deja tu reseña”, que facilitan la interacción y mantienen coherencia con los objetivos de la plataforma.
+| # Orden | User Story Id | Título | Descripción | Story Points |
+|---|---|---|---|---|
+| 1       | HU22          | Ver propuesta de valor clara en la página principal | Como visitante, quiero entender inmediatamente cómo MOVEO resuelve mi problema de movilidad temporal. | 3            |
+| 2       | HU01          | Ver beneficios del alquiler entre particulares | Como visitante, quiero conocer las ventajas de usar MOVEO frente a servicios tradicionales. | 2            |
+| 3       | HU02          | Leer testimonios de usuarios reales         | Como visitante, quiero leer experiencias de otros usuarios para confiar en la plataforma. | 2            |
+| 4       | HU24          | Entender el proceso de alquiler paso a paso | Como visitante, quiero comprender cómo funciona el alquiler en MOVEO en pasos simples. | 3            |
+| 5       | HU25          | Resolver dudas comunes sin contactar soporte | Como visitante, quiero encontrar respuestas a preguntas frecuentes para tomar decisiones informadas. | 3            |
+| 6       | HU03          | Ver planes de precios y comisiones          | Como visitante, quiero conocer cuánto cuesta usar la plataforma y qué comisiones se aplican. | 3            |
+| 7       | HU23          | Conocer quiénes están detrás de MOVEO       | Como visitante, quiero saber quiénes fundaron la plataforma para generar confianza. | 2            |
+| 8       | HU26          | Comprender cómo se manejan mis datos        | Como visitante, quiero saber cómo se protege mi información personal. | 1            |
+| 9       | HU27          | Navegar entre secciones sin perderme        | Como visitante, quiero moverme entre secciones del sitio con facilidad. | 2            |
+| 10      | HU04          | Contactar al soporte desde la web           | Como visitante, quiero resolver mis dudas fácilmente antes de registrarme. | 2            |
+| 11      | HU05          | Registrarse como propietario                | Como propietario, quiero registrarme para publicar mi auto y generar ingresos. | 3            |
+| 12      | HU06          | Registrarse como inquilino                  | Como inquilino, quiero registrarme para buscar y alquilar autos. | 3            |
+| 13      | HU15          | Verificar identidad con DNI y selfie        | Como sistema, debo verificar la identidad del usuario con DNI y selfie. | 5            |
+| 14      | HU16          | Mostrar indicador de "Usuario Verificado"   | Como sistema, debo mostrar un distintivo de verificación en perfiles verificados. | 3            |
+| 15      | HU07          | Publicar un vehículo                        | Como propietario, quiero publicar mi auto para que los inquilinos puedan alquilarlo. | 3            |
+| 16      | HU10          | Filtrar autos por ubicación y fecha         | Como inquilino, quiero buscar autos disponibles en mi zona y en las fechas que necesito. | 5            |
+| 17      | HU11          | Reservar un auto con pago seguro            | Como inquilino, quiero reservar un auto y realizar el pago de forma segura. | 8            |
+| 18      | HU13          | Generar contrato digital automático         | Como sistema, debo generar un contrato digital al confirmar la reserva. | 5            |
+| 19      | HU14          | Liberar pago al propietario tras devolución | Como sistema, debo liberar el pago al propietario solo tras confirmar la devolución. | 5            |
+| 20      | HU08          | Editar información del auto                 | Como propietario, quiero actualizar los datos de mi auto publicado. | 3            |
+| 21      | HU09          | Recibir notificaciones de reservas          | Como propietario, quiero ser notificado cuando alguien solicita alquilar mi auto. | 3            |
+| 22      | HU12          | Calificar al propietario después del alquiler | Como inquilino, quiero dejar una reseña sobre mi experiencia. | 2            |
+| 23      | HU20          | Reportar un problema con un auto            | Como inquilino, quiero reportar un problema con el auto alquilado. | 3            |
+| 24      | HU21          | Recibir reembolso parcial por incidencia    | Como inquilino, quiero recibir reembolso si el auto no cumple con lo prometido. | 3            |
+| 25      | HU28          | Listar Aventuras    | Como usuario puedo visualizar todas las aventuras registradas en una tabla | 3            |
+| 26      | HU29          | Crear Aventura    | Como usuario puedo registrar los datos de una aventura existente. | 5            |
+| 27      | HU30          | Editar Aventura    | Como usuario puedo modificar los datos de una aventura existente. | 5            |
+| 28      | HU31          | Eliminar Aventura    | Como administrador puedo eliminar una aventura seleccionada de la lista. | 3            |
+| 29      | HU32          | Manejo de Errores    | Como sistema muestro mensajes claros cuando ocurre un error en las operaciones. | 2            |
+| 30      | TS01          | API de Autenticación (Login/Register)       | Como Developer, necesito una API para login y registro de usuarios. | 8            |
+| 31      | TS02          | API de Gestión de Autos                     | Como Developer, quiero endpoints para crear, leer, actualizar y eliminar autos. | 8            |
+| 32     | TS03          | API de Reservas y Contratos                 | Como Developer, necesito gestionar reservas y contratos vía API. | 8            |
+| 33     | TS04          | API de Aventuras                 | Como Developer, necesito gestionar aventuras vía API. | 8            |
 
-#### 4.2.3. SEO Tags and Meta Tags
 
-Se han definido meta elementos para mejorar el posicionamiento SEO tanto en la landing page como en la aplicación web:
+> **URL del Product Backlog público**: https://trello.com/b/VRvBNLHD/moveo-apps-web
 
-- **Title (Landing Page):** PuntoSabor | Descubre huariques auténticos cerca de ti.  
-- **Meta Description:** PuntoSabor conecta a exploradores gastronómicos con huariques auténticos y económicos, ofreciendo reseñas confiables, mapas interactivos y promociones exclusivas.  
-- **Meta Keywords:** huariques, comida peruana, gastronomía local, reseñas, recomendaciones, restaurantes pequeños, comida auténtica.  
-- **Author:** Equipo FijasDev – Startup PuntoSabor.  
 
-Estos elementos aseguran coherencia en motores de búsqueda y fortalecen la estrategia de atracción de usuarios.
+# Capítulo IV: Product Design
+## 4.1. Style Guidelines.
+En esta sección se define un repositorio centralizado y debidamente organizado para el uso de todo el equipo, el cual incluye recursos como assets, tipografías y demás elementos necesarios. Su finalidad es asegurar una presentación coherente, estandarizada y alineada en todo el proyecto.
 
-#### 4.2.4. Searching Systems
+### 4.1.1. General Style Guidelines.
+Buscamos transmitir confianza, accesibilidad y modernidad. Para reflejar la idea de compartir vehículos de manera segura y práctica, integramos un logo en el que un automóvil  se ubica frente a una casa , ambos unidos por un pin que simboliza ubicación y conexión. El branding se construye sobre la base de:
+* **Misión:** Facilitar el acceso a la movilidad mediante una plataforma confiable donde las personas puedan compartir y alquilar autos con seguridad.
+* **Visión:** Crear entornos dignos y seguros para adultos mayores usando tecnología.
 
-La aplicación web de PuntoSabor ofrece sistemas de búsqueda diseñados para que el usuario encuentre lo que necesita sin esfuerzo:
+#### Logo
 
-- **Búsqueda en catálogo:** localización de huariques por nombre, tipo de comida o distrito.  
-- **Filtros avanzados:** por rango de precios, valoración de usuarios, ubicación geográfica y promociones activas.  
-- **Mapa interactivo:** permite aplicar filtros visuales y seleccionar huariques desde su ubicación exacta.  
-- **Búsqueda en reseñas:** posibilidad de filtrar comentarios por calificación (positivas/negativas) o por temas (precio, atención, sabor).  
+Queremos transmitir una imagen de confianza, seguridad y tranquilidad al usuario a través de este diseño, utilizando un logotipo principalmente verde y crema para reforzar el concepto.
 
-De esta manera se evita que el usuario se sienta perdido entre la cantidad de opciones disponibles y se mejora la eficiencia en la exploración.
+<p align="center">
+<img src="Assets/chapter-4/Logo.png" alt="Moveo_Logo" height="500"/>
+</p>
 
-#### 4.2.5. Navigation Systems
 
-La navegación de PuntoSabor combina claridad, consistencia y adaptabilidad:
 
-- **Landing Page (Desktop):** menú superior con navegación horizontal que permite acceder rápidamente a Inicio, Explorar, Beneficios, Promos y Contacto.  
-- **Landing Page (Móvil):** menú tipo hamburguesa con navegación vertical, optimizado para pantallas pequeñas.  
-- **Aplicación Web:** navegación lateral (sidebar) con accesos directos a Huariques, Favoritos, Promociones, Perfil y Configuración.  
-- **CTAs estratégicos:** botones visibles en rojo primario (#E63946) para guiar al usuario a acciones críticas como buscar huariques, registrar un negocio o activar una promoción.  
+#### Typography
 
-En conjunto, estos sistemas garantizan que los usuarios puedan recorrer
-la plataforma de forma intuitiva, cumpliendo sus metas sin obstáculos.
+La tipografía debe transmitir claridad, calidez y profesionalismo. Por esa razón decidimos usar **Poppins** e **Inter**, ya que tienen un diseño limpio y sencillo, lo que facilita la lectura en pantallas.
+En este caso se usará **Poppins** para titulos y/o subtitulos e **Inter** para texto y/o subtexto.
 
-### 4.3. Landing Page UI Design
+<p align="center">
+<img src="Assets/chapter-4/Typography.png" alt="Moveo_Typo"/>
+</p>
 
-La interfaz de la landing page es clave para el proyecto, pues constituye la primera impresión del producto. Debe ofrecer una experiencia estética y funcional que atraiga de inmediato a los visitantes y los impulse a seguir explorando.
+![tipografia usada](Assets/chapter-4/typografia.png)
 
-#### 4.3.1. Landing Page Wireframe
+#### Colors
 
-**Landing Page para Desktop Web Browser**
-[![](https://i.imgur.com/qva3Jr2.png)](https://imgur.com/qva3Jr2)
+Elegimos los siguientes colores buscando plasmar una paleta que influya seguridad y profesionalismo:
 
-[![](https://i.imgur.com/G3RtJgE.png)](https://imgur.com/G3RtJgE)
+<p align="center">
+<img src="Assets/chapter-4/Color.png" alt="Moveo_Colors"/>
+</p>
 
+![Colores usados](Assets/chapter-4/Colores.png)
 
-**Landing Page para Mobile Web Browse**
 
-[![](https://i.imgur.com/jnR5OKK.png)](https://imgur.com/jnR5OKK)
-[![](https://i.imgur.com/2QJaetu.png)](https://imgur.com/2QJaetu)
+#### Spacing
 
+En este proyecto el espaciado cumple un papel clave para mantener la legibilidad y la accesibilidad. Por ello:
 
-#### 4.3.2. Landing Page Mock-up
+* Párrafos: Se añade un espacio equivalente a una línea completa entre cada uno, lo que facilita distinguir las ideas.
 
-Esta sección presenta y explica los Mock-ups del Landing Page, tanto en su versión para Desktop Web Browser como Mobile Web Browser. En la propuesta y la 
-explicación debe evidenciarse la aplicación de los principios, elementos de diseño, diseño inclusivo y arquitectura de información, así como el Design System establecido para los productos digitales.
+* Elementos interactivos: Se deja entre 8 y 12 píxeles de separación en botones, enlaces u otros componentes, reduciendo posibles errores en dispositivos táctiles.
 
-[![](https://i.imgur.com/lnRBGJR.png)](https://imgur.com/lnRBGJR)
+* Márgenes y padding: Se aplican márgenes de 16 a 24 píxeles alrededor del contenido, evitando que la interfaz se vea saturada.
+  
+#### Communication Tone
 
-### 4.6. Web Applications UX/UI Design
+| Dimensión              | Nivel Adoptado    |
+|------------------------|-------------------|
+| Divertido/Serio        | Medio-Serio       |
+| Formal/Casual          | Semi-Formal       |
+| Respetuoso/Irreverente | Muy Respetuoso    |
+| Entusiasta/Sereno      | Sereno y Empático |
 
-El diseño de experiencia de usuario (UX) y de interfaz de usuario (UI) en aplicaciones web consiste en construir una experiencia digital que resulte clara, práctica y agradable para las personas que la utilizan. La UX se enfoca en identificar las necesidades y expectativas de los usuarios, diseñando flujos de navegación y estructuras de información que hagan más sencilla la interacción. En cambio, la UI aborda la parte visual de la aplicación, como el estilo de los botones, menús y la organización del contenido en pantalla. Cuando ambos enfoques se integran de forma adecuada, se logra un equilibrio entre estética y usabilidad, generando así una experiencia atractiva, funcional y memorable para los usuarios.
+Decidimos mantener una comunicación clara, cálida y profesional, porque este enfoque nos permite conectar de manera efectiva con el público, especialmente en un contexto tan sensible como la seguridad del usuario. 
 
-#### 4.6.1. Web Applications Wireframes
+### 4.1.2. Web Style Guidelines.
 
-**Web applications wireframes desktop**
-[![](https://i.imgur.com/X6tB0Ws.png)](https://imgur.com/X6tB0Ws)
-[![](https://i.imgur.com/bS3icNM.png)](https://imgur.com/bS3icNM)
+Para garantizar que la página se adapte a diferentes tamaños de pantalla y mantenga una presentación clara y atractiva, se empleará CSS con el apoyo de media queries. De esta manera, será posible definir estilos específicos según la resolución del dispositivo. Elementos clave como la barra de navegación y el pie de página se ajustarán automáticamente, ofreciendo una experiencia consistente en cualquier dispositivo. Los puntos de quiebre definidos son los siguientes:
 
-**Web applications wireframes mobile**
-[![](https://i.imgur.com/KhbVnHA.png)](https://imgur.com/KhbVnHA)
-[![](https://i.imgur.com/AVm34y0.png)](https://imgur.com/AVm34y0)
+| Dispositivo     | Ancho mínimo | Ejemplo de uso            |
+|-----------------|--------------|----------------------------|
+| Mobile          | ≥ 320px      | Teléfonos                  |
+| Tablet          | ≥ 768px      | iPad / tablets genéricas   |
+| Laptop  | ≥ 1024px     | Monitores y laptops        |
+| Wide Screen     | ≥ 1440px     | Pantallas grandes o TV     |
 
-#### 4.6.2. Web Applications Wireflow Diagrams
+## 4.2. Information Architecture.
 
-Los diagramas de wireflow para aplicaciones web son representaciones visuales que muestran tanto la navegación como la estructura de una aplicación. Estos combinan características de los wireframes y de los diagramas de flujo, ofreciendo una visión clara de cómo los usuarios se desplazan por la plataforma y de qué manera interactúan con sus diferentes funciones. Su utilidad radica en detectar posibles dificultades de usabilidad y en asegurar que la experiencia del usuario sea consistente y eficiente.
-En el caso de PuntoSabor, el diagrama de wireflow ilustra los recorridos principales de sus dos tipos de usuarios: el descubridor gastronómico y el dueño de restaurante. Incluye procesos clave como la autenticación, la exploración de categorías de comida, la búsqueda de huariques cercanos, el acceso a promociones, la gestión de planes de membresía, así como funciones para editar el perfil y acceder al soporte.
+### 4.2.1. Organization Systems.
 
-[![](https://i.imgur.com/9Dn6qpX.png)](https://imgur.com/9Dn6qpX)
+Nuestro propósito es garantizar una experiencia de usuario coherente y sin fricciones en la plataforma web, tanto en la versión de sobremesa como la versión móvil. La estructura visual que presentamos ha sido diseñada estratégicamente para responder a las necesidades de nuestros dos segmentos principales.
 
-#### 4.6.3. Web Applications Mock-ups
+Si bien ambos acceden a las mismas secciones, la diferencia radica en los niveles de permiso. Los dueños pueden prestar el transporte, ofrecer rutas de aventuras y prestar servicios adicionales, mientras que los inquilinos cuentan únicamente con acceso a la visualización de autos, aventuras y servicios disponibles, además de la posibilidad de filtrar por locación, fecha y/o cantidad de personas.
 
-**Web applications Mock-ups desktop**
+<p align="center">
+<img src="Assets/chapter-4/Diagrama.png" alt="Moveo_Diagram"/>
+</p>
 
-[![](https://i.imgur.com/Y3nFsL2.png)](https://imgur.com/Y3nFsL2)
-[![](https://i.imgur.com/LiOXpTM.png)](https://imgur.com/LiOXpTM)
+Como se ve en el diagrama, se sigue un proceso estructurado para facilitar la gestión de la salud de los pacientes, permitiendo la interacción entre médicos y familiares. Aquí explicamos cada etapa del proceso y las funciones disponibles:
 
-**Web applications Mock-ups mobile**
+1. **Landing Page**: Es la página de inicio donde los usuarios pueden explorar la aplicación y conocer sus beneficios.
 
-[![](https://i.imgur.com/brbPv3h.png)](https://imgur.com/brbPv3h)
-[![](https://i.imgur.com/HiOF1fW.png)](https://imgur.com/HiOF1fW)
+2. **Inicio**: Los usuarios pueden iniciar sesión si ya tienen una cuenta o registrarse como nuevos usuarios.
 
-#### 4.6.4. Web Applications User Flow Diagrams
+3. **Registro**:
+   - **Crear Cuenta**: Los nuevos usuarios ingresan sus datos manualmente.
+   - **Registrarse con Google**: Opción para facilitar el acceso mediante una cuenta de Google.
+   - **Llenar Datos**: Se completa un formulario con información personal.
 
-El User Flow Diagram es una representación gráfica del recorrido que sigue un usuario al interactuar con una aplicación o sitio web. En él se detalla la secuencia de acciones necesarias para cumplir una tarea concreta, lo que permite detectar posibles dificultades en el proceso y mejorar la experiencia del usuario.
+4. **Inicio de Sesión**: Los usuarios existentes ingresan sus credenciales para acceder a la plataforma.
 
-Leyenda:
+5. **Página Principal**: Una vez dentro, los usuarios pueden acceder a diversas funcionalidades.
 
-[![](https://i.imgur.com/U0KSNCw.png)](https://imgur.com/U0KSNCw)
+6. **Autos**: Los usuarios pueden ver autos disponibles.
 
-Flujo de usuario:
-Empieza con el usuario ingresando la página de inicio de PuntoSabor. Aqui determina  si es "Explorador Gastronómico" o "Dueño de Restaurante"
+7. **Aventuras**: Rutas por auto creadas por personas hacia diversos destinos con alguna temática.
 
-[![](https://i.imgur.com/bDFI2v8.png)](https://imgur.com/bDFI2v8)
+8. **Servicios**: Servicios brinda.
 
-Flujo de Explorador Gastronómico:
-El usuario con rol de Explorador Gastronómico puede acceder a un buscador para obtener información sobre huariques. En caso de no realizar una búsqueda, podrá visualizar sugerencias.
-[![](https://i.imgur.com/U62yXvs.png)](https://imgur.com/U62yXvs)
+9. **Conviertete en dueño**: Complementa la experiencia de alquiler, ofreciendo beneficios adicionales que mejoran la seguridad, comodidad y confianza del usuario.
 
-Flujo de Dueño de Restaurante: 
-El usuario con rol de Dueño de Restaurante puede acceder a su perfil, consultar y modificar su plan, así como gestionar la lista de huariques, productos y promociones. Además, tiene la opción de actualizar su perfil añadiendo o editando un huarique: cambiar el nombre, actualizar la foto, modificar la ubicación y gestionar los productos y promociones. También podrá programar una sesión de retroalimentación en una fecha determinada.
-[![](https://i.imgur.com/JhxwFDh.png)](https://imgur.com/JhxwFDh)
-[![](https://i.imgur.com/OmAXnFq.png)](https://imgur.com/OmAXnFq)
+10. **Perfil**: Configuración de la cuenta, donde los usuarios pueden actualizar su información personal.
 
-Vista general del flujo de usuario:
-[![](https://i.imgur.com/H4Qsqaq.png)](https://imgur.com/H4Qsqaq)
+Este flujo de trabajo permite que los médicos tomen decisiones informadas sobre la salud del paciente y que los familiares estén al tanto de su evolución.
 
-### 4.7. Web Applications Prototyping
+### 4.2.2. Labeling Systems.
 
-Prototipo de la aplicación web PuntoSabor en figma:
-**https://www.figma.com/design/lT88eEZFP7G86QwYXq59Lc/PuntoSabor?node-id=0-1&p=f&t=NTWZ6fdPzB6mKTpe-0**
+Los sistemas de etiquetado seguirán la misma estructura presentada en Organization Systems. El usuario podrá seleccionar el encabezado de su interés y, al hacer clic, será dirigido automáticamente a la sección correspondiente dentro de la plataforma.
 
-### 4.8. Domain-Driven Software Architecture
+| **Sección**  | **Contenido** |
+|-------------|--------------|
+| **Página Principal** | Es el primer punto de contacto con Moveo. Aquí se introduce la aplicación, explicando su propósito, misión y visión, además de resaltar esta manera de alquilar automóviles. |
+| **About** | Proporciona una descripción detallada de las herramientas y funcionalidades que ofrece Moveo. Se explican los módulos principales, cómo interactúa el dueño de automóvil y el arrendador, y los beneficios del uso de la aplicación. |
+| **Contacto** | Espacio donde los usuarios pueden encontrar los canales de comunicación con el equipo de soporte. Se incluyen redes sociales, un correo de asistencia técnica y un correo para consultas de negocios o colaboraciones. |
 
-La arquitectura de software orientada al dominio es una metodología de diseño que organiza la estructura del sistema a partir de los conceptos y procesos esenciales de un área específica. Este enfoque permite construir aplicaciones alineadas con las necesidades reales y la lógica del negocio, facilitando tanto la incorporación de funcionalidades concretas como la adaptación ante cambios en el entorno. En PuntoSabor, aplicamos esta arquitectura para estructurar la plataforma de manera clara y escalable, lo que garantiza el desarrollo de una aplicación robusta, flexible y sencilla de mantener.
+##### Secciones y contenido de Moveo
 
-#### 4.8.1. Software Architecture Context Diagram
+| **Sección**  | **Contenido** |
+|-------------|--------------|
+| **Autos** | Esta es la página principal en la que tambipen contiene la selección de autos disponibles para alquilar. |
+| **Aventuras** | Sección donde los usuarios pueden publicar rutas personalizadas con actividades planeadas y destinos diferentes. |
+| **Servicios** | Espacio dedicado a multiples servicios automovilisticos seleccionables . |
+| **Conviertete en dueño** | Permite al usuario poner su auto en alquiler, publicar una aventura o publicar un servicio. |
+| **Perfil** | Sección para la administración del perfil del usuario, permitiendo la actualización de datos personales, preferencias y configuración de accesibilidad. |
 
-**Elementos:**
-- PuntoSabor: Principal para los usuarios
-- Usurio - Descubridor gastronómico: Encuentra huariques poco conocidos 
-- Usuario - Dueño de restaurante: Publica su huarique y más cosas según su plan de membresía 
-[![](https://i.imgur.com/0UCKREz.png)](https://imgur.com/0UCKREz)
+### 4.2.3. SEO Tags and Meta Tags
 
-#### 4.8.2. Software Architecture Container Diagrams
+La **Landing Page** está diseñada para atraer nuevos usuarios, informar sobre la propuesta de valor y generar confianza en la marca.  Las etiquetas meta se centran en captar tráfico orgánico de personas interesadas en alquilar un auto, ir de viaje manejando o buscando un servicio automovilístico.
 
-**Elementos:**
-- Aplicación web: Frontend donde los usuarios interactúan con la aplicación 
-Se usará tecnología: Vue.js
-- Servidor de aplicaciones: Backend que maneja los planes de membresía de los usuarios.
-Se usará tecnología: C#
-- Base de datos: Almacena los datos de los usuarios, sus planes y cosas que realizan en la aplicación.
-Se usara tecnología: SQL  server 
-[![](https://i.imgur.com/CV3mr1c.png)](https://imgur.com/CV3mr1c)
 
-#### 4.8.3. Software Architecture Components Diagrams
+**Título de la página (Title)**
 
-API Service — Components
-[![](https://i.imgur.com/JCneHpH.png)](https://imgur.com/JCneHpH)
+El título resume de forma directa el propósito del sitio, incluyendo las palabras clave **"autos"**, **"alquilar"** y **"seguro"**, que son términos con alta relevancia SEO para nuestro público objetivo.
 
-Categories Service — Components
-
-[![](https://i.imgur.com/ZTrfYxs.png)](https://imgur.com/ZTrfYxs)
-
-Zones Service — Components
-
-[![](https://i.imgur.com/PrryyjP.png)](https://imgur.com/PrryyjP)
-
-Promotions Service — Components
-
-[![](https://i.imgur.com/zVMdDy0.png)](https://imgur.com/zVMdDy0)
-
-Plans Service — Components
-
-[![](https://i.imgur.com/gnX0StN.png)](https://imgur.com/gnX0StN)
-
-Profile Service — Components
-
-[![](https://i.imgur.com/0V64N5g.png)](https://imgur.com/0V64N5g)
-
-Auth Service — Components
-
-[![](https://i.imgur.com/B30Wodp.png)](https://imgur.com/B30Wodp)
-
-Contact Service — Components
-
-[![](https://i.imgur.com/LEUIr4J.png)](https://imgur.com/LEUIr4J)
-
-### 4.9. Software Object-Oriented Design
-#### 4.9.1. Class Diagrams
-
-[![](https://i.imgur.com/P5i2TCx.png)](https://imgur.com/P5i2TCx)
-
-#### 4.9.2. Class Dictionary
-
-| Class                         | Definition                                                                                                                |
-| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| `User`                        | Entity representing the platform user (name, email) who creates reviews and manages favorites.                            |
-| `Huarique`                    | Aggregate root: a food venue with name, `Description`, `Address`, `Coordinates`, average rating, and `OpeningStatus`. |
-| `Category`                    | Lightweight entity that classifies huariques by type/style.                                                               |
-| `Review`                      | Entity that models a review on a huarique, with a `Rating` (1..5), comment, and date.                                     |
-| `Favorite`                    | User–huarique relationship to bookmark huariques.                                                                         |
-| `MembershipPlan`              | Commercial plan available to a huarique (name, benefits, monthly price).                                                  |
-| `Subscription`                | Link between huarique and plan; stores dates and `SubscriptionStatus`.                                                    |
-| `Description`                 | Value Object encapsulating the huarique’s validated description.                                                      |
-| `Address`                     | Value Object with line, district, and city; prevents invalid addresses.                                               |
-| `Coordinates`                 | Value Object with valid latitude/longitude for geolocation.                                                           |
-| `Rating`                      | Value Object (integer 1..5) ensuring valid ratings.                                                                   |
-| `OpeningStatus`               | VO / Enumeration representing the venue’s operating status (`OPEN`, `CLOSED`, `UNKNOWN`, `TEMPORARILY_CLOSED`).       |
-| `SubscriptionStatus`          | VO / Enumeration for subscription lifecycle (`ACTIVE`, `CANCELED`, `EXPIRED`).                                        |
-| `IHuariqueRepository`         | Port for `Huarique` persistence (get by id, search by filters, save).                                                 |
-| `IReviewRepository`           | Port for `Review` persistence (list by huarique, save).                                                               |
-| `ISubscriptionRepository`     | Port for `Subscription` persistence (get, save).                                                                      |
-| `HuariqueRepositorySQL`       | Adapter implementing `IHuariqueRepository` using SQL storage.                                                         |
-| `SearchService`               | Domain service to find huariques by filters.                                                                          |
-| `ReviewService`               | Domain service to publish/moderate reviews applying business rules.                                                   |
-| `MembershipService`           | Domain service that manages subscription lifecycle.                                                                   |
-| `HuariquesApplicationService` | Application service that orchestrates use cases (get huarique, create review) and coordinates repositories/services.  |
-
-### 4.10. Database Design
-#### 4.10.1. Relational/Non-Relational Database Diagram
-
-
-```mermaid
-erDiagram
-  %% ================= RELATIONSHIPS =================
-  Users            ||--o{ Reviews           : "writes"
-  Users            ||--o{ Favorites         : "bookmarks"
-  Huariques        ||--o{ Reviews           : "reviewed in"
-  Huariques        ||--o{ Favorites         : "bookmarked"
-  Categories       ||--o{ Huariques         : "classifies"
-  Huariques        ||--o{ Huarique_Photos   : "has"
-  Membership_Plans ||--o{ Subscriptions     : "offered to"
-  Huariques        ||--o{ Subscriptions     : "subscribes"
-  Users            ||--o{ Subscriptions     : "created by"
-  Users            ||--o{ Audit_Logs        : "logs"
-
-  %% ================= TABLES =================
-
-  Users {
-      uuid user_id PK
-      string name
-      string email UK
-      enum role "admin, user"
-      timestamp created_at
-      timestamp updated_at
-  }
-
-  Huariques {
-      uuid huarique_id PK
-      string name
-      text description
-      string address_line
-      string district
-      string city
-      float lat
-      float lng
-      enum opening_status "OPEN, CLOSED, UNKNOWN, TEMPORARILY_CLOSED"
-      decimal average_rating
-      int category_id FK
-      timestamp created_at
-      timestamp updated_at
-  }
-
-  Categories {
-      int category_id PK
-      string name
-      string description
-      timestamp created_at
-  }
-
-  Reviews {
-      uuid review_id PK
-      uuid huarique_id FK
-      uuid user_id FK
-      int rating "1..5"
-      string comment
-      datetime review_date
-      timestamp created_at
-  }
-
-  Favorites {
-      uuid user_id PK,FK
-      uuid huarique_id PK,FK
-      timestamp created_at
-  }
-
-  Membership_Plans {
-      uuid plan_id PK
-      string name
-      text description
-      decimal monthly_price
-      timestamp created_at
-  }
-
-  Subscriptions {
-      uuid subscription_id PK
-      uuid huarique_id FK
-      uuid plan_id FK
-      uuid user_id FK        "creator/owner"
-      date start_date
-      date end_date
-      enum status "ACTIVE, CANCELED, EXPIRED"
-      timestamp created_at
-      timestamp updated_at
-  }
-
-  Huarique_Photos {
-      uuid photo_id PK
-      uuid huarique_id FK
-      string url
-      timestamp created_at
-  }
-
-  Audit_Logs {
-      int audit_id PK
-      uuid user_id FK
-      string entity_type
-      uuid entity_id
-      string action
-      json details
-      timestamp audit_date
-  }
-
+```html
+<title>Moveo – Alquilar autos de manera segura</title>
 ```
+
+**Meta descripción (Meta Description)**
+
+La meta descripción ofrece una vista clara del valor que ofrece la plataforma, motivando al clic desde los resultados de búsqueda.
+
+```html
+<meta name="description" content="Moveo es una plataforma digital que mejora la seguridad al alquilar autos, brindadndo viajes y servicios automovilísticos.">
+```
+
+**Palabras clave (Meta Keywords)**
+
+Los términos elegidos cubren conceptos clave relacionados con el contexto de uso de Moveo, permitiendo un mayor alcance en búsquedas asociadas.
+
+```html
+<meta name="keywords" content="autos, alquiler, viajes, actividades, plataforma digital, aventuras, servicios automovilísticos">
+```
+
+
+**Autor del sitio (Meta Author)**
+
+La etiqueta autor identifica al equipo creador, útil para fines de propiedad y referencia en motores de búsqueda.
+
+```html
+<meta name="author" content="Moveo Team">
+```
+
+
+### 4.2.4. Searching Systems.
+
+La plataforma Moveo incorpora un sistema de búsqueda global que permite a los usuarios encontrar rápidamente lo que necesitan sin importar en qué sección se encuentren.
+
+#### **Busqueda Global**
+
+* Disponible en la barra superior de navegación en todas las páginas.
+* El usuario puede escribir palabras clave como “SUV Lima”, “aventura playa” o “servicio mantenimiento”.
+* El motor de búsqueda devuelve resultados clasificados por secciones:
+  * Autos disponibles
+  * Aventuras creadas por otros usuarios
+  * Servicios automovilísticos
+  * Usuarios/Dueños (en caso de búsqueda por nombre o alias)
+
+#### **Filtrado de información**
+
+* En cada sección principal (Autos, Aventuras, Servicios), los usuarios disponen de filtros específicos:
+  * **Autos**: por ubicación, tipo de vehículo (sedán, SUV, deportivo), precio por día, transmisión (manual/automática), y valoraciones de otros usuarios.
+  * **Aventuras**: por destino, temática (playa, montaña, ciudad), duración y popularidad.
+  * **Servicios**: por tipo (lavado, mantenimiento, chofer privado, asistencia en carretera) y disponibilidad.
+* Los filtros se combinan con la búsqueda global para entregar resultados personalizados y relevantes.
+
+### 4.2.5. Navigation Systems.
+
+Organizamos las secciones, permitiendo a los usuarios desplazarse sin dificultad entre distintas funcionalidades. La navegación está basada en una barra de menú principal, accesos rápidos y una estructura jerárquica clara que guía al usuario en su recorrido.
+
+#### **Estructura de Navegación en la Landing Page**
+ La landing page consta de las siguientes secciones principales:
+
+ | **Sección**  | **Contenido** |
+|-------------|--------------|
+| **Página Principal** | Introduce Moveo, su propósito, misión y visión. Desde aquí, los usuarios pueden acceder rápidamente a las funciones clave. |
+| **About** | Explica las herramientas principales de Moveo, cómo funcionan y cómo beneficia a los usuarios. |
+| **Contacto** | Incluye enlaces a redes sociales, un correo de asistencia técnica y otro para consultas de negocio. |
+
+#### **Estructura de Navegación en Moveo**
+ La aplicación consta de las siguientes secciones principales:
+
+ | **Sección**  | **Contenido** |
+|-------------|--------------|
+| **Autos** | Muestra de manera simple los carros disponibles y a la vez divididos por categorías. |
+| **Aventuras** | Proporciona rutas personalizadas con actividades planeadas y destinos diferentes. |
+| **Servicios** | Sección enfocada en brindar una variedad de opciones de servicios automotrices disponibles para selección. |
+| **Conviertete en dueño** | Espacio donde el usuario puede publicar su automóvil para alquiler, proponer rutas personalizadas o agregar servicios complementarios. |
+| **Perfil** | Área dedicada al control del perfil del usuario, con herramientas para mantener actualizados los datos, preferencias y accesos personalizados. |
+
+
+### 4.3.1. Landing Page Wireframe
+
+> ** Enlace al prototipo interactivo en Figma:**  
+> https://www.figma.com/proto/c6kJu6j0YZv51u6Ml2kypY/Moveo-Landing-Mockup?node-id=1-2&p=f&t=oOjM7PCRDBGHla3t-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4006%3A1560
+
+Los wireframes representan la estructura básica y funcional de la landing page de **Moveo**, sin elementos visuales finales. Su objetivo es definir la jerarquía de contenido, los flujos de navegación y la disposición de componentes clave antes de pasar al diseño visual.
+
+---
+
+#### Header y Hero
+![header y hero](Assets/chapter-4/wire-header-hero.png)  
+*Define la primera impresión del usuario: logo, menú de navegación, llamado a acción principal (“Alquila tu auto” o “Encuentra tu viaje”) y espacio para imagen/video hero. Diseñado para captar atención en menos de 3 segundos.*
+
+---
+
+#### What is Moveo
+![what is moveo](Assets/chapter-4/wire-whatismoveo.png)  
+*Sección explicativa que comunica el valor central de Moveo: conectar propietarios e inquilinos con confianza, transparencia y tecnología. Incluye iconografía simple y bullets de beneficios.*
+
+---
+
+#### Team Members
+![Tema members](Assets/chapter-4/wire-team.png)  
+*Muestra al equipo fundador o clave. Construye confianza y humaniza la marca. Cada tarjeta incluye foto, nombre, rol y redes sociales.*
+
+---
+
+#### Services
+![services](Assets/chapter-4/wire-services.png)  
+*Presenta los servicios principales: alquiler de autos, aventuras guiadas, seguros integrados. Usa tarjetas modulares con ícono, título y descripción corta.*
+
+---
+
+#### Moveo Services — Learn More
+![moveo services learn more](Assets/chapter-4/wire-services.png)  
+*Sección de profundización: explica cómo funciona la plataforma, pasos para alquilar o listar un auto, y garantías de seguridad. Incluye botones de CTA secundarios.*
+
+---
+
+#### Impacto de Moveo
+![Impacto de moveo](Assets/chapter-4/wire-impact.png)  
+*Visualiza métricas de impacto: “+500 autos listados”, “+2000 viajes realizados”, “98% de satisfacción”. Refuerza credibilidad y escala.*
+
+---
+
+#### Footer
+![Footer](Assets/chapter-4/wire-questions.png)  
+*Contiene enlaces legales, contacto, redes sociales, newsletter y logos de partners o certificaciones. Es la base de confianza y cierre de la página.*
+
+---
+
+### 4.3.2. Landing Page Mock-up
+
+> ** Enlace al diseño final en Figma:**  
+> https://www.figma.com/design/lRjIRg3YuUVRpVKoibbAKt/Moveo-Landing-Mockup?node-id=0-1&t=xZb8804mKmhW8bFn-1
+
+Los mock-ups son la versión visual final de la landing page, con colores, tipografías, imágenes reales y microinteracciones definidas. Representan la identidad de marca y la experiencia estética que el usuario final verá.
+
+---
+
+#### Header y Hero
+![header y hero](Assets/chapter-4/header%20y%20hero.png)  
+*Hero impactante con fondo dinámico (auto en movimiento), tipografía bold, botón principal con sombra y hover effect. Transmite energía, libertad y confianza.*
+
+---
+
+#### What is Moveo
+![what is moveo](Assets/chapter-4/what%20is%20Moveo.png)  
+*Diseño limpio con ilustraciones vectoriales, gradientes suaves y cards con sombras sutiles. Comunica profesionalismo y cercanía.*
+
+---
+
+#### Team Members
+![Tema members](Assets/chapter-4/teammember.png)  
+*Fotos profesionales con fondo desenfocado, bordes redondeados, hover con redes sociales. Genera empatía y confianza institucional.*
+
+---
+
+#### Services
+![services](Assets/chapter-4/services.png)  
+*Iconos personalizados, colores por categoría, animaciones de entrada suaves. Cada servicio tiene un tono visual que refuerza su propósito (ej. verde para “seguro”, azul para “aventuras”).*
+
+---
+
+#### Moveo Services — Learn More
+![moveo services learn more](Assets/chapter-4/moveo.png)  
+*Sección con fondo dividido, ilustración a la izquierda y texto a la derecha. Botones con estados hover y focus definidos. Microcopy persuasivo y claro.*
+
+---
+
+#### Impacto de Moveo
+![Impacto de moveo](Assets/chapter-4/impacto.png)  
+*Números grandes en negrita, íconos animados al scroll, fondo con textura sutil. Diseñado para generar asombro y validación social.*
+
+---
+
+#### Footer
+![Footer](Assets/chapter-4/footer.png)  
+*Fondo oscuro, texto claro, separadores sutiles. Incluye logo pequeño, links organizados en columnas, formulario de newsletter con validación visual y redes con íconos hover.*
+
+---
+
+## 4.4. Web Applications UX/UI Design
+
+### 4.4.1. Web Applications Wireframes
+
+<p align="center">
+  <img src="Assets/chapter-4/App_wireframe_1.png" alt="app_wireframes_1"/>
+</p>
+*Wireframe de la pantalla principal de la app: feed de autos disponibles, filtros superiores (ubicación, fechas, tipo de auto), barra de navegación inferior. Enfoque en funcionalidad y flujo de búsqueda.*
+
+<p align="center">
+  <img src="Assets/chapter-4/App_wireframe_2.png" alt="app_wireframes_2"/>
+</p>
+*Wireframe del perfil de usuario y detalle de auto: información del dueño, fotos, reseñas, botón de reserva, sección de preguntas frecuentes. Define la estructura de toma de decisión.*
+
+---
+
+### 4.4.2. Web Applications Wireflow Diagrams
+
+<p align="center">
+  <img src="Assets/chapter-4/moveo_wireflow.jpg" alt="app_wireflow"/>
+</p>
+*Mapa visual del flujo completo del usuario: desde el onboarding → búsqueda → reserva → pago → entrega → calificación. Identifica puntos críticos y oportunidades de mejora en la experiencia.*
+
+---
+
+### 4.4.3. Web Applications Mock-ups
+
+<p align="center">
+  <img src="Assets/chapter-4/Moveo App Mockup.png" alt="app_mockup"/>
+</p>
+*Diseño visual final de la aplicación móvil. Paleta de colores vibrante pero profesional, tipografía legible, componentes con estados interactivos (presionado, cargando, error). Refleja la identidad de marca en cada pantalla.*
+
+---
+
+### 4.4.4. Web Applications User Flow Diagrams
+
+<p align="center">
+  <img src="Assets/chapter-4/user_flow_diagram.jpg" alt="userflow"/>
+</p>
+*Diagrama detallado de los caminos que sigue un usuario para completar tareas clave: “Reservar un auto en 3 clics”, “Publicar mi auto en 5 pasos”, “Dejar una reseña”. Sirve para validar usabilidad y eliminar fricciones.*
+
+---
+
+## 4.5. Web Applications Prototyping
+
+<p align="center">
+  <img src="Assets/chapter-4/protoype_moveo.png" alt="prototype"/>
+</p>
+*Prototipo interactivo de alta fidelidad. Permite simular la navegación real entre pantallas, probar transiciones, microinteracciones y flujos completos. Herramienta esencial para pruebas de usabilidad con usuarios reales antes del desarrollo.*
+
+> **Enlace al prototipo interactivo en Figma:**  
+> https://www.figma.com/proto/c6kJu6j0YZv51u6Ml2kypY/Moveo-Landing-Mockup?node-id=1-2&p=f&t=oOjM7PCRDBGHla3t-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4006%3A1560
+
+---
+
+## 4.6. Domain-Driven Software Architecture
+
+### 4.6.1. Software Architecture Context Diagram
+
+<p align="center">
+  <img src="Assets/chapter-4/moveo_context.png" alt="moveo_context_diagram"/>
+</p>
+*Diagrama de contexto que muestra cómo Moveo se relaciona con actores externos: usuarios (propietarios e inquilinos), sistemas de pago (Yape, Plin), servicios de geolocalización, y notificaciones push. Define los límites del sistema.*
+
+---
+
+### 4.6.2. Software Architecture Container Diagrams
+
+<p align="center">
+  <img src="Assets/chapter-4/moveo_container.png" alt="moveo_container_diagram"/>
+</p>
+*Desglosa la arquitectura en contenedores: frontend (React), backend (.net), base de datos (PostgreSQL), almacenamiento de archivos (AWS S3), y servicios externos (Firebase Auth, Cloudinary). Muestra cómo se comunican entre sí.*
+
+---
+
+### 4.6.3. Software Architecture Components Diagrams
+
+**UserBC (User Bounded Context):**
+<p align="center">
+  <img src="Assets/chapter-4/userBC.png" alt="userBC"/>
+</p>
+*Gestiona autenticación, autorización y perfiles de usuario. Componentes clave: AuthService, UserService, RoleManager.*
+
+**ProfileBC (Profile Bounded Context):**
+<p align="center">
+  <img src="Assets/chapter-4/profileBC.png" alt="profileBC"/>
+</p>
+*Maneja la información detallada del usuario: documentos subidos, historial de alquileres, reputación, preferencias. Componentes: ProfileService, DocumentValidator, ReputationEngine.*
+
+**CarRentBC (Car Rental Bounded Context):**
+<p align="center">
+  <img src="Assets/chapter-4/carBC.png" alt="CarRentBC"/>
+</p>
+*Core del negocio: listado de autos, reservas, pagos, contratos digitales. Componentes: CarListingService, BookingManager, PaymentGateway, ContractGenerator.*
+
+**AdventureBC (Adventure Bounded Context):**
+<p align="center">
+  <img src="Assets/chapter-4/adventureBC.png" alt="adventureBC"/>
+</p>
+*Opcional: gestiona paquetes de “aventuras” (rutas turísticas, guías, seguros especiales). Componentes: AdventureCatalog, RoutePlanner, GuideMatcher.*
+
+**ServiceBC (Service Bounded Context):**
+<p align="center">
+  <img src="Assets/chapter-4/serviceBC.png" alt="serviceBC"/>
+</p>
+*Maneja servicios transversales: notificaciones, alertas, soporte, reportes. Componentes: NotificationService, AlertEngine, SupportTicketSystem.*
+
+---
+
+## 4.7. Software Object-Oriented Design
+
+### 4.7.1. Class Diagrams
+
+<p align="center">
+  <img src="Assets/chapter-4/moveo_class.png" alt="moveo_class_diagram"/>
+</p>
+*Diagrama UML que modela las clases principales del sistema: User, Car, Booking, Payment, Review, Document, etc. Muestra atributos, métodos, relaciones (herencia, asociación, agregación) y responsabilidades. Base para el desarrollo orientado a objetos.*
+
+---
+
+## 4.8. Database Design
+
+### 4.8.1. Database Diagram
+
+<p align="center">
+  <img src="Assets/chapter-4/move_db.png" alt="moveo_database_diagram"/>
+</p>
+*Modelo entidad-relación (ERD) de la base de datos. Tablas principales: users, cars, bookings, payments, reviews, documents, notifications. Muestra claves primarias, foráneas, índices y relaciones (1:1, 1:N, N:M). Optimizado para consultas de reserva, reputación y reportes.*
 
 ## Capítulo V: Product Implementation
 
 ### 5.1. Software Configuration Management
 
-A lo largo del desarrollo del proyecto, aplicaremos las siguientes normas con el fin de garantizar la coherencia y uniformidad en todas las etapas:
+A lo largo del desarrollo del proyecto, aplicaremos las siguientes normas o convenciones con el fin de garantizar la coherencia y uniformidad en todas las etapas:
 
 | Contexto | Convención |
 |----------|------------|
-| Nombre de archivos | Todos los archivos se nombrarán en minúsculas, utilizando guiones o puntos para separar componentes (ej. `user-service.cs`, `config.json`). |
-| Nomenclatura de código | Las propiedades de un objeto se nombrarán en `PascalCase`, las funciones y variables en `lowerCamelCase`, y las clases también en `PascalCase`. |
-| Estructura de código | Se organizará el proyecto en carpetas lógicas por módulos (ej. `Models/`, `Services/`) para facilitar la navegación y el mantenimiento. |
-| Estilos de codificación | Seguir las convenciones de codificación de Microsoft C#: espacios en blanco para legibilidad, convenciones de nombre para clases, funciones y constantes, y nombres claros para variables. |
-| Documentación | Todo el código relevante —especialmente funciones complejas, clases y APIs— debe estar documentado con comentarios claros y concisos. Los comentarios deben explicar el "por qué", no solo el "qué". |
-| Control de versiones | Se utilizará **Git Flow** junto con **Conventional Commits**. Todos los mensajes de commit estarán en inglés con el formato: `<type>(<scope>): <description>`. Ejemplos: `feat(auth): add email validation`, `fix(login): resolve session timeout bug`. Las ramas se organizarán como: `main`, `develop`, `feature/`, `bugfix/` y `hotfix/`. |
-| Gestión de dependencias | Para C# se utilizará el administrador de paquetes NuGet. Para el frontend con Vue y Vite se usará npm o yarn. |
-| Pruebas | Utilizar comentarios descriptivos para explicar el propósito de cada test. |
-| Seguridad | Encriptar contraseñas de usuarios. Implementar sistema de autenticación seguro. Validar la información ingresada en formularios mediante librerías especializadas. |
-| Colaboración | Se utilizará **Discord** como plataforma principal para reuniones. Se realizarán reuniones semanales sincrónicas para revisar avances y resolver bloqueos. |
-
+| El nombre de archivos creados en el proyecto | Todos los archivos se nombrarán en minúsculas, utilizando guiones bajos o puntos para separar componentes (ej. `user-service.cs`, `config.json`). |
+| Convención de nomenclatura | Las propiedades de un objeto se nombrarán en `PascalCase`, las funciones y variables en `lowerCamelCase`, y las clases también en `PascalCase`. |
+| Convención de estructura de código | Se organizará el proyecto en carpetas lógicas por módulos (ej. `Models/`, `Services/`) para facilitar la navegación y el mantenimiento. |
+| Convención de estilos de codificación | Seguir las convenciones de codificación de Microsoft C#, es decir usar espacios en blanco para mejorar legibilidad, convenciones de nombre para clases, funciones, constantes; y también usar nombres claros o lógicos para variables. |
+| Convención de documentación | Todo el código relevante —especialmente funciones complejas, clases y APIs— debe estar documentado con comentarios claros, concisos y actualizados. Los comentarios deben explicar el “por qué”, no solo el “qué”. |
+| Convención de control de versiones | Se utilizará el flujo de trabajo **Git Flow** junto con las convenciones de **Conventional Commits**. Todos los mensajes de commit estarán en inglés y seguirán el formato: `<type>(<scope>): <description>`. Ejemplos: <ul><li>`feat(auth): add email validation`</li><li>`fix(login): resolve session timeout bug`</li><li>`chore(deps): update Newtonsoft.Json to v13.0.3`</li></ul> Las ramas se organizarán como: `main` (estable), `develop` (integración), y ramas de características (`feature/`), correcciones (`bugfix/`) o hotfixes (`hotfix/`). Cada cambio se desarrolla en una rama independiente y se fusiona mediante pull request revisado por al menos un compañero. |
+| Convención de gestión de dependencias | En el caso de C# usaremos el administrador de paquetes NuGet |
+| Convención de pruebas | Utilizar comentarios descriptivos y claros para explicar el propósito del test y codigo. |
+| Convención de seguridad |Encriptar las contraseñas de los usuarios con distintos algoritmos. Implementar sistema de autenticación seguro para proteger el acceso al sistema. Instalar librerías para validar la información ingresada por el usuario en los formularios. |
+| Convención de colaboración y comunicación | <ul><li>Se utilizará **Discord** como plataforma principal  para llamadas o reuniones.</li><li>Se realizarán reuniones semanales sincrónicas para revisar avances, resolver bloqueos y compartir aprendizajes.</li><li>Se fomentará una cultura de retroalimentación constructiva, colaboración activa y aprendizaje mutuo a partir de errores y mejores prácticas.</li></ul> |
 #### 5.1.1. Software Development Environment Configuration
 
-En esta sección se especifican los productos de software utilizados para el desarrollo de la solución Point Flavor.
+En esta sección, se explican los softwares utilziados para el desarrollo de nuestra solución.
 
-| Nombre de Producto | Descripción | Propósito de Uso | Categoría | Ruta de Descarga o Link |
+
+|Nombre de Producto|Descripción|Propósito de Uso|Categoría|Ruta Descarga o Link|
 |---|---|---|---|---|
-| Vue 3 | Framework progresivo de JavaScript para construir interfaces de usuario modernas y reactivas. | Desarrollo de interfaces frontend dinámicas y modulares, aprovechando Vue Router, Pinia y Vite para un ciclo de desarrollo ágil. | Software Development | https://vuejs.org/ |
-| Vite | Herramienta de construcción rápida y servidor de desarrollo moderno. | Empaquetado y servido del entorno de desarrollo del frontend de manera extremadamente rápida. | Software Development | https://vitejs.dev/ |
-| Microsoft .NET | Plataforma de desarrollo gratuita, multiplataforma y de código abierto para construir APIs y servicios web. | Construir servicios backend robustos y escalables utilizando .NET con Entity Framework Core. | Software Development | https://dotnet.microsoft.com/download |
-| C# | Lenguaje de programación moderno, orientado a objetos y tipado estático, desarrollado por Microsoft. | Implementar la lógica de negocio de los servicios backend, aprovechando async/await, pattern matching y record types. | Software Development | Incluido en .NET SDK |
-| JetBrains Rider / Visual Studio | IDE especializado para desarrollo con .NET y C#, con soporte para depuración y análisis estático. | Desarrollar y depurar el backend de Point Flavor con soporte completo para C# y ASP.NET Core. | Software Development | https://www.jetbrains.com/rider/ |
-| Visual Studio Code | Editor de código fuente ligero pero poderoso. | Desarrollar interfaces frontend con Vue 3, Vite y TypeScript. | Software Development | https://code.visualstudio.com/ |
-| Postman | Plataforma colaborativa para diseñar, probar y documentar APIs. | Validar endpoints del backend, crear colecciones compartidas y automatizar pruebas de integración. | Software Development | https://www.postman.com/ |
-| Figma | Herramienta de diseño colaborativo para crear wireframes y prototipos. | Diseñar la interfaz de usuario del Landing Page y la aplicación web. | Product UX/UI Design | https://www.figma.com/ |
-| GitHub | Plataforma de desarrollo colaborativo basada en Git. | Centralizar el código, facilitar la revisión colaborativa y gestionar ramas de desarrollo siguiendo GitFlow. | Software Development | https://github.com/ |
-| Vercel | Plataforma en la nube para sitios estáticos y frameworks frontend. | Despliegue continuo (CI/CD) de la aplicación frontend desarrollada en Vue con Vite. | Software Deployment | https://vercel.com/ |
-| Railway | Plataforma de infraestructura en la nube. | Despliegue continuo y hosting del backend desarrollado en C# .NET. | Software Deployment | https://railway.app/ |
+| Vue 3                   | Framework progresivo de JavaScript para construir interfaces de usuario modernas y reactivas. Vue 3 introduce mejoras significativas en rendimiento, tamaño del bundle y reactividad con el sistema de reactividad basado en Proxy. Ideal para SPAs y aplicaciones escalables.                           | Nuestro propósito de uso es desarrollar interfaces frontend dinámicas, modulares y altamente interactivas, aprovechando la simplicidad de Vue, su ecosistema robusto (Vue Router, Pinia, Vite) y su integración fluida con herramientas modernas de desarrollo, permitiendo un ciclo de desarrollo ágil y mantenible. | Software Development    | https://vuejs.org/                            |
+| Microsoft .NET          | Plataforma de desarrollo gratuita, multiplataforma y de código abierto para construir aplicaciones web, móviles, de escritorio, microservicios y APIs. Compatible con Windows, Linux y macOS. Incluye bibliotecas, lenguajes y herramientas para todo el ciclo de vida del desarrollo.                  | Nuestro propósito de uso es construir servicios backend robustos, escalables y de alto rendimiento utilizando .NET 8 (o superior), aprovechando su soporte para APIs REST, gRPC, Entity Framework Core y su integración nativa con Azure, garantizando productividad y estabilidad en entornos empresariales.      | Software Development    | https://dotnet.microsoft.com/download         |
+| C#                      | Lenguaje de programación moderno, orientado a objetos y de tipado estático, desarrollado por Microsoft como parte de la plataforma .NET. Es conocido por su claridad, seguridad y potencia para construir desde aplicaciones simples hasta sistemas empresariales complejos.                            | Nuestro propósito de uso es implementar la lógica de negocio de nuestros servicios backend con C# 12 (o superior), aprovechando sus características avanzadas (record types, pattern matching, async/await) para escribir código limpio, mantenible y eficiente dentro del ecosistema .NET.                         | Software Development    | Incluido en .NET SDK: https://dotnet.microsoft.com/download |
+| JetBrains WebStorm      | IDE especializado en desarrollo web moderno, con soporte integral para JavaScript, TypeScript, Vue, HTML/CSS y herramientas de depuración, linting y refactorización inteligente.                                                                                                        | Nuestro propósito de uso es desarrollar interfaces frontend complejas con Vue 3 y TypeScript, aprovechando su autocompletado avanzado, navegación rápida, integración con terminal y debugging en tiempo real, sin necesidad de plugins adicionales.                                                              | Software Development    | https://www.jetbrains.com/webstorm/           |
+| Postman                 | Plataforma colaborativa para diseñar, probar, documentar y monitorear APIs. Ofrece colecciones, entornos, pruebas automáticas, mocks, documentación dinámica y soporte para MCP (Model Context Protocol) para IA.                                                                                          | Nuestro propósito de uso es validar endpoints de nuestros servicios .NET, crear y mantener documentación actualizada, compartir colecciones con el equipo, y automatizar pruebas de integración y regresión, eliminando la dependencia de herramientas externas.                                                  | Software Development    | https://www.postman.com/downloads/ \| https://identity.getpostman.com/login — Disponible como app de escritorio y SaaS. |
+| UXPressia               | Plataforma visual para crear mapas de experiencia del usuario (journey maps), personas y servicios, con plantillas profesionales, exportación a PDF/PPTX y vinculación con datos en tiempo real.                                                                                                           | Nuestro propósito de uso es comprender y comunicar de forma visual el recorrido del usuario, identificar puntos de dolor, alinear equipos no técnicos y fundamentar decisiones de diseño con evidencia centrada en el cliente.                                                                                       | Product UX/UI Design    | https://uxpressia.com/                        |
+| Lucidchart              | Plataforma de diagramación visual con soporte para IA, diagramas C4, arquitectura de sistemas, flujos de proceso, ERD, org charts y más. Permite colaboración en tiempo real e integración con Jira, Confluence, Notion, etc.                                                                                 | Nuestro propósito de uso es documentar y comunicar la arquitectura del sistema mediante diagramas claros, visuales y actualizables, facilitando la comprensión entre desarrolladores, testers y stakeholders no técnicos.                                                                                            | Product UX/UI Design    | https://www.lucidchart.com/                   |
+| Structurizr             | Herramienta basada en "diagramas como código" (Diagrams as Code) para modelar arquitecturas de software según el modelo C4. Usa DSL para definir elementos, relaciones y vistas, generando diagramas interactivos automáticamente.                                                                           | Nuestro propósito de uso es documentar nuestra arquitectura de manera sistemática, reproducible y mantenible, siguiendo el modelo C4, y generar automáticamente diagramas de contexto, contenedores, componentes y código, integrados con nuestro repositorio.                                                       | Software Documentation  | https://structurizr.com/                      |
+| JetBrains Toolbox App   | Aplicación centralizada para gestionar, actualizar y ejecutar múltiples IDEs de JetBrains (Rider, WebStorm, IntelliJ, etc.) en paralelo, con soporte para EAP, Canary, actualizaciones automáticas y apertura rápida de proyectos.                                                                          | Nuestro propósito de uso es administrar de forma unificada nuestras herramientas de desarrollo (Rider para .NET, WebStorm para frontend), mantener versiones estables y experimentales simultáneamente, y evitar instalaciones manuales o conflictos entre versiones.                                              | Software Development    | https://www.jetbrains.com/es-es/toolbox-app/ — Instala y gestiona Rider, WebStorm y otros IDEs de JetBrains. |
+| Git                     | Sistema de control de versiones distribuido creado por Linus Torvalds, fundamental para el seguimiento de cambios, colaboración en equipo y gestión de ramas en proyectos de software.                                                                                                                    | Nuestro propósito de uso es llevar un historial confiable de todos los cambios en el código, facilitar la colaboración entre desarrolladores, gestionar ramas de característica y corrección, y permitir el rollback seguro ante errores.                                                                          | Software Development    | https://git-scm.com/downloads — Se instala localmente; se usa junto con GitHub para colaboración remota. |
+| GitHub                  | Plataforma de desarrollo colaborativo basada en Git, que permite gestionar repositorios, realizar pull requests, revisiones de código, seguimiento de issues y alojar documentación. Esencial para workflows ágiles y CI/CD.                                                                               | Nuestro propósito de uso es centralizar el código, facilitar la revisión colaborativa, gestionar ramas de desarrollo y correción, y actuar como fuente única de verdad para el ciclo de vida del producto digital, sin usar GitHub Desktop.                                                                       | Software Development    | https://github.com/ — Plataforma SaaS. No se instala; se accede exclusivamente por web. |
+| MySQL                   | Sistema de gestión de bases de datos relacional (RDBMS) de código abierto, ampliamente utilizado en producción. Ofrece alta disponibilidad, seguridad y rendimiento para aplicaciones empresariales.                                                                                                       | Nuestro propósito de uso es almacenar, consultar y gestionar datos estructurados de forma confiable, escalable y segura, utilizando MySQL Server 8.0 como base de datos principal para servicios backend.                                                                                                            | Software Development    | https://www.mysql.com/ \| https://dev.mysql.com/downloads/installer/ — Se puede usar localmente (installer) o en la nube (MySQL HeatWave). |
+| MySQL Installer         | Asistente gráfico para instalar MySQL Server, MySQL Workbench y otros componentes en Windows. Único instalador oficial para MySQL 8.0 y versiones anteriores. A partir de MySQL 8.1, se recomienda usar MSI o Zip directamente.                                                                            | Nuestro propósito de uso es facilitar la instalación y configuración inicial de MySQL Server y herramientas asociadas (como Workbench) en entornos locales de desarrollo, garantizando una configuración correcta y consistente entre miembros del equipo.                                                              | Software Development    | https://dev.mysql.com/downloads/installer/ — Solo para MySQL 8.0 y versiones anteriores. Para nuevas versiones, usar MSI/ZIP. |
+| MySQL Workbench         | Herramienta visual de diseño, desarrollo y administración de bases de datos MySQL. Permite crear modelos E/R, ejecutar consultas SQL, gestionar usuarios y sincronizar esquemas.                                                                                                                          | Nuestro propósito de uso es diseñar y modificar el esquema de la base de datos de forma visual, generar scripts SQL, y ejecutar consultas de prueba y validación durante el desarrollo de servicios backend.                                                                                                        | Software Development    | Incluido en: https://dev.mysql.com/downloads/installer/ — No se instala por separado si ya se usa el instalador completo. |
+| Postman CLI / Newman    | Herramientas de línea de comandos para ejecutar colecciones de Postman en entornos de CI/CD. Newman es compatible con Jenkins, GitHub Actions, etc. El CLI de Postman permite validar APIs, hacer lints y autenticación programática.                                                                     | Nuestro propósito de uso es integrar pruebas de API en pipelines de integración continua (CI), asegurar calidad automática en cada commit, y validar contratos de API sin intervención manual.                                                                                                                       | Software Deployment     | https://learning.postman.com/docs/developer/postman-cli/ \| https://github.com/postmanlabs/newman — Se instalan vía npm (`npm install -g newman postman`) |
+
 
 #### 5.1.2. Source Code Management
 
-En esta sección se describe el esquema de control de versiones adoptado para el seguimiento y gestión del código fuente del proyecto Point Flavor, utilizando GitHub como plataforma centralizada de colaboración.
+En esta sección se describe el esquema de control de versiones adoptado para el seguimiento y gestión del código fuente del proyecto digital, utilizando GitHub como plataforma centralizada de colaboración y almacenamiento. El repositorio se organiza bajo un flujo de trabajo basado en GitFlow, conforme al modelo propuesto por Vincent Driessen (“A successful Git branching model”), garantizando un desarrollo estructurado, escalable y colaborativo.
 
-Los repositorios del proyecto se encuentran en la organización de GitHub del equipo:
+El repositorio principal del proyecto se encuentra en:
+https://github.com/UPC-1ASI0732-2610-17821-PointFlavor
 
-- **Reporte:** https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/PFLAVOR-Report
-- **Landing Page:** https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/PFLAVOR-Landing-Page
-- **Frontend Web Application (Vue + Vite):** https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/PFLAVOR-Frontend
-- **RESTful API / Backend (C# .NET):** https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/PFLAVOR-Backend
+Además, se han definido repositorios independientes para cada componente del sistema, según su funcionalidad:
 
-**Estructura de Ramas (GitFlow)**
-- **`main`**: Rama estable y productiva. Contiene solo código desplegable y verificado.
-- **`develop`**: Rama de integración principal. Todas las funcionalidades se fusionan aquí antes de ser liberadas a `main`.
-- **`feature/`**: Ramas temporales para el desarrollo de nuevas funcionalidades (ej. `feature/hero-section`).
-- **`hotfix/`**: Ramas para corregir errores críticos en producción.
+Landing Page:
+
+#### Estructura de Ramas (GitFlow)
+Se implementa el siguiente modelo de ramas:
+
+- **main**: Rama estable y productiva. Contiene solo código desplegable y verificado. Solo se actualiza mediante merge desde develop tras revisión y pruebas completas.
+- **develop**: Rama de integración principal. Todas las funcionalidades se fusionan aquí antes de ser liberadas a main. Es la base desde la cual se crean todas las ramas de característica.
+
+- **feature/**: Ramas temporales para el desarrollo de nuevas funcionalidades. Cada capítulo del proyecto se desarrolla en una rama independiente, siguiendo la convención:
+
+- feature/chapter-{número}-{descripción-en-minusculas-con-guiones}
+
+Ejemplos: 
+
+- feature/chapter-1-introduction
+- feature/chapter-2-requirements-elicitation-and-analysis
+- feature/chapter-3-requirements-specification
+- feature/chapter-4-product-design
+- feature/chapter-5-product-implementation-validation-and-deployment
+
+Estas ramas se crean desde develop, y al finalizar su desarrollo, se someten a pull request para su fusión en develop, previa revisión de código y ejecución de pruebas.
+
+- **release/**: Ramas temporales creadas cuando se prepara una versión estable para lanzamiento (ej. `release/v1.0.0`). Se utilizan para hacer ajustes finales, correcciones de documentación o pruebas de regresión antes de fusionar a `main`. No se usan activamente en este proyecto académico por su naturaleza iterativa, pero se mantienen como parte del modelo GitFlow completo.
+
+- **hotfix/**: Ramas creadas para corregir errores críticos en producción (`main`) sin esperar a que `develop` esté listo. Ejemplo: `hotfix/login-bug-fix`. Estas ramas se crean desde `main`, se corrigen, se prueban y se fusionan de vuelta a `main` y `develop`. En este proyecto no se han utilizado, pero se definen por cumplimiento del estándar.
+
+
+#### Conventional Commits:
+
+Todos los commits dentro de las ramas de características siguen el estándar Conventional Commits, con el siguiente formato:
+
+" < tipo >(< alcance >): < descripción breve> "
+
+Ejemplos válidos:
+
+- feat(chapter-2): add user role definitions in requirements document
+- fix(chapter-5): resolve API timeout in authentication endpoint
+- docs(chapter-4): update architecture diagram in README.md
+- test(chapter-3): add integration test for requirement validation
+
+Este formato permite generar changelogs automáticos, facilitar revisiones y mantener un historial limpio y comprensible.
+
+#### Semantic Versioning
+
+Las versiones del software se gestionan bajo **Semantic Versioning 2.0.0** (`MAJOR.MINOR.PATCH`), siguiendo el estándar definido en [semver.org](https://semver.org/):
+
+- **MAJOR** (x.0.0): Cambios que rompen compatibilidad (no aplicables en este proyecto académico).  
+- **MINOR** (0.x.0): Nuevas funcionalidades agregadas sin romper compatibilidad (ej. `v1.1.0`).  
+- **PATCH** (0.0.x): Correcciones de errores sin nuevas funcionalidades (ej. `v1.0.1`).  
+
+Se establece como práctica futura que cada release final se etiquete en GitHub como un **tag** con formato `vX.Y.Z` (por ejemplo, `v1.0.0`). Aunque este proyecto no genera releases formales, se adopta SemVer para garantizar coherencia y preparación para entornos reales.
 
 #### 5.1.3. Source Code Style Guide & Conventions
 
-El equipo adopta las siguientes convenciones de codificación para garantizar coherencia, legibilidad y mantenibilidad. Todas las identificaciones se realizan en **inglés**.
+El equipo de Moveo adopta estrictamente las convenciones de codificación estandarizadas por la industria para garantizar coherencia, legibilidad y mantenibilidad en todos los lenguajes utilizados en el proyecto. Todas las identificaciones —variables, funciones, clases, archivos, rutas y comentarios— se realizan en **inglés**, siguiendo las guías oficiales de cada tecnología. A continuación, se detallan las convenciones aplicadas por lenguaje, junto con las referencias adoptadas:
 
 | Lenguaje | Referencia Adoptada | Convenciones Aplicadas |
 |----------|---------------------|------------------------|
-| **HTML/CSS** | Google HTML/CSS Style Guide | Minúsculas, indentación de 2 espacios, atributos entre comillas dobles, elementos semánticos, nombres de clases en `kebab-case`. |
-| **JavaScript / TypeScript** | Google TypeScript Style Guide | Uso de `const` y `let`, funciones flecha, módulos ES6. Nombres en `lowerCamelCase`. |
-| **Vue 3** | Vue 3 Style Guide | Componentes en `PascalCase`, archivos en `kebab-case`, Single File Components (SFC) con `<script setup>`. |
-| **C#** | Microsoft C# Coding Conventions | Clases y métodos en `PascalCase`, variables en `lowerCamelCase`, uso de `async/await`, comentarios XML para documentación pública. |
+| **HTML** | HTML Style Guide and Coding Conventions: https://google.github.io/styleguide/htmlcssguide.html   | Uso de minúsculas, indentación de 2 espacios, atributos entre comillas dobles, elementos semánticos (`<header>`, `<main>`, `<section>`, `<article>`, `<nav>`), nombres de clases e IDs en `kebab-case` (ej. `patient-card`, `login-button`). Se prioriza accesibilidad mediante atributos `alt`, `aria-*` y estructura lógica. |
+| **CSS** | Google HTML/CSS Style Guide: https://google.github.io/styleguide/htmlcssguide.html   | Nombres de clases en `kebab-case` (ej. `btn-primary`, `card-vertical`), uso de BEM-like naming para modularidad (`block__element--modifier`), orden alfabético de propiedades, comentarios en inglés para estilos complejos, evitación de selectores profundos o anidados. |
+| **JavaScript / TypeScript** | Google TypeScript Style Guide: https://google.github.io/styleguide/jsguide.html   | Uso de `const` y `let` en lugar de `var`, funciones flecha (`() => {}`), desestructuración, módulos ES6 (`import/export`), nombres en `lowerCamelCase` (ej. `getPatientById`, `validateEmail`), tipado explícito, y programación funcional inmutable. Estructura por capas: `components/`, `services/`, `models/`, `utils/`. |
+| **Vue 3** | Vue 3 Style Guide: https://vuejs.org/style-guide/   | Uso de componentes en `PascalCase` (ej. `PatientCard.vue`), archivos en `kebab-case` (ej. `patient-card.vue`), Single File Components (SFC) con secciones `<script setup>`, `<template>`, `<style scoped>`. Uso de Composition API, nombres de props y emits en `kebab-case`, variables reactivas con `ref()` o `reactive()`, y funciones en `lowerCamelCase`. Evitar `v-if` con `v-for`, usar `key` en listas, y mantener componentes pequeños y reutilizables. |
+| **C#** | Microsoft C# Coding Conventions: https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions   | Nombres de clases, interfaces y métodos en `PascalCase` (ej. `PatientService`, `GetMedicalRecordAsync`), variables locales y parámetros en `lowerCamelCase` (ej. `patientId`, `emailAddress`), constantes en `PascalCase` (ej. `MaxPatientAge`), uso de `async/await` para operaciones asíncronas, anotaciones de nulabilidad (`string?`, `int value = 0`), y comentarios XML para documentación pública (`/// <summary>...</summary>`). Evitar `var` cuando el tipo no es obvio. |
+| **Microsoft .NET** | .NET Coding Conventions: https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/   | Estructura de proyecto por capas: `Controllers/`, `Services/`, `Repositories/`, `Models/`, `DTOs/`. Uso de Dependency Injection nativo, configuración en `appsettings.json`, validación con `FluentValidation` o atributos de Data Annotations (`[Required]`, `[EmailAddress]`), manejo de errores con `ProblemDetails` y middleware centralizado. Uso de Entity Framework Core con convenciones de nombres de tablas en plural y propiedades en `PascalCase`. |
+
+Además, se aplica **Conventional Commits** para los mensajes de Git, en inglés, con formato:  
+`<tipo>(<alcance>): <descripción breve>`  
+Ejemplo:  
+- `docs(chapter-2): update user stories diagram in README`
+
+Todas las convenciones son validadas automáticamente mediante herramientas integradas en el pipeline de CI/CD: **Prettier** (frontend), **Spotless** (backend), **ESLint** y **Checkstyle**, asegurando consistencia en cada commit. La adopción del **inglés como idioma oficial** en todo el código, documentación y comunicación técnica garantiza claridad global, reutilización de bibliotecas y preparación para entornos profesionales internacionales.
 
 #### 5.1.4. Software Deployment Configuration
 
-**Landing Page y Frontend Web Application — Vercel**
-1. Conectar el repositorio de GitHub (Frontend/Landing Page) a un nuevo proyecto en Vercel.
-2. Vercel detectará automáticamente que es un proyecto de Vite/Vue.
-3. El comando de build se configura como `npm run build` o `vite build`.
-4. El directorio de salida (Output Directory) se establece en `dist`.
-5. Se configuran las variables de entorno necesarias (ej. `VITE_API_BASE_URL`).
-6. Cualquier push a la rama `main` disparará automáticamente un nuevo build y despliegue en Vercel, generando una URL pública segura (HTTPS).
+##### Landing Page y Frontend Web Application — Vercel 
+- Conectar el repositorio de GitHub (Frontend/Landing Page) a un nuevo proyecto en Vercel. 
+- Vercel detectará automáticamente que es un proyecto de Vite/Vue. 
+- El comando de build se configura como npm run build o vite build. 
+- El directorio de salida (Output Directory) se establece en dist. 
+- Se configuran las variables de entorno necesarias (ej. VITE_API_BASE_URL). 
+- Cualquier push a la rama main disparará automáticamente un nuevo build y despliegue en Vercel, generando una URL pública segura (HTTPS). 
+##### Backend / RESTful API — Railway 
+- Crear un nuevo servicio en Railway y conectarlo al repositorio del backend (C# .NET) en GitHub. 
+- Railway detectará automáticamente el archivo .csproj o Dockerfile para la construcción. 
+- Se configuran las variables de entorno necesarias en el panel de Railway (ej. ConnectionStrings DefaultConnection, ASPNETCORE_ENVIRONMENT=Production). 
+- Se expone el puerto público y se genera un dominio proporcionado por Railway. 
+- El Swagger se habilita para el entorno de producción (o staging) para permitir la visualización interactiva de la documentación de los endpoints desplegados. 
 
-**Backend / RESTful API — Railway**
-1. Crear un nuevo servicio en Railway y conectarlo al repositorio del backend (C# .NET) en GitHub.
-2. Railway detectará automáticamente el archivo `.csproj` o `Dockerfile` para la construcción.
-3. Se configuran las variables de entorno necesarias en el panel de Railway (ej. `ConnectionStrings__DefaultConnection`, `ASPNETCORE_ENVIRONMENT=Production`).
-4. Se expone el puerto público y se genera un dominio proporcionado por Railway.
-5. El Swagger se habilita para el entorno de producción (o staging) para permitir la visualización interactiva de la documentación de los endpoints desplegados.
 
 ### 5.2. Product Implementation & Deployment
 
 #### 5.2.1. Sprint Backlogs
 
-**Sprint 1**
-
-| Sprint # | Sprint 1 |
-|----------|----------|
-| **Sprint Planning Background** | |
-| Date | 2026-04-24 |
-| Time | 10:00 AM |
-| Location | Reunión virtual por Discord |
-| Prepared By | Goñe Araccata, Esther Abigail |
-| Attendees | Goñe Araccata, Esther Abigail / Hancco Poma, Keyner Ivan / Santiago Peña, Andreow Jomark / Sulca Silva, Melisa Geraldine / Tumi Oliden, Manuel Ignacio |
-| Sprint n–1 Review Summary | No aplica. Este es el primer sprint del proyecto. |
-| Sprint n–1 Retrospective Summary | No aplica. Este es el primer sprint del proyecto. |
-| **Sprint Goal & User Stories** | |
-| Sprint 1 Goal | Our focus is on delivering a professional, responsive Landing Page and setting up the base architecture for the Frontend (Vue+Vite) and Backend (.NET). We believe it delivers a strong first impression to potential users and allows the team to start feature development. This will be confirmed when the Landing Page is deployed on Vercel and the base API is running on Railway. |
-| Sprint 1 Velocity | 25 |
-| Sum of Story Points | 25 |
-
-**Aspect Leaders and Collaborators — Sprint 1**
-
-| Team Member (Last Name, First Name) | GitHub Username | Landing Page | Frontend Setup | Backend Setup | Deployment |
-|-------------------------------------|-----------------|:---:|:---:|:---:|:---:|
-| Goñe Araccata, Esther Abigail | abigoe02 | L | C | C | C |
-| Hancco Poma, Keyner Ivan | 1Kanan2 | C | L | C | C |
-| Santiago Peña, Andreow Jomark | andrew65411 | C | C | L | C |
-| Sulca Silva, Melisa Geraldine | MSS02204 | C | C | C | L |
-| Tumi Oliden, Manuel Ignacio | ManuelTumi2224 | C | C | C | C |
-
-**Sprint Backlog 1**
-
-| User Story ID | Title | Work-Item ID | Title | Description | Estimation (Hours) | Assigned To | Status |
-|---|---|---|---|---|---|---|---|
-| US01 | Visualizar Landing Page | T01 | Maquetado Base | Configurar Vite y Tailwind CSS / estilos base | 4 | Keyner Hancco | Done |
-| US01 | Visualizar Landing Page | T02 | Hero Section | Diseñar y programar sección principal (Hero) | 5 | Abigail Goñe | Done |
-| US02 | Ver Beneficios | T03 | Componente Beneficios | Programar sección explicativa de beneficios del SaaS | 4 | Manuel Tumi | Done |
-| US03 | Inicializar API Backend | T04 | Setup .NET Core | Crear proyecto C# .NET y configurar arquitectura N-Capas | 6 | Andreow Santiago | Done |
-| US04 | Despliegue Continuo | T05 | CI/CD Frontend & Backend | Configurar Vercel para Vue y Railway para .NET | 6 | Melisa Sulca | Done |
+| Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
+| --- | --- | --- | --- |--- | --- | ---| ---|
+| HU22 | Ver propuesta de valor clara en la página principal | T01 | Diseñar wireframe de Hero Section | Crear estructura básica del header y hero con CTA, imagen y texto principal. | 4 | UX/UI | Done |
+|  |  | T02 | Desarrollar mock-up de Hero Section | Implementar diseño final con tipografía, colores y animaciones. | 6 | UX/UI | Done |
+|  |  | T03 | Codificar Hero Section en HTML/CSS | Implementar el componente en el frontend con responsividad. | 8 | Frontend | Done |
+|  |  | T04 | Validar diseño en diferentes dispositivos | Probar en móvil, tablet y desktop. | 2 | QA | Done |
+| HU01 | Ver beneficios del alquiler entre particulares | T05 | Diseñar wireframe de sección "Beneficios" | Definir estructura de cards con iconos y texto. | 3 | UX/UI | Done |
+|  |  | T06 | Desarrollar mock-up de sección "Beneficios" | Ajustar diseño visual y jerarquía. | 4 | UX/UI | Done |
+|  |  | T07 | Codificar sección "Beneficios" | Implementar en frontend con grid y hover effects. | 6 | Frontend | Done |
+|  |  | T08 | Validar funcionalidad y accesibilidad | Revisar contraste, etiquetas y navegación por teclado. | 2 | QA | Done |
+| HU02 | Leer testimonios de usuarios reales | T09 | Diseñar wireframe de sección "Testimonios" | Estructurar tarjetas con foto, nombre, rol y texto. | 3 | UX/UI | Done |
+|  |  | T10 | Desarrollar mock-up de sección "Testimonios" | Ajustar espaciado, tipografía y efectos visuales. | 4 | UX/UI | Done |
+|  |  | T11 | Codificar sección "Testimonios" | Implementar con JavaScript para carrusel automático. | 7 | Frontend | Done |
+|  |  | T12 | Validar interacción del carrusel | Probar en móviles y navegadores. | 2 | QA | Done |
+| HU24 | Entender el proceso de alquiler paso a paso | T13 | Diseñar wireframe de sección "Cómo funciona" | Crear flujo visual de 4 pasos (propietario e inquilino). | 3 | UX/UI | Done |
+|  |  | T14 | Desarrollar mock-up de sección "Cómo funciona" | Integrar ilustraciones y texto claro. | 4 | UX/UI | Done |
+|  |  | T15 | Codificar sección "Cómo funciona" | Implementar con SVGs y animaciones suaves. | 6 | Frontend | Done |
+|  |  | T16 | Validar legibilidad y claridad del flujo | Revisar con usuarios de prueba. | 2 | QA | Done |
+| HU25 | Resolver dudas comunes sin contactar soporte | T17 | Diseñar wireframe de sección "FAQ" | Organizar preguntas por categorías (registro, pagos, seguros). | 3 | UX/UI | Done |
+|  |  | T18 | Desarrollar mock-up de sección "FAQ" | Ajustar diseño con acordeones y espacio. | 4 | UX/UI | Done |
+|  |  | T19 | Codificar sección "FAQ" | Implementar acordeones con JavaScript. | 6 | Frontend | Done |
+|  |  | T20 | Validar funcionalidad de acordeones | Probar en todos los dispositivos. | 2 | QA | Done |
+| HU23 | Conocer quiénes están detrás de MOVEO | T21 | Diseñar wireframe de sección "Equipo" | Estructurar tarjetas de perfil con foto, nombre y rol. | 3 | UX/UI | Done |
+|  |  | T22 | Desarrollar mock-up de sección "Equipo" | Ajustar diseño visual y hover effects. | 4 | UX/UI | Done |
+|  |  | T23 | Codificar sección "Equipo" | Implementar con responsive grid. | 6 | Frontend | Done |
+|  |  | T24 | Validar carga de imágenes y rendimiento | Optimizar tamaño de fotos. | 2 | QA | Done |
+| HU26 | Comprender cómo se manejan mis datos | T25 | Diseñar wireframe de sección "Privacidad" | Estructurar texto claro sobre políticas. | 2 | UX/UI | Done |
+|  |  | T26 | Desarrollar mock-up de sección "Privacidad" | Ajustar tipografía y jerarquía. | 3 | UX/UI | Done |
+|  |  | T27 | Codificar sección "Privacidad" | Implementar con HTML y CSS. | 4 | Frontend | Done |
+|  |  | T28 | Validar contenido legal y acceso | Revisar con equipo jurídico. | 2 | QA | Done |
+| HU27 | Navegar entre secciones sin perderme | T29 | Diseñar wireframe de navegación principal | Definir menú de top navigation y footer. | 2 | UX/UI | Done |
+|  |  | T30 | Desarrollar mock-up de navegación | Ajustar colores, íconos y hover. | 3 | UX/UI | Done |
+|  |  | T31 | Codificar navegación y footer | Implementar en todo el sitio. | 6 | Frontend | Done |
+|  |  | T32 | Validar funcionalidad de enlaces | Probar todos los links internos. | 2 | QA | Done |
+| HU04 | Contactar al soporte desde la web | T33 | Diseñar wireframe de formulario de contacto | Definir campos: nombre, correo, mensaje. | 2 | UX/UI | Done |
+|  |  | T34 | Desarrollar mock-up de formulario | Ajustar diseño y estados (hover, focus). | 3 | UX/UI | Done |
+|  |  | T35 | Codificar formulario de contacto | Implementar con validación en frontend. | 5 | Frontend | Done |
+|  |  | T36 | Validar envío de formulario | Probar con correo real. | 2 | QA | Done |
 
 #### 5.2.2. Implemented Landing Page Evidence
 
-La implementación y despliegue de la landing page es un paso crucial para hacerla accesible a los usuarios finales. En esta sección, se detallan los procesos y herramientas utilizados para asegurar que la página estuviera correctamente desplegada y funcional en el entorno de producción.
+La implementación y despliegue de la landing page es un paso crucial para hacerla accesible a los usuarios finales. En esta sección, se detallan los procesos y herramientas utilizados para asegurar que la página estuviera correctamente desplegada y funcional en el entorno de producción. 
+- URL de Despliegue (Landing Page): 
+- Pasos para realizar deploy en Vercel.
 
-**URL de Despliegue (Landing Page):** [https://upc-1asi0732-2610-17821-pointflavor.github.io/PFLAVOR-Landing-Page/](https://upc-1asi0732-2610-17821-pointflavor.github.io/PFLAVOR-Landing-Page/)
-
-- Crear nuevo repositorio y subir el proyecto de la landing page.
-
-<p align="center">
-  <img src="https://i.imgur.com/lTzsFLh.png" alt="deploy1" width="500">
-</p>
-
-
-- Ir a la sección de Settings del repositorio y luego dirigirse a la sección Pages.
-
-<p align="center">
-  <img src="https://i.imgur.com/yo64b8J.png" alt="deploy2" width="500">
-</p>
-
-
-- En "Source" (Build and deployment) elegir la opción "Deploy from a branch" y luego en "Branch" elegir la rama y la ruta correspondiente, luego dar al botón de "Save" para guardar cambios 
-
-<p align="center">
-  <img src="https://i.imgur.com/tvQpGIl.png" alt="deploy2" width="500">
-</p>
-
-
-- Esperar unos minutos para obtener el link del deploy en GitHub Pages.
-
-<p align="center">
-  <img src="https://i.imgur.com/ptFbrwz.png" alt="deploy2" width="500">
-</p>
-
-
-- Dirigirte al link de la landing page.
-
-<p align="center">
-  <img src="https://i.imgur.com/1IAJCBH.png" alt="deploy2" width="500">
-</p>
 
 #### 5.2.3. Implemented Frontend-Web Application Evidence
 
 Durante este sprint, se sentaron las bases de la aplicación Frontend utilizando **Vue 3** y **Vite**. La elección de Vite permite tiempos de carga y reemplazo de módulos en caliente (HMR) casi instantáneos, mejorando la experiencia de desarrollo.
 
-**URL de Despliegue (Frontend):** [https://pflavor-frontend.vercel.app/](https://pflavor-frontend.vercel.app/)
+**URL de Despliegue (Frontend):** []()
 
-- **Paso 1:** Vinculación del repositorio Frontend a la plataforma de Vercel.
-
-<p align="center">
-  <img src="assets/Chapter-5/frontend (1).png" alt="deploy-front-1" width="500">
-</p>
-
-- **Paso 2:** Vercel detecta automáticamente el framework (Vite/Vue) y configura el directorio raíz.
-
-<p align="center">
-  <img src="assets/Chapter-5/frontend (2).png" alt="deploy-front-2" width="500">
-</p>
-
-- **Paso 3:** Configuración de los comandos de compilación (`npm run build`) y el directorio de salida (`dist`).
-
-<p align="center">
-  <img src="assets/Chapter-5/frontend (3).png" alt="deploy-front-3" width="500">
-</p>
-
-- **Paso 4:** Ejecución del despliegue (Deploy) donde Vercel comienza a construir la aplicación.
-
-<p align="center">
-  <img src="assets/Chapter-5/frontend (6).png" alt="deploy-front-4" width="500">
-</p>
-
-- **Paso 5:** Esperar a que el proceso termine, obteniendo la confirmación visual de éxito y la asignación del dominio.
-
-
-- **Paso 6:** Acceder al enlace generado por Vercel para visualizar la aplicación Frontend web ya desplegada.
-
-<p align="center">
-  <img src="assets/Chapter-5/frontend (4).png" alt="deploy-front-6" width="500">
-</p>
+- **Paso 1:** Vinculación del repositorio Frontend a la plataforma de Vercel. 
+- **Paso 2:** Vercel detecta automáticamente el framework (Vite/Vue) y configura el directorio raíz. 
+- **Paso 3:** Configuración de los comandos de compilación (npm run build) y el directorio de salida (dist). 
+- **Paso 4:** Ejecución del despliegue (Deploy) donde Vercel comienza a construir la aplicación. 
+- **Paso 5:** Esperar a que el proceso termine, obteniendo la confirmación visual de éxito y la asignación del dominio. 
+- **Paso 6:** Acceder al enlace generado por Vercel para visualizar la aplicación Frontend web ya desplegada. 
 
 
 #### 5.2.4. Acuerdo de Servicio - SaaS
 
-El presente Acuerdo de Servicio establece los términos y condiciones bajo los cuales Point Flavor ofrece su plataforma como servicio (SaaS) a los usuarios y dueños de huariques registrados.
+El presente Acuerdo de Servicio establece los términos y condiciones bajo los cuales Moveo ofrece su plataforma como servicio (SaaS) a los usuarios finales.
 
 **1. Descripción del Servicio**
-Point Flavor es una plataforma web que conecta a exploradores gastronómicos con huariques auténticos y económicos. El servicio incluye funcionalidades de búsqueda, reseñas, mapas interactivos, gestión de perfiles de huarique y planes de membresía.
+Moveo es una plataforma web enfocada al alquiler de vehículos entre particulares. Su propósito es conectar a personas que poseen un vehículo disponible con usuarios que necesitan alquilar uno por un tiempo determinado, ofreciendo una alternativa más accesible, flexible y segura frente a los servicios tradicionales de alquiler de autos.
+El servicio incluye funcionalidades como registro de usuarios, publicación de vehículos, búsqueda y filtrado de autos disponibles, reservas, pagos seguros, verificación de identidad, generación de contratos digitales, reseñas y gestión de perfiles.
+
 
 **2. Derechos y Obligaciones del Usuario**
-- El usuario se compromete a proporcionar información veraz al registrarse y al publicar contenido en la plataforma.
-- Queda prohibido el uso de la plataforma para publicar contenido falso, ofensivo o que viole derechos de terceros.
+- El usuario se compromete a proporcionar información veraz, actualizada y completa durante el proceso de registro y uso de la plataforma.
+- Los propietarios son responsables de publicar información real sobre sus vehículos, incluyendo disponibilidad, estado, características, precio y condiciones de alquiler.
+- Los arrendatarios se comprometen a utilizar los vehículos alquilados de manera responsable, respetando las condiciones acordadas con el propietario y las políticas establecidas por Moveo.
+- Queda prohibido el uso de la plataforma para publicar información falsa, realizar reservas fraudulentas, suplantar identidades, incumplir pagos o afectar la seguridad de otros usuarios.
 - El usuario es responsable de mantener la confidencialidad de sus credenciales de acceso.
+- Este acuerdo estará disponible públicamente en el footer de la Landing Page y de la aplicación web bajo la sección “Términos y Condiciones”.
 
-**3. Derechos y Obligaciones de Point Flavor**
-- Point Flavor se compromete a mantener el servicio disponible con una disponibilidad objetivo del 99% mensual.
-- La plataforma puede realizar mantenimientos programados, notificando a los usuarios con al menos 24 horas de anticipación.
-- Point Flavor no se hace responsable de la veracidad de la información publicada por los dueños de huariques.
+
+**3. Derechos y Obligaciones de Moveo**
+- Moveo se compromete a brindar una plataforma digital segura, accesible y funcional que facilite la conexión entre propietarios y arrendatarios.
+- La app buscará mantener el servicio disponible con una disponibilidad objetivo del 99% mensual, salvo interrupciones por mantenimiento, fallas externas o causas de fuerza mayor.
+- La plataforma podrá realizar mantenimientos programados, notificando a los usuarios con al menos 24 horas de anticipación cuando sea posible.
+- Moveo no es propietario de los vehículos publicados en la plataforma, por lo que no se hace responsable por información falsa proporcionada por los usuarios, daños ocasionados por mal uso del vehículo o incumplimientos directos entre propietario y arrendatario.
+- Sin embargo, la app web podrá implementar mecanismos de verificación, reputación, reseñas y reportes para promover la confianza y reducir riesgos dentro de la comunidad.
+
 
 **4. Planes de Membresía**
-- Los dueños de huariques pueden acceder a planes gratuitos y planes de pago con beneficios adicionales de visibilidad y promoción.
-- Los pagos son no reembolsables salvo que Point Flavor no haya podido prestar el servicio por causas atribuibles a la plataforma.
+
 
 **5. Privacidad y Protección de Datos**
-- Point Flavor recopila y procesa datos personales conforme a su Política de Privacidad, disponible en el footer de la plataforma.
-- Los datos no serán vendidos ni compartidos con terceros sin consentimiento explícito del usuario.
+- Moveo recopila y procesa datos personales conforme a su Política de Privacidad, disponible en el footer de la plataforma.
+- La información del usuario podrá incluir datos de identificación, contacto, documentos de verificación, información del vehículo, historial de reservas, pagos y reseñas.
+- Los datos personales no serán vendidos ni compartidos con terceros sin consentimiento explícito del usuario, salvo obligación legal o necesidad operativa para prestar el servicio.
+- Nuestra app implementará medidas de seguridad razonables para proteger la información personal y reducir riesgos de acceso no autorizado.
+
 
 **6. Modificaciones al Servicio**
-Point Flavor se reserva el derecho de modificar, suspender o descontinuar funcionalidades del servicio, notificando a los usuarios con anticipación razonable.
+- Moveo se reserva el derecho de modificar, suspender o descontinuar funcionalidades del servicio, notificando a los usuarios con anticipación razonable cuando dichos cambios afecten significativamente la experiencia de uso.
+- Asimismo, Moveo podrá actualizar este Acuerdo de Servicio para adaptarlo a cambios legales, técnicos, comerciales o funcionales de la plataforma.
 
 **7. Ley Aplicable**
 Este acuerdo se rige por las leyes vigentes de la República del Perú.
@@ -1926,104 +2004,222 @@ Este acuerdo se rige por las leyes vigentes de la República del Perú.
 > Este acuerdo está disponible públicamente en el footer de la Landing Page y de la aplicación web bajo la sección "Términos y Condiciones".
 
 
-#### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
+#### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
 La arquitectura de la solución backend se fundamentó en **C# y .NET Core**. Se estructuró siguiendo el patrón de diseño Domain-Driven Design (DDD) con separación de responsabilidades. Para su despliegue se utilizó Railway.
 
-**URL de Documentación (Swagger API):** [https://pflavor-backend-production.up.railway.app/swagger/index.html](https://pflavor-backend-production.up.railway.app/swagger/index.html)
+**URL de Documentación (Swagger API):** [https://wheelspe-backend-production.up.railway.app/swagger/index.html](https://wheelspe-backend-production.up.railway.app/swagger/index.html)
 
 - **Paso 1:** Conectar el repositorio de GitHub que contiene el backend en .NET a un nuevo proyecto en Railway.
 
 <p align="center">
-  <img src="assets/Chapter-5/backend.png" alt="deploy-back-1" width="500">
+  <img src="" alt="deploy-back-1" width="500">
 </p>
 
 - **Paso 2:** Railway detecta el tipo de proyecto y comienza a crear el servicio.
 
 <p align="center">
-  <img src="assets/Chapter-5/backend (3).png" alt="deploy-back-2" width="500">
+  <img src="" alt="deploy-back-2" width="500">
 </p>
 
 - **Paso 3:** Esperar a que Railway finalice el proceso de construcción y levante el contenedor (Deploying).
 
 <p align="center">
-  <img src="assets/Chapter-5/backend (2).png" alt="deploy-back-3" width="500">
+  <img src="" alt="deploy-back-3" width="500">
 </p>
 
 - **Paso 4:** Generar y configurar un dominio público gratuito en la sección de Settings de Railway para acceder a la API.
 
 <p align="center">
-  <img src="assets/Chapter-5/backend (1).png" alt="deploy-back-4" width="500">
+  <img src="" alt="deploy-back-4" width="500">
 </p>
 
 
-#### 5.2.7. RESTful API documentation
+#### 5.2.6. RESTful API documentation
 
-Para asegurar una correcta integración entre el Frontend y el Backend, se implementó la documentación interactiva de la API utilizando **Swagger (OpenAPI)** de forma nativa en el proyecto de ASP.NET Core.
+La plataforma MOVEO proporciona una RESTful API que permite la comunicación entre el frontend y el backend mediante solicitudes HTTP. La API fue implementada siguiendo los principios de arquitectura REST y documentada utilizando Swagger/OpenAPI. Esta documentación permite a los desarrolladores visualizar, probar y validar todos los endpoints disponibles de manera interactiva.
 
-Esta documentación interactiva se encuentra desplegada y accesible a través del dominio público de Railway en la ruta: `https://pflavor-backend-production.up.railway.app/swagger/index.html`.
+La API soporta operaciones CRUD (Crear, Leer, Actualizar y Eliminar) para distintos módulos del sistema como usuarios, vehículos, alquileres, pagos, reseñas, notificaciones, tickets de soporte y rutas de aventura.
 
-<p align="center">
-  <img src="assets/Chapter-5/backend (4).png" alt="Interfaz de Swagger UI desplegada" width="500">
-</p>
+---
 
-A continuación, se detalla la documentación de los endpoints principales (relacionados a **Huariques**) expuestos en la especificación OAS3:
+**Endpoints de Autenticación**
 
-| Endpoint | Método HTTP | Descripción | Parámetros (Query / Path) | Request Body (JSON) | Response (Éxito) |
-|---|---|---|---|---|---|
-| `/huariques` | **GET** | Search Huariques: Busca huariques por texto o filtrando por cercanía. | `q` (string), `near` (boolean) | Ninguno | `200 OK`: Arreglo de objetos `HuariqueResource` encontrados. |
-| `/huariques` | **POST** | Create Huarique: Crea un nuevo registro de huarique. | Ninguno | `CreateHuariqueResource` (name, category, price, district, etc.) | `201 Created`: El objeto `HuariqueResource` recién creado. |
-| `/huariques/{id}` | **GET** | Get Huarique by Id: Obtiene los detalles de un huarique específico mediante su ID único. | `id` (integer) en Path | Ninguno | `200 OK`: El objeto `HuariqueResource` correspondiente al ID. |
-| `/huariques/{id}` | **PATCH** | Patch Huarique: Actualiza campos específicos de un huarique existente. | `id` (integer) en Path | Objeto JSON con los campos a actualizar. | `200 OK`: El objeto `HuariqueResource` con la información actualizada. |
+| Método | Endpoint | Descripción |
+|---|---|---|
+| POST | `/api/v1/auth/login` | Autentica a un usuario en el sistema |
+| POST | `/api/v1/auth/register` | Registra un nuevo usuario |
+| POST | `/api/v1/auth/logout` | Cierra sesión del usuario autenticado |
+| GET | `/api/v1/auth/me` | Obtiene información del usuario autenticado |
+| POST | `/api/v1/auth/change-password` | Cambia la contraseña del usuario |
 
-**Otros Controladores y Endpoints expuestos:**
-Además de los endpoints de Huariques, la API expone información a través de los siguientes recursos base (GET):
-*   `/users`: Gestión y consulta de usuarios.
-*   `/categories`: Listado de categorías gastronómicas.
-*   `/plans`: Información sobre los planes de suscripción (SaaS).
-*   `/promos`: Promociones vigentes.
-*   `/reviews`: Reseñas de los huariques (`GET` para listar, `POST` para crear).
+---
+
+**Endpoints de Usuarios**
+
+| Método | Endpoint | Descripción |
+|---|---|---|
+| GET | `/api/v1/users` | Obtiene todos los usuarios |
+| GET | `/api/v1/users/{userId}` | Obtiene un usuario por ID |
+| POST | `/api/v1/users` | Crea un nuevo usuario |
+| PUT | `/api/v1/users/{userId}` | Actualiza toda la información del usuario |
+| PATCH | `/api/v1/users/{userId}` | Actualiza parcialmente la información del usuario |
+| DELETE | `/api/v1/users/{userId}` | Elimina un usuario |
+
+---
+
+**7.3 Endpoints de Vehículos**
+
+| Método | Endpoint | Descripción |
+|---|---|---|
+| GET | `/api/v1/vehicles` | Obtiene todos los vehículos |
+| GET | `/api/v1/vehicles/{id}` | Obtiene un vehículo por ID |
+| POST | `/api/v1/vehicles` | Registra un nuevo vehículo |
+| PUT | `/api/v1/vehicles/{id}` | Actualiza la información del vehículo |
+| PATCH | `/api/v1/vehicles/{id}` | Actualiza parcialmente la información del vehículo |
+| DELETE | `/api/v1/vehicles/{id}` | Elimina un vehículo |
+
+---
+
+**7.4 Endpoints de Alquileres**
+
+| Método | Endpoint | Descripción |
+|---|---|---|
+| GET | `/api/v1/rentals` | Obtiene todos los alquileres |
+| GET | `/api/v1/rentals/{id}` | Obtiene un alquiler por ID |
+| POST | `/api/v1/rentals` | Crea un nuevo alquiler |
+| PUT | `/api/v1/rentals/{id}` | Actualiza la información del alquiler |
+| PATCH | `/api/v1/rentals/{id}` | Actualiza el estado o detalles del alquiler |
+| DELETE | `/api/v1/rentals/{id}` | Elimina un alquiler |
+| GET | `/api/v1/rentals/user/{userId}` | Obtiene alquileres por usuario |
+| GET | `/api/v1/rentals/active` | Obtiene alquileres activos |
+
+---
+
+**Endpoints de Pagos**
+
+| Método | Endpoint | Descripción |
+|---|---|---|
+| GET | `/api/v1/Payments` | Obtiene todos los pagos |
+| GET | `/api/v1/Payments/{id}` | Obtiene un pago por ID |
+| POST | `/api/v1/Payments` | Registra un nuevo pago |
+| PUT | `/api/v1/Payments/{id}` | Actualiza la información del pago |
+| PATCH | `/api/v1/Payments/{id}` | Actualiza el estado del pago |
+| DELETE | `/api/v1/Payments/{id}` | Elimina un pago |
+| GET | `/api/v1/Payments/payer/{payerId}` | Obtiene pagos realizados por un pagador |
+| GET | `/api/v1/Payments/recipient/{recipientId}` | Obtiene pagos recibidos por un destinatario |
+| GET | `/api/v1/Payments/rental/{rentalId}` | Obtiene pagos relacionados con un alquiler |
+
+---
+
+**Endpoints de Notificaciones**
+
+| Método | Endpoint | Descripción |
+|---|---|---|
+| GET | `/api/v1/Notifications` | Obtiene notificaciones |
+| GET | `/api/v1/Notifications/{id}` | Obtiene una notificación por ID |
+| POST | `/api/v1/Notifications` | Crea una notificación |
+| PATCH | `/api/v1/Notifications/{id}` | Actualiza el estado de una notificación |
+| DELETE | `/api/v1/Notifications/{id}` | Elimina una notificación |
+| GET | `/api/v1/Notifications/user/{userId}` | Obtiene notificaciones por usuario |
+| GET | `/api/v1/Notifications/user/{userId}/unread` | Obtiene notificaciones no leídas |
+| PUT | `/api/v1/Notifications/{id}/read` | Marca una notificación como leída |
+| PUT | `/api/v1/Notifications/user/{userId}/read-all` | Marca todas las notificaciones como leídas |
+
+---
+
+**Endpoints de Reseñas**
+
+| Método | Endpoint | Descripción |
+|---|---|---|
+| GET | `/api/v1/Reviews` | Obtiene reseñas |
+| GET | `/api/v1/Reviews/{id}` | Obtiene una reseña por ID |
+| POST | `/api/v1/Reviews` | Crea una reseña |
+| PUT | `/api/v1/Reviews/{id}` | Actualiza la información de una reseña |
+| DELETE | `/api/v1/Reviews/{id}` | Elimina una reseña |
+| GET | `/api/v1/Reviews/rental/{rentalId}` | Obtiene reseñas por alquiler |
+| GET | `/api/v1/Reviews/reviewer/{reviewerId}` | Obtiene reseñas realizadas por un usuario |
+| GET | `/api/v1/Reviews/reviewee/{revieweeId}` | Obtiene reseñas recibidas por un usuario |
+
+---
+
+**Endpoints de User Reviews**
+
+| Método | Endpoint | Descripción |
+|---|---|---|
+| GET | `/api/v1/user-reviews` | Obtiene reseñas de usuarios |
+| GET | `/api/v1/user-reviews/{id}` | Obtiene una reseña de usuario por ID |
+| POST | `/api/v1/user-reviews` | Crea una reseña de usuario |
+| PUT | `/api/v1/user-reviews/{id}` | Actualiza una reseña de usuario |
+| DELETE | `/api/v1/user-reviews/{id}` | Elimina una reseña de usuario |
+
+---
+
+**Endpoints de Rutas de Aventura**
+
+| Método | Endpoint | Descripción |
+|---|---|---|
+| GET | `/api/v1/adventure-routes` | Obtiene rutas de aventura |
+| GET | `/api/v1/adventure-routes/{routeId}` | Obtiene una ruta de aventura por ID |
+| POST | `/api/v1/adventure-routes` | Crea una nueva ruta de aventura |
+| PUT | `/api/v1/adventure-routes/{routeId}` | Actualiza información de la ruta |
+| DELETE | `/api/v1/adventure-routes/{routeId}` | Elimina una ruta de aventura |
+
+---
+
+**Endpoints de Tickets de Soporte**
+
+| Método | Endpoint | Descripción |
+|---|---|---|
+| GET | `/api/v1/support-tickets` | Obtiene tickets de soporte |
+| GET | `/api/v1/support-tickets/{id}` | Obtiene un ticket por ID |
+| POST | `/api/v1/support-tickets` | Crea un ticket de soporte |
+| PUT | `/api/v1/support-tickets/{id}` | Actualiza información del ticket |
+| PATCH | `/api/v1/support-tickets/{id}` | Actualiza el estado del ticket |
+| DELETE | `/api/v1/support-tickets/{id}` | Elimina un ticket |
+| GET | `/api/v1/support-tickets/user/{userId}` | Obtiene tickets por usuario |
+| GET | `/api/v1/support-tickets/status/{status}` | Obtiene tickets por estado |
+| PATCH | `/api/v1/support-tickets/{id}/close` | Cierra un ticket de soporte |
+| GET | `/api/v1/support-tickets/{ticketId}/messages` | Obtiene mensajes del ticket |
+| POST | `/api/v1/support-tickets/{ticketId}/messages` | Envía un mensaje en un ticket |
+
+---
+
+La documentación del backend fue implementada utilizando Swagger/OpenAPI, permitiendo probar interactivamente los endpoints y visualizar las estructuras de request y response directamente desde el navegador. La documentación incluye parámetros, cuerpos de solicitud, códigos de respuesta y esquemas para todos los recursos del sistema.
+
+**URL de Swagger:**  
+https://wheelspe-backend-production.up.railway.app/swagger/index.html
+
   
-#### 5.2.8. Team Collaboration Insights
+#### 5.2.7. Team Collaboration Insights
 
-Durante el presente Sprint, las actividades de implementación se llevaron a cabo utilizando un enfoque colaborativo y ágil. El equipo se organizó distribuyendo las tareas del Product Backlog de manera equitativa, asegurando que todos los integrantes tuvieran participación activa en el desarrollo de los distintos componentes del proyecto: **Landing Page, Web Application (Frontend) y el Web Service (RESTful API)**. Utilizamos GitHub como nuestra plataforma principal de control de versiones, aplicando buenas prácticas de ramificación (*branching*) y revisiones de código antes de integrar los cambios a la rama principal.
+Durante el presente Sprint, las actividades de implementación se llevaron a cabo utilizando un enfoque colaborativo y ágil. El equipo se organizó distribuyendo las tareas del Product Backlog de manera equitativa, asegurando que todos los integrantes tuvieran participación activa en el desarrollo de los distintos componentes del proyecto: Landing Page, Web Application (Frontend) y el Web Service (RESTful API). Utilizamos GitHub como nuestra plataforma principal de control de versiones, aplicando buenas prácticas de ramificación (branching) y revisiones de código antes de integrar los cambios a la rama principal.
 
-A continuación, se presentan las capturas de los analíticos de colaboración y el registro de *commits* extraídos de GitHub:
+A continuación, se presentan las capturas de los analíticos de colaboración y el registro de commits extraídos de GitHub:
 
-<p align="center">
-    <strong>Registro de Commits del Equipo durante la Implementación</strong><br><br>
-    <img src="https://i.imgur.com/PsemYlE.png" alt="Evidencia de Commits 1" width="80%"><br><br>
-    <img src="https://i.imgur.com/iw9qoA8.png" alt="Evidencia de Commits 2" width="80%"><br><br>
-    <strong>Gráfico de Contribuciones y Analíticos (Insights)</strong><br><br>
-    <img src="https://i.imgur.com/CDxDBnU.png" alt="Gráfico de Insights" width="80%">
-</p>
-
-**Interpretación de los analíticos por parte del equipo:**
-
-A partir de los gráficos y el historial de *commits* presentados, podemos concluir lo siguiente:
-* **Participación integral:** El gráfico de contribuciones demuestra que los cinco miembros del equipo (Goñe, Hancco, Santiago, Sulca y Tumi) han registrado *commits* de forma constante a lo largo del ciclo de desarrollo. No existen brechas significativas de inactividad por parte de ningún integrante.
-* **Distribución de la carga de trabajo:** La cantidad de *commits* y adiciones/eliminaciones de líneas de código refleja un esfuerzo balanceado. Todos los miembros aportaron en la implementación técnica, cumpliendo con el requisito de involucrarse tanto en el desarrollo de la Landing Page, como en la aplicación web y el consumo/creación de la API.
-* **Integración continua:** Se evidencia un flujo de trabajo continuo, lo que indica que el equipo integró su código de manera frecuente, reduciendo la posibilidad de conflictos críticos de software al finalizar el Sprint. Las fechas de los *commits* se alinean correctamente con el cronograma planificado para nuestras entregas.
 
 ### 5.3. Video About-the-Product
 
 En esta sección, se presenta una introducción de la plataforma PointFlavor, destacando sus características clave y cómo la app web conecta a los usuarios con huariques locales, ofreciendo una experiencia única para descubrir y apoyar pequeños negocios de comida tradicional. A través de este video, se busca mostrar de manera visual y atractiva cómo la aplicación facilita tanto a usuarios como a dueños de huariques la interacción y gestión de este valioso ecosistema gastronómico.
 
-<p align="center">
-  <img src="https://i.imgur.com/8HfP3oX.png" alt="Vide About-The-Product" width="500">
-</p>
 
-
-Link del video: [VideoAbout-the-Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/IQB0jX1Jm76wQIXVW8UiLbLVAWrqCzfy3-izqTy8BW7jTGw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cDKJni)
+Duración: 1:05
+Enlace a Microsoft Stream: [VIDEO ABOUT THE PRODUCT.mp4 ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/IQDsa8mQseqyS5hASHUOF2etATteMgp7d6JY2BW7lKFNwJQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=in1oh2)
+Enlace a YouTube: https://youtu.be/-X0c1uzO5KU 
 
 
 # Conclusiones y recomendaciones
 # Conclusiones
 
-- Tras culminar el ciclo de desarrollo y ejecutar las entrevistas de validación con los usuarios, se concluye que las hipótesis iniciales planteadas en el proceso de Lean UX eran correctas. Los exploradores gastronómicos valoran enormemente contar con una plataforma centralizada y confiable para descubrir *huariques* locales mediante mapas interactivos y filtros. Por su parte, los dueños de estos establecimientos confirmaron la necesidad de una herramienta digital intuitiva que mejore su visibilidad sin requerir conocimientos técnicos avanzados.
-- La adopción del enfoque Domain-Driven Design (DDD) junto con una arquitectura separada (Frontend en Vue 3 con Vite y Backend en C# .NET Core) resultó ser una decisión acertada para garantizar la escalabilidad y mantenibilidad de **PointFlavor**. La automatización de los despliegues (CI/CD) utilizando Vercel y Railway optimizó los tiempos de entrega en cada sprint, permitiendo un entorno de Entrega Continua fluido y profesional.
-- La aplicación de Scrum a través de 4 sprints, combinada con la estrategia de versionado GitFlow y Conventional Commits, permitió al equipo mantener un control riguroso sobre el código fuente y las nuevas funcionalidades. Las métricas de colaboración demuestran que el trabajo distribuido y la revisión de código por pares (Pull Requests) redujeron significativamente los errores de integración en la rama principal.
-- El diseño centrado en el usuario, guiado por la creación de User Personas y Journey Maps, se tradujo en una interfaz que resuelve directamente los puntos de dolor de ambos segmentos. Las evaluaciones heurísticas demostraron que el sistema de navegación y la presentación de tarjetas e información son altamente usables y cumplen con los estándares de diseño web responsivo.
+- Moveo  propone una solución digital para conectar propietarios de vehículos con personas que necesitan alquilar uno de forma temporal. Además, responde a una necesidad real, la de ofrecer una alternativa más flexible, segura y accesible frente al alquiler tradicional de autos. El modelo de negocio es colaborativo, ya que no depende de una flota propia, sino de vehículos registrados por los mismos usuarios.
+
+- El análisis del proyecto permitió identificar que los usuarios valoran principalmente la seguridad, confianza, rapidez, transparencia y facilidad de uso. Cabe señalar que las funcionalidades más importantes se enfocan en registro de usuarios, publicación de vehículos, búsqueda, reservas, pagos, reseñas y verificación de identidad.
+
+- El uso de Vue.js para frontend y .NET con C# para backend permite construir una aplicación ordenada, mantenible y escalable. Se realizaron pruebas unitarias con NUnit, permitiendo validar la lógica principal del backend y asegurar que los métodos y reglas de negocio funcionen correctamente.
+
+- También se aplicaron pruebas de comportamiento usando Gherkin, definiendo escenarios bajo la estructura Given, When, Then para validar los flujos esperados del sistema. También, se realizaron pruebas end-to-end con Selenium, verificando que los principales flujos de la aplicación web funcionen correctamente desde la perspectiva del usuario final.
+
+- El proceso de testeo permitió identificar errores, validar funcionalidades críticas y mejorar la confiabilidad general de la aplicación.
 
 ## Recomendaciones
 
@@ -2035,23 +2231,42 @@ Link del video: [VideoAbout-the-Product](https://upcedupe-my.sharepoint.com/:v:/
 
 # Bibliografía
 
-* Arquitectura DDD(Domain Driven Design). (2021, 21 de junio). Sergio Tapia. https://sergiotapia.net/arquitectura-ddddomain-driven-design/
-* Buenas prácticas para el desarrollo de grandes proyectos con Vue.js. (s.f.). Solucionex. Recuperado el 29 de abril de 2024, de https://www.solucionex.com/blog/buenas-practicas-para-el-desarrollo-de-grandes-proyectos-con-vuejs
-* de Javier, V. M. C. (s.f.). DDD y arquitectura Onion, todo lo que necesitas saber. Paradigmadigital.com. Recuperado el 29 de abril de 2024, de https://www.paradigmadigital.com/techbiz/domain-driven-design-y-arquitectura-onion/
-* Eseme, S. (2021, 12 de agosto). 10 cosas que debes saber sobre Vue.js Frontend Framework. Kinsta. https://kinsta.com/es/blog/vue-js/
-* Gothelf, J. (2022, 29 de agosto). FAQ: WHAT DOES A COMPLETE LEAN UX CANVAS LOOK LIKE?. Jeff Gothelf. Recuperado el 24 de abril del 2024, de https://jeffgothelf.com/blog/faq-what-does-a-complete-lean-ux-canvas-look-like/
-* Gothelf, J. & Seiden, J. (2021). Lean UX, 3rd Edition. O'Reilly Media, inc. https://www.oreilly.com/library/view/lean-ux-3rd/9781098116293/
-  
+* Gothelf, J. (2022, 29 de agosto). FAQ: WHAT DOES A COMPLETE LEAN UX CANVAS LOOK LIKE?. jeff Gothelf. Recuperado el 24 de abril del 2024 de URL https://jeffgothelf.com/blog/faq-what-does-a-complete-lean-ux-canvas-look-like/
+
+* Gothelf, J. Seiden, J. (2021). Lean UX, 3rd Edition. O'Reilly Media, inc. https://www.oreilly.com/library/view/lean-ux-3rd/9781098116293/.
+
+* Buenas prácticas para el desarrollo de grandes proyectos con Vue.js. (s/f). Solucionex. Recuperado el 29 de abril de 2024. https://www.solucionex.com/blog/buenas-practicas-para-el-desarrollo-de-grandes-proyectos-con-vuejs
+
+* Eseme, S. (2021, agosto 12). 10 cosas que debes saber sobre Vue.js Frontend Framework. Kinsta®; Kinsta. https://kinsta.com/es/blog/vue-js/
+
+* de Javier, V. M. C. (s/f). DDD y arquitectura Onion, todo lo que necesitas saber. Paradigmadigital.com. Recuperado el 29 de abril de 2024 de https://www.paradigmadigital.com/techbiz/domain-driven-design-y-arquitectura-onion/
+
+
+* Arquitectura DDD(Domain Driven Design). (2021, junio 21). Sergio Tapia. https://sergiotapia.net/arquitectura-ddddomain-driven-design/
+
+
+* de Javier, V. M. C. (s/f). DDD y arquitectura Onion, todo lo que necesitas saber. Paradigmadigital.com. Recuperado el 29 de abril de 2024 de https://www.paradigmadigital.com/techbiz/domain-driven-design-y-arquitectura-onion/
+
+
+* Arquitectura DDD(Domain Driven Design). (2021, junio 21). Sergio Tapia. https://sergiotapia.net/arquitectura-ddddomain-driven-design/
+
 
 
 # Anexos
 
-## Enlace Organización UPC-1ASI0732-2610-17821-PointFlavor - POINTFLAVOR: https://github.com/UPC-1ASI0732-2610-17821-PointFlavor
+## Enlace Organización: https://github.com/UPC-1ASI0732-2610-17821-PointFlavor
 
 
 ## Repositorios Github
 
-- **Enlace Repositorio Project Report:** https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/PFLAVOR-Report.git
+- **Enlace Repositorio Project Report:**  https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/MOVEO-Report/tree/develop
+
+Link del formulario segmento propietarios: https://forms.gle/uyVSkqSiuiKx1nb69
+Link del formulario segmento Inquilinos: https://forms.gle/kz3BdxPoZHKNgqUg9
+Link del To-Be Scenario Mapping: https://miro.com/app/board/uXjVJHk66ZY=/?share_link_id=390494907497
+Link del diseño final en figma: https://www.figma.com/design/lRjIRg3YuUVRpVKoibbAKt/Moveo-Landing-Mockup?node-id=0-1&t=xZb8804mKmhW8bFn-1
+Link del prototipo interactivo en figma: https://www.figma.com/proto/c6kJu6j0YZv51u6Ml2kypY/Moveo-Landing-Mockup?node-id=1-2&p=f&t=oOjM7PCRDBGHla3t-1&scaling=scale-down&content-scaling=fixed&page-
+
 
 ---
 
