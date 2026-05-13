@@ -305,7 +305,6 @@ En el cuadro siguiente se detallan las actividades llevadas a cabo y las conclus
       </td>
       <td><strong>AV1:</strong> El equipo concluye unánimemente que en la industria del desarrollo de software es indispensable cultivar una mentalidad de aprendizaje permanente (Lifelong Learning). La acelerada evolución de los estándares de desarrollo, las herramientas de diseño, las metodologías ágiles de gestión y las expectativas de los usuarios exigen que los ingenieros de software actualicen sus habilidades técnicas y blandas de manera constante para mantener su competitividad profesional. <br>
        <strong>TP:</strong> El equipo concluye que la verificación y validación del software es una práctica esencial dentro del desarrollo profesional. La aplicación de pruebas unitarias, pruebas de integración, pruebas funcionales y pruebas de sistema permitió comprender que la calidad del producto no depende únicamente de implementar funcionalidades, sino también de comprobar que estas funcionen correctamente, sean mantenibles y respondan a las necesidades reales de los usuarios. 
-
       </td>
     </tr>
   </tbody>
@@ -319,7 +318,7 @@ En el cuadro siguiente se detallan las actividades llevadas a cabo y las conclus
 ### 1.1. Startup Profile
 #### 1.1.1. Descripción de la Startup
 
-Nuestro proyecto consiste en un servicio digital diseñado para conectar a personas que poseen un vehículo con quienes necesitan uno por un tiempo determinado. A diferencia de una compañía de alquiler tradicional, nuestra propuesta no requiere contar con un parque automotor propio, lo que reduce significativamente los costos iniciales. En lugar de ello, los autos registrados por los mismos usuarios son los que conforman la oferta disponible en la plataforma, generando así una red colaborativa similar a una flota virtual. El modelo se centra en la intermediación: los dueños obtienen ingresos únicamente cuando su vehículo es efectivamente arrendado, mientras que los arrendatarios acceden a precios más accesibles que en el mercado convencional. De esta manera, se construye un sistema rentable, flexible y equitativo para ambas partes.
+Nuestro proyecto Moveo consiste en un servicio digital diseñado para conectar a personas que poseen un vehículo con quienes necesitan uno por un tiempo determinado. A diferencia de una compañía de alquiler tradicional, nuestra propuesta no requiere contar con un parque automotor propio, lo que reduce significativamente los costos iniciales. En lugar de ello, los autos registrados por los mismos usuarios son los que conforman la oferta disponible en la plataforma, generando así una red colaborativa similar a una flota virtual. El modelo se centra en la intermediación: los dueños obtienen ingresos únicamente cuando su vehículo es efectivamente arrendado, mientras que los arrendatarios acceden a precios más accesibles que en el mercado convencional. De esta manera, se construye un sistema rentable, flexible y equitativo para ambas partes.
 
 **Misión**: Ofrecer una solución moderna y segura que simplifique el acceso a un vehículo de alquiler, generando confianza y beneficios tanto para el propietario como para el arrendatario. Buscamos que nuestra plataforma sea percibida como una alternativa práctica, clara y orientada a las necesidades reales de los usuarios.
 
@@ -631,6 +630,10 @@ En esta sección se presenta la investigación cualitativa realizada mediante en
 #### 2.2.1. Diseño de entrevistas
 
 Esta sección incluye preguntas demográficas, conductuales y psicográficas dirigidas a cada segmento, con el fin de construir arquetipos (personas) basados en evidencia real. Se aplican buenas prácticas de diseño de entrevistas: preguntas abiertas, no sugestivas, orden lógico (de lo general a lo específico) y enfoque en comportamientos reales, no hipotéticos.
+
+- Formulario segmento propietarios: https://forms.gle/uyVSkqSiuiKx1nb69
+
+- Formulario segmento Inquilinos: https://forms.gle/kz3BdxPoZHKNgqUg9
 
 #### **Segmento 1: Propietarios**
 
@@ -1191,17 +1194,11 @@ Gabriel necesita alquilar un auto de manera rápida y segura, pero actualmente b
 
 ![As-is-roy](https://imgur.com/I7vM37p.png)
 
-### 2.4. Big Picture Event Storming
+## 2.4. Ubiquitous Language
 
-En esta sección, el equipo presenta el resultado de una sesión colaborativa de Big Picture Event Storming, una técnica visual y dinámica utilizada para explorar y comprender el dominio completo del negocio de Moveo — plataforma de alquiler de autos entre particulares.
+El Ubiquitous Language es un glosario de términos del dominio del negocio construido de forma colaborativa entre el equipo de desarrollo y los stakeholders. Su propósito es eliminar ambigüedades en la comunicación: cada término tiene una única definición acordada y todos los involucrados, desarrolladores, diseñadores, product owners y usuarios lo utilizan de la misma manera.
+En Moveo, este glosario fue construido a partir de los eventos, actores y procesos identificados. Mantenerlo actualizado garantiza que lo que el equipo diseña e implementa refleje fielmente lo que el negocio necesita.
 
-El objetivo fue mapear los eventos clave que ocurren desde que un propietario decide alquilar su auto hasta que un inquilino lo devuelve (o surge un conflicto), identificando actores, sistemas externos, relaciones, y — sobre todo — los problemas reales y oportunidades de mejora que emergen del proceso actual.
-
-![big picture event storming](https://imgur.com/NfsXR8f.png)
-
-Link del event stotming: https://miro.com/app/board/uXjVJF6vK1o=/?share_link_id=355761890687
-
-## 2.5. Ubiquitous Language
 
 Arrendador:	Usuario que publica su vehículo para alquiler.
 
@@ -1287,27 +1284,10 @@ Las User Stories traducen las necesidades de propietarios, inquilinos, visitante
 | HU29 | Crear una nueva aventura | Como usuario administrador, quiero poder registrar una nueva aventura para ampliar la oferta disponible en el sistema. | **Escenario 1: Creación exitosa**<br>Given que el usuario completa todos los campos requeridos del formulario<br>When el usuario accede a la vista de “Lista de Aventuras”<br>Then la nueva aventura se registra y aparece en la lista de aventuras.<br><br>**Escenario 2: Campos incompletos**<br>Given que el usuario deja campos obligatorios vacíos<br>When intenta guardar la nueva aventura<br>Then el sistema muestra mensajes de validación y no permite continuar. | EP10 |
 | HU30 | Editar una aventura existente | Como usuario administrador, quiero editar la información de una aventura existente para mantener los datos actualizados. | **Escenario 1: Edición exitosa**<br>Given que el usuario accede al modo de edición de una aventura<br>When modifica los datos y guarda los cambios<br>Then la información actualizada se refleja correctamente en la lista.<br><br>**Escenario 2: Edición cancelada**<br>presiona “Cancelar”<br>When intenta guardar la nueva aventura<br>Then los cambios no se guardan y la lista se mantiene igual. | EP10 |
 | HU31 | Eliminar una aventura | Como usuario administrador, quiero eliminar una aventura que ya no esté disponible para mantener la base de datos limpia y actualizada. | **Escenario 1: Eliminación confirmada**<br>Given que el usuario selecciona una aventura de la lista<br>When confirma la eliminación<br>Then la aventura desaparece de la lista y se muestra un mensaje de éxito.<br><br>**Escenario 2: Eliminación cancelada**<br>Given que el usuario selecciona una aventura<br>When presiona “Cancelar” en el cuadro de confirmación<br>Then la aventura permanece en la lista sin cambios. | EP10 |
-| HU32 | Manejo de errores | Como usuario administrador, quiero | HU31 | Eliminar una aventura | Como usuario administrador, quiero eliminar una aventura que ya no esté disponible para entender qué está ocurriendo y cómo solucionarlo. | **Escenario 1: Error al cargar aventuras**<br>Given que ocurre un fallo en la carga desde la API<br>When el usuario abre la vista de lista<br>Then se muestra un mensaje indicando “Error al cargar las aventuras”.<br><br>**Escenario 2: Error al guardar cambios**<br>Given que hay un problema al registrar o actualizar una aventura<br>When el usuario intenta guardar los datos<br>el sistema muestra un mensaje de error y mantiene los datos previos. | EP10 |
+| HU32 | Manejo de errores | Como usuario administrador, quiero eliminar una aventura que ya no esté disponible para entender qué está ocurriendo y cómo solucionarlo. | **Escenario 1: Error al cargar aventuras**<br>Given que ocurre un fallo en la carga desde la API<br>When el usuario abre la vista de lista<br>Then se muestra un mensaje indicando “Error al cargar las aventuras”.<br><br>**Escenario 2: Error al guardar cambios**<br>Given que hay un problema al registrar o actualizar una aventura<br>When el usuario intenta guardar los datos<br>el sistema muestra un mensaje de error y mantiene los datos previos. | EP10 |
 
-## 3.3. Impact Mapping:
+## 3.3. Product Backlog
 
-Este Impact Map visualiza estratégicamente cómo las funcionalidades de la plataforma contribuyen a alcanzar objetivos de negocio concretos, alineando las acciones de nuestros dos segmentos clave: Roy, el propietario de vehículo, y Gabriel, el inquilino.
-
-El mapa parte de Business Goals SMART (como alcanzar 500 usuarios en 6 meses) y desciende en niveles:
-
-Actores (Personas): Roy y Gabriel, cuyos comportamientos impulsan el éxito del negocio.
-
-Impacts: Los cambios deseados en su comportamiento (ej: Roy publica su auto con confianza; Gabriel reserva rápido y seguro).
-
-Deliverables: Las soluciones que la plataforma ofrece para provocar esos cambios (ej: verificación de identidad, motor de búsqueda, sistema de reseñas).
-
-User Stories: Las historias de usuario concretas que implementan cada deliverable, asegurando trazabilidad desde la estrategia hasta la funcionalidad
-
-![Impact-map](https://imgur.com/7ARrxmj.png)
-
-## 3.4. Product Backlog.
-
-# 3.4. Product Backlog
 
 El Product Backlog está ordenado según el **valor para el negocio**, priorizando la atracción, conversión y retención de usuarios. Las historias del Landing Page se ubican primero, seguidas de las funcionalidades clave para propietarios e inquilinos, y finalmente las técnicas y de soporte. La estimación se realiza en Story Points (Fibonacci: 1, 2, 3, 5, 8), considerando complejidad, esfuerzo y riesgo.
 
@@ -1348,7 +1328,23 @@ El Product Backlog está ordenado según el **valor para el negocio**, priorizan
 | 33     | TS04          | API de Aventuras                 | Como Developer, necesito gestionar aventuras vía API. | 8            |
 
 
-> **URL del Product Backlog público**: https://trello.com/b/VRvBNLHD/moveo-apps-web
+> **URL del Product Backlog público**: https://trello.com/b/VJ8IEYK1/moveo
+
+## 3.4. Impact Mapping:
+
+Este Impact Map visualiza estratégicamente cómo las funcionalidades de la plataforma contribuyen a alcanzar objetivos de negocio concretos, alineando las acciones de nuestros dos segmentos clave: Roy, el propietario de vehículo, y Gabriel, el inquilino.
+
+El mapa parte de Business Goals SMART (como alcanzar 500 usuarios en 6 meses) y desciende en niveles:
+
+Actores (Personas): Roy y Gabriel, cuyos comportamientos impulsan el éxito del negocio.
+
+Impacts: Los cambios deseados en su comportamiento (ej: Roy publica su auto con confianza; Gabriel reserva rápido y seguro).
+
+Deliverables: Las soluciones que la plataforma ofrece para provocar esos cambios (ej: verificación de identidad, motor de búsqueda, sistema de reseñas).
+
+User Stories: Las historias de usuario concretas que implementan cada deliverable, asegurando trazabilidad desde la estrategia hasta la funcionalidad
+
+![Impact-map](https://imgur.com/7ARrxmj.png)
 
 
 # Capítulo IV: Product Design
@@ -1641,11 +1637,6 @@ Los mock-ups son la versión visual final de la landing page, con colores, tipog
 
 ---
 
-#### Team Members
-![Tema members](assets/Chapter-4/teammember.png)  
-*Fotos profesionales con fondo desenfocado, bordes redondeados, hover con redes sociales. Genera empatía y confianza institucional.*
-
----
 
 #### Moveo Services — Learn More
 ![moveo services learn more](assets/Chapter-4/moveo.png)  
@@ -1838,14 +1829,17 @@ En esta sección, se explican los softwares utilziados para el desarrollo de nue
 
 #### 5.1.2. Source Code Management
 
-En esta sección se describe el esquema de control de versiones adoptado para el seguimiento y gestión del código fuente del proyecto digital, utilizando GitHub como plataforma centralizada de colaboración y almacenamiento. El repositorio se organiza bajo un flujo de trabajo basado en GitFlow, conforme al modelo propuesto por Vincent Driessen (“A successful Git branching model”), garantizando un desarrollo estructurado, escalable y colaborativo.
-
-El repositorio principal del proyecto se encuentra en:
-https://github.com/UPC-1ASI0732-2610-17821-PointFlavor
+En esta sección se describe el esquema de control de versiones adoptado para el seguimiento y gestión del código  fuente del proyecto, utilizando GitHub como plataforma centralizada de colaboración.
+Los repositorios del proyecto se encuentran en la organización de GitHub del equipo:
 
 Además, se han definido repositorios independientes para cada componente del sistema, según su funcionalidad:
 
-Landing Page:
+- Reporte: https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/MOVEO-Report.git 
+
+- Landing Page: https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/MOVEO-Landing-Page.git 
+
+- Frontend Web Application (Vue + Vite): https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/MOVEO-Landing-Page.git 
+
 
 #### Estructura de Ramas (GitFlow)
 Se implementa el siguiente modelo de ramas:
@@ -1855,47 +1849,8 @@ Se implementa el siguiente modelo de ramas:
 
 - **feature/**: Ramas temporales para el desarrollo de nuevas funcionalidades. Cada capítulo del proyecto se desarrolla en una rama independiente, siguiendo la convención:
 
-- feature/Chapter-{número}-{descripción-en-minusculas-con-guiones}
+- hotfix/: Ramas para corregir errores críticos en producci
 
-Ejemplos: 
-
-- feature/Chapter-1-introduction
-- feature/Chapter-2-requirements-elicitation-and-analysis
-- feature/Chapter-3-requirements-specification
-- feature/Chapter-4-product-design
-- feature/Chapter-5-product-implementation-validation-and-deployment
-
-Estas ramas se crean desde develop, y al finalizar su desarrollo, se someten a pull request para su fusión en develop, previa revisión de código y ejecución de pruebas.
-
-- **release/**: Ramas temporales creadas cuando se prepara una versión estable para lanzamiento (ej. `release/v1.0.0`). Se utilizan para hacer ajustes finales, correcciones de documentación o pruebas de regresión antes de fusionar a `main`. No se usan activamente en este proyecto académico por su naturaleza iterativa, pero se mantienen como parte del modelo GitFlow completo.
-
-- **hotfix/**: Ramas creadas para corregir errores críticos en producción (`main`) sin esperar a que `develop` esté listo. Ejemplo: `hotfix/login-bug-fix`. Estas ramas se crean desde `main`, se corrigen, se prueban y se fusionan de vuelta a `main` y `develop`. En este proyecto no se han utilizado, pero se definen por cumplimiento del estándar.
-
-
-#### Conventional Commits:
-
-Todos los commits dentro de las ramas de características siguen el estándar Conventional Commits, con el siguiente formato:
-
-" < tipo >(< alcance >): < descripción breve> "
-
-Ejemplos válidos:
-
-- feat(Chapter-2): add user role definitions in requirements document
-- fix(Chapter-5): resolve API timeout in authentication endpoint
-- docs(Chapter-4): update architecture diagram in README.md
-- test(Chapter-3): add integration test for requirement validation
-
-Este formato permite generar changelogs automáticos, facilitar revisiones y mantener un historial limpio y comprensible.
-
-#### Semantic Versioning
-
-Las versiones del software se gestionan bajo **Semantic Versioning 2.0.0** (`MAJOR.MINOR.PATCH`), siguiendo el estándar definido en [semver.org](https://semver.org/):
-
-- **MAJOR** (x.0.0): Cambios que rompen compatibilidad (no aplicables en este proyecto académico).  
-- **MINOR** (0.x.0): Nuevas funcionalidades agregadas sin romper compatibilidad (ej. `v1.1.0`).  
-- **PATCH** (0.0.x): Correcciones de errores sin nuevas funcionalidades (ej. `v1.0.1`).  
-
-Se establece como práctica futura que cada release final se etiquete en GitHub como un **tag** con formato `vX.Y.Z` (por ejemplo, `v1.0.0`). Aunque este proyecto no genera releases formales, se adopta SemVer para garantizar coherencia y preparación para entornos reales.
 
 #### 5.1.3. Source Code Style Guide & Conventions
 
@@ -1983,12 +1938,20 @@ La implementación y despliegue de la landing page es un paso crucial para hacer
 - URL de Despliegue (Landing Page): 
 - Pasos para realizar deploy en Vercel.
 
+**URL de Despliegue (Frontend):** 
+
+- **Paso 1:** Vinculación del repositorio Frontend a la plataforma de Vercel. 
+- **Paso 2:** Vercel detecta automáticamente el framework (Vite/Vue) y configura el directorio raíz. 
+- **Paso 3:** Configuración de los comandos de compilación (npm run build) y el directorio de salida (dist). 
+- **Paso 4:** Ejecución del despliegue (Deploy) donde Vercel comienza a construir la aplicación. 
+- **Paso 5:** Esperar a que el proceso termine, obteniendo la confirmación visual de éxito y la asignación del dominio. 
+- **Paso 6:** Acceder al enlace generado por Vercel para visualizar la aplicación Frontend web ya desplegada. 
 
 #### 5.2.3. Implemented Frontend-Web Application Evidence
 
 Durante este sprint, se sentaron las bases de la aplicación Frontend utilizando **Vue 3** y **Vite**. La elección de Vite permite tiempos de carga y reemplazo de módulos en caliente (HMR) casi instantáneos, mejorando la experiencia de desarrollo.
 
-**URL de Despliegue (Frontend):** []()
+**URL de Despliegue (Frontend):** https://pflavor-frontend.vercel.app  
 
 - **Paso 1:** Vinculación del repositorio Frontend a la plataforma de Vercel. 
 - **Paso 2:** Vercel detecta automáticamente el framework (Vite/Vue) y configura el directorio raíz. 
@@ -2026,6 +1989,11 @@ El servicio incluye funcionalidades como registro de usuarios, publicación de v
 
 **4. Planes de Membresía**
 
+Moveo contará con un modelo de acceso gratuito para los usuarios registrados. Los propietarios podrán publicar sus vehículos sin pagar una membresía fija mensual, y los arrendatarios podrán explorar la oferta disponible sin costo de suscripción.
+El modelo de ingresos de Moveo se basará en el cobro de comisiones por cada alquiler concretado dentro de la plataforma. Es decir, la aplicación solo obtendrá ingresos cuando se realice una transacción exitosa entre el propietario del vehículo y el arrendatario.
+Por ejemplo, si un arrendatario alquila un vehículo por S/ 120, el propietario recibirá S/ 115 y Moveo retendrá S/ 5 como comisión por el uso de la plataforma, gestión de la operación y mantenimiento del servicio.
+Los pagos realizados dentro de la plataforma estarán sujetos a las condiciones informadas al usuario antes de confirmar la operación. Las comisiones aplicadas serán comunicadas de forma clara y transparente para evitar confusiones entre las partes.
+
 
 **5. Privacidad y Protección de Datos**
 - Moveo recopila y procesa datos personales conforme a su Política de Privacidad, disponible en el footer de la plataforma.
@@ -2052,27 +2020,36 @@ La arquitectura de la solución backend se fundamentó en **C# y .NET Core**. Se
 
 - **Paso 1:** Conectar el repositorio de GitHub que contiene el backend en .NET a un nuevo proyecto en Railway.
 
-<p align="center">
-  <img src="" alt="deploy-back-1" width="500">
-</p>
-
 - **Paso 2:** Railway detecta el tipo de proyecto y comienza a crear el servicio.
-
-<p align="center">
-  <img src="" alt="deploy-back-2" width="500">
-</p>
 
 - **Paso 3:** Esperar a que Railway finalice el proceso de construcción y levante el contenedor (Deploying).
 
-<p align="center">
-  <img src="" alt="deploy-back-3" width="500">
-</p>
-
 - **Paso 4:** Generar y configurar un dominio público gratuito en la sección de Settings de Railway para acceder a la API.
 
+
 <p align="center">
-  <img src="" alt="deploy-back-4" width="500">
+  <img src="https://i.imgur.com/Zq8luJF.png" alt="WF2" width="500">
 </p>
+
+<p align="center">
+  <img src="https://i.imgur.com/hESnWY1.png" alt="WF2" width="500">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/bnfhe8n.png" alt="WF2" width="500">
+</p>
+
+
+<p align="center">
+  <img src="https://i.imgur.com/vsBdKfB.png" alt="WF2" width="500">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/f5lj6f0.png" alt="WF2" width="500">
+</p>
+
+
+- Swagger Link: https://wheelspe-backend-production.up.railway.app/swagger/index.html
 
 
 #### 5.2.6. RESTful API documentation
@@ -2249,8 +2226,8 @@ En esta sección, se presenta una introducción de la plataforma PointFlavor, de
   <img src="assets/Chapter-5/bout the product moveo.png" alt="moveo_product"/>
 </p>
 
-Duración: 1:05
-Enlace a Microsoft Stream: [VIDEO ABOUT THE PRODUCT.mp4 ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/IQDsa8mQseqyS5hASHUOF2etATteMgp7d6JY2BW7lKFNwJQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=in1oh2)
+Duración: 1:05 <br>
+Enlace a Microsoft Stream: [VIDEO ABOUT THE PRODUCT.mp4 ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/IQDsa8mQseqyS5hASHUOF2etATteMgp7d6JY2BW7lKFNwJQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=in1oh2) <br>
 Enlace a YouTube: https://youtu.be/-X0c1uzO5KU 
 
 
@@ -2266,13 +2243,6 @@ Enlace a YouTube: https://youtu.be/-X0c1uzO5KU
 - También se aplicaron pruebas de comportamiento usando Gherkin, definiendo escenarios bajo la estructura Given, When, Then para validar los flujos esperados del sistema. También, se realizaron pruebas end-to-end con Selenium, verificando que los principales flujos de la aplicación web funcionen correctamente desde la perspectiva del usuario final.
 
 - El proceso de testeo permitió identificar errores, validar funcionalidades críticas y mejorar la confiabilidad general de la aplicación.
-
-## Recomendaciones
-
-- Se recomienda expandir el ecosistema de PuntoSabor desarrollando una aplicación móvil nativa (por ejemplo, utilizando Flutter o React Native). Esto permitirá aprovechar al máximo las capacidades de geolocalización en tiempo real del dispositivo y enviar notificaciones push a los comensales cuando estén cerca de un *huarique* promocionado.
-- Para el módulo de suscripciones y membresías de los dueños de huariques, el siguiente paso debe ser la integración de una pasarela de pagos real (como Stripe, Culqi o MercadoPago) que permita procesar tarjetas de crédito/débito y automatizar la facturación mensual directamente dentro de la plataforma.
-- Se sugiere implementar un dashboard de métricas más profundo para los usuarios del Segmento 2 (Dueños). Proporcionar datos estadísticos sobre cuántas personas vieron su perfil, cuántas hicieron clic en la dirección o cuántas guardaron su local en favoritos justificará el pago de los planes *Premium* o *Pro*.
-- Para seguir la filosofía del desarrollo guiado por experimentos (Experiment-Driven Development), se recomienda implementar herramientas de A/B testing en la Landing Page y en el flujo de registro. Esto permitirá medir con datos estadísticos reales qué llamados a la acción (CTAs) o distribuciones visuales generan una mayor tasa de conversión.
 
 
 # Bibliografía
@@ -2305,13 +2275,16 @@ Enlace a YouTube: https://youtu.be/-X0c1uzO5KU
 
 ## Repositorios Github
 
-- **Enlace Repositorio Project Report:**  https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/MOVEO-Report/tree/develop
+- **Enlace Repositorio Project Report:**  https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/MOVEO-Report/tree/develop <br>
 
-Link del formulario segmento propietarios: https://forms.gle/uyVSkqSiuiKx1nb69
-Link del formulario segmento Inquilinos: https://forms.gle/kz3BdxPoZHKNgqUg9
-Link del To-Be Scenario Mapping: https://miro.com/app/board/uXjVJHk66ZY=/?share_link_id=390494907497
-Link del diseño final en figma: https://www.figma.com/design/lRjIRg3YuUVRpVKoibbAKt/Moveo-Landing-Mockup?node-id=0-1&t=xZb8804mKmhW8bFn-1
-Link del prototipo interactivo en figma: https://www.figma.com/proto/c6kJu6j0YZv51u6Ml2kypY/Moveo-Landing-Mockup?node-id=1-2&p=f&t=oOjM7PCRDBGHla3t-1&scaling=scale-down&content-scaling=fixed&page-
+- Link del formulario segmento propietarios: https://forms.gle/uyVSkqSiuiKx1nb69 <br>
+
+- Link del formulario segmento Inquilinos: https://forms.gle/kz3BdxPoZHKNgqUg9
+Link del To-Be Scenario Mapping: https://miro.com/app/board/uXjVJHk66ZY=/?share_link_id=390494907497 <br>
+
+- Link del diseño final en figma: https://www.figma.com/design/lRjIRg3YuUVRpVKoibbAKt/Moveo-Landing-Mockup?node-id=0-1&t=xZb8804mKmhW8bFn-1 <br>
+
+- Link del prototipo interactivo en figma: https://www.figma.com/proto/c6kJu6j0YZv51u6Ml2kypY/Moveo-Landing-Mockup?node-id=1-2&p=f&t=oOjM7PCRDBGHla3t-1&scaling=scale-down&content-scaling=fixed&page- <br>
 
 
 ---
