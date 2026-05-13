@@ -8,8 +8,8 @@
     <strong>Sección: 1ASI0732</strong><br><br>
     <strong>Profesor: Lennin Percy Cenas Vasquez</strong><br><br>
     <strong>Informe de Trabajo Final</strong><br><br>
-    <strong>Startup: Point Flavor</strong><br><br>
-    <strong>Producto: PuntoSabor</strong><br><br>
+    <strong>Startup: NextMobility</strong><br><br>
+    <strong>Producto: Moveo</strong><br><br>
 </p>
 
 
@@ -188,11 +188,12 @@ A continuación, se adjuntan las evidencias del trabajo colaborativo, incluyendo
       - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
     - [1.2. Solution Profile](#12-solution-profile)
       - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-      - [1.2.2. Lean UX Process](#122-lean-ux-process)
-        - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-        - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-        - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-        - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.2.2. Lean UX Process](#122-lean-ux-process)
+    - [1.2.2.1. Lean UX Problem Statement](#1221-lean-ux-problem-statement)
+    - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+    - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas.](#1224-lean-ux-canvas)
+        - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas-1)
     - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
   - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
     - [2.1. Competidores](#21-competidores)
@@ -200,70 +201,145 @@ A continuación, se adjuntan las evidencias del trabajo colaborativo, incluyendo
       - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
     - [2.2. Entrevistas](#22-entrevistas)
       - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+      - [**Segmento 1: Propietarios**](#segmento-1-propietarios)
+      - [**Segmento 2: Inquilinos**](#segmento-2-inquilinos)
       - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+      - [**Segmento 1: Propietarios de autos**](#segmento-1-propietarios-de-autos)
+      - [Entrevistado 1: Alisa Goicochea](#entrevistado-1-alisa-goicochea)
+        - [Resumen:](#resumen)
+      - [Entrevistado 2: Mathías Peña](#entrevistado-2-mathías-peña)
+        - [Resumen:](#resumen-1)
+      - [Entrevistado 3: Mauricio Salas](#entrevistado-3-mauricio-salas)
+        - [Resumen:](#resumen-2)
+      - [**Segmento 2:Inquilinos de autos**](#segmento-2inquilinos-de-autos)
+      - [Entrevistado 4: Claudia Sifuentes](#entrevistado-4-claudia-sifuentes)
+        - [Resumen:](#resumen-3)
+      - [Entrevistado 5: Angie Leyva](#entrevistado-5-angie-leyva)
+        - [Resumen:](#resumen-4)
       - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-    - [2.3. Needfinding](#23-needfinding)
-      - [2.3.1. User Personas](#231-user-personas)
-      - [2.3.2. User Task Matrix](#232-user-task-matrix)
-      - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-      - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+    - [Segmento 1: Propietarios de Vehículos](#segmento-1-propietarios-de-vehículos)
+      - [Estadísticas y Aspectos Comunes](#estadísticas-y-aspectos-comunes)
+      - [Características Objetivas](#características-objetivas)
+      - [Características Subjetivas](#características-subjetivas)
+      - [Hallazgos Clave](#hallazgos-clave)
+    - [Estadisticas:](#estadisticas)
+    - [Segmento 2: Inquilinos de Vehículos](#segmento-2-inquilinos-de-vehículos)
+      - [Estadísticas y Aspectos Comunes](#estadísticas-y-aspectos-comunes-1)
+      - [Características Objetivas](#características-objetivas-1)
+      - [Características Subjetivas](#características-subjetivas-1)
+      - [Hallazgos Clave](#hallazgos-clave-1)
+    - [Estadisticas:](#estadisticas-1)
+    - [Validación de Supuestos Lean UX](#validación-de-supuestos-lean-ux)
+    - [Conclusión del Análisis](#conclusión-del-análisis)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Persona](#231-user-persona)
+      - [Persona 1: Propietario Emprendedor Digital](#persona-1-propietario-emprendedor-digital)
+        - [Motivaciones:](#motivaciones)
+        - [Frustraciones:](#frustraciones)
+        - [Objetivos:](#objetivos)
+      - [Persona 2: Inquilina Justiciera Digital](#persona-2-inquilina-justiciera-digital)
+        - [Motivaciones:](#motivaciones-1)
+        - [Frustraciones:](#frustraciones-1)
+        - [Objetivos:](#objetivos-1)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
       - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-    - [2.4. Ubiquitous Language](#24-ubiquitous-language)
-  - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-    - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-    - [Segmento 1](#segmento-1)
-    - [Segmento 2](#segmento-2)
-    - [3.2. User Stories](#32-user-stories)
-    - [3.3. Product Backlog](#33-product-backlog)
-    - [3.4. Impact Mapping](#34-impact-mapping)
-  - [Capítulo IV: Product Design](#capítulo-iv-product-design)
-    - [4.1. Style Guidelines](#41-style-guidelines)
-      - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-      - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
-    - [4.2. Information Architecture](#42-information-architecture)
-      - [4.2.1. Organization Systems](#421-organization-systems)
-      - [4.2.2. Labeling Systems](#422-labeling-systems)
-      - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-      - [4.2.4. Searching Systems](#424-searching-systems)
-      - [4.2.5. Navigation Systems](#425-navigation-systems)
-    - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
-      - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
-      - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
-    - [4.6. Web Applications UX/UI Design](#46-web-applications-uxui-design)
-      - [4.6.1. Web Applications Wireframes](#461-web-applications-wireframes)
-      - [4.6.2. Web Applications Wireflow Diagrams](#462-web-applications-wireflow-diagrams)
-      - [4.6.3. Web Applications Mock-ups](#463-web-applications-mock-ups)
-      - [4.6.4. Web Applications User Flow Diagrams](#464-web-applications-user-flow-diagrams)
-    - [4.7. Web Applications Prototyping](#47-web-applications-prototyping)
-    - [4.8. Domain-Driven Software Architecture](#48-domain-driven-software-architecture)
-      - [4.8.1. Software Architecture Context Diagram](#481-software-architecture-context-diagram)
-      - [4.8.2. Software Architecture Container Diagrams](#482-software-architecture-container-diagrams)
-      - [4.8.3. Software Architecture Components Diagrams](#483-software-architecture-components-diagrams)
-    - [4.9. Software Object-Oriented Design](#49-software-object-oriented-design)
-      - [4.9.1. Class Diagrams](#491-class-diagrams)
-      - [4.9.2. Class Dictionary](#492-class-dictionary)
-    - [4.10. Database Design](#410-database-design)
-      - [4.10.1. Relational/Non-Relational Database Diagram](#4101-relationalnon-relational-database-diagram)
+  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+  - [3.2. User Stories](#32-user-stories)
+  - [3.3. Product Backlog](#33-product-backlog)
+  - [3.4. Impact Mapping:](#34-impact-mapping)
+- [Capítulo IV: Product Design](#capítulo-iv-product-design)
+  - [4.1. Style Guidelines.](#41-style-guidelines)
+    - [4.1.1. General Style Guidelines.](#411-general-style-guidelines)
+      - [Logo](#logo)
+      - [Typography](#typography)
+      - [Colors](#colors)
+      - [Spacing](#spacing)
+      - [Communication Tone](#communication-tone)
+    - [4.1.2. Web Style Guidelines.](#412-web-style-guidelines)
+  - [4.2. Information Architecture.](#42-information-architecture)
+    - [4.2.1. Organization Systems.](#421-organization-systems)
+    - [4.2.2. Labeling Systems.](#422-labeling-systems)
+        - [Secciones y contenido de Moveo](#secciones-y-contenido-de-moveo)
+    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+    - [4.2.4. Searching Systems.](#424-searching-systems)
+      - [**Busqueda Global**](#busqueda-global)
+      - [**Filtrado de información**](#filtrado-de-información)
+    - [4.2.5. Navigation Systems.](#425-navigation-systems)
+      - [**Estructura de Navegación en la Landing Page**](#estructura-de-navegación-en-la-landing-page)
+      - [**Estructura de Navegación en Moveo**](#estructura-de-navegación-en-moveo)
+    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+      - [Header y Hero](#header-y-hero)
+      - [What is Moveo](#what-is-moveo)
+      - [Team Members](#team-members)
+      - [Services](#services)
+      - [Moveo Services — Learn More](#moveo-services--learn-more)
+      - [Impacto de Moveo](#impacto-de-moveo)
+      - [Footer](#footer)
+    - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+      - [Header y Hero](#header-y-hero-1)
+      - [What is Moveo](#what-is-moveo-1)
+      - [Moveo Services — Learn More](#moveo-services--learn-more-1)
+      - [Impacto de Moveo](#impacto-de-moveo-1)
+      - [Footer](#footer-1)
+  - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
+    - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
+    - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
+    - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
+    - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
+  - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
+  - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+    - [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
+    - [4.6.2. Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)
+    - [4.6.3. Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)
+  - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
+    - [4.7.1. Class Diagrams](#471-class-diagrams)
+  - [4.8. Database Design](#48-database-design)
+    - [4.8.1. Database Diagram](#481-database-diagram)
   - [Capítulo V: Product Implementation](#capítulo-v-product-implementation)
     - [5.1. Software Configuration Management](#51-software-configuration-management)
       - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
       - [5.1.2. Source Code Management](#512-source-code-management)
+      - [Estructura de Ramas (GitFlow)](#estructura-de-ramas-gitflow)
       - [5.1.3. Source Code Style Guide \& Conventions](#513-source-code-style-guide--conventions)
       - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+        - [Landing Page y Frontend Web Application — Vercel](#landing-page-y-frontend-web-application--vercel)
+        - [Backend / RESTful API — Railway](#backend--restful-api--railway)
     - [5.2. Product Implementation \& Deployment](#52-product-implementation--deployment)
       - [5.2.1. Sprint Backlogs](#521-sprint-backlogs)
       - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
       - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
       - [5.2.4. Acuerdo de Servicio - SaaS](#524-acuerdo-de-servicio---saas)
-      - [5.2.6. Implemented RESTful API and/or Serverless Backend Evidence](#526-implemented-restful-api-andor-serverless-backend-evidence)
-      - [5.2.7. RESTful API documentation](#527-restful-api-documentation)
-      - [5.2.8. Team Collaboration Insights](#528-team-collaboration-insights)
+      - [5.2.5. Implemented RESTful API and/or Serverless Backend Evidence](#525-implemented-restful-api-andor-serverless-backend-evidence)
+      - [5.2.6. RESTful API documentation](#526-restful-api-documentation)
+      - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
     - [5.3. Video About-the-Product](#53-video-about-the-product)
+  - [Capítulo VI: Product Verification \& Validation](#capítulo-vi-product-verification--validation)
+    - [6.1. Testing Suites \& Validation](#61-testing-suites--validation)
+      - [6.1.1. Core Entities Unit Tests.](#611-core-entities-unit-tests)
+    - [IAM](#iam)
+    - [UserManagement](#usermanagement)
+    - [Rental](#rental)
+    - [Payment](#payment)
+    - [Adventure](#adventure)
+    - [Notification](#notification)
+    - [Support](#support)
+    - [UserReview](#userreview)
+      - [6.1.2. Core Integration Tests.](#612-core-integration-tests)
+    - [IAM](#iam-1)
+    - [Rental](#rental-1)
+    - [Payment](#payment-1)
+      - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)
+      - [6.1.4. Core System Tests.](#614-core-system-tests)
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 - [Conclusiones](#conclusiones)
-  - [Recomendaciones](#recomendaciones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
+  - [Enlace Organización: https://github.com/UPC-1ASI0732-2610-17821-PointFlavor](#enlace-organización-httpsgithubcomupc-1asi0732-2610-17821-pointflavor)
+  - [Repositorios Github](#repositorios-github)
 
 # Student Outcome
 
@@ -2230,6 +2306,339 @@ Duración: 1:05 <br>
 Enlace a Microsoft Stream: [VIDEO ABOUT THE PRODUCT.mp4 ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/IQDsa8mQseqyS5hASHUOF2etATteMgp7d6JY2BW7lKFNwJQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=in1oh2) <br>
 Enlace a YouTube: https://youtu.be/-X0c1uzO5KU 
 
+
+## Capítulo VI: Product Verification & Validation
+
+### 6.1. Testing Suites & Validation
+
+#### 6.1.1. Core Entities Unit Tests.
+
+Validan la lógica de negocio de cada servicio de forma aislada, sin base de datos real ni llamadas HTTP. Se usan **mocks** (objetos simulados) para reemplazar los repositorios y verificar que el servicio se comporta correctamente.
+
+### IAM
+
+`Moveo_backend.Tests/IAM/Application/Internal/AuthServiceTests.cs` 
+<br>
+
+Prueba el servicio de autenticación `AuthService`:
+
+* Registro exitoso con email nuevo → retorna el usuario creado
+* Registro con email duplicado → retorna `null`
+* Login con credenciales válidas → retorna el usuario
+* Login con email inexistente → retorna `null`
+* Login con contraseña incorrecta → retorna `null`
+* Cambio de contraseña correcto → retorna `true`
+* Cambio de contraseña con contraseña actual incorrecta → retorna `false`
+
+![IAM AuthService 1](https://i.imgur.com/7q8QMUq.png)
+![IAM AuthService 2](https://i.imgur.com/IqHkMmq.png)
+
+### UserManagement
+
+`Moveo_backend.Tests/UserManagement/Application/Internal/CommandServices/UserCommandServiceTests.cs` 
+<br>
+
+Prueba el servicio `UserCommandService`:
+
+* Crear usuario con email nuevo → se guarda correctamente
+* Crear usuario con email duplicado → lanza excepción
+* Crear usuario con rol owner → se asigna el rol correcto
+* Actualizar usuario existente → retorna usuario actualizado
+* Actualizar usuario inexistente → lanza excepción
+* Eliminar usuario existente → se elimina correctamente
+* Eliminar usuario inexistente → lanza excepción
+
+![UserCommandService 1](https://i.imgur.com/6U5VwTv.png)
+![UserCommandService 2](https://i.imgur.com/dp8H9HP.png)
+
+`Moveo_backend.Tests/UserManagement/Domain/Model/Aggregates/UserTests.cs`
+<br>
+
+Prueba el aggregate `User` directamente:
+
+* Constructor asigna datos personales correctamente
+* Verificación de email, DNI, teléfono y licencia
+* Incremento de rentas activas y totales
+* Cálculo de ganancias como propietario y gasto como inquilino
+* Cancelación de renta decrementa contadores
+
+![UserTests 1](https://i.imgur.com/hXgoBXr.png)
+![UserTests 2](https://i.imgur.com/a8dxNG4.png)
+
+### Rental
+
+`Moveo_backend.Tests/Rental/Application/Internal/CommandServices/RentalCommandServiceTests.cs`
+<br>
+
+Prueba el servicio `RentalCommandService`:
+
+* Crear renta → llama al servicio y retorna la renta
+* Actualizar renta parcialmente → retorna renta actualizada
+* Eliminar renta existente → retorna `true`
+* Eliminar renta inexistente → retorna `false`
+* Eliminar renta llama al delete exactamente una vez
+
+![RentalCommandService 1](https://i.imgur.com/McpeQTq.png)
+![RentalCommandService 2](https://i.imgur.com/5at3BRU.png)
+
+`Moveo_backend.Tests/Rental/Domain/Model/Aggregates/RentalTests.cs`
+<br>
+
+Prueba el aggregate `Rental`:
+
+* Constructor inicializa estado en `pending`
+* `Accept()` desde pending → cambia a `accepted`
+* `Accept()` desde otro estado → lanza excepción
+* `Activate()` desde accepted → cambia a `active`
+* `Complete()` desde active → cambia a `completed`
+* `Cancel()` desde pending → cambia a `cancelled`
+* `Cancel()` desde completed → lanza excepción
+* Calificar vehículo con rating válido (1-5) → guarda calificación
+* Calificar con rating inválido (0, -1, 6) → lanza excepción
+
+![RentalTests 1](https://i.imgur.com/9rkH2tU.png)
+![RentalTests 2](https://i.imgur.com/PMeDYus.png)
+
+`Moveo_backend.Tests/Rental/Domain/Model/Aggregates/VehicleTests.cs`
+<br>
+
+Prueba el aggregate `Vehicle`:
+
+* Constructor asigna todas las propiedades correctamente
+* Estado inicial es `active`
+* Actualización completa reemplaza todos los campos
+* Actualización parcial con valores nulos no modifica propiedades
+* Actualización de precio diario solo modifica ese campo
+* Lista de features se serializa correctamente como JSON
+
+![VehicleTests 1](https://i.imgur.com/bUPpvcx.png)
+![VehicleTests 2](https://i.imgur.com/6q3nYde.png)
+
+`Moveo_backend.Tests/Rental/Domain/Model/ValueObjects/MoneyTests.cs` +
+<br>
+
+Prueba el value object `Money`:
+
+* Constructor con monto positivo asigna el valor
+* Constructor con monto negativo → lanza excepción
+* Sumar dos `Money` de la misma moneda → retorna la suma
+* Restar dos `Money` de la misma moneda → retorna la diferencia
+* Sumar `Money` de distinta moneda → lanza excepción
+* `Zero()` retorna un `Money` con monto 0
+
+![MoneyTests 1](https://i.imgur.com/DwRFmRH.png)
+![MoneyTests 2](https://i.imgur.com/ObMagOB.png)
+
+
+### Payment
+
+`Moveo_backend.Tests/Payment/Application/Internal/CommandServices/PaymentCommandServiceTests.cs` 
+<br>
+
+Prueba el servicio `PaymentCommandService`:
+
+* Crear pago → retorna pago con estado `pending`
+* Actualizar pago existente → cambia el estado
+* Actualizar pago inexistente → retorna `null`
+* Eliminar pago existente → retorna `true`
+* Eliminar pago inexistente → retorna `false`
+
+![PaymentCommandService 1](https://i.imgur.com/2D32XNH.png)
+![PaymentCommandService 2](https://i.imgur.com/gw9qQaf.png)
+
+`Moveo_backend.Tests/Payment/Domain/Model/Aggregate/PaymentTests.cs`
+<br>
+
+Prueba el aggregate `Payment`:
+
+* Constructor asigna todas las propiedades correctamente
+* Moneda por defecto es `PEN`
+* `Complete()` → cambia estado a `completed` y guarda transaction ID
+* `Complete()` con transaction ID nulo → sigue funcionando
+* `Fail()` → cambia estado a `failed` y guarda motivo
+* `Refund()` → cambia estado a `refunded`
+* Actualización parcial con nuevo estado → solo modifica el estado
+
+![PaymentTests 1](https://i.imgur.com/y9uHDPw.png)
+![PaymentTests 2](https://i.imgur.com/g9OGLHh.png)
+
+
+### Adventure
+
+`Moveo_backend.Tests/Adventure/Application/Internal/CommandServices/AdventureRouteCommandServiceTests.cs`
+<br>
+
+Prueba el servicio `AdventureRouteCommandService`:
+
+* Crear ruta con nombre nuevo → retorna la ruta creada
+* Crear ruta con nombre duplicado → lanza excepción
+* Actualizar ruta inexistente → retorna `null`
+* Eliminar ruta existente → retorna `true` y llama al repositorio
+* Eliminar ruta inexistente → retorna `false`
+
+![AdventureRouteCommandService 1](https://i.imgur.com/rFkmi2P.png)
+![AdventureRouteCommandService 2](https://i.imgur.com/WFRAkit.png)
+
+
+### Notification
+
+`Moveo_backend.Tests/Notification/Application/Internal/CommandServices/NotificationCommandServiceTests.cs`
+<br>
+
+Prueba el servicio `NotificationCommandService`:
+
+* Crear notificación → retorna con título correcto e `IsRead = false`
+* Marcar notificación existente como leída → `IsRead` cambia a `true`
+* Marcar notificación inexistente como leída → retorna `null`
+* Eliminar notificación existente → retorna `true`
+* Eliminar notificación inexistente → retorna `false`
+
+![NotificationCommandService 1](https://i.imgur.com/TlYX1HA.png)
+![NotificationCommandService 2](https://i.imgur.com/bZPFrcW.png)
+
+
+### Support
+
+`Moveo_backend.Tests/Support/Application/Internal/CommandServices/SupportTicketCommandServiceTests.cs` 
+<br>
+
+Prueba el servicio `SupportTicketCommandService`:
+
+* Crear ticket → retorna con estado `open`
+* Cerrar ticket existente → estado cambia a `closed`
+* Cerrar ticket inexistente → retorna `null`
+* Eliminar ticket existente → retorna `true`
+* Eliminar ticket inexistente → retorna `false`
+
+![SupportTicketCommandService 1](https://i.imgur.com/z2MXw3c.png)
+![SupportTicketCommandService 2](https://i.imgur.com/fhhZL0y.png)
+
+
+### UserReview
+
+`Moveo_backend.Tests/UserReview/Application/Internal/CommandServices/UserReviewCommandServiceTests.cs` 
+<br>
+
+Prueba el servicio `UserReviewCommandService`:
+
+* Crear reseña → retorna con rating y tipo correctos
+* Actualizar reseña existente → rating se actualiza
+* Actualizar reseña inexistente → retorna `null`
+* Eliminar reseña existente → retorna `true`
+* Eliminar reseña inexistente → retorna `false`
+
+![UserReviewCommandService 1](https://i.imgur.com/uArVedG.png)
+![UserReviewCommandService 2](https://i.imgur.com/oajVcg7.png)
+
+#### 6.1.2. Core Integration Tests.
+
+Levantan la aplicación completa con una base de datos en memoria (InMemoryDatabase) usando WebApplicationFactory. Ejecutan llamadas HTTP reales a los controladores y verifican que respondan con los status codes correctos. `Moveo_backend.Tests/Integration/MoveoWebApplicationFactory.cs` — configura el entorno de prueba reemplazando MySQL por InMemory.
+
+
+### IAM
+
+`Moveo_backend.Tests/Integration/IAM/AuthControllerTests.cs`
+
+* `POST /api/v1/auth/register` con datos válidos → responde `201 Created`
+* `POST /api/v1/auth/register` con email ya registrado → responde `409 Conflict`
+* `POST /api/v1/auth/login` con email inexistente → responde `401 Unauthorized`
+
+![AuthControllerTests 1](https://i.imgur.com/2WXErEj.png)
+![AuthControllerTests 2](https://i.imgur.com/nqPbKOy.png)
+
+
+### Rental
+
+`Moveo_backend.Tests/Integration/Rental/VehicleControllerTests.cs`
+
+* `GET /api/v1/vehicles` con base vacía → responde `200 OK` con lista vacía
+* `GET /api/v1/vehicles/9999` con ID inexistente → responde `404 Not Found`
+* `DELETE /api/v1/vehicles/9999` con ID inexistente → responde `404 Not Found`
+
+![VehicleControllerTests 1](https://i.imgur.com/tHX51Xr.png)
+![VehicleControllerTests 2](https://i.imgur.com/piIJGmh.png)
+
+
+### Payment
+
+`Moveo_backend.Tests/Integration/Payment/PaymentControllerTests.cs`
+
+* `GET /api/v1/payments` con base vacía → responde `200 OK` con lista vacía
+* `GET /api/v1/payments/9999` con ID inexistente → responde `404 Not Found`
+* `POST /api/v1/payments` con datos válidos → responde `201 Created`
+
+![PaymentControllerTests 1](https://i.imgur.com/LjBkx2D.png)
+![PaymentControllerTests 2](https://i.imgur.com/IoGVvAq.png)
+
+#### 6.1.3. Core Behavior-Driven Development
+
+**BDD Feature File: IAM (Autenticación y Registro)**
+
+![IAM](https://i.imgur.com/GYoJI9u.png)
+
+**BDD Feature File: Payment (Pagos)**
+
+![Payment](https://i.imgur.com/y7Z8zFJ.png)
+
+**BDD Feature File: User Management (Gestión de Usuarios)**
+
+![User Management](https://i.imgur.com/CTsmutW.png)
+
+**BDD Feature File: Rental (Alquiler)**
+
+![Rental](https://i.imgur.com/e8urTSp.png)
+
+#### 6.1.4. Core System Tests.
+
+**Flujo de reserva**
+
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Nombre</th>
+      <th>Historia de Usuario</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HU11</td>
+      <td>Reservar un auto con pago seguro</td>
+      <td>Como inquilino, quiero reservar un auto y realizar el pago de forma segura.</td>
+    </tr>
+  </tbody>
+</table>
+
+![imagen1](https://i.imgur.com/eJS2nx7.png)
+
+![imagen2](https://i.imgur.com/jxiCmbZ.png)
+
+---
+
+**Flujo de publicación**
+
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Nombre</th>
+      <th>Historia de Usuario</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HU07</td>
+      <td>Publicar un vehículo</td>
+      <td>Como propietario, quiero publicar mi auto para que los inquilinos puedan alquilarlo.</td>
+    </tr>
+  </tbody>
+</table>
+
+![imagen3](https://i.imgur.com/y8oY8xH.png)
+
+![imagen4](https://i.imgur.com/mzbWawS.png)
+
+![imagen5](https://i.imgur.com/W0dGjoA.png)
 
 # Conclusiones y recomendaciones
 # Conclusiones
