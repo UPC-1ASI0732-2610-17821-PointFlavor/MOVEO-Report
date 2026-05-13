@@ -110,6 +110,48 @@
       <td>Santiago Peña, Andreow Jomark</td>
       <td>Redacción de las Conclusiones y Recomendaciones finales del proyecto para el cierre de la entrega del AV1.</td>
     </tr>
+        <tr>
+      <td>2.1 (TP)</td>
+      <td>11/05/2026</td>
+      <td>Goñe Araccata, Esther Abigail</td>
+      <td>Desarrollo y documentación de la sección 5.2.3. Implemented Frontend-Web Application Evidence, incluyendo evidencias de las vistas principales, navegación y funcionalidades implementadas en la aplicación web.</td>
+    </tr>
+    <tr>
+      <td>2.2 (TP)</td>
+      <td>11/05/2026</td>
+      <td>Hancco Poma, Keyner Iván <br> Santiago Peña, Andreow Jomark</td>
+      <td>Incorporación de la sección 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence, agregando evidencias de endpoints implementados, ejecución del backend y pruebas de consumo de la API.</td>
+    </tr>
+    <tr>
+      <td>2.3 (TP)</td>
+      <td>12/05/2026</td>
+      <td>Goñe Araccata, Esther Abigail <br> Hancco Poma, Keyner Iván <br>Santiago Peña, Andreow Jomark <br> Sulca Silva, Melisa Geraldine <br> Tumi Oliden, Manuel Ignacio</td>
+      <td>Elaboración de la sección 6.1. Testing Suites & Validation, definiendo el enfoque general de validación, criterios de prueba y relación con los requerimientos del sistema.</td>
+    </tr>
+    <tr>
+      <td>2.4 (TP)</td>
+      <td>12/05/2026</td>
+      <td>Goñe Araccata, Esther Abigail <br> Hancco Poma, Keyner Iván <br>Santiago Peña, Andreow Jomark <br> Sulca Silva, Melisa Geraldine <br> Tumi Oliden, Manuel Ignacio</td>
+      <td>Desarrollo de la sección 6.1.1. Core Entities Unit Tests, documentando las pruebas unitarias aplicadas a las entidades principales del dominio.</td>
+    </tr>
+    <tr>
+      <td>2.5 (TP)</td>
+      <td>12/05/2026</td>
+      <td>Goñe Araccata, Esther Abigail <br> Hancco Poma, Keyner Iván <br>Santiago Peña, Andreow Jomark <br> Sulca Silva, Melisa Geraldine <br> Tumi Oliden, Manuel Ignacio</td>
+      <td>Desarrollo de la sección 6.1.2. Core Integration Tests, registrando pruebas de integración entre frontend, backend, base de datos y servicios principales.</td>
+    </tr>
+    <tr>
+      <td>2.6 (TP)</td>
+      <td>12/05/2026</td>
+      <td>Sulca Silva, Melisa Geraldine</td>
+      <td>Desarrollo de la sección 6.1.3. Core Behavior-Driven Development, incorporando escenarios BDD basados en historias de usuario y criterios de aceptación del proyecto. </td>
+    </tr>
+    <tr>
+      <td>2.7 (TP)</td>
+      <td>11/05/2026</td>
+      <td>Tumi Oliden, Manuel Ignacio</td>
+      <td>Desarrollo de la sección 6.1.3. Core Behavior-Driven Development, incorporando escenarios BDD basados en historias de usuario y criterios de aceptación del proyecto.</td>
+    </tr>
   </tbody>
 </table>
 
@@ -117,7 +159,7 @@
 
 # Project Report Collaboration Insights
 
-Repositorio donde se encuentra el **Project Report**: [https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/PFLAVOR-Report.git](https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/PFLAVOR-Report.git)
+Repositorio donde se encuentra el **Project Report**: [https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/MOVEO-Report.git](https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/MOVEO-Report.git)
 
 Utilizamos Google Docs como herramienta colaborativa para redactar el informe y luego trasladamos la información al archivo README.md de nuestro repositorio. 
 
