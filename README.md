@@ -1601,12 +1601,6 @@ Los mock-ups son la versión visual final de la landing page, con colores, tipog
 
 ---
 
-#### Services
-![services](Assets/chapter-4/services.png)  
-*Iconos personalizados, colores por categoría, animaciones de entrada suaves. Cada servicio tiene un tono visual que refuerza su propósito (ej. verde para “seguro”, azul para “aventuras”).*
-
----
-
 #### Moveo Services — Learn More
 ![moveo services learn more](Assets/chapter-4/moveo.png)  
 *Sección con fondo dividido, ilustración a la izquierda y texto a la derecha. Botones con estados hover y focus definidos. Microcopy persuasivo y claro.*
@@ -2197,11 +2191,17 @@ Durante el presente Sprint, las actividades de implementación se llevaron a cab
 
 A continuación, se presentan las capturas de los analíticos de colaboración y el registro de commits extraídos de GitHub:
 
+<img src="https://i.imgur.com/PsemYlE.png" alt="Evidencia de Commits 1" width="80%"><br><br>
+<img src="https://i.imgur.com/iw9qoA8.png" alt="Evidencia de Commits 2" width="80%"><br><br>
+<img src="https://i.imgur.com/CDxDBnU.png" alt="Gráfico de Insights" width="80%">
 
 ### 5.3. Video About-the-Product
 
 En esta sección, se presenta una introducción de la plataforma PointFlavor, destacando sus características clave y cómo la app web conecta a los usuarios con huariques locales, ofreciendo una experiencia única para descubrir y apoyar pequeños negocios de comida tradicional. A través de este video, se busca mostrar de manera visual y atractiva cómo la aplicación facilita tanto a usuarios como a dueños de huariques la interacción y gestión de este valioso ecosistema gastronómico.
 
+<p align="center">
+  <img src="assets/Chapter-5/bout the product moveo.png" alt="moveo_product"/>
+</p>
 
 Duración: 1:05
 Enlace a Microsoft Stream: [VIDEO ABOUT THE PRODUCT.mp4 ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/IQDsa8mQseqyS5hASHUOF2etATteMgp7d6JY2BW7lKFNwJQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=in1oh2)
