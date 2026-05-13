@@ -1307,7 +1307,7 @@ El Product Backlog está ordenado según el **valor para el negocio**, priorizan
 
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines.
-En esta sección se define un repositorio centralizado y debidamente organizado para el uso de todo el equipo, el cual incluye recursos como assets, tipografías y demás elementos necesarios. Su finalidad es asegurar una presentación coherente, estandarizada y alineada en todo el proyecto.
+En esta sección se define un repositorio centralizado y debidamente organizado para el uso de todo el equipo, el cual incluye recursos como /assets, tipografías y demás elementos necesarios. Su finalidad es asegurar una presentación coherente, estandarizada y alineada en todo el proyecto.
 
 ### 4.1.1. General Style Guidelines.
 Buscamos transmitir confianza, accesibilidad y modernidad. Para reflejar la idea de compartir vehículos de manera segura y práctica, integramos un logo en el que un automóvil  se ubica frente a una casa , ambos unidos por un pin que simboliza ubicación y conexión. El branding se construye sobre la base de:
@@ -1319,7 +1319,7 @@ Buscamos transmitir confianza, accesibilidad y modernidad. Para reflejar la idea
 Queremos transmitir una imagen de confianza, seguridad y tranquilidad al usuario a través de este diseño, utilizando un logotipo principalmente verde y crema para reforzar el concepto.
 
 <p align="center">
-<img src="assets/chapter-4/Logo.png" alt="Moveo_Logo" height="500"/>
+<img src="/assets/chapter-4/Logo.png" alt="Moveo_Logo" height="500"/>
 </p>
 
 
@@ -1330,20 +1330,20 @@ La tipografía debe transmitir claridad, calidez y profesionalismo. Por esa raz�
 En este caso se usará **Poppins** para titulos y/o subtitulos e **Inter** para texto y/o subtexto.
 
 <p align="center">
-<img src="assets/chapter-4/Typography.png" alt="Moveo_Typo"/>
+<img src="/assets/chapter-4/Typography.png" alt="Moveo_Typo"/>
 </p>
 
-![tipografia usada](assets/chapter-4/typografia.png)
+![tipografia usada](/assets/chapter-4/typografia.png)
 
 #### Colors
 
 Elegimos los siguientes colores buscando plasmar una paleta que influya seguridad y profesionalismo:
 
 <p align="center">
-<img src="assets/chapter-4/Color.png" alt="Moveo_Colors"/>
+<img src="/assets/chapter-4/Color.png" alt="Moveo_Colors"/>
 </p>
 
-![Colores usados](assets/chapter-4/Colores.png)
+![Colores usados](/assets/chapter-4/Colores.png)
 
 
 #### Spacing
@@ -1387,7 +1387,7 @@ Nuestro propósito es garantizar una experiencia de usuario coherente y sin fric
 Si bien ambos acceden a las mismas secciones, la diferencia radica en los niveles de permiso. Los dueños pueden prestar el transporte, ofrecer rutas de aventuras y prestar servicios adicionales, mientras que los inquilinos cuentan únicamente con acceso a la visualización de autos, aventuras y servicios disponibles, además de la posibilidad de filtrar por locación, fecha y/o cantidad de personas.
 
 <p align="center">
-<img src="assets/chapter-4/Diagrama.png" alt="Moveo_Diagram"/>
+<img src="/assets/chapter-4/Diagrama.png" alt="Moveo_Diagram"/>
 </p>
 
 Como se ve en el diagrama, se sigue un proceso estructurado para facilitar la gestión de la salud de los pacientes, permitiendo la interacción entre médicos y familiares. Aquí explicamos cada etapa del proceso y las funciones disponibles:
@@ -1533,43 +1533,43 @@ Los wireframes representan la estructura básica y funcional de la landing page 
 ---
 
 #### Header y Hero
-![header y hero](assets/chapter-4/wire-header-hero.png)  
+![header y hero](/assets/chapter-4/wire-header-hero.png)  
 *Define la primera impresión del usuario: logo, menú de navegación, llamado a acción principal (“Alquila tu auto” o “Encuentra tu viaje”) y espacio para imagen/video hero. Diseñado para captar atención en menos de 3 segundos.*
 
 ---
 
 #### What is Moveo
-![what is moveo](assets/chapter-4/wire-whatismoveo.png)  
+![what is moveo](/assets/chapter-4/wire-whatismoveo.png)  
 *Sección explicativa que comunica el valor central de Moveo: conectar propietarios e inquilinos con confianza, transparencia y tecnología. Incluye iconografía simple y bullets de beneficios.*
 
 ---
 
 #### Team Members
-![Tema members](assets/chapter-4/wire-team.png)  
+![Tema members](/assets/chapter-4/wire-team.png)  
 *Muestra al equipo fundador o clave. Construye confianza y humaniza la marca. Cada tarjeta incluye foto, nombre, rol y redes sociales.*
 
 ---
 
 #### Services
-![services](assets/chapter-4/wire-services.png)  
+![services](/assets/chapter-4/wire-services.png)  
 *Presenta los servicios principales: alquiler de autos, aventuras guiadas, seguros integrados. Usa tarjetas modulares con ícono, título y descripción corta.*
 
 ---
 
 #### Moveo Services — Learn More
-![moveo services learn more](assets/chapter-4/wire-services.png)  
+![moveo services learn more](/assets/chapter-4/wire-services.png)  
 *Sección de profundización: explica cómo funciona la plataforma, pasos para alquilar o listar un auto, y garantías de seguridad. Incluye botones de CTA secundarios.*
 
 ---
 
 #### Impacto de Moveo
-![Impacto de moveo](assets/chapter-4/wire-impact.png)  
+![Impacto de moveo](/assets/chapter-4/wire-impact.png)  
 *Visualiza métricas de impacto: “+500 autos listados”, “+2000 viajes realizados”, “98% de satisfacción”. Refuerza credibilidad y escala.*
 
 ---
 
 #### Footer
-![Footer](assets/chapter-4/wire-questions.png)  
+![Footer](/assets/chapter-4/wire-questions.png)  
 *Contiene enlaces legales, contacto, redes sociales, newsletter y logos de partners o certificaciones. Es la base de confianza y cierre de la página.*
 
 ---
@@ -1584,37 +1584,37 @@ Los mock-ups son la versión visual final de la landing page, con colores, tipog
 ---
 
 #### Header y Hero
-![header y hero](assets/chapter-4/header%20y%20hero.png)  
+![header y hero](/assets/chapter-4/header%20y%20hero.png)  
 *Hero impactante con fondo dinámico (auto en movimiento), tipografía bold, botón principal con sombra y hover effect. Transmite energía, libertad y confianza.*
 
 ---
 
 #### What is Moveo
-![what is moveo](assets/chapter-4/what%20is%20Moveo.png)  
+![what is moveo](/assets/chapter-4/what%20is%20Moveo.png)  
 *Diseño limpio con ilustraciones vectoriales, gradientes suaves y cards con sombras sutiles. Comunica profesionalismo y cercanía.*
 
 ---
 
 #### Team Members
-![Tema members](assets/chapter-4/teammember.png)  
+![Tema members](/assets/chapter-4/teammember.png)  
 *Fotos profesionales con fondo desenfocado, bordes redondeados, hover con redes sociales. Genera empatía y confianza institucional.*
 
 ---
 
 #### Moveo Services — Learn More
-![moveo services learn more](assets/chapter-4/moveo.png)  
+![moveo services learn more](/assets/chapter-4/moveo.png)  
 *Sección con fondo dividido, ilustración a la izquierda y texto a la derecha. Botones con estados hover y focus definidos. Microcopy persuasivo y claro.*
 
 ---
 
 #### Impacto de Moveo
-![Impacto de moveo](assets/chapter-4/impacto.png)  
+![Impacto de moveo](/assets/chapter-4/impacto.png)  
 *Números grandes en negrita, íconos animados al scroll, fondo con textura sutil. Diseñado para generar asombro y validación social.*
 
 ---
 
 #### Footer
-![Footer](assets/chapter-4/footer.png)  
+![Footer](/assets/chapter-4/footer.png)  
 *Fondo oscuro, texto claro, separadores sutiles. Incluye logo pequeño, links organizados en columnas, formulario de newsletter con validación visual y redes con íconos hover.*
 
 ---
@@ -1624,12 +1624,12 @@ Los mock-ups son la versión visual final de la landing page, con colores, tipog
 ### 4.4.1. Web Applications Wireframes
 
 <p align="center">
-  <img src="assets/chapter-4/App_wireframe_1.png" alt="app_wireframes_1"/>
+  <img src="/assets/chapter-4/App_wireframe_1.png" alt="app_wireframes_1"/>
 </p>
 *Wireframe de la pantalla principal de la app: feed de autos disponibles, filtros superiores (ubicación, fechas, tipo de auto), barra de navegación inferior. Enfoque en funcionalidad y flujo de búsqueda.*
 
 <p align="center">
-  <img src="assets/chapter-4/App_wireframe_2.png" alt="app_wireframes_2"/>
+  <img src="/assets/chapter-4/App_wireframe_2.png" alt="app_wireframes_2"/>
 </p>
 *Wireframe del perfil de usuario y detalle de auto: información del dueño, fotos, reseñas, botón de reserva, sección de preguntas frecuentes. Define la estructura de toma de decisión.*
 
@@ -1638,7 +1638,7 @@ Los mock-ups son la versión visual final de la landing page, con colores, tipog
 ### 4.4.2. Web Applications Wireflow Diagrams
 
 <p align="center">
-  <img src="assets/chapter-4/moveo_wireflow.jpg" alt="app_wireflow"/>
+  <img src="/assets/chapter-4/moveo_wireflow.jpg" alt="app_wireflow"/>
 </p>
 *Mapa visual del flujo completo del usuario: desde el onboarding → búsqueda → reserva → pago → entrega → calificación. Identifica puntos críticos y oportunidades de mejora en la experiencia.*
 
@@ -1647,7 +1647,7 @@ Los mock-ups son la versión visual final de la landing page, con colores, tipog
 ### 4.4.3. Web Applications Mock-ups
 
 <p align="center">
-  <img src="assets/chapter-4/Moveo App Mockup.png" alt="app_mockup"/>
+  <img src="/assets/chapter-4/Moveo App Mockup.png" alt="app_mockup"/>
 </p>
 *Diseño visual final de la aplicación móvil. Paleta de colores vibrante pero profesional, tipografía legible, componentes con estados interactivos (presionado, cargando, error). Refleja la identidad de marca en cada pantalla.*
 
@@ -1656,7 +1656,7 @@ Los mock-ups son la versión visual final de la landing page, con colores, tipog
 ### 4.4.4. Web Applications User Flow Diagrams
 
 <p align="center">
-  <img src="assets/chapter-4/user_flow_diagram.jpg" alt="userflow"/>
+  <img src="/assets/chapter-4/user_flow_diagram.jpg" alt="userflow"/>
 </p>
 *Diagrama detallado de los caminos que sigue un usuario para completar tareas clave: “Reservar un auto en 3 clics”, “Publicar mi auto en 5 pasos”, “Dejar una reseña”. Sirve para validar usabilidad y eliminar fricciones.*
 
@@ -1665,7 +1665,7 @@ Los mock-ups son la versión visual final de la landing page, con colores, tipog
 ## 4.5. Web Applications Prototyping
 
 <p align="center">
-  <img src="assets/chapter-4/protoype_moveo.png" alt="prototype"/>
+  <img src="/assets/chapter-4/protoype_moveo.png" alt="prototype"/>
 </p>
 *Prototipo interactivo de alta fidelidad. Permite simular la navegación real entre pantallas, probar transiciones, microinteracciones y flujos completos. Herramienta esencial para pruebas de usabilidad con usuarios reales antes del desarrollo.*
 
@@ -1679,7 +1679,7 @@ Los mock-ups son la versión visual final de la landing page, con colores, tipog
 ### 4.6.1. Software Architecture Context Diagram
 
 <p align="center">
-  <img src="assets/chapter-4/moveo_context.png" alt="moveo_context_diagram"/>
+  <img src="/assets/chapter-4/moveo_context.png" alt="moveo_context_diagram"/>
 </p>
 *Diagrama de contexto que muestra cómo Moveo se relaciona con actores externos: usuarios (propietarios e inquilinos), sistemas de pago (Yape, Plin), servicios de geolocalización, y notificaciones push. Define los límites del sistema.*
 
@@ -1688,7 +1688,7 @@ Los mock-ups son la versión visual final de la landing page, con colores, tipog
 ### 4.6.2. Software Architecture Container Diagrams
 
 <p align="center">
-  <img src="assets/chapter-4/moveo_container.png" alt="moveo_container_diagram"/>
+  <img src="/assets/chapter-4/moveo_container.png" alt="moveo_container_diagram"/>
 </p>
 *Desglosa la arquitectura en contenedores: frontend (React), backend (.net), base de datos (PostgreSQL), almacenamiento de archivos (AWS S3), y servicios externos (Firebase Auth, Cloudinary). Muestra cómo se comunican entre sí.*
 
@@ -1698,31 +1698,31 @@ Los mock-ups son la versión visual final de la landing page, con colores, tipog
 
 **UserBC (User Bounded Context):**
 <p align="center">
-  <img src="assets/chapter-4/userBC.png" alt="userBC"/>
+  <img src="/assets/chapter-4/userBC.png" alt="userBC"/>
 </p>
 *Gestiona autenticación, autorización y perfiles de usuario. Componentes clave: AuthService, UserService, RoleManager.*
 
 **ProfileBC (Profile Bounded Context):**
 <p align="center">
-  <img src="assets/chapter-4/profileBC.png" alt="profileBC"/>
+  <img src="/assets/chapter-4/profileBC.png" alt="profileBC"/>
 </p>
 *Maneja la información detallada del usuario: documentos subidos, historial de alquileres, reputación, preferencias. Componentes: ProfileService, DocumentValidator, ReputationEngine.*
 
 **CarRentBC (Car Rental Bounded Context):**
 <p align="center">
-  <img src="assets/chapter-4/carBC.png" alt="CarRentBC"/>
+  <img src="/assets/chapter-4/carBC.png" alt="CarRentBC"/>
 </p>
 *Core del negocio: listado de autos, reservas, pagos, contratos digitales. Componentes: CarListingService, BookingManager, PaymentGateway, ContractGenerator.*
 
 **AdventureBC (Adventure Bounded Context):**
 <p align="center">
-  <img src="assets/chapter-4/adventureBC.png" alt="adventureBC"/>
+  <img src="/assets/chapter-4/adventureBC.png" alt="adventureBC"/>
 </p>
 *Opcional: gestiona paquetes de “aventuras” (rutas turísticas, guías, seguros especiales). Componentes: AdventureCatalog, RoutePlanner, GuideMatcher.*
 
 **ServiceBC (Service Bounded Context):**
 <p align="center">
-  <img src="assets/chapter-4/serviceBC.png" alt="serviceBC"/>
+  <img src="/assets/chapter-4/serviceBC.png" alt="serviceBC"/>
 </p>
 *Maneja servicios transversales: notificaciones, alertas, soporte, reportes. Componentes: NotificationService, AlertEngine, SupportTicketSystem.*
 
@@ -1733,7 +1733,7 @@ Los mock-ups son la versión visual final de la landing page, con colores, tipog
 ### 4.7.1. Class Diagrams
 
 <p align="center">
-  <img src="assets/chapter-4/moveo_class.png" alt="moveo_class_diagram"/>
+  <img src="/assets/chapter-4/moveo_class.png" alt="moveo_class_diagram"/>
 </p>
 *Diagrama UML que modela las clases principales del sistema: User, Car, Booking, Payment, Review, Document, etc. Muestra atributos, métodos, relaciones (herencia, asociación, agregación) y responsabilidades. Base para el desarrollo orientado a objetos.*
 
@@ -1744,7 +1744,7 @@ Los mock-ups son la versión visual final de la landing page, con colores, tipog
 ### 4.8.1. Database Diagram
 
 <p align="center">
-  <img src="assets/chapter-4/move_db.png" alt="moveo_database_diagram"/>
+  <img src="/assets/chapter-4/move_db.png" alt="moveo_database_diagram"/>
 </p>
 *Modelo entidad-relación (ERD) de la base de datos. Tablas principales: users, cars, bookings, payments, reviews, documents, notifications. Muestra claves primarias, foráneas, índices y relaciones (1:1, 1:N, N:M). Optimizado para consultas de reserva, reputación y reportes.*
 
@@ -2200,7 +2200,7 @@ A continuación, se presentan las capturas de los analíticos de colaboración y
 En esta sección, se presenta una introducción de la plataforma PointFlavor, destacando sus características clave y cómo la app web conecta a los usuarios con huariques locales, ofreciendo una experiencia única para descubrir y apoyar pequeños negocios de comida tradicional. A través de este video, se busca mostrar de manera visual y atractiva cómo la aplicación facilita tanto a usuarios como a dueños de huariques la interacción y gestión de este valioso ecosistema gastronómico.
 
 <p align="center">
-  <img src="assets/Chapter-5/bout the product moveo.png" alt="moveo_product"/>
+  <img src="/assets/Chapter-5/bout the product moveo.png" alt="moveo_product"/>
 </p>
 
 Duración: 1:05
