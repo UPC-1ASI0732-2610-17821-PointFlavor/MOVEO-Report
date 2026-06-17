@@ -152,6 +152,18 @@
       <td>Tumi Oliden, Manuel Ignacio</td>
       <td>Desarrollo de la sección 6.1.3. Core Behavior-Driven Development, incorporando escenarios BDD basados en historias de usuario y criterios de aceptación del proyecto.</td>
     </tr>
+    <tr>
+      <td>3.0 (AV3)</td>
+      <td>16/06/2026</td>
+      <td>Tumi Oliden, Manuel Ignacio</td>
+      <td>Elaboración de la sección 6.4.1. Auditoría realizada, incluyendo la información del grupo auditado, el cronograma y el contenido de la auditoría de experiencias de usuario.</td>
+    </tr>
+    <tr>
+      <td>3.1 (AV3)</td>
+      <td>17/06/2026</td>
+      <td>Tumi Oliden, Manuel Ignacio</td>
+      <td>Elaboración de la sección 6.4.2. Auditoría recibida, incluyendo la información del grupo auditor, el cronograma, el contenido de la auditoría y el resumen de modificaciones para subsanar los hallazgos.</td>
+    </tr>
   </tbody>
 </table>
 
@@ -334,6 +346,16 @@ A continuación, se adjuntan las evidencias del trabajo colaborativo, incluyendo
     - [Payment](#payment-1)
       - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)
       - [6.1.4. Core System Tests.](#614-core-system-tests)
+    - [6.4. Auditoría de Experiencias de Usuario.](#64-auditoría-de-experiencias-de-usuario)
+      - [6.4.1. Auditoría realizada.](#641-auditoría-realizada)
+        - [6.4.1.1. Información del grupo auditado.](#6411-información-del-grupo-auditado)
+        - [6.4.1.2. Cronograma de auditoría realizada.](#6412-cronograma-de-auditoría-realizada)
+        - [6.4.1.3. Contenido de auditoría realizada.](#6413-contenido-de-auditoría-realizada)
+      - [6.4.2. Auditoría recibida.](#642-auditoría-recibida)
+        - [6.4.2.1. Información del grupo auditor](#6421-información-del-grupo-auditor)
+        - [6.4.2.2. Cronograma de auditoría recibida.](#6422-cronograma-de-auditoría-recibida)
+        - [6.4.2.3. Contenido de auditoría recibida.](#6423-contenido-de-auditoría-recibida)
+        - [6.4.2.4. Resumen de modificaciones para subsanar hallazgos.](#6424-resumen-de-modificaciones-para-subsanar-hallazgos)
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
@@ -2639,6 +2661,511 @@ Levantan la aplicación completa con una base de datos en memoria (InMemoryDatab
 ![imagen4](https://i.imgur.com/mzbWawS.png)
 
 ![imagen5](https://i.imgur.com/W0dGjoA.png)
+
+## **6.4. Auditoría de Experiencias de Usuario.**
+
+### **6.4.1. Auditoría realizada.**
+
+#### **6.4.1.1. Información del grupo auditado.**
+
+| Nombre Startup Auditado: SoftFocus |
+| :---: |
+
+| Nombres y Apellidos | Código de alumno |
+| :---- | :---- |
+| Gutierrez Condo,Mayhly Olinda | 202311220 |
+| Roca Tineo,Steven Mathew | 202311361 |
+| Gomez Flores,Daniela Araceli | 202311184 |
+| Luyo Correa,Sandra Paula | 202311361 |
+| Solis Santa Cruz,Giancarlo Rafael | 202318615 |
+
+#### **6.4.1.2. Cronograma de auditoría realizada.**
+
+| Actividad de auditoría recibida | Fecha | Hora | Realizado por |
+| :---- | :---: | :---: | :---- |
+| Recepción de solicitud de información y artefactos (APK) | 11/06/2026 |  | Manuel (Evaluador) |
+| Instalación del APK en emulador Android Studio | 14/06/2026 |  | Manuel (Evaluador) |
+| Ejecución de la auditoría — Rol Usuario | 15/06/2026 |  | Manuel (Evaluador) |
+| Ejecución de la auditoría — Rol Psicólogo | 15/06/2026 |  | Manuel (Evaluador) |
+| Recepción del informe de auditoría | 16/06/2026 |  | Manuel (Evaluador) |
+
+#### **6.4.1.3. Contenido de auditoría realizada.**
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+| Nivel | Descripción |
+| :---: | :---- |
+| 1 | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2 | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4 | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+| \# | Problema | Escala de Severidad | Heurística / Principio violado |
+| :---: | :---- | :---: | :---- |
+| 1 | El sistema muestra mensajes de error técnicos incomprensibles en el login | 4 | Usabilidad – Lenguaje del usuario |
+| 2 | El perfil del psicólogo muestra múltiples campos con "No especificado" | 3 | Usabilidad – Visibilidad del estado del sistema |
+| 3 | La pantalla de inicio no facilita el acceso rápido a las funciones principales | 2 | Usabilidad – Eficiencia de uso |
+| 4 | La pestaña "Clima" en la Biblioteca está desvinculada del propósito de la app | 2 | Usabilidad – Consistencia y estándares |
+| 5 | Los documentos cargados por el psicólogo no son verificados por la plataforma | 4 | Usabilidad – Prevención de errores |
+| 6 | El saludo en la pantalla de inicio del psicólogo aparece incompleto | 3 | Usabilidad – Visibilidad del estado del sistema |
+| 7 | Los mensajes de estado vacío en Alertas son genéricos e imprecisos | 2 | Usabilidad – Lenguaje del usuario |
+| 8 | La solicitud de permisos se realiza de forma agrupada sin opción granular | 3 | Usabilidad – Control y libertad del usuario |
+| 9 | Mensaje en inglés en una aplicación completamente en español | 2 | Usabilidad – Consistencia y estándares |
+| 10 | La biblioteca del psicólogo no ofrece contenido diferenciado ni recursos profesionales | 2 | Usabilidad – Adecuación al usuario |
+| 11 | El toggle para elegir tipo de cuenta en el registro tiene baja visibilidad | 2 | Usabilidad – Reconocimiento antes que recuerdo |
+| 12 | Error HTTP 400 también aparece en el formulario de registro del psicólogo | 4 | Usabilidad – Lenguaje del usuario |
+
+**PROBLEMA \#1: El sistema muestra mensajes de error técnicos incomprensibles en el login**
+
+**Severidad:** 4
+
+**Heurística violada:** Usabilidad – Lenguaje del usuario
+
+**Problema:** Al intentar iniciar sesión con credenciales incorrectas, la aplicación muestra directamente el mensaje "HTTP 400 Bad Request" debajo del botón de login. Este mensaje corresponde al protocolo HTTP y carece de significado para un usuario sin conocimientos técnicos, generando confusión e inseguridad sobre qué acción correctiva tomar. Adicionalmente, el botón "Iniciar Sesión" aparece deshabilitado y en gris cuando los campos están vacíos, sin comunicar visualmente el motivo.
+
+**Capturas de referencia:**
+
+![][image1]
+
+![][image2]
+
+**Recomendación:** Reemplazar los mensajes de error técnicos por mensajes en lenguaje natural y empático, tales como "El usuario o contraseña son incorrectos. Por favor, inténtalo de nuevo." Implementar un sistema centralizado de manejo de errores que traduzca todos los códigos HTTP a mensajes comprensibles para el usuario final.
+
+**PROBLEMA \#2: El perfil del psicólogo muestra múltiples campos con "No especificado"**
+
+**Severidad:** 3
+
+**Heurística violada:** Usabilidad – Visibilidad del estado del sistema
+
+**Problema:** Al ingresar al detalle de un psicólogo desde la búsqueda, campos relevantes como Universidad, Grado, Año de graduación, Número de colegiatura y Registro aparecen con el texto "No especificado". En una aplicación de salud mental donde la credibilidad del profesional es fundamental, mostrar información vacía reduce significativamente la confianza y la percepción de profesionalismo de la plataforma.
+
+**Capturas de referencia:**
+
+![][image3]
+
+![][image4]
+
+**Recomendación:** Implementar validación obligatoria de campos clave (universidad, grado, número de colegiatura) antes de que el perfil del psicólogo sea visible para los usuarios. Alternativamente, ocultar los campos vacíos en la vista del usuario. Añadir un indicador de porcentaje de completitud del perfil visible solo para el psicólogo.
+
+**PROBLEMA \#3: La pantalla de inicio no facilita el acceso rápido a las funciones principales**
+
+**Severidad:** 2
+
+**Heurística violada:** Usabilidad – Eficiencia de uso
+
+**Problema:** La pantalla de inicio presenta únicamente el saludo personalizado, un widget para registrar el estado de ánimo y una sección de recomendaciones. Cuando no hay recomendaciones disponibles (caso del usuario nuevo), esta sección aparece vacía con el texto "No hay recomendaciones disponibles", dejando un área visualmente desaprovechada. Las funciones de mayor valor como el chat con IA, el diario emocional o la búsqueda de psicólogos solo son accesibles desde la barra de navegación inferior.
+
+**Capturas de referencia:**
+
+![][image5]
+
+**Recomendación:** Añadir una sección de accesos rápidos en la pantalla de inicio o reemplazar el espacio de recomendaciones vacías con tarjetas de onboarding que guíen al nuevo usuario hacia las funciones principales de la app, como "Hablar con Focus", "Buscar psicólogo" y "Ver mi diario".
+
+**PROBLEMA \#4: La pestaña "Clima" en la Biblioteca está desvinculada del propósito de la app**
+
+**Severidad:** 2
+
+**Heurística violada:** Usabilidad – Consistencia y estándares
+
+**Problema:** La sección Biblioteca agrupa contenido relacionado con el bienestar emocional (películas, música, videos de meditación). Sin embargo, incluye una pestaña "Clima" que muestra el estado del tiempo actual con una sugerencia de actividad física. Su inclusión dentro de la Biblioteca resulta inesperada y fuera del contexto de una biblioteca de contenido terapéutico, generando inconsistencia en la arquitectura de información.
+
+**Capturas de referencia:**
+
+![][image6]
+
+**Recomendación:** Reubicar la información climática en la pantalla de inicio como un elemento contextual del estado de ánimo diario, o integrarla como factor ambiental opcional dentro del flujo de registro emocional. Esto mantiene la coherencia temática de la Biblioteca y hace un uso más significativo de los datos del clima.
+
+**PROBLEMA \#5: Los documentos cargados por el psicólogo no son verificados por la plataforma**
+
+**Severidad:** 4
+
+**Heurística violada:** Usabilidad – Prevención de errores
+
+**Problema:** Al registrarse como psicólogo, la aplicación solicita cargar cuatro documentos: Licencia, Diploma, DNI y Certificaciones. Sin embargo, el sistema acepta cualquier archivo sin realizar ningún tipo de validación sobre su contenido o autenticidad. No existe un estado de "pendiente de revisión" ni un proceso de aprobación antes de que el perfil del psicólogo quede activo y visible para los usuarios. Esto representa un riesgo crítico de seguridad en una aplicación de salud mental, ya que cualquier persona podría registrarse como psicólogo sin serlo, exponiendo a usuarios vulnerables.
+
+**Capturas de referencia:**
+
+![][image7]
+
+**Recomendación:** Implementar un flujo de aprobación donde los documentos sean revisados por el equipo de SoftFocus antes de activar el perfil. Mostrar al psicólogo un estado "En revisión tu perfil estará activo en 24-48 horas" mientras se verifica. Mostrar un badge "✓ Verificado por SoftFocus" en los perfiles aprobados para generar confianza en los usuarios.
+
+**PROBLEMA \#6: El saludo en la pantalla de inicio del psicólogo aparece incompleto**
+
+**Severidad:** 3
+
+**Heurística violada:** Usabilidad – Visibilidad del estado del sistema
+
+**Problema:** La pantalla de inicio del rol psicólogo muestra el saludo "Hola Dra. ," con una coma al final y sin nombre. Esto indica que el campo de nombre del psicólogo no está siendo recuperado correctamente desde el perfil post-registro, generando un mensaje incompleto y poco profesional en la pantalla principal de la aplicación.
+
+**Capturas de referencia:**
+
+![][image8]
+
+**Recomendación:** Verificar que el campo de nombre del psicólogo se recupere correctamente tras completar el registro. Añadir un valor de fallback como "Hola, Doctora" en caso de que el nombre no esté disponible temporalmente. Implementar pruebas de integración que validen la correcta carga del perfil en el home tras el registro.
+
+**PROBLEMA \#7: Los mensajes de estado vacío en Alertas son genéricos e imprecisos**
+
+**Severidad:** 2
+
+**Heurística violada:** Usabilidad – Lenguaje del usuario
+
+**Problema:** La sección de Alertas muestra el mismo mensaje "No hay alertas de crisis" acompañado de un ícono de advertencia en todas las pestañas (Todas, Críticas, Altas, Moderadas) cuando no hay alertas. En las pestañas "Altas" y "Moderadas", este mensaje es semánticamente incorrecto pues no todas esas categorías corresponden a "crisis". Adicionalmente, el ícono de alerta genera innecesariamente una sensación de urgencia cuando la situación es positiva.
+
+**Capturas de referencia:**
+
+![][image9]
+
+![][image10]
+
+![][image11]
+
+**Recomendación:** Personalizar el mensaje de estado vacío por pestaña: "No hay alertas críticas" en Críticas, "No hay alertas altas" en Altas, y así sucesivamente. Reemplazar el ícono de advertencia por uno neutral o positivo cuando no hay alertas activas, para comunicar claramente que la situación es normal.
+
+**PROBLEMA \#8: La solicitud de permisos se realiza de forma agrupada sin opción granular**
+
+**Severidad:** 3
+
+**Heurística violada:** Usabilidad – Control y libertad del usuario
+
+**Problema:** Tras el registro, la aplicación presenta una pantalla que solicita acceso a Ubicación, Cámara y Fotos/Medios de forma conjunta con un único botón "Permitir acceso". No existe la opción de conceder permisos de forma individual. Esta práctica va en contra de las recomendaciones de privacidad de Android y puede generar desconfianza en usuarios preocupados por su privacidad, especialmente en una app de salud mental que maneja datos sensibles.
+
+**Capturas de referencia:**
+
+![][image12]
+
+**Recomendación:** Solicitar cada permiso de forma individual y en el momento en que la funcionalidad lo requiera. Por ejemplo, solicitar acceso a cámara solo cuando el usuario intente usar el análisis facial de emociones. Esto sigue las guías de privacidad de Android y aumenta la confianza del usuario.
+
+**PROBLEMA \#9: Mensaje en inglés en una aplicación completamente en español**
+
+**Severidad:** 2
+
+**Heurística violada:** Usabilidad – Consistencia y estándares
+
+**Problema:** En la pantalla de inicio, dentro de la tarjeta de recomendaciones emocionales, aparece el mensaje "Your emotional levels have been lower than usual. Consider reaching out for support." en inglés, mientras que toda la interfaz de SoftFocus está en español. Esta mezcla de idiomas rompe la consistencia del lenguaje de la aplicación y puede generar confusión en usuarios que no manejen el inglés.
+
+**Capturas de referencia:**
+
+![][image13]
+
+**Recomendación:** Traducir todos los mensajes de la aplicación al español, incluyendo los generados dinámicamente por el sistema de recomendaciones. Implementar un sistema de internacionalización (i18n) que garantice consistencia de idioma en toda la app y permita agregar otros idiomas en el futuro.
+
+**PROBLEMA \#10: La biblioteca del psicólogo no ofrece contenido diferenciado ni recursos profesionales**
+
+**Severidad:** 2
+
+**Heurística violada:** Usabilidad – Adecuación al usuario
+
+**Problema:** La Biblioteca del rol psicólogo muestra el mismo contenido que la del paciente (películas, música, videos), sin recursos profesionales diferenciados. El contenido incluye películas como "Hiroshima" o documentales de tragedias históricas etiquetados como "Calmado", lo cual resulta cuestionable como recomendación dentro de una plataforma de salud mental. Un psicólogo necesita recursos distintos a los de un paciente para llevar a cabo su práctica profesional.
+
+**Capturas de referencia:**
+
+![][image14]
+
+**Recomendación:** Diferenciar la Biblioteca según el rol del usuario. Para el psicólogo, incluir recursos profesionales como artículos académicos, guías de técnicas terapéuticas o materiales asignables a pacientes. Revisar el etiquetado emocional del contenido para garantizar su pertinencia terapéutica.
+
+**PROBLEMA \#11: El toggle para elegir tipo de cuenta en el registro tiene baja visibilidad**
+
+**Severidad:** 2
+
+**Heurística violada:** Usabilidad – Reconocimiento antes que recuerdo
+
+**Problema:** El formulario de registro incluye un toggle para seleccionar entre cuenta "General" y "Psicólogo". Este control de tipo switch puede pasar desapercibido fácilmente entre los demás campos del formulario, y su estado por defecto no comunica claramente la distinción entre ambos tipos de cuenta. Usuarios que deseen registrarse como psicólogos podrían completar el proceso con el tipo incorrecto sin darse cuenta.
+
+**Capturas de referencia:**
+
+![][image15]
+
+**Recomendación:** Reemplazar el toggle por dos botones o tarjetas claramente diferenciados visualmente (ej. "Soy Paciente" / "Soy Psicólogo") con íconos representativos. Esto hace la selección más evidente y reduce el riesgo de error en el registro.
+
+**PROBLEMA \#12: Error HTTP 400 también aparece en el formulario de registro del psicólogo**
+
+**Severidad:** 4
+
+**Heurística violada:** Usabilidad – Lenguaje del usuario
+
+**Problema:** Al igual que en el login del usuario general, el formulario de registro del psicólogo muestra "HTTP 400 Bad Request" directamente en la interfaz cuando el registro falla. Este comportamiento confirma que el manejo de errores HTTP es un problema transversal de toda la aplicación que afecta tanto al flujo del usuario como al del psicólogo. El psicólogo no comprende qué campo está incorrecto ni qué acción debe tomar para completar el registro exitosamente.
+
+**Capturas de referencia:**
+
+![][image16]
+
+**Recomendación:** Implementar un sistema centralizado de manejo de errores que traduzca los códigos HTTP a mensajes comprensibles y específicos por campo (ej. "El número de colegiatura ya está registrado" o "El correo electrónico ingresado ya tiene una cuenta"). Este sistema debe aplicarse de forma consistente en todos los flujos de la aplicación.
+
+### **6.4.2. Auditoría recibida.**
+
+#### **6.4.2.1. Información del grupo auditor**
+
+| Nombre Startup Auditor: *Softfocus* |
+| :---- |
+
+| Nombres y Apellidos | Código de alumno |
+| :---- | :---- |
+| Gutierrez Condo,Mayhly Olinda | 202311220 |
+| Roca Tineo,Steven Mathew | 202311361 |
+| Gomez Flores,Daniela Araceli | 202311184 |
+| Luyo Correa,Sandra Paula | 202311361 |
+| Solis Santa Cruz,Giancarlo Rafael | 202318615 |
+
+#### **6.4.2.2. Cronograma de auditoría recibida.** 
+
+| Actividad de auditoría recibida  | Fecha | Hora  | Realizado por  |
+| :---- | :---- | :---- | ----- |
+| Recepción de solicitud de información y artefactos  | 14/06/2026  |  | Gómez Flores, Daniela Araceli |
+| Envío de información y artefactos  | 15/06/2026  |  | Gómez Flores, Daniela Araceli |
+| Ejecución de la auditoría heurística  | 16/06/2026  |  | Gómez Flores, Daniela Araceli |
+| Recepción del informe de auditoría  | 16/06/2026  |  | Gómez Flores, Daniela Araceli |
+
+#### **6.4.2.3. Contenido de auditoría recibida.**
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+| Nivel | Descripción |
+| :---- | :---- |
+| 1 | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2 | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase |
+| 3 |  Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta |
+| 4 | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+| \# | Problema | Escala de Severidad | Heurística / Principio violado |
+| ----- | ----- | ----- | ----- |
+| 1 | La tarjeta de vehículo no muestra imagen real, solo un ícono genérico | 2 | Usabilidad – Visibilidad del estado del sistema |
+| 2 | El contador muestra "1 vehículos encontrados" con error gramatical | 1 | Usabilidad – Diseño estético y minimalista |
+| 3 | Las opciones del filtro "Tipo de Ruta" no muestran etiquetas de texto, solo íconos | 3 | Usabilidad – Reconocimiento antes que recuerdo |
+| 4 | El campo "Fecha de inicio" en el modal de selección de fechas tiene un fondo negro que dificulta la lectura | 2 | Usabilidad – Diseño estético y minimalista |
+| 5 | En "Mis Alquileres" la imagen del vehículo muestra el texto roto "alt toyota" en lugar de la imagen | 3 | Usabilidad – Visibilidad del estado del sistema |
+| 6 | El dato con ícono de ubicación en la tarjeta de alquiler muestra un número (3213213) en lugar de una dirección | 2 | Usabilidad – Correspondencia entre el sistema y el mundo real |
+| 7 | El texto "2 Fechas de alquiler" en la tarjeta de alquiler es ambiguo | 2 | Usabilidad – Correspondencia entre el sistema y el mundo real |
+| 8 | Los campos del formulario "Agregar Vehículo" tienen fondo negro que genera bajo contraste con el placeholder  | 3 | Usabilidad – Diseño estético y minimalista  |
+| 9 | En el paso de "Fotografías", el botón "Choose" está en inglés mientras toda la app está en español  | 2 | Usabilidad – Consistencia y estándares  |
+| 10 | La pantalla de Notificaciones del propietario tiene un header verde oscuro inconsistente con el resto  | 2 | Usabilidad – Consistencia y estándares  |
+| 11 | La sección "Fotos del Vehículo" muestra un ícono de imagen roto (blanco sin forma definida)  | 3 | Usabilidad – Visibilidad del estado del sistema  |
+| 12 | La pantalla de Soporte tiene un área de filtros con fondo negro que rompe la paleta visual  | 2 | Usabilidad – Consistencia y estándares  |
+| 13 | El dashboard del propietario muestra "Mejor Mes: Ene \- $0.00" con signo de dólar en lugar de soles  | 2 | Usabilidad – Correspondencia entre el sistema y el mundo real |
+
+PROBLEMA \#1: La tarjeta de vehículo no muestra imagen real, solo un ícono genérico
+
+Severidad: 2  
+ Heurística violada: Usabilidad – Visibilidad del estado del sistema
+
+Problema: En la vista "Explorar Vehículos" y también dentro del modal de selección de fechas, la tarjeta del vehículo muestra únicamente un ícono genérico de auto en blanco sobre fondo naranja, en lugar de una fotografía real del vehículo. En una plataforma de alquiler de autos, la imagen es un elemento crítico para que el usuario evalúe el estado y la apariencia del vehículo antes de decidir alquilarlo. La ausencia de imagen real genera desconfianza.
+
+![][image17]
+
+Captura de referencia: Capturas del set anterior – Imagen 1 (Explorar Vehículos) / Imágenes 3 y 4 del set nuevo (Modal de selección de fechas)
+
+Recomendación: Si no hay imagen cargada, mostrar un placeholder con el texto "Sin imagen disponible" para que el usuario entienda que es una limitación del registro y no un error del sistema
+
+PROBLEMA \#2: El contador muestra "1 vehículos encontrados" con error gramatical
+
+Severidad: 1  
+ Heurística violada: Usabilidad – Diseño estético y minimalista
+
+Problema: En la sección "Explorar Vehículos", cuando el resultado de búsqueda es un solo vehículo, el sistema muestra el texto "1 vehículos encontrados" en plural, lo cual es gramaticalmente incorrecto. Este tipo de error, aunque menor, afecta la percepción de calidad y profesionalismo del producto.
+
+![][image18]
+
+Recomendación: Implementar lógica condicional que adapte el texto al número de resultados: "1 vehículo encontrado" para resultados singulares y "N vehículos encontrados" para múltiples resultados.
+
+PROBLEMA \#3: Las opciones del filtro "Tipo de Ruta" no muestran etiquetas de texto, solo íconos
+
+Severidad: 3  
+ Heurística violada: Usabilidad – Reconocimiento antes que recuerdo
+
+Problema: En la sección "Aventuras", al desplegar el filtro "Tipo de Ruta", las opciones del menú se muestran únicamente como íconos sin ninguna etiqueta de texto visible que las identifique. Solo la primera opción ("Rutas Playeras") tiene texto visible porque está seleccionada y resaltada en azul. El resto de opciones aparece como íconos en blanco sin descripción, obligando al usuario a adivinar qué representa cada ícono. Esto viola el principio de "reconocimiento antes que recuerdo", ya que el usuario no debería tener que memorizar o inferir el significado de cada ícono.
+
+![][image19]
+
+Recomendación: Mostrar el nombre de cada tipo de ruta junto a su ícono en el menú desplegable, de modo que todas las opciones sean claramente identificables sin necesidad de interactuar con ellas.
+
+PROBLEMA \#4: El campo "Fecha de inicio" tiene un fondo negro que dificulta la lectura
+
+Severidad: 2  
+ Heurística violada: Usabilidad – Diseño estético y minimalista
+
+Problema: En el modal de selección de fechas, el campo "Fecha de inicio" presenta un fondo de color negro oscuro que contrasta con el campo "Fecha de fin" que tiene un fondo blanco estándar. Esta inconsistencia visual entre los dos campos del mismo formulario genera confusión sobre el estado de cada campo y rompe la coherencia del diseño del formulario.
+
+![][image20]
+
+Recomendación: Unificar el estilo visual de ambos campos de fecha para que tengan el mismo fondo y comportamiento, diferenciando el estado activo (con foco) mediante un borde o sombra destacada, no mediante un cambio de color de fondo tan drástico.
+
+PROBLEMA \#5: En "Mis Alquileres" la imagen del vehículo muestra texto roto en lugar de la foto
+
+Severidad: 3  
+ Heurística violada: Usabilidad – Visibilidad del estado del sistema
+
+Problema: En la vista de "Mis Alquileres", después de confirmar un alquiler, la tarjeta del vehículo debería mostrar una imagen del auto, pero en su lugar aparece el texto roto "alt toyota", que corresponde al atributo alternativo de una etiqueta de imagen HTML que no cargó correctamente. Esto indica que la URL de la imagen no es válida o que la imagen no fue cargada en el sistema, exponiendo al usuario un error técnico interno que daña la percepción de calidad de la plataforma.
+
+![][image21]
+
+Recomendación: Implementar un manejo de errores adecuado para las imágenes: cuando una imagen no cargue correctamente, mostrar automáticamente un ícono o imagen de reemplazo (fallback) en lugar de mostrar el texto del atributo alt. Adicionalmente, asegurarse de que todas las imágenes de vehículos sean cargadas correctamente al momento del registro.
+
+PROBLEMA \#6: El campo de ubicación en la tarjeta de alquiler muestra un número en lugar de una dirección
+
+Severidad: 2  
+ Heurística violada: Usabilidad – Correspondencia entre el sistema y el mundo real
+
+Problema: En la tarjeta de alquiler dentro de "Mis Alquileres", uno de los datos mostrados junto a un ícono de ubicación es el número "3213213", que parece ser un ID interno del sistema en lugar de una dirección legible para el usuario. El ícono de ubicación genera la expectativa de que ese campo mostrará un distrito o dirección, pero en su lugar aparece un código sin significado para el usuario final.
+
+![][image22]
+
+Recomendación: Reemplazar el ID interno por la información legible correspondiente, como el nombre del distrito o la dirección de recojo del vehículo. Los IDs internos nunca deben ser expuestos directamente al usuario en la interfaz.
+
+PROBLEMA \#7: El texto "2 Fechas de alquiler" en la tarjeta de alquiler es ambiguo
+
+Severidad: 2  
+ Heurística violada: Usabilidad – Correspondencia entre el sistema y el mundo real
+
+Problema: En la tarjeta de alquiler dentro de "Mis Alquileres", aparece el texto "2 Fechas de alquiler" acompañado de un ícono de reloj. Este texto es confuso porque no comunica claramente qué significa ese número en ese contexto. El usuario podría interpretarlo como que tiene 2 fechas registradas, 2 días de alquiler, o 2 reservas distintas. La ambigüedad puede generar confusión sobre el estado real del alquiler.
+
+![][image23]
+
+Recomendación: Reemplazar el texto "2 Fechas de alquiler" por una etiqueta más clara como "Duración: 2 días" o mostrar directamente el rango de fechas con formato "18 jun – 20 jun 2026", tal como ya se hace en otras partes del sistema como el panel de Resumen lateral.
+
+PROBLEMA \#8: Los campos del formulario "Agregar Vehículo" tienen fondo negro que genera bajo contraste
+
+Severidad: 3  
+ Heurística violada: Usabilidad – Diseño estético y minimalista
+
+Problema: En el formulario de "Agregar Vehículo", todos los campos de entrada (Marca, Modelo, Año, Color, Transmisión, Combustible, Número de Asientos, Placa, Descripción) tienen un fondo de color negro con texto de placeholder en gris claro. Este contraste extremo entre el fondo negro y el resto de la interfaz de fondo blanco genera una experiencia visual pesada y discontinua. Adicionalmente, el fondo negro de los campos puede dificultar la lectura del texto ingresado por el usuario dependiendo del color de fuente usado al escribir.
+
+![][image24]
+
+Recomendación: Reemplazar el fondo negro de los campos de entrada por un fondo blanco o gris muy claro, con borde sutil, siguiendo las convenciones estándar de formularios web. Esto mejorará la legibilidad, reducirá la carga visual y mantendrá la coherencia con el resto de la aplicación.
+
+PROBLEMA \#9: El botón "Choose" en el paso de Fotografías está en inglés
+
+Severidad: 2  
+ Heurística violada: Usabilidad – Consistencia y estándares
+
+Problema: En el paso 4 del formulario de agregar vehículo, correspondiente a la sección de "Fotos del Vehículo", el botón para seleccionar archivos aparece con la etiqueta "Choose" en inglés, mientras que toda la interfaz de MOVEO está en español. Esta mezcla de idiomas rompe la consistencia del lenguaje de la aplicación y puede generar confusión en usuarios que no manejen inglés.
+
+![][image25]
+
+Recomendación: Traducir el botón al español como "Seleccionar" o "Elegir archivo", asegurando que todos los elementos de la interfaz mantengan el mismo idioma. Verificar si este botón es generado automáticamente por el navegador (input type="file"), en cuyo caso puede ser personalizado mediante CSS o reemplazado por un botón personalizado con el texto correcto.
+
+PROBLEMA \#10: La sección "Fotos del Vehículo" muestra un ícono de imagen roto
+
+Severidad: 3  
+ Heurística violada: Usabilidad – Visibilidad del estado del sistema
+
+Problema: En el área de carga de fotografías del vehículo, el ícono de previsualización que debería guiar al usuario sobre qué se espera cargar aparece como un recuadro blanco sin forma definida, lo que parece ser un ícono que no cargó correctamente. Esta imagen rota genera confusión sobre si la sección está funcionando correctamente o si hay un problema técnico, especialmente considerando que es el paso más importante del registro del vehículo ya que las fotos son clave para atraer clientes.
+
+![][image26]
+
+Recomendación: Asegurarse de que el ícono de la sección de carga de fotos cargue correctamente en todos los navegadores. Usar un ícono SVG embebido en lugar de una imagen externa para evitar errores de carga. Idealmente mostrar un ejemplo visual de cómo debería verse una foto del vehículo como referencia para el propietario.
+
+PROBLEMA \#11: La pantalla de Notificaciones del propietario tiene un header verde oscuro inconsistente
+
+Severidad: 2  
+ Heurística violada: Usabilidad – Consistencia y estándares
+
+Problema: En la vista de Notificaciones del propietario, el encabezado de la sección muestra el título "Notificaciones" sobre un fondo verde oscuro, mientras que el resto de las pantallas del propietario utilizan el color naranja como color de encabezado. Esta inconsistencia en el header rompe la identidad visual del sistema y puede hacer que el usuario sienta que está en una sección desconectada del resto de la aplicación.
+
+![][image27]
+
+Recomendación: Unificar el color del encabezado de la sección de Notificaciones con el color naranja utilizado en el resto de pantallas del sistema. Si el equipo decidió diferenciar secciones por color, debe establecer y documentar una paleta de colores clara y aplicarla de forma consistente en toda la aplicación.
+
+PROBLEMA \#12: La pantalla de Soporte tiene un área de filtros con fondo negro que rompe la paleta visual
+
+Severidad: 2  
+ Heurística violada: Usabilidad – Consistencia y estándares
+
+Problema: En la pantalla de "Tickets de Soporte", la sección de filtros ("Filtrar por Estado" y "Filtrar por Tipo") tiene un fondo negro que contrasta fuertemente con el resto de la página de fondo blanco. Al igual que el problema detectado en el formulario de agregar vehículo, este fondo negro genera una ruptura visual abrupta y no corresponde al estilo general de la aplicación. Los dropdowns con fondo negro sobre la página blanca hacen que la sección de filtros parezca un elemento ajeno al diseño del sistema.
+
+![][image28]
+
+Recomendación: Reemplazar el fondo negro del área de filtros y de los dropdowns por un fondo blanco o gris claro, con bordes sutiles, manteniendo coherencia con el resto del sistema. El fondo negro debería reservarse únicamente si forma parte de un modo oscuro oficial y aplicarse de forma global, no en secciones aisladas.
+
+PROBLEMA \#13: El dashboard muestra montos con signo de dólar ($) en lugar de soles (S/)
+
+Severidad: 2  
+ Heurística violada: Usabilidad – Correspondencia entre el sistema y el mundo real
+
+Problema: En el dashboard del propietario, los valores del gráfico de "Ganancias Mensuales" y los resúmenes de "Total Ganado" y "Promedio Mensual" utilizan el símbolo "$" (dólar) en lugar de "S/" (sol peruano), que es la moneda utilizada en el resto de la aplicación. Por ejemplo, en la tarjeta de resumen superior se muestra "S/ 0.00" correctamente, pero en el gráfico inferior aparece "$0.00". Esta inconsistencia puede generar confusión sobre en qué moneda se expresan las ganancias.
+
+![][image29]
+
+Recomendación: Unificar el símbolo de moneda en toda la aplicación utilizando "S/" para soles peruanos, que es la moneda local y la que se usa en el resto del sistema. Revisar todos los componentes que muestren valores monetarios para asegurar consistencia.
+
+#### **6.4.2.4. Resumen de modificaciones para subsanar hallazgos.**
+
+A continuación se presenta el resumen de las modificaciones planificadas por el equipo de NextMobility para subsanar cada uno de los hallazgos identificados durante la auditoría heurística recibida. Las modificaciones han sido priorizadas según la severidad del hallazgo y su impacto en la experiencia del usuario.
+
+| \# | Hallazgo identificado | Componente afectado | Modificación planificada | Prioridad | Estado |
+| :---: | ----- | ----- | ----- | :---: | :---: |
+| 1 | La tarjeta de vehículo no muestra imagen real, solo un ícono genérico | Explorar Vehículos / Modal de selección de fechas | Corregir la carga de imágenes en la tarjeta de vehículo para que muestre la fotografía real registrada. Cuando no exista imagen cargada, mostrar un placeholder con el texto 'Sin imagen disponible' en lugar del ícono genérico. | Media | Planificado |
+| 2 | El contador muestra '1 vehículos encontrados' con error gramatical | Sección Explorar Vehículos | Implementar lógica condicional en el texto del contador de resultados: mostrar '1 vehículo encontrado' cuando el resultado sea singular y 'N vehículos encontrados' para múltiples resultados. | Baja | Planificado |
+| 3 | Las opciones del filtro 'Tipo de Ruta' no muestran etiquetas de texto, solo íconos | Sección Aventuras — Filtro Tipo de Ruta | Agregar etiquetas de texto junto a cada ícono del filtro 'Tipo de Ruta' en el menú desplegable, de modo que todas las opciones sean identificables sin necesidad de inferir su significado. | Alta | Planificado |
+| 4 | El campo 'Fecha de inicio' en el modal de selección de fechas tiene un fondo negro que dificulta la lectura | Modal de selección de fechas | Unificar el estilo visual de los campos 'Fecha de inicio' y 'Fecha de fin' para que ambos tengan el mismo fondo blanco. Diferenciar el campo activo únicamente mediante borde o sombra destacada, sin cambio de color de fondo. | Media | Planificado |
+| 5 | En 'Mis Alquileres' la imagen del vehículo muestra el texto roto 'alt toyota' en lugar de la imagen | Vista Mis Alquileres | Implementar manejo de errores para imágenes: cuando una imagen no cargue correctamente, mostrar automáticamente una imagen de reemplazo (fallback) en lugar del texto del atributo alt. Verificar que las URLs de imágenes de vehículos sean válidas al momento del registro. | Alta | Planificado |
+| 6 | El campo de ubicación en la tarjeta de alquiler muestra un número (ID interno) en lugar de una dirección | Tarjeta de alquiler — Mis Alquileres | Reemplazar el ID interno del sistema por la información legible correspondiente: nombre del distrito o dirección de recojo del vehículo. Los IDs internos no deben ser expuestos en la interfaz del usuario. | Alta | Planificado |
+| 7 | El texto '2 Fechas de alquiler' en la tarjeta de alquiler es ambiguo | Tarjeta de alquiler — Mis Alquileres | Reemplazar el texto ambiguo '2 Fechas de alquiler' por una etiqueta clara como 'Duración: 2 días' o mostrar directamente el rango de fechas con formato '18 jun – 20 jun 2026', consistente con el panel de Resumen lateral. | Media | Planificado |
+| 8 | Los campos del formulario 'Agregar Vehículo' tienen fondo negro que genera bajo contraste | Formulario Agregar Vehículo | Reemplazar el fondo negro de todos los campos de entrada (Marca, Modelo, Año, Color, Transmisión, Combustible, N° de Asientos, Placa, Descripción) por fondo blanco o gris claro con borde sutil, siguiendo las convenciones estándar de formularios. | Alta | Planificado |
+| 9 | El botón 'Choose' en el paso de Fotografías está en inglés | Formulario Agregar Vehículo — Paso Fotografías | Traducir el botón al español ('Seleccionar' o 'Elegir archivo'). Si el botón es generado automáticamente por el navegador (input type='file'), reemplazarlo por un botón personalizado con el texto correcto en español. | Media | Planificado |
+| 10 | La sección 'Fotos del Vehículo' muestra un ícono de imagen roto | Formulario Agregar Vehículo — Sección Fotos | Reemplazar la imagen de previsualización rota por un ícono SVG embebido que cargue correctamente en todos los navegadores. Incluir un ejemplo visual de referencia sobre cómo debería verse la fotografía del vehículo. | Alta | Planificado |
+| 11 | La pantalla de Notificaciones del propietario tiene un header verde oscuro inconsistente con el resto | Pantalla de Notificaciones — Propietario | Unificar el color del encabezado de la sección Notificaciones con el color naranja utilizado en el resto de pantallas del propietario, manteniendo consistencia visual en toda la aplicación. | Media | Planificado |
+| 12 | La pantalla de Soporte tiene un área de filtros con fondo negro que rompe la paleta visual | Pantalla Tickets de Soporte | Reemplazar el fondo negro del área de filtros ('Filtrar por Estado' y 'Filtrar por Tipo') y de los dropdowns por fondo blanco o gris claro con bordes sutiles, manteniendo coherencia con el estilo general de la aplicación. | Media | Planificado |
+| 13 | El dashboard del propietario muestra montos con signo de dólar ($) en lugar de soles (S/) | Dashboard del Propietario — Gráfico de Ganancias | Unificar el símbolo de moneda en toda la aplicación usando 'S/' para soles peruanos. Revisar todos los componentes que muestren valores monetarios (gráfico de Ganancias Mensuales, Total Ganado, Promedio Mensual) para garantizar consistencia. | Media | Planificado |
+
+**Nota:** Los hallazgos con prioridad **Alta** serán atendidos en el siguiente sprint de desarrollo. Los de prioridad **Media** y **Baja** serán incorporados en los releases subsiguientes según disponibilidad del equipo.
+
+[image1]: assets/Chapter-6/image1.png
+
+[image2]: assets/Chapter-6/image2.png
+
+[image3]: assets/Chapter-6/image3.png
+
+[image4]: assets/Chapter-6/image4.png
+
+[image5]: assets/Chapter-6/image5.png
+
+[image6]: assets/Chapter-6/image6.png
+
+[image7]: assets/Chapter-6/image7.png
+
+[image8]: assets/Chapter-6/image8.png
+
+[image9]: assets/Chapter-6/image9.png
+
+[image10]: assets/Chapter-6/image10.png
+
+[image11]: assets/Chapter-6/image11.png
+
+[image12]: assets/Chapter-6/image12.png
+
+[image13]: assets/Chapter-6/image13.png
+
+[image14]: assets/Chapter-6/image14.png
+
+[image15]: assets/Chapter-6/image15.png
+
+[image16]: assets/Chapter-6/image16.png
+
+[image17]: assets/Chapter-6/image17.png
+
+[image18]: assets/Chapter-6/image18.png
+
+[image19]: assets/Chapter-6/image19.png
+
+[image20]: assets/Chapter-6/image20.png
+
+[image21]: assets/Chapter-6/image21.png
+
+[image22]: assets/Chapter-6/image22.png
+
+[image23]: assets/Chapter-6/image23.png
+
+[image24]: assets/Chapter-6/image24.png
+
+[image25]: assets/Chapter-6/image25.png
+
+[image26]: assets/Chapter-6/image26.png
+
+[image27]: assets/Chapter-6/image27.png
+
+[image28]: assets/Chapter-6/image28.png
+
+[image29]: assets/Chapter-6/image29.png
 
 # Conclusiones y recomendaciones
 # Conclusiones
