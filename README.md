@@ -346,16 +346,28 @@ A continuación, se adjuntan las evidencias del trabajo colaborativo, incluyendo
     - [Payment](#payment-1)
       - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)
       - [6.1.4. Core System Tests.](#614-core-system-tests)
-    - [6.4. Auditoría de Experiencias de Usuario.](#64-auditoría-de-experiencias-de-usuario)
-      - [6.4.1. Auditoría realizada.](#641-auditoría-realizada)
-        - [6.4.1.1. Información del grupo auditado.](#6411-información-del-grupo-auditado)
-        - [6.4.1.2. Cronograma de auditoría realizada.](#6412-cronograma-de-auditoría-realizada)
-        - [6.4.1.3. Contenido de auditoría realizada.](#6413-contenido-de-auditoría-realizada)
-      - [6.4.2. Auditoría recibida.](#642-auditoría-recibida)
-        - [6.4.2.1. Información del grupo auditor](#6421-información-del-grupo-auditor)
-        - [6.4.2.2. Cronograma de auditoría recibida.](#6422-cronograma-de-auditoría-recibida)
-        - [6.4.2.3. Contenido de auditoría recibida.](#6423-contenido-de-auditoría-recibida)
-        - [6.4.2.4. Resumen de modificaciones para subsanar hallazgos.](#6424-resumen-de-modificaciones-para-subsanar-hallazgos)
+    - [6.2. Static testing \& Verification](#62-static-testing--verification)
+      - [6.2.1. Static Code Analysis](#621-static-code-analysis)
+        - [6.2.1.1. Coding standard \& Code conventions.](#6211-coding-standard--code-conventions)
+        - [6.2.1.2. Code Quality \& Code Security.](#6212-code-quality--code-security)
+      - [6.2.2. Reviews](#622-reviews)
+  - [**6.4. Auditoría de Experiencias de Usuario.**](#64-auditoría-de-experiencias-de-usuario)
+    - [**6.4.1. Auditoría realizada.**](#641-auditoría-realizada)
+      - [**6.4.1.1. Información del grupo auditado.**](#6411-información-del-grupo-auditado)
+      - [**6.4.1.2. Cronograma de auditoría realizada.**](#6412-cronograma-de-auditoría-realizada)
+      - [**6.4.1.3. Contenido de auditoría realizada.**](#6413-contenido-de-auditoría-realizada)
+    - [**6.4.2. Auditoría recibida.**](#642-auditoría-recibida)
+      - [**6.4.2.1. Información del grupo auditor**](#6421-información-del-grupo-auditor)
+      - [**6.4.2.2. Cronograma de auditoría recibida.**](#6422-cronograma-de-auditoría-recibida)
+      - [**6.4.2.3. Contenido de auditoría recibida.**](#6423-contenido-de-auditoría-recibida)
+      - [**6.4.2.4. Resumen de modificaciones para subsanar hallazgos.**](#6424-resumen-de-modificaciones-para-subsanar-hallazgos)
+  - [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
+    - [7.1. Continuous Integration](#71-continuous-integration)
+      - [7.1.1. Tools and Practices.](#711-tools-and-practices)
+      - [7.1.2. Build \& Test Suite Pipeline Components.](#712-build--test-suite-pipeline-components)
+    - [7.2. Continuous Delivery](#72-continuous-delivery)
+      - [7.2.1. Tools and Practices.](#721-tools-and-practices)
+      - [7.2.2. Stages Deployment Pipeline Components.](#722-stages-deployment-pipeline-components)
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
@@ -2662,6 +2674,60 @@ Levantan la aplicación completa con una base de datos en memoria (InMemoryDatab
 
 ![imagen5](https://i.imgur.com/W0dGjoA.png)
 
+### 6.2. Static testing & Verification
+
+Esta sección se centra en los métodos de prueba estática y verificación aplicados sobre el código fuente de MOVEO, tanto en el frontend (Vue 3 + Vite) como en el backend (.NET 9 / ASP.NET Core), con el objetivo de asegurar que el software cumpla con los estándares de calidad y seguridad antes de su ejecución. A diferencia de las pruebas dinámicas, que requieren ejecutar la aplicación, las pruebas estáticas se basan en la revisión del código fuente mediante herramientas automatizadas y revisiones manuales por parte del equipo. Este enfoque permite identificar defectos, vulnerabilidades de seguridad y oportunidades de mejora en una fase temprana del ciclo de vida del desarrollo, reduciendo el costo de las correcciones en etapas posteriores.
+
+#### 6.2.1. Static Code Analysis
+
+El análisis de código estático en MOVEO consiste en la revisión del código fuente del repositorio frontend (MOVEO-Frontend) y del repositorio backend (MOVEO-Backend) sin necesidad de ejecutarlos, combinando herramientas de análisis automatizado integradas en el IDE con revisiones manuales del equipo. Este enfoque ayuda a detectar errores de codificación, vulnerabilidades de seguridad e incumplimientos de las convenciones acordadas, contribuyendo a aumentar la calidad general del software y a mantener la coherencia entre ambos repositorios, que comparten una misma organización modular por bounded contexts (IAM, Rental, Payment, UserManagement, Adventure, Notification, Support, entre otros).
+
+##### 6.2.1.1. Coding standard & Code conventions.
+
+Las normas de codificación y convenciones son directrices que todo el equipo de MOVEO sigue para garantizar un código legible, mantenible y coherente entre el frontend y el backend. A continuación, se describen los principios aplicados y cómo se reflejan concretamente en nuestros repositorios:
+
+**Clean Code:** Se utilizan nombres claros y descriptivos para variables, funciones, clases y archivos. Las funciones se mantienen cortas y enfocadas en una sola responsabilidad, evitando código muerto y comentarios innecesarios. Esto se observa, por ejemplo, en la nomenclatura explícita de los servicios y entidades del backend (AuthService, BcryptHashingService, AdventureRouteCommandService) y en la del frontend (rental.store.js, Rental.entity.js, rental-api.js, rental.assembler.js).
+
+**Domain-Driven Design (DDD):** Ambos repositorios emplean un lenguaje ubicuo que refleja los términos del negocio (Rental, Vehicle, Payment, AdventureRoute) y se dividen en bounded contexts independientes. Cada contexto está organizado en capas bien definidas:
+
+En el backend (.NET 9) se aplica la separación clásica de DDD por capas: Domain (Model con Aggregates, Commands, Queries; Repositories y Services), Application (CommandServices y QueryServices, siguiendo CQRS con el patrón Mediator vía Cortex.Mediator), Infrastructure (persistencia con Entity Framework Core sobre MySQL, hashing, etc.) e Interfaces (controladores REST y Resources). Por ejemplo, el contexto IAM contiene Domain/Services/IAuthService.cs, Application/Internal/AuthService.cs, Infrastructure/Hashing/BcryptHashingService.cs e Interfaces/REST/AuthController.cs.
+
+![Estructura DDD del backend (IAM) en Rider](https://i.imgur.com/fBK5sQ7.png)
+
+En el frontend (Vue 3) se replica esa misma estructura por bounded context dentro de src/app/, separando domain (modelos de entidad como Vehicle.entity.js), application (stores de Pinia como rental.store.js), infrastructure (clientes API y assemblers) y presentation (componentes, vistas y routers). Esto promueve una arquitectura organizada, alineada con el negocio y consistente entre ambas capas del sistema.
+
+![Estructura DDD del frontend (módulo Rental) en VS Code](https://i.imgur.com/Opzh5RO.png)
+
+**Convenciones por lenguaje:** En el backend se siguen las convenciones idiomáticas de C#/.NET (PascalCase para clases, métodos y propiedades; interfaces con prefijo I; nullable reference types habilitados con Nullable enable e implicit usings). En el frontend se siguen las convenciones de Vue 3 con Composition API y el ecosistema Vite (componentes .vue, stores de Pinia, enrutamiento con Vue Router e internacionalización con Vue I18n y archivos de locales en.json / es.json).
+
+##### 6.2.1.2. Code Quality & Code Security.
+
+La calidad y la seguridad del código son esenciales para el desarrollo de un software confiable en MOVEO. Se abordan en dos dimensiones complementarias:
+
+**Calidad del Código:** La calidad se mide mediante métricas como la cobertura de pruebas, apoyada en las suites de pruebas unitarias e integración del proyecto (xUnit en el backend y Vitest en el frontend), y la consistencia del estilo de código. En el frontend se adopta ESLint, con la configuración recomendada de eslint-plugin-vue, para el análisis estático del código JavaScript y Vue, detectando errores potenciales, variables sin uso, malas prácticas y desviaciones de las convenciones de Vue 3; y Prettier como formateador automático que garantiza un estilo uniforme (comillas, indentación, longitud de línea) en todos los archivos .js, .vue, .css y .json. Ambas herramientas se ejecutan mediante los scripts npm run lint y npm run format. En el backend (.NET 9) se aprovechan los analizadores de Roslyn integrados en el SDK junto con dotnet format, que aplican reglas de estilo y calidad sobre el código C# de forma análoga.
+
+![Ejecución de ESLint (npm run lint) mostrando los problemas detectados](https://i.imgur.com/CvXqWfQ.png)
+
+![Verificación de formato con Prettier (npm run format:check)](https://i.imgur.com/oYGxwLG.png)
+
+**Seguridad del Código:** Es crucial identificar y mitigar vulnerabilidades comunes (como inyecciones SQL y XSS) mediante la revisión del código. En MOVEO esto se refuerza con prácticas de codificación segura ya presentes en el proyecto, como el almacenamiento de contraseñas mediante hashing con BCrypt (BcryptHashingService en el contexto IAM del backend) en lugar de texto plano, el uso de Entity Framework Core con consultas parametrizadas que mitigan la inyección SQL, y la validación adecuada de las entradas del usuario tanto en los Resources/Requests del backend como en los formularios del frontend.
+
+![Hashing seguro de contraseñas con BCrypt (BcryptHashingService)](https://i.imgur.com/VzkFuG4.png)
+
+ESLint y Prettier se integran con los IDEs utilizados por el equipo (Visual Studio / Rider para el backend en .NET y Visual Studio Code / WebStorm para el frontend en Vue), permitiendo análisis y formateo en tiempo real mientras se desarrolla. Esto ayuda a los desarrolladores a detectar problemas de calidad y estilo a medida que escriben código, con recomendaciones inmediatas para resolverlos, fomentando una cultura de calidad y mejora continua desde el inicio del desarrollo y asegurando que los problemas se aborden antes de llegar a las etapas de revisión y prueba.
+
+#### 6.2.2. Reviews
+
+Las revisiones de código son un proceso fundamental para garantizar la calidad de MOVEO y su conformidad con las normas establecidas. En el proyecto se combinan dos enfoques complementarios: la revisión manual entre los integrantes del equipo y la revisión automática mediante herramientas de análisis estático.
+
+La revisión manual se realiza de forma colaborativa entre los integrantes del equipo. Antes de integrar un cambio relevante a la rama principal, otro integrante revisa el código para verificar que respete las convenciones de Clean Code y la arquitectura por capas de DDD, que sea comprensible y que mantenga la coherencia entre el frontend y el backend. El trabajo se organiza mediante ramas de funcionalidad (por ejemplo, feature/frontend-initial-implementation) y se registra a través de un historial de commits que sigue la convención de Conventional Commits (feat, fix, feat(test), entre otros), lo que facilita la trazabilidad de los cambios, la identificación de su autor y la comprensión del propósito de cada modificación a lo largo del desarrollo.
+
+La revisión automática se realiza directamente en el entorno de desarrollo: ESLint y Prettier en el frontend, y los analizadores de Roslyn junto con dotnet format en el backend, detectan errores, malas prácticas e inconsistencias de estilo de manera temprana, antes de que el código se integre. De esta forma, cada desarrollador recibe retroalimentación inmediata mientras escribe, lo que reduce los defectos y mantiene un estándar uniforme en todo el código base.
+
+![Historial de commits del repositorio con Conventional Commits](https://i.imgur.com/eq3AJIW.png)
+
+Como criterios de aceptación, el equipo verifica que el código cumpla con los estándares de calidad y no introduzca vulnerabilidades de seguridad, y que las nuevas funcionalidades cuenten con una cobertura de pruebas adecuada. Estas revisiones se realizan de forma regular, preferiblemente al final de cada sprint, para evitar la acumulación de cambios y mantener la calidad de forma sostenida a lo largo del proyecto.
+
 ## **6.4. Auditoría de Experiencias de Usuario.**
 
 ### **6.4.1. Auditoría realizada.**
@@ -3166,6 +3232,97 @@ A continuación se presenta el resumen de las modificaciones planificadas por el
 [image28]: assets/Chapter-6/image28.png
 
 [image29]: assets/Chapter-6/image29.png
+
+## Capítulo VII: DevOps Practices
+
+### 7.1. Continuous Integration
+
+La Integración Continua (CI) en MOVEO tiene como objetivo que cada cambio que los desarrolladores integran al repositorio sea construido y validado de forma automática, detectando errores lo antes posible. Cada vez que se realiza un push o se fusiona una rama de funcionalidad, el código se compila y se ejecutan las suites de pruebas, garantizando que la base de código se mantenga siempre en un estado estable y desplegable. Este enfoque reduce los conflictos de integración, mantiene la calidad del código y permite que el equipo trabaje de forma ágil sobre los repositorios MOVEO-Frontend y MOVEO-Backend.
+
+#### 7.1.1. Tools and Practices.
+
+En el proceso de desarrollo y pruebas de MOVEO se emplea un conjunto de herramientas que aseguran tanto la calidad del código como la productividad del equipo. Estas herramientas abarcan distintas fases del ciclo de vida del software, desde la escritura del código hasta la ejecución automatizada de pruebas. El equipo sigue las metodologías de Desarrollo Orientado por Pruebas (TDD) y Desarrollo Orientado por Comportamiento (BDD), de modo que las soluciones no solo cumplan con los requerimientos del cliente, sino que también mantengan altos niveles de calidad técnica. Las principales herramientas utilizadas son:
+
+| Herramienta | Tipo | Descripción | Propósito |
+| :---- | :---- | :---- | :---- |
+| Git / GitHub | Control de versiones | Sistema de control de versiones distribuido y plataforma de alojamiento del código fuente. | Centralizar el código, gestionar ramas de funcionalidad y servir como punto de integración del trabajo de todo el equipo. |
+| GitHub Actions | Automatización CI/CD | Servicio de automatización que ejecuta workflows definidos en `.github/workflows/`. | Construir y probar automáticamente el código en cada push o integración, asegurando que el proyecto compile y pase las pruebas. |
+| Vitest | Pruebas (TDD) | Framework de pruebas unitarias y funcionales para el frontend, integrado con Vite. | Probar componentes Vue, stores de Pinia y lógica de dominio del frontend de forma rápida y aislada. |
+| @vue/test-utils | Pruebas de componentes | Librería oficial para montar y probar componentes Vue en aislamiento. | Verificar el render y el comportamiento de los componentes de la interfaz. |
+| xUnit | Pruebas (TDD) | Framework de pruebas unitarias e integración para el backend en C# / .NET. | Validar la lógica de dominio y los servicios de aplicación de cada bounded context. |
+| WebApplicationFactory | Pruebas de integración | Utilidad de ASP.NET Core para levantar la API en memoria durante las pruebas. | Probar los endpoints REST del backend de extremo a extremo contra una instancia real de la aplicación. |
+| Selenium WebDriver / Sauce Labs | Pruebas E2E | Herramienta de automatización de navegador para pruebas end-to-end del frontend. | Validar los flujos críticos de usuario (login, checkout) en un navegador real. |
+| Gherkin (BDD) | Pruebas (BDD) | Lenguaje natural estructurado para describir el comportamiento esperado mediante feature files. | Alinear el desarrollo con el comportamiento del negocio y servir de base para las pruebas de aceptación. |
+| ESLint + Prettier | Análisis estático | Linter y formateador del código frontend. | Detectar errores y mantener un estilo de código uniforme antes de cada integración. |
+| Docker | Contenerización | Empaqueta el backend con todas sus dependencias en un contenedor. | Asegurar consistencia entre los entornos de desarrollo, integración y producción. |
+
+**Prácticas (Practices):**
+
+- **Feature Branching (GitFlow):** Cada funcionalidad se desarrolla en una rama `feature/` independiente que luego se integra a la rama de trabajo mediante revisión, evitando conflictos sobre la rama principal.
+- **TDD y BDD:** Las pruebas se escriben junto con el código (Vitest y xUnit) y el comportamiento esperado se documenta con feature files en Gherkin.
+- **Conventional Commits:** Los mensajes de commit siguen una convención (feat, fix, test, etc.) que facilita la trazabilidad de los cambios integrados.
+- **Integración frecuente:** Los cambios se integran de forma regular para que la suite de pruebas se ejecute y detecte problemas de manera temprana.
+
+#### 7.1.2. Build & Test Suite Pipeline Components.
+
+El pipeline de integración continua de MOVEO se compone de una serie de etapas que se ejecutan de forma encadenada cada vez que se integra código. Estas etapas garantizan que el resultado sea siempre una versión construida y probada de la aplicación. Los componentes del pipeline son:
+
+**Frontend (Vue 3 + Vite):**
+
+1. **Checkout e instalación de dependencias:** Se obtiene el código del repositorio y se instalan las dependencias con `npm install`.
+2. **Análisis estático:** Se ejecuta `npm run lint` (ESLint) y la verificación de formato con Prettier para validar las convenciones de código.
+3. **Ejecución de pruebas:** Se ejecutan las pruebas unitarias y funcionales con Vitest (`npm run test:unit` y `npm run test:functional`), validando componentes, stores y lógica de dominio.
+4. **Construcción del bundle:** Se genera el build de producción con `npm run build`, produciendo el bundle optimizado en la carpeta `dist/`.
+
+![Ejecución de la suite de pruebas del frontend (npm run test:unit)](https://i.imgur.com/uhmpfBF.png)
+
+![Construcción de producción del frontend (npm run build)](https://i.imgur.com/lcSEBR7.png)
+
+**Backend (C# / .NET 9):**
+
+1. **Restauración:** Se restauran las dependencias del proyecto con `dotnet restore`.
+2. **Compilación:** Se compila la solución con `dotnet build` en configuración Release, verificando que el proyecto compile sin errores.
+3. **Contenerización:** Se construye la imagen Docker del backend a partir del `Dockerfile` (build multi-stage de .NET 9), dejando el artefacto listo para su despliegue.
+
+![Compilación del backend con dotnet build en configuración Release](https://i.imgur.com/yxjXIKq.png)
+
+![Dockerfile del backend para la contenerización del servicio](https://i.imgur.com/ILRpCmc.png)
+
+### 7.2. Continuous Delivery
+
+La Entrega Continua (Continuous Delivery) en MOVEO tiene como objetivo automatizar la integración y las pruebas del código, manteniendo en todo momento una versión lista para ser desplegada. A diferencia del despliegue continuo, en la entrega continua el código se mantiene siempre en un estado "desplegable", pero el paso final a producción puede requerir una validación previa en un entorno intermedio y/o una aprobación del equipo, lo que aporta mayor control sobre lo que finalmente llega a los usuarios.
+
+#### 7.2.1. Tools and Practices.
+
+**Tools (Herramientas):**
+
+- **GitHub Actions:** Automatiza todo el pipeline de CI/CD. Para la entrega continua se configura una etapa en la que el software queda construido y probado, listo para desplegar, pero el paso a producción puede condicionarse a una aprobación.
+- **Docker:** Conteneriza el backend de MOVEO para asegurar que el entorno de desarrollo, el de validación (staging) y el de producción sean consistentes, facilitando la validación en entornos intermedios.
+- **Vercel:** Genera preview deployments automáticos del frontend por cada rama o cambio, lo que permite validar la aplicación en un entorno similar a producción antes de la liberación definitiva.
+- **Railway:** Permite gestionar entornos del backend y la base de datos MySQL, sirviendo como entorno de validación previo al de producción.
+- **GitHub Projects / Trello:** Se utiliza para gestionar el proceso de aprobación del despliegue, donde un responsable revisa y aprueba antes de liberar a producción.
+
+**Practices (Prácticas):**
+
+- **Feature Branching y Merge Requests:** Las nuevas funcionalidades se desarrollan en ramas `feature/` y se fusionan a una rama estable (develop) tras pasar las pruebas automáticas; el despliegue a producción puede requerir aprobación manual.
+- **Pipeline de Validación en Staging:** Antes de desplegar a producción, los cambios pasan por un entorno de staging (preview de Vercel / entorno de Railway), donde se valida el código en condiciones similares a las reales y se puede recibir retroalimentación de usuarios clave.
+- **Despliegue Semiautomático:** El pipeline deja la aplicación lista para desplegar, pero la liberación final se confirma cuando un responsable lo aprueba.
+- **Aprobación Manual:** Un responsable del proyecto revisa los resultados de las pruebas antes de autorizar el despliegue, reduciendo el riesgo de liberar código no deseado.
+- **Rollback Manual:** Si se detecta un fallo, el equipo puede revertir a la versión anterior de forma controlada desde los dashboards de Vercel (frontend) y Railway (backend).
+
+#### 7.2.2. Stages Deployment Pipeline Components.
+
+Este apartado describe las etapas que componen el pipeline de entrega continua de MOVEO y cómo se encadenan para mantener el código siempre listo para producción:
+
+1. **Integración Continua (CI):** Al hacer un commit o fusionar una rama de funcionalidad, el pipeline ejecuta automáticamente la construcción y las pruebas (Vitest en el frontend y la compilación con .NET en el backend), garantizando que la aplicación esté en un estado desplegable.
+2. **Validación previa al despliegue:** Antes de liberar, el código se valida en condiciones similares a producción. En el frontend, Vercel construye la aplicación Vue 3 + Vite (preset Vite) a partir de la rama main; en el backend, Railway construye el servicio .NET junto con su base de datos MySQL.
+3. **Aprobación y Despliegue:** Una vez validada la construcción, el despliegue se realiza hacia los entornos de producción. Vercel publica el frontend distribuyéndolo por su CDN global con una URL pública segura, y Railway publica el backend exponiendo la API.
+4. **Despliegue exitoso:** Ambos servicios quedan en estado activo y en línea, confirmando que la nueva versión fue entregada correctamente.
+5. **Monitoreo y Feedback:** Después de la liberación, se observa el comportamiento de la nueva versión (estado de los servicios, rendimiento y disponibilidad) para confirmar el éxito del despliegue y, de ser necesario, ejecutar un rollback controlado desde los dashboards de Vercel y Railway.
+
+![Despliegue del frontend MOVEO (Vue 3 + Vite) en Vercel desde la rama main de GitHub](https://i.imgur.com/Z9LWHZc.png)
+
+![Despliegue del backend MOVEO (.NET + MySQL) en Railway, disparado desde un commit en GitHub, con ambos servicios en línea](https://i.imgur.com/EBac5Ut.png)
 
 # Conclusiones y recomendaciones
 # Conclusiones
