@@ -368,6 +368,14 @@ A continuación, se adjuntan las evidencias del trabajo colaborativo, incluyendo
     - [7.2. Continuous Delivery](#72-continuous-delivery)
       - [7.2.1. Tools and Practices.](#721-tools-and-practices)
       - [7.2.2. Stages Deployment Pipeline Components.](#722-stages-deployment-pipeline-components)
+    - [7.3. Continuous deployment](#73-continuous-deployment)
+      - [7.3.1. Tools and Practices.](#731-tools-and-practices)
+      - [7.3.2. Production Deployment Pipeline Components.](#732-production-deployment-pipeline-components)
+    - [7.4. Continuous Monitoring](#74-continuous-monitoring)
+      - [7.4.1. Tools and Practices](#741-tools-and-practices)
+      - [7.4.2. Monitoring Pipeline Components](#742-monitoring-pipeline-components)
+      - [7.4.3. Alerting Pipeline Components](#743-alerting-pipeline-components)
+      - [7.4.4. Notification Pipeline Components.](#744-notification-pipeline-components)
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
@@ -3323,6 +3331,101 @@ Este apartado describe las etapas que componen el pipeline de entrega continua d
 ![Despliegue del frontend MOVEO (Vue 3 + Vite) en Vercel desde la rama main de GitHub](https://i.imgur.com/Z9LWHZc.png)
 
 ![Despliegue del backend MOVEO (.NET + MySQL) en Railway, disparado desde un commit en GitHub, con ambos servicios en línea](https://i.imgur.com/EBac5Ut.png)
+
+### 7.3. Continuous deployment
+
+El objetivo de Continuous Deployment (CD) en Moveo es que los cambios aprobados en el código pasen automáticamente desde el desarrollo hasta la producción, garantizando que cada nueva versión sea entregada sin intervención manual, siempre y cuando pase todas las etapas de validación del pipeline. Esto asegura que el equipo pueda desplegar con confianza y frecuencia, manteniendo la plataforma actualizada para propietarios e inquilinos de vehículos.
+
+#### 7.3.1. Tools and Practices.
+
+En este apartado se detallan las herramientas y prácticas que aseguran un despliegue automatizado y confiable en producción para el proyecto Moveo.
+
+**Tools (Herramientas):**
+
+- **GitHub Actions:** Para automatizar el pipeline de CI/CD. Permite configurar workflows definidos en archivos .github/workflows/ que incluyen la ejecución de pruebas y el despliegue automático a los entornos de staging y producción ante cada push en las ramas develop o main.
+- **Railway:** Plataforma utilizada para el despliegue del backend en C# .NET y para la gestión de la base de datos MySQL. Railway detecta automáticamente el archivo .csproj del proyecto, construye el contenedor del servicio y gestiona las variables de entorno de producción, incluyendo la cadena de conexión a la base de datos y el entorno de ejecución. También ofrece soporte para migraciones automáticas mediante Entity Framework Core y generación de backups periódicos.
+- **Vercel:** Plataforma encargada del despliegue automático del frontend en Vue 3 + Vite. Cada push a la rama main activa un nuevo deployment de producción, distribuyendo la aplicación a través de la CDN global de Vercel y generando una URL pública segura con HTTPS de forma inmediata.
+
+**Feature Branching:**
+
+- El equipo utiliza una estrategia de ramas basada en GitFlow, donde los desarrolladores trabajan en nuevas funcionalidades dentro de ramas feature/. Una vez completadas y revisadas mediante pull request, estas ramas se fusionan a la rama develop, que centraliza los cambios validados antes de ser liberados a producción.
+- Commit-based deployment (Despliegue basado en commits): Cada vez que se realiza un push en la rama main, el pipeline de CI/CD se activa automáticamente para ejecutar los procesos de construcción, pruebas y despliegue, tanto en Vercel para el frontend como en Railway para el backend. Esta rama es la fuente de verdad para el entorno de producción, manteniendo el flujo de trabajo ágil y automatizado.
+- Rollback automático: En caso de detectar fallos durante el despliegue, Railway permite revertir instantáneamente a la versión anterior del servicio backend, restaurando el estado estable de la API y notificando al equipo sobre el incidente. Vercel aplica el mismo mecanismo para el frontend, permitiendo reactivar el deployment anterior con un solo clic desde el dashboard.
+
+#### 7.3.2. Production Deployment Pipeline Components.
+
+Este apartado describe los componentes que forman parte del pipeline de despliegue a producción de Moveo y cómo se integran para automatizar todo el proceso.
+
+**Componentes del Pipeline de la Base de Datos (Railway — MySQL):**
+
+1. Gestión de Migraciones Automáticas: Al desplegar una nueva versión del backend, Entity Framework Core aplica automáticamente las migraciones pendientes sobre la base de datos MySQL gestionada en Railway. Cuando se modifican las entidades del dominio, el backend sincroniza el esquema de la base de datos con los cambios en el código, sin necesidad de intervención manual.
+2. Backup Automático: Railway genera copias de seguridad automáticas de la base de datos de forma periódica. Esto asegura que, en caso de que algo falle durante una migración crítica, sea posible restaurar la base de datos a su estado anterior sin pérdida de datos.
+3. Monitoreo de la Base de Datos: Railway proporciona métricas en tiempo real sobre el estado del servicio de base de datos, incluyendo uso de memoria y estado de las conexiones activas. Si se detectan anomalías en el rendimiento, el equipo recibe notificaciones para tomar las medidas necesarias.
+4. Validación de Esquema: Después de aplicar las migraciones, los integration tests del backend ejecutados con WebApplicationFactory validan que las entidades, relaciones y endpoints del dominio funcionen correctamente con el nuevo esquema de la base de datos.
+5. Despliegue Continuo: Una vez aplicadas y validadas las migraciones, los cambios se reflejan automáticamente en el entorno de producción, permitiendo un flujo de trabajo continuo y ágil para el equipo de Moveo.
+
+![Pipeline de la base de datos MySQL en Railway](https://i.imgur.com/rU27jJi.png)
+
+![Migraciones y estado de la base de datos en Railway](https://i.imgur.com/IFxSKD6.png)
+
+**Componentes del Pipeline del Backend (Railway — C# .NET):**
+
+1. Integración continua: Al fusionarse código en la rama main, Railway toma el código actualizado del repositorio del backend en C# .NET y lo construye utilizando el SDK de .NET 8, verificando que el proyecto compile correctamente.
+2. Construcción del contenedor: Railway construye internamente un contenedor con el backend, asegurando que todas las dependencias del proyecto estén incluidas y que el entorno de ejecución sea consistente con el de desarrollo.
+3. Aplicación de migraciones: Al iniciarse el contenedor en producción, la aplicación aplica automáticamente las migraciones de Entity Framework Core pendientes sobre la base de datos MySQL en Railway.
+4. Despliegue: Railway reemplaza la versión anterior del servicio con la nueva versión desplegada y expone el dominio público de la API, incluyendo la interfaz de Swagger para la verificación interactiva de los endpoints.
+5. Monitoreo y alerta: Después del despliegue, Railway monitorea el estado del contenedor y envía alertas al equipo si el servicio se reinicia de forma inesperada o si el proceso de construcción falla durante el deployment.
+
+![Pipeline de despliegue del backend en Railway](https://i.imgur.com/qw7OJRz.png)
+
+**Componentes del Pipeline del Frontend (Vercel — Vue 3 + Vite):**
+
+1. Compilación del frontend: Al detectar un nuevo push en la rama main, Vercel inicia automáticamente el proceso de construcción de la aplicación Vue 3 en modo producción, ejecutando npm run build con Vite y generando el bundle optimizado en la carpeta dist/.
+2. Validación previa al despliegue: ESLint y Prettier verifican que el código del frontend cumpla con las convenciones del equipo antes de proceder con el deployment, bloqueando el proceso si se detectan errores de estilo o calidad de código.
+3. Despliegue en Vercel: Si la construcción es exitosa, Vercel implementa automáticamente la nueva versión de la aplicación web en producción, distribuyéndola a través de su CDN global para garantizar tiempos de carga óptimos desde cualquier ubicación.
+4. Invalidación de caché: Vercel invalida automáticamente la caché del CDN tras cada deployment, asegurando que los usuarios de Moveo siempre reciban la versión más reciente de la aplicación sin necesidad de limpiar manualmente el caché desde el navegador.
+
+### 7.4. Continuous Monitoring
+
+El objetivo del Monitoreo Continuo en Moveo es detectar de forma proactiva problemas de rendimiento, disponibilidad y calidad en el frontend y el backend, asegurando que la plataforma mantenga una experiencia óptima para propietarios e inquilinos de vehículos incluso ante cambios frecuentes en el código o picos de demanda.
+
+#### 7.4.1. Tools and Practices
+
+Algunas herramientas y prácticas que se emplearán para llevar a cabo un monitoreo continuo y eficaz en la aplicación Moveo son las siguientes:
+
+- **Pruebas de Carga y Estrés:** JMeter permite simular cargas de usuarios concurrentes y condiciones extremas sobre los endpoints de la API REST del backend, asegurando que el servicio desplegado en Railway mantenga un rendimiento aceptable bajo alta demanda, especialmente en flujos críticos como la búsqueda de vehículos, la creación de reservas y el procesamiento de pagos.
+- **Monitoreo de Experiencia del Usuario:** Vercel Analytics recopila datos de rendimiento basados en visitas reales al frontend de Moveo, incluyendo métricas de Core Web Vitals como LCP (Largest Contentful Paint), FID (First Input Delay) y CLS (Cumulative Layout Shift). Esto proporciona al equipo una perspectiva directa sobre cómo el rendimiento de la aplicación Vue 3 impacta la experiencia de los usuarios finales en producción.
+- **Supervisión de APIs:** Postman Monitor permite configurar ejecuciones programadas de las colecciones de prueba de la API de Moveo, verificando de forma periódica la disponibilidad y el tiempo de respuesta de los endpoints en producción. Esto permite al equipo detectar caídas o degradaciones del servicio sin depender de reportes manuales.
+- **Auditorías de Calidad Web:** Google Lighthouse permite auditar periódicamente el frontend de Moveo desplegado en Vercel, analizando métricas de rendimiento, accesibilidad, buenas prácticas y SEO. Estas auditorías permiten identificar cuellos de botella en la carga de la aplicación y oportunidades de mejora en la experiencia del usuario antes de que se conviertan en problemas perceptibles para los usuarios finales.
+
+#### 7.4.2. Monitoring Pipeline Components
+
+Un pipeline de monitoreo constante integra diversas etapas que ayudan a mantener la calidad y el rendimiento de la plataforma Moveo. Estas etapas incluyen la recopilación de datos, el análisis y la visualización de métricas tanto del frontend como del backend.
+
+Google Lighthouse es ideal para realizar auditorías de calidad periódicas sobre el frontend de Moveo en Vercel, proporcionando análisis detallados de accesibilidad, buenas prácticas, SEO y rendimiento. Esta herramienta permite al equipo identificar problemas que impactan la experiencia del usuario, tales como tiempos de carga elevados, recursos no optimizados y cambios de diseño inesperados (layout shifts).
+
+Vercel Analytics complementa el monitoreo de Lighthouse al ofrecer datos de rendimiento basados en el tráfico real de la plataforma, permitiendo entender cómo los usuarios interactúan con la aplicación Vue 3 desde diferentes dispositivos y conexiones. A diferencia de las auditorías sintéticas, estos datos reflejan la experiencia real de los propietarios e inquilinos que acceden a Moveo en producción.
+
+Railway, por su parte, expone métricas en tiempo real del backend desplegado en C# .NET, incluyendo uso de CPU y memoria del contenedor, logs de ejecución y estado de las conexiones a la base de datos MySQL. Esta visibilidad permite al equipo detectar y resolver problemas de rendimiento del servidor antes de que impacten a los usuarios finales de la plataforma.
+
+#### 7.4.3. Alerting Pipeline Components
+
+El componente de alertas en el pipeline de monitoreo de Moveo es fundamental para la detección y respuesta rápida ante problemas de rendimiento o disponibilidad. Este sistema permite que el equipo sea notificado de forma inmediata cuando ocurren eventos críticos o anomalías que requieren atención.
+
+- **Railway — Alertas de Reinicio y Fallo de Deployment:** Railway notifica automáticamente al equipo cuando el contenedor del backend se reinicia de forma inesperada o cuando el proceso de construcción falla durante un deployment. Estas alertas permiten al equipo identificar regresiones introducidas por un cambio en el código y actuar de inmediato para restaurar la estabilidad del servicio en producción.
+- **GitHub Actions — Status Checks:** Cada ejecución del pipeline de CI/CD en GitHub Actions reporta su estado directamente en los pull requests y en el historial de commits. Si alguna etapa falla, ya sea la compilación, las pruebas unitarias de NUnit, los integration tests o la construcción del bundle de Vue 3, el equipo recibe una notificación en GitHub y el merge hacia main queda bloqueado hasta resolver el problema, previniendo despliegues defectuosos a producción.
+- **Postman Monitor — Alertas de API:** Los monitores de Postman están configurados para notificar al equipo por correo electrónico cuando un endpoint de la API de Moveo responde con un status code inesperado o supera el umbral de tiempo de respuesta definido. Esto actúa como una capa de alerta continua sobre la disponibilidad de los servicios de autenticación, vehículos, reservas y pagos en producción.
+- **Vercel — Deployment Notifications:** Vercel envía notificaciones automáticas al equipo cuando un deployment del frontend falla o cuando el proceso de build presenta errores, permitiendo identificar rápidamente si un cambio en el código rompió la construcción de la aplicación Vue 3 antes de que llegue a los usuarios finales.
+
+La integración de estas herramientas de alerta permite al equipo de Moveo mantener una respuesta proactiva ante incidentes, reduciendo el tiempo de detección y resolución de problemas en producción y minimizando el impacto sobre la experiencia de propietarios e inquilinos.
+
+#### 7.4.4. Notification Pipeline Components.
+
+El pipeline de notificaciones de Moveo es esencial para comunicar de forma automática los resultados de las pruebas y el estado del pipeline a todos los integrantes del equipo. GitHub Actions juega un papel central en este proceso, ya que permite configurar notificaciones detalladas sobre el progreso y los resultados de cada fase del pipeline de CI/CD.
+
+Con GitHub Actions, las notificaciones se generan automáticamente al finalizar cada workflow, informando sobre el éxito o fallo de la compilación, las pruebas unitarias con NUnit, los integration tests con WebApplicationFactory y la construcción del frontend con Vite. Esto permite que el equipo reciba alertas en tiempo real sobre cualquier incidente o fallo introducido por un cambio en el código, facilitando una respuesta inmediata sin necesidad de revisar manualmente los logs.
+
+Railway y Vercel complementan este sistema de notificaciones con alertas específicas sobre el estado de los servicios desplegados en producción, mientras que Postman Monitor añade una capa de visibilidad continua sobre la salud de la API REST de Moveo. En conjunto, estas herramientas conforman un sistema de notificaciones en múltiples capas que cubre desde la etapa de integración del código hasta la verificación continua del servicio en producción, proporcionando al equipo una visión completa del estado de calidad del software en cada ciclo de desarrollo y asegurando que la plataforma Moveo se mantenga estable, disponible y funcional para sus usuarios.
 
 # Conclusiones y recomendaciones
 # Conclusiones
