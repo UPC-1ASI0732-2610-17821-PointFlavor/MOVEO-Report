@@ -396,7 +396,7 @@ A continuación, se adjuntan las evidencias del trabajo colaborativo, incluyendo
         - [6.4.1.1. Información del grupo auditado.](#6411-información-del-grupo-auditado)
         - [6.4.1.2. Cronograma de auditoría realizada.](#6412-cronograma-de-auditoría-realizada)
         - [6.4.1.3. Contenido de auditoría realizada.](#6413-contenido-de-auditoría-realizada)
-      - [6.4.2. Auditoría recibida.**](#642-auditoría-recibida)
+      - [6.4.2. Auditoría recibida.](#642-auditoría-recibida)
         - [6.4.2.1. Información del grupo auditor](#6421-información-del-grupo-auditor)
         - [6.4.2.2. Cronograma de auditoría recibida.](#6422-cronograma-de-auditoría-recibida)
         - [6.4.2.3. Contenido de auditoría recibida.](#6423-contenido-de-auditoría-recibida)
@@ -2785,6 +2785,238 @@ La revisión automática se realiza directamente en el entorno de desarrollo: ES
 ![Historial de commits del repositorio con Conventional Commits](https://i.imgur.com/eq3AJIW.png)
 
 Como criterios de aceptación, el equipo verifica que el código cumpla con los estándares de calidad y no introduzca vulnerabilidades de seguridad, y que las nuevas funcionalidades cuenten con una cobertura de pruebas adecuada. Estas revisiones se realizan de forma regular, preferiblemente al final de cada sprint, para evitar la acumulación de cambios y mantener la calidad de forma sostenida a lo largo del proyecto.
+
+## 6.3. Validation Interviews
+
+En esta sección, el equipo documenta las actividades de validación realizadas con usuarios reales durante el desarrollo del proyecto Moveo. El objetivo es evaluar la usabilidad, claridad y utilidad de la aplicación web a través de entrevistas estructuradas, observación directa de flujos de usuario y análisis heurístico. Todas las sesiones se ejecutaron en entorno web (navegador de escritorio), comenzando desde la **Landing Page** y avanzando por funcionalidades clave del sistema. Los hallazgos obtenidos guían las mejoras del producto y validan las decisiones de diseño. 
+
+
+### 6.3.1. Diseño de Entrevistas.
+
+Esta sección detalla el diseño metodológico de las entrevistas de validación realizadas durante el proyecto **Moveo**. El enfoque se centró exclusivamente en la **versión web** de la aplicación. Cada sesión inició en la Landing Page, replicando el flujo real de un usuario nuevo, y se evaluaron tareas esenciales del sistema. 
+
+El proceso se estructuró en tres fases:
+
+1. **Recolección inicial:** Aplicación de formularios digitales (Google Forms) para identificar perfiles y necesidades.  
+2. **Entrevista cualitativa:** Sesión guiada en la que el participante interactuó con la app web, realizando tareas específicas.  
+3. **Evaluación heurística:** Análisis posterior basado en principios de usabilidad, arquitectura de información y diseño inclusivo.
+
+Se siguieron buenas prácticas de diseño de entrevistas:
+
+- Preguntas abiertas y no sugestivas.  
+- Secuencia lógica: de lo general a lo específico.  
+- Enfoque en comportamientos reales, no hipotéticos.
+
+**Flujos de Usuario Evaluados (User Flows \- Web)**
+
+Durante las entrevistas, se solicitó a los participantes interactuar con los siguientes flujos clave del sistema, iniciando siempre desde la Landing Page:
+
+| **Tarea** | **Descripción** |
+| :---- | :---- |
+| 1\. **Navegación desde el Landing Page** | Acceder al sitio, comprender el valor propuesto, identificar CTA claros ("Regístrate", "Ver autos"). |
+| 2\. **Registro como inquilino o propietario** | Hacer clic en "Regístrate", completar formulario con datos básicos, recibir confirmación. |
+| 3\. **Búsqueda de vehículos disponibles** | Usar filtros (ubicación, fechas, precio) en la vista principal para encontrar autos disponibles. |
+| 4\. **Reserva de un vehículo** | Seleccionar auto, elegir fechas, revisar resumen, simular pago, generar contrato. |
+| 5\. **Apertura de un ticket por incidencia** | Reportar un problema con un vehículo tras la devolución: describir el daño, adjuntar fotos y enviar el ticket para revisión del equipo Moveo. |
+| 6\. **Publicación de un vehículo (propietario)** | Completar formulario con modelo, fotos, precio, disponibilidad. |
+| 7\. **Cancelación de una reserva** | Acceder al historial de reservas, seleccionar una reserva activa y cancelarla antes del inicio del alquiler. |
+
+Estos flujos fueron evaluados en una versión funcional del frontend desplegado en staging, accesible únicamente desde navegador web (Chrome, Safari, Firefox).
+
+
+### 6.3.2. Registro de Entrevistas.
+
+Se realizaron un total de **6 entrevistas de validación**, cumpliendo con el rango requerido de 3 a 5 por segmento (3 propietarios, 3 inquilinos). Cada sesión fue grabada en video, almacenada en Microsoft Stream y referenciada con tiempo exacto de inicio y duración. Todas las pruebas se realizaron en entorno web, iniciando desde la Landing Page.
+
+**Video completo de todas las entrevistas:**  
+[https://acortar.link/4jIxfQ](https://acortar.link/4jIxfQ)
+
+**Segmento 1: Propietarios**
+
+**Entrevistado 1: Alisa Goicochea**
+
+- **Edad:** 22 años  
+- **Ocupación**: Estudiante de Marketing Digital \+ Alquiladora de autos  
+- **Distrito**: Miraflores  
+- **Dispositivos utilizados:** Laptop (MacBook Air), navegador Chrome  
+- **Instante en el que inicia:** 0:00  
+- **Duración de la entrevista:** 2:42 min
+
+**Resumen:**
+Alisa comenzó en el Landing Page y destacó la claridad del mensaje principal: "Alquila tu auto fácil y seguro". Hizo clic en "Regístrate" sin dudar. Valoró positivamente el formulario de registro y publicación, completando ambos flujos en menos de 5 minutos. Evaluó la apertura de un ticket como "clara y útil", especialmente al poder adjuntar fotos del daño. No intentó cancelar una reserva (no aplica a su rol), pero expresó que debería ser posible hacerlo sin penalidad si es con anticipación.
+
+![ValidationInterview#1](https://i.imgur.com/2pnQRSG.png)
+
+**Entrevistado 2: Mathías Peña**
+
+- **Edad:** 24 años  
+- **Ocupación:** Estudiante de Administración (UNI) \+ Emprendedor de alquiler de autos (3 vehículos)  
+- **Distrito:** Surco  
+- **Dispositivos utilizados:** Laptop (MacBook Pro), navegador Safari  
+- **Instante en el que inicia:** 2:43  
+- **Fin de la entrevista:** 5:31 min
+
+**Resumen:**
+Mathías navegó desde el Landing Page, interesándose por la sección "¿Cómo funciona?". Publicó un vehículo rápidamente. Al probar la apertura de un ticket, sugirió permitir adjuntar videos cortos además de fotos. Consideró que el sistema de cancelación debería incluir un resumen de condiciones (¿se devuelve el depósito?) antes de confirmar.
+
+![ValidationInterview#2](https://i.imgur.com/axjrlPA.png)
+
+**Entrevistado 3: Mauricio Salas**
+
+- **Edad:** 22 años  
+- **Ocupación:** Estudiante de Administración (UPC) \+ Freelancer en redes sociales \+ Alquiler de auto  
+- **Distrito:** Miraflores  
+- **Dispositivos utilizados:** Laptop (Lenovo), navegador Chrome  
+- **Instante en el que inicia:** 7:15  
+- **Duración de la entrevista:** 3:37 min
+
+**Resumen:**
+Mauricio completó el flujo de publicación y apertura de ticket. Valoró que el ticket quede vinculado a la reserva específica. Sugirió que al cancelar una reserva, el sistema muestre claramente si hay penalidades o devolución parcial de fondos.
+
+![ValidationInterview#3](https://i.imgur.com/wH786Tb.png)
+
+**Segmento 2: Inquilinos**
+
+**Entrevistado 4: Claudia Sifuentes**
+
+- **Edad:** 21 años  
+- **Ocupación:** Estudiante de Psicología \+ Trabajo media jornada en cafetería  
+- **Distrito:** San Juan de Lurigancho  
+- **Dispositivos utilizados:** Laptop (HP Pavilion), navegador Chrome  
+- **Instante en el que inicia:** 10:53  
+- **Duración de la entrevista:** 3:42 min
+
+**Resumen:**
+Claudia reservó un auto desde el Landing Page. Posteriormente, canceló una reserva simulada y consideró el proceso "simple y transparente". También abrió un ticket por "asiento roto" y valoró que el formulario sea claro. Criticó que no haya un chat integrado para aclarar dudas antes de abrir un ticket.
+
+![ValidationInterview#4](https://i.imgur.com/tC3MInH.png)
+
+**Entrevistado 5: Jackelin Peña Pariona**
+
+- **Edad:** 38 años  
+- **Ocupación:** Ingenieria  
+- **Distrito:** Lima (no especificado)  
+- **Dispositivos utilizados:** Laptop (Dell), navegador Chrome  
+- **Instante en el que inicia:** 13:35  
+- **Duración de la entrevista:** 9:28 min
+
+**Resumen:**
+Gabriel completó la reserva y luego la canceló. Notó que el sistema no muestra un mensaje de confirmación de cancelación por correo. Al abrir un ticket, sugirió incluir categorías predefinidas de incidencias (mecánicas, limpieza, documentación) para agilizar el reporte.
+
+![ValidationInterview#5](https://i.imgur.com/8duzHeO.png)
+
+**Entrevistado 6: Angie Leyva**
+
+- **Edad:** 21 años  
+- **Ocupación**: Estudiante de Comunicación \+ Community Manager freelance  
+- **Distrito:** San Miguel  
+- **Dispositivos utilizados:** Laptop (MacBook Air), navegador Safari  
+- **Instante en el que inicia:** 22:07  
+- **Duración de la entrevista:** 4:40 min
+
+**Resumen:**
+Angie navegó desde el Landing Page y reservó un auto. Al cancelar, solicitó que el sistema muestre un resumen del reembolso esperado. Al abrir un ticket, criticó que no haya un número de seguimiento visible en la interfaz ("¿cómo sé que lo recibieron?"). Recomendó añadir un sistema de notificaciones que confirme la recepción del ticket y cualquier actualización posterior. 
+
+![ValidationInterview#6](https://i.imgur.com/aHMaiN8.png)
+
+### 6.3.3. Evaluacones según heurísticas.
+
+**UX Heuristics & Principles Evaluation**
+
+**Usability – Inclusive Design – Information Architecture**
+
+**CARRERA:** Ingeniería de Software  
+**CURSO:** Diseño de experimentos de Ingeniería de Software  
+**SECCIÓN:** 17821  
+**PROFESORES:** Todos  
+**AUDITOR:** Equipo Moveo  
+**CLIENTES:** Alisa Goicochea, Mathías Peña, Mauricio Salas, Claudia Sifuentes, Jackelin Peña, Angie Leyva  
+**SITE o APP A EVALUAR:** Moveo Web App (Staging)
+
+**TAREAS A EVALUAR:**
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Navegación desde el Landing Page  
+2. Registro de un usuario nuevo (inquilino/propietario)  
+3. Búsqueda de un auto por ubicación y fechas  
+4. Reserva de un vehículo con pago simulado  
+5. Apertura de un ticket por incidencia  
+6. Publicación de un vehículo (propietario)  
+7. Cancelación de una reserva
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+- Versión móvil  
+- Chat en tiempo real  
+- Integración con pasarelas de pago reales  
+- Sistema de notificaciones push  
+- Gestión de flota múltiple
+
+**ESCALA DE SEVERIDAD:**
+
+| **Nivel** | **Descripción** |
+| ----- | ----- |
+| 1 | Problema superficial: puede ser fácilmente superado por el usuario ó ocurre con muy poco frecuencia. |
+| 2 | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. |
+| 4 | Problema muy grave: impide al usuario continuar con el uso de la herramienta. |
+
+**TABLA RESUMEN:**
+
+| \# | **Problema** | **Escala de severidad** | **Heurística/Principio violada** |
+| ----- | ----- | ----- | ----- |
+| 1 | El botón de "Reservar" no permanece visible al hacer scroll en web | 2 | Usability: Libertad y control del usuario |
+| 2 | Falta notificación al cancelar una reserva (email o en app) | 2 | Usability: Visibilidad del estado del sistema |
+| 3 | No existe número de seguimiento visible para tickets | 3 | Usability: Visibilidad del estado del sistema |
+| 4 | Formulario de tickets no incluye categorías predefinidas | 2 | Information Architecture: Is it usable? |
+| 5 | Imágenes de autos no tienen atributo "alt" | 2 | Inclusive Design: Proporciona experiencias comparables |
+| 6 | No hay resumen de condiciones de cancelación antes de confirmar | 2 | Usability: Prevención de errores |
+
+**DESCRIPCIÓN DE PROBLEMAS**
+
+**PROBLEMA \#1: El botón de "Reservar" no permanece visible al hacer scroll en web**
+
+* **Severidad:** 2  
+* **Heurística violada:** Usabilidad \- Libertad y control del usuario  
+* **Problema:** El botón de acción principal se pierde al hacer scroll en páginas largas de detalles del vehículo.  
+* **Recomendación:** Implementar un botón fijo en la parte inferior de la ventana del navegador durante el flujo de reserva.
+
+**PROBLEMA \#2: Falta notificación al cancelar una reserva**
+
+* **Severidad:** 2  
+* **Heurística violada:** Usabilidad \- Visibilidad del estado del sistema  
+* **Problema:** El usuario no recibe confirmación inmediata (ni en la app ni por email) de que su cancelación fue procesada.  
+* **Recomendación:** Mostrar un mensaje en pantalla y enviar un correo de confirmación con detalles de la cancelación.
+
+**PROBLEMA \#3: No existe número de seguimiento visible para tickets**
+
+* **Severidad:** 3  
+* **Heurística violada:** Usabilidad \- Visibilidad del estado del sistema  
+* **Problema:** Tras abrir un ticket, el usuario no ve un número de caso ni actualizaciones, lo que genera incertidumbre.  
+* **Recomendación:** Mostrar inmediatamente un número de ticket (ej: \#MOV-2025-001) y permitir su seguimiento desde el historial.
+
+**PROBLEMA \#4: Formulario de tickets no incluye categorías predefinidas**
+
+* **Severidad:** 2  
+* **Heurística violada:** Information Architecture \- Is it usable?  
+* **Problema:** El usuario debe describir todo el problema desde cero, sin guía.  
+* **Recomendación:** Añadir un dropdown con categorías (Limpieza, Daño mecánico, Daño estético, Documentación, Otro).
+
+**PROBLEMA \#5: Imágenes de autos no tienen atributo "alt"**
+
+* **Severidad:** 2  
+* **Heurística violada:** Inclusive Design \- Proporciona experiencias comparables  
+* **Problema:** Accesibilidad reducida para usuarios con discapacidad visual.  
+* **Recomendación:** Agregar atributos alt descriptivos a todas las imágenes.
+
+**PROBLEMA \#6: No hay resumen de condiciones de cancelación antes de confirmar**
+
+* **Severidad:** 2  
+* **Heurística violada:** Usabilidad \- Prevención de errores  
+* **Problema:** El usuario confirma la cancelación sin saber si habrá penalidades o reembolsos.  
+* **Recomendación:** Mostrar un resumen claro antes del botón de confirmación: "Se devolverá el 80% del pago. ¿Confirmar cancelación?".
+
 
 ## **6.4. Auditoría de Experiencias de Usuario.**
 
