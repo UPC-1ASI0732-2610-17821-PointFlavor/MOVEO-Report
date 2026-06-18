@@ -153,16 +153,52 @@
       <td>Desarrollo de la sección 6.1.3. Core Behavior-Driven Development, incorporando escenarios BDD basados en historias de usuario y criterios de aceptación del proyecto.</td>
     </tr>
     <tr>
-      <td>3.0 (AV3)</td>
+      <td>3.0 (AV2)</td>
+      <td>16/06/2026</td>
+      <td>Goñe Araccata, Esther Abigail</td>
+      <td>Desarrollo de la sección 6.2. Static Testing & Verification, incorporando el análisis estático de código, estándares de codificación, convenciones de código, calidad, seguridad y revisiones realizadas al proyecto.</td>
+    </tr>
+    <tr>
+      <td>3.1 (AV2)</td>
+      <td>16/06/2026</td>
+      <td>Santiago Peña, Andreow Jomark</td>
+      <td>Elaboración de la sección 6.3. Validation Interviews, incluyendo el diseño de entrevistas, registro de entrevistas y evaluaciones del producto según heurísticas de usabilidad.</td>
+    </tr>
+     <tr>
+      <td>3.2 (AV2)</td>
       <td>16/06/2026</td>
       <td>Tumi Oliden, Manuel Ignacio</td>
       <td>Elaboración de la sección 6.4.1. Auditoría realizada, incluyendo la información del grupo auditado, el cronograma y el contenido de la auditoría de experiencias de usuario.</td>
     </tr>
     <tr>
-      <td>3.1 (AV3)</td>
-      <td>17/06/2026</td>
+      <td>3.3 (AV3)</td>
+      <td>16/06/2026</td>
       <td>Tumi Oliden, Manuel Ignacio</td>
       <td>Elaboración de la sección 6.4.2. Auditoría recibida, incluyendo la información del grupo auditor, el cronograma, el contenido de la auditoría y el resumen de modificaciones para subsanar los hallazgos.</td>
+    </tr>
+    <tr>
+      <td>3.4 (AV3)</td>
+      <td>17/06/2026</td>
+      <td>Goñe Araccata, Esther Abigail</td>
+      <td>Elaboración del capítulo VII: DevOps Practices, desarrollando las secciones 7.1. Continuous Integration y 7.2. Continuous Delivery, junto con sus herramientas, prácticas y componentes de pipeline.</td>
+    </tr>
+    <tr>
+      <td>3.5 (AV3)</td>
+      <td>17/06/2026</td>
+      <td>Hancco Poma, Keyner Iván</td>
+      <td>Desarrollo de las secciones 7.3. Continuous Deployment y 7.4. Continuous Monitoring, incorporando herramientas, prácticas, componentes de despliegue en producción, monitoreo, alertas y notificaciones.</td>
+    </tr>
+    <tr>
+      <td>3.6 (AV3)</td>
+      <td>17/06/2026</td>
+      <td>Sulca Silva, Melisa Geraldine</td>
+      <td>Elaboración de la sección 8.1. Experiment Planning y parte de la sección 8.2. Experiment Design, incluyendo As-Is Summary, supuestos, brechas de conocimiento, ideas, claims, preguntas listas para experimentación, backlog de preguntas, experiment cards, hipótesis y métricas de negocio del dominio.</td>
+    </tr>
+    <tr>
+      <td>3.7 (AV3)</td>
+      <td>17/06/2026</td>
+      <td>Santiago Peña, Andreow Jomark</td>
+      <td>Desarrollo de las secciones 8.2.3 a 8.3.2, incorporando measures, conditions, scale calculations, methods selection, objetivos de analítica, KPIs, plan de tracking web y mobile, To-Be User Stories y To-Be Product Backlog.</td>
     </tr>
   </tbody>
 </table>
