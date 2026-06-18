@@ -376,6 +376,16 @@ A continuación, se adjuntan las evidencias del trabajo colaborativo, incluyendo
       - [7.4.2. Monitoring Pipeline Components](#742-monitoring-pipeline-components)
       - [7.4.3. Alerting Pipeline Components](#743-alerting-pipeline-components)
       - [7.4.4. Notification Pipeline Components.](#744-notification-pipeline-components)
+  - [Capítulo VIII: Experiment-Driven Development](#capítulo-viii-experiment-driven-development)
+    - [8.1. Experiment Planning](#81-experiment-planning)
+      - [8.1.1. As-Is Summary.](#811-as-is-summary)
+      - [8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims.](#812-raw-material-assumptions-knowledge-gaps-ideas-claims)
+      - [8.1.3. Experiment-Ready Questions.](#813-experiment-ready-questions)
+      - [8.1.4. Question Backlog.](#814-question-backlog)
+      - [8.1.5. Experiment Cards.](#815-experiment-cards)
+    - [8.2. Experiment Design](#82-experiment-design)
+      - [8.2.1. Hypotheses.](#821-hypotheses)
+      - [8.2.2. Domain Business Metrics](#822-domain-business-metrics)
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
@@ -3426,6 +3436,587 @@ El pipeline de notificaciones de Moveo es esencial para comunicar de forma autom
 Con GitHub Actions, las notificaciones se generan automáticamente al finalizar cada workflow, informando sobre el éxito o fallo de la compilación, las pruebas unitarias con NUnit, los integration tests con WebApplicationFactory y la construcción del frontend con Vite. Esto permite que el equipo reciba alertas en tiempo real sobre cualquier incidente o fallo introducido por un cambio en el código, facilitando una respuesta inmediata sin necesidad de revisar manualmente los logs.
 
 Railway y Vercel complementan este sistema de notificaciones con alertas específicas sobre el estado de los servicios desplegados en producción, mientras que Postman Monitor añade una capa de visibilidad continua sobre la salud de la API REST de Moveo. En conjunto, estas herramientas conforman un sistema de notificaciones en múltiples capas que cubre desde la etapa de integración del código hasta la verificación continua del servicio en producción, proporcionando al equipo una visión completa del estado de calidad del software en cada ciclo de desarrollo y asegurando que la plataforma Moveo se mantenga estable, disponible y funcional para sus usuarios.
+
+## Capítulo VIII: Experiment-Driven Development
+
+### 8.1. Experiment Planning
+
+#### 8.1.1. As-Is Summary.
+
+Actualmente, Moveo cuenta con una aplicación web orientada al alquiler de vehículos entre particulares, donde los propietarios pueden publicar sus autos y los inquilinos pueden buscar, revisar, reservar y gestionar alquileres de manera digital. En el estado actual del producto se observan funcionalidades importantes como registro de usuarios, exploración de vehículos, publicación de autos, reservas, pagos, soporte mediante tickets y gestión de información relacionada con el alquiler.
+
+A partir de lo analizado en la aplicación, se identificó que la sección de exploración de vehículos presenta información relevante como marca, modelo, año, ubicación, precio y características básicas. Sin embargo, algunas “cards” no muestran un botón de acción suficientemente visible, como “Ver detalles” o “Reservar”, lo que puede dificultar que el usuario comprenda cómo continuar. Además, algunas imágenes no se aprecian correctamente o no cuentan con información alternativa descriptiva, lo cual puede afectar la percepción de calidad, confianza y accesibilidad de la plataforma.
+
+En los procesos de reserva, publicación y cancelación también se encontraron oportunidades de mejora. En la vista de detalle del vehículo, el botón principal de “Reservar” puede perder visibilidad al hacer scroll, generando fricción en una acción clave del negocio. En la publicación de vehículos, aunque el formulario por pasos está bien planteado, algunos campos se perciben muy juntos o con contraste irregular, por lo que sería útil mejorar la distribución visual y reforzar los botones de avance o guardado. En la cancelación de reservas, el usuario no recibe una confirmación inmediata suficientemente clara ni visualiza previamente un resumen de condiciones, penalidades o reembolso estimado.
+
+En el módulo de soporte, el formulario de creación de ticket resulta útil, pero puede sentirse cargado por la cantidad de campos. Además, no se aprecia un número de seguimiento visible después de abrir un ticket ni categorías predefinidas que orienten el reporte del problema, lo que puede generar incertidumbre en el usuario. Por ello, esta etapa de experimentación se enfocará en validar mejoras simples de experiencia de usuario, usabilidad, accesibilidad y claridad del sistema, buscando hacer más visible la acción de reservar, reducir dudas en cancelaciones, mejorar el seguimiento de tickets, guiar mejor el reporte de incidencias, reforzar la accesibilidad de imágenes y aumentar la confianza general en Moveo.
+
+#### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims.
+
+**Assumptions**
+
+- **Botón fijo de Reservar:** Se asume que los usuarios tendrán mayor facilidad para avanzar en el flujo de alquiler si el botón de “Reservar” permanece visible durante el scroll en la vista de detalle del vehículo.
+- **Acción visible en cards de vehículos:** Se asume que las cards de vehículos serán más comprensibles si incluyen una acción visible como “Ver detalles” o “Reservar”, evitando que el usuario tenga que deducir que toda la tarjeta es seleccionable.
+- **Formulario de publicación más claro:** Se asume que los propietarios podrán completar con mayor facilidad la publicación de un vehículo si los botones de avance y guardado son más visibles, y si los campos del formulario presentan una mejor separación visual.
+- **Confirmación de cancelación:** Se asume que los usuarios sentirán mayor seguridad al cancelar una reserva si reciben una notificación inmediata en pantalla y un correo de confirmación con los detalles de la cancelación.
+- **Resumen previo de cancelación:** Se asume que mostrar un resumen de condiciones antes de cancelar una reserva reducirá errores y dudas, ya que el usuario conocerá el porcentaje de reembolso, posibles penalidades o consecuencias de la acción.
+- **Seguimiento de tickets:** Se asume que los usuarios confiarán más en el soporte de Moveo si después de crear un ticket reciben un número de seguimiento visible, por ejemplo “#MOV-2025-001”, junto con el estado inicial del caso.
+- **Categorías en tickets:** Se asume que incluir categorías predefinidas en el formulario de tickets facilitará el reporte de incidencias, ya que el usuario no tendrá que describir todo el problema desde cero.
+- **Accesibilidad en imágenes:** Se asume que agregar atributos alt descriptivos a las imágenes de autos mejorará la accesibilidad de la plataforma y permitirá una experiencia más comparable para usuarios con discapacidad visual.
+
+**Knowledge Gaps**
+
+- **Visibilidad de acción en cards:** No se conoce si la falta de un botón visible en las cards de vehículos reduce la cantidad de usuarios que ingresan al detalle o inician una reserva.
+- **Permanencia del botón Reservar:** No se sabe si mantener fijo el botón de “Reservar” durante el scroll aumentará la intención de continuar con el proceso de alquiler.
+- **Comprensión de cancelaciones:** No se conoce si los usuarios comprenden completamente las consecuencias de cancelar una reserva cuando no se muestra previamente un resumen de condiciones, penalidades o reembolso.
+- **Confirmación posterior a la cancelación:** No se sabe si una notificación inmediata después de cancelar una reserva será suficiente para que el usuario perciba que la acción fue procesada correctamente.
+- **Número de seguimiento de ticket:** No se conoce si la ausencia de número de ticket genera incertidumbre significativa en los usuarios que reportan una incidencia.
+- **Categorías más útiles para soporte:** No se sabe qué categorías de tickets son más útiles para los usuarios al reportar problemas relacionados con limpieza, daños mecánicos, daños estéticos, documentación u otros casos.
+- **Impacto de atributos alt:** No se conoce en qué medida la falta de atributos alt en imágenes afecta la experiencia de accesibilidad de usuarios que utilizan lectores de pantalla.
+- **Claridad en publicación de vehículos:** No se sabe si los propietarios encuentran claramente los botones para avanzar o guardar durante la publicación de vehículos.
+
+**Ideas**
+
+- **Botón visible en cards:** Agregar un botón visible en cada card de vehículo con una acción clara como “Ver detalles” o “Reservar”, sin crear nuevas pantallas.
+- **Botón fijo de Reservar:** Implementar un botón de “Reservar” fijo en la parte inferior de la ventana durante el scroll dentro del detalle del vehículo.
+- **Mejora visual del formulario de publicación:** Mejorar la distribución visual del formulario de publicación de vehículos, separando mejor los campos y reforzando la visibilidad de los botones de avance o guardado.
+- **Notificación de cancelación:** Mostrar una notificación inmediata después de cancelar una reserva, indicando que la cancelación fue procesada correctamente.
+- **Correo de confirmación:** Enviar un correo de confirmación con los datos básicos de la cancelación, como vehículo, fecha, monto y estado del reembolso.
+- **Resumen antes de cancelar:** Agregar un resumen antes de confirmar la cancelación, por ejemplo: “Se devolverá el 80% del pago. ¿Confirmar cancelación?”.
+- **Número de ticket visible:** Mostrar un número de ticket visible después de crear una incidencia, acompañado de un estado inicial como “Recibido” o “En revisión”.
+- **Categorías predefinidas en tickets:** Agregar un dropdown de categorías en el formulario de tickets con opciones como Limpieza, Daño mecánico, Daño estético, Documentación y Otro.
+- **Atributos alt descriptivos:** Agregar atributos alt descriptivos a las imágenes de autos, por ejemplo: “Toyota Corolla blanco 2021 disponible para alquiler en Lima”.
+- **Mejora de imágenes de vehículos:** Reemplazar imágenes genéricas o mal cargadas por recursos visuales más consistentes con la identidad de Moveo.
+
+**Claims**
+
+- **Alternativa de alquiler segura:** Moveo afirma que ofrece una alternativa más segura, flexible y accesible frente al alquiler tradicional de vehículos.
+- **Conexión entre propietarios e inquilinos:** Se sostiene que puede conectar eficientemente a propietarios que desean generar ingresos con usuarios que necesitan alquilar un vehículo.
+- **Confianza como valor central:** Se afirma que la confianza es un elemento central de su propuesta de valor, especialmente porque el alquiler ocurre entre particulares.
+- **Facilidad en acciones críticas:** Se sostiene que la plataforma debe facilitar acciones críticas como explorar vehículos, reservar, publicar autos, cancelar reservas y reportar incidencias.
+- **Soporte y seguimiento:** Moveo afirma que los mecanismos de soporte, seguimiento, verificación y comunicación clara ayudan a reducir la incertidumbre del usuario.
+- **Experiencia clara y accesible:** Se sostiene que una experiencia digital clara y accesible puede mejorar la adopción de la plataforma tanto para propietarios como para inquilinos.
+
+#### 8.1.3. Experiment-Ready Questions.
+
+- **Cambio de Visibilidad del Botón Reservar en Detalle de Vehículo:** ¿Mantener fijo el botón de “Reservar” durante el scroll aumentaría la tasa de inicio y finalización del flujo de alquiler por parte de los usuarios?
+- **Cambio de Acción Visible en Cards de Vehículos:** ¿Agregar un botón visible de “Ver detalles” o “Reservar” en las cards aumentaría la cantidad de usuarios que ingresan al detalle del vehículo?
+- **Mejora de Botones de Avance en Publicación de Vehículo:** ¿Hacer más visibles los botones de avance y guardado en el formulario de publicación aumentaría la tasa de vehículos publicados correctamente?
+- **Confirmación Inmediata de Cancelación de Reserva:** ¿Mostrar una notificación en pantalla y enviar un correo después de cancelar una reserva aumentaría la percepción de control del usuario?
+- **Resumen de Condiciones Antes de Cancelar:** ¿Mostrar un resumen claro de penalidades, condiciones y reembolso estimado antes de confirmar una cancelación reduciría la incertidumbre del usuario?
+- **Seguimiento Visible de Tickets:** ¿Mostrar un número de ticket y un estado inicial después de registrar una incidencia aumentaría la confianza del usuario en el soporte de Moveo?
+- **Categorías Predefinidas en Formulario de Tickets:** ¿Agregar categorías como Limpieza, Daño mecánico, Daño estético, Documentación y Otro reduciría el esfuerzo del usuario al reportar incidencias?
+- **Atributos Alt en Imágenes de Autos:** ¿Agregar atributos alt descriptivos a las imágenes de vehículos mejoraría la accesibilidad y comprensión del contenido visual en la plataforma?
+
+#### 8.1.4. Question Backlog.
+
+- **Impacto del Botón Fijo de Reservar:** ¿En qué medida mantener visible el botón de “Reservar” durante el scroll aumentaría la tasa de inicio y finalización del flujo de alquiler?
+- **Seguimiento de Tickets con Número de Caso:** ¿Cuánto aumentaría la confianza del usuario si, después de abrir un ticket, se muestra un número de seguimiento y un estado inicial del caso?
+- **Resumen de Condiciones de Cancelación:** ¿En qué medida mostrar penalidades, condiciones y reembolso estimado antes de cancelar reduciría dudas y errores del usuario?
+- **Confirmación Inmediata de Cancelación:** ¿Qué impacto tendría mostrar una notificación en pantalla y enviar un correo de confirmación en la percepción de control del usuario?
+- **Botón Visible en Cards de Vehículos:** ¿Cuánto aumentaría el ingreso al detalle del vehículo si las cards incluyen una acción clara como “Ver detalles” o “Reservar”?
+- **Categorías Predefinidas en Tickets:** ¿En qué medida agregar categorías de incidencia reduciría el tiempo y esfuerzo necesario para crear un ticket?
+- **Mejora Visual del Formulario de Publicación:** ¿Qué impacto tendría reforzar los botones de avance y guardado en la tasa de publicación de vehículos por parte de propietarios?
+- **Accesibilidad en Imágenes de Vehículos:** ¿Cuánto mejoraría la experiencia accesible si todas las imágenes de autos tuvieran atributos alt descriptivos?
+
+#### 8.1.5. Experiment Cards.
+
+**Experiment Card 1**
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Question</strong></td>
+      <td>¿Cómo afecta a la experiencia del usuario mantener visible el botón de “Reservar” durante el scroll en el detalle del vehículo?</td>
+    </tr>
+    <tr>
+      <td><strong>Why</strong></td>
+      <td>Queremos entender si la acción principal de reserva se pierde visualmente cuando el usuario revisa páginas largas de detalle. Esto es importante porque la reserva es el flujo principal de conversión dentro de Moveo.</td>
+    </tr>
+    <tr>
+      <td><strong>What</strong></td>
+      <td>Se implementará un botón fijo inferior de “Reservar” en la vista de detalle del vehículo y se medirá si los usuarios identifican más rápido la acción y avanzan al flujo de alquiler.</td>
+    </tr>
+    <tr>
+      <td><strong>Hypothesis</strong></td>
+      <td>Mantener visible el botón de “Reservar” aumentará el inicio del flujo de alquiler y reducirá el tiempo necesario para encontrar la acción principal.</td>
+    </tr>
+  </tbody>
+</table>
+
+**Experiment Card 2**
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Question</strong></td>
+      <td>¿Cómo afecta a la experiencia del usuario agregar un número de seguimiento visible después de crear un ticket?</td>
+    </tr>
+    <tr>
+      <td><strong>Why</strong></td>
+      <td>Queremos comprender si la ausencia de un número de casos genera incertidumbre después de reportar una incidencia. Esto es importante porque el soporte influye directamente en la confianza del usuario.</td>
+    </tr>
+    <tr>
+      <td><strong>What</strong></td>
+      <td>Se mostrará una confirmación con número de ticket, por ejemplo “#MOV-2025-001”, junto con un estado inicial como “Recibido” o “En revisión”.</td>
+    </tr>
+    <tr>
+      <td><strong>Hypothesis</strong></td>
+      <td>Mostrar un número de seguimiento y estado inicial aumentará la confianza del usuario y mejorará la comprensión del estado del reclamo.</td>
+    </tr>
+  </tbody>
+</table>
+
+**Experiment Card 3**
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Question</strong></td>
+      <td>¿Cómo afecta a la experiencia del usuario mostrar un resumen de condiciones antes de cancelar una reserva?</td>
+    </tr>
+    <tr>
+      <td><strong>Why</strong></td>
+      <td>Queremos saber si el usuario comprende las consecuencias de cancelar una reserva antes de confirmar la acción. Esto es importante porque puede haber penalidades o reembolsos parciales.</td>
+    </tr>
+    <tr>
+      <td><strong>What</strong></td>
+      <td>Se agregará un mensaje breve antes de confirmar la cancelación, por ejemplo: “Se devolverá el 80% del pago. ¿Confirmar cancelación?”.</td>
+    </tr>
+    <tr>
+      <td><strong>Hypothesis</strong></td>
+      <td>Mostrar un resumen previo de condiciones reducirá la incertidumbre del usuario y disminuirá errores durante la cancelación.</td>
+    </tr>
+  </tbody>
+</table>
+
+**Experiment Card 4**
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Question</strong></td>
+      <td>¿Cómo afecta a la experiencia del usuario recibir una confirmación inmediata después de cancelar una reserva?</td>
+    </tr>
+    <tr>
+      <td><strong>Why</strong></td>
+      <td>Queremos evaluar si una notificación en pantalla y un correo de confirmación permiten que el usuario perciba que la cancelación fue procesada correctamente.</td>
+    </tr>
+    <tr>
+      <td><strong>What</strong></td>
+      <td>Se mostrará un mensaje en pantalla indicando “Reserva cancelada correctamente” y se enviará un correo con los detalles básicos de la cancelación.</td>
+    </tr>
+    <tr>
+      <td><strong>Hypothesis</strong></td>
+      <td>La confirmación inmediata aumentará la percepción de control del usuario y reducirá dudas sobre el estado de su reserva.</td>
+    </tr>
+  </tbody>
+</table>
+
+**Experiment Card 5**
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Question</strong></td>
+      <td>¿Cómo afecta a la experiencia del usuario agregar categorías predefinidas en el formulario de tickets?</td>
+    </tr>
+    <tr>
+      <td><strong>Why</strong></td>
+      <td>Queremos identificar si el usuario reporta incidencias con menor esfuerzo cuando no tiene que describir todo el problema desde cero.</td>
+    </tr>
+    <tr>
+      <td><strong>What</strong></td>
+      <td>Se agregará un dropdown con categorías como Limpieza, Daño mecánico, Daño estético, Documentación y Otro.</td>
+    </tr>
+    <tr>
+      <td><strong>Hypothesis</strong></td>
+      <td>Las categorías predefinidas reducirán el tiempo de creación del ticket y mejorarán la claridad del reporte enviado.</td>
+    </tr>
+  </tbody>
+</table>
+
+**Experiment Card 6**
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Question</strong></td>
+      <td>¿Cómo afecta a la experiencia del usuario agregar un botón visible en las cards de vehículos?</td>
+    </tr>
+    <tr>
+      <td><strong>Why</strong></td>
+      <td>Queremos entender si los usuarios reconocen más rápido cómo avanzar desde la exploración hacia el detalle del vehículo o la reserva.</td>
+    </tr>
+    <tr>
+      <td><strong>What</strong></td>
+      <td>Se añadirá un botón visible dentro de cada card con el texto “Ver detalles” o “Reservar”, sin crear una nueva pantalla.</td>
+    </tr>
+    <tr>
+      <td><strong>Hypothesis</strong></td>
+      <td>Agregar un botón visible en las cards aumentará la cantidad de usuarios que ingresan al detalle del vehículo.</td>
+    </tr>
+  </tbody>
+</table>
+
+**Experiment Card 7**
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Question</strong></td>
+      <td>¿Cómo afecta a la experiencia accesible del usuario agregar atributos alt descriptivos en imágenes de vehículos?</td>
+    </tr>
+    <tr>
+      <td><strong>Why</strong></td>
+      <td>Queremos asegurar que las imágenes de autos puedan ser comprendidas también por usuarios que utilizan lectores de pantalla.</td>
+    </tr>
+    <tr>
+      <td><strong>What</strong></td>
+      <td>Se agregarán descripciones alt a las imágenes principales de autos, como “Nissan Versa gris 2020 disponible para alquiler en Lima”.</td>
+    </tr>
+    <tr>
+      <td><strong>Hypothesis</strong></td>
+      <td>Los atributos alt descriptivos mejorarán la accesibilidad y la comprensión del contenido visual de la plataforma.</td>
+    </tr>
+  </tbody>
+</table>
+
+### 8.2. Experiment Design
+
+#### 8.2.1. Hypotheses.
+
+<table>
+  <thead>
+    <tr>
+      <th>Hipótesis 1</th>
+      <th>Botón fijo de “Reservar” en detalle de vehículo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Question</strong></td>
+      <td>¿Mantener visible el botón de “Reservar” durante el scroll aumenta el inicio y finalización del flujo de alquiler?</td>
+    </tr>
+    <tr>
+      <td><strong>Data Analyze</strong></td>
+      <td>Para este análisis se utilizará Google Analytics para medir eventos de clic en “Reservar”, Vercel Analytics para observar comportamiento general y rendimiento de la página, Hotjar Heatmaps para analizar zonas de atención visual y Google Lighthouse para revisar si el cambio no afecta rendimiento ni accesibilidad. Se comparará la versión actual con una versión donde el botón permanece fijo en la parte inferior de la ventana.</td>
+    </tr>
+    <tr>
+      <td><strong>Hypothesis</strong></td>
+      <td>Mantener visible el botón de “Reservar” aumentará la tasa de clic en la acción principal y reducirá el tiempo que tarda el usuario en iniciar el flujo de alquiler.</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Hipótesis 2</th>
+      <th>Número de seguimiento visible para tickets</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Question</strong></td>
+      <td>¿Mostrar un número de seguimiento y estado inicial después de abrir un ticket aumenta la confianza del usuario en el soporte?</td>
+    </tr>
+    <tr>
+      <td><strong>Data Analyze</strong></td>
+      <td>Se utilizará Google Analytics para medir la finalización del flujo de creación de tickets, Postman Monitor para verificar disponibilidad y tiempo de respuesta del endpoint de tickets, y encuestas post-tarea para medir confianza percibida. También se revisará si el usuario identifica correctamente el código y estado del ticket después de enviarlo.</td>
+    </tr>
+    <tr>
+      <td><strong>Hypothesis</strong></td>
+      <td>Mostrar un número de ticket y un estado inicial aumentará la confianza del usuario y reducirá la incertidumbre después de reportar una incidencia.</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Hipótesis 3</th>
+      <th>Resumen de condiciones antes de cancelar</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Question</strong></td>
+      <td>¿Mostrar un resumen de penalidades, condiciones y reembolso estimado antes de cancelar reduce la incertidumbre del usuario?</td>
+    </tr>
+    <tr>
+      <td><strong>Data Analyze</strong></td>
+      <td>Se utilizará Google Analytics para medir eventos de cancelación iniciada y cancelación confirmada, Hotjar Heatmaps para observar si los usuarios revisan el resumen antes de confirmar, y encuestas post-tarea para medir comprensión de condiciones. Postman Monitor se usará para verificar que el endpoint de cancelación responda correctamente.</td>
+    </tr>
+    <tr>
+      <td><strong>Hypothesis</strong></td>
+      <td>Mostrar un resumen previo a la cancelación reducirá dudas del usuario y aumentará la comprensión de las consecuencias antes de confirmar la acción.</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Hipótesis 4</th>
+      <th>Confirmación inmediata después de cancelar</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Question</strong></td>
+      <td>¿Mostrar una notificación en pantalla y enviar un correo después de cancelar aumenta la percepción de control del usuario?</td>
+    </tr>
+    <tr>
+      <td><strong>Data Analyze</strong></td>
+      <td>Se utilizará Google Analytics para medir la finalización del flujo de cancelación, Postman Monitor para verificar la respuesta del endpoint asociado a la cancelación y el envío de confirmación, y encuestas post-tarea para medir si el usuario entiende que la acción fue procesada.</td>
+    </tr>
+    <tr>
+      <td><strong>Hypothesis</strong></td>
+      <td>La confirmación inmediata después de cancelar aumentará la percepción de control y reducirá dudas sobre el estado de la reserva.</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Hipótesis 5</th>
+      <th>Categorías predefinidas en formulario de tickets</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Question</strong></td>
+      <td>¿Agregar categorías predefinidas en el formulario de tickets reduce el esfuerzo del usuario al reportar incidencias?</td>
+    </tr>
+    <tr>
+      <td><strong>Data Analyze</strong></td>
+      <td>Se utilizará Google Analytics para medir eventos de selección de categoría y envío de ticket, Postman Monitor para verificar estabilidad del endpoint de tickets, y Hotjar Heatmaps para analizar interacción con el dropdown. Se comparará el tiempo promedio de creación de tickets antes y después del cambio.</td>
+    </tr>
+    <tr>
+      <td><strong>Hypothesis</strong></td>
+      <td>Agregar categorías predefinidas reducirá el tiempo de creación del ticket y mejorará la claridad del reporte enviado.</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Hipótesis 6</th>
+      <th>Botón visible en cards de vehículos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Question</strong></td>
+      <td>¿Agregar un botón visible en las cards aumenta la cantidad de usuarios que ingresan al detalle del vehículo?</td>
+    </tr>
+    <tr>
+      <td><strong>Data Analyze</strong></td>
+      <td>Se utilizará Google Analytics para medir clics en cards y clics en el botón “Ver detalles” o “Reservar”. También se usará Hotjar Heatmaps para analizar si el botón concentra más atención visual y Vercel Analytics para observar el comportamiento general de navegación en la sección de exploración.</td>
+    </tr>
+    <tr>
+      <td><strong>Hypothesis</strong></td>
+      <td>Agregar un botón visible en las cards aumentará el ingreso al detalle del vehículo y reducirá el tiempo que tarda el usuario en seleccionar un auto.</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Hipótesis 7</th>
+      <th>Atributos alt en imágenes de vehículos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Question</strong></td>
+      <td>¿Agregar atributos alt descriptivos a las imágenes de autos mejora la accesibilidad de la plataforma?</td>
+    </tr>
+    <tr>
+      <td><strong>Data Analyze</strong></td>
+      <td>Se utilizará Google Lighthouse para auditar accesibilidad antes y después del cambio. Además, se verificará manualmente que las imágenes principales tengan atributos alt descriptivos y se podrá complementar con una prueba usando lector de pantalla.</td>
+    </tr>
+    <tr>
+      <td><strong>Hypothesis</strong></td>
+      <td>Agregar atributos alt descriptivos mejorará la puntuación de accesibilidad y permitirá una experiencia más comprensible para usuarios que dependen de lectores de pantalla.</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 8.2.2. Domain Business Metrics
+
+Esta sección define las métricas de negocio que serán utilizadas para evaluar los experimentos propuestos de nuestra plataforma Moveo. El objetivo es asegurar que cada hipótesis se vincule directamente con indicadores concretos, medibles y útiles para la toma de decisiones del producto. De esta manera, se evita el uso de vanity metrics o datos aislados que no reflejen el impacto real de las mejoras en la experiencia del usuario, la confianza, la reserva de vehículos, la cancelación y el soporte. Cabe aclarar que las métricas seleccionadas se enfocan en los flujos críticos de Moveo como la exploración de vehículos, inicio de reserva, publicación de autos, cancelación de reservas, creación de tickets, seguimiento de incidencias, accesibilidad y satisfacción del usuario.
+
+<table>
+  <thead>
+    <tr>
+      <th>Métrica de negocio</th>
+      <th>Descripción</th>
+      <th>Fórmula de cálculo</th>
+      <th>Técnica de recolección</th>
+      <th>Herramienta</th>
+      <th>Objetivo de Mejora</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Tasa de Clic en Reservar</td>
+      <td>Mide cuántos usuarios presionan el botón principal de reserva dentro del detalle del vehículo.</td>
+      <td>Clics en “Reservar” / visitas al detalle del vehículo × 100</td>
+      <td>Registro de eventos de clic.</td>
+      <td>Google Analytics, Vercel Analytics</td>
+      <td>Incrementar la interacción con la acción principal del flujo de alquiler.</td>
+    </tr>
+    <tr>
+      <td>Tasa de Inicio de Reserva</td>
+      <td>Mide cuántos usuarios comienzan el flujo de alquiler después de revisar un vehículo.</td>
+      <td>Reservas iniciadas / visitas al detalle del vehículo × 100</td>
+      <td>Tracking de eventos dentro del flujo de reserva.</td>
+      <td>Google Analytics</td>
+      <td>Aumentar el avance desde la exploración hacia la reserva.</td>
+    </tr>
+    <tr>
+      <td>Tasa de Reserva Completada</td>
+      <td>Mide cuántos usuarios finalizan correctamente el proceso de alquiler.</td>
+      <td>Reservas confirmadas / reservas iniciadas × 100</td>
+      <td>Registro de eventos de confirmación de reserva.</td>
+      <td>Google Analytics, Backend Logs</td>
+      <td>Incrementar la conversión del flujo principal de negocio.</td>
+    </tr>
+    <tr>
+      <td>Tasa de Ingreso al Detalle del Vehículo</td>
+      <td>Mide cuántos usuarios pasan desde una card hacia la vista de detalle.</td>
+      <td>Ingresos al detalle / visualizaciones de cards × 100</td>
+      <td>Tracking de clics en cards y botones.</td>
+      <td>Google Analytics, Hotjar Heatmaps</td>
+      <td>Validar si el botón visible en cards mejora la navegación.</td>
+    </tr>
+    <tr>
+      <td>Tiempo para Encontrar la Acción Principal</td>
+      <td>Mide cuánto tarda el usuario en ubicar el botón de “Reservar”.</td>
+      <td>Tiempo promedio desde ingreso al detalle hasta clic en “Reservar”.</td>
+      <td>Prueba de usabilidad y análisis de comportamiento.</td>
+      <td>Hotjar Heatmaps, Google Analytics</td>
+      <td>Reducir el esfuerzo de navegación en la vista de detalle.</td>
+    </tr>
+    <tr>
+      <td>Tasa de Publicación de Vehículos</td>
+      <td>Mide cuántos propietarios logran publicar un vehículo.</td>
+      <td>Vehículos publicados / propietarios registrados × 100</td>
+      <td>Registro de publicaciones completadas.</td>
+      <td>Google Analytics, Backend Logs</td>
+      <td>Incrementar la oferta disponible de vehículos en Moveo.</td>
+    </tr>
+    <tr>
+      <td>Tiempo Promedio de Publicación</td>
+      <td>Mide cuánto tarda un propietario en completar el registro de un vehículo.</td>
+      <td>Suma del tiempo de publicación / número de publicaciones completadas.</td>
+      <td>Medición del tiempo de tarea.</td>
+      <td>Google Analytics, Vercel Analytics</td>
+      <td>Reducir fricción en el formulario de publicación.</td>
+    </tr>
+    <tr>
+      <td>Tasa de Cancelaciones Confirmadas Correctamente</td>
+      <td>Mide cuántos usuarios reconocen que su cancelación fue procesada.</td>
+      <td>Usuarios que reconocen la confirmación / usuarios que cancelaron × 100</td>
+      <td>Encuesta post-tarea y validación de evento de cancelación.</td>
+      <td>Google Analytics, Encuesta post-tarea</td>
+      <td>Mejorar la visibilidad del estado del sistema después de cancelar.</td>
+    </tr>
+    <tr>
+      <td>Comprensión de Condiciones de Cancelación</td>
+      <td>Mide si el usuario entiende penalidades, reembolso y consecuencias antes de cancelar.</td>
+      <td>Usuarios que responden correctamente / usuarios evaluados × 100</td>
+      <td>Preguntas post-tarea sobre el resumen de cancelación.</td>
+      <td>Encuesta post-tarea</td>
+      <td>Prevenir errores mediante un resumen claro antes de confirmar.</td>
+    </tr>
+    <tr>
+      <td>Tasa de Tickets Enviados Correctamente</td>
+      <td>Mide cuántos usuarios logran registrar una incidencia sin ayuda.</td>
+      <td>Tickets enviados correctamente / intentos de creación de ticket × 100</td>
+      <td>Registro de creación de tickets.</td>
+      <td>Google Analytics, Postman Monitor, Backend Logs</td>
+      <td>Mejorar la usabilidad del módulo de soporte.</td>
+    </tr>
+    <tr>
+      <td>Tiempo de Creación de Ticket</td>
+      <td>Mide cuánto tarda el usuario en completar y enviar un ticket.</td>
+      <td>Suma del tiempo de creación de tickets / número de tickets enviados.</td>
+      <td>Medición del tiempo de tarea.</td>
+      <td>Google Analytics, Hotjar Heatmaps</td>
+      <td>Reducir el esfuerzo mediante categorías predefinidas.</td>
+    </tr>
+    <tr>
+      <td>Comprensión del Estado del Ticket</td>
+      <td>Mide si el usuario identifica correctamente el código y estado de su caso.</td>
+      <td>Usuarios que identifican código y estado / usuarios evaluados × 100</td>
+      <td>Encuesta post-tarea y observación del flujo.</td>
+      <td>Encuesta post-tarea, Google Analytics</td>
+      <td>Aumentar confianza mediante seguimiento visible.</td>
+    </tr>
+    <tr>
+      <td>Tasa de Clasificación Correcta de Tickets</td>
+      <td>Mide si el usuario selecciona una categoría adecuada para su incidencia.</td>
+      <td>Tickets correctamente categorizados / tickets enviados × 100</td>
+      <td>Revisión de tickets enviados y categoría seleccionada.</td>
+      <td>Backend Logs, Google Analytics</td>
+      <td>Organizar mejor el soporte y reducir ambigüedad en reportes.</td>
+    </tr>
+    <tr>
+      <td>Cobertura de Atributos Alt</td>
+      <td>Mide cuántas imágenes principales de vehículos cuentan con descripción accesible.</td>
+      <td>Imágenes con alt descriptivo / imágenes totales × 100</td>
+      <td>Auditoría de accesibilidad.</td>
+      <td>Google Lighthouse</td>
+      <td>Mejorar accesibilidad en contenido visual.</td>
+    </tr>
+    <tr>
+      <td>Puntuación de Accesibilidad</td>
+      <td>Mide el nivel de accesibilidad del frontend.</td>
+      <td>Puntaje obtenido en auditoría de accesibilidad.</td>
+      <td>Auditoría web antes y después del cambio.</td>
+      <td>Google Lighthouse</td>
+      <td>Elevar la calidad accesible de la plataforma.</td>
+    </tr>
+    <tr>
+      <td>Nivel de Confianza Percibida</td>
+      <td>Evalúa qué tan seguro se siente el usuario al usar Moveo.</td>
+      <td>Promedio de puntuaciones en escala del 1 al 5.</td>
+      <td>Encuesta post-tarea.</td>
+      <td>Encuesta post-tarea.</td>
+      <td>Aumentar la confianza en reserva, cancelación y soporte.</td>
+    </tr>
+    <tr>
+      <td>Satisfacción del Usuario</td>
+      <td>Mide la valoración general después de completar una tarea.</td>
+      <td>Promedio CSAT en escala del 1 al 5.</td>
+      <td>Encuesta post-tarea.</td>
+      <td>Encuesta post-tarea.</td>
+      <td>Mejorar la percepción global de usabilidad y claridad.</td>
+    </tr>
+    <tr>
+      <td>Rendimiento de Página</td>
+      <td>Mide la carga, interacción y estabilidad visual del frontend.</td>
+      <td>LCP, FID/INP y CLS según Core Web Vitals.</td>
+      <td>Monitoreo de experiencia real y auditoría web.</td>
+      <td>Vercel Analytics, Google Lighthouse</td>
+      <td>Evitar que las mejoras visuales afecten negativamente el rendimiento.</td>
+    </tr>
+    <tr>
+      <td>Tiempo de Respuesta de Endpoints Críticos</td>
+      <td>Mide la estabilidad de servicios como reserva, cancelación y tickets.</td>
+      <td>Tiempo promedio de respuesta de endpoints críticos.</td>
+      <td>Monitoreo programado y pruebas de carga.</td>
+      <td>Postman Monitor, JMeter</td>
+      <td>Asegurar que las mejoras funcionen correctamente bajo demanda.</td>
+    </tr>
+  </tbody>
+</table>
 
 # Conclusiones y recomendaciones
 # Conclusiones
