@@ -426,6 +426,15 @@ A continuación, se adjuntan las evidencias del trabajo colaborativo, incluyendo
     - [8.2. Experiment Design](#82-experiment-design)
       - [8.2.1. Hypotheses.](#821-hypotheses)
       - [8.2.2. Domain Business Metrics](#822-domain-business-metrics)
+      - [8.2.3. Measures](#823-measures)
+      - [8.2.4. Conditions](#824-conditions)
+      - [8.2.5. Scale Calculations and Decisions](#825-scale-calculations-and-decisions)
+      - [8.2.6. Methods Selection](#826-methods-selection)
+      - [8.2.7. Data Analytics: Goals, KPIs and Metrics Selection](#827-data-analytics-goals-kpis-and-metrics-selection)
+      - [8.2.8. Web and Mobile Tracking Plan](#828-web-and-mobile-tracking-plan)
+    - [8.3. Experimentation](#83-experimentation)
+      - [8.3.1. To-Be User Stories](#831-to-be-user-stories)
+      - [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -4290,6 +4299,173 @@ Esta sección define las métricas de negocio que serán utilizadas para evaluar
   </tbody>
 </table>
 
+  
+#### 8.2.3. Measures
+
+Esta sección define las medidas concretas que se recolectarán para responder cada pregunta principal planteada en 8.1.3 y validar o refutar las hipótesis de 8.2.1. Se seleccionaron únicamente las métricas estrictamente necesarias de las ya definidas en 8.2.2, evitando vanity metrics, y se les añade una meta cuantificada (deseada) que no estaba explícita en la tabla de Domain Business Metrics. Cada medida se recolectará solo durante la ventana de tiempo necesaria para alcanzar el tamaño de muestra calculado en 8.2.5, minimizando costo y riesgo de mantener instrumentación activa de forma indefinida.
+
+| Hipótesis | Métrica(s) Seleccionada(s) | Técnica de Recolección | Meta Deseada |
+|---|---|---|---|
+| H1 – Botón fijo "Reservar" | Tasa de Clic en Reservar; Tiempo para Encontrar la Acción Principal | Eventos de clic (Google Analytics, Vercel Analytics) | Aumentar la tasa de clic en "Reservar" en al menos 10 puntos porcentuales y reducir el tiempo de localización del botón en 30% |
+| H2 – Número de seguimiento de tickets | Comprensión del Estado del Ticket; Nivel de Confianza Percibida (soporte) | Encuesta post-tarea | Que al menos 90% de usuarios evaluados identifiquen correctamente código y estado; subir el puntaje promedio de confianza en soporte en al menos 1 punto (escala 1-5) |
+| H3 – Resumen antes de cancelar | Comprensión de Condiciones de Cancelación | Encuesta post-tarea | Que al menos 85% de usuarios respondan correctamente sobre penalidad/reembolso tras ver el resumen |
+| H4 – Confirmación inmediata al cancelar | Tasa de Cancelaciones Confirmadas Correctamente | Encuesta post-tarea + evento de cancelación | Incrementar a 90%+ los usuarios que reconocen que la cancelación fue procesada |
+| H5 – Categorías predefinidas en tickets | Tasa de Tickets Enviados Correctamente; Tiempo de Creación de Ticket; Tasa de Clasificación Correcta | Registro de eventos (Backend Logs, Google Analytics) | Reducir el tiempo promedio de creación de ticket en 25% y subir la clasificación correcta a 90%+ |
+| H6 – Botón visible en cards | Tasa de Ingreso al Detalle del Vehículo | Eventos de clic (Google Analytics, Hotjar Heatmaps) | Incrementar en al menos 20% el ingreso al detalle desde las cards |
+| H7 – Atributos alt en imágenes | Cobertura de Atributos Alt; Puntuación de Accesibilidad | Auditoría web (Google Lighthouse) | Alcanzar 100% de cobertura alt en imágenes principales y subir el puntaje de accesibilidad en al menos 5 puntos |
+
+---
+
+#### 8.2.4. Conditions
+
+Las siete hipótesis de Moveo corresponden a preguntas basadas en creencias (¿el cambio propuesto mejora el comportamiento/percepción del usuario?), por lo que cada experimento define una condición experimental (favorece la hipótesis alternativa) y una condición de control (supone que no habrá cambio, hipótesis nula).
+
+| Hipótesis | Condición Experimental | Condición de Control |
+|---|---|---|
+| H1 | Botón "Reservar" fijo en la parte inferior de la pantalla durante el scroll | Botón "Reservar" en su posición actual, sin fijar (versión AS-IS) |
+| H2 | El sistema muestra número de seguimiento (ej. "#MOV-2025-001") y estado inicial tras crear un ticket | El sistema confirma la creación sin mostrar número ni estado visible (versión AS-IS) |
+| H3 | Se muestra un resumen de condiciones, penalidad y reembolso antes de confirmar la cancelación | Se confirma la cancelación directamente sin resumen previo (versión AS-IS) |
+| H4 | Tras cancelar, se muestra notificación en pantalla y se envía correo de confirmación | Tras cancelar, no hay notificación adicional ni correo (versión AS-IS) |
+| H5 | El formulario de ticket incluye un dropdown con categorías predefinidas | El formulario de ticket solo tiene campo de descripción libre (versión AS-IS) |
+| H6 | Las cards de vehículos muestran un botón visible "Ver detalles"/"Reservar" | Las cards son clicleables en su totalidad sin botón visible (versión AS-IS) |
+| H7 | Las imágenes principales de vehículos cuentan con atributo alt descriptivo | Las imágenes no cuentan con atributo alt o usan uno genérico (versión AS-IS) |
+
+
+---
+
+#### 8.2.5. Scale Calculations and Decisions
+
+Para determinar el tamaño de muestra necesario por experimento se usó la fórmula estándar de comparación de dos proporciones, con un Poder Estadístico del 80% (Zβ = 0.84) y un Nivel de Significación del 5% a dos colas (Zα/2 = 1.96), valores típicos para reducir errores Tipo II y Tipo I respectivamente:
+
+```
+n = 2 × (Zα/2 + Zβ)² × p̄(1-p̄) / d²
+```
+
+Donde **p̄** es el promedio entre la tasa base asumida (p1) y la meta deseada (p2), y **d** es el Efecto Mínimo Detectable (MDE), es decir la diferencia mínima que se busca identificar.
+
+Como Moveo aún no cuenta con tráfico histórico real suficiente (producto académico en etapa MVP), las tasas base (p1) son estimaciones razonables a partir de los hallazgos de entrevistas y deberán recalibrarse una vez el Tracking Plan (8.2.8) recolecte datos reales.
+
+| Hipótesis | Métrica Principal | Baseline Asumido (p1) | MDE (d) | Meta (p2) | n por grupo (aprox.) | n total (aprox.) |
+|---|---|---|---|---|---|---|
+| H1 | Tasa de Clic en Reservar | 20% | 10 pp | 30% | ≈294 | ≈588 |
+| H6 | Tasa de Ingreso al Detalle | 30% | 8 pp | 38% | ≈550 | ≈1100 |
+| H3 | Comprensión de Condiciones de Cancelación | 50% | 20 pp | 70% | ≈95 | ≈190 |
+| H4 | Tasa de Cancelaciones Confirmadas Correctamente | 55% | 20 pp | 75% | ≈90 | ≈180 |
+| H2 | Comprensión del Estado del Ticket | 45% | 25 pp | 70% | ≈62 | ≈124 |
+| H5 | Tasa de Clasificación Correcta de Tickets | 50% | 20 pp | 70% | ≈95 | ≈190 |
+| H7 | Cobertura de Atributos Alt | — | — | 100% | No aplica cálculo estadístico (es una verificación de cumplimiento, no una prueba de comportamiento) | — |
+
+**Decisiones de escala:** dado el tráfico aún limitado de Moveo, se seguirá un enfoque progresivo:
+
+1. **Piloto cualitativo:** antes de buscar el tamaño de muestra estadístico completo, se evaluará cada cambio con un grupo pequeño (5 a 8 usuarios, siguiendo la heurística de Nielsen para pruebas de usabilidad), priorizando a los mismos perfiles ya entrevistados (Miraflores, Surco, San Juan de Lurigancho, San Miguel).
+2. **Expansión progresiva:** una vez validado cualitativamente, se expone el experimento al resto de usuarios registrados hasta alcanzar el n calculado por grupo.
+3. **Ajuste por disponibilidad de tráfico:** si el tráfico real no permite alcanzar el n calculado en un plazo razonable (2-3 semanas), se documentará como limitación y se priorizará la evidencia cualitativa complementaria (encuestas post-tarea) sobre la significancia estadística estricta.
+
+---
+
+#### 8.2.6. Methods Selection
+
+Siguiendo el principio de "Simplest Useful Thing" (la cosa más simple y útil que permita alcanzar las condiciones y el tamaño de muestra calculados), se seleccionaron los siguientes métodos:
+
+| Hipótesis | Método Seleccionado | Justificación |
+|---|---|---|
+| H1, H6 | A/B Test mediante feature flag / renderizado condicional en Vue (split 50/50) | No requiere cambios de backend; es el método más simple capaz de aislar el efecto del cambio de UI |
+| H3, H4 | A/B Test sobre el flujo de cancelación + micro-encuesta post-tarea (1 pregunta) | El comportamiento se mide con evento, pero la comprensión/percepción de control requiere una pregunta directa al usuario |
+| H2, H5 | A/B Test sobre el formulario de tickets + encuesta post-tarea | Igual razón que H3/H4: comportamiento medible por evento, comprensión medible por encuesta |
+| H7 | Auditoría antes/después (Google Lighthouse) + prueba cualitativa con usuarios de lector de pantalla | No es una preferencia de comportamiento sino un cumplimiento técnico; un A/B test no aporta valor adicional sobre una auditoría directa |
+
+**Regla ética y de diseño — no solapar experimentos:** Moveo no ejecutará dos experimentos simultáneos que expongan a un mismo usuario a ambos tratamientos dentro del mismo flujo, ya que esto impediría atribuir el resultado a una sola causa. Para cumplir esta regla, los experimentos se agrupan y secuencian así:
+
+| Grupo de Flujo | Hipótesis Involucradas | Tratamiento |
+|---|---|---|
+| Exploración y Reserva | H1, H6 | Se ejecutan en secuencia (no en paralelo), ya que ambas afectan el mismo embudo card → detalle → reserva |
+| Cancelación | H3, H4 | Se ejecutan en secuencia, ya que ambas afectan el mismo flujo de cancelación |
+| Soporte / Tickets | H2, H5 | Se ejecutan en secuencia, ya que ambas afectan el mismo formulario |
+| Accesibilidad | H7 | Independiente; puede ejecutarse en paralelo a los demás grupos porque no interfiere con las métricas de conversión medidas en los otros flujos |
+
+**Secuencia propuesta:** Sprint 1: H6 + H7 (en paralelo, sin solapamiento de flujo) → Sprint 2: H1 → Sprint 3: H4 → Sprint 4: H3 → Sprint 5: H5 → Sprint 6: H2.
+
+---
+
+#### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection
+
+Se consolida aquí la selección final de KPIs por hipótesis, asegurando economía de tracking (solo lo necesario de la lista completa de 8.2.2) y vinculando cada KPI al objetivo de negocio SMART ya definido en el Impact Map (sección 3.4: alcanzar 500 usuarios en 6 meses).
+
+| Hipótesis | KPI Final Seleccionado | Vínculo con el Objetivo de Negocio |
+|---|---|---|
+| H1 | Tasa de Clic en Reservar | Aumenta conversión del flujo principal → más reservas completadas → crecimiento de usuarios activos |
+| H6 | Tasa de Ingreso al Detalle del Vehículo | Mejora la entrada al embudo de reserva, primer paso para alcanzar la meta de 500 usuarios |
+| H3 | Comprensión de Condiciones de Cancelación | Reduce fricción y desconfianza, factor clave identificado en entrevistas como barrera de adopción |
+| H4 | Tasa de Cancelaciones Confirmadas Correctamente | Aumenta percepción de control, favoreciendo la retención de usuarios |
+| H2 | Comprensión del Estado del Ticket | Aumenta confianza en el soporte, reduciendo abandono tras una mala experiencia |
+| H5 | Tasa de Clasificación Correcta de Tickets | Mejora la calidad del soporte y reduce tiempos de resolución, lo que retiene usuarios |
+| H7 | Cobertura de Atributos Alt / Puntuación de Accesibilidad | Amplía el alcance de mercado a usuarios con discapacidad visual, alineado con la visión de Moveo de ser una plataforma inclusiva |
+
+---
+
+#### 8.2.8. Web and Mobile Tracking Plan
+
+A continuación se define el plan de instrumentación de eventos necesario para recolectar las medidas seleccionadas. Los nombres de evento siguen `snake_case` en inglés, consistente con la convención de código en inglés ya adoptada por el equipo (sección 5.1.3).
+
+| Evento | Disparador (Trigger) | Plataforma | Propiedades | Herramienta | Hipótesis Relacionada |
+|---|---|---|---|---|---|
+| `view_vehicle_card` | El usuario visualiza una card en la sección de exploración | Web | `vehicle_id`, `has_visible_button` | Google Analytics | H6 |
+| `click_vehicle_card_button` | El usuario hace clic en el botón "Ver detalles"/"Reservar" de la card | Web | `vehicle_id` | Google Analytics, Hotjar Heatmaps | H6 |
+| `view_vehicle_detail` | El usuario ingresa a la vista de detalle del vehículo | Web | `vehicle_id`, `entry_point` | Google Analytics | H1, H6 |
+| `click_reserve_button` | El usuario hace clic en el botón "Reservar" | Web | `vehicle_id`, `button_position` (`sticky` / `static`) | Google Analytics, Vercel Analytics | H1 |
+| `start_reservation` | Se inicia el flujo de reserva | Web | `vehicle_id` | Google Analytics, Backend Logs | H1, H6 |
+| `complete_reservation` | Se confirma la reserva exitosamente | Web | `vehicle_id`, `rental_id` | Google Analytics, Backend Logs | H1, H6 |
+| `start_cancellation` | El usuario inicia el proceso de cancelación | Web | `rental_id` | Google Analytics | H3, H4 |
+| `view_cancellation_summary` | Se muestra el resumen de condiciones de cancelación | Web | `rental_id`, `summary_shown` (`true`/`false`) | Hotjar Heatmaps, Google Analytics | H3 |
+| `confirm_cancellation` | El usuario confirma la cancelación | Web | `rental_id` | Google Analytics, Backend Logs | H3, H4 |
+| `cancellation_email_sent` | El backend envía el correo de confirmación | Backend | `rental_id`, `sent_at` | Backend Logs | H4 |
+| `start_ticket_creation` | El usuario abre el formulario de creación de ticket | Web | `user_id` | Google Analytics | H2, H5 |
+| `select_ticket_category` | El usuario selecciona una categoría predefinida | Web | `category` | Google Analytics, Hotjar Heatmaps | H5 |
+| `submit_ticket` | El usuario envía el ticket | Web | `ticket_id`, `category` | Google Analytics, Backend Logs | H5 |
+| `view_ticket_confirmation` | Se muestra el número de seguimiento y estado inicial | Web | `ticket_id`, `status` | Google Analytics | H2 |
+| `accessibility_audit_run` | Se ejecuta una auditoría de accesibilidad | Backend / CI | `score`, `alt_coverage` | Google Lighthouse | H7 |
+
+**Responsables de implementación:** el equipo Frontend instrumenta los eventos web mediante el SDK de Google Analytics/Vercel Analytics; el equipo Backend registra los eventos críticos (cancelación, ticket, pago) en Backend Logs; QA valida que cada evento se dispare correctamente antes de iniciar cada experimento de la secuencia definida en 8.2.6.
+
+---
+
+### 8.3. Experimentation
+
+#### 8.3.1. To-Be User Stories
+
+Las siguientes historias de usuario traducen las ideas validadas en 8.1.2 y las condiciones experimentales de 8.2.4 en requerimientos concretos a implementar. Siguen el mismo formato usado en el resto del proyecto: "Como `<rol>`, quiero `<acción>` para `<beneficio>`", con criterios de aceptación en Gherkin (Given-When-Then).
+
+| ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+|---|---|---|---|---|
+| EP11 | Mejorar experiencia, confianza y accesibilidad mediante experimentos validados | Como plataforma, debo implementar mejoras de UX basadas en evidencia de experimentos para aumentar conversión, confianza y accesibilidad. | **Escenario 1:** Given un experimento validado, When se libera la mejora a producción, Then se mide el impacto con los KPIs definidos en 8.2.7<br><br>**Escenario 2:** Given un experimento no concluyente, When se evalúan los resultados, Then se descarta o ajusta la mejora antes de implementarla a todos los usuarios | - |
+| HU33 | Mantener visible el botón de reservar durante el scroll | Como inquilino, quiero que el botón "Reservar" permanezca visible mientras reviso el detalle del vehículo para iniciar la reserva sin perder de vista la acción principal. | **Escenario 1:** Given el inquilino está en la vista de detalle de un vehículo, When realiza scroll hacia abajo, Then el botón "Reservar" permanece visible en la parte inferior de la pantalla<br><br>**Escenario 2:** Given el botón "Reservar" está visible de forma fija, When el inquilino hace clic en él, Then el sistema inicia el flujo de reserva sin necesidad de volver al inicio de la página | EP11 |
+| HU34 | Ver una acción clara en las cards de vehículos | Como inquilino, quiero ver un botón visible de "Ver detalles" o "Reservar" en cada card para saber cómo continuar sin tener que adivinar si la tarjeta completa es clickeable. | **Escenario 1:** Given el inquilino está en la sección de exploración, When visualiza una card de vehículo, Then observa un botón visible dentro de la tarjeta<br><br>**Escenario 2:** Given la card muestra el botón de acción, When el inquilino hace clic en él, Then es redirigido a la vista de detalle del vehículo correspondiente | EP11 |
+| HU35 | Ver un resumen de condiciones antes de cancelar | Como usuario, quiero ver un resumen de penalidades y reembolso antes de confirmar la cancelación para tomar una decisión informada. | **Escenario 1:** Given el usuario inicia el proceso de cancelación, When el sistema muestra el resumen de condiciones, Then el usuario visualiza el porcentaje de reembolso y posibles penalidades antes de confirmar<br><br>**Escenario 2:** Given el usuario revisó el resumen, When confirma la cancelación, Then el sistema procesa la cancelación según las condiciones mostradas | EP11 |
+| HU36 | Recibir confirmación inmediata tras cancelar una reserva | Como usuario, quiero recibir una notificación en pantalla y un correo tras cancelar mi reserva para confirmar que la acción se procesó correctamente. | **Escenario 1:** Given el usuario confirma la cancelación, When el sistema procesa la solicitud, Then se muestra un mensaje en pantalla indicando "Reserva cancelada correctamente"<br><br>**Escenario 2:** Given la cancelación fue procesada, When el sistema genera la confirmación, Then el usuario recibe un correo con los detalles básicos en menos de 5 minutos | EP11 |
+| HU37 | Ver número de seguimiento al crear un ticket | Como usuario, quiero recibir un número de seguimiento y estado inicial al crear un ticket de soporte para confiar en que mi caso fue registrado. | **Escenario 1:** Given el usuario completa el formulario de ticket, When envía el reporte, Then el sistema genera y muestra un número de seguimiento (ej. "#MOV-2025-001") junto con el estado inicial "Recibido"<br><br>**Escenario 2:** Given el usuario tiene un número de seguimiento asignado, When ingresa a su historial de tickets, Then puede visualizar el código y el estado actualizado de su caso | EP11 |
+| HU38 | Seleccionar una categoría predefinida al reportar una incidencia | Como usuario, quiero elegir una categoría predefinida al crear un ticket para reportar mi problema sin redactarlo desde cero. | **Escenario 1:** Given el usuario accede al formulario de ticket, When despliega el campo de categoría, Then puede elegir entre opciones predefinidas (Limpieza, Daño mecánico, Daño estético, Documentación, Otro)<br><br>**Escenario 2:** Given el usuario seleccionó una categoría, When envía el ticket, Then el sistema registra la incidencia clasificada correctamente bajo dicha categoría | EP11 |
+| HU39 | Ver descripciones accesibles en las imágenes de vehículos | Como usuario que utiliza un lector de pantalla, quiero que las imágenes de los vehículos tengan una descripción alternativa para comprender el contenido visual de la plataforma. | **Escenario 1:** Given un usuario utiliza un lector de pantalla, When navega por la exploración o detalle de un vehículo, Then el lector anuncia una descripción del vehículo (ej. "Toyota Corolla blanco 2021 disponible para alquiler en Lima")<br><br>**Escenario 2:** Given el equipo de QA ejecuta una auditoría de accesibilidad, When revisa las imágenes principales publicadas, Then todas cuentan con un atributo alt descriptivo | EP11 |
+| TS05 | Instrumentar eventos de analítica para los experimentos | Como Developer, necesito registrar los eventos definidos en el Tracking Plan para poder medir el impacto de cada experimento. | **Escenario 1:** Given el frontend define los eventos del Tracking Plan, When un usuario interactúa con un elemento instrumentado, Then el evento correspondiente se registra en la herramienta de analítica configurada<br><br>**Escenario 2:** Given los eventos fueron implementados, When el equipo de QA ejecuta pruebas de instrumentación, Then confirma que cada evento se dispara con los parámetros esperados antes del lanzamiento del experimento | EP11 |
+
+---
+
+#### 8.3.2. To-Be Product Backlog
+
+El backlog se ordena priorizando primero la instrumentación (necesaria para medir cualquier otro experimento) y luego según el orden de ejecución definido en la secuencia de 8.2.6, para evitar solapamiento de flujos.
+
+| # Orden | User Story ID | Título | Descripción | Story Points |
+|---|---|---|---|---|
+| 1 | TS05 | Instrumentar eventos de analítica para los experimentos | Como Developer, necesito registrar los eventos del Tracking Plan para medir el impacto de cada experimento. | 5 |
+| 2 | HU34 | Ver una acción clara en las cards de vehículos | Como inquilino, quiero ver un botón visible de "Ver detalles" o "Reservar" en cada card. | 3 |
+| 3 | HU39 | Ver descripciones accesibles en las imágenes de vehículos | Como usuario que utiliza un lector de pantalla, quiero que las imágenes tengan descripción alternativa. | 2 |
+| 4 | HU33 | Mantener visible el botón de reservar durante el scroll | Como inquilino, quiero que el botón "Reservar" permanezca visible durante el scroll. | 3 |
+| 5 | HU36 | Recibir confirmación inmediata tras cancelar una reserva | Como usuario, quiero recibir notificación y correo tras cancelar mi reserva. | 3 |
+| 6 | HU35 | Ver un resumen de condiciones antes de cancelar | Como usuario, quiero ver un resumen de penalidades y reembolso antes de cancelar. | 3 |
+| 7 | HU38 | Seleccionar una categoría predefinida al reportar una incidencia | Como usuario, quiero elegir una categoría predefinida al crear un ticket. | 2 |
+| 8 | HU37 | Ver número de seguimiento al crear un ticket | Como usuario, quiero recibir un número de seguimiento y estado inicial al crear un ticket. | 3 |
+
+> **URL del Product Backlog público**: https://trello.com/b/VJ8IEYK1/moveo (las tarjetas HU33-HU39 y TS05 se incorporan a este mismo tablero).
+
 # Conclusiones y recomendaciones
 
 - Moveo  propone una solución digital para conectar propietarios de vehículos con personas que necesitan alquilar uno de forma temporal. Además, responde a una necesidad real, la de ofrecer una alternativa más flexible, segura y accesible frente al alquiler tradicional de autos. El modelo de negocio es colaborativo, ya que no depende de una flota propia, sino de vehículos registrados por los mismos usuarios.
@@ -4330,7 +4506,6 @@ Esta sección define las métricas de negocio que serán utilizadas para evaluar
 
 
 * Arquitectura DDD(Domain Driven Design). (2021, junio 21). Sergio Tapia. https://sergiotapia.net/arquitectura-ddddomain-driven-design/
-
 
 
 # Anexos
