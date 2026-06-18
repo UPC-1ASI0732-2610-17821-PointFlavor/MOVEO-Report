@@ -152,6 +152,54 @@
       <td>Tumi Oliden, Manuel Ignacio</td>
       <td>Desarrollo de la sección 6.1.3. Core Behavior-Driven Development, incorporando escenarios BDD basados en historias de usuario y criterios de aceptación del proyecto.</td>
     </tr>
+    <tr>
+      <td>3.0 (AV2)</td>
+      <td>16/06/2026</td>
+      <td>Goñe Araccata, Esther Abigail</td>
+      <td>Desarrollo de la sección 6.2. Static Testing & Verification, incorporando el análisis estático de código, estándares de codificación, convenciones de código, calidad, seguridad y revisiones realizadas al proyecto.</td>
+    </tr>
+    <tr>
+      <td>3.1 (AV2)</td>
+      <td>16/06/2026</td>
+      <td>Santiago Peña, Andreow Jomark</td>
+      <td>Elaboración de la sección 6.3. Validation Interviews, incluyendo el diseño de entrevistas, registro de entrevistas y evaluaciones del producto según heurísticas de usabilidad.</td>
+    </tr>
+     <tr>
+      <td>3.2 (AV2)</td>
+      <td>16/06/2026</td>
+      <td>Tumi Oliden, Manuel Ignacio</td>
+      <td>Elaboración de la sección 6.4.1. Auditoría realizada, incluyendo la información del grupo auditado, el cronograma y el contenido de la auditoría de experiencias de usuario.</td>
+    </tr>
+    <tr>
+      <td>3.3 (AV3)</td>
+      <td>16/06/2026</td>
+      <td>Tumi Oliden, Manuel Ignacio</td>
+      <td>Elaboración de la sección 6.4.2. Auditoría recibida, incluyendo la información del grupo auditor, el cronograma, el contenido de la auditoría y el resumen de modificaciones para subsanar los hallazgos.</td>
+    </tr>
+    <tr>
+      <td>3.4 (AV3)</td>
+      <td>17/06/2026</td>
+      <td>Goñe Araccata, Esther Abigail</td>
+      <td>Elaboración del capítulo VII: DevOps Practices, desarrollando las secciones 7.1. Continuous Integration y 7.2. Continuous Delivery, junto con sus herramientas, prácticas y componentes de pipeline.</td>
+    </tr>
+    <tr>
+      <td>3.5 (AV3)</td>
+      <td>17/06/2026</td>
+      <td>Hancco Poma, Keyner Iván</td>
+      <td>Desarrollo de las secciones 7.3. Continuous Deployment y 7.4. Continuous Monitoring, incorporando herramientas, prácticas, componentes de despliegue en producción, monitoreo, alertas y notificaciones.</td>
+    </tr>
+    <tr>
+      <td>3.6 (AV3)</td>
+      <td>17/06/2026</td>
+      <td>Sulca Silva, Melisa Geraldine</td>
+      <td>Elaboración de la sección 8.1. Experiment Planning y parte de la sección 8.2. Experiment Design, incluyendo As-Is Summary, supuestos, brechas de conocimiento, ideas, claims, preguntas listas para experimentación, backlog de preguntas, experiment cards, hipótesis y métricas de negocio del dominio.</td>
+    </tr>
+    <tr>
+      <td>3.7 (AV3)</td>
+      <td>17/06/2026</td>
+      <td>Santiago Peña, Andreow Jomark</td>
+      <td>Desarrollo de las secciones 8.2.3 a 8.3.2, incorporando measures, conditions, scale calculations, methods selection, objetivos de analítica, KPIs, plan de tracking web y mobile, To-Be User Stories y To-Be Product Backlog.</td>
+    </tr>
   </tbody>
 </table>
 
@@ -201,17 +249,17 @@ A continuación, se adjuntan las evidencias del trabajo colaborativo, incluyendo
       - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
     - [2.2. Entrevistas](#22-entrevistas)
       - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-      - [**Segmento 1: Propietarios**](#segmento-1-propietarios)
-      - [**Segmento 2: Inquilinos**](#segmento-2-inquilinos)
+      - [Segmento 1: Propietarios](#segmento-1-propietarios)
+      - [Segmento 2: Inquilinos](#segmento-2-inquilinos)
       - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-      - [**Segmento 1: Propietarios de autos**](#segmento-1-propietarios-de-autos)
+      - [Segmento 1: Propietarios de autos](#segmento-1-propietarios-de-autos)
       - [Entrevistado 1: Alisa Goicochea](#entrevistado-1-alisa-goicochea)
         - [Resumen:](#resumen)
       - [Entrevistado 2: Mathías Peña](#entrevistado-2-mathías-peña)
         - [Resumen:](#resumen-1)
       - [Entrevistado 3: Mauricio Salas](#entrevistado-3-mauricio-salas)
         - [Resumen:](#resumen-2)
-      - [**Segmento 2:Inquilinos de autos**](#segmento-2inquilinos-de-autos)
+      - [Segmento 2:Inquilinos de autos](#segmento-2inquilinos-de-autos)
       - [Entrevistado 4: Claudia Sifuentes](#entrevistado-4-claudia-sifuentes)
         - [Resumen:](#resumen-3)
       - [Entrevistado 5: Angie Leyva](#entrevistado-5-angie-leyva)
@@ -266,11 +314,11 @@ A continuación, se adjuntan las evidencias del trabajo colaborativo, incluyendo
         - [Secciones y contenido de Moveo](#secciones-y-contenido-de-moveo)
     - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
     - [4.2.4. Searching Systems.](#424-searching-systems)
-      - [**Busqueda Global**](#busqueda-global)
-      - [**Filtrado de información**](#filtrado-de-información)
+      - [Busqueda Global](#busqueda-global)
+      - [Filtrado de información](#filtrado-de-información)
     - [4.2.5. Navigation Systems.](#425-navigation-systems)
-      - [**Estructura de Navegación en la Landing Page**](#estructura-de-navegación-en-la-landing-page)
-      - [**Estructura de Navegación en Moveo**](#estructura-de-navegación-en-moveo)
+      - [Estructura de Navegación en la Landing Page](#estructura-de-navegación-en-la-landing-page)
+      - [Estructura de Navegación en Moveo](#estructura-de-navegación-en-moveo)
     - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
       - [Header y Hero](#header-y-hero)
       - [What is Moveo](#what-is-moveo)
@@ -334,6 +382,50 @@ A continuación, se adjuntan las evidencias del trabajo colaborativo, incluyendo
     - [Payment](#payment-1)
       - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)
       - [6.1.4. Core System Tests.](#614-core-system-tests)
+    - [6.2. Static testing \& Verification](#62-static-testing--verification)
+      - [6.2.1. Static Code Analysis](#621-static-code-analysis)
+        - [6.2.1.1. Coding standard \& Code conventions.](#6211-coding-standard--code-conventions)
+        - [6.2.1.2. Code Quality \& Code Security.](#6212-code-quality--code-security)
+      - [6.2.2. Reviews](#622-reviews)
+    - [6.3. Validation Interviews](#63-validation-interviews)  
+      - [6.3.1. Diseño de Entrevistas.](#631-diseño-de-entrevistas)
+      - [6.3.2. Registro de Entrevistas.](#632-registro-de-entrevistas)
+      - [6.3.3. Evaluaciones según heurísticas.](#633-evaluaciones-según-heurísticas)
+    - [6.4. Auditoría de Experiencias de Usuario.](#64-auditoría-de-experiencias-de-usuario)
+      - [6.4.1. Auditoría realizada.](#641-auditoría-realizada)
+        - [6.4.1.1. Información del grupo auditado.](#6411-información-del-grupo-auditado)
+        - [6.4.1.2. Cronograma de auditoría realizada.](#6412-cronograma-de-auditoría-realizada)
+        - [6.4.1.3. Contenido de auditoría realizada.](#6413-contenido-de-auditoría-realizada)
+      - [6.4.2. Auditoría recibida.](#642-auditoría-recibida)
+        - [6.4.2.1. Información del grupo auditor](#6421-información-del-grupo-auditor)
+        - [6.4.2.2. Cronograma de auditoría recibida.](#6422-cronograma-de-auditoría-recibida)
+        - [6.4.2.3. Contenido de auditoría recibida.](#6423-contenido-de-auditoría-recibida)
+        - [6.4.2.4. Resumen de modificaciones para subsanar hallazgos.](#6424-resumen-de-modificaciones-para-subsanar-hallazgos)
+  - [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
+    - [7.1. Continuous Integration](#71-continuous-integration)
+      - [7.1.1. Tools and Practices.](#711-tools-and-practices)
+      - [7.1.2. Build \& Test Suite Pipeline Components.](#712-build--test-suite-pipeline-components)
+    - [7.2. Continuous Delivery](#72-continuous-delivery)
+      - [7.2.1. Tools and Practices.](#721-tools-and-practices)
+      - [7.2.2. Stages Deployment Pipeline Components.](#722-stages-deployment-pipeline-components)
+    - [7.3. Continuous deployment](#73-continuous-deployment)
+      - [7.3.1. Tools and Practices.](#731-tools-and-practices)
+      - [7.3.2. Production Deployment Pipeline Components.](#732-production-deployment-pipeline-components)
+    - [7.4. Continuous Monitoring](#74-continuous-monitoring)
+      - [7.4.1. Tools and Practices](#741-tools-and-practices)
+      - [7.4.2. Monitoring Pipeline Components](#742-monitoring-pipeline-components)
+      - [7.4.3. Alerting Pipeline Components](#743-alerting-pipeline-components)
+      - [7.4.4. Notification Pipeline Components.](#744-notification-pipeline-components)
+  - [Capítulo VIII: Experiment-Driven Development](#capítulo-viii-experiment-driven-development)
+    - [8.1. Experiment Planning](#81-experiment-planning)
+      - [8.1.1. As-Is Summary.](#811-as-is-summary)
+      - [8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims.](#812-raw-material-assumptions-knowledge-gaps-ideas-claims)
+      - [8.1.3. Experiment-Ready Questions.](#813-experiment-ready-questions)
+      - [8.1.4. Question Backlog.](#814-question-backlog)
+      - [8.1.5. Experiment Cards.](#815-experiment-cards)
+    - [8.2. Experiment Design](#82-experiment-design)
+      - [8.2.1. Hypotheses.](#821-hypotheses)
+      - [8.2.2. Domain Business Metrics](#822-domain-business-metrics)
       - [8.2.3. Measures](#823-measures)
       - [8.2.4. Conditions](#824-conditions)
       - [8.2.5. Scale Calculations and Decisions](#825-scale-calculations-and-decisions)
@@ -344,7 +436,6 @@ A continuación, se adjuntan las evidencias del trabajo colaborativo, incluyendo
       - [8.3.1. To-Be User Stories](#831-to-be-user-stories)
       - [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-- [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
   - [Enlace Organización: https://github.com/UPC-1ASI0732-2610-17821-PointFlavor](#enlace-organización-httpsgithubcomupc-1asi0732-2610-17821-pointflavor)
@@ -370,26 +461,27 @@ En el cuadro siguiente se detallan las actividades llevadas a cabo y las conclus
     <tr>
       <td>Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.</td>
       <td>
-        <strong>Goñe Araccata, Esther Abigail</strong><br><em>AV1:</em>  Investigué y apliqué conceptos de la metodología Lean UX y Needfinding para estructurar adecuadamente el perfil de la startup y entender a la competencia. <br><em>TP:</em> Mejoré mis conocimientos en despliegue tras realizar el deploy de la Landing Page y del Frontend de Moveo. Además, apliqué pruebas unitarias con NUnit, de esta forma fortalezco mis competencias de validación de la lógica de negocio y aseguramiento de calidad del software.<br><br>
-        <strong>Hancco Poma, Keyner Iván</strong><br><em>AV1:</em> Adquirí conocimientos técnicos en herramientas de diseño de interfaces y principios de experiencia de usuario (UX/UI) para la aplicación web y landing page. <br><em>TP:</em> Profundicé mis conocimientos de despliegue de backend de una app web, realizando el deploy del backend de este proyecto.  Esto me permitió aplicar conceptos relacionados con configuración de entornos, conexión con servicios, publicación de API RESTful y validación del funcionamiento del servidor en un entorno desplegado. <br><br>
-        <strong>Santiago Peña, Andreow Jomark</strong><br><em>AV1:</em> Me instruí autónomamente en la lectura de documentación técnica de frameworks para implementar el Frontend-Web y estructurar la documentación de la API RESTful. <br> <em>TP:</em> Aumenté mis conocimientos en pruebas unitarias aplicadas al backend mediante NUnit, desarrollando pruebas de dos bounded context de Moveo. Esto me permitió validar servicios, reglas de negocio y entidades principales, contribuyendo a mejorar la confiabilidad del producto. <br><br>
-        <strong>Sulca Silva, Melisa Geraldine</strong><br><em>AV1:</em> Aprendí técnicas cualitativas para ejecutar entrevistas a usuarios y adquirió destrezas en despliegue web y edición audiovisual para evidenciar el producto. <br><em>TP:</em> Actualice mis conocimientos en pruebas de comportamiento mediante la elaboración de archivos features con Gherkin, definiendo escenarios bajo la estructura Given, When y Then. Esto me permitió documentar el comportamiento esperado del sistema y vincular los requerimientos funcionales con criterios de aceptación verificables. <br><br>
-        <strong>Tumi Oliden, Manuel Ignacio</strong><br><em>AV1:</em> Profundicé en prácticas de gestión de requerimientos ágiles, redactando eficazmente Historias de Usuario, Mapas de Impacto y gestionando el Product Backlog. <br> <em>TP:</em> Apliqué conocimientos de pruebas unitarias con NUnit en un bounded context del backend y realicé pruebas del frontend mediante Selenium. Esto me permitió validar tanto la lógica interna del sistema como los flujos principales de la aplicación desde la perspectiva del usuario final.
+        <strong>Goñe Araccata, Esther Abigail</strong><br> <strong><em>AV1:</em></strong> Investigué y apliqué conceptos de la metodología Lean UX y Needfinding para estructurar adecuadamente el perfil de la startup y entender a la competencia. <br> <strong><em>TP:</em></strong> Mejoré mis conocimientos en despliegue tras realizar el deploy de la Landing Page y del Frontend de Moveo. Además, apliqué pruebas unitarias con NUnit, de esta forma fortalezco mis competencias de validación de la lógica de negocio y aseguramiento de calidad del software. <br> <strong><em>AV2:</em></strong> Actualicé mis conocimientos de pruebas estáticas y verificación del software durante la implementación de la sección de Static Testing  Verification. Además, apliqué conceptos sobre análisis estático de código, estándares de codificación, convenciones de programación, calidad de código, etc. También, reforcé mis competencias en prácticas DevOps al desarrollar la sección Continuous Integration y Continuous Delivery, identificando herramientas, prácticas y componentes del pipeline de build, test y despliegue. <br><br>
+        <strong>Hancco Poma, Keyner Iván</strong><br> <strong><em>AV1:</em></strong> Adquirí conocimientos técnicos en herramientas de diseño de interfaces y principios de experiencia de usuario (UX/UI) para la aplicación web y landing page. <br> <strong><em>TP:</em></strong> Profundicé mis conocimientos de despliegue de backend de una app web, realizando el deploy del backend de este proyecto.  Esto me permitió aplicar conceptos relacionados con configuración de entornos, conexión con servicios, publicación de API RESTful y validación del funcionamiento del servidor en un entorno desplegado. <br> <strong><em>AV2:</em></strong> Profundicé mis conocimientos en Continuous Deployment y Continuous Monitoring. Esta actividad me permitió aplicar conceptos de despliegue automatizado, supervisión del estado de los servicios, detección de fallos y comunicación de incidentes. <br><br>
+        <strong>Santiago Peña, Andreow Jomark</strong><br> <strong><em>AV1:</em></strong> Me instruí autónomamente en la lectura de documentación técnica de frameworks para implementar el Frontend-Web y estructurar la documentación de la API RESTful. <br> <strong><em>TP:</em></strong> Aumenté mis conocimientos en pruebas unitarias aplicadas al backend mediante NUnit, desarrollando pruebas de dos bounded context de Moveo. Esto me permitió validar servicios, reglas de negocio y entidades principales, contribuyendo a mejorar la confiabilidad del producto. <br> <strong><em>AV2:</em></strong> Actualicé mis conocimientos en validación del producto mediante el diseño y registro de entrevistas, así como la evaluación del sistema según heurísticas de usabilidad. Además, reforcé mis competencias en Experiment-Driven Development al trabajar medidas, condiciones, cálculos de escala, selección de métodos, objetivos de analítica, KPIs, métricas, plan de tracking web, To-Be User Stories y To-Be Product Backlog. <br><br>
+        <strong>Sulca Silva, Melisa Geraldine</strong><br> <strong><em>AV1:</em></strong> Aprendí técnicas cualitativas para ejecutar entrevistas a usuarios y adquirió destrezas en despliegue web y edición audiovisual para evidenciar el producto. <br> <strong><em>TP:</em></strong> Actualice mis conocimientos en pruebas de comportamiento mediante la elaboración de archivos features con Gherkin, definiendo escenarios bajo la estructura Given, When y Then. Esto me permitió documentar el comportamiento esperado del sistema y vincular los requerimientos funcionales con criterios de aceptación verificables. <br> <strong><em>AV2:</em></strong> Fortalecí mis conocimientos en Experiment-Driven Development mediante la planificación de experimentos, el análisis del estado actual del producto, la identificación de supuestos, brechas de conocimiento, ideas y claims. Asimismo, desarrollé preguntas preparadas para experimentación, backlog de preguntas, experiment cards, hipótesis y métricas de negocio del dominio. <br><br>
+        <strong>Tumi Oliden, Manuel Ignacio</strong><br> <strong><em>AV1:</em></strong> Profundicé en prácticas de gestión de requerimientos ágiles, redactando eficazmente Historias de Usuario, Mapas de Impacto y gestionando el Product Backlog. <br> <strong><em>TP:</em></strong> Apliqué conocimientos de pruebas unitarias con NUnit en un bounded context del backend y realicé pruebas del frontend mediante Selenium. Esto me permitió validar tanto la lógica interna del sistema como los flujos principales de la aplicación desde la perspectiva del usuario final. <br><strong><em>AV2:</em></strong> Actualicé mis conocimientos en auditoría de experiencia de usuario mediante el desarrollo de la auditoría realizada y recibida. Documenté información del grupo auditado, cronograma, contenido de auditoría, información del grupo auditor, hallazgos recibidos y resumen de modificaciones para subsanar observaciones. 
       </td>
-      <td><strong>AV1:</strong> Durante esta primera entrega, el equipo ha demostrado una alta capacidad para investigar de forma autónoma. Desde metodologías de ideación (Lean UX) y diseño de interfaces (UX/UI), hasta la aplicación de tecnologías de programación (RESTful APIs) e investigación de mercado (entrevistas). Cada integrante adquirió el conocimiento técnico o metodológico exacto que su módulo requería y lo aplicó con éxito en el desarrollo del producto de software. <br> <strong>TP:</strong> En esta entrega, el equipo fortaleció sus competencias técnicas mediante actividades de despliegue, pruebas unitarias, pruebas de comportamiento y pruebas de sistema. Se aplicaron conocimientos de Vue.js, .NET, C#, NUnit, Gherkin y Selenium, permitiendo validar funcionalidades del frontend, backend y flujos principales de Moveo. Como resultado, el equipo evidenció mejora en la capacidad para construir, desplegar y verificar soluciones de software con criterios de calidad. 
+      <td><strong>AV1:</strong> Durante esta primera entrega, el equipo ha demostrado una alta capacidad para investigar de forma autónoma. Desde metodologías de ideación (Lean UX) y diseño de interfaces (UX/UI), hasta la aplicación de tecnologías de programación (RESTful APIs) e investigación de mercado (entrevistas). Cada integrante adquirió el conocimiento técnico o metodológico exacto que su módulo requería y lo aplicó con éxito en el desarrollo del producto de software. <br> <strong>TP:</strong> En esta entrega, el equipo fortaleció sus competencias técnicas mediante actividades de despliegue, pruebas unitarias, pruebas de comportamiento y pruebas de sistema. Se aplicaron conocimientos de Vue.js, .NET, C#, NUnit, Gherkin y Selenium, permitiendo validar funcionalidades del frontend, backend y flujos principales de Moveo. Como resultado, el equipo evidenció mejora en la capacidad para construir, desplegar y verificar soluciones de software con criterios de calidad. <br> <strong>AV2:</strong> En esta entrega, el equipo Moveo consolidó nuevos conocimientos vinculados a verificación, validación, DevOps y desarrollo guiado por experimentos. Se aplicaron prácticas de análisis estático, revisión de código, entrevistas de validación, evaluaciones heurísticas, auditorías UX, integración continua, entrega continua, despliegue continuo, monitoreo, alertas, notificaciones, planificación experimental, definición de hipótesis, métricas, KPIs y actualización del backlog. Como resultado, Moveo evolucionó de un producto implementado hacia una solución mejor controlada.
 </td>
     </tr>
     <tr>
       <td>Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.</td>
       <td>
-        <strong>Goñe Araccata, Esther Abigail</strong><br><em>AV1:</em> Reconocí que el comportamiento del mercado cambia, por lo que es necesario aprender constantemente nuevas formas de identificar oportunidades de negocio. <br><em>TP:</em>  Reconocí que el despliegue de aplicaciones y la ejecución de pruebas unitarias requieren aprendizaje constante. La experiencia adquirida con el deploy del frontend, landing page y pruebas con NUnit fortalece mi visión sobre la importancia de validar el producto antes de su entrega. <br><br>
-        <strong>Hancco Poma, Keyner Iván</strong><br><em>AV1:</em> Entendí que las tendencias visuales y patrones de interacción en software evolucionan rápidamente, haciendo obligatoria la actualización en diseño web.<br> <em>TP:</em> Reconocí que el despliegue del backend exige una actualización permanente en tecnologías de servidor, configuración de entornos, conexión a bases de datos y publicación de APIs. Esta experiencia me permitió comprender que el desarrollo backend requiere asegurar su correcto funcionamiento en ambientes reales. <br><br>
-        <strong>Santiago Peña, Andreow Jomark</strong><br><em>AV1:</em> Comprende que los frameworks de desarrollo y arquitecturas de backend cambian año a año, siendo vital cultivar una cultura de autoformación técnica. <br><em>TP:</em>  Reconocí que las pruebas de backend y frontend requieren aprendizaje permanente, ya que herramientas como NUnit permiten comprobar la calidad del sistema desde diferentes niveles. Esta experiencia reforzó la importancia de validar tanto la lógica del sistema como la interacción real del usuario con la aplicación. <br><br>
-        <strong>Sulca Silva, Melisa Geraldine</strong><br><em>AV1:</em> Valora la necesidad de explorar de manera continua nuevas técnicas de validación con clientes y métodos de marketing para presentar soluciones de valor. <br><em>TP:</em> Reconocí la importancia de aprender continuamente herramientas de testing, ya que los features con Gherkin permiten expresar los requisitos de forma clara y verificable. Esta práctica fortaleció mi comprensión sobre la relación entre historias de usuario, criterios de aceptación y pruebas funcionales. <br><br>
-        <strong>Tumi Oliden, Manuel Ignacio</strong><br><em>AV1:</em> Asimila que la correcta planificación de software exige adaptar permanentemente los marcos de trabajo ágiles a escenarios del mundo real. <br><em>TP:</em> Reconocí que las pruebas de backend y frontend requieren aprendizaje permanente, ya que herramientas como NUnit y Selenium permiten comprobar la calidad del sistema desde diferentes niveles. Esta experiencia reforzó la importancia de validar tanto la lógica del sistema como la interacción real del usuario con la aplicación. 
+        <strong>Goñe Araccata, Esther Abigail</strong><br> <strong><em>AV1:</em></strong> Reconocí que el comportamiento del mercado cambia, por lo que es necesario aprender constantemente nuevas formas de identificar oportunidades de negocio. <br> <strong><em>TP:</em></strong>  Reconocí que el despliegue de aplicaciones y la ejecución de pruebas unitarias requieren aprendizaje constante. La experiencia adquirida con el deploy del frontend, landing page y pruebas con NUnit fortalece mi visión sobre la importancia de validar el producto antes de su entrega. <br> <strong><em>AV2:</em></strong> Reconocí que la calidad del software no depende únicamente de programar funcionalidades, sino también de revisar continuamente el código, aplicar estándares, detectar vulnerabilidades y automatizar procesos mediante integración y entrega continua. <br><br>
+        <strong>Hancco Poma, Keyner Iván</strong><br> <strong><em>AV1:</em></strong> Entendí que las tendencias visuales y patrones de interacción en software evolucionan rápidamente, haciendo obligatoria la actualización en diseño web.<br> <strong><em>TP:</em></strong> Reconocí que el despliegue del backend exige una actualización permanente en tecnologías de servidor, configuración de entornos, conexión a bases de datos y publicación de APIs. Esta experiencia me permitió comprender que el desarrollo backend requiere asegurar su correcto funcionamiento en ambientes reales. <br> <strong><em>AV2:</em></strong> Reconocí que el despliegue y monitoreo continuo requieren aprendizaje permanente, ya que los entornos productivos pueden presentar fallos, errores de disponibilidad o problemas de rendimiento que deben ser detectados oportunamente.  <br><br>
+        <strong>Santiago Peña, Andreow Jomark</strong><br> <strong><em>AV1:</em></strong> Comprende que los frameworks de desarrollo y arquitecturas de backend cambian año a año, siendo vital cultivar una cultura de autoformación técnica. <br> <strong><em>TP:</em></strong>  Reconocí que las pruebas de backend y frontend requieren aprendizaje permanente, ya que herramientas como NUnit permiten comprobar la calidad del sistema desde diferentes niveles. Esta experiencia reforzó la importancia de validar tanto la lógica del sistema como la interacción real del usuario con la aplicación. <br> <strong><em>AV2:</em></strong> Reconocí que la validación con usuarios y la experimentación requieren aprendizaje continuo, debido a que las necesidades de los usuarios pueden cambiar y las decisiones del producto deben sustentarse en datos reales. <br><br>
+        <strong>Sulca Silva, Melisa Geraldine</strong><br> <strong><em>AV1:</em></strong> Valora la necesidad de explorar de manera continua nuevas técnicas de validación con clientes y métodos de marketing para presentar soluciones de valor. <br> <strong><em>TP:</em></strong> Reconocí la importancia de aprender continuamente herramientas de testing, ya que los features con Gherkin permiten expresar los requisitos de forma clara y verificable. Esta práctica fortaleció mi comprensión sobre la relación entre historias de usuario, criterios de aceptación y pruebas funcionales. <br> <strong><em>AV2:</em></strong> Reconocí que el desarrollo guiado por experimentos exige una actualización constante en métodos de investigación, formulación de hipótesis y análisis de métricas. <br><br>
+        <strong>Tumi Oliden, Manuel Ignacio</strong><br> <strong><em>AV1:</em></strong> Asimila que la correcta planificación de software exige adaptar permanentemente los marcos de trabajo ágiles a escenarios del mundo real. <br> <strong><em>TP:</em></strong> Reconocí que las pruebas de backend y frontend requieren aprendizaje permanente, ya que herramientas como NUnit y Selenium permiten comprobar la calidad del sistema desde diferentes niveles. Esta experiencia reforzó la importancia de validar tanto la lógica del sistema como la interacción real del usuario con la aplicación. <br> <strong><em>AV2:</em></strong> Reconocí que la experiencia de usuario debe evaluarse de manera continua, ya que los problemas de usabilidad pueden aparecer incluso cuando una funcionalidad ya está implementada.
       </td>
       <td><strong>AV1:</strong> El equipo concluye unánimemente que en la industria del desarrollo de software es indispensable cultivar una mentalidad de aprendizaje permanente (Lifelong Learning). La acelerada evolución de los estándares de desarrollo, las herramientas de diseño, las metodologías ágiles de gestión y las expectativas de los usuarios exigen que los ingenieros de software actualicen sus habilidades técnicas y blandas de manera constante para mantener su competitividad profesional. <br>
-       <strong>TP:</strong> El equipo concluye que la verificación y validación del software es una práctica esencial dentro del desarrollo profesional. La aplicación de pruebas unitarias, pruebas de integración, pruebas funcionales y pruebas de sistema permitió comprender que la calidad del producto no depende únicamente de implementar funcionalidades, sino también de comprobar que estas funcionen correctamente, sean mantenibles y respondan a las necesidades reales de los usuarios. 
+       <strong>TP:</strong> El equipo concluye que la verificación y validación del software es una práctica esencial dentro del desarrollo profesional. La aplicación de pruebas unitarias, pruebas de integración, pruebas funcionales y pruebas de sistema permitió comprender que la calidad del producto no depende únicamente de implementar funcionalidades, sino también de comprobar que estas funcionen correctamente, sean mantenibles y respondan a las necesidades reales de los usuarios. <br>
+       <strong>AV2:</strong> En esta entrega, el equipo reafirmó que el aprendizaje permanente es indispensable para el desarrollo profesional en ingeniería de software. El AV2 permitió comprender que construir una solución digital no termina con la implementación, sino que requiere verificar el código, validar la experiencia del usuario, automatizar procesos DevOps, monitorear el comportamiento del sistema y experimentar con base en métricas.
       </td>
     </tr>
   </tbody>
@@ -2649,8 +2741,1565 @@ Levantan la aplicación completa con una base de datos en memoria (InMemoryDatab
 
 ![imagen5](https://i.imgur.com/W0dGjoA.png)
 
-> *Continuación de las secciones 8.1 (Experiment Planning) y 8.2.1-8.2.2 (Hypotheses, Domain Business Metrics) ya documentadas. A partir de aquí se completa el diseño del experimento y se inicia la fase de Experimentation.*
+### 6.2. Static testing & Verification
 
+Esta sección se centra en los métodos de prueba estática y verificación aplicados sobre el código fuente de MOVEO, tanto en el frontend (Vue 3 + Vite) como en el backend (.NET 9 / ASP.NET Core), con el objetivo de asegurar que el software cumpla con los estándares de calidad y seguridad antes de su ejecución. A diferencia de las pruebas dinámicas, que requieren ejecutar la aplicación, las pruebas estáticas se basan en la revisión del código fuente mediante herramientas automatizadas y revisiones manuales por parte del equipo. Este enfoque permite identificar defectos, vulnerabilidades de seguridad y oportunidades de mejora en una fase temprana del ciclo de vida del desarrollo, reduciendo el costo de las correcciones en etapas posteriores.
+
+#### 6.2.1. Static Code Analysis
+
+El análisis de código estático en MOVEO consiste en la revisión del código fuente del repositorio frontend (MOVEO-Frontend) y del repositorio backend (MOVEO-Backend) sin necesidad de ejecutarlos, combinando herramientas de análisis automatizado integradas en el IDE con revisiones manuales del equipo. Este enfoque ayuda a detectar errores de codificación, vulnerabilidades de seguridad e incumplimientos de las convenciones acordadas, contribuyendo a aumentar la calidad general del software y a mantener la coherencia entre ambos repositorios, que comparten una misma organización modular por bounded contexts (IAM, Rental, Payment, UserManagement, Adventure, Notification, Support, entre otros).
+
+##### 6.2.1.1. Coding standard & Code conventions.
+
+Las normas de codificación y convenciones son directrices que todo el equipo de MOVEO sigue para garantizar un código legible, mantenible y coherente entre el frontend y el backend. A continuación, se describen los principios aplicados y cómo se reflejan concretamente en nuestros repositorios:
+
+**Clean Code:** Se utilizan nombres claros y descriptivos para variables, funciones, clases y archivos. Las funciones se mantienen cortas y enfocadas en una sola responsabilidad, evitando código muerto y comentarios innecesarios. Esto se observa, por ejemplo, en la nomenclatura explícita de los servicios y entidades del backend (AuthService, BcryptHashingService, AdventureRouteCommandService) y en la del frontend (rental.store.js, Rental.entity.js, rental-api.js, rental.assembler.js).
+
+**Domain-Driven Design (DDD):** Ambos repositorios emplean un lenguaje ubicuo que refleja los términos del negocio (Rental, Vehicle, Payment, AdventureRoute) y se dividen en bounded contexts independientes. Cada contexto está organizado en capas bien definidas:
+
+En el backend (.NET 9) se aplica la separación clásica de DDD por capas: Domain (Model con Aggregates, Commands, Queries; Repositories y Services), Application (CommandServices y QueryServices, siguiendo CQRS con el patrón Mediator vía Cortex.Mediator), Infrastructure (persistencia con Entity Framework Core sobre MySQL, hashing, etc.) e Interfaces (controladores REST y Resources). Por ejemplo, el contexto IAM contiene Domain/Services/IAuthService.cs, Application/Internal/AuthService.cs, Infrastructure/Hashing/BcryptHashingService.cs e Interfaces/REST/AuthController.cs.
+
+![Estructura DDD del backend (IAM) en Rider](https://i.imgur.com/fBK5sQ7.png)
+
+En el frontend (Vue 3) se replica esa misma estructura por bounded context dentro de src/app/, separando domain (modelos de entidad como Vehicle.entity.js), application (stores de Pinia como rental.store.js), infrastructure (clientes API y assemblers) y presentation (componentes, vistas y routers). Esto promueve una arquitectura organizada, alineada con el negocio y consistente entre ambas capas del sistema.
+
+![Estructura DDD del frontend (módulo Rental) en VS Code](https://i.imgur.com/Opzh5RO.png)
+
+**Convenciones por lenguaje:** En el backend se siguen las convenciones idiomáticas de C#/.NET (PascalCase para clases, métodos y propiedades; interfaces con prefijo I; nullable reference types habilitados con Nullable enable e implicit usings). En el frontend se siguen las convenciones de Vue 3 con Composition API y el ecosistema Vite (componentes .vue, stores de Pinia, enrutamiento con Vue Router e internacionalización con Vue I18n y archivos de locales en.json / es.json).
+
+##### 6.2.1.2. Code Quality & Code Security.
+
+La calidad y la seguridad del código son esenciales para el desarrollo de un software confiable en MOVEO. Se abordan en dos dimensiones complementarias:
+
+**Calidad del Código:** La calidad se mide mediante métricas como la cobertura de pruebas, apoyada en las suites de pruebas unitarias e integración del proyecto (xUnit en el backend y Vitest en el frontend), y la consistencia del estilo de código. En el frontend se adopta ESLint, con la configuración recomendada de eslint-plugin-vue, para el análisis estático del código JavaScript y Vue, detectando errores potenciales, variables sin uso, malas prácticas y desviaciones de las convenciones de Vue 3; y Prettier como formateador automático que garantiza un estilo uniforme (comillas, indentación, longitud de línea) en todos los archivos .js, .vue, .css y .json. Ambas herramientas se ejecutan mediante los scripts npm run lint y npm run format. En el backend (.NET 9) se aprovechan los analizadores de Roslyn integrados en el SDK junto con dotnet format, que aplican reglas de estilo y calidad sobre el código C# de forma análoga.
+
+![Ejecución de ESLint (npm run lint) mostrando los problemas detectados](https://i.imgur.com/CvXqWfQ.png)
+
+![Verificación de formato con Prettier (npm run format:check)](https://i.imgur.com/oYGxwLG.png)
+
+**Seguridad del Código:** Es crucial identificar y mitigar vulnerabilidades comunes (como inyecciones SQL y XSS) mediante la revisión del código. En MOVEO esto se refuerza con prácticas de codificación segura ya presentes en el proyecto, como el almacenamiento de contraseñas mediante hashing con BCrypt (BcryptHashingService en el contexto IAM del backend) en lugar de texto plano, el uso de Entity Framework Core con consultas parametrizadas que mitigan la inyección SQL, y la validación adecuada de las entradas del usuario tanto en los Resources/Requests del backend como en los formularios del frontend.
+
+![Hashing seguro de contraseñas con BCrypt (BcryptHashingService)](https://i.imgur.com/VzkFuG4.png)
+
+ESLint y Prettier se integran con los IDEs utilizados por el equipo (Visual Studio / Rider para el backend en .NET y Visual Studio Code / WebStorm para el frontend en Vue), permitiendo análisis y formateo en tiempo real mientras se desarrolla. Esto ayuda a los desarrolladores a detectar problemas de calidad y estilo a medida que escriben código, con recomendaciones inmediatas para resolverlos, fomentando una cultura de calidad y mejora continua desde el inicio del desarrollo y asegurando que los problemas se aborden antes de llegar a las etapas de revisión y prueba.
+
+#### 6.2.2. Reviews
+
+Las revisiones de código son un proceso fundamental para garantizar la calidad de MOVEO y su conformidad con las normas establecidas. En el proyecto se combinan dos enfoques complementarios: la revisión manual entre los integrantes del equipo y la revisión automática mediante herramientas de análisis estático.
+
+La revisión manual se realiza de forma colaborativa entre los integrantes del equipo. Antes de integrar un cambio relevante a la rama principal, otro integrante revisa el código para verificar que respete las convenciones de Clean Code y la arquitectura por capas de DDD, que sea comprensible y que mantenga la coherencia entre el frontend y el backend. El trabajo se organiza mediante ramas de funcionalidad (por ejemplo, feature/frontend-initial-implementation) y se registra a través de un historial de commits que sigue la convención de Conventional Commits (feat, fix, feat(test), entre otros), lo que facilita la trazabilidad de los cambios, la identificación de su autor y la comprensión del propósito de cada modificación a lo largo del desarrollo.
+
+La revisión automática se realiza directamente en el entorno de desarrollo: ESLint y Prettier en el frontend, y los analizadores de Roslyn junto con dotnet format en el backend, detectan errores, malas prácticas e inconsistencias de estilo de manera temprana, antes de que el código se integre. De esta forma, cada desarrollador recibe retroalimentación inmediata mientras escribe, lo que reduce los defectos y mantiene un estándar uniforme en todo el código base.
+
+![Historial de commits del repositorio con Conventional Commits](https://i.imgur.com/eq3AJIW.png)
+
+Como criterios de aceptación, el equipo verifica que el código cumpla con los estándares de calidad y no introduzca vulnerabilidades de seguridad, y que las nuevas funcionalidades cuenten con una cobertura de pruebas adecuada. Estas revisiones se realizan de forma regular, preferiblemente al final de cada sprint, para evitar la acumulación de cambios y mantener la calidad de forma sostenida a lo largo del proyecto.
+
+## 6.3. Validation Interviews
+
+En esta sección, el equipo documenta las actividades de validación realizadas con usuarios reales durante el desarrollo del proyecto Moveo. El objetivo es evaluar la usabilidad, claridad y utilidad de la aplicación web a través de entrevistas estructuradas, observación directa de flujos de usuario y análisis heurístico. Todas las sesiones se ejecutaron en entorno web (navegador de escritorio), comenzando desde la **Landing Page** y avanzando por funcionalidades clave del sistema. Los hallazgos obtenidos guían las mejoras del producto y validan las decisiones de diseño. 
+
+
+### 6.3.1. Diseño de Entrevistas.
+
+Esta sección detalla el diseño metodológico de las entrevistas de validación realizadas durante el proyecto **Moveo**. El enfoque se centró exclusivamente en la **versión web** de la aplicación. Cada sesión inició en la Landing Page, replicando el flujo real de un usuario nuevo, y se evaluaron tareas esenciales del sistema. 
+
+El proceso se estructuró en tres fases:
+
+1. **Recolección inicial:** Aplicación de formularios digitales (Google Forms) para identificar perfiles y necesidades.  
+2. **Entrevista cualitativa:** Sesión guiada en la que el participante interactuó con la app web, realizando tareas específicas.  
+3. **Evaluación heurística:** Análisis posterior basado en principios de usabilidad, arquitectura de información y diseño inclusivo.
+
+Se siguieron buenas prácticas de diseño de entrevistas:
+
+- Preguntas abiertas y no sugestivas.  
+- Secuencia lógica: de lo general a lo específico.  
+- Enfoque en comportamientos reales, no hipotéticos.
+
+**Flujos de Usuario Evaluados (User Flows \- Web)**
+
+Durante las entrevistas, se solicitó a los participantes interactuar con los siguientes flujos clave del sistema, iniciando siempre desde la Landing Page:
+
+| **Tarea** | **Descripción** |
+| :---- | :---- |
+| 1\. **Navegación desde el Landing Page** | Acceder al sitio, comprender el valor propuesto, identificar CTA claros ("Regístrate", "Ver autos"). |
+| 2\. **Registro como inquilino o propietario** | Hacer clic en "Regístrate", completar formulario con datos básicos, recibir confirmación. |
+| 3\. **Búsqueda de vehículos disponibles** | Usar filtros (ubicación, fechas, precio) en la vista principal para encontrar autos disponibles. |
+| 4\. **Reserva de un vehículo** | Seleccionar auto, elegir fechas, revisar resumen, simular pago, generar contrato. |
+| 5\. **Apertura de un ticket por incidencia** | Reportar un problema con un vehículo tras la devolución: describir el daño, adjuntar fotos y enviar el ticket para revisión del equipo Moveo. |
+| 6\. **Publicación de un vehículo (propietario)** | Completar formulario con modelo, fotos, precio, disponibilidad. |
+| 7\. **Cancelación de una reserva** | Acceder al historial de reservas, seleccionar una reserva activa y cancelarla antes del inicio del alquiler. |
+
+Estos flujos fueron evaluados en una versión funcional del frontend desplegado en staging, accesible únicamente desde navegador web (Chrome, Safari, Firefox).
+
+
+### 6.3.2. Registro de Entrevistas.
+
+Se realizaron un total de **6 entrevistas de validación**, cumpliendo con el rango requerido de 3 a 5 por segmento (3 propietarios, 3 inquilinos). Cada sesión fue grabada en video, almacenada en Microsoft Stream y referenciada con tiempo exacto de inicio y duración. Todas las pruebas se realizaron en entorno web, iniciando desde la Landing Page.
+
+**Video completo de todas las entrevistas:**  
+[https://acortar.link/4jIxfQ](https://acortar.link/4jIxfQ)
+
+**Segmento 1: Propietarios**
+
+**Entrevistado 1: Alisa Goicochea**
+
+- **Edad:** 22 años  
+- **Ocupación**: Estudiante de Marketing Digital \+ Alquiladora de autos  
+- **Distrito**: Miraflores  
+- **Dispositivos utilizados:** Laptop (MacBook Air), navegador Chrome  
+- **Instante en el que inicia:** 0:00  
+- **Duración de la entrevista:** 2:42 min
+
+**Resumen:**
+Alisa comenzó en el Landing Page y destacó la claridad del mensaje principal: "Alquila tu auto fácil y seguro". Hizo clic en "Regístrate" sin dudar. Valoró positivamente el formulario de registro y publicación, completando ambos flujos en menos de 5 minutos. Evaluó la apertura de un ticket como "clara y útil", especialmente al poder adjuntar fotos del daño. No intentó cancelar una reserva (no aplica a su rol), pero expresó que debería ser posible hacerlo sin penalidad si es con anticipación.
+
+![ValidationInterview#1](https://i.imgur.com/2pnQRSG.png)
+
+**Entrevistado 2: Mathías Peña**
+
+- **Edad:** 24 años  
+- **Ocupación:** Estudiante de Administración (UNI) \+ Emprendedor de alquiler de autos (3 vehículos)  
+- **Distrito:** Surco  
+- **Dispositivos utilizados:** Laptop (MacBook Pro), navegador Safari  
+- **Instante en el que inicia:** 2:43  
+- **Fin de la entrevista:** 5:31 min
+
+**Resumen:**
+Mathías navegó desde el Landing Page, interesándose por la sección "¿Cómo funciona?". Publicó un vehículo rápidamente. Al probar la apertura de un ticket, sugirió permitir adjuntar videos cortos además de fotos. Consideró que el sistema de cancelación debería incluir un resumen de condiciones (¿se devuelve el depósito?) antes de confirmar.
+
+![ValidationInterview#2](https://i.imgur.com/axjrlPA.png)
+
+**Entrevistado 3: Mauricio Salas**
+
+- **Edad:** 22 años  
+- **Ocupación:** Estudiante de Administración (UPC) \+ Freelancer en redes sociales \+ Alquiler de auto  
+- **Distrito:** Miraflores  
+- **Dispositivos utilizados:** Laptop (Lenovo), navegador Chrome  
+- **Instante en el que inicia:** 7:15  
+- **Duración de la entrevista:** 3:37 min
+
+**Resumen:**
+Mauricio completó el flujo de publicación y apertura de ticket. Valoró que el ticket quede vinculado a la reserva específica. Sugirió que al cancelar una reserva, el sistema muestre claramente si hay penalidades o devolución parcial de fondos.
+
+![ValidationInterview#3](https://i.imgur.com/wH786Tb.png)
+
+**Segmento 2: Inquilinos**
+
+**Entrevistado 4: Claudia Sifuentes**
+
+- **Edad:** 21 años  
+- **Ocupación:** Estudiante de Psicología \+ Trabajo media jornada en cafetería  
+- **Distrito:** San Juan de Lurigancho  
+- **Dispositivos utilizados:** Laptop (HP Pavilion), navegador Chrome  
+- **Instante en el que inicia:** 10:53  
+- **Duración de la entrevista:** 3:42 min
+
+**Resumen:**
+Claudia reservó un auto desde el Landing Page. Posteriormente, canceló una reserva simulada y consideró el proceso "simple y transparente". También abrió un ticket por "asiento roto" y valoró que el formulario sea claro. Criticó que no haya un chat integrado para aclarar dudas antes de abrir un ticket.
+
+![ValidationInterview#4](https://i.imgur.com/tC3MInH.png)
+
+**Entrevistado 5: Jackelin Peña Pariona**
+
+- **Edad:** 38 años  
+- **Ocupación:** Ingenieria  
+- **Distrito:** Lima (no especificado)  
+- **Dispositivos utilizados:** Laptop (Dell), navegador Chrome  
+- **Instante en el que inicia:** 13:35  
+- **Duración de la entrevista:** 9:28 min
+
+**Resumen:**
+Gabriel completó la reserva y luego la canceló. Notó que el sistema no muestra un mensaje de confirmación de cancelación por correo. Al abrir un ticket, sugirió incluir categorías predefinidas de incidencias (mecánicas, limpieza, documentación) para agilizar el reporte.
+
+![ValidationInterview#5](https://i.imgur.com/8duzHeO.png)
+
+**Entrevistado 6: Angie Leyva**
+
+- **Edad:** 21 años  
+- **Ocupación**: Estudiante de Comunicación \+ Community Manager freelance  
+- **Distrito:** San Miguel  
+- **Dispositivos utilizados:** Laptop (MacBook Air), navegador Safari  
+- **Instante en el que inicia:** 22:07  
+- **Duración de la entrevista:** 4:40 min
+
+**Resumen:**
+Angie navegó desde el Landing Page y reservó un auto. Al cancelar, solicitó que el sistema muestre un resumen del reembolso esperado. Al abrir un ticket, criticó que no haya un número de seguimiento visible en la interfaz ("¿cómo sé que lo recibieron?"). Recomendó añadir un sistema de notificaciones que confirme la recepción del ticket y cualquier actualización posterior. 
+
+![ValidationInterview#6](https://i.imgur.com/aHMaiN8.png)
+
+### 6.3.3. Evaluacones según heurísticas.
+
+**UX Heuristics & Principles Evaluation**
+
+**Usability – Inclusive Design – Information Architecture**
+
+**CARRERA:** Ingeniería de Software  
+**CURSO:** Diseño de experimentos de Ingeniería de Software  
+**SECCIÓN:** 17821  
+**PROFESORES:** Todos  
+**AUDITOR:** Equipo Moveo  
+**CLIENTES:** Alisa Goicochea, Mathías Peña, Mauricio Salas, Claudia Sifuentes, Jackelin Peña, Angie Leyva  
+**SITE o APP A EVALUAR:** Moveo Web App (Staging)
+
+**TAREAS A EVALUAR:**
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Navegación desde el Landing Page  
+2. Registro de un usuario nuevo (inquilino/propietario)  
+3. Búsqueda de un auto por ubicación y fechas  
+4. Reserva de un vehículo con pago simulado  
+5. Apertura de un ticket por incidencia  
+6. Publicación de un vehículo (propietario)  
+7. Cancelación de una reserva
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+- Versión móvil  
+- Chat en tiempo real  
+- Integración con pasarelas de pago reales  
+- Sistema de notificaciones push  
+- Gestión de flota múltiple
+
+**ESCALA DE SEVERIDAD:**
+
+| **Nivel** | **Descripción** |
+| ----- | ----- |
+| 1 | Problema superficial: puede ser fácilmente superado por el usuario ó ocurre con muy poco frecuencia. |
+| 2 | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. |
+| 4 | Problema muy grave: impide al usuario continuar con el uso de la herramienta. |
+
+**TABLA RESUMEN:**
+
+| \# | **Problema** | **Escala de severidad** | **Heurística/Principio violada** |
+| ----- | ----- | ----- | ----- |
+| 1 | El botón de "Reservar" no permanece visible al hacer scroll en web | 2 | Usability: Libertad y control del usuario |
+| 2 | Falta notificación al cancelar una reserva (email o en app) | 2 | Usability: Visibilidad del estado del sistema |
+| 3 | No existe número de seguimiento visible para tickets | 3 | Usability: Visibilidad del estado del sistema |
+| 4 | Formulario de tickets no incluye categorías predefinidas | 2 | Information Architecture: Is it usable? |
+| 5 | Imágenes de autos no tienen atributo "alt" | 2 | Inclusive Design: Proporciona experiencias comparables |
+| 6 | No hay resumen de condiciones de cancelación antes de confirmar | 2 | Usability: Prevención de errores |
+
+**DESCRIPCIÓN DE PROBLEMAS**
+
+**PROBLEMA \#1: El botón de "Reservar" no permanece visible al hacer scroll en web**
+
+* **Severidad:** 2  
+* **Heurística violada:** Usabilidad \- Libertad y control del usuario  
+* **Problema:** El botón de acción principal se pierde al hacer scroll en páginas largas de detalles del vehículo.  
+* **Recomendación:** Implementar un botón fijo en la parte inferior de la ventana del navegador durante el flujo de reserva.
+
+**PROBLEMA \#2: Falta notificación al cancelar una reserva**
+
+* **Severidad:** 2  
+* **Heurística violada:** Usabilidad \- Visibilidad del estado del sistema  
+* **Problema:** El usuario no recibe confirmación inmediata (ni en la app ni por email) de que su cancelación fue procesada.  
+* **Recomendación:** Mostrar un mensaje en pantalla y enviar un correo de confirmación con detalles de la cancelación.
+
+**PROBLEMA \#3: No existe número de seguimiento visible para tickets**
+
+* **Severidad:** 3  
+* **Heurística violada:** Usabilidad \- Visibilidad del estado del sistema  
+* **Problema:** Tras abrir un ticket, el usuario no ve un número de caso ni actualizaciones, lo que genera incertidumbre.  
+* **Recomendación:** Mostrar inmediatamente un número de ticket (ej: \#MOV-2025-001) y permitir su seguimiento desde el historial.
+
+**PROBLEMA \#4: Formulario de tickets no incluye categorías predefinidas**
+
+* **Severidad:** 2  
+* **Heurística violada:** Information Architecture \- Is it usable?  
+* **Problema:** El usuario debe describir todo el problema desde cero, sin guía.  
+* **Recomendación:** Añadir un dropdown con categorías (Limpieza, Daño mecánico, Daño estético, Documentación, Otro).
+
+**PROBLEMA \#5: Imágenes de autos no tienen atributo "alt"**
+
+* **Severidad:** 2  
+* **Heurística violada:** Inclusive Design \- Proporciona experiencias comparables  
+* **Problema:** Accesibilidad reducida para usuarios con discapacidad visual.  
+* **Recomendación:** Agregar atributos alt descriptivos a todas las imágenes.
+
+**PROBLEMA \#6: No hay resumen de condiciones de cancelación antes de confirmar**
+
+* **Severidad:** 2  
+* **Heurística violada:** Usabilidad \- Prevención de errores  
+* **Problema:** El usuario confirma la cancelación sin saber si habrá penalidades o reembolsos.  
+* **Recomendación:** Mostrar un resumen claro antes del botón de confirmación: "Se devolverá el 80% del pago. ¿Confirmar cancelación?".
+
+
+## **6.4. Auditoría de Experiencias de Usuario.**
+
+### **6.4.1. Auditoría realizada.**
+
+#### **6.4.1.1. Información del grupo auditado.**
+
+| Nombre Startup Auditado: SoftFocus |
+| :---: |
+
+| Nombres y Apellidos | Código de alumno |
+| :---- | :---- |
+| Gutierrez Condo,Mayhly Olinda | 202311220 |
+| Roca Tineo,Steven Mathew | 202311361 |
+| Gomez Flores,Daniela Araceli | 202311184 |
+| Luyo Correa,Sandra Paula | 202311361 |
+| Solis Santa Cruz,Giancarlo Rafael | 202318615 |
+
+#### **6.4.1.2. Cronograma de auditoría realizada.**
+
+| Actividad de auditoría recibida | Fecha | Hora | Realizado por |
+| :---- | :---: | :---: | :---- |
+| Recepción de solicitud de información y artefactos (APK) | 11/06/2026 |  | Manuel (Evaluador) |
+| Instalación del APK en emulador Android Studio | 14/06/2026 |  | Manuel (Evaluador) |
+| Ejecución de la auditoría — Rol Usuario | 15/06/2026 |  | Manuel (Evaluador) |
+| Ejecución de la auditoría — Rol Psicólogo | 15/06/2026 |  | Manuel (Evaluador) |
+| Recepción del informe de auditoría | 16/06/2026 |  | Manuel (Evaluador) |
+
+#### **6.4.1.3. Contenido de auditoría realizada.**
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+| Nivel | Descripción |
+| :---: | :---- |
+| 1 | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2 | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4 | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+| \# | Problema | Escala de Severidad | Heurística / Principio violado |
+| :---: | :---- | :---: | :---- |
+| 1 | El sistema muestra mensajes de error técnicos incomprensibles en el login | 4 | Usabilidad – Lenguaje del usuario |
+| 2 | El perfil del psicólogo muestra múltiples campos con "No especificado" | 3 | Usabilidad – Visibilidad del estado del sistema |
+| 3 | La pantalla de inicio no facilita el acceso rápido a las funciones principales | 2 | Usabilidad – Eficiencia de uso |
+| 4 | La pestaña "Clima" en la Biblioteca está desvinculada del propósito de la app | 2 | Usabilidad – Consistencia y estándares |
+| 5 | Los documentos cargados por el psicólogo no son verificados por la plataforma | 4 | Usabilidad – Prevención de errores |
+| 6 | El saludo en la pantalla de inicio del psicólogo aparece incompleto | 3 | Usabilidad – Visibilidad del estado del sistema |
+| 7 | Los mensajes de estado vacío en Alertas son genéricos e imprecisos | 2 | Usabilidad – Lenguaje del usuario |
+| 8 | La solicitud de permisos se realiza de forma agrupada sin opción granular | 3 | Usabilidad – Control y libertad del usuario |
+| 9 | Mensaje en inglés en una aplicación completamente en español | 2 | Usabilidad – Consistencia y estándares |
+| 10 | La biblioteca del psicólogo no ofrece contenido diferenciado ni recursos profesionales | 2 | Usabilidad – Adecuación al usuario |
+| 11 | El toggle para elegir tipo de cuenta en el registro tiene baja visibilidad | 2 | Usabilidad – Reconocimiento antes que recuerdo |
+| 12 | Error HTTP 400 también aparece en el formulario de registro del psicólogo | 4 | Usabilidad – Lenguaje del usuario |
+
+**PROBLEMA \#1: El sistema muestra mensajes de error técnicos incomprensibles en el login**
+
+**Severidad:** 4
+
+**Heurística violada:** Usabilidad – Lenguaje del usuario
+
+**Problema:** Al intentar iniciar sesión con credenciales incorrectas, la aplicación muestra directamente el mensaje "HTTP 400 Bad Request" debajo del botón de login. Este mensaje corresponde al protocolo HTTP y carece de significado para un usuario sin conocimientos técnicos, generando confusión e inseguridad sobre qué acción correctiva tomar. Adicionalmente, el botón "Iniciar Sesión" aparece deshabilitado y en gris cuando los campos están vacíos, sin comunicar visualmente el motivo.
+
+**Capturas de referencia:**
+
+![][image1]
+
+![][image2]
+
+**Recomendación:** Reemplazar los mensajes de error técnicos por mensajes en lenguaje natural y empático, tales como "El usuario o contraseña son incorrectos. Por favor, inténtalo de nuevo." Implementar un sistema centralizado de manejo de errores que traduzca todos los códigos HTTP a mensajes comprensibles para el usuario final.
+
+**PROBLEMA \#2: El perfil del psicólogo muestra múltiples campos con "No especificado"**
+
+**Severidad:** 3
+
+**Heurística violada:** Usabilidad – Visibilidad del estado del sistema
+
+**Problema:** Al ingresar al detalle de un psicólogo desde la búsqueda, campos relevantes como Universidad, Grado, Año de graduación, Número de colegiatura y Registro aparecen con el texto "No especificado". En una aplicación de salud mental donde la credibilidad del profesional es fundamental, mostrar información vacía reduce significativamente la confianza y la percepción de profesionalismo de la plataforma.
+
+**Capturas de referencia:**
+
+![][image3]
+
+![][image4]
+
+**Recomendación:** Implementar validación obligatoria de campos clave (universidad, grado, número de colegiatura) antes de que el perfil del psicólogo sea visible para los usuarios. Alternativamente, ocultar los campos vacíos en la vista del usuario. Añadir un indicador de porcentaje de completitud del perfil visible solo para el psicólogo.
+
+**PROBLEMA \#3: La pantalla de inicio no facilita el acceso rápido a las funciones principales**
+
+**Severidad:** 2
+
+**Heurística violada:** Usabilidad – Eficiencia de uso
+
+**Problema:** La pantalla de inicio presenta únicamente el saludo personalizado, un widget para registrar el estado de ánimo y una sección de recomendaciones. Cuando no hay recomendaciones disponibles (caso del usuario nuevo), esta sección aparece vacía con el texto "No hay recomendaciones disponibles", dejando un área visualmente desaprovechada. Las funciones de mayor valor como el chat con IA, el diario emocional o la búsqueda de psicólogos solo son accesibles desde la barra de navegación inferior.
+
+**Capturas de referencia:**
+
+![][image5]
+
+**Recomendación:** Añadir una sección de accesos rápidos en la pantalla de inicio o reemplazar el espacio de recomendaciones vacías con tarjetas de onboarding que guíen al nuevo usuario hacia las funciones principales de la app, como "Hablar con Focus", "Buscar psicólogo" y "Ver mi diario".
+
+**PROBLEMA \#4: La pestaña "Clima" en la Biblioteca está desvinculada del propósito de la app**
+
+**Severidad:** 2
+
+**Heurística violada:** Usabilidad – Consistencia y estándares
+
+**Problema:** La sección Biblioteca agrupa contenido relacionado con el bienestar emocional (películas, música, videos de meditación). Sin embargo, incluye una pestaña "Clima" que muestra el estado del tiempo actual con una sugerencia de actividad física. Su inclusión dentro de la Biblioteca resulta inesperada y fuera del contexto de una biblioteca de contenido terapéutico, generando inconsistencia en la arquitectura de información.
+
+**Capturas de referencia:**
+
+![][image6]
+
+**Recomendación:** Reubicar la información climática en la pantalla de inicio como un elemento contextual del estado de ánimo diario, o integrarla como factor ambiental opcional dentro del flujo de registro emocional. Esto mantiene la coherencia temática de la Biblioteca y hace un uso más significativo de los datos del clima.
+
+**PROBLEMA \#5: Los documentos cargados por el psicólogo no son verificados por la plataforma**
+
+**Severidad:** 4
+
+**Heurística violada:** Usabilidad – Prevención de errores
+
+**Problema:** Al registrarse como psicólogo, la aplicación solicita cargar cuatro documentos: Licencia, Diploma, DNI y Certificaciones. Sin embargo, el sistema acepta cualquier archivo sin realizar ningún tipo de validación sobre su contenido o autenticidad. No existe un estado de "pendiente de revisión" ni un proceso de aprobación antes de que el perfil del psicólogo quede activo y visible para los usuarios. Esto representa un riesgo crítico de seguridad en una aplicación de salud mental, ya que cualquier persona podría registrarse como psicólogo sin serlo, exponiendo a usuarios vulnerables.
+
+**Capturas de referencia:**
+
+![][image7]
+
+**Recomendación:** Implementar un flujo de aprobación donde los documentos sean revisados por el equipo de SoftFocus antes de activar el perfil. Mostrar al psicólogo un estado "En revisión tu perfil estará activo en 24-48 horas" mientras se verifica. Mostrar un badge "✓ Verificado por SoftFocus" en los perfiles aprobados para generar confianza en los usuarios.
+
+**PROBLEMA \#6: El saludo en la pantalla de inicio del psicólogo aparece incompleto**
+
+**Severidad:** 3
+
+**Heurística violada:** Usabilidad – Visibilidad del estado del sistema
+
+**Problema:** La pantalla de inicio del rol psicólogo muestra el saludo "Hola Dra. ," con una coma al final y sin nombre. Esto indica que el campo de nombre del psicólogo no está siendo recuperado correctamente desde el perfil post-registro, generando un mensaje incompleto y poco profesional en la pantalla principal de la aplicación.
+
+**Capturas de referencia:**
+
+![][image8]
+
+**Recomendación:** Verificar que el campo de nombre del psicólogo se recupere correctamente tras completar el registro. Añadir un valor de fallback como "Hola, Doctora" en caso de que el nombre no esté disponible temporalmente. Implementar pruebas de integración que validen la correcta carga del perfil en el home tras el registro.
+
+**PROBLEMA \#7: Los mensajes de estado vacío en Alertas son genéricos e imprecisos**
+
+**Severidad:** 2
+
+**Heurística violada:** Usabilidad – Lenguaje del usuario
+
+**Problema:** La sección de Alertas muestra el mismo mensaje "No hay alertas de crisis" acompañado de un ícono de advertencia en todas las pestañas (Todas, Críticas, Altas, Moderadas) cuando no hay alertas. En las pestañas "Altas" y "Moderadas", este mensaje es semánticamente incorrecto pues no todas esas categorías corresponden a "crisis". Adicionalmente, el ícono de alerta genera innecesariamente una sensación de urgencia cuando la situación es positiva.
+
+**Capturas de referencia:**
+
+![][image9]
+
+![][image10]
+
+![][image11]
+
+**Recomendación:** Personalizar el mensaje de estado vacío por pestaña: "No hay alertas críticas" en Críticas, "No hay alertas altas" en Altas, y así sucesivamente. Reemplazar el ícono de advertencia por uno neutral o positivo cuando no hay alertas activas, para comunicar claramente que la situación es normal.
+
+**PROBLEMA \#8: La solicitud de permisos se realiza de forma agrupada sin opción granular**
+
+**Severidad:** 3
+
+**Heurística violada:** Usabilidad – Control y libertad del usuario
+
+**Problema:** Tras el registro, la aplicación presenta una pantalla que solicita acceso a Ubicación, Cámara y Fotos/Medios de forma conjunta con un único botón "Permitir acceso". No existe la opción de conceder permisos de forma individual. Esta práctica va en contra de las recomendaciones de privacidad de Android y puede generar desconfianza en usuarios preocupados por su privacidad, especialmente en una app de salud mental que maneja datos sensibles.
+
+**Capturas de referencia:**
+
+![][image12]
+
+**Recomendación:** Solicitar cada permiso de forma individual y en el momento en que la funcionalidad lo requiera. Por ejemplo, solicitar acceso a cámara solo cuando el usuario intente usar el análisis facial de emociones. Esto sigue las guías de privacidad de Android y aumenta la confianza del usuario.
+
+**PROBLEMA \#9: Mensaje en inglés en una aplicación completamente en español**
+
+**Severidad:** 2
+
+**Heurística violada:** Usabilidad – Consistencia y estándares
+
+**Problema:** En la pantalla de inicio, dentro de la tarjeta de recomendaciones emocionales, aparece el mensaje "Your emotional levels have been lower than usual. Consider reaching out for support." en inglés, mientras que toda la interfaz de SoftFocus está en español. Esta mezcla de idiomas rompe la consistencia del lenguaje de la aplicación y puede generar confusión en usuarios que no manejen el inglés.
+
+**Capturas de referencia:**
+
+![][image13]
+
+**Recomendación:** Traducir todos los mensajes de la aplicación al español, incluyendo los generados dinámicamente por el sistema de recomendaciones. Implementar un sistema de internacionalización (i18n) que garantice consistencia de idioma en toda la app y permita agregar otros idiomas en el futuro.
+
+**PROBLEMA \#10: La biblioteca del psicólogo no ofrece contenido diferenciado ni recursos profesionales**
+
+**Severidad:** 2
+
+**Heurística violada:** Usabilidad – Adecuación al usuario
+
+**Problema:** La Biblioteca del rol psicólogo muestra el mismo contenido que la del paciente (películas, música, videos), sin recursos profesionales diferenciados. El contenido incluye películas como "Hiroshima" o documentales de tragedias históricas etiquetados como "Calmado", lo cual resulta cuestionable como recomendación dentro de una plataforma de salud mental. Un psicólogo necesita recursos distintos a los de un paciente para llevar a cabo su práctica profesional.
+
+**Capturas de referencia:**
+
+![][image14]
+
+**Recomendación:** Diferenciar la Biblioteca según el rol del usuario. Para el psicólogo, incluir recursos profesionales como artículos académicos, guías de técnicas terapéuticas o materiales asignables a pacientes. Revisar el etiquetado emocional del contenido para garantizar su pertinencia terapéutica.
+
+**PROBLEMA \#11: El toggle para elegir tipo de cuenta en el registro tiene baja visibilidad**
+
+**Severidad:** 2
+
+**Heurística violada:** Usabilidad – Reconocimiento antes que recuerdo
+
+**Problema:** El formulario de registro incluye un toggle para seleccionar entre cuenta "General" y "Psicólogo". Este control de tipo switch puede pasar desapercibido fácilmente entre los demás campos del formulario, y su estado por defecto no comunica claramente la distinción entre ambos tipos de cuenta. Usuarios que deseen registrarse como psicólogos podrían completar el proceso con el tipo incorrecto sin darse cuenta.
+
+**Capturas de referencia:**
+
+![][image15]
+
+**Recomendación:** Reemplazar el toggle por dos botones o tarjetas claramente diferenciados visualmente (ej. "Soy Paciente" / "Soy Psicólogo") con íconos representativos. Esto hace la selección más evidente y reduce el riesgo de error en el registro.
+
+**PROBLEMA \#12: Error HTTP 400 también aparece en el formulario de registro del psicólogo**
+
+**Severidad:** 4
+
+**Heurística violada:** Usabilidad – Lenguaje del usuario
+
+**Problema:** Al igual que en el login del usuario general, el formulario de registro del psicólogo muestra "HTTP 400 Bad Request" directamente en la interfaz cuando el registro falla. Este comportamiento confirma que el manejo de errores HTTP es un problema transversal de toda la aplicación que afecta tanto al flujo del usuario como al del psicólogo. El psicólogo no comprende qué campo está incorrecto ni qué acción debe tomar para completar el registro exitosamente.
+
+**Capturas de referencia:**
+
+![][image16]
+
+**Recomendación:** Implementar un sistema centralizado de manejo de errores que traduzca los códigos HTTP a mensajes comprensibles y específicos por campo (ej. "El número de colegiatura ya está registrado" o "El correo electrónico ingresado ya tiene una cuenta"). Este sistema debe aplicarse de forma consistente en todos los flujos de la aplicación.
+
+### **6.4.2. Auditoría recibida.**
+
+#### **6.4.2.1. Información del grupo auditor**
+
+| Nombre Startup Auditor: *Softfocus* |
+| :---- |
+
+| Nombres y Apellidos | Código de alumno |
+| :---- | :---- |
+| Gutierrez Condo,Mayhly Olinda | 202311220 |
+| Roca Tineo,Steven Mathew | 202311361 |
+| Gomez Flores,Daniela Araceli | 202311184 |
+| Luyo Correa,Sandra Paula | 202311361 |
+| Solis Santa Cruz,Giancarlo Rafael | 202318615 |
+
+#### **6.4.2.2. Cronograma de auditoría recibida.** 
+
+| Actividad de auditoría recibida  | Fecha | Hora  | Realizado por  |
+| :---- | :---- | :---- | ----- |
+| Recepción de solicitud de información y artefactos  | 14/06/2026  |  | Gómez Flores, Daniela Araceli |
+| Envío de información y artefactos  | 15/06/2026  |  | Gómez Flores, Daniela Araceli |
+| Ejecución de la auditoría heurística  | 16/06/2026  |  | Gómez Flores, Daniela Araceli |
+| Recepción del informe de auditoría  | 16/06/2026  |  | Gómez Flores, Daniela Araceli |
+
+#### **6.4.2.3. Contenido de auditoría recibida.**
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+| Nivel | Descripción |
+| :---- | :---- |
+| 1 | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2 | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase |
+| 3 |  Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta |
+| 4 | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+| \# | Problema | Escala de Severidad | Heurística / Principio violado |
+| ----- | ----- | ----- | ----- |
+| 1 | La tarjeta de vehículo no muestra imagen real, solo un ícono genérico | 2 | Usabilidad – Visibilidad del estado del sistema |
+| 2 | El contador muestra "1 vehículos encontrados" con error gramatical | 1 | Usabilidad – Diseño estético y minimalista |
+| 3 | Las opciones del filtro "Tipo de Ruta" no muestran etiquetas de texto, solo íconos | 3 | Usabilidad – Reconocimiento antes que recuerdo |
+| 4 | El campo "Fecha de inicio" en el modal de selección de fechas tiene un fondo negro que dificulta la lectura | 2 | Usabilidad – Diseño estético y minimalista |
+| 5 | En "Mis Alquileres" la imagen del vehículo muestra el texto roto "alt toyota" en lugar de la imagen | 3 | Usabilidad – Visibilidad del estado del sistema |
+| 6 | El dato con ícono de ubicación en la tarjeta de alquiler muestra un número (3213213) en lugar de una dirección | 2 | Usabilidad – Correspondencia entre el sistema y el mundo real |
+| 7 | El texto "2 Fechas de alquiler" en la tarjeta de alquiler es ambiguo | 2 | Usabilidad – Correspondencia entre el sistema y el mundo real |
+| 8 | Los campos del formulario "Agregar Vehículo" tienen fondo negro que genera bajo contraste con el placeholder  | 3 | Usabilidad – Diseño estético y minimalista  |
+| 9 | En el paso de "Fotografías", el botón "Choose" está en inglés mientras toda la app está en español  | 2 | Usabilidad – Consistencia y estándares  |
+| 10 | La pantalla de Notificaciones del propietario tiene un header verde oscuro inconsistente con el resto  | 2 | Usabilidad – Consistencia y estándares  |
+| 11 | La sección "Fotos del Vehículo" muestra un ícono de imagen roto (blanco sin forma definida)  | 3 | Usabilidad – Visibilidad del estado del sistema  |
+| 12 | La pantalla de Soporte tiene un área de filtros con fondo negro que rompe la paleta visual  | 2 | Usabilidad – Consistencia y estándares  |
+| 13 | El dashboard del propietario muestra "Mejor Mes: Ene \- $0.00" con signo de dólar en lugar de soles  | 2 | Usabilidad – Correspondencia entre el sistema y el mundo real |
+
+PROBLEMA \#1: La tarjeta de vehículo no muestra imagen real, solo un ícono genérico
+
+Severidad: 2  
+ Heurística violada: Usabilidad – Visibilidad del estado del sistema
+
+Problema: En la vista "Explorar Vehículos" y también dentro del modal de selección de fechas, la tarjeta del vehículo muestra únicamente un ícono genérico de auto en blanco sobre fondo naranja, en lugar de una fotografía real del vehículo. En una plataforma de alquiler de autos, la imagen es un elemento crítico para que el usuario evalúe el estado y la apariencia del vehículo antes de decidir alquilarlo. La ausencia de imagen real genera desconfianza.
+
+![][image17]
+
+Captura de referencia: Capturas del set anterior – Imagen 1 (Explorar Vehículos) / Imágenes 3 y 4 del set nuevo (Modal de selección de fechas)
+
+Recomendación: Si no hay imagen cargada, mostrar un placeholder con el texto "Sin imagen disponible" para que el usuario entienda que es una limitación del registro y no un error del sistema
+
+PROBLEMA \#2: El contador muestra "1 vehículos encontrados" con error gramatical
+
+Severidad: 1  
+ Heurística violada: Usabilidad – Diseño estético y minimalista
+
+Problema: En la sección "Explorar Vehículos", cuando el resultado de búsqueda es un solo vehículo, el sistema muestra el texto "1 vehículos encontrados" en plural, lo cual es gramaticalmente incorrecto. Este tipo de error, aunque menor, afecta la percepción de calidad y profesionalismo del producto.
+
+![][image18]
+
+Recomendación: Implementar lógica condicional que adapte el texto al número de resultados: "1 vehículo encontrado" para resultados singulares y "N vehículos encontrados" para múltiples resultados.
+
+PROBLEMA \#3: Las opciones del filtro "Tipo de Ruta" no muestran etiquetas de texto, solo íconos
+
+Severidad: 3  
+ Heurística violada: Usabilidad – Reconocimiento antes que recuerdo
+
+Problema: En la sección "Aventuras", al desplegar el filtro "Tipo de Ruta", las opciones del menú se muestran únicamente como íconos sin ninguna etiqueta de texto visible que las identifique. Solo la primera opción ("Rutas Playeras") tiene texto visible porque está seleccionada y resaltada en azul. El resto de opciones aparece como íconos en blanco sin descripción, obligando al usuario a adivinar qué representa cada ícono. Esto viola el principio de "reconocimiento antes que recuerdo", ya que el usuario no debería tener que memorizar o inferir el significado de cada ícono.
+
+![][image19]
+
+Recomendación: Mostrar el nombre de cada tipo de ruta junto a su ícono en el menú desplegable, de modo que todas las opciones sean claramente identificables sin necesidad de interactuar con ellas.
+
+PROBLEMA \#4: El campo "Fecha de inicio" tiene un fondo negro que dificulta la lectura
+
+Severidad: 2  
+ Heurística violada: Usabilidad – Diseño estético y minimalista
+
+Problema: En el modal de selección de fechas, el campo "Fecha de inicio" presenta un fondo de color negro oscuro que contrasta con el campo "Fecha de fin" que tiene un fondo blanco estándar. Esta inconsistencia visual entre los dos campos del mismo formulario genera confusión sobre el estado de cada campo y rompe la coherencia del diseño del formulario.
+
+![][image20]
+
+Recomendación: Unificar el estilo visual de ambos campos de fecha para que tengan el mismo fondo y comportamiento, diferenciando el estado activo (con foco) mediante un borde o sombra destacada, no mediante un cambio de color de fondo tan drástico.
+
+PROBLEMA \#5: En "Mis Alquileres" la imagen del vehículo muestra texto roto en lugar de la foto
+
+Severidad: 3  
+ Heurística violada: Usabilidad – Visibilidad del estado del sistema
+
+Problema: En la vista de "Mis Alquileres", después de confirmar un alquiler, la tarjeta del vehículo debería mostrar una imagen del auto, pero en su lugar aparece el texto roto "alt toyota", que corresponde al atributo alternativo de una etiqueta de imagen HTML que no cargó correctamente. Esto indica que la URL de la imagen no es válida o que la imagen no fue cargada en el sistema, exponiendo al usuario un error técnico interno que daña la percepción de calidad de la plataforma.
+
+![][image21]
+
+Recomendación: Implementar un manejo de errores adecuado para las imágenes: cuando una imagen no cargue correctamente, mostrar automáticamente un ícono o imagen de reemplazo (fallback) en lugar de mostrar el texto del atributo alt. Adicionalmente, asegurarse de que todas las imágenes de vehículos sean cargadas correctamente al momento del registro.
+
+PROBLEMA \#6: El campo de ubicación en la tarjeta de alquiler muestra un número en lugar de una dirección
+
+Severidad: 2  
+ Heurística violada: Usabilidad – Correspondencia entre el sistema y el mundo real
+
+Problema: En la tarjeta de alquiler dentro de "Mis Alquileres", uno de los datos mostrados junto a un ícono de ubicación es el número "3213213", que parece ser un ID interno del sistema en lugar de una dirección legible para el usuario. El ícono de ubicación genera la expectativa de que ese campo mostrará un distrito o dirección, pero en su lugar aparece un código sin significado para el usuario final.
+
+![][image22]
+
+Recomendación: Reemplazar el ID interno por la información legible correspondiente, como el nombre del distrito o la dirección de recojo del vehículo. Los IDs internos nunca deben ser expuestos directamente al usuario en la interfaz.
+
+PROBLEMA \#7: El texto "2 Fechas de alquiler" en la tarjeta de alquiler es ambiguo
+
+Severidad: 2  
+ Heurística violada: Usabilidad – Correspondencia entre el sistema y el mundo real
+
+Problema: En la tarjeta de alquiler dentro de "Mis Alquileres", aparece el texto "2 Fechas de alquiler" acompañado de un ícono de reloj. Este texto es confuso porque no comunica claramente qué significa ese número en ese contexto. El usuario podría interpretarlo como que tiene 2 fechas registradas, 2 días de alquiler, o 2 reservas distintas. La ambigüedad puede generar confusión sobre el estado real del alquiler.
+
+![][image23]
+
+Recomendación: Reemplazar el texto "2 Fechas de alquiler" por una etiqueta más clara como "Duración: 2 días" o mostrar directamente el rango de fechas con formato "18 jun – 20 jun 2026", tal como ya se hace en otras partes del sistema como el panel de Resumen lateral.
+
+PROBLEMA \#8: Los campos del formulario "Agregar Vehículo" tienen fondo negro que genera bajo contraste
+
+Severidad: 3  
+ Heurística violada: Usabilidad – Diseño estético y minimalista
+
+Problema: En el formulario de "Agregar Vehículo", todos los campos de entrada (Marca, Modelo, Año, Color, Transmisión, Combustible, Número de Asientos, Placa, Descripción) tienen un fondo de color negro con texto de placeholder en gris claro. Este contraste extremo entre el fondo negro y el resto de la interfaz de fondo blanco genera una experiencia visual pesada y discontinua. Adicionalmente, el fondo negro de los campos puede dificultar la lectura del texto ingresado por el usuario dependiendo del color de fuente usado al escribir.
+
+![][image24]
+
+Recomendación: Reemplazar el fondo negro de los campos de entrada por un fondo blanco o gris muy claro, con borde sutil, siguiendo las convenciones estándar de formularios web. Esto mejorará la legibilidad, reducirá la carga visual y mantendrá la coherencia con el resto de la aplicación.
+
+PROBLEMA \#9: El botón "Choose" en el paso de Fotografías está en inglés
+
+Severidad: 2  
+ Heurística violada: Usabilidad – Consistencia y estándares
+
+Problema: En el paso 4 del formulario de agregar vehículo, correspondiente a la sección de "Fotos del Vehículo", el botón para seleccionar archivos aparece con la etiqueta "Choose" en inglés, mientras que toda la interfaz de MOVEO está en español. Esta mezcla de idiomas rompe la consistencia del lenguaje de la aplicación y puede generar confusión en usuarios que no manejen inglés.
+
+![][image25]
+
+Recomendación: Traducir el botón al español como "Seleccionar" o "Elegir archivo", asegurando que todos los elementos de la interfaz mantengan el mismo idioma. Verificar si este botón es generado automáticamente por el navegador (input type="file"), en cuyo caso puede ser personalizado mediante CSS o reemplazado por un botón personalizado con el texto correcto.
+
+PROBLEMA \#10: La sección "Fotos del Vehículo" muestra un ícono de imagen roto
+
+Severidad: 3  
+ Heurística violada: Usabilidad – Visibilidad del estado del sistema
+
+Problema: En el área de carga de fotografías del vehículo, el ícono de previsualización que debería guiar al usuario sobre qué se espera cargar aparece como un recuadro blanco sin forma definida, lo que parece ser un ícono que no cargó correctamente. Esta imagen rota genera confusión sobre si la sección está funcionando correctamente o si hay un problema técnico, especialmente considerando que es el paso más importante del registro del vehículo ya que las fotos son clave para atraer clientes.
+
+![][image26]
+
+Recomendación: Asegurarse de que el ícono de la sección de carga de fotos cargue correctamente en todos los navegadores. Usar un ícono SVG embebido en lugar de una imagen externa para evitar errores de carga. Idealmente mostrar un ejemplo visual de cómo debería verse una foto del vehículo como referencia para el propietario.
+
+PROBLEMA \#11: La pantalla de Notificaciones del propietario tiene un header verde oscuro inconsistente
+
+Severidad: 2  
+ Heurística violada: Usabilidad – Consistencia y estándares
+
+Problema: En la vista de Notificaciones del propietario, el encabezado de la sección muestra el título "Notificaciones" sobre un fondo verde oscuro, mientras que el resto de las pantallas del propietario utilizan el color naranja como color de encabezado. Esta inconsistencia en el header rompe la identidad visual del sistema y puede hacer que el usuario sienta que está en una sección desconectada del resto de la aplicación.
+
+![][image27]
+
+Recomendación: Unificar el color del encabezado de la sección de Notificaciones con el color naranja utilizado en el resto de pantallas del sistema. Si el equipo decidió diferenciar secciones por color, debe establecer y documentar una paleta de colores clara y aplicarla de forma consistente en toda la aplicación.
+
+PROBLEMA \#12: La pantalla de Soporte tiene un área de filtros con fondo negro que rompe la paleta visual
+
+Severidad: 2  
+ Heurística violada: Usabilidad – Consistencia y estándares
+
+Problema: En la pantalla de "Tickets de Soporte", la sección de filtros ("Filtrar por Estado" y "Filtrar por Tipo") tiene un fondo negro que contrasta fuertemente con el resto de la página de fondo blanco. Al igual que el problema detectado en el formulario de agregar vehículo, este fondo negro genera una ruptura visual abrupta y no corresponde al estilo general de la aplicación. Los dropdowns con fondo negro sobre la página blanca hacen que la sección de filtros parezca un elemento ajeno al diseño del sistema.
+
+![][image28]
+
+Recomendación: Reemplazar el fondo negro del área de filtros y de los dropdowns por un fondo blanco o gris claro, con bordes sutiles, manteniendo coherencia con el resto del sistema. El fondo negro debería reservarse únicamente si forma parte de un modo oscuro oficial y aplicarse de forma global, no en secciones aisladas.
+
+PROBLEMA \#13: El dashboard muestra montos con signo de dólar ($) en lugar de soles (S/)
+
+Severidad: 2  
+ Heurística violada: Usabilidad – Correspondencia entre el sistema y el mundo real
+
+Problema: En el dashboard del propietario, los valores del gráfico de "Ganancias Mensuales" y los resúmenes de "Total Ganado" y "Promedio Mensual" utilizan el símbolo "$" (dólar) en lugar de "S/" (sol peruano), que es la moneda utilizada en el resto de la aplicación. Por ejemplo, en la tarjeta de resumen superior se muestra "S/ 0.00" correctamente, pero en el gráfico inferior aparece "$0.00". Esta inconsistencia puede generar confusión sobre en qué moneda se expresan las ganancias.
+
+![][image29]
+
+Recomendación: Unificar el símbolo de moneda en toda la aplicación utilizando "S/" para soles peruanos, que es la moneda local y la que se usa en el resto del sistema. Revisar todos los componentes que muestren valores monetarios para asegurar consistencia.
+
+#### **6.4.2.4. Resumen de modificaciones para subsanar hallazgos.**
+
+A continuación se presenta el resumen de las modificaciones planificadas por el equipo de NextMobility para subsanar cada uno de los hallazgos identificados durante la auditoría heurística recibida. Las modificaciones han sido priorizadas según la severidad del hallazgo y su impacto en la experiencia del usuario.
+
+| \# | Hallazgo identificado | Componente afectado | Modificación planificada | Prioridad | Estado |
+| :---: | ----- | ----- | ----- | :---: | :---: |
+| 1 | La tarjeta de vehículo no muestra imagen real, solo un ícono genérico | Explorar Vehículos / Modal de selección de fechas | Corregir la carga de imágenes en la tarjeta de vehículo para que muestre la fotografía real registrada. Cuando no exista imagen cargada, mostrar un placeholder con el texto 'Sin imagen disponible' en lugar del ícono genérico. | Media | Planificado |
+| 2 | El contador muestra '1 vehículos encontrados' con error gramatical | Sección Explorar Vehículos | Implementar lógica condicional en el texto del contador de resultados: mostrar '1 vehículo encontrado' cuando el resultado sea singular y 'N vehículos encontrados' para múltiples resultados. | Baja | Planificado |
+| 3 | Las opciones del filtro 'Tipo de Ruta' no muestran etiquetas de texto, solo íconos | Sección Aventuras — Filtro Tipo de Ruta | Agregar etiquetas de texto junto a cada ícono del filtro 'Tipo de Ruta' en el menú desplegable, de modo que todas las opciones sean identificables sin necesidad de inferir su significado. | Alta | Planificado |
+| 4 | El campo 'Fecha de inicio' en el modal de selección de fechas tiene un fondo negro que dificulta la lectura | Modal de selección de fechas | Unificar el estilo visual de los campos 'Fecha de inicio' y 'Fecha de fin' para que ambos tengan el mismo fondo blanco. Diferenciar el campo activo únicamente mediante borde o sombra destacada, sin cambio de color de fondo. | Media | Planificado |
+| 5 | En 'Mis Alquileres' la imagen del vehículo muestra el texto roto 'alt toyota' en lugar de la imagen | Vista Mis Alquileres | Implementar manejo de errores para imágenes: cuando una imagen no cargue correctamente, mostrar automáticamente una imagen de reemplazo (fallback) en lugar del texto del atributo alt. Verificar que las URLs de imágenes de vehículos sean válidas al momento del registro. | Alta | Planificado |
+| 6 | El campo de ubicación en la tarjeta de alquiler muestra un número (ID interno) en lugar de una dirección | Tarjeta de alquiler — Mis Alquileres | Reemplazar el ID interno del sistema por la información legible correspondiente: nombre del distrito o dirección de recojo del vehículo. Los IDs internos no deben ser expuestos en la interfaz del usuario. | Alta | Planificado |
+| 7 | El texto '2 Fechas de alquiler' en la tarjeta de alquiler es ambiguo | Tarjeta de alquiler — Mis Alquileres | Reemplazar el texto ambiguo '2 Fechas de alquiler' por una etiqueta clara como 'Duración: 2 días' o mostrar directamente el rango de fechas con formato '18 jun – 20 jun 2026', consistente con el panel de Resumen lateral. | Media | Planificado |
+| 8 | Los campos del formulario 'Agregar Vehículo' tienen fondo negro que genera bajo contraste | Formulario Agregar Vehículo | Reemplazar el fondo negro de todos los campos de entrada (Marca, Modelo, Año, Color, Transmisión, Combustible, N° de Asientos, Placa, Descripción) por fondo blanco o gris claro con borde sutil, siguiendo las convenciones estándar de formularios. | Alta | Planificado |
+| 9 | El botón 'Choose' en el paso de Fotografías está en inglés | Formulario Agregar Vehículo — Paso Fotografías | Traducir el botón al español ('Seleccionar' o 'Elegir archivo'). Si el botón es generado automáticamente por el navegador (input type='file'), reemplazarlo por un botón personalizado con el texto correcto en español. | Media | Planificado |
+| 10 | La sección 'Fotos del Vehículo' muestra un ícono de imagen roto | Formulario Agregar Vehículo — Sección Fotos | Reemplazar la imagen de previsualización rota por un ícono SVG embebido que cargue correctamente en todos los navegadores. Incluir un ejemplo visual de referencia sobre cómo debería verse la fotografía del vehículo. | Alta | Planificado |
+| 11 | La pantalla de Notificaciones del propietario tiene un header verde oscuro inconsistente con el resto | Pantalla de Notificaciones — Propietario | Unificar el color del encabezado de la sección Notificaciones con el color naranja utilizado en el resto de pantallas del propietario, manteniendo consistencia visual en toda la aplicación. | Media | Planificado |
+| 12 | La pantalla de Soporte tiene un área de filtros con fondo negro que rompe la paleta visual | Pantalla Tickets de Soporte | Reemplazar el fondo negro del área de filtros ('Filtrar por Estado' y 'Filtrar por Tipo') y de los dropdowns por fondo blanco o gris claro con bordes sutiles, manteniendo coherencia con el estilo general de la aplicación. | Media | Planificado |
+| 13 | El dashboard del propietario muestra montos con signo de dólar ($) en lugar de soles (S/) | Dashboard del Propietario — Gráfico de Ganancias | Unificar el símbolo de moneda en toda la aplicación usando 'S/' para soles peruanos. Revisar todos los componentes que muestren valores monetarios (gráfico de Ganancias Mensuales, Total Ganado, Promedio Mensual) para garantizar consistencia. | Media | Planificado |
+
+**Nota:** Los hallazgos con prioridad **Alta** serán atendidos en el siguiente sprint de desarrollo. Los de prioridad **Media** y **Baja** serán incorporados en los releases subsiguientes según disponibilidad del equipo.
+
+[image1]: assets/Chapter-6/image1.png
+
+[image2]: assets/Chapter-6/image2.png
+
+[image3]: assets/Chapter-6/image3.png
+
+[image4]: assets/Chapter-6/image4.png
+
+[image5]: assets/Chapter-6/image5.png
+
+[image6]: assets/Chapter-6/image6.png
+
+[image7]: assets/Chapter-6/image7.png
+
+[image8]: assets/Chapter-6/image8.png
+
+[image9]: assets/Chapter-6/image9.png
+
+[image10]: assets/Chapter-6/image10.png
+
+[image11]: assets/Chapter-6/image11.png
+
+[image12]: assets/Chapter-6/image12.png
+
+[image13]: assets/Chapter-6/image13.png
+
+[image14]: assets/Chapter-6/image14.png
+
+[image15]: assets/Chapter-6/image15.png
+
+[image16]: assets/Chapter-6/image16.png
+
+[image17]: assets/Chapter-6/image17.png
+
+[image18]: assets/Chapter-6/image18.png
+
+[image19]: assets/Chapter-6/image19.png
+
+[image20]: assets/Chapter-6/image20.png
+
+[image21]: assets/Chapter-6/image21.png
+
+[image22]: assets/Chapter-6/image22.png
+
+[image23]: assets/Chapter-6/image23.png
+
+[image24]: assets/Chapter-6/image24.png
+
+[image25]: assets/Chapter-6/image25.png
+
+[image26]: assets/Chapter-6/image26.png
+
+[image27]: assets/Chapter-6/image27.png
+
+[image28]: assets/Chapter-6/image28.png
+
+[image29]: assets/Chapter-6/image29.png
+
+## Capítulo VII: DevOps Practices
+
+### 7.1. Continuous Integration
+
+La Integración Continua (CI) en MOVEO tiene como objetivo que cada cambio que los desarrolladores integran al repositorio sea construido y validado de forma automática, detectando errores lo antes posible. Cada vez que se realiza un push o se fusiona una rama de funcionalidad, el código se compila y se ejecutan las suites de pruebas, garantizando que la base de código se mantenga siempre en un estado estable y desplegable. Este enfoque reduce los conflictos de integración, mantiene la calidad del código y permite que el equipo trabaje de forma ágil sobre los repositorios MOVEO-Frontend y MOVEO-Backend.
+
+#### 7.1.1. Tools and Practices.
+
+En el proceso de desarrollo y pruebas de MOVEO se emplea un conjunto de herramientas que aseguran tanto la calidad del código como la productividad del equipo. Estas herramientas abarcan distintas fases del ciclo de vida del software, desde la escritura del código hasta la ejecución automatizada de pruebas. El equipo sigue las metodologías de Desarrollo Orientado por Pruebas (TDD) y Desarrollo Orientado por Comportamiento (BDD), de modo que las soluciones no solo cumplan con los requerimientos del cliente, sino que también mantengan altos niveles de calidad técnica. Las principales herramientas utilizadas son:
+
+| Herramienta | Tipo | Descripción | Propósito |
+| :---- | :---- | :---- | :---- |
+| Git / GitHub | Control de versiones | Sistema de control de versiones distribuido y plataforma de alojamiento del código fuente. | Centralizar el código, gestionar ramas de funcionalidad y servir como punto de integración del trabajo de todo el equipo. |
+| GitHub Actions | Automatización CI/CD | Servicio de automatización que ejecuta workflows definidos en `.github/workflows/`. | Construir y probar automáticamente el código en cada push o integración, asegurando que el proyecto compile y pase las pruebas. |
+| Vitest | Pruebas (TDD) | Framework de pruebas unitarias y funcionales para el frontend, integrado con Vite. | Probar componentes Vue, stores de Pinia y lógica de dominio del frontend de forma rápida y aislada. |
+| @vue/test-utils | Pruebas de componentes | Librería oficial para montar y probar componentes Vue en aislamiento. | Verificar el render y el comportamiento de los componentes de la interfaz. |
+| xUnit | Pruebas (TDD) | Framework de pruebas unitarias e integración para el backend en C# / .NET. | Validar la lógica de dominio y los servicios de aplicación de cada bounded context. |
+| WebApplicationFactory | Pruebas de integración | Utilidad de ASP.NET Core para levantar la API en memoria durante las pruebas. | Probar los endpoints REST del backend de extremo a extremo contra una instancia real de la aplicación. |
+| Selenium WebDriver / Sauce Labs | Pruebas E2E | Herramienta de automatización de navegador para pruebas end-to-end del frontend. | Validar los flujos críticos de usuario (login, checkout) en un navegador real. |
+| Gherkin (BDD) | Pruebas (BDD) | Lenguaje natural estructurado para describir el comportamiento esperado mediante feature files. | Alinear el desarrollo con el comportamiento del negocio y servir de base para las pruebas de aceptación. |
+| ESLint + Prettier | Análisis estático | Linter y formateador del código frontend. | Detectar errores y mantener un estilo de código uniforme antes de cada integración. |
+| Docker | Contenerización | Empaqueta el backend con todas sus dependencias en un contenedor. | Asegurar consistencia entre los entornos de desarrollo, integración y producción. |
+
+**Prácticas (Practices):**
+
+- **Feature Branching (GitFlow):** Cada funcionalidad se desarrolla en una rama `feature/` independiente que luego se integra a la rama de trabajo mediante revisión, evitando conflictos sobre la rama principal.
+- **TDD y BDD:** Las pruebas se escriben junto con el código (Vitest y xUnit) y el comportamiento esperado se documenta con feature files en Gherkin.
+- **Conventional Commits:** Los mensajes de commit siguen una convención (feat, fix, test, etc.) que facilita la trazabilidad de los cambios integrados.
+- **Integración frecuente:** Los cambios se integran de forma regular para que la suite de pruebas se ejecute y detecte problemas de manera temprana.
+
+#### 7.1.2. Build & Test Suite Pipeline Components.
+
+El pipeline de integración continua de MOVEO se compone de una serie de etapas que se ejecutan de forma encadenada cada vez que se integra código. Estas etapas garantizan que el resultado sea siempre una versión construida y probada de la aplicación. Los componentes del pipeline son:
+
+**Frontend (Vue 3 + Vite):**
+
+1. **Checkout e instalación de dependencias:** Se obtiene el código del repositorio y se instalan las dependencias con `npm install`.
+2. **Análisis estático:** Se ejecuta `npm run lint` (ESLint) y la verificación de formato con Prettier para validar las convenciones de código.
+3. **Ejecución de pruebas:** Se ejecutan las pruebas unitarias y funcionales con Vitest (`npm run test:unit` y `npm run test:functional`), validando componentes, stores y lógica de dominio.
+4. **Construcción del bundle:** Se genera el build de producción con `npm run build`, produciendo el bundle optimizado en la carpeta `dist/`.
+
+![Ejecución de la suite de pruebas del frontend (npm run test:unit)](https://i.imgur.com/uhmpfBF.png)
+
+![Construcción de producción del frontend (npm run build)](https://i.imgur.com/lcSEBR7.png)
+
+**Backend (C# / .NET 9):**
+
+1. **Restauración:** Se restauran las dependencias del proyecto con `dotnet restore`.
+2. **Compilación:** Se compila la solución con `dotnet build` en configuración Release, verificando que el proyecto compile sin errores.
+3. **Contenerización:** Se construye la imagen Docker del backend a partir del `Dockerfile` (build multi-stage de .NET 9), dejando el artefacto listo para su despliegue.
+
+![Compilación del backend con dotnet build en configuración Release](https://i.imgur.com/yxjXIKq.png)
+
+![Dockerfile del backend para la contenerización del servicio](https://i.imgur.com/ILRpCmc.png)
+
+### 7.2. Continuous Delivery
+
+La Entrega Continua (Continuous Delivery) en MOVEO tiene como objetivo automatizar la integración y las pruebas del código, manteniendo en todo momento una versión lista para ser desplegada. A diferencia del despliegue continuo, en la entrega continua el código se mantiene siempre en un estado "desplegable", pero el paso final a producción puede requerir una validación previa en un entorno intermedio y/o una aprobación del equipo, lo que aporta mayor control sobre lo que finalmente llega a los usuarios.
+
+#### 7.2.1. Tools and Practices.
+
+**Tools (Herramientas):**
+
+- **GitHub Actions:** Automatiza todo el pipeline de CI/CD. Para la entrega continua se configura una etapa en la que el software queda construido y probado, listo para desplegar, pero el paso a producción puede condicionarse a una aprobación.
+- **Docker:** Conteneriza el backend de MOVEO para asegurar que el entorno de desarrollo, el de validación (staging) y el de producción sean consistentes, facilitando la validación en entornos intermedios.
+- **Vercel:** Genera preview deployments automáticos del frontend por cada rama o cambio, lo que permite validar la aplicación en un entorno similar a producción antes de la liberación definitiva.
+- **Railway:** Permite gestionar entornos del backend y la base de datos MySQL, sirviendo como entorno de validación previo al de producción.
+- **GitHub Projects / Trello:** Se utiliza para gestionar el proceso de aprobación del despliegue, donde un responsable revisa y aprueba antes de liberar a producción.
+
+**Practices (Prácticas):**
+
+- **Feature Branching y Merge Requests:** Las nuevas funcionalidades se desarrollan en ramas `feature/` y se fusionan a una rama estable (develop) tras pasar las pruebas automáticas; el despliegue a producción puede requerir aprobación manual.
+- **Pipeline de Validación en Staging:** Antes de desplegar a producción, los cambios pasan por un entorno de staging (preview de Vercel / entorno de Railway), donde se valida el código en condiciones similares a las reales y se puede recibir retroalimentación de usuarios clave.
+- **Despliegue Semiautomático:** El pipeline deja la aplicación lista para desplegar, pero la liberación final se confirma cuando un responsable lo aprueba.
+- **Aprobación Manual:** Un responsable del proyecto revisa los resultados de las pruebas antes de autorizar el despliegue, reduciendo el riesgo de liberar código no deseado.
+- **Rollback Manual:** Si se detecta un fallo, el equipo puede revertir a la versión anterior de forma controlada desde los dashboards de Vercel (frontend) y Railway (backend).
+
+#### 7.2.2. Stages Deployment Pipeline Components.
+
+Este apartado describe las etapas que componen el pipeline de entrega continua de MOVEO y cómo se encadenan para mantener el código siempre listo para producción:
+
+1. **Integración Continua (CI):** Al hacer un commit o fusionar una rama de funcionalidad, el pipeline ejecuta automáticamente la construcción y las pruebas (Vitest en el frontend y la compilación con .NET en el backend), garantizando que la aplicación esté en un estado desplegable.
+2. **Validación previa al despliegue:** Antes de liberar, el código se valida en condiciones similares a producción. En el frontend, Vercel construye la aplicación Vue 3 + Vite (preset Vite) a partir de la rama main; en el backend, Railway construye el servicio .NET junto con su base de datos MySQL.
+3. **Aprobación y Despliegue:** Una vez validada la construcción, el despliegue se realiza hacia los entornos de producción. Vercel publica el frontend distribuyéndolo por su CDN global con una URL pública segura, y Railway publica el backend exponiendo la API.
+4. **Despliegue exitoso:** Ambos servicios quedan en estado activo y en línea, confirmando que la nueva versión fue entregada correctamente.
+5. **Monitoreo y Feedback:** Después de la liberación, se observa el comportamiento de la nueva versión (estado de los servicios, rendimiento y disponibilidad) para confirmar el éxito del despliegue y, de ser necesario, ejecutar un rollback controlado desde los dashboards de Vercel y Railway.
+
+![Despliegue del frontend MOVEO (Vue 3 + Vite) en Vercel desde la rama main de GitHub](https://i.imgur.com/Z9LWHZc.png)
+
+![Despliegue del backend MOVEO (.NET + MySQL) en Railway, disparado desde un commit en GitHub, con ambos servicios en línea](https://i.imgur.com/EBac5Ut.png)
+
+### 7.3. Continuous deployment
+
+El objetivo de Continuous Deployment (CD) en Moveo es que los cambios aprobados en el código pasen automáticamente desde el desarrollo hasta la producción, garantizando que cada nueva versión sea entregada sin intervención manual, siempre y cuando pase todas las etapas de validación del pipeline. Esto asegura que el equipo pueda desplegar con confianza y frecuencia, manteniendo la plataforma actualizada para propietarios e inquilinos de vehículos.
+
+#### 7.3.1. Tools and Practices.
+
+En este apartado se detallan las herramientas y prácticas que aseguran un despliegue automatizado y confiable en producción para el proyecto Moveo.
+
+**Tools (Herramientas):**
+
+- **GitHub Actions:** Para automatizar el pipeline de CI/CD. Permite configurar workflows definidos en archivos .github/workflows/ que incluyen la ejecución de pruebas y el despliegue automático a los entornos de staging y producción ante cada push en las ramas develop o main.
+- **Railway:** Plataforma utilizada para el despliegue del backend en C# .NET y para la gestión de la base de datos MySQL. Railway detecta automáticamente el archivo .csproj del proyecto, construye el contenedor del servicio y gestiona las variables de entorno de producción, incluyendo la cadena de conexión a la base de datos y el entorno de ejecución. También ofrece soporte para migraciones automáticas mediante Entity Framework Core y generación de backups periódicos.
+- **Vercel:** Plataforma encargada del despliegue automático del frontend en Vue 3 + Vite. Cada push a la rama main activa un nuevo deployment de producción, distribuyendo la aplicación a través de la CDN global de Vercel y generando una URL pública segura con HTTPS de forma inmediata.
+
+**Feature Branching:**
+
+- El equipo utiliza una estrategia de ramas basada en GitFlow, donde los desarrolladores trabajan en nuevas funcionalidades dentro de ramas feature/. Una vez completadas y revisadas mediante pull request, estas ramas se fusionan a la rama develop, que centraliza los cambios validados antes de ser liberados a producción.
+- Commit-based deployment (Despliegue basado en commits): Cada vez que se realiza un push en la rama main, el pipeline de CI/CD se activa automáticamente para ejecutar los procesos de construcción, pruebas y despliegue, tanto en Vercel para el frontend como en Railway para el backend. Esta rama es la fuente de verdad para el entorno de producción, manteniendo el flujo de trabajo ágil y automatizado.
+- Rollback automático: En caso de detectar fallos durante el despliegue, Railway permite revertir instantáneamente a la versión anterior del servicio backend, restaurando el estado estable de la API y notificando al equipo sobre el incidente. Vercel aplica el mismo mecanismo para el frontend, permitiendo reactivar el deployment anterior con un solo clic desde el dashboard.
+
+#### 7.3.2. Production Deployment Pipeline Components.
+
+Este apartado describe los componentes que forman parte del pipeline de despliegue a producción de Moveo y cómo se integran para automatizar todo el proceso.
+
+**Componentes del Pipeline de la Base de Datos (Railway — MySQL):**
+
+1. Gestión de Migraciones Automáticas: Al desplegar una nueva versión del backend, Entity Framework Core aplica automáticamente las migraciones pendientes sobre la base de datos MySQL gestionada en Railway. Cuando se modifican las entidades del dominio, el backend sincroniza el esquema de la base de datos con los cambios en el código, sin necesidad de intervención manual.
+2. Backup Automático: Railway genera copias de seguridad automáticas de la base de datos de forma periódica. Esto asegura que, en caso de que algo falle durante una migración crítica, sea posible restaurar la base de datos a su estado anterior sin pérdida de datos.
+3. Monitoreo de la Base de Datos: Railway proporciona métricas en tiempo real sobre el estado del servicio de base de datos, incluyendo uso de memoria y estado de las conexiones activas. Si se detectan anomalías en el rendimiento, el equipo recibe notificaciones para tomar las medidas necesarias.
+4. Validación de Esquema: Después de aplicar las migraciones, los integration tests del backend ejecutados con WebApplicationFactory validan que las entidades, relaciones y endpoints del dominio funcionen correctamente con el nuevo esquema de la base de datos.
+5. Despliegue Continuo: Una vez aplicadas y validadas las migraciones, los cambios se reflejan automáticamente en el entorno de producción, permitiendo un flujo de trabajo continuo y ágil para el equipo de Moveo.
+
+![Pipeline de la base de datos MySQL en Railway](https://i.imgur.com/rU27jJi.png)
+
+![Migraciones y estado de la base de datos en Railway](https://i.imgur.com/IFxSKD6.png)
+
+**Componentes del Pipeline del Backend (Railway — C# .NET):**
+
+1. Integración continua: Al fusionarse código en la rama main, Railway toma el código actualizado del repositorio del backend en C# .NET y lo construye utilizando el SDK de .NET 8, verificando que el proyecto compile correctamente.
+2. Construcción del contenedor: Railway construye internamente un contenedor con el backend, asegurando que todas las dependencias del proyecto estén incluidas y que el entorno de ejecución sea consistente con el de desarrollo.
+3. Aplicación de migraciones: Al iniciarse el contenedor en producción, la aplicación aplica automáticamente las migraciones de Entity Framework Core pendientes sobre la base de datos MySQL en Railway.
+4. Despliegue: Railway reemplaza la versión anterior del servicio con la nueva versión desplegada y expone el dominio público de la API, incluyendo la interfaz de Swagger para la verificación interactiva de los endpoints.
+5. Monitoreo y alerta: Después del despliegue, Railway monitorea el estado del contenedor y envía alertas al equipo si el servicio se reinicia de forma inesperada o si el proceso de construcción falla durante el deployment.
+
+![Pipeline de despliegue del backend en Railway](https://i.imgur.com/qw7OJRz.png)
+
+**Componentes del Pipeline del Frontend (Vercel — Vue 3 + Vite):**
+
+1. Compilación del frontend: Al detectar un nuevo push en la rama main, Vercel inicia automáticamente el proceso de construcción de la aplicación Vue 3 en modo producción, ejecutando npm run build con Vite y generando el bundle optimizado en la carpeta dist/.
+2. Validación previa al despliegue: ESLint y Prettier verifican que el código del frontend cumpla con las convenciones del equipo antes de proceder con el deployment, bloqueando el proceso si se detectan errores de estilo o calidad de código.
+3. Despliegue en Vercel: Si la construcción es exitosa, Vercel implementa automáticamente la nueva versión de la aplicación web en producción, distribuyéndola a través de su CDN global para garantizar tiempos de carga óptimos desde cualquier ubicación.
+4. Invalidación de caché: Vercel invalida automáticamente la caché del CDN tras cada deployment, asegurando que los usuarios de Moveo siempre reciban la versión más reciente de la aplicación sin necesidad de limpiar manualmente el caché desde el navegador.
+
+### 7.4. Continuous Monitoring
+
+El objetivo del Monitoreo Continuo en Moveo es detectar de forma proactiva problemas de rendimiento, disponibilidad y calidad en el frontend y el backend, asegurando que la plataforma mantenga una experiencia óptima para propietarios e inquilinos de vehículos incluso ante cambios frecuentes en el código o picos de demanda.
+
+#### 7.4.1. Tools and Practices
+
+Algunas herramientas y prácticas que se emplearán para llevar a cabo un monitoreo continuo y eficaz en la aplicación Moveo son las siguientes:
+
+- **Pruebas de Carga y Estrés:** JMeter permite simular cargas de usuarios concurrentes y condiciones extremas sobre los endpoints de la API REST del backend, asegurando que el servicio desplegado en Railway mantenga un rendimiento aceptable bajo alta demanda, especialmente en flujos críticos como la búsqueda de vehículos, la creación de reservas y el procesamiento de pagos.
+- **Monitoreo de Experiencia del Usuario:** Vercel Analytics recopila datos de rendimiento basados en visitas reales al frontend de Moveo, incluyendo métricas de Core Web Vitals como LCP (Largest Contentful Paint), FID (First Input Delay) y CLS (Cumulative Layout Shift). Esto proporciona al equipo una perspectiva directa sobre cómo el rendimiento de la aplicación Vue 3 impacta la experiencia de los usuarios finales en producción.
+- **Supervisión de APIs:** Postman Monitor permite configurar ejecuciones programadas de las colecciones de prueba de la API de Moveo, verificando de forma periódica la disponibilidad y el tiempo de respuesta de los endpoints en producción. Esto permite al equipo detectar caídas o degradaciones del servicio sin depender de reportes manuales.
+- **Auditorías de Calidad Web:** Google Lighthouse permite auditar periódicamente el frontend de Moveo desplegado en Vercel, analizando métricas de rendimiento, accesibilidad, buenas prácticas y SEO. Estas auditorías permiten identificar cuellos de botella en la carga de la aplicación y oportunidades de mejora en la experiencia del usuario antes de que se conviertan en problemas perceptibles para los usuarios finales.
+
+#### 7.4.2. Monitoring Pipeline Components
+
+Un pipeline de monitoreo constante integra diversas etapas que ayudan a mantener la calidad y el rendimiento de la plataforma Moveo. Estas etapas incluyen la recopilación de datos, el análisis y la visualización de métricas tanto del frontend como del backend.
+
+Google Lighthouse es ideal para realizar auditorías de calidad periódicas sobre el frontend de Moveo en Vercel, proporcionando análisis detallados de accesibilidad, buenas prácticas, SEO y rendimiento. Esta herramienta permite al equipo identificar problemas que impactan la experiencia del usuario, tales como tiempos de carga elevados, recursos no optimizados y cambios de diseño inesperados (layout shifts).
+
+Vercel Analytics complementa el monitoreo de Lighthouse al ofrecer datos de rendimiento basados en el tráfico real de la plataforma, permitiendo entender cómo los usuarios interactúan con la aplicación Vue 3 desde diferentes dispositivos y conexiones. A diferencia de las auditorías sintéticas, estos datos reflejan la experiencia real de los propietarios e inquilinos que acceden a Moveo en producción.
+
+Railway, por su parte, expone métricas en tiempo real del backend desplegado en C# .NET, incluyendo uso de CPU y memoria del contenedor, logs de ejecución y estado de las conexiones a la base de datos MySQL. Esta visibilidad permite al equipo detectar y resolver problemas de rendimiento del servidor antes de que impacten a los usuarios finales de la plataforma.
+
+#### 7.4.3. Alerting Pipeline Components
+
+El componente de alertas en el pipeline de monitoreo de Moveo es fundamental para la detección y respuesta rápida ante problemas de rendimiento o disponibilidad. Este sistema permite que el equipo sea notificado de forma inmediata cuando ocurren eventos críticos o anomalías que requieren atención.
+
+- **Railway — Alertas de Reinicio y Fallo de Deployment:** Railway notifica automáticamente al equipo cuando el contenedor del backend se reinicia de forma inesperada o cuando el proceso de construcción falla durante un deployment. Estas alertas permiten al equipo identificar regresiones introducidas por un cambio en el código y actuar de inmediato para restaurar la estabilidad del servicio en producción.
+- **GitHub Actions — Status Checks:** Cada ejecución del pipeline de CI/CD en GitHub Actions reporta su estado directamente en los pull requests y en el historial de commits. Si alguna etapa falla, ya sea la compilación, las pruebas unitarias de NUnit, los integration tests o la construcción del bundle de Vue 3, el equipo recibe una notificación en GitHub y el merge hacia main queda bloqueado hasta resolver el problema, previniendo despliegues defectuosos a producción.
+- **Postman Monitor — Alertas de API:** Los monitores de Postman están configurados para notificar al equipo por correo electrónico cuando un endpoint de la API de Moveo responde con un status code inesperado o supera el umbral de tiempo de respuesta definido. Esto actúa como una capa de alerta continua sobre la disponibilidad de los servicios de autenticación, vehículos, reservas y pagos en producción.
+- **Vercel — Deployment Notifications:** Vercel envía notificaciones automáticas al equipo cuando un deployment del frontend falla o cuando el proceso de build presenta errores, permitiendo identificar rápidamente si un cambio en el código rompió la construcción de la aplicación Vue 3 antes de que llegue a los usuarios finales.
+
+La integración de estas herramientas de alerta permite al equipo de Moveo mantener una respuesta proactiva ante incidentes, reduciendo el tiempo de detección y resolución de problemas en producción y minimizando el impacto sobre la experiencia de propietarios e inquilinos.
+
+#### 7.4.4. Notification Pipeline Components.
+
+El pipeline de notificaciones de Moveo es esencial para comunicar de forma automática los resultados de las pruebas y el estado del pipeline a todos los integrantes del equipo. GitHub Actions juega un papel central en este proceso, ya que permite configurar notificaciones detalladas sobre el progreso y los resultados de cada fase del pipeline de CI/CD.
+
+Con GitHub Actions, las notificaciones se generan automáticamente al finalizar cada workflow, informando sobre el éxito o fallo de la compilación, las pruebas unitarias con NUnit, los integration tests con WebApplicationFactory y la construcción del frontend con Vite. Esto permite que el equipo reciba alertas en tiempo real sobre cualquier incidente o fallo introducido por un cambio en el código, facilitando una respuesta inmediata sin necesidad de revisar manualmente los logs.
+
+Railway y Vercel complementan este sistema de notificaciones con alertas específicas sobre el estado de los servicios desplegados en producción, mientras que Postman Monitor añade una capa de visibilidad continua sobre la salud de la API REST de Moveo. En conjunto, estas herramientas conforman un sistema de notificaciones en múltiples capas que cubre desde la etapa de integración del código hasta la verificación continua del servicio en producción, proporcionando al equipo una visión completa del estado de calidad del software en cada ciclo de desarrollo y asegurando que la plataforma Moveo se mantenga estable, disponible y funcional para sus usuarios.
+
+## Capítulo VIII: Experiment-Driven Development
+
+### 8.1. Experiment Planning
+
+#### 8.1.1. As-Is Summary.
+
+Actualmente, Moveo cuenta con una aplicación web orientada al alquiler de vehículos entre particulares, donde los propietarios pueden publicar sus autos y los inquilinos pueden buscar, revisar, reservar y gestionar alquileres de manera digital. En el estado actual del producto se observan funcionalidades importantes como registro de usuarios, exploración de vehículos, publicación de autos, reservas, pagos, soporte mediante tickets y gestión de información relacionada con el alquiler.
+
+A partir de lo analizado en la aplicación, se identificó que la sección de exploración de vehículos presenta información relevante como marca, modelo, año, ubicación, precio y características básicas. Sin embargo, algunas “cards” no muestran un botón de acción suficientemente visible, como “Ver detalles” o “Reservar”, lo que puede dificultar que el usuario comprenda cómo continuar. Además, algunas imágenes no se aprecian correctamente o no cuentan con información alternativa descriptiva, lo cual puede afectar la percepción de calidad, confianza y accesibilidad de la plataforma.
+
+En los procesos de reserva, publicación y cancelación también se encontraron oportunidades de mejora. En la vista de detalle del vehículo, el botón principal de “Reservar” puede perder visibilidad al hacer scroll, generando fricción en una acción clave del negocio. En la publicación de vehículos, aunque el formulario por pasos está bien planteado, algunos campos se perciben muy juntos o con contraste irregular, por lo que sería útil mejorar la distribución visual y reforzar los botones de avance o guardado. En la cancelación de reservas, el usuario no recibe una confirmación inmediata suficientemente clara ni visualiza previamente un resumen de condiciones, penalidades o reembolso estimado.
+
+En el módulo de soporte, el formulario de creación de ticket resulta útil, pero puede sentirse cargado por la cantidad de campos. Además, no se aprecia un número de seguimiento visible después de abrir un ticket ni categorías predefinidas que orienten el reporte del problema, lo que puede generar incertidumbre en el usuario. Por ello, esta etapa de experimentación se enfocará en validar mejoras simples de experiencia de usuario, usabilidad, accesibilidad y claridad del sistema, buscando hacer más visible la acción de reservar, reducir dudas en cancelaciones, mejorar el seguimiento de tickets, guiar mejor el reporte de incidencias, reforzar la accesibilidad de imágenes y aumentar la confianza general en Moveo.
+
+#### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims.
+
+**Assumptions**
+
+- **Botón fijo de Reservar:** Se asume que los usuarios tendrán mayor facilidad para avanzar en el flujo de alquiler si el botón de “Reservar” permanece visible durante el scroll en la vista de detalle del vehículo.
+- **Acción visible en cards de vehículos:** Se asume que las cards de vehículos serán más comprensibles si incluyen una acción visible como “Ver detalles” o “Reservar”, evitando que el usuario tenga que deducir que toda la tarjeta es seleccionable.
+- **Formulario de publicación más claro:** Se asume que los propietarios podrán completar con mayor facilidad la publicación de un vehículo si los botones de avance y guardado son más visibles, y si los campos del formulario presentan una mejor separación visual.
+- **Confirmación de cancelación:** Se asume que los usuarios sentirán mayor seguridad al cancelar una reserva si reciben una notificación inmediata en pantalla y un correo de confirmación con los detalles de la cancelación.
+- **Resumen previo de cancelación:** Se asume que mostrar un resumen de condiciones antes de cancelar una reserva reducirá errores y dudas, ya que el usuario conocerá el porcentaje de reembolso, posibles penalidades o consecuencias de la acción.
+- **Seguimiento de tickets:** Se asume que los usuarios confiarán más en el soporte de Moveo si después de crear un ticket reciben un número de seguimiento visible, por ejemplo “#MOV-2025-001”, junto con el estado inicial del caso.
+- **Categorías en tickets:** Se asume que incluir categorías predefinidas en el formulario de tickets facilitará el reporte de incidencias, ya que el usuario no tendrá que describir todo el problema desde cero.
+- **Accesibilidad en imágenes:** Se asume que agregar atributos alt descriptivos a las imágenes de autos mejorará la accesibilidad de la plataforma y permitirá una experiencia más comparable para usuarios con discapacidad visual.
+
+**Knowledge Gaps**
+
+- **Visibilidad de acción en cards:** No se conoce si la falta de un botón visible en las cards de vehículos reduce la cantidad de usuarios que ingresan al detalle o inician una reserva.
+- **Permanencia del botón Reservar:** No se sabe si mantener fijo el botón de “Reservar” durante el scroll aumentará la intención de continuar con el proceso de alquiler.
+- **Comprensión de cancelaciones:** No se conoce si los usuarios comprenden completamente las consecuencias de cancelar una reserva cuando no se muestra previamente un resumen de condiciones, penalidades o reembolso.
+- **Confirmación posterior a la cancelación:** No se sabe si una notificación inmediata después de cancelar una reserva será suficiente para que el usuario perciba que la acción fue procesada correctamente.
+- **Número de seguimiento de ticket:** No se conoce si la ausencia de número de ticket genera incertidumbre significativa en los usuarios que reportan una incidencia.
+- **Categorías más útiles para soporte:** No se sabe qué categorías de tickets son más útiles para los usuarios al reportar problemas relacionados con limpieza, daños mecánicos, daños estéticos, documentación u otros casos.
+- **Impacto de atributos alt:** No se conoce en qué medida la falta de atributos alt en imágenes afecta la experiencia de accesibilidad de usuarios que utilizan lectores de pantalla.
+- **Claridad en publicación de vehículos:** No se sabe si los propietarios encuentran claramente los botones para avanzar o guardar durante la publicación de vehículos.
+
+**Ideas**
+
+- **Botón visible en cards:** Agregar un botón visible en cada card de vehículo con una acción clara como “Ver detalles” o “Reservar”, sin crear nuevas pantallas.
+- **Botón fijo de Reservar:** Implementar un botón de “Reservar” fijo en la parte inferior de la ventana durante el scroll dentro del detalle del vehículo.
+- **Mejora visual del formulario de publicación:** Mejorar la distribución visual del formulario de publicación de vehículos, separando mejor los campos y reforzando la visibilidad de los botones de avance o guardado.
+- **Notificación de cancelación:** Mostrar una notificación inmediata después de cancelar una reserva, indicando que la cancelación fue procesada correctamente.
+- **Correo de confirmación:** Enviar un correo de confirmación con los datos básicos de la cancelación, como vehículo, fecha, monto y estado del reembolso.
+- **Resumen antes de cancelar:** Agregar un resumen antes de confirmar la cancelación, por ejemplo: “Se devolverá el 80% del pago. ¿Confirmar cancelación?”.
+- **Número de ticket visible:** Mostrar un número de ticket visible después de crear una incidencia, acompañado de un estado inicial como “Recibido” o “En revisión”.
+- **Categorías predefinidas en tickets:** Agregar un dropdown de categorías en el formulario de tickets con opciones como Limpieza, Daño mecánico, Daño estético, Documentación y Otro.
+- **Atributos alt descriptivos:** Agregar atributos alt descriptivos a las imágenes de autos, por ejemplo: “Toyota Corolla blanco 2021 disponible para alquiler en Lima”.
+- **Mejora de imágenes de vehículos:** Reemplazar imágenes genéricas o mal cargadas por recursos visuales más consistentes con la identidad de Moveo.
+
+**Claims**
+
+- **Alternativa de alquiler segura:** Moveo afirma que ofrece una alternativa más segura, flexible y accesible frente al alquiler tradicional de vehículos.
+- **Conexión entre propietarios e inquilinos:** Se sostiene que puede conectar eficientemente a propietarios que desean generar ingresos con usuarios que necesitan alquilar un vehículo.
+- **Confianza como valor central:** Se afirma que la confianza es un elemento central de su propuesta de valor, especialmente porque el alquiler ocurre entre particulares.
+- **Facilidad en acciones críticas:** Se sostiene que la plataforma debe facilitar acciones críticas como explorar vehículos, reservar, publicar autos, cancelar reservas y reportar incidencias.
+- **Soporte y seguimiento:** Moveo afirma que los mecanismos de soporte, seguimiento, verificación y comunicación clara ayudan a reducir la incertidumbre del usuario.
+- **Experiencia clara y accesible:** Se sostiene que una experiencia digital clara y accesible puede mejorar la adopción de la plataforma tanto para propietarios como para inquilinos.
+
+#### 8.1.3. Experiment-Ready Questions.
+
+- **Cambio de Visibilidad del Botón Reservar en Detalle de Vehículo:** ¿Mantener fijo el botón de “Reservar” durante el scroll aumentaría la tasa de inicio y finalización del flujo de alquiler por parte de los usuarios?
+- **Cambio de Acción Visible en Cards de Vehículos:** ¿Agregar un botón visible de “Ver detalles” o “Reservar” en las cards aumentaría la cantidad de usuarios que ingresan al detalle del vehículo?
+- **Mejora de Botones de Avance en Publicación de Vehículo:** ¿Hacer más visibles los botones de avance y guardado en el formulario de publicación aumentaría la tasa de vehículos publicados correctamente?
+- **Confirmación Inmediata de Cancelación de Reserva:** ¿Mostrar una notificación en pantalla y enviar un correo después de cancelar una reserva aumentaría la percepción de control del usuario?
+- **Resumen de Condiciones Antes de Cancelar:** ¿Mostrar un resumen claro de penalidades, condiciones y reembolso estimado antes de confirmar una cancelación reduciría la incertidumbre del usuario?
+- **Seguimiento Visible de Tickets:** ¿Mostrar un número de ticket y un estado inicial después de registrar una incidencia aumentaría la confianza del usuario en el soporte de Moveo?
+- **Categorías Predefinidas en Formulario de Tickets:** ¿Agregar categorías como Limpieza, Daño mecánico, Daño estético, Documentación y Otro reduciría el esfuerzo del usuario al reportar incidencias?
+- **Atributos Alt en Imágenes de Autos:** ¿Agregar atributos alt descriptivos a las imágenes de vehículos mejoraría la accesibilidad y comprensión del contenido visual en la plataforma?
+
+#### 8.1.4. Question Backlog.
+
+- **Impacto del Botón Fijo de Reservar:** ¿En qué medida mantener visible el botón de “Reservar” durante el scroll aumentaría la tasa de inicio y finalización del flujo de alquiler?
+- **Seguimiento de Tickets con Número de Caso:** ¿Cuánto aumentaría la confianza del usuario si, después de abrir un ticket, se muestra un número de seguimiento y un estado inicial del caso?
+- **Resumen de Condiciones de Cancelación:** ¿En qué medida mostrar penalidades, condiciones y reembolso estimado antes de cancelar reduciría dudas y errores del usuario?
+- **Confirmación Inmediata de Cancelación:** ¿Qué impacto tendría mostrar una notificación en pantalla y enviar un correo de confirmación en la percepción de control del usuario?
+- **Botón Visible en Cards de Vehículos:** ¿Cuánto aumentaría el ingreso al detalle del vehículo si las cards incluyen una acción clara como “Ver detalles” o “Reservar”?
+- **Categorías Predefinidas en Tickets:** ¿En qué medida agregar categorías de incidencia reduciría el tiempo y esfuerzo necesario para crear un ticket?
+- **Mejora Visual del Formulario de Publicación:** ¿Qué impacto tendría reforzar los botones de avance y guardado en la tasa de publicación de vehículos por parte de propietarios?
+- **Accesibilidad en Imágenes de Vehículos:** ¿Cuánto mejoraría la experiencia accesible si todas las imágenes de autos tuvieran atributos alt descriptivos?
+
+#### 8.1.5. Experiment Cards.
+
+**Experiment Card 1**
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Question</strong></td>
+      <td>¿Cómo afecta a la experiencia del usuario mantener visible el botón de “Reservar” durante el scroll en el detalle del vehículo?</td>
+    </tr>
+    <tr>
+      <td><strong>Why</strong></td>
+      <td>Queremos entender si la acción principal de reserva se pierde visualmente cuando el usuario revisa páginas largas de detalle. Esto es importante porque la reserva es el flujo principal de conversión dentro de Moveo.</td>
+    </tr>
+    <tr>
+      <td><strong>What</strong></td>
+      <td>Se implementará un botón fijo inferior de “Reservar” en la vista de detalle del vehículo y se medirá si los usuarios identifican más rápido la acción y avanzan al flujo de alquiler.</td>
+    </tr>
+    <tr>
+      <td><strong>Hypothesis</strong></td>
+      <td>Mantener visible el botón de “Reservar” aumentará el inicio del flujo de alquiler y reducirá el tiempo necesario para encontrar la acción principal.</td>
+    </tr>
+  </tbody>
+</table>
+
+**Experiment Card 2**
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Question</strong></td>
+      <td>¿Cómo afecta a la experiencia del usuario agregar un número de seguimiento visible después de crear un ticket?</td>
+    </tr>
+    <tr>
+      <td><strong>Why</strong></td>
+      <td>Queremos comprender si la ausencia de un número de casos genera incertidumbre después de reportar una incidencia. Esto es importante porque el soporte influye directamente en la confianza del usuario.</td>
+    </tr>
+    <tr>
+      <td><strong>What</strong></td>
+      <td>Se mostrará una confirmación con número de ticket, por ejemplo “#MOV-2025-001”, junto con un estado inicial como “Recibido” o “En revisión”.</td>
+    </tr>
+    <tr>
+      <td><strong>Hypothesis</strong></td>
+      <td>Mostrar un número de seguimiento y estado inicial aumentará la confianza del usuario y mejorará la comprensión del estado del reclamo.</td>
+    </tr>
+  </tbody>
+</table>
+
+**Experiment Card 3**
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Question</strong></td>
+      <td>¿Cómo afecta a la experiencia del usuario mostrar un resumen de condiciones antes de cancelar una reserva?</td>
+    </tr>
+    <tr>
+      <td><strong>Why</strong></td>
+      <td>Queremos saber si el usuario comprende las consecuencias de cancelar una reserva antes de confirmar la acción. Esto es importante porque puede haber penalidades o reembolsos parciales.</td>
+    </tr>
+    <tr>
+      <td><strong>What</strong></td>
+      <td>Se agregará un mensaje breve antes de confirmar la cancelación, por ejemplo: “Se devolverá el 80% del pago. ¿Confirmar cancelación?”.</td>
+    </tr>
+    <tr>
+      <td><strong>Hypothesis</strong></td>
+      <td>Mostrar un resumen previo de condiciones reducirá la incertidumbre del usuario y disminuirá errores durante la cancelación.</td>
+    </tr>
+  </tbody>
+</table>
+
+**Experiment Card 4**
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Question</strong></td>
+      <td>¿Cómo afecta a la experiencia del usuario recibir una confirmación inmediata después de cancelar una reserva?</td>
+    </tr>
+    <tr>
+      <td><strong>Why</strong></td>
+      <td>Queremos evaluar si una notificación en pantalla y un correo de confirmación permiten que el usuario perciba que la cancelación fue procesada correctamente.</td>
+    </tr>
+    <tr>
+      <td><strong>What</strong></td>
+      <td>Se mostrará un mensaje en pantalla indicando “Reserva cancelada correctamente” y se enviará un correo con los detalles básicos de la cancelación.</td>
+    </tr>
+    <tr>
+      <td><strong>Hypothesis</strong></td>
+      <td>La confirmación inmediata aumentará la percepción de control del usuario y reducirá dudas sobre el estado de su reserva.</td>
+    </tr>
+  </tbody>
+</table>
+
+**Experiment Card 5**
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Question</strong></td>
+      <td>¿Cómo afecta a la experiencia del usuario agregar categorías predefinidas en el formulario de tickets?</td>
+    </tr>
+    <tr>
+      <td><strong>Why</strong></td>
+      <td>Queremos identificar si el usuario reporta incidencias con menor esfuerzo cuando no tiene que describir todo el problema desde cero.</td>
+    </tr>
+    <tr>
+      <td><strong>What</strong></td>
+      <td>Se agregará un dropdown con categorías como Limpieza, Daño mecánico, Daño estético, Documentación y Otro.</td>
+    </tr>
+    <tr>
+      <td><strong>Hypothesis</strong></td>
+      <td>Las categorías predefinidas reducirán el tiempo de creación del ticket y mejorarán la claridad del reporte enviado.</td>
+    </tr>
+  </tbody>
+</table>
+
+**Experiment Card 6**
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Question</strong></td>
+      <td>¿Cómo afecta a la experiencia del usuario agregar un botón visible en las cards de vehículos?</td>
+    </tr>
+    <tr>
+      <td><strong>Why</strong></td>
+      <td>Queremos entender si los usuarios reconocen más rápido cómo avanzar desde la exploración hacia el detalle del vehículo o la reserva.</td>
+    </tr>
+    <tr>
+      <td><strong>What</strong></td>
+      <td>Se añadirá un botón visible dentro de cada card con el texto “Ver detalles” o “Reservar”, sin crear una nueva pantalla.</td>
+    </tr>
+    <tr>
+      <td><strong>Hypothesis</strong></td>
+      <td>Agregar un botón visible en las cards aumentará la cantidad de usuarios que ingresan al detalle del vehículo.</td>
+    </tr>
+  </tbody>
+</table>
+
+**Experiment Card 7**
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Question</strong></td>
+      <td>¿Cómo afecta a la experiencia accesible del usuario agregar atributos alt descriptivos en imágenes de vehículos?</td>
+    </tr>
+    <tr>
+      <td><strong>Why</strong></td>
+      <td>Queremos asegurar que las imágenes de autos puedan ser comprendidas también por usuarios que utilizan lectores de pantalla.</td>
+    </tr>
+    <tr>
+      <td><strong>What</strong></td>
+      <td>Se agregarán descripciones alt a las imágenes principales de autos, como “Nissan Versa gris 2020 disponible para alquiler en Lima”.</td>
+    </tr>
+    <tr>
+      <td><strong>Hypothesis</strong></td>
+      <td>Los atributos alt descriptivos mejorarán la accesibilidad y la comprensión del contenido visual de la plataforma.</td>
+    </tr>
+  </tbody>
+</table>
+
+### 8.2. Experiment Design
+
+#### 8.2.1. Hypotheses.
+
+<table>
+  <thead>
+    <tr>
+      <th>Hipótesis 1</th>
+      <th>Botón fijo de “Reservar” en detalle de vehículo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Question</strong></td>
+      <td>¿Mantener visible el botón de “Reservar” durante el scroll aumenta el inicio y finalización del flujo de alquiler?</td>
+    </tr>
+    <tr>
+      <td><strong>Data Analyze</strong></td>
+      <td>Para este análisis se utilizará Google Analytics para medir eventos de clic en “Reservar”, Vercel Analytics para observar comportamiento general y rendimiento de la página, Hotjar Heatmaps para analizar zonas de atención visual y Google Lighthouse para revisar si el cambio no afecta rendimiento ni accesibilidad. Se comparará la versión actual con una versión donde el botón permanece fijo en la parte inferior de la ventana.</td>
+    </tr>
+    <tr>
+      <td><strong>Hypothesis</strong></td>
+      <td>Mantener visible el botón de “Reservar” aumentará la tasa de clic en la acción principal y reducirá el tiempo que tarda el usuario en iniciar el flujo de alquiler.</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Hipótesis 2</th>
+      <th>Número de seguimiento visible para tickets</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Question</strong></td>
+      <td>¿Mostrar un número de seguimiento y estado inicial después de abrir un ticket aumenta la confianza del usuario en el soporte?</td>
+    </tr>
+    <tr>
+      <td><strong>Data Analyze</strong></td>
+      <td>Se utilizará Google Analytics para medir la finalización del flujo de creación de tickets, Postman Monitor para verificar disponibilidad y tiempo de respuesta del endpoint de tickets, y encuestas post-tarea para medir confianza percibida. También se revisará si el usuario identifica correctamente el código y estado del ticket después de enviarlo.</td>
+    </tr>
+    <tr>
+      <td><strong>Hypothesis</strong></td>
+      <td>Mostrar un número de ticket y un estado inicial aumentará la confianza del usuario y reducirá la incertidumbre después de reportar una incidencia.</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Hipótesis 3</th>
+      <th>Resumen de condiciones antes de cancelar</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Question</strong></td>
+      <td>¿Mostrar un resumen de penalidades, condiciones y reembolso estimado antes de cancelar reduce la incertidumbre del usuario?</td>
+    </tr>
+    <tr>
+      <td><strong>Data Analyze</strong></td>
+      <td>Se utilizará Google Analytics para medir eventos de cancelación iniciada y cancelación confirmada, Hotjar Heatmaps para observar si los usuarios revisan el resumen antes de confirmar, y encuestas post-tarea para medir comprensión de condiciones. Postman Monitor se usará para verificar que el endpoint de cancelación responda correctamente.</td>
+    </tr>
+    <tr>
+      <td><strong>Hypothesis</strong></td>
+      <td>Mostrar un resumen previo a la cancelación reducirá dudas del usuario y aumentará la comprensión de las consecuencias antes de confirmar la acción.</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Hipótesis 4</th>
+      <th>Confirmación inmediata después de cancelar</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Question</strong></td>
+      <td>¿Mostrar una notificación en pantalla y enviar un correo después de cancelar aumenta la percepción de control del usuario?</td>
+    </tr>
+    <tr>
+      <td><strong>Data Analyze</strong></td>
+      <td>Se utilizará Google Analytics para medir la finalización del flujo de cancelación, Postman Monitor para verificar la respuesta del endpoint asociado a la cancelación y el envío de confirmación, y encuestas post-tarea para medir si el usuario entiende que la acción fue procesada.</td>
+    </tr>
+    <tr>
+      <td><strong>Hypothesis</strong></td>
+      <td>La confirmación inmediata después de cancelar aumentará la percepción de control y reducirá dudas sobre el estado de la reserva.</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Hipótesis 5</th>
+      <th>Categorías predefinidas en formulario de tickets</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Question</strong></td>
+      <td>¿Agregar categorías predefinidas en el formulario de tickets reduce el esfuerzo del usuario al reportar incidencias?</td>
+    </tr>
+    <tr>
+      <td><strong>Data Analyze</strong></td>
+      <td>Se utilizará Google Analytics para medir eventos de selección de categoría y envío de ticket, Postman Monitor para verificar estabilidad del endpoint de tickets, y Hotjar Heatmaps para analizar interacción con el dropdown. Se comparará el tiempo promedio de creación de tickets antes y después del cambio.</td>
+    </tr>
+    <tr>
+      <td><strong>Hypothesis</strong></td>
+      <td>Agregar categorías predefinidas reducirá el tiempo de creación del ticket y mejorará la claridad del reporte enviado.</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Hipótesis 6</th>
+      <th>Botón visible en cards de vehículos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Question</strong></td>
+      <td>¿Agregar un botón visible en las cards aumenta la cantidad de usuarios que ingresan al detalle del vehículo?</td>
+    </tr>
+    <tr>
+      <td><strong>Data Analyze</strong></td>
+      <td>Se utilizará Google Analytics para medir clics en cards y clics en el botón “Ver detalles” o “Reservar”. También se usará Hotjar Heatmaps para analizar si el botón concentra más atención visual y Vercel Analytics para observar el comportamiento general de navegación en la sección de exploración.</td>
+    </tr>
+    <tr>
+      <td><strong>Hypothesis</strong></td>
+      <td>Agregar un botón visible en las cards aumentará el ingreso al detalle del vehículo y reducirá el tiempo que tarda el usuario en seleccionar un auto.</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Hipótesis 7</th>
+      <th>Atributos alt en imágenes de vehículos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Question</strong></td>
+      <td>¿Agregar atributos alt descriptivos a las imágenes de autos mejora la accesibilidad de la plataforma?</td>
+    </tr>
+    <tr>
+      <td><strong>Data Analyze</strong></td>
+      <td>Se utilizará Google Lighthouse para auditar accesibilidad antes y después del cambio. Además, se verificará manualmente que las imágenes principales tengan atributos alt descriptivos y se podrá complementar con una prueba usando lector de pantalla.</td>
+    </tr>
+    <tr>
+      <td><strong>Hypothesis</strong></td>
+      <td>Agregar atributos alt descriptivos mejorará la puntuación de accesibilidad y permitirá una experiencia más comprensible para usuarios que dependen de lectores de pantalla.</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 8.2.2. Domain Business Metrics
+
+Esta sección define las métricas de negocio que serán utilizadas para evaluar los experimentos propuestos de nuestra plataforma Moveo. El objetivo es asegurar que cada hipótesis se vincule directamente con indicadores concretos, medibles y útiles para la toma de decisiones del producto. De esta manera, se evita el uso de vanity metrics o datos aislados que no reflejen el impacto real de las mejoras en la experiencia del usuario, la confianza, la reserva de vehículos, la cancelación y el soporte. Cabe aclarar que las métricas seleccionadas se enfocan en los flujos críticos de Moveo como la exploración de vehículos, inicio de reserva, publicación de autos, cancelación de reservas, creación de tickets, seguimiento de incidencias, accesibilidad y satisfacción del usuario.
+
+<table>
+  <thead>
+    <tr>
+      <th>Métrica de negocio</th>
+      <th>Descripción</th>
+      <th>Fórmula de cálculo</th>
+      <th>Técnica de recolección</th>
+      <th>Herramienta</th>
+      <th>Objetivo de Mejora</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Tasa de Clic en Reservar</td>
+      <td>Mide cuántos usuarios presionan el botón principal de reserva dentro del detalle del vehículo.</td>
+      <td>Clics en “Reservar” / visitas al detalle del vehículo × 100</td>
+      <td>Registro de eventos de clic.</td>
+      <td>Google Analytics, Vercel Analytics</td>
+      <td>Incrementar la interacción con la acción principal del flujo de alquiler.</td>
+    </tr>
+    <tr>
+      <td>Tasa de Inicio de Reserva</td>
+      <td>Mide cuántos usuarios comienzan el flujo de alquiler después de revisar un vehículo.</td>
+      <td>Reservas iniciadas / visitas al detalle del vehículo × 100</td>
+      <td>Tracking de eventos dentro del flujo de reserva.</td>
+      <td>Google Analytics</td>
+      <td>Aumentar el avance desde la exploración hacia la reserva.</td>
+    </tr>
+    <tr>
+      <td>Tasa de Reserva Completada</td>
+      <td>Mide cuántos usuarios finalizan correctamente el proceso de alquiler.</td>
+      <td>Reservas confirmadas / reservas iniciadas × 100</td>
+      <td>Registro de eventos de confirmación de reserva.</td>
+      <td>Google Analytics, Backend Logs</td>
+      <td>Incrementar la conversión del flujo principal de negocio.</td>
+    </tr>
+    <tr>
+      <td>Tasa de Ingreso al Detalle del Vehículo</td>
+      <td>Mide cuántos usuarios pasan desde una card hacia la vista de detalle.</td>
+      <td>Ingresos al detalle / visualizaciones de cards × 100</td>
+      <td>Tracking de clics en cards y botones.</td>
+      <td>Google Analytics, Hotjar Heatmaps</td>
+      <td>Validar si el botón visible en cards mejora la navegación.</td>
+    </tr>
+    <tr>
+      <td>Tiempo para Encontrar la Acción Principal</td>
+      <td>Mide cuánto tarda el usuario en ubicar el botón de “Reservar”.</td>
+      <td>Tiempo promedio desde ingreso al detalle hasta clic en “Reservar”.</td>
+      <td>Prueba de usabilidad y análisis de comportamiento.</td>
+      <td>Hotjar Heatmaps, Google Analytics</td>
+      <td>Reducir el esfuerzo de navegación en la vista de detalle.</td>
+    </tr>
+    <tr>
+      <td>Tasa de Publicación de Vehículos</td>
+      <td>Mide cuántos propietarios logran publicar un vehículo.</td>
+      <td>Vehículos publicados / propietarios registrados × 100</td>
+      <td>Registro de publicaciones completadas.</td>
+      <td>Google Analytics, Backend Logs</td>
+      <td>Incrementar la oferta disponible de vehículos en Moveo.</td>
+    </tr>
+    <tr>
+      <td>Tiempo Promedio de Publicación</td>
+      <td>Mide cuánto tarda un propietario en completar el registro de un vehículo.</td>
+      <td>Suma del tiempo de publicación / número de publicaciones completadas.</td>
+      <td>Medición del tiempo de tarea.</td>
+      <td>Google Analytics, Vercel Analytics</td>
+      <td>Reducir fricción en el formulario de publicación.</td>
+    </tr>
+    <tr>
+      <td>Tasa de Cancelaciones Confirmadas Correctamente</td>
+      <td>Mide cuántos usuarios reconocen que su cancelación fue procesada.</td>
+      <td>Usuarios que reconocen la confirmación / usuarios que cancelaron × 100</td>
+      <td>Encuesta post-tarea y validación de evento de cancelación.</td>
+      <td>Google Analytics, Encuesta post-tarea</td>
+      <td>Mejorar la visibilidad del estado del sistema después de cancelar.</td>
+    </tr>
+    <tr>
+      <td>Comprensión de Condiciones de Cancelación</td>
+      <td>Mide si el usuario entiende penalidades, reembolso y consecuencias antes de cancelar.</td>
+      <td>Usuarios que responden correctamente / usuarios evaluados × 100</td>
+      <td>Preguntas post-tarea sobre el resumen de cancelación.</td>
+      <td>Encuesta post-tarea</td>
+      <td>Prevenir errores mediante un resumen claro antes de confirmar.</td>
+    </tr>
+    <tr>
+      <td>Tasa de Tickets Enviados Correctamente</td>
+      <td>Mide cuántos usuarios logran registrar una incidencia sin ayuda.</td>
+      <td>Tickets enviados correctamente / intentos de creación de ticket × 100</td>
+      <td>Registro de creación de tickets.</td>
+      <td>Google Analytics, Postman Monitor, Backend Logs</td>
+      <td>Mejorar la usabilidad del módulo de soporte.</td>
+    </tr>
+    <tr>
+      <td>Tiempo de Creación de Ticket</td>
+      <td>Mide cuánto tarda el usuario en completar y enviar un ticket.</td>
+      <td>Suma del tiempo de creación de tickets / número de tickets enviados.</td>
+      <td>Medición del tiempo de tarea.</td>
+      <td>Google Analytics, Hotjar Heatmaps</td>
+      <td>Reducir el esfuerzo mediante categorías predefinidas.</td>
+    </tr>
+    <tr>
+      <td>Comprensión del Estado del Ticket</td>
+      <td>Mide si el usuario identifica correctamente el código y estado de su caso.</td>
+      <td>Usuarios que identifican código y estado / usuarios evaluados × 100</td>
+      <td>Encuesta post-tarea y observación del flujo.</td>
+      <td>Encuesta post-tarea, Google Analytics</td>
+      <td>Aumentar confianza mediante seguimiento visible.</td>
+    </tr>
+    <tr>
+      <td>Tasa de Clasificación Correcta de Tickets</td>
+      <td>Mide si el usuario selecciona una categoría adecuada para su incidencia.</td>
+      <td>Tickets correctamente categorizados / tickets enviados × 100</td>
+      <td>Revisión de tickets enviados y categoría seleccionada.</td>
+      <td>Backend Logs, Google Analytics</td>
+      <td>Organizar mejor el soporte y reducir ambigüedad en reportes.</td>
+    </tr>
+    <tr>
+      <td>Cobertura de Atributos Alt</td>
+      <td>Mide cuántas imágenes principales de vehículos cuentan con descripción accesible.</td>
+      <td>Imágenes con alt descriptivo / imágenes totales × 100</td>
+      <td>Auditoría de accesibilidad.</td>
+      <td>Google Lighthouse</td>
+      <td>Mejorar accesibilidad en contenido visual.</td>
+    </tr>
+    <tr>
+      <td>Puntuación de Accesibilidad</td>
+      <td>Mide el nivel de accesibilidad del frontend.</td>
+      <td>Puntaje obtenido en auditoría de accesibilidad.</td>
+      <td>Auditoría web antes y después del cambio.</td>
+      <td>Google Lighthouse</td>
+      <td>Elevar la calidad accesible de la plataforma.</td>
+    </tr>
+    <tr>
+      <td>Nivel de Confianza Percibida</td>
+      <td>Evalúa qué tan seguro se siente el usuario al usar Moveo.</td>
+      <td>Promedio de puntuaciones en escala del 1 al 5.</td>
+      <td>Encuesta post-tarea.</td>
+      <td>Encuesta post-tarea.</td>
+      <td>Aumentar la confianza en reserva, cancelación y soporte.</td>
+    </tr>
+    <tr>
+      <td>Satisfacción del Usuario</td>
+      <td>Mide la valoración general después de completar una tarea.</td>
+      <td>Promedio CSAT en escala del 1 al 5.</td>
+      <td>Encuesta post-tarea.</td>
+      <td>Encuesta post-tarea.</td>
+      <td>Mejorar la percepción global de usabilidad y claridad.</td>
+    </tr>
+    <tr>
+      <td>Rendimiento de Página</td>
+      <td>Mide la carga, interacción y estabilidad visual del frontend.</td>
+      <td>LCP, FID/INP y CLS según Core Web Vitals.</td>
+      <td>Monitoreo de experiencia real y auditoría web.</td>
+      <td>Vercel Analytics, Google Lighthouse</td>
+      <td>Evitar que las mejoras visuales afecten negativamente el rendimiento.</td>
+    </tr>
+    <tr>
+      <td>Tiempo de Respuesta de Endpoints Críticos</td>
+      <td>Mide la estabilidad de servicios como reserva, cancelación y tickets.</td>
+      <td>Tiempo promedio de respuesta de endpoints críticos.</td>
+      <td>Monitoreo programado y pruebas de carga.</td>
+      <td>Postman Monitor, JMeter</td>
+      <td>Asegurar que las mejoras funcionen correctamente bajo demanda.</td>
+    </tr>
+  </tbody>
+</table>
+
+  
 #### 8.2.3. Measures
 
 Esta sección define las medidas concretas que se recolectarán para responder cada pregunta principal planteada en 8.1.3 y validar o refutar las hipótesis de 8.2.1. Se seleccionaron únicamente las métricas estrictamente necesarias de las ya definidas en 8.2.2, evitando vanity metrics, y se les añade una meta cuantificada (deseada) que no estaba explícita en la tabla de Domain Business Metrics. Cada medida se recolectará solo durante la ventana de tiempo necesaria para alcanzar el tamaño de muestra calculado en 8.2.5, minimizando costo y riesgo de mantener instrumentación activa de forma indefinida.
@@ -2681,15 +4330,6 @@ Las siete hipótesis de Moveo corresponden a preguntas basadas en creencias (¿e
 | H6 | Las cards de vehículos muestran un botón visible "Ver detalles"/"Reservar" | Las cards son clicleables en su totalidad sin botón visible (versión AS-IS) |
 | H7 | Las imágenes principales de vehículos cuentan con atributo alt descriptivo | Las imágenes no cuentan con atributo alt o usan uno genérico (versión AS-IS) |
 
-**Evidencia visual de condiciones**
-
-*(Insertar foto: mockup comparativo control vs. experimental — H1, botón fijo "Reservar")*
-
-*(Insertar foto: mockup comparativo control vs. experimental — H3, resumen antes de cancelar)*
-
-*(Insertar foto: mockup comparativo control vs. experimental — H4, notificación de cancelación)*
-
-*(Insertar foto: mockup comparativo control vs. experimental — H6, botón visible en card)*
 
 ---
 
@@ -2827,7 +4467,6 @@ El backlog se ordena priorizando primero la instrumentación (necesaria para med
 > **URL del Product Backlog público**: https://trello.com/b/VJ8IEYK1/moveo (las tarjetas HU33-HU39 y TS05 se incorporan a este mismo tablero).
 
 # Conclusiones y recomendaciones
-# Conclusiones
 
 - Moveo  propone una solución digital para conectar propietarios de vehículos con personas que necesitan alquilar uno de forma temporal. Además, responde a una necesidad real, la de ofrecer una alternativa más flexible, segura y accesible frente al alquiler tradicional de autos. El modelo de negocio es colaborativo, ya que no depende de una flota propia, sino de vehículos registrados por los mismos usuarios.
 
@@ -2839,6 +4478,13 @@ El backlog se ordena priorizando primero la instrumentación (necesaria para med
 
 - El proceso de testeo permitió identificar errores, validar funcionalidades críticas y mejorar la confiabilidad general de la aplicación.
 
+- La implementación de GitFlow acoplada a pipelines automatizados en GitHub Actions, Vercel y Railway demostró ser altamente eficiente para mitigar conflictos de integración de código. El enfoque de despliegue basado en commits redujo a cero la intervención manual en los despliegues de producción, manteniendo la consistencia de los entornos y aislando de forma segura las variables técnicas.   
+    
+- El proceso de auditoría heurística recibida por SoftFocus y las entrevistas de validación cualitativa permitieron identificar brechas críticas de correspondencia visual, consistencia lingüística y visibilidad en los flujos de soporte y cancelaciones de Moveo. Este ejercicio cualitativo demostró que exponer errores HTTP crudos (como el error 400\) o descuidar el contraste visual daña directamente la confianza del cliente.  
+    
+- El diseño experimental estructurado implementado en esta entrega permitió abandonar la ideación empírica reactiva en favor de una metodología rigurosa basada en el testeo de hipótesis falsificables. El uso de métricas de dominio específicas previene el sesgo de las métricas de vanidad y justifica la inversión de tiempo de desarrollo con base en el retorno de inversión y la retención real de inquilinos.  
+    
+- Se aconseja complementar el monitoreo sintético del frontend (Vercel Analytics) mediante la inyección de agentes de observabilidad de infraestructura (como Prometheus o Datadog) en el backend alojado en Railway. Definir umbrales estrictos de latencia de red y errores de conexión a la base de datos MySQL permitirá recibir notificaciones proactivas antes de que afecten la experiencia transaccional de los usuarios. 
 
 # Bibliografía
 
@@ -2860,7 +4506,6 @@ El backlog se ordena priorizando primero la instrumentación (necesaria para med
 
 
 * Arquitectura DDD(Domain Driven Design). (2021, junio 21). Sergio Tapia. https://sergiotapia.net/arquitectura-ddddomain-driven-design/
-
 
 
 # Anexos
