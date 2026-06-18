@@ -250,16 +250,16 @@ A continuación, se adjuntan las evidencias del trabajo colaborativo, incluyendo
     - [2.2. Entrevistas](#22-entrevistas)
       - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
       - [Segmento 1: Propietarios](#segmento-1-propietarios)
-      - [**Segmento 2: Inquilinos**](#segmento-2-inquilinos)
+      - [Segmento 2: Inquilinos](#segmento-2-inquilinos)
       - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-      - [**Segmento 1: Propietarios de autos**](#segmento-1-propietarios-de-autos)
+      - [Segmento 1: Propietarios de autos](#segmento-1-propietarios-de-autos)
       - [Entrevistado 1: Alisa Goicochea](#entrevistado-1-alisa-goicochea)
         - [Resumen:](#resumen)
       - [Entrevistado 2: Mathías Peña](#entrevistado-2-mathías-peña)
         - [Resumen:](#resumen-1)
       - [Entrevistado 3: Mauricio Salas](#entrevistado-3-mauricio-salas)
         - [Resumen:](#resumen-2)
-      - [**Segmento 2:Inquilinos de autos**](#segmento-2inquilinos-de-autos)
+      - [Segmento 2:Inquilinos de autos](#segmento-2inquilinos-de-autos)
       - [Entrevistado 4: Claudia Sifuentes](#entrevistado-4-claudia-sifuentes)
         - [Resumen:](#resumen-3)
       - [Entrevistado 5: Angie Leyva](#entrevistado-5-angie-leyva)
@@ -314,11 +314,11 @@ A continuación, se adjuntan las evidencias del trabajo colaborativo, incluyendo
         - [Secciones y contenido de Moveo](#secciones-y-contenido-de-moveo)
     - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
     - [4.2.4. Searching Systems.](#424-searching-systems)
-      - [**Busqueda Global**](#busqueda-global)
-      - [**Filtrado de información**](#filtrado-de-información)
+      - [Busqueda Global](#busqueda-global)
+      - [Filtrado de información](#filtrado-de-información)
     - [4.2.5. Navigation Systems.](#425-navigation-systems)
-      - [**Estructura de Navegación en la Landing Page**](#estructura-de-navegación-en-la-landing-page)
-      - [**Estructura de Navegación en Moveo**](#estructura-de-navegación-en-moveo)
+      - [Estructura de Navegación en la Landing Page](#estructura-de-navegación-en-la-landing-page)
+      - [Estructura de Navegación en Moveo](#estructura-de-navegación-en-moveo)
     - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
       - [Header y Hero](#header-y-hero)
       - [What is Moveo](#what-is-moveo)
@@ -387,16 +387,20 @@ A continuación, se adjuntan las evidencias del trabajo colaborativo, incluyendo
         - [6.2.1.1. Coding standard \& Code conventions.](#6211-coding-standard--code-conventions)
         - [6.2.1.2. Code Quality \& Code Security.](#6212-code-quality--code-security)
       - [6.2.2. Reviews](#622-reviews)
-  - [**6.4. Auditoría de Experiencias de Usuario.**](#64-auditoría-de-experiencias-de-usuario)
-    - [**6.4.1. Auditoría realizada.**](#641-auditoría-realizada)
-      - [**6.4.1.1. Información del grupo auditado.**](#6411-información-del-grupo-auditado)
-      - [**6.4.1.2. Cronograma de auditoría realizada.**](#6412-cronograma-de-auditoría-realizada)
-      - [**6.4.1.3. Contenido de auditoría realizada.**](#6413-contenido-de-auditoría-realizada)
-    - [**6.4.2. Auditoría recibida.**](#642-auditoría-recibida)
-      - [**6.4.2.1. Información del grupo auditor**](#6421-información-del-grupo-auditor)
-      - [**6.4.2.2. Cronograma de auditoría recibida.**](#6422-cronograma-de-auditoría-recibida)
-      - [**6.4.2.3. Contenido de auditoría recibida.**](#6423-contenido-de-auditoría-recibida)
-      - [**6.4.2.4. Resumen de modificaciones para subsanar hallazgos.**](#6424-resumen-de-modificaciones-para-subsanar-hallazgos)
+    - [6.3. Validation Interviews](#63-validation-interviews)  
+      - [6.3.1. Diseño de Entrevistas.](#631-diseño-de-entrevistas)
+      - [6.3.2. Registro de Entrevistas.](#632-registro-de-entrevistas)
+      - [6.3.3. Evaluaciones según heurísticas.](#633-evaluaciones-según-heurísticas)
+    - [6.4. Auditoría de Experiencias de Usuario.](#64-auditoría-de-experiencias-de-usuario)
+      - [6.4.1. Auditoría realizada.](#641-auditoría-realizada)
+        - [6.4.1.1. Información del grupo auditado.](#6411-información-del-grupo-auditado)
+        - [6.4.1.2. Cronograma de auditoría realizada.](#6412-cronograma-de-auditoría-realizada)
+        - [6.4.1.3. Contenido de auditoría realizada.](#6413-contenido-de-auditoría-realizada)
+      - [6.4.2. Auditoría recibida.**](#642-auditoría-recibida)
+        - [6.4.2.1. Información del grupo auditor](#6421-información-del-grupo-auditor)
+        - [6.4.2.2. Cronograma de auditoría recibida.](#6422-cronograma-de-auditoría-recibida)
+        - [6.4.2.3. Contenido de auditoría recibida.](#6423-contenido-de-auditoría-recibida)
+        - [6.4.2.4. Resumen de modificaciones para subsanar hallazgos.](#6424-resumen-de-modificaciones-para-subsanar-hallazgos)
   - [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
     - [7.1. Continuous Integration](#71-continuous-integration)
       - [7.1.1. Tools and Practices.](#711-tools-and-practices)
@@ -423,7 +427,6 @@ A continuación, se adjuntan las evidencias del trabajo colaborativo, incluyendo
       - [8.2.1. Hypotheses.](#821-hypotheses)
       - [8.2.2. Domain Business Metrics](#822-domain-business-metrics)
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-- [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
   - [Enlace Organización: https://github.com/UPC-1ASI0732-2610-17821-PointFlavor](#enlace-organización-httpsgithubcomupc-1asi0732-2610-17821-pointflavor)
@@ -4056,7 +4059,6 @@ Esta sección define las métricas de negocio que serán utilizadas para evaluar
 </table>
 
 # Conclusiones y recomendaciones
-# Conclusiones
 
 - Moveo  propone una solución digital para conectar propietarios de vehículos con personas que necesitan alquilar uno de forma temporal. Además, responde a una necesidad real, la de ofrecer una alternativa más flexible, segura y accesible frente al alquiler tradicional de autos. El modelo de negocio es colaborativo, ya que no depende de una flota propia, sino de vehículos registrados por los mismos usuarios.
 
@@ -4068,6 +4070,13 @@ Esta sección define las métricas de negocio que serán utilizadas para evaluar
 
 - El proceso de testeo permitió identificar errores, validar funcionalidades críticas y mejorar la confiabilidad general de la aplicación.
 
+- La implementación de GitFlow acoplada a pipelines automatizados en GitHub Actions, Vercel y Railway demostró ser altamente eficiente para mitigar conflictos de integración de código. El enfoque de despliegue basado en commits redujo a cero la intervención manual en los despliegues de producción, manteniendo la consistencia de los entornos y aislando de forma segura las variables técnicas.   
+    
+- El proceso de auditoría heurística recibida por SoftFocus y las entrevistas de validación cualitativa permitieron identificar brechas críticas de correspondencia visual, consistencia lingüística y visibilidad en los flujos de soporte y cancelaciones de Moveo. Este ejercicio cualitativo demostró que exponer errores HTTP crudos (como el error 400\) o descuidar el contraste visual daña directamente la confianza del cliente.  
+    
+- El diseño experimental estructurado implementado en esta entrega permitió abandonar la ideación empírica reactiva en favor de una metodología rigurosa basada en el testeo de hipótesis falsificables. El uso de métricas de dominio específicas previene el sesgo de las métricas de vanidad y justifica la inversión de tiempo de desarrollo con base en el retorno de inversión y la retención real de inquilinos.  
+    
+- Se aconseja complementar el monitoreo sintético del frontend (Vercel Analytics) mediante la inyección de agentes de observabilidad de infraestructura (como Prometheus o Datadog) en el backend alojado en Railway. Definir umbrales estrictos de latencia de red y errores de conexión a la base de datos MySQL permitirá recibir notificaciones proactivas antes de que afecten la experiencia transaccional de los usuarios. 
 
 # Bibliografía
 
