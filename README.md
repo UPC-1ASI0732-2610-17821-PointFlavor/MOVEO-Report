@@ -200,6 +200,12 @@
       <td>Santiago Peña, Andreow Jomark</td>
       <td>Desarrollo de las secciones 8.2.3 a 8.3.2, incorporando measures, conditions, scale calculations, methods selection, objetivos de analítica, KPIs, plan de tracking web y mobile, To-Be User Stories y To-Be Product Backlog.</td>
     </tr>
+    <tr>
+      <td>3.8 (AV3)</td>
+      <td>04/07/2026</td>
+      <td>Tumi Oliden, Manuel Ignacio</td>
+      <td>Desarrollo de las secciones 8.3.3 (Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle: To-Be Sprint Backlog, evidencias de Landing Page, Frontend-Web, Native-Mobile y RESTful API, y Team Collaboration Insights) y 8.3.4 (To-Be Validation Interviews: diseño y registro de entrevistas).</td>
+    </tr>
   </tbody>
 </table>
 
@@ -435,6 +441,16 @@ A continuación, se adjuntan las evidencias del trabajo colaborativo, incluyendo
     - [8.3. Experimentation](#83-experimentation)
       - [8.3.1. To-Be User Stories](#831-to-be-user-stories)
       - [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)
+      - [8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle](#833-pipeline-supported-experiment-driven-to-be-software-platform-lifecycle)
+        - [8.3.3.1. To-Be Sprint Backlog](#8331-to-be-sprint-backlog)
+        - [8.3.3.2. Implemented To-Be Landing Page Evidence](#8332-implemented-to-be-landing-page-evidence)
+        - [8.3.3.3. Implemented To-Be Frontend-Web Application Evidence](#8333-implemented-to-be-frontend-web-application-evidence)
+        - [8.3.3.4. Implemented To-Be Native-Mobile Application Evidence](#8334-implemented-to-be-native-mobile-application-evidence)
+        - [8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence](#8335-implemented-to-be-restful-api-andor-serverless-backend-evidence)
+        - [8.3.3.6. Team Collaboration Insights](#8336-team-collaboration-insights)
+      - [8.3.4. To-Be Validation Interviews](#834-to-be-validation-interviews)
+        - [8.3.4.1. Diseño de Entrevistas](#8341-diseño-de-entrevistas)
+        - [8.3.4.2. Registro de Entrevistas](#8342-registro-de-entrevistas)
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -2193,7 +2209,7 @@ Este acuerdo se rige por las leyes vigentes de la República del Perú.
 
 La arquitectura de la solución backend se fundamentó en **C# y .NET Core**. Se estructuró siguiendo el patrón de diseño Domain-Driven Design (DDD) con separación de responsabilidades. Para su despliegue se utilizó Railway.
 
-**URL de Documentación (Swagger API):** [https://wheelspe-backend-production.up.railway.app/swagger/index.html](https://wheelspe-backend-production.up.railway.app/swagger/index.html)
+**URL de Documentación (Swagger API):** [https://moveo-backend-production.up.railway.app/swagger/index.html](https://moveo-backend-production.up.railway.app/swagger/index.html)
 
 - **Paso 1:** Conectar el repositorio de GitHub que contiene el backend en .NET a un nuevo proyecto en Railway.
 
@@ -4465,6 +4481,173 @@ El backlog se ordena priorizando primero la instrumentación (necesaria para med
 | 8 | HU37 | Ver número de seguimiento al crear un ticket | Como usuario, quiero recibir un número de seguimiento y estado inicial al crear un ticket. | 3 |
 
 > **URL del Product Backlog público**: https://trello.com/b/VJ8IEYK1/moveo (las tarjetas HU33-HU39 y TS05 se incorporan a este mismo tablero).
+
+#### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
+
+La implementación de los experimentos se apoya en el pipeline de CI/CD ya configurado para Moveo: los cambios se integran mediante Pull Requests en GitHub, se validan automáticamente con GitHub Actions (build, pruebas unitarias con NUnit, integration tests y build del frontend con Vite) y se despliegan de forma continua (Landing Page y Frontend en Vercel; Backend/RESTful API en Railway). Cada mejora experimental (HU33–HU39, TS05) atraviesa este pipeline y, una vez en producción, se mide con los eventos del Tracking Plan (8.2.8) y los KPIs definidos en 8.2.7, lo que permite tomar decisiones basadas en evidencia sobre mantener, ajustar o descartar cada experimento.
+
+##### 8.3.3.1. To-Be Sprint Backlog
+
+Los experimentos se planificaron y ejecutaron en el **Sprint 4**, priorizando primero la instrumentación de analítica (TS05), necesaria para medir el impacto de las demás mejoras. La siguiente tabla detalla las historias, sus tareas técnicas (WorkItems), la estimación en Story Points, el responsable y el estado.
+
+| Sprint # | Sprint 4 |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| **User Story Id** | **User Story Title** | **WorkItem/Task Id** | **Task Title** | **Description** | **Estimation (Story Points)** | **Assigned To** | **Status** |
+| TS05 | Instrumentar eventos de analítica para los experimentos | TK01 | Definir e implementar el Tracking Plan | Instrumentar en el frontend los eventos definidos en 8.2.8 (vistas, clics y conversiones). | 3 | Manuel Tumi | Done |
+|  |  | TK02 | Validar la instrumentación de eventos | Verificar con QA que cada evento se dispara con los parámetros esperados. | 2 | Keyner Hancco | Done |
+| HU34 | Ver una acción clara en las cards de vehículos | TK03 | Añadir botón de acción en la card | Incorporar un botón visible "Ver detalles" / "Reservar" en cada card de vehículo. | 2 | Abigail Goñe | Done |
+|  |  | TK04 | Enlazar botón con la vista de detalle | Redirigir al detalle del vehículo correspondiente al hacer clic. | 1 | Abigail Goñe | Done |
+| HU39 | Ver descripciones accesibles en las imágenes de vehículos | TK05 | Añadir atributos alt descriptivos | Generar y aplicar textos alternativos descriptivos a las imágenes de vehículos. | 1 | Keyner Hancco | Done |
+|  |  | TK06 | Auditar accesibilidad de imágenes | Revisar con QA que todas las imágenes principales cuenten con alt descriptivo. | 1 | Keyner Hancco | Done |
+| HU33 | Mantener visible el botón de reservar durante el scroll | TK07 | Fijar el botón "Reservar" (sticky) | Mantener el botón "Reservar" fijo en la parte inferior durante el scroll del detalle. | 2 | Manuel Tumi | Done |
+|  |  | TK08 | Instrumentar el flujo de reserva | Registrar el evento de inicio de reserva desde el botón fijo. | 1 | Manuel Tumi | Done |
+| HU36 | Recibir confirmación inmediata tras cancelar una reserva | TK09 | Mostrar notificación de cancelación | Mostrar mensaje en pantalla "Reserva cancelada correctamente". | 1 | Melisa Sulca | Done |
+|  |  | TK10 | Enviar correo de confirmación | Generar y enviar el correo con los detalles de la cancelación. | 2 | Melisa Sulca | Done |
+| HU35 | Ver un resumen de condiciones antes de cancelar | TK11 | Mostrar resumen previo a cancelar | Desplegar un modal con porcentaje de reembolso y penalidades antes de confirmar. | 3 | Melisa Sulca | Done |
+| HU38 | Seleccionar una categoría predefinida al reportar una incidencia | TK12 | Añadir dropdown de categorías | Incorporar categorías (Limpieza, Daño mecánico, Daño estético, Documentación, Otro) al formulario de ticket. | 2 | Andreow Santiago | Done |
+| HU37 | Ver número de seguimiento al crear un ticket | TK13 | Generar número de ticket y estado | Generar el código de seguimiento (ej. "#MOV-2025-001") y estado inicial "Recibido". | 2 | Andreow Santiago | Done |
+|  |  | TK14 | Mostrar seguimiento en el historial | Visualizar el código y estado del ticket en el historial del usuario. | 1 | Andreow Santiago | Done |
+
+##### 8.3.3.2. Implemented To-Be Landing Page Evidence
+
+En la Landing Page (`index.html` + `main.js` + `styles.css`), los experimentos con impacto directo fueron la mejora de accesibilidad (HU39: agregar atributos `alt` descriptivos a las imágenes, que actualmente no los tienen) y la instrumentación de analítica (TS05: eventos de clic en la navegación `.wp-navlink` y en los CTA `.wp-btn-accent` "Start now" / `.wp-btn-ghost` "Log in" que enlazan a la aplicación). El despliegue se mantiene en Vercel a partir del pipeline de CI/CD.
+
+**URL de Despliegue (Landing Page):** https://upc-1asi0732-2610-17821-pointflavor.github.io/MOVEO-Landing-Page/
+
+<p align="center">
+  <img src="assets/Chapter-8/serviciosMoveo.PNG" alt="Sección Servicios de la Landing Page de Moveo con imágenes que incluyen atributo alt descriptivo" width="80%"><br><br>
+  <img src="assets/Chapter-8/testimoniosMoveo.PNG" alt="Sección Testimonios de la Landing Page de Moveo con imágenes accesibles" width="80%">
+</p>
+
+##### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
+
+Las mejoras experimentales se implementaron sobre la aplicación web (Vue 3 / Vite, estructura por bounded contexts en `src/app/`) y se desplegaron mediante el pipeline en Vercel. A continuación se presentan las evidencias por cada historia de usuario, indicando la ruta y el componente involucrado.
+
+**URL de Despliegue (Frontend):** https://moveo-frontend.vercel.app
+
+**HU33 – Botón "Reservar" fijo durante el scroll**
+Ruta: `/rental/vehicles/:id` · Componentes: `vehicle-detail-page.vue`, `vehicle-detail-content.vue`
+<p align="center">
+  <em>[ Insertar captura: detalle del vehículo con el botón "Reservar" fijo (sticky) en la parte inferior al hacer scroll ]</em>
+</p>
+
+**HU34 – Acción visible en las cards de vehículos**
+Ruta: `/rental/browse` · Componentes: `vehicle-item.vue` (card) dentro de `vehicle-list.vue`
+<p align="center">
+  <em>[ Insertar captura: card de vehículo mostrando el botón visible "Ver detalles" / "Reservar" ]</em>
+</p>
+
+**HU35 – Resumen de condiciones antes de cancelar**
+Ruta: `/rental/my-rentals` → `/rental/details/:id` · Componentes: `my-rentals-page.vue`, `rental-details-page.vue`
+<p align="center">
+  <em>[ Insertar captura: modal con porcentaje de reembolso y penalidades antes de confirmar la cancelación ]</em>
+</p>
+
+**HU36 – Confirmación inmediata tras cancelar**
+Ruta: `/rental/details/:id` (+ `/notifications`) · Store: `rental.store.js`
+<p align="center">
+  <em>[ Insertar captura: notificación en pantalla "Reserva cancelada correctamente" y correo de confirmación ]</em>
+</p>
+
+**HU37 – Número de seguimiento al crear un ticket**
+Ruta: `/support/tickets` → `/support/tickets/:id` · Componentes: `support-ticket-form.vue`, `support-ticket-detail.vue`
+<p align="center">
+  <em>[ Insertar captura: ticket creado mostrando su número de seguimiento (Id del ticket, ej. "#MOV-2025-001") y estado inicial "Recibido" (Status "open" en el backend) ]</em>
+</p>
+
+**HU38 – Categoría predefinida al reportar una incidencia**
+Ruta: `/support/tickets` · Componente: `support-ticket-form.vue` (campo <code>Category</code>: technical, billing, general, rental_issue, damage)
+<p align="center">
+  <em>[ Insertar captura: formulario de ticket con el dropdown de categorías desplegado ]</em>
+</p>
+
+**HU39 – Descripciones accesibles en imágenes de vehículos**
+Ruta: `/rental/browse` y `/rental/vehicles/:id` · Componentes: `vehicle-item.vue`, `vehicle-detail-content.vue`
+<p align="center">
+  <em>[ Insertar captura: inspector de elementos mostrando el atributo <code>alt</code> descriptivo en la imagen de un vehículo ]</em>
+</p>
+
+**TS05 – Instrumentación de eventos de analítica**
+Cobertura: flujos de reserva (`/rental/browse`, `/rental/vehicles/:id`) y soporte (`/support/tickets`)
+<p align="center">
+  <em>[ Insertar captura: panel de analítica mostrando los eventos del Tracking Plan (8.2.8) registrados ]</em>
+</p>
+
+> _Nota: reemplazar los marcadores por las capturas reales de la aplicación web desplegada._
+
+##### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
+
+Para la fase de experimentación, el equipo priorizó una estrategia **mobile-first mediante web responsive (PWA)** en lugar de una aplicación nativa independiente. Esta decisión responde a los hallazgos de las entrevistas del producto As-Is, donde los usuarios —especialmente los propietarios— gestionan su actividad casi por completo desde el celular y valoran no instalar aplicaciones adicionales. De este modo, las mejoras experimentales (botón fijo de reservar, acción visible en cards, resumen de cancelación, seguimiento de tickets, etc.) se validaron directamente en dispositivos móviles a través del navegador, sobre el mismo despliegue del Frontend.
+
+<p align="center">
+  <em>[ Insertar captura móvil (≈375px): <code>/rental/vehicles/:id</code> con el botón "Reservar" fijo en vista responsive ]</em><br><br>
+  <em>[ Insertar captura móvil (≈375px): <code>/support/tickets</code> con el dropdown de categorías y el número de seguimiento del ticket en pantalla de celular ]</em>
+</p>
+
+> _Nota: reemplazar los marcadores por las capturas reales en resolución móvil. En caso de implementarse una aplicación nativa en iteraciones futuras, documentar aquí su evidencia._
+
+##### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
+
+Las mejoras se apoyan en la RESTful API (C# / .NET Core, arquitectura DDD por bounded contexts) desplegada en Railway, con documentación en Swagger. Los experimentos puramente de frontend (HU33, HU34, HU39) no requirieron cambios en el backend, mientras que las mejoras de cancelación y soporte se apoyan en los endpoints y campos ya existentes de los controllers `RentalController` y `SupportTicketsController`.
+
+**URL de Documentación (Swagger API):** [https://moveo-backend-production.up.railway.app/swagger/index.html](https://moveo-backend-production.up.railway.app/swagger/index.html)
+
+Principales endpoints y campos usados para la experimentación:
+
+| Bounded Context | Método | Endpoint | Historia | Descripción |
+|---|---|---|---|---|
+| Rental | GET | `/api/v1/rentals/{id}` | HU35 | Provee los datos de la reserva (fechas, monto, estado) con los que el frontend calcula el resumen de penalidades y reembolso antes de cancelar. |
+| Rental | PATCH | `/api/v1/rentals/{id}` | HU36 | Cambia el estado de la reserva a cancelada; dispara la notificación en pantalla y el correo de confirmación. |
+| Support | POST | `/api/v1/support-tickets` | HU37 · HU38 | Crea el ticket con el campo `Category` (technical, billing, general, rental_issue, damage) y devuelve su `Id` (número de seguimiento) y `Status` inicial "open". |
+| Support | GET | `/api/v1/support-tickets/{id}` | HU37 | Devuelve el ticket con su número de seguimiento y estado actualizado para el historial del usuario. |
+
+A continuación se presentan las evidencias de la ejecución y prueba de los endpoints:
+
+<p align="center">
+  <img src="assets/Chapter-8/SwaggerSupport.PNG" alt="Swagger" width="80%"><br><br>
+  <img src="assets/Chapter-8/SwaggerRentals.PNG" alt="Swagger" width="80%">
+  <img src="assets/Chapter-8/SwaggerRentalsGet.PNG" alt="Swagger" width="80%">
+</p>
+
+
+##### 8.3.3.6. Team Collaboration Insights
+
+Durante el Sprint 4 de experimentación, el equipo mantuvo el enfoque colaborativo y ágil de los sprints anteriores. Las historias se distribuyeron equitativamente, asegurando que cada integrante liderara al menos un experimento de extremo a extremo (frontend, backend y validación). Se continuó utilizando GitHub con la estrategia GitFlow y revisiones de código (Pull Requests) antes de integrar a la rama principal, aprovechando el pipeline de CI/CD para desplegar cada mejora de forma incremental y medir su impacto.
+
+| Integrante | Historias lideradas |
+|---|---|
+| Goñe Araccata, Esther Abigail | HU34 (Acción visible en cards) |
+| Hancco Poma, Keyner Iván | HU39 (Accesibilidad en imágenes), validación de TS05 |
+| Santiago Peña, Andreow Jomark | HU37 (Seguimiento de tickets), HU38 (Categorías de tickets) |
+| Sulca Silva, Melisa Geraldine | HU35 (Resumen de cancelación), HU36 (Confirmación de cancelación) |
+| Tumi Oliden, Manuel Ignacio | HU33 (Botón fijo de reservar), TS05 (Instrumentación de analítica) |
+
+A continuación, se presentan las capturas de los analíticos de colaboración y el registro de commits extraídos de GitHub para el Sprint de experimentación:
+
+<p align="center">
+  <em>[ Insertar captura: registro de commits del Sprint 4 ]</em><br><br>
+  <em>[ Insertar captura: gráfico de contribuciones (Insights de GitHub) ]</em>
+</p>
+
+#### 8.3.4. To-Be Validation Interviews
+
+Para validar las mejoras experimentales, se realizaron entrevistas con usuarios de los dos segmentos objetivo de Moveo: **propietarios** e **inquilinos** de vehículos. El objetivo fue evaluar la claridad, utilidad y valor percibido de cada mejora de UX, usabilidad y accesibilidad, y decidir cuáles mantener, ajustar o descartar.
+
+##### 8.3.4.1. Diseño de Entrevistas
+
+Se diseñó un guion de preguntas orientadas a los experimentos implementados (HU33–HU39):
+
+1. Al revisar el detalle de un vehículo, ¿te resultó más fácil reservar al mantener el botón "Reservar" siempre visible durante el scroll?
+2. En la lista de vehículos, ¿el botón visible de "Ver detalles" / "Reservar" en cada card te ayudó a saber cómo continuar?
+3. Antes de cancelar una reserva, ¿el resumen de penalidades y reembolso te dio la información suficiente para decidir con seguridad?
+4. Después de cancelar una reserva, ¿la notificación en pantalla y el correo de confirmación te dieron la certeza de que la acción se procesó correctamente?
+5. Al crear un ticket de soporte, ¿el número de seguimiento y el estado inicial te generaron mayor confianza en el soporte de Moveo?
+6. ¿Las categorías predefinidas en el formulario de tickets te facilitaron reportar tu incidencia sin describirla desde cero?
+7. Si utilizas lector de pantalla o revisas la accesibilidad, ¿las descripciones de las imágenes de vehículos te resultaron claras y útiles?
+8. En general, ¿la experiencia te pareció más clara y confiable con estas mejoras?
+9. ¿Qué mejora te resultó más valiosa y por qué?
+10. ¿Qué otra mejora de usabilidad o accesibilidad te gustaría ver en Moveo?
+
 
 # Conclusiones y recomendaciones
 
