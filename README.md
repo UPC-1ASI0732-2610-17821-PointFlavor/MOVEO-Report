@@ -2209,7 +2209,7 @@ Este acuerdo se rige por las leyes vigentes de la República del Perú.
 
 La arquitectura de la solución backend se fundamentó en **C# y .NET Core**. Se estructuró siguiendo el patrón de diseño Domain-Driven Design (DDD) con separación de responsabilidades. Para su despliegue se utilizó Railway.
 
-**URL de Documentación (Swagger API):** [https://wheelspe-backend-production.up.railway.app/swagger/index.html](https://wheelspe-backend-production.up.railway.app/swagger/index.html)
+**URL de Documentación (Swagger API):** [https://moveo-backend-production.up.railway.app/swagger/index.html](https://moveo-backend-production.up.railway.app/swagger/index.html)
 
 - **Paso 1:** Conectar el repositorio de GitHub que contiene el backend en .NET a un nuevo proyecto en Railway.
 
@@ -4512,14 +4512,12 @@ Los experimentos se planificaron y ejecutaron en el **Sprint 4**, priorizando pr
 
 En la Landing Page (`index.html` + `main.js` + `styles.css`), los experimentos con impacto directo fueron la mejora de accesibilidad (HU39: agregar atributos `alt` descriptivos a las imágenes, que actualmente no los tienen) y la instrumentación de analítica (TS05: eventos de clic en la navegación `.wp-navlink` y en los CTA `.wp-btn-accent` "Start now" / `.wp-btn-ghost` "Log in" que enlazan a la aplicación). El despliegue se mantiene en Vercel a partir del pipeline de CI/CD.
 
-**URL de Despliegue (Landing Page):** _[ completar con la URL de Vercel de la Landing ]_
+**URL de Despliegue (Landing Page):** https://upc-1asi0732-2610-17821-pointflavor.github.io/MOVEO-Landing-Page/
 
 <p align="center">
-  <em>[ Insertar captura: secciones <code>#servicios</code> y <code>#testimonios</code> de la Landing con imágenes que ahora incluyen atributo <code>alt</code> descriptivo (inspector de elementos) ]</em><br><br>
-  <em>[ Insertar captura: panel de analítica mostrando los eventos disparados desde los CTA de la Landing (data-i18n <code>nav.start</code> / <code>nav.login</code>) ]</em>
+  <img src="assets/Chapter-8/serviciosMoveo.PNG" alt="Sección Servicios de la Landing Page de Moveo con imágenes que incluyen atributo alt descriptivo" width="80%"><br><br>
+  <img src="assets/Chapter-8/testimoniosMoveo.PNG" alt="Sección Testimonios de la Landing Page de Moveo con imágenes accesibles" width="80%">
 </p>
-
-> _Nota: reemplazar los marcadores por las capturas reales del despliegue en Vercel. La Landing ya cuenta con selector de idioma (botón <code>.wp-lang</code>, EN/ES) que puede acompañar la evidencia._
 
 ##### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
 
@@ -4592,7 +4590,7 @@ Para la fase de experimentación, el equipo priorizó una estrategia **mobile-fi
 
 Las mejoras se apoyan en la RESTful API (C# / .NET Core, arquitectura DDD por bounded contexts) desplegada en Railway, con documentación en Swagger. Los experimentos puramente de frontend (HU33, HU34, HU39) no requirieron cambios en el backend, mientras que las mejoras de cancelación y soporte se apoyan en los endpoints y campos ya existentes de los controllers `RentalController` y `SupportTicketsController`.
 
-**URL de Documentación (Swagger API):** [https://wheelspe-backend-production.up.railway.app/swagger/index.html](https://wheelspe-backend-production.up.railway.app/swagger/index.html)
+**URL de Documentación (Swagger API):** [https://moveo-backend-production.up.railway.app/swagger/index.html](https://moveo-backend-production.up.railway.app/swagger/index.html)
 
 Principales endpoints y campos usados para la experimentación:
 
@@ -4606,11 +4604,11 @@ Principales endpoints y campos usados para la experimentación:
 A continuación se presentan las evidencias de la ejecución y prueba de los endpoints:
 
 <p align="center">
-  <em>[ Insertar captura: documentación Swagger de <code>api/v1/support-tickets</code> y <code>api/v1/rentals</code> ]</em><br><br>
-  <em>[ Insertar captura: prueba de consumo (Postman/Swagger) del POST <code>/api/v1/support-tickets</code> mostrando el Id y Status en la respuesta ]</em>
+  <img src="assets/Chapter-8/SwaggerSupport.PNG" alt="Swagger" width="80%"><br><br>
+  <img src="assets/Chapter-8/SwaggerRentals.PNG" alt="Swagger" width="80%">
+  <img src="assets/Chapter-8/SwaggerRentalsGet.PNG" alt="Swagger" width="80%">
 </p>
 
-> _Nota: reemplazar los marcadores por las capturas reales de Swagger y de las pruebas de consumo._
 
 ##### 8.3.3.6. Team Collaboration Insights
 
@@ -4631,8 +4629,6 @@ A continuación, se presentan las capturas de los analíticos de colaboración y
   <em>[ Insertar captura: gráfico de contribuciones (Insights de GitHub) ]</em>
 </p>
 
-> _Nota: reemplazar los marcadores por las capturas reales de los Insights de GitHub._
-
 #### 8.3.4. To-Be Validation Interviews
 
 Para validar las mejoras experimentales, se realizaron entrevistas con usuarios de los dos segmentos objetivo de Moveo: **propietarios** e **inquilinos** de vehículos. El objetivo fue evaluar la claridad, utilidad y valor percibido de cada mejora de UX, usabilidad y accesibilidad, y decidir cuáles mantener, ajustar o descartar.
@@ -4652,73 +4648,6 @@ Se diseñó un guion de preguntas orientadas a los experimentos implementados (H
 9. ¿Qué mejora te resultó más valiosa y por qué?
 10. ¿Qué otra mejora de usabilidad o accesibilidad te gustaría ver en Moveo?
 
-##### 8.3.4.2. Registro de Entrevistas
-
-**Segmento objetivo: Propietario de auto**
-
-**Entrevista 01**
-**Nombres:** Alisa
-**Apellidos:** Goicochea
-**Edad:** 22 años
-**Distrito:** Miraflores
-**Evidencia de la reunión:**
-<p align="center">
-  <em>[ Insertar captura de la reunión ]</em>
-</p>
-
-**Enlace de entrevista:** [Link de Entrevista]()
-
-**Resumen de la entrevista:**
-Alisa, propietaria que alquila su auto para financiar sus estudios, valoró especialmente el resumen previo a la cancelación y la confirmación por correo, ya que le dan certeza sobre las penalidades y el reembolso. Destacó que el número de seguimiento de tickets aumenta su confianza en el soporte, y consideró que las categorías predefinidas agilizan el reporte de incidencias frecuentes como limpieza o daños estéticos.
-
-**Entrevista 02**
-**Nombres:** Mathías
-**Apellidos:** Peña
-**Edad:** 24 años
-**Distrito:** Surco
-**Evidencia de la reunión:**
-<p align="center">
-  <em>[ Insertar captura de la reunión ]</em>
-</p>
-
-**Enlace de entrevista:** [Link de Entrevista]()
-
-**Resumen de la entrevista:**
-Mathías, emprendedor que gestiona varios vehículos desde su celular, resaltó que el botón de acción visible en las cards y el botón "Reservar" fijo hacen el flujo más rápido en móvil. Consideró que la confirmación inmediata de cancelación reduce la incertidumbre y opinó que el seguimiento de tickets es clave para no perder el control de las incidencias reportadas por sus inquilinos.
-
-**Segmento objetivo: Inquilino de auto**
-
-**Entrevista 01**
-**Nombres:** Claudia
-**Apellidos:** Sifuentes
-**Edad:** 23 años
-**Distrito:** San Miguel
-**Evidencia de la reunión:**
-<p align="center">
-  <em>[ Insertar captura de la reunión ]</em>
-</p>
-
-**Enlace de entrevista:** [Link de Entrevista]()
-
-**Resumen de la entrevista:**
-Claudia, inquilina que alquila autos para viajes cortos, encontró muy útil el botón "Reservar" fijo durante el scroll, pues antes debía volver al inicio de la página. Valoró el resumen de condiciones antes de cancelar y consideró que la acción visible en las cards evita dudas sobre dónde hacer clic. Señaló que las imágenes con descripciones claras le transmiten mayor confianza sobre el estado del vehículo.
-
-**Entrevista 02**
-**Nombres:** Angie
-**Apellidos:** Leyva
-**Edad:** 25 años
-**Distrito:** Jesús María
-**Evidencia de la reunión:**
-<p align="center">
-  <em>[ Insertar captura de la reunión ]</em>
-</p>
-
-**Enlace de entrevista:** [Link de Entrevista]()
-
-**Resumen de la entrevista:**
-Angie destacó la confirmación inmediata tras cancelar (pantalla y correo) como un factor que le da tranquilidad, y las categorías de tickets como una ayuda para reportar problemas rápidamente. Consideró que las mejoras de accesibilidad y la claridad de las acciones hacen que la plataforma se sienta más moderna y confiable.
-
-> _Nota: reemplazar los nombres, evidencias y enlaces por los datos reales de las entrevistas de validación realizadas por el equipo._
 
 # Conclusiones y recomendaciones
 
