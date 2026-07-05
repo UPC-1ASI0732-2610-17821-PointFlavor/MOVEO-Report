@@ -4510,61 +4510,69 @@ Los experimentos se planificaron y ejecutaron en el **Sprint 4**, priorizando pr
 
 ##### 8.3.3.2. Implemented To-Be Landing Page Evidence
 
-En la Landing Page, los experimentos con impacto directo fueron la mejora de accesibilidad (HU39, atributos alt descriptivos en las imágenes) y la instrumentación de analítica (TS05), que permite medir el comportamiento de los visitantes desde el primer punto de contacto. El despliegue se mantiene en Vercel a partir del pipeline de CI/CD.
+En la Landing Page (`index.html` + `main.js` + `styles.css`), los experimentos con impacto directo fueron la mejora de accesibilidad (HU39: agregar atributos `alt` descriptivos a las imágenes, que actualmente no los tienen) y la instrumentación de analítica (TS05: eventos de clic en la navegación `.wp-navlink` y en los CTA `.wp-btn-accent` "Start now" / `.wp-btn-ghost` "Log in" que enlazan a la aplicación). El despliegue se mantiene en Vercel a partir del pipeline de CI/CD.
 
-**URL de Despliegue (Landing Page):** https://pflavor-frontend.vercel.app
+**URL de Despliegue (Landing Page):** _[ completar con la URL de Vercel de la Landing ]_
 
 <p align="center">
-  <em>[ Insertar captura: Landing Page con imágenes accesibles (atributos alt) ]</em><br><br>
-  <em>[ Insertar captura: eventos de analítica registrados desde la Landing Page ]</em>
+  <em>[ Insertar captura: secciones <code>#servicios</code> y <code>#testimonios</code> de la Landing con imágenes que ahora incluyen atributo <code>alt</code> descriptivo (inspector de elementos) ]</em><br><br>
+  <em>[ Insertar captura: panel de analítica mostrando los eventos disparados desde los CTA de la Landing (data-i18n <code>nav.start</code> / <code>nav.login</code>) ]</em>
 </p>
 
-> _Nota: reemplazar los marcadores por las capturas reales del despliegue en Vercel._
+> _Nota: reemplazar los marcadores por las capturas reales del despliegue en Vercel. La Landing ya cuenta con selector de idioma (botón <code>.wp-lang</code>, EN/ES) que puede acompañar la evidencia._
 
 ##### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
 
-Las mejoras experimentales se implementaron sobre la aplicación web (Vue 3 / Vite) y se desplegaron mediante el pipeline en Vercel. A continuación se presentan las evidencias por cada historia de usuario.
+Las mejoras experimentales se implementaron sobre la aplicación web (Vue 3 / Vite, estructura por bounded contexts en `src/app/`) y se desplegaron mediante el pipeline en Vercel. A continuación se presentan las evidencias por cada historia de usuario, indicando la ruta y el componente involucrado.
 
-**URL de Despliegue (Frontend):** https://pflavor-frontend.vercel.app
+**URL de Despliegue (Frontend):** https://moveo-frontend.vercel.app
 
 **HU33 – Botón "Reservar" fijo durante el scroll**
+Ruta: `/rental/vehicles/:id` · Componentes: `vehicle-detail-page.vue`, `vehicle-detail-content.vue`
 <p align="center">
-  <em>[ Insertar captura: detalle del vehículo con el botón "Reservar" fijo al hacer scroll ]</em>
+  <em>[ Insertar captura: detalle del vehículo con el botón "Reservar" fijo (sticky) en la parte inferior al hacer scroll ]</em>
 </p>
 
 **HU34 – Acción visible en las cards de vehículos**
+Ruta: `/rental/browse` · Componentes: `vehicle-item.vue` (card) dentro de `vehicle-list.vue`
 <p align="center">
-  <em>[ Insertar captura: card de vehículo con botón "Ver detalles" / "Reservar" ]</em>
+  <em>[ Insertar captura: card de vehículo mostrando el botón visible "Ver detalles" / "Reservar" ]</em>
 </p>
 
 **HU35 – Resumen de condiciones antes de cancelar**
+Ruta: `/rental/my-rentals` → `/rental/details/:id` · Componentes: `my-rentals-page.vue`, `rental-details-page.vue`
 <p align="center">
-  <em>[ Insertar captura: modal con porcentaje de reembolso y penalidades antes de confirmar ]</em>
+  <em>[ Insertar captura: modal con porcentaje de reembolso y penalidades antes de confirmar la cancelación ]</em>
 </p>
 
 **HU36 – Confirmación inmediata tras cancelar**
+Ruta: `/rental/details/:id` (+ `/notifications`) · Store: `rental.store.js`
 <p align="center">
-  <em>[ Insertar captura: notificación en pantalla y correo de confirmación de cancelación ]</em>
+  <em>[ Insertar captura: notificación en pantalla "Reserva cancelada correctamente" y correo de confirmación ]</em>
 </p>
 
 **HU37 – Número de seguimiento al crear un ticket**
+Ruta: `/support/tickets` → `/support/tickets/:id` · Componentes: `support-ticket-form.vue`, `support-ticket-detail.vue`
 <p align="center">
-  <em>[ Insertar captura: ticket creado mostrando el código "#MOV-2025-001" y estado "Recibido" ]</em>
+  <em>[ Insertar captura: ticket creado mostrando su número de seguimiento (Id del ticket, ej. "#MOV-2025-001") y estado inicial "Recibido" (Status "open" en el backend) ]</em>
 </p>
 
 **HU38 – Categoría predefinida al reportar una incidencia**
+Ruta: `/support/tickets` · Componente: `support-ticket-form.vue` (campo <code>Category</code>: technical, billing, general, rental_issue, damage)
 <p align="center">
-  <em>[ Insertar captura: formulario de ticket con dropdown de categorías ]</em>
+  <em>[ Insertar captura: formulario de ticket con el dropdown de categorías desplegado ]</em>
 </p>
 
 **HU39 – Descripciones accesibles en imágenes de vehículos**
+Ruta: `/rental/browse` y `/rental/vehicles/:id` · Componentes: `vehicle-item.vue`, `vehicle-detail-content.vue`
 <p align="center">
-  <em>[ Insertar captura: inspección del atributo alt descriptivo en una imagen de vehículo ]</em>
+  <em>[ Insertar captura: inspector de elementos mostrando el atributo <code>alt</code> descriptivo en la imagen de un vehículo ]</em>
 </p>
 
 **TS05 – Instrumentación de eventos de analítica**
+Cobertura: flujos de reserva (`/rental/browse`, `/rental/vehicles/:id`) y soporte (`/support/tickets`)
 <p align="center">
-  <em>[ Insertar captura: panel de analítica mostrando los eventos del Tracking Plan ]</em>
+  <em>[ Insertar captura: panel de analítica mostrando los eventos del Tracking Plan (8.2.8) registrados ]</em>
 </p>
 
 > _Nota: reemplazar los marcadores por las capturas reales de la aplicación web desplegada._
@@ -4574,32 +4582,32 @@ Las mejoras experimentales se implementaron sobre la aplicación web (Vue 3 / Vi
 Para la fase de experimentación, el equipo priorizó una estrategia **mobile-first mediante web responsive (PWA)** en lugar de una aplicación nativa independiente. Esta decisión responde a los hallazgos de las entrevistas del producto As-Is, donde los usuarios —especialmente los propietarios— gestionan su actividad casi por completo desde el celular y valoran no instalar aplicaciones adicionales. De este modo, las mejoras experimentales (botón fijo de reservar, acción visible en cards, resumen de cancelación, seguimiento de tickets, etc.) se validaron directamente en dispositivos móviles a través del navegador, sobre el mismo despliegue del Frontend.
 
 <p align="center">
-  <em>[ Insertar captura móvil: botón "Reservar" fijo en vista responsive ]</em><br><br>
-  <em>[ Insertar captura móvil: formulario de ticket con categorías y número de seguimiento en pantalla de celular ]</em>
+  <em>[ Insertar captura móvil (≈375px): <code>/rental/vehicles/:id</code> con el botón "Reservar" fijo en vista responsive ]</em><br><br>
+  <em>[ Insertar captura móvil (≈375px): <code>/support/tickets</code> con el dropdown de categorías y el número de seguimiento del ticket en pantalla de celular ]</em>
 </p>
 
 > _Nota: reemplazar los marcadores por las capturas reales en resolución móvil. En caso de implementarse una aplicación nativa en iteraciones futuras, documentar aquí su evidencia._
 
 ##### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
 
-Algunas mejoras requirieron ampliar la RESTful API (C# / .NET Core, arquitectura DDD) desplegada en Railway, manteniendo la documentación en Swagger. Los experimentos puramente de frontend (HU33, HU34) no requirieron cambios en el backend, mientras que las mejoras de cancelación y soporte sí incorporaron nuevos endpoints y campos.
+Las mejoras se apoyan en la RESTful API (C# / .NET Core, arquitectura DDD por bounded contexts) desplegada en Railway, con documentación en Swagger. Los experimentos puramente de frontend (HU33, HU34, HU39) no requirieron cambios en el backend, mientras que las mejoras de cancelación y soporte se apoyan en los endpoints y campos ya existentes de los controllers `RentalController` y `SupportTicketsController`.
 
 **URL de Documentación (Swagger API):** [https://wheelspe-backend-production.up.railway.app/swagger/index.html](https://wheelspe-backend-production.up.railway.app/swagger/index.html)
 
-Principales endpoints y campos añadidos para la experimentación:
+Principales endpoints y campos usados para la experimentación:
 
 | Bounded Context | Método | Endpoint | Historia | Descripción |
 |---|---|---|---|---|
-| Rental / Payment | GET | `/bookings/{id}/cancellation-preview` | HU35 | Devuelve el resumen de condiciones, penalidades y porcentaje de reembolso antes de cancelar. |
-| Rental | POST | `/bookings/{id}/cancel` | HU36 | Procesa la cancelación, dispara la notificación en pantalla y el envío del correo de confirmación. |
-| Support | POST | `/tickets` | HU37 | Crea el ticket y devuelve el número de seguimiento y el estado inicial "Recibido". |
-| Support | GET | `/tickets/categories` | HU38 | Lista las categorías predefinidas de incidencias. |
+| Rental | GET | `/api/v1/rentals/{id}` | HU35 | Provee los datos de la reserva (fechas, monto, estado) con los que el frontend calcula el resumen de penalidades y reembolso antes de cancelar. |
+| Rental | PATCH | `/api/v1/rentals/{id}` | HU36 | Cambia el estado de la reserva a cancelada; dispara la notificación en pantalla y el correo de confirmación. |
+| Support | POST | `/api/v1/support-tickets` | HU37 · HU38 | Crea el ticket con el campo `Category` (technical, billing, general, rental_issue, damage) y devuelve su `Id` (número de seguimiento) y `Status` inicial "open". |
+| Support | GET | `/api/v1/support-tickets/{id}` | HU37 | Devuelve el ticket con su número de seguimiento y estado actualizado para el historial del usuario. |
 
 A continuación se presentan las evidencias de la ejecución y prueba de los endpoints:
 
 <p align="center">
-  <em>[ Insertar captura: documentación Swagger con los nuevos endpoints ]</em><br><br>
-  <em>[ Insertar captura: prueba de consumo (Postman/Swagger) del endpoint de cancelación o tickets ]</em>
+  <em>[ Insertar captura: documentación Swagger de <code>api/v1/support-tickets</code> y <code>api/v1/rentals</code> ]</em><br><br>
+  <em>[ Insertar captura: prueba de consumo (Postman/Swagger) del POST <code>/api/v1/support-tickets</code> mostrando el Id y Status en la respuesta ]</em>
 </p>
 
 > _Nota: reemplazar los marcadores por las capturas reales de Swagger y de las pruebas de consumo._
