@@ -4765,13 +4765,19 @@ La encuesta se complementó con dos preguntas abiertas sobre la mejora más vali
 
 Distribución por segmento. El 60% de los participantes correspondió a inquilinos y el 40% a propietarios. Esta proporción asegura que la retroalimentación cubre los dos flujos críticos de la plataforma, el de quienes reservan y el de quienes publican un vehículo.
 
+<p align="center">
+  <img src="assets/Chapter-8/Encuesta-01-Segmento.PNG" alt="Distribución de los participantes por segmento: 60% inquilinos y 40% propietarios" width="70%">
+</p>
+
 Distribución de edades. Las edades se repartieron de forma equilibrada entre los rangos de 18 a 49 años, con un 30% en el grupo de 26 a 33 años y otro 30% en el de 34 a 41 años. Esto indica que Moveo resulta atractivo para un público adulto joven y de mediana edad, lo cual orienta las prioridades de las funcionalidades a mejorar.
+
+<p align="center">
+  <img src="assets/Chapter-8/Encuesta-02-Edad.PNG" alt="Distribución de los participantes por rango de edad" width="70%">
+</p>
 
 Frecuencia de uso. La mayoría de los participantes utiliza Moveo de manera recurrente. El 44.4% lo hace una vez por semana y el 33.3% varias veces por semana, mientras que solo el 22.2% lo utiliza un par de veces al mes. Este nivel de uso sugiere un compromiso constante y confirma que las valoraciones provienen de personas familiarizadas con los flujos evaluados.
 
 <p align="center">
-  <img src="assets/Chapter-8/Encuesta-01-Segmento.PNG" alt="Distribución de los participantes por segmento: 60% inquilinos y 40% propietarios" width="70%"><br><br>
-  <img src="assets/Chapter-8/Encuesta-02-Edad.PNG" alt="Distribución de los participantes por rango de edad" width="70%"><br><br>
   <img src="assets/Chapter-8/Encuesta-03-Frecuencia.PNG" alt="Frecuencia de uso de la plataforma Moveo por parte de los participantes" width="70%">
 </p>
 
