@@ -4648,6 +4648,131 @@ Se diseñó un guion de preguntas orientadas a los experimentos implementados (H
 9. ¿Qué mejora te resultó más valiosa y por qué?
 10. ¿Qué otra mejora de usabilidad o accesibilidad te gustaría ver en Moveo?
 
+## 8.4. Experimentation
+
+### 8.4.1. Analysis and Interpretation of Results
+
+Una vez desplegadas las mejoras del Sprint 4, el equipo reformuló las preguntas de las entrevistas iniciales y las estructuró en una encuesta orientada a captar percepciones claras sobre la experiencia de uso. Este enfoque permitió identificar con mayor precisión las preferencias y necesidades de los participantes respecto a las funcionalidades trabajadas en la plataforma. La encuesta se aplicó a los dos segmentos objetivo de Moveo, es decir, a los propietarios que publican su vehículo y a los inquilinos que lo alquilan.
+
+**Preguntas formuladas**
+
+Para evaluar la experiencia de los usuarios con el producto se aplicaron las siguientes afirmaciones, valoradas en una escala de 1 a 5, donde 1 significa "totalmente en desacuerdo" y 5 "totalmente de acuerdo":
+
+1. Mantener el botón Reservar visible durante el scroll me facilitó iniciar la reserva.
+2. El botón visible dentro de cada card me ayudó a saber cómo continuar hacia el detalle del vehículo.
+3. El resumen de penalidades y reembolso me dio información suficiente para decidir antes de cancelar.
+4. La notificación en pantalla y el correo me confirmaron con certeza que la cancelación se procesó.
+5. El número de seguimiento y el estado inicial del ticket aumentaron mi confianza en el soporte.
+6. Las categorías predefinidas me facilitaron reportar la incidencia sin describirla desde cero.
+7. Las descripciones de las imágenes de vehículos me resultaron claras y accesibles.
+
+La encuesta se complementó con dos preguntas abiertas sobre la mejora más valiosa y sobre otras mejoras deseadas. Estas preguntas se presentaron a una muestra de 10 participantes, quienes respondieron a partir de su experiencia con las funcionalidades del producto. A continuación se explican los resultados obtenidos.
+
+**Análisis de datos demográficos**
+
+Distribución por segmento. El 60% de los participantes correspondió a inquilinos y el 40% a propietarios. Esta proporción asegura que la retroalimentación cubre los dos flujos críticos de la plataforma, el de quienes reservan y el de quienes publican un vehículo.
+
+Distribución de edades. Las edades se repartieron de forma equilibrada entre los rangos de 18 a 49 años, con un 30% en el grupo de 26 a 33 años y otro 30% en el de 34 a 41 años. Esto indica que Moveo resulta atractivo para un público adulto joven y de mediana edad, lo cual orienta las prioridades de las funcionalidades a mejorar.
+
+Frecuencia de uso. La mayoría de los participantes utiliza Moveo de manera recurrente. El 44.4% lo hace una vez por semana y el 33.3% varias veces por semana, mientras que solo el 22.2% lo utiliza un par de veces al mes. Este nivel de uso sugiere un compromiso constante y confirma que las valoraciones provienen de personas familiarizadas con los flujos evaluados.
+
+<p align="center">
+  <img src="assets/Chapter-8/Encuesta-01-Segmento.PNG" alt="Distribución de los participantes por segmento: 60% inquilinos y 40% propietarios" width="70%"><br><br>
+  <img src="assets/Chapter-8/Encuesta-02-Edad.PNG" alt="Distribución de los participantes por rango de edad" width="70%"><br><br>
+  <img src="assets/Chapter-8/Encuesta-03-Frecuencia.PNG" alt="Frecuencia de uso de la plataforma Moveo por parte de los participantes" width="70%">
+</p>
+
+**Evaluación de las mejoras**
+
+Botón Reservar fijo durante el scroll. El 90% de los participantes se mostró de acuerdo o muy de acuerdo con que mantener el botón visible facilitó iniciar la reserva, y solo una persona se mantuvo neutral. Este resultado confirma que la acción principal deja de perderse cuando el usuario revisa las fotos del vehículo, lo que favorece el inicio del flujo de alquiler.
+
+<p align="center">
+  <img src="assets/Chapter-8/Encuesta-04-HU33.PNG" alt="Resultados de la afirmación sobre el botón Reservar fijo durante el scroll" width="70%">
+</p>
+
+Acción visible en las cards de vehículos. La totalidad de los participantes valoró positivamente el botón dentro de cada card, con un 60% de acuerdo y un 40% muy de acuerdo. Los usuarios dejaron de dudar sobre cómo avanzar hacia el detalle del vehículo, lo que la convierte en la mejora con mayor aceptación.
+
+<p align="center">
+  <img src="assets/Chapter-8/Encuesta-05-HU34.PNG" alt="Resultados de la afirmación sobre la acción visible en las cards de vehículos" width="70%">
+</p>
+
+Resumen de condiciones antes de cancelar. El 77.8% de los participantes consideró que el resumen de penalidades y reembolso le dio información suficiente para decidir, mientras que el 22.2% se mantuvo neutral. Algunos usuarios sugirieron mostrar además la fecha límite de reembolso, un ajuste que se incorpora al backlog para reforzar la claridad de esta pantalla.
+
+<p align="center">
+  <img src="assets/Chapter-8/Encuesta-06-HU35.PNG" alt="Resultados de la afirmación sobre el resumen de condiciones antes de cancelar" width="70%">
+</p>
+
+Confirmación inmediata tras cancelar. El 90% de los participantes estuvo de acuerdo o muy de acuerdo con que la notificación en pantalla y el correo confirmaron el procesamiento de la cancelación. La combinación de ambos avisos aumenta la percepción de control del usuario sobre el estado de su reserva.
+
+<p align="center">
+  <img src="assets/Chapter-8/Encuesta-07-HU36.PNG" alt="Resultados de la afirmación sobre la confirmación inmediata tras cancelar" width="70%">
+</p>
+
+Número de seguimiento del ticket. La totalidad de los participantes valoró positivamente el código de seguimiento y el estado inicial del ticket, con un 60% de acuerdo y un 40% muy de acuerdo. Esta mejora se asoció de forma recurrente con la confianza en el soporte de Moveo.
+
+<p align="center">
+  <img src="assets/Chapter-8/Encuesta-08-HU37.PNG" alt="Resultados de la afirmación sobre el número de seguimiento del ticket" width="70%">
+</p>
+
+Categorías predefinidas en el formulario de tickets. El 90% de los participantes consideró que las categorías predefinidas facilitaron reportar la incidencia sin describirla desde cero, y solo una persona se mantuvo neutral. Este resultado confirma que las categorías reducen el esfuerzo de redacción al momento de crear un ticket.
+
+<p align="center">
+  <img src="assets/Chapter-8/Encuesta-09-HU38.PNG" alt="Resultados de la afirmación sobre las categorías predefinidas en los tickets" width="70%">
+</p>
+
+Accesibilidad en las imágenes de vehículos. El 80% de los participantes consideró claras y accesibles las descripciones de las imágenes, mientras que el 20% se mantuvo neutral. La aceptación fue algo más moderada porque varios usuarios pidieron extender las descripciones a todas las imágenes de la plataforma y no solo a las principales.
+
+<p align="center">
+  <img src="assets/Chapter-8/Encuesta-10-HU39.PNG" alt="Resultados de la afirmación sobre la accesibilidad en las imágenes de vehículos" width="70%">
+</p>
+
+**Recomendaciones de los usuarios**
+
+Entre las mejoras que los usuarios consideraron más valiosas destacaron la acción visible en las cards, el botón fijo de reservar y el número de seguimiento del ticket, tres funcionalidades ligadas directamente a los flujos de reserva y soporte. En cuanto a nuevas mejoras, los participantes propusieron poder guardar vehículos como favoritos, filtrar por tipo de caja, mostrar la fecha límite de reembolso antes de cancelar, incorporar un modo oscuro, ampliar las descripciones accesibles a todas las imágenes y habilitar notificaciones sobre el estado del ticket. Estas ideas alimentan el backlog de las siguientes iteraciones.
+
+<p align="center">
+  <img src="assets/Chapter-8/Encuesta-11-MejoraValiosa.PNG" alt="Respuestas de los usuarios sobre la mejora que consideraron más valiosa" width="70%"><br><br>
+  <img src="assets/Chapter-8/Encuesta-12-OtraMejora.PNG" alt="Respuestas de los usuarios sobre otras mejoras que les gustaría ver en Moveo" width="70%">
+</p>
+
+**Conclusión**
+
+Los resultados de la encuesta muestran un alto nivel de satisfacción con las mejoras implementadas. Todas las funcionalidades superaron el umbral de aceptación definido por el equipo, por lo que se decide conservarlas en producción. Las observaciones recogidas señalan áreas concretas de optimización, como la fecha límite de reembolso y la accesibilidad total de las imágenes, que servirán como base para las próximas mejoras del producto y para la re-priorización del backlog.
+
+### 8.4.2. Re-Scored and Re-Prioritized Question Backlog
+
+A partir de la evidencia recogida, el equipo volvió a revisar el Question Backlog original y ajustó su orden de prioridad. Las preguntas cuyos experimentos demostraron mayor impacto en los flujos de reserva y soporte ascienden en prioridad, mientras que las mejoras aún no construidas o de alcance más contenido descienden. La escala Fibonacci (1, 2, 3, 5, 8) expresa esa urgencia relativa, donde el valor 1 corresponde a la máxima prioridad para la siguiente iteración:
+
+| Prioridad (1,2,3,5,8) | Pregunta re-evaluada | Justificación del re-score |
+|:---:|---|---|
+| 1 | ¿En qué medida mantener visible el botón de "Reservar" durante el scroll aumenta el inicio y finalización del flujo de alquiler? | Es el flujo de conversión central; obtuvo alta aceptación y afecta el ingreso del negocio. |
+| 2 | ¿Cuánto aumenta el ingreso al detalle del vehículo si las cards incluyen una acción visible? | La mejor valoración de todas; refuerza el inicio del embudo de reserva. |
+| 2 | ¿Cuánto aumenta la confianza del usuario al mostrar un número de seguimiento y estado inicial del ticket? | Empatada en valoración; la confianza en soporte es un diferenciador clave de Moveo. |
+| 3 | ¿En qué medida mostrar penalidades, condiciones y reembolso estimado antes de cancelar reduce dudas del usuario? | Validada, con un ajuste pendiente (mostrar fecha límite de reembolso). |
+| 3 | ¿Qué impacto tiene la notificación en pantalla y el correo de confirmación en la percepción de control tras cancelar? | Respaldada; consolida el cierre seguro del flujo de cancelación. |
+| 3 | ¿En qué medida las categorías predefinidas reducen el tiempo y esfuerzo para crear un ticket? | Validada; reduce fricción de entrada al soporte. |
+| 5 | ¿Cuánto mejora la experiencia accesible si todas las imágenes de autos tuvieran atributos alt descriptivos? | Bien recibida, pero los usuarios piden ampliar el alcance a toda la plataforma. |
+| 8 | ¿Qué impacto tendría reforzar los botones de avance y guardado en el formulario de publicación de vehículos? | Experimento aún no implementado; candidato principal del próximo sprint. |
+
+## 8.5. Continuous Learning
+
+### 8.5.1. Shareback Session Artifacts: Learning Workflow
+
+**Figma (Prototipo):** El prototipo interactivo desarrollado en Figma refleja las interfaces y soluciones propuestas para Moveo, diseñadas con base en las necesidades y expectativas de los usuarios. Este artefacto muestra cómo el equipo iteró y ajustó los elementos visuales y funcionales durante el proceso de diseño, desde el inicio de sesión y la exploración de vehículos hasta el detalle con el botón de reserva y la gestión de alquileres.
+
+Enlace Figma: https://www.figma.com/design/JCgS0FsRQH1cDtJ1FkeWuZ/MOVEO?node-id=0-1&t=4ws5TAukXrjL9hsQ-1
+
+<p align="center">
+  <img src="assets/Chapter-8/FigmaPrototipo.PNG" alt="Diseño y prototipo de Moveo en Figma con las pantallas de login, dashboard, exploración de vehículos, detalle con botón Reservar y mis alquileres" width="90%">
+</p>
+
+**Encuesta de Google Forms:** Se utilizó una encuesta creada en Google Forms para recopilar el feedback de los usuarios y validar las mejoras implementadas durante la experimentación. Esta encuesta permitió evaluar la experiencia del usuario y recopilar los datos que respaldan las decisiones tomadas sobre cada mejora de la aplicación.
+
+Enlace encuesta: https://docs.google.com/forms/d/e/1FAIpQLSflrC7ERxr2JTRtT2nr2ZGu-e2Lrd9_4WItOXWjiSh1AI-6bg/viewform
+
+<p align="center">
+  <img src="assets/Chapter-8/EncuestaForms.PNG" alt="Encabezado y descripción de la encuesta de validación de Moveo en Google Forms" width="70%">
+</p>
 
 # Conclusiones y recomendaciones
 
