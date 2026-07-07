@@ -4649,6 +4649,101 @@ Se diseñó un guion de preguntas orientadas a los experimentos implementados (H
 10. ¿Qué otra mejora de usabilidad o accesibilidad te gustaría ver en Moveo?
 
 
+##### 8.3.4.2. Registro de Entrevistas
+
+**Video completo de todas las entrevistas:**  
+[https://acortar.link/FPs37x](https://acortar.link/FPs37x)
+
+**Segmento 1: Propietarios**
+
+**Entrevistado 1: Alisa Goicochea**
+
+- **Edad:** 22 años  
+- **Ocupación**: Estudiante de Marketing Digital \+ Alquiladora de autos  
+- **Distrito**: Miraflores  
+- **Dispositivos utilizados:** Laptop (MacBook Air), navegador Chrome  
+- **Instante en el que inicia:** 0:00  
+- **Duración de la entrevista:** 2:42 min
+
+**Resumen:**
+Alisa comenzó en el Landing Page y destacó la claridad del mensaje principal: "Alquila tu auto fácil y seguro". Hizo clic en "Regístrate" sin dudar. Valoró positivamente el formulario de registro y publicación, completando ambos flujos en menos de 5 minutos. Evaluó la apertura de un ticket como "clara y útil", especialmente al poder adjuntar fotos del daño. No intentó cancelar una reserva (no aplica a su rol), pero expresó que debería ser posible hacerlo sin penalidad si es con anticipación.
+
+![ValidationInterview#1](https://i.imgur.com/zGI5Jkm.png)
+
+**Entrevistado 2: Mathías Peña**
+
+- **Edad:** 24 años  
+- **Ocupación:** Estudiante de Administración (UNI) \+ Emprendedor de alquiler de autos (3 vehículos)  
+- **Distrito:** Surco  
+- **Dispositivos utilizados:** Laptop (MacBook Pro), navegador Safari  
+- **Instante en el que inicia:** 2:43  
+- **Fin de la entrevista:** 5:31 min
+
+**Resumen:**
+Mathías navegó desde el Landing Page, interesándose por la sección "¿Cómo funciona?". Publicó un vehículo rápidamente. Al probar la apertura de un ticket, sugirió permitir adjuntar videos cortos además de fotos. Consideró que el sistema de cancelación debería incluir un resumen de condiciones (¿se devuelve el depósito?) antes de confirmar.
+
+![ValidationInterview#2](https://i.imgur.com/pxOwY8d.png)
+
+**Entrevistado 3: Mauricio Salas**
+
+- **Edad:** 22 años  
+- **Ocupación:** Estudiante de Administración (UPC) \+ Freelancer en redes sociales \+ Alquiler de auto  
+- **Distrito:** Miraflores  
+- **Dispositivos utilizados:** Laptop (Lenovo), navegador Chrome  
+- **Instante en el que inicia:** 7:15  
+- **Duración de la entrevista:** 3:37 min
+
+**Resumen:**
+Mauricio completó el flujo de publicación y apertura de ticket. Valoró que el ticket quede vinculado a la reserva específica. Sugirió que al cancelar una reserva, el sistema muestre claramente si hay penalidades o devolución parcial de fondos.
+
+![ValidationInterview#3](https://i.imgur.com/yel0R0L.png)
+
+**Segmento 2: Inquilinos**
+
+**Entrevistado 4: Claudia Sifuentes**
+
+- **Edad:** 21 años  
+- **Ocupación:** Estudiante de Psicología \+ Trabajo media jornada en cafetería  
+- **Distrito:** San Juan de Lurigancho  
+- **Dispositivos utilizados:** Laptop (HP Pavilion), navegador Chrome  
+- **Instante en el que inicia:** 10:53  
+- **Duración de la entrevista:** 3:42 min
+
+**Resumen:**
+Claudia reservó un auto desde el Landing Page. Posteriormente, canceló una reserva simulada y consideró el proceso "simple y transparente". También abrió un ticket por "asiento roto" y valoró que el formulario sea claro. Criticó que no haya un chat integrado para aclarar dudas antes de abrir un ticket.
+
+![ValidationInterview#4](https://i.imgur.com/1lDoER4.png)
+
+**Entrevistado 5: Jackelin Peña Pariona**
+
+- **Edad:** 38 años  
+- **Ocupación:** Ingenieria  
+- **Distrito:** Lima (no especificado)  
+- **Dispositivos utilizados:** Laptop (Dell), navegador Chrome  
+- **Instante en el que inicia:** 13:35  
+- **Duración de la entrevista:** 9:28 min
+
+**Resumen:**
+Gabriel completó la reserva y luego la canceló. Notó que el sistema no muestra un mensaje de confirmación de cancelación por correo. Al abrir un ticket, sugirió incluir categorías predefinidas de incidencias (mecánicas, limpieza, documentación) para agilizar el reporte.
+
+![ValidationInterview#5](https://i.imgur.com/n1OIr9E.png)
+
+**Entrevistado 6: Angie Leyva**
+
+- **Edad:** 21 años  
+- **Ocupación**: Estudiante de Comunicación \+ Community Manager freelance  
+- **Distrito:** San Miguel  
+- **Dispositivos utilizados:** Laptop (MacBook Air), navegador Safari  
+- **Instante en el que inicia:** 22:07  
+- **Duración de la entrevista:** 4:40 min
+
+**Resumen:**
+Angie navegó desde el Landing Page y reservó un auto. Al cancelar, solicitó que el sistema muestre un resumen del reembolso esperado. Al abrir un ticket, criticó que no haya un número de seguimiento visible en la interfaz ("¿cómo sé que lo recibieron?"). Recomendó añadir un sistema de notificaciones que confirme la recepción del ticket y cualquier actualización posterior. 
+
+![ValidationInterview#6](https://i.imgur.com/PRglvc2.png)
+
+
+
 # Conclusiones y recomendaciones
 
 - Moveo  propone una solución digital para conectar propietarios de vehículos con personas que necesitan alquilar uno de forma temporal. Además, responde a una necesidad real, la de ofrecer una alternativa más flexible, segura y accesible frente al alquiler tradicional de autos. El modelo de negocio es colaborativo, ya que no depende de una flota propia, sino de vehículos registrados por los mismos usuarios.
