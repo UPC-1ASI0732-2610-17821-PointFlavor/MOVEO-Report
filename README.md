@@ -5074,7 +5074,7 @@ En esta sección, se presenta una introducción de la plataforma PointFlavor, de
 </p>
 
 Duración: 1:05 <br>
-Enlace a Microsoft Stream: [VIDEO ABOUT THE PRODUCT.mp4 ](htTB1s://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/IQDsa8mQseqyS5hASHUOF2etATteMgp7d6JY2BW7lKFNwJQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=in1oh2) <br>
+Enlace a Microsoft Stream: [VIDEO ABOUT THE PRODUCT.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c726_upc_edu_pe/IQAK-Fg-1Gu4RrEZeb8PVmEhAbwYryq66anmzAY-yqJdIYQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=qQMywg) <br>
 
 # Matriz de Evaluación Ética y de Impacto
 
