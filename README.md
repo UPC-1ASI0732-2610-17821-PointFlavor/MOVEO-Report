@@ -119,25 +119,25 @@
     <tr>
       <td>2.2 (TB1)</td>
       <td>11/05/2026</td>
-      <td>Hancco Poma, Keyner Iván <br> Santiago Peña, Andreow Jomark</td>
+      <td>Santiago Peña, Andreow Jomark</td>
       <td>Incorporación de la sección 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence, agregando evidencias de endpoints implementados, ejecución del backend y pruebas de consumo de la API.</td>
     </tr>
     <tr>
       <td>2.3 (TB1)</td>
       <td>12/05/2026</td>
-      <td>Goñe Araccata, Esther Abigail <br> Hancco Poma, Keyner Iván <br>Santiago Peña, Andreow Jomark <br> Sulca Silva, Melisa Geraldine <br> Tumi Oliden, Manuel Ignacio</td>
+      <td>Goñe Araccata, Esther Abigail</td>
       <td>Elaboración de la sección 6.1. Testing Suites & Validation, definiendo el enfoque general de validación, criterios de prueba y relación con los requerimientos del sistema.</td>
     </tr>
     <tr>
       <td>2.4 (TB1)</td>
       <td>12/05/2026</td>
-      <td>Goñe Araccata, Esther Abigail <br> Hancco Poma, Keyner Iván <br>Santiago Peña, Andreow Jomark <br> Sulca Silva, Melisa Geraldine <br> Tumi Oliden, Manuel Ignacio</td>
+      <td>Tumi Oliden, Manuel Ignacio</td>
       <td>Desarrollo de la sección 6.1.1. Core Entities Unit Tests, documentando las pruebas unitarias aplicadas a las entidades principales del dominio.</td>
     </tr>
     <tr>
       <td>2.5 (TB1)</td>
       <td>12/05/2026</td>
-      <td>Goñe Araccata, Esther Abigail <br> Hancco Poma, Keyner Iván <br>Santiago Peña, Andreow Jomark <br> Sulca Silva, Melisa Geraldine <br> Tumi Oliden, Manuel Ignacio</td>
+      <td>Hancco Poma, Keyner Iván</td>
       <td>Desarrollo de la sección 6.1.2. Core Integration Tests, registrando pruebas de integración entre frontend, backend, base de datos y servicios principales.</td>
     </tr>
     <tr>
@@ -206,6 +206,36 @@
       <td>Tumi Oliden, Manuel Ignacio</td>
       <td>Desarrollo de las secciones 8.3.3 (Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle: To-Be Sprint Backlog, evidencias de Landing Page, Frontend-Web, Native-Mobile y RESTful API, y Team Collaboration Insights) y 8.3.4 (To-Be Validation Interviews: diseño y registro de entrevistas).</td>
     </tr>
+    <tr>
+      <td>3.9 (TB2)</td>
+      <td>05/07/2026</td>
+      <td>Sulca Silva, Melisa Geraldine</td>
+      <td>Elaboró las To-Be User Stories y el To-Be Product Backlog, definiendo hipótesis, experiment cards y métricas de negocio.</td>
+    </tr>
+    <tr>
+      <td>3.10 (TB2)</td>
+      <td>05/07/2026</td>
+      <td>Tumi Oliden, Manuel Ignacio</td>
+      <td>Realizó los Sprint Backlogs y las evidencias de implementación del Landing Page, Frontend, Mobile y RESTful API, junto con los Team Collaboration Insights.</td>
+    </tr>
+    <tr>
+      <td>3.11 (TB2)</td>
+      <td>05/07/2026</td>
+      <td>Santiago Peña, Andreow Jomark</td>
+      <td>Diseñó y registró las Validation Interviews, incluyendo el diseño de entrevistas y su registro correspondiente.</td>
+    </tr>
+    <tr>
+      <td>3.12 (TB2)</td>
+      <td>06/07/2026</td>
+      <td>Goñe Araccata, Esther Abigail</td>
+      <td>Desarrolló el análisis e interpretación de resultados, la re-priorización del Question Backlog y los artefactos de la Shareback Session del Continuous Learning.</td>
+    </tr>
+    <tr>
+      <td>3.13 (TB2)</td>
+      <td>06/07/2026</td>
+      <td>Hancco Poma, Keyner Iván</td>
+      <td>Elaboró el About-the-Product Intro Video como parte del Pre-launch de la plataforma.</td>
+    </tr>
   </tbody>
 </table>
 
@@ -242,12 +272,11 @@ A continuación, se adjuntan las evidencias del trabajo colaborativo, incluyendo
       - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
     - [1.2. Solution Profile](#12-solution-profile)
       - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-  - [1.2.2. Lean UX Process](#122-lean-ux-process)
-    - [1.2.2.1. Lean UX Problem Statement](#1221-lean-ux-problem-statement)
-    - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-    - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-      - [1.2.2.4. Lean UX Canvas.](#1224-lean-ux-canvas)
-        - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas-1)
+      - [1.2.2. Lean UX Process](#122-lean-ux-process)
+        - [1.2.2.1. Lean UX Problem Statement](#1221-lean-ux-problem-statement)
+        - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+        - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+        - [1.2.2.4. Lean UX Canvas.](#1224-lean-ux-canvas)
     - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
   - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
     - [2.1. Competidores](#21-competidores)
@@ -255,113 +284,53 @@ A continuación, se adjuntan las evidencias del trabajo colaborativo, incluyendo
       - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
     - [2.2. Entrevistas](#22-entrevistas)
       - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-      - [Segmento 1: Propietarios](#segmento-1-propietarios)
-      - [Segmento 2: Inquilinos](#segmento-2-inquilinos)
       - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-      - [Segmento 1: Propietarios de autos](#segmento-1-propietarios-de-autos)
-      - [Entrevistado 1: Alisa Goicochea](#entrevistado-1-alisa-goicochea)
-        - [Resumen:](#resumen)
-      - [Entrevistado 2: Mathías Peña](#entrevistado-2-mathías-peña)
-        - [Resumen:](#resumen-1)
-      - [Entrevistado 3: Mauricio Salas](#entrevistado-3-mauricio-salas)
-        - [Resumen:](#resumen-2)
-      - [Segmento 2:Inquilinos de autos](#segmento-2inquilinos-de-autos)
-      - [Entrevistado 4: Claudia Sifuentes](#entrevistado-4-claudia-sifuentes)
-        - [Resumen:](#resumen-3)
-      - [Entrevistado 5: Angie Leyva](#entrevistado-5-angie-leyva)
-        - [Resumen:](#resumen-4)
       - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-    - [Segmento 1: Propietarios de Vehículos](#segmento-1-propietarios-de-vehículos)
-      - [Estadísticas y Aspectos Comunes](#estadísticas-y-aspectos-comunes)
-      - [Características Objetivas](#características-objetivas)
-      - [Características Subjetivas](#características-subjetivas)
-      - [Hallazgos Clave](#hallazgos-clave)
-    - [Estadisticas:](#estadisticas)
-    - [Segmento 2: Inquilinos de Vehículos](#segmento-2-inquilinos-de-vehículos)
-      - [Estadísticas y Aspectos Comunes](#estadísticas-y-aspectos-comunes-1)
-      - [Características Objetivas](#características-objetivas-1)
-      - [Características Subjetivas](#características-subjetivas-1)
-      - [Hallazgos Clave](#hallazgos-clave-1)
-    - [Estadisticas:](#estadisticas-1)
-    - [Validación de Supuestos Lean UX](#validación-de-supuestos-lean-ux)
-    - [Conclusión del Análisis](#conclusión-del-análisis)
-  - [2.3. Needfinding](#23-needfinding)
-    - [2.3.1. User Persona](#231-user-persona)
-      - [Persona 1: Propietario Emprendedor Digital](#persona-1-propietario-emprendedor-digital)
-        - [Motivaciones:](#motivaciones)
-        - [Frustraciones:](#frustraciones)
-        - [Objetivos:](#objetivos)
-      - [Persona 2: Inquilina Justiciera Digital](#persona-2-inquilina-justiciera-digital)
-        - [Motivaciones:](#motivaciones-1)
-        - [Frustraciones:](#frustraciones-1)
-        - [Objetivos:](#objetivos-1)
-    - [2.3.2. User Task Matrix](#232-user-task-matrix)
-    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+    - [2.3. Needfinding](#23-needfinding)
+      - [2.3.1. User Persona](#231-user-persona)
+      - [2.3.2. User Task Matrix](#232-user-task-matrix)
+      - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+      - [2.3.4. Empathy Mapping](#234-empathy-mapping)
       - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
-- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-  - [3.2. User Stories](#32-user-stories)
-  - [3.3. Product Backlog](#33-product-backlog)
-  - [3.4. Impact Mapping:](#34-impact-mapping)
-- [Capítulo IV: Product Design](#capítulo-iv-product-design)
-  - [4.1. Style Guidelines.](#41-style-guidelines)
-    - [4.1.1. General Style Guidelines.](#411-general-style-guidelines)
-      - [Logo](#logo)
-      - [Typography](#typography)
-      - [Colors](#colors)
-      - [Spacing](#spacing)
-      - [Communication Tone](#communication-tone)
-    - [4.1.2. Web Style Guidelines.](#412-web-style-guidelines)
-  - [4.2. Information Architecture.](#42-information-architecture)
-    - [4.2.1. Organization Systems.](#421-organization-systems)
-    - [4.2.2. Labeling Systems.](#422-labeling-systems)
-        - [Secciones y contenido de Moveo](#secciones-y-contenido-de-moveo)
-    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-    - [4.2.4. Searching Systems.](#424-searching-systems)
-      - [Busqueda Global](#busqueda-global)
-      - [Filtrado de información](#filtrado-de-información)
-    - [4.2.5. Navigation Systems.](#425-navigation-systems)
-      - [Estructura de Navegación en la Landing Page](#estructura-de-navegación-en-la-landing-page)
-      - [Estructura de Navegación en Moveo](#estructura-de-navegación-en-moveo)
-    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
-      - [Header y Hero](#header-y-hero)
-      - [What is Moveo](#what-is-moveo)
-      - [Team Members](#team-members)
-      - [Services](#services)
-      - [Moveo Services — Learn More](#moveo-services--learn-more)
-      - [Impacto de Moveo](#impacto-de-moveo)
-      - [Footer](#footer)
-    - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
-      - [Header y Hero](#header-y-hero-1)
-      - [What is Moveo](#what-is-moveo-1)
-      - [Moveo Services — Learn More](#moveo-services--learn-more-1)
-      - [Impacto de Moveo](#impacto-de-moveo-1)
-      - [Footer](#footer-1)
-  - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
-    - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
-    - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
-    - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
-    - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
-  - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
-  - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
-    - [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
-    - [4.6.2. Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)
-    - [4.6.3. Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)
-  - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
-    - [4.7.1. Class Diagrams](#471-class-diagrams)
-  - [4.8. Database Design](#48-database-design)
-    - [4.8.1. Database Diagram](#481-database-diagram)
+    - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+  - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+    - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+    - [3.2. User Stories](#32-user-stories)
+    - [3.3. Product Backlog](#33-product-backlog)
+    - [3.4. Impact Mapping:](#34-impact-mapping)
+  - [Capítulo IV: Product Design](#capítulo-iv-product-design)
+    - [4.1. Style Guidelines.](#41-style-guidelines)
+      - [4.1.1. General Style Guidelines.](#411-general-style-guidelines)
+      - [4.1.2. Web Style Guidelines.](#412-web-style-guidelines)
+    - [4.2. Information Architecture.](#42-information-architecture)
+      - [4.2.1. Organization Systems.](#421-organization-systems)
+      - [4.2.2. Labeling Systems.](#422-labeling-systems)
+      - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+      - [4.2.4. Searching Systems.](#424-searching-systems)
+      - [4.2.5. Navigation Systems.](#425-navigation-systems)
+    - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+      - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+      - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+    - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
+      - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
+      - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
+      - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
+      - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
+    - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
+    - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+      - [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
+      - [4.6.2. Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)
+      - [4.6.3. Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)
+    - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
+      - [4.7.1. Class Diagrams](#471-class-diagrams)
+    - [4.8. Database Design](#48-database-design)
+      - [4.8.1. Database Diagram](#481-database-diagram)
   - [Capítulo V: Product Implementation](#capítulo-v-product-implementation)
     - [5.1. Software Configuration Management](#51-software-configuration-management)
       - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
       - [5.1.2. Source Code Management](#512-source-code-management)
-      - [Estructura de Ramas (GitFlow)](#estructura-de-ramas-gitflow)
       - [5.1.3. Source Code Style Guide \& Conventions](#513-source-code-style-guide--conventions)
       - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-        - [Landing Page y Frontend Web Application — Vercel](#landing-page-y-frontend-web-application--vercel)
-        - [Backend / RESTful API — Railway](#backend--restful-api--railway)
     - [5.2. Product Implementation \& Deployment](#52-product-implementation--deployment)
       - [5.2.1. Sprint Backlogs](#521-sprint-backlogs)
       - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
@@ -371,21 +340,11 @@ A continuación, se adjuntan las evidencias del trabajo colaborativo, incluyendo
       - [5.2.6. RESTful API documentation](#526-restful-api-documentation)
       - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
     - [5.3. Video About-the-Product](#53-video-about-the-product)
+- [Part II: Verification, Validation & Pipeline](#part-ii-verification-validation--pipeline)
   - [Capítulo VI: Product Verification \& Validation](#capítulo-vi-product-verification--validation)
     - [6.1. Testing Suites \& Validation](#61-testing-suites--validation)
       - [6.1.1. Core Entities Unit Tests.](#611-core-entities-unit-tests)
-    - [IAM](#iam)
-    - [UserManagement](#usermanagement)
-    - [Rental](#rental)
-    - [Payment](#payment)
-    - [Adventure](#adventure)
-    - [Notification](#notification)
-    - [Support](#support)
-    - [UserReview](#userreview)
       - [6.1.2. Core Integration Tests.](#612-core-integration-tests)
-    - [IAM](#iam-1)
-    - [Rental](#rental-1)
-    - [Payment](#payment-1)
       - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)
       - [6.1.4. Core System Tests.](#614-core-system-tests)
     - [6.2. Static testing \& Verification](#62-static-testing--verification)
@@ -393,20 +352,10 @@ A continuación, se adjuntan las evidencias del trabajo colaborativo, incluyendo
         - [6.2.1.1. Coding standard \& Code conventions.](#6211-coding-standard--code-conventions)
         - [6.2.1.2. Code Quality \& Code Security.](#6212-code-quality--code-security)
       - [6.2.2. Reviews](#622-reviews)
-    - [6.3. Validation Interviews](#63-validation-interviews)  
+    - [6.3. Validation Interviews](#63-validation-interviews)
       - [6.3.1. Diseño de Entrevistas.](#631-diseño-de-entrevistas)
       - [6.3.2. Registro de Entrevistas.](#632-registro-de-entrevistas)
-      - [6.3.3. Evaluaciones según heurísticas.](#633-evaluaciones-según-heurísticas)
-    - [6.4. Auditoría de Experiencias de Usuario.](#64-auditoría-de-experiencias-de-usuario)
-      - [6.4.1. Auditoría realizada.](#641-auditoría-realizada)
-        - [6.4.1.1. Información del grupo auditado.](#6411-información-del-grupo-auditado)
-        - [6.4.1.2. Cronograma de auditoría realizada.](#6412-cronograma-de-auditoría-realizada)
-        - [6.4.1.3. Contenido de auditoría realizada.](#6413-contenido-de-auditoría-realizada)
-      - [6.4.2. Auditoría recibida.](#642-auditoría-recibida)
-        - [6.4.2.1. Información del grupo auditor](#6421-información-del-grupo-auditor)
-        - [6.4.2.2. Cronograma de auditoría recibida.](#6422-cronograma-de-auditoría-recibida)
-        - [6.4.2.3. Contenido de auditoría recibida.](#6423-contenido-de-auditoría-recibida)
-        - [6.4.2.4. Resumen de modificaciones para subsanar hallazgos.](#6424-resumen-de-modificaciones-para-subsanar-hallazgos)
+      - [6.3.3. Evaluacones según heurísticas.](#633-evaluacones-según-heurísticas)
   - [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
     - [7.1. Continuous Integration](#71-continuous-integration)
       - [7.1.1. Tools and Practices.](#711-tools-and-practices)
@@ -422,6 +371,7 @@ A continuación, se adjuntan las evidencias del trabajo colaborativo, incluyendo
       - [7.4.2. Monitoring Pipeline Components](#742-monitoring-pipeline-components)
       - [7.4.3. Alerting Pipeline Components](#743-alerting-pipeline-components)
       - [7.4.4. Notification Pipeline Components.](#744-notification-pipeline-components)
+- [Part III: Experiment-Driven Lifecycle](#part-iii-experiment-driven-lifecycle)
   - [Capítulo VIII: Experiment-Driven Development](#capítulo-viii-experiment-driven-development)
     - [8.1. Experiment Planning](#81-experiment-planning)
       - [8.1.1. As-Is Summary.](#811-as-is-summary)
@@ -451,20 +401,20 @@ A continuación, se adjuntan las evidencias del trabajo colaborativo, incluyendo
       - [8.3.4. To-Be Validation Interviews](#834-to-be-validation-interviews)
         - [8.3.4.1. Diseño de Entrevistas](#8341-diseño-de-entrevistas)
         - [8.3.4.2. Registro de Entrevistas](#8342-registro-de-entrevistas)
-	 - [8.4. Experiment Aftermath & Analysis](#84-experiment-aftermath-analysis)
-      - [8.4.1. Analysis and Interpretation of Results](#841-analyisis-interpretation-results)
-      - [8.4.2. Re-scored and Re-prioritized Question Backlog](#842-rescored-reprioritized-question-backlog)
-	- [8.5. Continuous Learning](#85-continous-learning)
-      - [8.5.1. Shareback Session Artifacts: Learning Workflow](#851-shareback-session-artiffacts)
-	- [8.6. To-Be Software Platform Pre-launch](#86-tobe-software-platform-prelaunch)
+    - [8.4. Experiment Aftermath & Analysis](#84-experiment-aftermath--analysis)
+      - [8.4.1. Analysis and Interpretation of Results](#841-analysis-and-interpretation-of-results)
+      - [8.4.2. Re-Scored and Re-Prioritized Question Backlog](#842-re-scored-and-re-prioritized-question-backlog)
+    - [8.5. Continuous Learning](#85-continuous-learning)
+      - [8.5.1. Shareback Session Artifacts: Learning Workflow](#851-shareback-session-artifacts-learning-workflow)
+    - [8.6. To-Be Software Platform Pre-launch](#86-to-be-software-platform-pre-launch)
       - [8.6.1. About-the-Product Intro Video](#861-about-the-product-intro-video)
-- [Matriz de Evaluación Etica y de Impacto](#matriz-impacto)
+- [Matriz de Evaluación Ética y de Impacto](#matriz-de-evaluación-ética-y-de-impacto)
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-- [Video About The Team](#video-about-the-team)
+- [Video About the Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
-  - [Enlace Organización: https://github.com/UPC-1ASI0732-2610-17821-PointFlavor](#enlace-organización-httpsgithubcomupc-1asi0732-2610-17821-pointflavor)
   - [Repositorios Github](#repositorios-github)
+  - [Links](#links)
 
 # Student Outcome
 El curso aporta al cumplimiento del criterio ABET: **ABET – EAC - Student Outcome 7:** 
@@ -701,6 +651,7 @@ aprendizaje que retroalimenta futuras iteraciones del desarrollo de software.
  </tr>
  </tbody>
 </table>
+
 ---
 
 # Part I: As-Is Software Project
@@ -869,8 +820,6 @@ En el apartado de Lean UX Canvas se desarrolló una estructuración completa y a
 Cada hipótesis fue traducida en un Lean UX Canvas formal, siguiendo un enfoque científico-experimental que articula: el problema de negocio detectado (Business Problem ), las soluciones propuestas a nivel funcional y técnico (Solutions ), los resultados esperados a nivel organizacional (Business Outcomes ), la caracterización de los usuarios objetivos (Users ), los beneficios esperados para estos usuarios (User Outcomes & Benefits ), la formulación de hipótesis de aprendizaje (Hypotheses ), y el diseño de experimentos estratégicos para validar o refutar dichas hipótesis (What's the most important thing we need to learn first? y What's the least amount of work we need to do to learn the next most important thing? ).
 
 Este trabajo metodológico permitió no solo establecer un marco claro de experimentación y validación temprana de las decisiones de diseño y tecnología, sino también alinear todos los esfuerzos de desarrollo a métricas de éxito específicas y medibles. Así, el apartado de Lean UX Canvas representa una pieza fundamental dentro del enfoque de construcción iterativa, ágil y centrada en el usuario de Moveo, asegurando que cada funcionalidad propuesta responde a necesidades reales, riesgos priorizados y oportunidades de negocio tangibles.
-
-##### 1.2.2.4. Lean UX Canvas
 
 ![](https://imgur.com/K0AAiIY.jpg)
 
@@ -1956,6 +1905,10 @@ Organizamos las secciones, permitiendo a los usuarios desplazarse sin dificultad
 | **Perfil** | Área dedicada al control del perfil del usuario, con herramientas para mantener actualizados los datos, preferencias y accesos personalizados. |
 
 
+### 4.3. Landing Page UI Design
+
+En esta sección se presenta el diseño de la interfaz de usuario de la Landing Page de Moveo, primero mediante su wireframe y luego a través del mock-up final.
+
 ### 4.3.1. Landing Page Wireframe
 
 > ** Enlace al prototipo interactivo en Figma:**  
@@ -2623,6 +2576,8 @@ Duración: 1:05 <br>
 Enlace a Microsoft Stream: [VIDEO ABOUT THE PRODUCT.mp4 ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/IQDsa8mQseqyS5hASHUOF2etATteMgp7d6JY2BW7lKFNwJQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=in1oh2) <br>
 Enlace a YouTube: https://youtu.be/-X0c1uzO5KU 
 
+
+# Part II: Verification, Validation & Pipeline
 
 ## Capítulo VI: Product Verification & Validation
 
@@ -3934,6 +3889,8 @@ Con GitHub Actions, las notificaciones se generan automáticamente al finalizar 
 
 Railway y Vercel complementan este sistema de notificaciones con alertas específicas sobre el estado de los servicios desplegados en producción, mientras que Postman Monitor añade una capa de visibilidad continua sobre la salud de la API REST de Moveo. En conjunto, estas herramientas conforman un sistema de notificaciones en múltiples capas que cubre desde la etapa de integración del código hasta la verificación continua del servicio en producción, proporcionando al equipo una visión completa del estado de calidad del software en cada ciclo de desarrollo y asegurando que la plataforma Moveo se mantenga estable, disponible y funcional para sus usuarios.
 
+# Part III: Experiment-Driven Lifecycle
+
 ## Capítulo VIII: Experiment-Driven Development
 
 ### 8.1. Experiment Planning
@@ -4931,7 +4888,7 @@ Angie navegó desde el Landing Page y reservó un auto. Al cancelar, solicitó q
 
 ![ValidationInterview#6](https://i.imgur.com/PRglvc2.png)
 
-## 8.4. Experimentation
+## 8.4. Experiment Aftermath & Analysis
 
 ### 8.4.1. Analysis and Interpretation of Results
 
@@ -5202,7 +5159,7 @@ Esta matriz refleja un análisis profundo de los impactos éticos y sociales de 
   </a>
 </p>
 
-**Video de Exposición TB2:** [https://tinyurl.com/about-the-team-moveo](https://tinyurl.com/about-the-team-moveo)
+**Link Video About The Team:** [https://tinyurl.com/about-the-team-moveo](https://tinyurl.com/about-the-team-moveo)
 
 
 # Bibliografía
@@ -5223,9 +5180,6 @@ Esta matriz refleja un análisis profundo de los impactos éticos y sociales de 
 
 # Anexos
 
-## Enlace Organización: https://github.com/UPC-1ASI0732-2610-17821-PointFlavor
-## Video de Exposición TB2: [https://tinyurl.com/video-expo-tb2](https://tinyurl.com/video-expo-tb2)
-
 ## Repositorios Github
 
 - **Enlace Repositorio Project Report:**  https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/MOVEO-Report/tree/develop <br>
@@ -5236,18 +5190,21 @@ Esta matriz refleja un análisis profundo de los impactos éticos y sociales de 
 
 - **Enlace Repositorio Backend Web Service (RESTful API - .NET):** https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/MOVEO-Backend <br>
 
+## Links
+
+- **Enlace Organización:** https://github.com/UPC-1ASI0732-2610-17821-PointFlavor <br>
+
+- **Video de Exposición TB2:** [https://tinyurl.com/video-expo-tb2](https://tinyurl.com/video-expo-tb2) <br>
+
 - **URL de Despliegue (Landing Page):** https://upc-1asi0732-2610-17821-pointflavor.github.io/MOVEO-Landing-Page/ <br>
 
 - **URL de Despliegue (Frontend Web Application):** https://moveo-frontend.vercel.app <br>
 
 - **URL de Documentación (Swagger API):** https://moveo-backend-production.up.railway.app/swagger/index.html <br>
 
-- Link del formulario: [https://forms.gle/uyVSkqSiuiKx1nb69](https://docs.google.com/forms/d/e/1FAIpQLSflrC7ERxr2JTRtT2nr2ZGu-e2Lrd9_4WItOXWjiSh1AI-6bg/viewform?usp=dialog) <br>
+- **Link del formulario:** [https://forms.gle/uyVSkqSiuiKx1nb69](https://docs.google.com/forms/d/e/1FAIpQLSflrC7ERxr2JTRtT2nr2ZGu-e2Lrd9_4WItOXWjiSh1AI-6bg/viewform?usp=dialog) <br>
 
-- Link del diseño final en figma: https://www.figma.com/design/JCgS0FsRQH1cDtJ1FkeWuZ/MOVEO?node-id=0-1&t=4ws5TAukXrjL9hsQ-1 <br>
-
-- Link del prototipo interactivo en figma: https://www.figma.com/proto/c6kJu6j0YZv51u6Ml2kypY/Moveo-Landing-Mockup?node-id=1-2&p=f&t=oOjM7PCRDBGHla3t-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4006%3A1560 <br>
-
+- **Link del diseño final en Figma:** https://www.figma.com/design/JCgS0FsRQH1cDtJ1FkeWuZ/MOVEO?node-id=0-1&t=4ws5TAukXrjL9hsQ-1 <br>
 
 ---
 
