@@ -2031,7 +2031,9 @@ Además, se han definido repositorios independientes para cada componente del si
 
 - Landing Page: https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/MOVEO-Landing-Page.git 
 
-- Frontend Web Application (Vue + Vite): https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/MOVEO-Landing-Page.git 
+- Frontend Web Application (Vue + Vite): https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/MOVEO-Frontend.git 
+
+- Backend Web Service (RESTful API - .NET): https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/MOVEO-Backend.git 
 
 
 #### Estructura de Ramas (GitFlow)
@@ -2144,7 +2146,7 @@ La implementación y despliegue de la landing page es un paso crucial para hacer
 
 Durante este sprint, se sentaron las bases de la aplicación Frontend utilizando **Vue 3** y **Vite**. La elección de Vite permite tiempos de carga y reemplazo de módulos en caliente (HMR) casi instantáneos, mejorando la experiencia de desarrollo.
 
-**URL de Despliegue (Frontend):** https://pflavor-frontend.vercel.app  
+**URL de Despliegue (Frontend):** https://moveo-frontend.vercel.app  
 
 - **Paso 1:** Vinculación del repositorio Frontend a la plataforma de Vercel. 
 - **Paso 2:** Vercel detecta automáticamente el framework (Vite/Vue) y configura el directorio raíz. 
@@ -2242,7 +2244,7 @@ La arquitectura de la solución backend se fundamentó en **C# y .NET Core**. Se
 </p>
 
 
-- Swagger Link: https://wheelspe-backend-production.up.railway.app/swagger/index.html
+- Swagger Link: https://moveo-backend-production.up.railway.app/swagger/index.html
 
 
 #### 5.2.6. RESTful API documentation
@@ -2398,7 +2400,7 @@ La API soporta operaciones CRUD (Crear, Leer, Actualizar y Eliminar) para distin
 La documentación del backend fue implementada utilizando Swagger/OpenAPI, permitiendo probar interactivamente los endpoints y visualizar las estructuras de request y response directamente desde el navegador. La documentación incluye parámetros, cuerpos de solicitud, códigos de respuesta y esquemas para todos los recursos del sistema.
 
 **URL de Swagger:**  
-https://wheelspe-backend-production.up.railway.app/swagger/index.html
+https://moveo-backend-production.up.railway.app/swagger/index.html
 
   
 #### 5.2.7. Team Collaboration Insights
@@ -4528,63 +4530,54 @@ Las mejoras experimentales se implementaron sobre la aplicación web (Vue 3 / Vi
 **HU33 – Botón "Reservar" fijo durante el scroll**
 Ruta: `/rental/vehicles/:id` · Componentes: `vehicle-detail-page.vue`, `vehicle-detail-content.vue`
 <p align="center">
-  <em>[ Insertar captura: detalle del vehículo con el botón "Reservar" fijo (sticky) en la parte inferior al hacer scroll ]</em>
+  <img src="assets/Chapter-8/US33-Moveo.PNG" alt="MoveoFront" width="80%"><br><br>
 </p>
 
 **HU34 – Acción visible en las cards de vehículos**
 Ruta: `/rental/browse` · Componentes: `vehicle-item.vue` (card) dentro de `vehicle-list.vue`
 <p align="center">
-  <em>[ Insertar captura: card de vehículo mostrando el botón visible "Ver detalles" / "Reservar" ]</em>
+  <img src="assets/Chapter-8/US34-Moveo.PNG" alt="MoveoFront" width="80%"><br><br>
 </p>
 
 **HU35 – Resumen de condiciones antes de cancelar**
 Ruta: `/rental/my-rentals` → `/rental/details/:id` · Componentes: `my-rentals-page.vue`, `rental-details-page.vue`
 <p align="center">
-  <em>[ Insertar captura: modal con porcentaje de reembolso y penalidades antes de confirmar la cancelación ]</em>
+  <img src="assets/Chapter-8/US35-mOVEO.PNG" alt="MoveoFront" width="80%"><br><br>
 </p>
 
 **HU36 – Confirmación inmediata tras cancelar**
 Ruta: `/rental/details/:id` (+ `/notifications`) · Store: `rental.store.js`
 <p align="center">
-  <em>[ Insertar captura: notificación en pantalla "Reserva cancelada correctamente" y correo de confirmación ]</em>
+  <img src="assets/Chapter-8/US36-Moveo.PNG" alt="MoveoFront" width="80%"><br><br>
 </p>
 
 **HU37 – Número de seguimiento al crear un ticket**
 Ruta: `/support/tickets` → `/support/tickets/:id` · Componentes: `support-ticket-form.vue`, `support-ticket-detail.vue`
 <p align="center">
-  <em>[ Insertar captura: ticket creado mostrando su número de seguimiento (Id del ticket, ej. "#MOV-2025-001") y estado inicial "Recibido" (Status "open" en el backend) ]</em>
+  <img src="assets/Chapter-8/US37-Moveo.PNG" alt="MoveoFront" width="80%"><br><br>
 </p>
 
 **HU38 – Categoría predefinida al reportar una incidencia**
 Ruta: `/support/tickets` · Componente: `support-ticket-form.vue` (campo <code>Category</code>: technical, billing, general, rental_issue, damage)
 <p align="center">
-  <em>[ Insertar captura: formulario de ticket con el dropdown de categorías desplegado ]</em>
+  <img src="assets/Chapter-8/US38-Moveo.png" alt="MoveoFront" width="80%"><br><br>
 </p>
 
 **HU39 – Descripciones accesibles en imágenes de vehículos**
 Ruta: `/rental/browse` y `/rental/vehicles/:id` · Componentes: `vehicle-item.vue`, `vehicle-detail-content.vue`
 <p align="center">
-  <em>[ Insertar captura: inspector de elementos mostrando el atributo <code>alt</code> descriptivo en la imagen de un vehículo ]</em>
+  <img src="assets/Chapter-8/US39-Moveo.png" alt="MoveoFront" width="80%"><br><br>
 </p>
 
-**TS05 – Instrumentación de eventos de analítica**
-Cobertura: flujos de reserva (`/rental/browse`, `/rental/vehicles/:id`) y soporte (`/support/tickets`)
-<p align="center">
-  <em>[ Insertar captura: panel de analítica mostrando los eventos del Tracking Plan (8.2.8) registrados ]</em>
-</p>
-
-> _Nota: reemplazar los marcadores por las capturas reales de la aplicación web desplegada._
 
 ##### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
 
 Para la fase de experimentación, el equipo priorizó una estrategia **mobile-first mediante web responsive (PWA)** en lugar de una aplicación nativa independiente. Esta decisión responde a los hallazgos de las entrevistas del producto As-Is, donde los usuarios —especialmente los propietarios— gestionan su actividad casi por completo desde el celular y valoran no instalar aplicaciones adicionales. De este modo, las mejoras experimentales (botón fijo de reservar, acción visible en cards, resumen de cancelación, seguimiento de tickets, etc.) se validaron directamente en dispositivos móviles a través del navegador, sobre el mismo despliegue del Frontend.
 
 <p align="center">
-  <em>[ Insertar captura móvil (≈375px): <code>/rental/vehicles/:id</code> con el botón "Reservar" fijo en vista responsive ]</em><br><br>
-  <em>[ Insertar captura móvil (≈375px): <code>/support/tickets</code> con el dropdown de categorías y el número de seguimiento del ticket en pantalla de celular ]</em>
+  <img src="assets/Chapter-8/Moveo-Mobile1.PNG" alt="MoveoFront" width="80%"><br><br>
+  <img src="assets/Chapter-8/Moveo-Mobile2.PNG" alt="MoveoFront" width="80%"><br><br>
 </p>
-
-> _Nota: reemplazar los marcadores por las capturas reales en resolución móvil. En caso de implementarse una aplicación nativa en iteraciones futuras, documentar aquí su evidencia._
 
 ##### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
 
@@ -4625,8 +4618,7 @@ Durante el Sprint 4 de experimentación, el equipo mantuvo el enfoque colaborati
 A continuación, se presentan las capturas de los analíticos de colaboración y el registro de commits extraídos de GitHub para el Sprint de experimentación:
 
 <p align="center">
-  <em>[ Insertar captura: registro de commits del Sprint 4 ]</em><br><br>
-  <em>[ Insertar captura: gráfico de contribuciones (Insights de GitHub) ]</em>
+  <img src="assets/Chapter-8/Contributions.PNG" alt="Swagger" width="80%"><br><br>
 </p>
 
 #### 8.3.4. To-Be Validation Interviews
@@ -4909,12 +4901,6 @@ Enlace encuesta: https://docs.google.com/forms/d/e/1FAIpQLSflrC7ERxr2JTRtT2nr2ZG
 * Arquitectura DDD(Domain Driven Design). (2021, junio 21). Sergio Tapia. https://sergiotapia.net/arquitectura-ddddomain-driven-design/
 
 
-* de Javier, V. M. C. (s/f). DDD y arquitectura Onion, todo lo que necesitas saber. Paradigmadigital.com. Recuperado el 29 de abril de 2024 de https://www.paradigmadigital.com/techbiz/domain-driven-design-y-arquitectura-onion/
-
-
-* Arquitectura DDD(Domain Driven Design). (2021, junio 21). Sergio Tapia. https://sergiotapia.net/arquitectura-ddddomain-driven-design/
-
-
 # Anexos
 
 ## Enlace Organización: https://github.com/UPC-1ASI0732-2610-17821-PointFlavor
@@ -4923,6 +4909,18 @@ Enlace encuesta: https://docs.google.com/forms/d/e/1FAIpQLSflrC7ERxr2JTRtT2nr2ZG
 ## Repositorios Github
 
 - **Enlace Repositorio Project Report:**  https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/MOVEO-Report/tree/develop <br>
+
+- **Enlace Repositorio Landing Page:** https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/MOVEO-Landing-Page <br>
+
+- **Enlace Repositorio Frontend Web Application (Vue + Vite):** https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/MOVEO-Frontend <br>
+
+- **Enlace Repositorio Backend Web Service (RESTful API - .NET):** https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/MOVEO-Backend <br>
+
+- **URL de Despliegue (Landing Page):** https://upc-1asi0732-2610-17821-pointflavor.github.io/MOVEO-Landing-Page/ <br>
+
+- **URL de Despliegue (Frontend Web Application):** https://moveo-frontend.vercel.app <br>
+
+- **URL de Documentación (Swagger API):** https://moveo-backend-production.up.railway.app/swagger/index.html <br>
 
 - Link del formulario segmento propietarios: https://forms.gle/uyVSkqSiuiKx1nb69 <br>
 
