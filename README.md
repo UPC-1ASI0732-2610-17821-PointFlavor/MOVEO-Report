@@ -1812,7 +1812,7 @@ Los wireframes representan la estructura básica y funcional de la landing page 
 ### 4.3.2. Landing Page Mock-up
 
 > ** Enlace al diseño final en Figma:**  
-> https://www.figma.com/design/lRjIRg3YuUVRpVKoibbAKt/Moveo-Landing-Mockup?node-id=0-1&t=xZb8804mKmhW8bFn-1
+> https://www.figma.com/design/JCgS0FsRQH1cDtJ1FkeWuZ/MOVEO?node-id=0-1&t=4ws5TAukXrjL9hsQ-1
 
 Los mock-ups son la versión visual final de la landing page, con colores, tipografías, imágenes reales y microinteracciones definidas. Representan la identidad de marca y la experiencia estética que el usuario final verá.
 
@@ -4924,12 +4924,13 @@ Enlace encuesta: https://docs.google.com/forms/d/e/1FAIpQLSflrC7ERxr2JTRtT2nr2ZG
 
 - Link del formulario segmento propietarios: https://forms.gle/uyVSkqSiuiKx1nb69 <br>
 
-- Link del formulario segmento Inquilinos: https://forms.gle/kz3BdxPoZHKNgqUg9
-Link del To-Be Scenario Mapping: https://miro.com/app/board/uXjVJHk66ZY=/?share_link_id=390494907497 <br>
+- Link del formulario segmento Inquilinos: https://forms.gle/kz3BdxPoZHKNgqUg9 <br>
 
-- Link del diseño final en figma: https://www.figma.com/design/lRjIRg3YuUVRpVKoibbAKt/Moveo-Landing-Mockup?node-id=0-1&t=xZb8804mKmhW8bFn-1 <br>
+- Link del To-Be Scenario Mapping: https://miro.com/app/board/uXjVJHk66ZY=/?share_link_id=390494907497 <br>
 
-- Link del prototipo interactivo en figma: https://www.figma.com/proto/c6kJu6j0YZv51u6Ml2kypY/Moveo-Landing-Mockup?node-id=1-2&p=f&t=oOjM7PCRDBGHla3t-1&scaling=scale-down&content-scaling=fixed&page- <br>
+- Link del diseño final en figma: https://www.figma.com/design/JCgS0FsRQH1cDtJ1FkeWuZ/MOVEO?node-id=0-1&t=4ws5TAukXrjL9hsQ-1 <br>
+
+- Link del prototipo interactivo en figma: https://www.figma.com/proto/c6kJu6j0YZv51u6Ml2kypY/Moveo-Landing-Mockup?node-id=1-2&p=f&t=oOjM7PCRDBGHla3t-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4006%3A1560 <br>
 
 
 ---
