@@ -5242,11 +5242,7 @@ Esta matriz refleja un análisis profundo de los impactos éticos y sociales de 
 
 - **URL de Documentación (Swagger API):** https://moveo-backend-production.up.railway.app/swagger/index.html <br>
 
-- Link del formulario segmento propietarios: https://forms.gle/uyVSkqSiuiKx1nb69 <br>
-
-- Link del formulario segmento Inquilinos: https://forms.gle/kz3BdxPoZHKNgqUg9 <br>
-
-- Link del To-Be Scenario Mapping: https://miro.com/app/board/uXjVJHk66ZY=/?share_link_id=390494907497 <br>
+- Link del formulario: [https://forms.gle/uyVSkqSiuiKx1nb69](https://docs.google.com/forms/d/e/1FAIpQLSflrC7ERxr2JTRtT2nr2ZGu-e2Lrd9_4WItOXWjiSh1AI-6bg/viewform?usp=dialog) <br>
 
 - Link del diseño final en figma: https://www.figma.com/design/JCgS0FsRQH1cDtJ1FkeWuZ/MOVEO?node-id=0-1&t=4ws5TAukXrjL9hsQ-1 <br>
 
