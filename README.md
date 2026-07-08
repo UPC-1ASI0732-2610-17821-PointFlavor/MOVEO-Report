@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" width="150"></img><br><br>
+    <img src="htTB1s://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" width="150"></img><br><br>
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br><br>
     <strong>Ingeniería de Software</strong><br><br>
     <strong>Ciclo 202610</strong><br><br>
@@ -45,7 +45,7 @@
 </table>
 
 <p align="center">
-    <br><strong>Abril 2026</strong>
+    <br><strong>Julio 2026</strong>
 </p>
 
 ---
@@ -111,43 +111,43 @@
       <td>Redacción de las Conclusiones y Recomendaciones finales del proyecto para el cierre de la entrega del AV1.</td>
     </tr>
         <tr>
-      <td>2.1 (TP)</td>
+      <td>2.1 (TB1)</td>
       <td>11/05/2026</td>
       <td>Goñe Araccata, Esther Abigail</td>
       <td>Desarrollo y documentación de la sección 5.2.3. Implemented Frontend-Web Application Evidence, incluyendo evidencias de las vistas principales, navegación y funcionalidades implementadas en la aplicación web.</td>
     </tr>
     <tr>
-      <td>2.2 (TP)</td>
+      <td>2.2 (TB1)</td>
       <td>11/05/2026</td>
       <td>Hancco Poma, Keyner Iván <br> Santiago Peña, Andreow Jomark</td>
       <td>Incorporación de la sección 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence, agregando evidencias de endpoints implementados, ejecución del backend y pruebas de consumo de la API.</td>
     </tr>
     <tr>
-      <td>2.3 (TP)</td>
+      <td>2.3 (TB1)</td>
       <td>12/05/2026</td>
       <td>Goñe Araccata, Esther Abigail <br> Hancco Poma, Keyner Iván <br>Santiago Peña, Andreow Jomark <br> Sulca Silva, Melisa Geraldine <br> Tumi Oliden, Manuel Ignacio</td>
       <td>Elaboración de la sección 6.1. Testing Suites & Validation, definiendo el enfoque general de validación, criterios de prueba y relación con los requerimientos del sistema.</td>
     </tr>
     <tr>
-      <td>2.4 (TP)</td>
+      <td>2.4 (TB1)</td>
       <td>12/05/2026</td>
       <td>Goñe Araccata, Esther Abigail <br> Hancco Poma, Keyner Iván <br>Santiago Peña, Andreow Jomark <br> Sulca Silva, Melisa Geraldine <br> Tumi Oliden, Manuel Ignacio</td>
       <td>Desarrollo de la sección 6.1.1. Core Entities Unit Tests, documentando las pruebas unitarias aplicadas a las entidades principales del dominio.</td>
     </tr>
     <tr>
-      <td>2.5 (TP)</td>
+      <td>2.5 (TB1)</td>
       <td>12/05/2026</td>
       <td>Goñe Araccata, Esther Abigail <br> Hancco Poma, Keyner Iván <br>Santiago Peña, Andreow Jomark <br> Sulca Silva, Melisa Geraldine <br> Tumi Oliden, Manuel Ignacio</td>
       <td>Desarrollo de la sección 6.1.2. Core Integration Tests, registrando pruebas de integración entre frontend, backend, base de datos y servicios principales.</td>
     </tr>
     <tr>
-      <td>2.6 (TP)</td>
+      <td>2.6 (TB1)</td>
       <td>12/05/2026</td>
       <td>Sulca Silva, Melisa Geraldine</td>
       <td>Desarrollo de la sección 6.1.3. Core Behavior-Driven Development, incorporando escenarios BDD basados en historias de usuario y criterios de aceptación del proyecto. </td>
     </tr>
     <tr>
-      <td>2.7 (TP)</td>
+      <td>2.7 (TB1)</td>
       <td>11/05/2026</td>
       <td>Tumi Oliden, Manuel Ignacio</td>
       <td>Desarrollo de la sección 6.1.3. Core Behavior-Driven Development, incorporando escenarios BDD basados en historias de usuario y criterios de aceptación del proyecto.</td>
@@ -171,37 +171,37 @@
       <td>Elaboración de la sección 6.4.1. Auditoría realizada, incluyendo la información del grupo auditado, el cronograma y el contenido de la auditoría de experiencias de usuario.</td>
     </tr>
     <tr>
-      <td>3.3 (AV3)</td>
+      <td>3.3 (TB2)</td>
       <td>16/06/2026</td>
       <td>Tumi Oliden, Manuel Ignacio</td>
       <td>Elaboración de la sección 6.4.2. Auditoría recibida, incluyendo la información del grupo auditor, el cronograma, el contenido de la auditoría y el resumen de modificaciones para subsanar los hallazgos.</td>
     </tr>
     <tr>
-      <td>3.4 (AV3)</td>
+      <td>3.4 (TB2)</td>
       <td>17/06/2026</td>
       <td>Goñe Araccata, Esther Abigail</td>
       <td>Elaboración del capítulo VII: DevOps Practices, desarrollando las secciones 7.1. Continuous Integration y 7.2. Continuous Delivery, junto con sus herramientas, prácticas y componentes de pipeline.</td>
     </tr>
     <tr>
-      <td>3.5 (AV3)</td>
+      <td>3.5 (TB2)</td>
       <td>17/06/2026</td>
       <td>Hancco Poma, Keyner Iván</td>
       <td>Desarrollo de las secciones 7.3. Continuous Deployment y 7.4. Continuous Monitoring, incorporando herramientas, prácticas, componentes de despliegue en producción, monitoreo, alertas y notificaciones.</td>
     </tr>
     <tr>
-      <td>3.6 (AV3)</td>
+      <td>3.6 (TB2)</td>
       <td>17/06/2026</td>
       <td>Sulca Silva, Melisa Geraldine</td>
       <td>Elaboración de la sección 8.1. Experiment Planning y parte de la sección 8.2. Experiment Design, incluyendo As-Is Summary, supuestos, brechas de conocimiento, ideas, claims, preguntas listas para experimentación, backlog de preguntas, experiment cards, hipótesis y métricas de negocio del dominio.</td>
     </tr>
     <tr>
-      <td>3.7 (AV3)</td>
+      <td>3.7 (TB2)</td>
       <td>17/06/2026</td>
       <td>Santiago Peña, Andreow Jomark</td>
       <td>Desarrollo de las secciones 8.2.3 a 8.3.2, incorporando measures, conditions, scale calculations, methods selection, objetivos de analítica, KPIs, plan de tracking web y mobile, To-Be User Stories y To-Be Product Backlog.</td>
     </tr>
     <tr>
-      <td>3.8 (AV3)</td>
+      <td>3.8 (TB2)</td>
       <td>04/07/2026</td>
       <td>Tumi Oliden, Manuel Ignacio</td>
       <td>Desarrollo de las secciones 8.3.3 (Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle: To-Be Sprint Backlog, evidencias de Landing Page, Frontend-Web, Native-Mobile y RESTful API, y Team Collaboration Insights) y 8.3.4 (To-Be Validation Interviews: diseño y registro de entrevistas).</td>
@@ -213,7 +213,7 @@
 
 # Project Report Collaboration Insights
 
-Repositorio donde se encuentra el **Project Report**: [https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/MOVEO-Report.git](https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/MOVEO-Report.git)
+Repositorio donde se encuentra el **Project Report**: [htTB1s://github.com/UPC-1ASI0732-2610-17821-PointFlavor/MOVEO-Report.git](htTB1s://github.com/UPC-1ASI0732-2610-17821-PointFlavor/MOVEO-Report.git)
 
 Utilizamos Google Docs como herramienta colaborativa para redactar el informe y luego trasladamos la información al archivo README.md de nuestro repositorio. 
 
@@ -221,10 +221,10 @@ A continuación, se adjuntan las evidencias del trabajo colaborativo, incluyendo
 
 <p align="center">
     <strong>Registro de Commits del Equipo</strong><br><br>
-    <img src="https://i.imgur.com/PsemYlE.png" alt="Evidencia de Commits 1" width="80%"><br><br>
-    <img src="https://i.imgur.com/iw9qoA8.png" alt="Evidencia de Commits 2" width="80%"><br><br>
+    <img src="htTB1s://i.imgur.com/PsemYlE.png" alt="Evidencia de Commits 1" width="80%"><br><br>
+    <img src="htTB1s://i.imgur.com/iw9qoA8.png" alt="Evidencia de Commits 2" width="80%"><br><br>
     <strong>Gráfico de Contribuciones</strong><br><br>
-    <img src="https://i.imgur.com/CDxDBnU.png" alt="Gráfico de Insights" width="80%">
+    <img src="htTB1s://i.imgur.com/CDxDBnU.png" alt="Gráfico de Insights" width="80%">
 </p>
 
 ---
@@ -451,58 +451,256 @@ A continuación, se adjuntan las evidencias del trabajo colaborativo, incluyendo
       - [8.3.4. To-Be Validation Interviews](#834-to-be-validation-interviews)
         - [8.3.4.1. Diseño de Entrevistas](#8341-diseño-de-entrevistas)
         - [8.3.4.2. Registro de Entrevistas](#8342-registro-de-entrevistas)
+	 - [8.4. Experiment Aftermath & Analysis](#84-experiment-aftermath-analysis)
+      - [8.4.1. Analysis and Interpretation of Results](#841-analyisis-interpretation-results)
+      - [8.4.2. Re-scored and Re-prioritized Question Backlog](#842-rescored-reprioritized-question-backlog)
+	- [8.5. Continuous Learning](#85-continous-learning)
+      - [8.5.1. Shareback Session Artifacts: Learning Workflow](#851-shareback-session-artiffacts)
+	- [8.6. To-Be Software Platform Pre-launch](#86-tobe-software-platform-prelaunch)
+      - [8.6.1. About-the-Product Intro Video](#861-about-the-product-intro-video)
+- [Matriz de Evaluación Etica y de Impacto](#matriz-impacto)
 - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+- [Video About The Team](#video-about-the-team)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
-  - [Enlace Organización: https://github.com/UPC-1ASI0732-2610-17821-PointFlavor](#enlace-organización-httpsgithubcomupc-1asi0732-2610-17821-pointflavor)
+  - [Enlace Organización: htTB1s://github.com/UPC-1ASI0732-2610-17821-PointFlavor](#enlace-organización-htTB1sgithubcomupc-1asi0732-2610-17821-pointflavor)
   - [Repositorios Github](#repositorios-github)
 
 # Student Outcome
-
-El curso aporta al cumplimiento del criterio ABET: **ABET – EAC - Student Outcome 7:** **Aprendizaje Continuo y Autónomo**
-
-**Criterio:** *La capacidad de adquirir y aplicar nuevos conocimientos según sea necesario, utilizando estrategias de aprendizaje apropiadas.*
-
-En el cuadro siguiente se detallan las actividades llevadas a cabo y las conclusiones formuladas por el equipo, las cuales sirven como evidencia del logro alcanzado en el ABET – EAC - Student Outcome.
-
-<table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse; width:100%; font-size:11px;">
-  <thead>
-    <tr>
-      <th>Criterio específico</th>
-      <th>Nombre</th>
-      <th>Conclusiones</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.</td>
-      <td>
-        <strong>Goñe Araccata, Esther Abigail</strong><br> <strong><em>AV1:</em></strong> Investigué y apliqué conceptos de la metodología Lean UX y Needfinding para estructurar adecuadamente el perfil de la startup y entender a la competencia. <br> <strong><em>TP:</em></strong> Mejoré mis conocimientos en despliegue tras realizar el deploy de la Landing Page y del Frontend de Moveo. Además, apliqué pruebas unitarias con NUnit, de esta forma fortalezco mis competencias de validación de la lógica de negocio y aseguramiento de calidad del software. <br> <strong><em>AV2:</em></strong> Actualicé mis conocimientos de pruebas estáticas y verificación del software durante la implementación de la sección de Static Testing  Verification. Además, apliqué conceptos sobre análisis estático de código, estándares de codificación, convenciones de programación, calidad de código, etc. También, reforcé mis competencias en prácticas DevOps al desarrollar la sección Continuous Integration y Continuous Delivery, identificando herramientas, prácticas y componentes del pipeline de build, test y despliegue. <br><br>
-        <strong>Hancco Poma, Keyner Iván</strong><br> <strong><em>AV1:</em></strong> Adquirí conocimientos técnicos en herramientas de diseño de interfaces y principios de experiencia de usuario (UX/UI) para la aplicación web y landing page. <br> <strong><em>TP:</em></strong> Profundicé mis conocimientos de despliegue de backend de una app web, realizando el deploy del backend de este proyecto.  Esto me permitió aplicar conceptos relacionados con configuración de entornos, conexión con servicios, publicación de API RESTful y validación del funcionamiento del servidor en un entorno desplegado. <br> <strong><em>AV2:</em></strong> Profundicé mis conocimientos en Continuous Deployment y Continuous Monitoring. Esta actividad me permitió aplicar conceptos de despliegue automatizado, supervisión del estado de los servicios, detección de fallos y comunicación de incidentes. <br><br>
-        <strong>Santiago Peña, Andreow Jomark</strong><br> <strong><em>AV1:</em></strong> Me instruí autónomamente en la lectura de documentación técnica de frameworks para implementar el Frontend-Web y estructurar la documentación de la API RESTful. <br> <strong><em>TP:</em></strong> Aumenté mis conocimientos en pruebas unitarias aplicadas al backend mediante NUnit, desarrollando pruebas de dos bounded context de Moveo. Esto me permitió validar servicios, reglas de negocio y entidades principales, contribuyendo a mejorar la confiabilidad del producto. <br> <strong><em>AV2:</em></strong> Actualicé mis conocimientos en validación del producto mediante el diseño y registro de entrevistas, así como la evaluación del sistema según heurísticas de usabilidad. Además, reforcé mis competencias en Experiment-Driven Development al trabajar medidas, condiciones, cálculos de escala, selección de métodos, objetivos de analítica, KPIs, métricas, plan de tracking web, To-Be User Stories y To-Be Product Backlog. <br><br>
-        <strong>Sulca Silva, Melisa Geraldine</strong><br> <strong><em>AV1:</em></strong> Aprendí técnicas cualitativas para ejecutar entrevistas a usuarios y adquirió destrezas en despliegue web y edición audiovisual para evidenciar el producto. <br> <strong><em>TP:</em></strong> Actualice mis conocimientos en pruebas de comportamiento mediante la elaboración de archivos features con Gherkin, definiendo escenarios bajo la estructura Given, When y Then. Esto me permitió documentar el comportamiento esperado del sistema y vincular los requerimientos funcionales con criterios de aceptación verificables. <br> <strong><em>AV2:</em></strong> Fortalecí mis conocimientos en Experiment-Driven Development mediante la planificación de experimentos, el análisis del estado actual del producto, la identificación de supuestos, brechas de conocimiento, ideas y claims. Asimismo, desarrollé preguntas preparadas para experimentación, backlog de preguntas, experiment cards, hipótesis y métricas de negocio del dominio. <br><br>
-        <strong>Tumi Oliden, Manuel Ignacio</strong><br> <strong><em>AV1:</em></strong> Profundicé en prácticas de gestión de requerimientos ágiles, redactando eficazmente Historias de Usuario, Mapas de Impacto y gestionando el Product Backlog. <br> <strong><em>TP:</em></strong> Apliqué conocimientos de pruebas unitarias con NUnit en un bounded context del backend y realicé pruebas del frontend mediante Selenium. Esto me permitió validar tanto la lógica interna del sistema como los flujos principales de la aplicación desde la perspectiva del usuario final. <br><strong><em>AV2:</em></strong> Actualicé mis conocimientos en auditoría de experiencia de usuario mediante el desarrollo de la auditoría realizada y recibida. Documenté información del grupo auditado, cronograma, contenido de auditoría, información del grupo auditor, hallazgos recibidos y resumen de modificaciones para subsanar observaciones. 
-      </td>
-      <td><strong>AV1:</strong> Durante esta primera entrega, el equipo ha demostrado una alta capacidad para investigar de forma autónoma. Desde metodologías de ideación (Lean UX) y diseño de interfaces (UX/UI), hasta la aplicación de tecnologías de programación (RESTful APIs) e investigación de mercado (entrevistas). Cada integrante adquirió el conocimiento técnico o metodológico exacto que su módulo requería y lo aplicó con éxito en el desarrollo del producto de software. <br> <strong>TP:</strong> En esta entrega, el equipo fortaleció sus competencias técnicas mediante actividades de despliegue, pruebas unitarias, pruebas de comportamiento y pruebas de sistema. Se aplicaron conocimientos de Vue.js, .NET, C#, NUnit, Gherkin y Selenium, permitiendo validar funcionalidades del frontend, backend y flujos principales de Moveo. Como resultado, el equipo evidenció mejora en la capacidad para construir, desplegar y verificar soluciones de software con criterios de calidad. <br> <strong>AV2:</strong> En esta entrega, el equipo Moveo consolidó nuevos conocimientos vinculados a verificación, validación, DevOps y desarrollo guiado por experimentos. Se aplicaron prácticas de análisis estático, revisión de código, entrevistas de validación, evaluaciones heurísticas, auditorías UX, integración continua, entrega continua, despliegue continuo, monitoreo, alertas, notificaciones, planificación experimental, definición de hipótesis, métricas, KPIs y actualización del backlog. Como resultado, Moveo evolucionó de un producto implementado hacia una solución mejor controlada.
+El curso aporta al cumplimiento del criterio ABET: **ABET – EAC - Student Outcome 7:** 
+**Aprendizaje Continuo y Autónomo**
+**Criterio:** *La capacidad de adquirir y aplicar nuevos conocimientos según sea 
+necesario, utilizando estrategias de aprendizaje apropiadas.*
+En el cuadro siguiente se detallan las actividades llevadas a cabo y las conclusiones 
+formuladas por el equipo, las cuales sirven como evidencia del logro alcanzado en el 
+ABET – EAC - Student Outcome.
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse; 
+width:100%; font-size:11px;">
+ <thead>
+ <tr>
+ <th>Criterio específico</th>
+ <th>Nombre</th>
+ <th>Conclusiones</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td>Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y 
+en especial para su proyecto en soluciones de software.</td>
+ <td>
+ <strong>Goñe Araccata, Esther Abigail</strong><br> 
+<strong><em>AV1:</em></strong> Investigué y apliqué conceptos de la metodología 
+Lean UX y Needfinding para estructurar adecuadamente el perfil de la startup y entender a 
+la competencia. <br> <strong><em>TB1:</em></strong> Mejoré mis conocimientos en 
+despliegue tras realizar el deploy de la Landing Page y del Frontend de Moveo. Además, 
+apliqué pruebas unitarias con NUnit, de esta forma fortalezco mis competencias de 
+validación de la lógica de negocio y aseguramiento de calidad del software. <br> 
+<strong><em>AV2:</em></strong> Actualicé mis conocimientos de pruebas estáticas y 
+verificación del software durante la implementación de la sección de Static Testing 
+Verification. Además, apliqué conceptos sobre análisis estático de código, estándares de 
+codificación, convenciones de programación, calidad de código, etc. También, reforcé mis competencias en prácticas DevOps al desarrollar la sección Continuous Integration y 
+Continuous Delivery, identificando herramientas, prácticas y componentes del pipeline 
+de build, test y despliegue. <br> <strong><em>TB2:</em></strong> Actualicé mis 
+conocimientos en análisis e interpretación de resultados experimentales, aplicando 
+técnicas de re-priorización del Question Backlog dentro del marco de Continuous 
+Learning. Asimismo, profundicé en el diseño de artefactos de Shareback Session, 
+reforzando mis competencias para comunicar hallazgos y aprendizajes al equipo de forma 
+estructurada. <br><br>
+ <strong>Hancco Poma, Keyner Iván</strong><br> <strong><em>AV1:</em></strong> 
+Adquirí conocimientos técnicos en herramientas de diseño de interfaces y principios de 
+experiencia de usuario (UX/UI) para la aplicación web y landing page. <br> 
+<strong><em>TB1:</em></strong> Profundicé mis conocimientos de despliegue de 
+backend de una app web, realizando el deploy del backend de este proyecto. Esto me 
+permitió aplicar conceptos relacionados con configuración de entornos, conexión con 
+servicios, publicación de API RESTful y validación del funcionamiento del servidor en un 
+entorno desplegado. <br> <strong><em>AV2:</em></strong> Profundicé mis 
+conocimientos en Continuous Deployment y Continuous Monitoring. Esta actividad me 
+permitió aplicar conceptos de despliegue automatizado, supervisión del estado de los 
+servicios, detección de fallos y comunicación de incidentes. <br> 
+<strong><em>TB2:</em></strong> Adquirí conocimientos en producción audiovisual y 
+storytelling de producto, aplicando técnicas de guionado, edición y comunicación visual 
+para elaborar el About-the-Product Intro Video como parte de la estrategia de Pre-launch 
+de la plataforma. <br><br>
+ <strong>Santiago Peña, Andreow Jomark</strong><br> 
+<strong><em>AV1:</em></strong> Me instruí autónomamente en la lectura de 
+documentación técnica de frameworks para implementar el Frontend-Web y estructurar 
+la documentación de la API RESTful. <br> <strong><em>TB1:</em></strong> Aumenté 
+mis conocimientos en pruebas unitarias aplicadas al backend mediante NUnit, 
+desarrollando pruebas de dos bounded context de Moveo. Esto me permitió validar 
+servicios, reglas de negocio y entidades principales, contribuyendo a mejorar la 
+confiabilidad del producto. <br> <strong><em>AV2:</em></strong> Actualicé mis 
+conocimientos en validación del producto mediante el diseño y registro de entrevistas, así 
+como la evaluación del sistema según heurísticas de usabilidad. Además, reforcé mis 
+competencias en Experiment-Driven Development al trabajar medidas, condiciones, 
+cálculos de escala, selección de métodos, objetivos de analítica, KPIs, métricas, plan de 
+tracking web, To-Be User Stories y To-Be Product Backlog. <br> 
+<strong><em>TB2:</em></strong> Profundicé mis conocimientos en diseño de 
+entrevistas de validación, aplicando técnicas de formulación de preguntas y registro 
+estructurado de hallazgos para contrastar las hipótesis del producto con usuarios reales. 
+<br><br>
+ <strong>Sulca Silva, Melisa Geraldine</strong><br> 
+<strong><em>AV1:</em></strong> Aprendí técnicas cualitativas para ejecutar entrevistas 
+a usuarios y adquirió destrezas en despliegue web y edición audiovisual para evidenciar el 
+producto. <br> <strong><em>TB1:</em></strong> Actualice mis conocimientos en 
+pruebas de comportamiento mediante la elaboración de archivos features con Gherkin, 
+definiendo escenarios bajo la estructura Given, When y Then. Esto me permitió 
+documentar el comportamiento esperado del sistema y vincular los requerimientos 
+funcionales con criterios de aceptación verificables. <br> 
+<strong><em>AV2:</em></strong> Fortalecí mis conocimientos en Experiment-Driven 
+Development mediante la planificación de experimentos, el análisis del estado actual del 
+producto, la identificación de supuestos, brechas de conocimiento, ideas y claims. 
+Asimismo, desarrollé preguntas preparadas para experimentación, backlog de preguntas, 
+experiment cards, hipótesis y métricas de negocio del dominio. <br> 
+<strong><em>TB2:</em></strong> Actualicé mis conocimientos en la formulación de 
+To-Be User Stories y en la estructuración del To-Be Product Backlog, aplicando conceptos 
+de Experiment-Driven Development mediante la definición de hipótesis, experiment cards 
+y métricas de negocio orientadas a validar el producto. <br><br>
+ <strong>Tumi Oliden, Manuel Ignacio</strong><br> 
+<strong><em>AV1:</em></strong> Profundicé en prácticas de gestión de requerimientos 
+ágiles, redactando eficazmente Historias de Usuario, Mapas de Impacto y gestionando el 
+Product Backlog. <br> <strong><em>TB1:</em></strong> Apliqué conocimientos de 
+pruebas unitarias con NUnit en un bounded context del backend y realicé pruebas del 
+frontend mediante Selenium. Esto me permitió validar tanto la lógica interna del sistema como los flujos principales de la aplicación desde la perspectiva del usuario final. 
+<br><strong><em>AV2:</em></strong> Actualicé mis conocimientos en auditoría de 
+experiencia de usuario mediante el desarrollo de la auditoría realizada y recibida. 
+Documenté información del grupo auditado, cronograma, contenido de auditoría, 
+información del grupo auditor, hallazgos recibidos y resumen de modificaciones para 
+subsanar observaciones. <br> <strong><em>TB2:</em></strong> Profundicé mis 
+conocimientos en gestión ágil mediante la elaboración de los Sprint Backlogs, reforzando 
+además mis competencias técnicas de implementación en Landing Page, Frontend, Mobile 
+y RESTful API. Asimismo, documenté los Team Collaboration Insights, fortaleciendo mi 
+comprensión sobre la dinámica de trabajo colaborativo del equipo.
+ </td>
+ <td><strong>AV1:</strong> Durante esta primera entrega, el equipo ha demostrado 
+una alta capacidad para investigar de forma autónoma. Desde metodologías de ideación 
+(Lean UX) y diseño de interfaces (UX/UI), hasta la aplicación de tecnologías de 
+programación (RESTful APIs) e investigación de mercado (entrevistas). Cada integrante 
+adquirió el conocimiento técnico o metodológico exacto que su módulo requería y lo 
+aplicó con éxito en el desarrollo del producto de software. <br> <strong>TB1:</strong> En 
+esta entrega, el equipo fortaleció sus competencias técnicas mediante actividades de 
+despliegue, pruebas unitarias, pruebas de comportamiento y pruebas de sistema. Se 
+aplicaron conocimientos de Vue.js, .NET, C#, NUnit, Gherkin y Selenium, permitiendo 
+validar funcionalidades del frontend, backend y flujos principales de Moveo. Como 
+resultado, el equipo evidenció mejora en la capacidad para construir, desplegar y verificar 
+soluciones de software con criterios de calidad. <br> <strong>AV2:</strong> En esta 
+entrega, el equipo Moveo consolidó nuevos conocimientos vinculados a verificación, 
+validación, DevOps y desarrollo guiado por experimentos. Se aplicaron prácticas de 
+análisis estático, revisión de código, entrevistas de validación, evaluaciones heurísticas, 
+auditorías UX, integración continua, entrega continua, despliegue continuo, monitoreo, 
+alertas, notificaciones, planificación experimental, definición de hipótesis, métricas, KPIs 
+y actualización del backlog. Como resultado, Moveo evolucionó de un producto 
+implementado hacia una solución mejor controlada. <br> <strong>TB2:</strong> En 
+esta entrega, el equipo Moveo actualizó conocimientos orientados al cierre del ciclo de 
+producto: análisis e interpretación de resultados, re-priorización del backlog de 
+preguntas, diseño de entrevistas de validación, formulación de historias de usuario 
+To-Be, gestión ágil mediante Sprint Backlogs, implementación multiplataforma 
+(Landing Page, Frontend, Mobile y RESTful API) y producción audiovisual orientada al 
+Pre-launch. Como resultado, el equipo demostró la capacidad de integrar conocimientos 
+técnicos, metodológicos y comunicacionales para preparar a Moveo de cara a su 
+lanzamiento.
 </td>
-    </tr>
-    <tr>
-      <td>Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.</td>
-      <td>
-        <strong>Goñe Araccata, Esther Abigail</strong><br> <strong><em>AV1:</em></strong> Reconocí que el comportamiento del mercado cambia, por lo que es necesario aprender constantemente nuevas formas de identificar oportunidades de negocio. <br> <strong><em>TP:</em></strong>  Reconocí que el despliegue de aplicaciones y la ejecución de pruebas unitarias requieren aprendizaje constante. La experiencia adquirida con el deploy del frontend, landing page y pruebas con NUnit fortalece mi visión sobre la importancia de validar el producto antes de su entrega. <br> <strong><em>AV2:</em></strong> Reconocí que la calidad del software no depende únicamente de programar funcionalidades, sino también de revisar continuamente el código, aplicar estándares, detectar vulnerabilidades y automatizar procesos mediante integración y entrega continua. <br><br>
-        <strong>Hancco Poma, Keyner Iván</strong><br> <strong><em>AV1:</em></strong> Entendí que las tendencias visuales y patrones de interacción en software evolucionan rápidamente, haciendo obligatoria la actualización en diseño web.<br> <strong><em>TP:</em></strong> Reconocí que el despliegue del backend exige una actualización permanente en tecnologías de servidor, configuración de entornos, conexión a bases de datos y publicación de APIs. Esta experiencia me permitió comprender que el desarrollo backend requiere asegurar su correcto funcionamiento en ambientes reales. <br> <strong><em>AV2:</em></strong> Reconocí que el despliegue y monitoreo continuo requieren aprendizaje permanente, ya que los entornos productivos pueden presentar fallos, errores de disponibilidad o problemas de rendimiento que deben ser detectados oportunamente.  <br><br>
-        <strong>Santiago Peña, Andreow Jomark</strong><br> <strong><em>AV1:</em></strong> Comprende que los frameworks de desarrollo y arquitecturas de backend cambian año a año, siendo vital cultivar una cultura de autoformación técnica. <br> <strong><em>TP:</em></strong>  Reconocí que las pruebas de backend y frontend requieren aprendizaje permanente, ya que herramientas como NUnit permiten comprobar la calidad del sistema desde diferentes niveles. Esta experiencia reforzó la importancia de validar tanto la lógica del sistema como la interacción real del usuario con la aplicación. <br> <strong><em>AV2:</em></strong> Reconocí que la validación con usuarios y la experimentación requieren aprendizaje continuo, debido a que las necesidades de los usuarios pueden cambiar y las decisiones del producto deben sustentarse en datos reales. <br><br>
-        <strong>Sulca Silva, Melisa Geraldine</strong><br> <strong><em>AV1:</em></strong> Valora la necesidad de explorar de manera continua nuevas técnicas de validación con clientes y métodos de marketing para presentar soluciones de valor. <br> <strong><em>TP:</em></strong> Reconocí la importancia de aprender continuamente herramientas de testing, ya que los features con Gherkin permiten expresar los requisitos de forma clara y verificable. Esta práctica fortaleció mi comprensión sobre la relación entre historias de usuario, criterios de aceptación y pruebas funcionales. <br> <strong><em>AV2:</em></strong> Reconocí que el desarrollo guiado por experimentos exige una actualización constante en métodos de investigación, formulación de hipótesis y análisis de métricas. <br><br>
-        <strong>Tumi Oliden, Manuel Ignacio</strong><br> <strong><em>AV1:</em></strong> Asimila que la correcta planificación de software exige adaptar permanentemente los marcos de trabajo ágiles a escenarios del mundo real. <br> <strong><em>TP:</em></strong> Reconocí que las pruebas de backend y frontend requieren aprendizaje permanente, ya que herramientas como NUnit y Selenium permiten comprobar la calidad del sistema desde diferentes niveles. Esta experiencia reforzó la importancia de validar tanto la lógica del sistema como la interacción real del usuario con la aplicación. <br> <strong><em>AV2:</em></strong> Reconocí que la experiencia de usuario debe evaluarse de manera continua, ya que los problemas de usabilidad pueden aparecer incluso cuando una funcionalidad ya está implementada.
-      </td>
-      <td><strong>AV1:</strong> El equipo concluye unánimemente que en la industria del desarrollo de software es indispensable cultivar una mentalidad de aprendizaje permanente (Lifelong Learning). La acelerada evolución de los estándares de desarrollo, las herramientas de diseño, las metodologías ágiles de gestión y las expectativas de los usuarios exigen que los ingenieros de software actualicen sus habilidades técnicas y blandas de manera constante para mantener su competitividad profesional. <br>
-       <strong>TP:</strong> El equipo concluye que la verificación y validación del software es una práctica esencial dentro del desarrollo profesional. La aplicación de pruebas unitarias, pruebas de integración, pruebas funcionales y pruebas de sistema permitió comprender que la calidad del producto no depende únicamente de implementar funcionalidades, sino también de comprobar que estas funcionen correctamente, sean mantenibles y respondan a las necesidades reales de los usuarios. <br>
-       <strong>AV2:</strong> En esta entrega, el equipo reafirmó que el aprendizaje permanente es indispensable para el desarrollo profesional en ingeniería de software. El AV2 permitió comprender que construir una solución digital no termina con la implementación, sino que requiere verificar el código, validar la experiencia del usuario, automatizar procesos DevOps, monitorear el comportamiento del sistema y experimentar con base en métricas.
-      </td>
-    </tr>
-  </tbody>
+ </tr>
+ <tr>
+ <td>Reconoce la necesidad del aprendizaje permanente para el desempeño 
+profesional y el desarrollo de proyectos en soluciones de software.</td>
+ <td>
+ <strong>Goñe Araccata, Esther Abigail</strong><br> 
+<strong><em>AV1:</em></strong> Reconocí que el comportamiento del mercado 
+cambia, por lo que es necesario aprender constantemente nuevas formas de identificar 
+oportunidades de negocio. <br> <strong><em>TB1:</em></strong> Reconocí que el 
+despliegue de aplicaciones y la ejecución de pruebas unitarias requieren aprendizaje 
+constante. La experiencia adquirida con el deploy del frontend, landing page y pruebas 
+con NUnit fortalece mi visión sobre la importancia de validar el producto antes de su 
+entrega. <br> <strong><em>AV2:</em></strong> Reconocí que la calidad del software no 
+depende únicamente de programar funcionalidades, sino también de revisar 
+continuamente el código, aplicar estándares, detectar vulnerabilidades y automatizar 
+procesos mediante integración y entrega continua. <br> <strong><em>TB2:</em></strong> 
+Reconocí que el análisis de resultados y la comunicación de hallazgos requieren 
+aprendizaje continuo, pues las conclusiones deben reinterpretarse constantemente 
+conforme cambian las prioridades del producto y evoluciona el entendimiento del 
+equipo sobre el negocio. <br><br> <strong>Hancco Poma, Keyner Iván</strong><br> <strong><em>AV1:</em></strong> 
+Entendí que las tendencias visuales y patrones de interacción en software evolucionan 
+rápidamente, haciendo obligatoria la actualización en diseño web.<br> 
+<strong><em>TB1:</em></strong> Reconocí que el despliegue del backend exige una 
+actualización permanente en tecnologías de servidor, configuración de entornos, 
+conexión a bases de datos y publicación de APIs. Esta experiencia me permitió 
+comprender que el desarrollo backend requiere asegurar su correcto funcionamiento en 
+ambientes reales. <br> <strong><em>AV2:</em></strong> Reconocí que el despliegue y 
+monitoreo continuo requieren aprendizaje permanente, ya que los entornos productivos 
+pueden presentar fallos, errores de disponibilidad o problemas de rendimiento que deben 
+ser detectados oportunamente. <br> <strong><em>TB2:</em></strong> Reconocí que 
+comunicar el valor de un producto de software exige actualización constante en 
+herramientas de producción audiovisual y en técnicas de marketing digital orientadas al 
+lanzamiento, ya que la forma de presentar un producto es tan relevante como su 
+funcionamiento técnico. <br><br>
+ <strong>Santiago Peña, Andreow Jomark</strong><br> 
+<strong><em>AV1:</em></strong> Comprende que los frameworks de desarrollo y 
+arquitecturas de backend cambian año a año, siendo vital cultivar una cultura de 
+autoformación técnica. <br> <strong><em>TB1:</em></strong> Reconocí que las 
+pruebas de backend y frontend requieren aprendizaje permanente, ya que herramientas 
+como NUnit permiten comprobar la calidad del sistema desde diferentes niveles. Esta 
+experiencia reforzó la importancia de validar tanto la lógica del sistema como la 
+interacción real del usuario con la aplicación. <br> <strong><em>AV2:</em></strong> 
+Reconocí que la validación con usuarios y la experimentación requieren aprendizaje 
+continuo, debido a que las necesidades de los usuarios pueden cambiar y las decisiones 
+del producto deben sustentarse en datos reales. <br> <strong><em>TB2:</em></strong> 
+Reconocí que la validación mediante entrevistas requiere aprendizaje permanente, pues 
+las técnicas de indagación y el diseño de preguntas deben adaptarse a los objetivos del 
+proyecto y al perfil de los entrevistados en cada etapa del producto. <br><br>
+ <strong>Sulca Silva, Melisa Geraldine</strong><br> 
+<strong><em>AV1:</em></strong> Valora la necesidad de explorar de manera continua 
+nuevas técnicas de validación con clientes y métodos de marketing para presentar 
+soluciones de valor. <br> <strong><em>TB1:</em></strong> Reconocí la importancia de 
+aprender continuamente herramientas de testing, ya que los features con Gherkin 
+permiten expresar los requisitos de forma clara y verificable. Esta práctica fortaleció mi 
+comprensión sobre la relación entre historias de usuario, criterios de aceptación y 
+pruebas funcionales. <br> <strong><em>AV2:</em></strong> Reconocí que el desarrollo 
+guiado por experimentos exige una actualización constante en métodos de investigación, 
+formulación de hipótesis y análisis de métricas. <br> <strong><em>TB2:</em></strong> 
+Reconocí que la definición de hipótesis, experiment cards y métricas de negocio exige 
+actualización constante, dado que la evolución del producto obliga a redefinir las 
+historias de usuario y el backlog conforme surgen nuevos hallazgos. <br><br>
+ <strong>Tumi Oliden, Manuel Ignacio</strong><br> 
+<strong><em>AV1:</em></strong> Asimila que la correcta planificación de software exige 
+adaptar permanentemente los marcos de trabajo ágiles a escenarios del mundo real. <br> 
+<strong><em>TB1:</em></strong> Reconocí que las pruebas de backend y frontend 
+requieren aprendizaje permanente, ya que herramientas como NUnit y Selenium permiten 
+comprobar la calidad del sistema desde diferentes niveles. Esta experiencia reforzó la 
+importancia de validar tanto la lógica del sistema como la interacción real del usuario con 
+la aplicación. <br> <strong><em>AV2:</em></strong> Reconocí que la experiencia de 
+usuario debe evaluarse de manera continua, ya que los problemas de usabilidad pueden 
+aparecer incluso cuando una funcionalidad ya está implementada. <br> 
+<strong><em>TB2:</em></strong> Reconocí que la gestión ágil de sprints y la 
+implementación multiplataforma requieren aprendizaje permanente, ya que cada entrega 
+exige adaptar la planificación y las prácticas de colaboración del equipo a nuevas 
+necesidades técnicas.
+ </td>
+ <td><strong>AV1:</strong> El equipo concluye unánimemente que en la industria del 
+desarrollo de software es indispensable cultivar una mentalidad de aprendizaje permanente (Lifelong Learning). La acelerada evolución de los estándares de desarrollo, 
+las herramientas de diseño, las metodologías ágiles de gestión y las expectativas de los 
+usuarios exigen que los ingenieros de software actualicen sus habilidades técnicas y 
+blandas de manera constante para mantener su competitividad profesional. <br>
+ <strong>TB1:</strong> El equipo concluye que la verificación y validación del software 
+es una práctica esencial dentro del desarrollo profesional. La aplicación de pruebas 
+unitarias, pruebas de integración, pruebas funcionales y pruebas de sistema permitió 
+comprender que la calidad del producto no depende únicamente de implementar 
+funcionalidades, sino también de comprobar que estas funcionen correctamente, sean 
+mantenibles y respondan a las necesidades reales de los usuarios. <br>
+ <strong>AV2:</strong> En esta entrega, el equipo reafirmó que el aprendizaje 
+permanente es indispensable para el desarrollo profesional en ingeniería de software. El 
+AV2 permitió comprender que construir una solución digital no termina con la 
+implementación, sino que requiere verificar el código, validar la experiencia del usuario, 
+automatizar procesos DevOps, monitorear el comportamiento del sistema y experimentar 
+con base en métricas. <br> <strong>TB2:</strong> En esta entrega, el equipo Moveo 
+reconoció que la preparación de un producto para su lanzamiento exige aprendizaje 
+permanente en dimensiones diversas: análisis de resultados, validación con usuarios, 
+gestión ágil, implementación técnica y comunicación audiovisual. El equipo concluyó 
+que el cierre de un ciclo de producto no es un punto final, sino una nueva oportunidad de 
+aprendizaje que retroalimenta futuras iteraciones del desarrollo de software.
+</td>
+ </tr>
+ </tbody>
 </table>
-
 ---
 
 # Part I: As-Is Software Project
@@ -526,7 +724,7 @@ En esta sección se presentan los integrantes de la startup, detallando sus perf
   <tbody>
     <tr>
       <td style="text-align:center; width:20%;">
-        <img src="https://i.imgur.com/5WOw0mc.png" alt="Goñe Araccata">
+        <img src="htTB1s://i.imgur.com/5WOw0mc.png" alt="Goñe Araccata">
       </td>
       <td style="vertical-align:top;">
         <strong>Goñe Araccata, Esther Abigail</strong><br>
@@ -535,7 +733,7 @@ En esta sección se presentan los integrantes de la startup, detallando sus perf
     </tr>
     <tr>
       <td style="text-align:center; width:20%;">
-        <img src="https://i.imgur.com/SPZjKS9.jpeg" alt="Hancco Poma">
+        <img src="htTB1s://i.imgur.com/SPZjKS9.jpeg" alt="Hancco Poma">
       </td>
       <td style="vertical-align:top;">
         <strong>Hancco Poma, Keyner Iván</strong><br>
@@ -544,7 +742,7 @@ En esta sección se presentan los integrantes de la startup, detallando sus perf
     </tr>
     <tr>
       <td style="text-align:center; width:20%;">
-        <img src="https://i.imgur.com/ygvXHmA.png" alt="Santiago Peña">
+        <img src="htTB1s://i.imgur.com/ygvXHmA.png" alt="Santiago Peña">
       </td>
       <td style="vertical-align:top;">
         <strong>Santiago Peña, Andreow Jomark</strong><br>
@@ -553,7 +751,7 @@ En esta sección se presentan los integrantes de la startup, detallando sus perf
     </tr>
     <tr>
       <td style="text-align:center; width:20%;">
-        <img src="https://i.imgur.com/hvEXYuV.png" alt="Sulca Silva">
+        <img src="htTB1s://i.imgur.com/hvEXYuV.png" alt="Sulca Silva">
       </td>
       <td style="vertical-align:top;">
         <strong>Sulca Silva, Melisa Geraldine</strong><br>
@@ -562,7 +760,7 @@ En esta sección se presentan los integrantes de la startup, detallando sus perf
     </tr>
     <tr>
       <td style="text-align:center; width:20%;">
-        <img src="https://i.imgur.com/9lvkuR3.png" alt="Tumi Oliden">
+        <img src="htTB1s://i.imgur.com/9lvkuR3.png" alt="Tumi Oliden">
       </td>
       <td style="vertical-align:top;">
         <strong>Tumi Oliden, Manuel Ignacio</strong><br>
@@ -674,7 +872,7 @@ Este trabajo metodológico permitió no solo establecer un marco claro de experi
 
 ##### 1.2.2.4. Lean UX Canvas
 
-![](https://imgur.com/K0AAiIY.jpg)
+![](htTB1s://imgur.com/K0AAiIY.jpg)
 
 ### 1.3. Segmentos objetivo
 
@@ -720,21 +918,21 @@ Previo al desarrollo de la aplicación, hicimos una búsqueda de las opciones qu
   Esta plataforma se especializa en el alquiler de coches en Perú. Ofrece una amplia gama de vehículos y opciones de alquiler, así como información sobre destinos turísticos en Perú. 
   La plataforma también permite a los usuarios comparar precios y reservar coches en línea.
   <div style="text-align: center;">
- <img src="https://imgur.com/8pKKGjQ.png" width=310  alt="">
+ <img src="htTB1s://imgur.com/8pKKGjQ.png" width=310  alt="">
   </div>
 
 - **Kayak:**
   Kayak es una de las plataformas de búsqueda de viajes más grandes del mundo. Permite a los usuarios buscar y comparar precios de vuelos, hoteles y alquiler de coches en una sola plataforma. 
   Kayak también ofrece herramientas para planificar viajes, como alertas de precios y recomendaciones personalizadas.
   <div style="text-align: center;">
-<img src="https://imgur.com/91Ht7sB.png" width=310  alt="">
+<img src="htTB1s://imgur.com/91Ht7sB.png" width=310  alt="">
   </div>
 
 - **Budget Car Rental Peru:**
   A diferencia de Peru Rent A Car, Budget Car Rental es una empresa internacional que ofrece servicios de alquiler de coches en Perú. 
   La plataforma permite a los usuarios buscar y comparar precios de coches de alquiler en diferentes ubicaciones y reservar en línea. Budget Car Rental también ofrece opciones de alquiler a largo plazo y programas de fidelización.
   <div style="text-align: center;">
-<img src="https://imgur.com/EHx7qQH.png" width=310  alt="">
+<img src="htTB1s://imgur.com/EHx7qQH.png" width=310  alt="">
   </div>
 
 #### 2.1.1. Análisis competitivo
@@ -824,9 +1022,9 @@ En esta sección se presenta la investigación cualitativa realizada mediante en
 
 Esta sección incluye preguntas demográficas, conductuales y psicográficas dirigidas a cada segmento, con el fin de construir arquetipos (personas) basados en evidencia real. Se aplican buenas prácticas de diseño de entrevistas: preguntas abiertas, no sugestivas, orden lógico (de lo general a lo específico) y enfoque en comportamientos reales, no hipotéticos.
 
-- Formulario segmento propietarios: https://forms.gle/uyVSkqSiuiKx1nb69
+- Formulario segmento propietarios: htTB1s://forms.gle/uyVSkqSiuiKx1nb69
 
-- Formulario segmento Inquilinos: https://forms.gle/kz3BdxPoZHKNgqUg9
+- Formulario segmento Inquilinos: htTB1s://forms.gle/kz3BdxPoZHKNgqUg9
 
 #### **Segmento 1: Propietarios**
 
@@ -899,7 +1097,7 @@ Esta sección incluye preguntas demográficas, conductuales y psicográficas dir
 #### 2.2.2. Registro de entrevistas
 En este apartado se presenta una documentación detallada de cada entrevista realizada con los distintos segmentos objetivo identificados. Se ha recopilado información relevante que incluye el perfil del entrevistado, las respuestas proporcionadas durante la conversación, así como los hallazgos más destacados obtenidos a partir de sus opiniones y experiencias.
 
-Video de todas las entrevistas: http://bit.ly/46qhU6i
+Video de todas las entrevistas: htTB1://bit.ly/46qhU6i
 > *(Los timings individuales se indican en cada entrevista)*
 
 #### **Segmento 1: Propietarios de autos**
@@ -911,7 +1109,7 @@ Video de todas las entrevistas: http://bit.ly/46qhU6i
 **Dispositivos utilizados:** iPhone (exclusivo)  
 **Navegador habitual:** Safari  
 **Imagen de entrevista:**  
-![Entrevistado-1](https://imgur.com/v1LgBRQ.png)
+![Entrevistado-1](htTB1s://imgur.com/v1LgBRQ.png)
 **Instante en el que inicia:** 0:00   
 **Duración de la entrevista:** 2:42 min  
 
@@ -927,7 +1125,7 @@ Alisa es una joven emprendedora, estudiante y digital native que alquila su Toyo
 **Tecnología y Canales de Interacción:**  
 - **Todo desde el celular.** No usa laptop ni para subir fotos.  
 - Gestiona con **Google Sheets** mientras camina — multitasking extremo.  
-- Publica en **TikTok (con reels), Instagram DM y Facebook Marketplace**.  
+- Publica en **TikTok (con reels), Instagram DM y Facebook MarkeTB1lace**.  
 - Navegador: **Safari**, porque “ya viene en el iPhone y no quiero instalar nada extra”.  
 - Odia las plataformas actuales: “Nula confianza. He tenido gente que paga con foto falsa”.  
 - Sueña con un sistema de reseñas entre dueños: “Si alguien dice ‘dejó el auto sucio’, lo bloqueo antes de cerrar”.  
@@ -946,7 +1144,7 @@ Alisa es una joven emprendedora, estudiante y digital native que alquila su Toyo
 **Dispositivos utilizados:** iPhone (exclusivo), Laptop solo para entretenimiento  
 **Navegador habitual:** Safari  
 **Imagen de entrevista:**  
-![Entrevistado-2](https://imgur.com/xMLBOO5.png)
+![Entrevistado-2](htTB1s://imgur.com/xMLBOO5.png)
 **Instante en el que inicia:** 2:43   
 **Fin de la entrevista:** 5:31 min  
 
@@ -962,7 +1160,7 @@ Mathías es un emprendedor digital nativo. Maneja su negocio de alquiler (Hyunda
 **Tecnología y Canales de Interacción:**  
 - **Todo desde el celular.** Laptop = Netflix. Punto.  
 - Usa **Google Sheets** con una hoja por vehículo (entrada, salida, cliente, estado, km, foto).  
-- Publica en **TikTok, Instagram Reels y Facebook Marketplace** — este último lo considera “zona de estafadores”.  
+- Publica en **TikTok, Instagram Reels y Facebook MarkeTB1lace** — este último lo considera “zona de estafadores”.  
 - Navegador: **Safari**. No instala Chrome a propósito: “Safari es más rápido en iOS”.  
 - Desconfía totalmente de las plataformas actuales: ha recibido screenshots falsos de transferencias y licencias recortadas. Ahora pide videos diciendo la ciudad natal.  
 - Sueña con un **“dashboard tipo Spotify”** que le muestre disponibilidad, ingresos, vencimientos de seguro y alertas de lavado.  
@@ -982,7 +1180,7 @@ Mathías es un emprendedor digital nativo. Maneja su negocio de alquiler (Hyunda
 **Dispositivos utilizados:** iPhone (principal), Laptop ocasional  
 **Navegador habitual:** Safari (móvil), Chrome (laptop)  
 **Imagen de entrevista:**  
-![Entrevistado-3](https://imgur.com/lTyVf67.png)
+![Entrevistado-3](htTB1s://imgur.com/lTyVf67.png)
 **Instante en el que inicia:** 7:15  
 **Duración de la entrevista:** 3:37 min  
 
@@ -993,11 +1191,11 @@ Mauricio es un joven organizado, pragmático y con mentalidad de emprendedor. Al
 **Personalidad y Comportamiento:**  
 - Muy cauteloso con nuevos clientes. Valora la transparencia y la comunicación previa.  
 - No es tecnófilo extremo, pero sí funcional: usa lo que le sirve sin complicaciones.  
-- Influenciado por experiencias negativas de otros dueños en Facebook Marketplace.
+- Influenciado por experiencias negativas de otros dueños en Facebook MarkeTB1lace.
 
 **Tecnología y Canales de Interacción:**  
 - Gestiona todo desde su **iPhone**. Solo usa la laptop para imprimir contratos o revisar su **Google Sheets**.  
-- Publica en **Facebook Marketplace** y grupos de alquiler de Lima. No confía en apps formales por las altas comisiones.  
+- Publica en **Facebook MarkeTB1lace** y grupos de alquiler de Lima. No confía en apps formales por las altas comisiones.  
 - Usa **Safari** en móvil y **Chrome** en laptop. No tiene preferencia técnica, solo practicidad.  
 - Le gustaría una plataforma que verifique identidad y muestre reseñas cruzadas entre dueños.  
 - Considera **imprescindible** poder calificar a los clientes: “Es mi historial de riesgo personal”.
@@ -1018,7 +1216,7 @@ Mauricio es un joven organizado, pragmático y con mentalidad de emprendedor. Al
 **Dispositivos utilizados:** iPhone  
 **Navegador habitual:** Safari  
 **Imagen de entrevista:**  
-![Entrevistado-4](https://imgur.com/SxeK738.png)
+![Entrevistado-4](htTB1s://imgur.com/SxeK738.png)
 **Instante en el que inicia:** 10:53  
 **Duración de la entrevista:** 3:42 min  
 
@@ -1053,7 +1251,7 @@ Claudia es una joven realista, precavida y enfocada en la justicia. Alquila auto
 **Dispositivos utilizados:** iPhone (exclusivo)  
 **Navegador habitual:** Safari  
 **Imagen de entrevista:**  
-![Entrevistado-5](https://imgur.com/zw4UwvC.png)
+![Entrevistado-5](htTB1s://imgur.com/zw4UwvC.png)
 **Instante en el que inicia:** 22:07  
 **Duración de la entrevista:** 4:40 min  
 
@@ -1068,7 +1266,7 @@ Angie es una comunicadora nata: crítica, exigente y con un radar fino para dete
 
 **Tecnología y Canales de Interacción:**  
 - **Todo desde el iPhone.** Laptop = tareas universitarias.  
-- Busca en **Facebook Marketplace, TikTok (por los Reels)** y recomendaciones. Jamás usa apps corporativas.  
+- Busca en **Facebook MarkeTB1lace, TikTok (por los Reels)** y recomendaciones. Jamás usa apps corporativas.  
 - Navegador: **Safari**, por coherencia con su ecosistema Apple.  
 - Desconfía profundamente: “Hay perfiles con fotos de modelos… ya no confío sin video del dueño”.  
 - Las **reseñas son su sistema de defensa**: “Si alguien dice ‘robó depósito’, lo evito. Si dice ‘dio agua y auto limpio’, ¡ahí sí!”.  
@@ -1095,10 +1293,10 @@ En esta sección se realiza un análisis detallado por cada uno de los dos segme
 | Característica | Valor | Fuente |
 |----------------|-------|--------|
 | **Edad promedio** | 22.7 años | Entrevistas |
-| **Dispositivo más usado** | Smartphone (Android: 28.6%, iPhone: 21.4%) | Encuesta (n=14) |
+| **Dispositivo más usado** | SmarTB1hone (Android: 28.6%, iPhone: 21.4%) | Encuesta (n=14) |
 | **Navegador preferido** | Chrome (28.6%), Safari (14.3%) | Encuesta (n=14) |
-| **Apps para gestionar servicios** | WhatsApp (28.6%), Facebook Marketplace (14.3%) | Encuesta (n=14) |
-| **Canales para publicar autos** | Facebook Marketplace (57.1%), TikTok/Instagram (42.9%) | Entrevistas + Encuesta |
+| **Apps para gestionar servicios** | WhatsApp (28.6%), Facebook MarkeTB1lace (14.3%) | Encuesta (n=14) |
+| **Canales para publicar autos** | Facebook MarkeTB1lace (57.1%), TikTok/Instagram (42.9%) | Entrevistas + Encuesta |
 | **Marcas confiables** | Toyota (57.1%), Kia (50%), Hyundai (28.6%) | Encuesta (n=14) |
 | **Personalidad al prestar algo valioso** | "Confío si hay garantías" (28.6%), "Muy precavido/a" (21.4%) | Encuesta (n=14) |
 
@@ -1106,9 +1304,9 @@ En esta sección se realiza un análisis detallado por cada uno de los dos segme
 
 | Característica | Descripción | Relación con Entrevistas |
 |----------------|-------------|--------------------------|
-| **Uso predominante de smartphones** | 50% de los propietarios usan Android o iPhone como dispositivo principal. | Confirma que todas las entrevistas (Alisa, Mathías, Mauricio) manejan todo desde su celular. |
+| **Uso predominante de smarTB1hones** | 50% de los propietarios usan Android o iPhone como dispositivo principal. | Confirma que todas las entrevistas (Alisa, Mathías, Mauricio) manejan todo desde su celular. |
 | **Gestión manual de inventario** | 100% usan Excel o hojas de cálculo manuales. | Alisa usa Google Sheets; Mathías también; Mauricio lo menciona explícitamente. |
-| **Publicación en redes sociales** | 71.4% publican en Facebook Marketplace, TikTok o Instagram. | Todas las entrevistas confirmaron uso de estas plataformas. |
+| **Publicación en redes sociales** | 71.4% publican en Facebook MarkeTB1lace, TikTok o Instagram. | Todas las entrevistas confirmaron uso de estas plataformas. |
 | **Requisitos mínimos de validación** | DNI, licencia vigente, selfie con documento, depósito (S/500). | Mencionado por todos los entrevistados. |
 | **Desconfianza en plataformas actuales** | 71.4% no confían en apps formales por altas comisiones o falsificaciones. | Mathías menciona screenshots falsos; Alisa dice “nula confianza”. |
 | **Interés en sistema de reputación compartida** | 100% valoran ver reseñas de otros dueños sobre clientes. | “Sería mi salvación” (Mathías), “mi salvavidas” (Alisa). |
@@ -1133,17 +1331,17 @@ En esta sección se realiza un análisis detallado por cada uno de los dos segme
 
 ### Estadisticas:
 
-![Estadistica-1a](https://imgur.com/GVALfYx.png)
+![Estadistica-1a](htTB1s://imgur.com/GVALfYx.png)
 
-![Estadistica-1b](https://imgur.com/r2mqGeh.png)
+![Estadistica-1b](htTB1s://imgur.com/r2mqGeh.png)
 
-![Estadistica-1c](https://imgur.com/p4m5eKp.png)
+![Estadistica-1c](htTB1s://imgur.com/p4m5eKp.png)
 
-![Estadistica-1d](https://imgur.com/j7yka1l.png)
+![Estadistica-1d](htTB1s://imgur.com/j7yka1l.png)
 
-![Estadistica-1e](https://imgur.com/B9IsA1P.png)
+![Estadistica-1e](htTB1s://imgur.com/B9IsA1P.png)
 
-![Estadistica-1f](https://imgur.com/upEuUMH.png)
+![Estadistica-1f](htTB1s://imgur.com/upEuUMH.png)
 
 ---
 
@@ -1154,7 +1352,7 @@ En esta sección se realiza un análisis detallado por cada uno de los dos segme
 | Característica | Valor | Fuente |
 |----------------|-------|--------|
 | **Edad promedio** | 21.3 años | Entrevistas |
-| **Dispositivo más usado** | Smartphone (iPhone: 25%, Android: 37.5%) | Encuesta (n=8) |
+| **Dispositivo más usado** | SmarTB1hone (iPhone: 25%, Android: 37.5%) | Encuesta (n=8) |
 | **Canal de búsqueda de autos** | Redes sociales (TikTok, Instagram: 25%), Grupos de Facebook (25%) | Encuesta (n=8) |
 | **App preferida para reservar** | Instagram (37.5%), Chrome (37.5%) | Encuesta (n=8) |
 | **Estilo de consumo** | Investigador/a (25%), Ahorrativo/a (25%), Influenciable (25%) | Encuesta (n=8) |
@@ -1165,8 +1363,8 @@ En esta sección se realiza un análisis detallado por cada uno de los dos segme
 
 | Característica | Descripción | Relación con Entrevistas |
 |----------------|-------------|--------------------------|
-| **Búsqueda en redes sociales** | 50% busca en TikTok, Instagram o grupos de Facebook. | Claudia y Angie confirman uso de TikTok y Facebook Marketplace. |
-| **Uso de dispositivos móviles** | 62.5% usa smartphone como dispositivo principal. | Todas las entrevistas (Claudia, Gabriel, Angie) usan celular exclusivamente. |
+| **Búsqueda en redes sociales** | 50% busca en TikTok, Instagram o grupos de Facebook. | Claudia y Angie confirman uso de TikTok y Facebook MarkeTB1lace. |
+| **Uso de dispositivos móviles** | 62.5% usa smarTB1hone como dispositivo principal. | Todas las entrevistas (Claudia, Gabriel, Angie) usan celular exclusivamente. |
 | **Dependencia de recomendaciones** | 25% se guía por recomendaciones de amigos. | Gabriel dice: “prefiero recomendaciones familiares”; Claudia: “por amigas”. |
 | **Rechazo a tarjetas de crédito** | 50% no tiene tarjeta y odia que la exijan. | Angie y Claudia mencionan explícitamente este problema. |
 | **Deseo de reservar con anticipación** | 100% considera útil reservar desde una app. | Angie: “quiero certeza, no esperar horas”; Claudia: “me notifique si se cancela”. |
@@ -1192,17 +1390,17 @@ En esta sección se realiza un análisis detallado por cada uno de los dos segme
 
 ### Estadisticas:
 
-![Estadistica-2a](https://imgur.com/ji3Jj9X.png)
+![Estadistica-2a](htTB1s://imgur.com/ji3Jj9X.png)
 
-![Estadistica-2b](https://imgur.com/6Ar8kq1.png)
+![Estadistica-2b](htTB1s://imgur.com/6Ar8kq1.png)
 
-![Estadistica-2c](https://imgur.com/N6qxCj9.png)
+![Estadistica-2c](htTB1s://imgur.com/N6qxCj9.png)
 
-![Estadistica-2d](https://imgur.com/B1qzKsE.png)
+![Estadistica-2d](htTB1s://imgur.com/B1qzKsE.png)
 
-![Estadistica-2e](https://imgur.com/hJxeHNb.png)
+![Estadistica-2e](htTB1s://imgur.com/hJxeHNb.png)
 
-![Estadistica-2f](https://imgur.com/PNGx46s.png)
+![Estadistica-2f](htTB1s://imgur.com/PNGx46s.png)
 
 
 
@@ -1213,7 +1411,7 @@ En esta sección se realiza un análisis detallado por cada uno de los dos segme
 | "Los propietarios necesitan una solución para gestionar múltiples autos." | Sí | 100% usan Excel manualmente; Mathías gestiona 3 autos. |
 | "Los inquilinos confían más en recomendaciones que en plataformas." | Sí | Gabriel y Claudia mencionan explícitamente que prefieren recomendaciones familiares. |
 | "Un sistema de reseñas entre usuarios aumentaría la confianza." | Sí | 100% de ambos segmentos valoran ver reseñas antes de alquilar. |
-| "Una app móvil será la mejor forma de interactuar." | Sí | 100% usan smartphone como dispositivo principal. |
+| "Una app móvil será la mejor forma de interactuar." | Sí | 100% usan smarTB1hone como dispositivo principal. |
 | "Los usuarios están dispuestos a pagar por una experiencia segura." | Sí | Propietarios hasta S/30/mes; inquilinos hasta S/15/mes. |
 
 ### Conclusión del Análisis
@@ -1237,7 +1435,7 @@ Para identificar las necesidades reales y prioritarias tanto de los **propietari
 Este proceso de *needfinding* permitió comprender en profundidad las motivaciones, puntos de dolor y expectativas de los usuarios, sentando las bases para el diseño de una plataforma centrada en el usuario, capaz de responder eficazmente a las demandas reales del mercado de alquiler de autos en Lima.
 
 > **Enlace para ver los User Personas en UXPressia:**  
-> https://drive.google.com/drive/folders/1gfPSZzYH1iOk98j_BjI5e1GNAR5Lxt6Q?usp=sharing
+> htTB1s://drive.google.com/drive/folders/1gfPSZzYH1iOk98j_BjI5e1GNAR5Lxt6Q?usp=sharing
 
 
 ### 2.3.1. User Persona
@@ -1250,7 +1448,7 @@ Estas herramientas ayudan a traducir datos reales en perfiles comprensibles y ac
 
 #### Persona 1: Propietario Emprendedor Digital
 
-![User-persona-1](https://imgur.com/zcDBtrG.png)
+![User-persona-1](htTB1s://imgur.com/zcDBtrG.png)
 
 **Nombre:** Roy Hsie  
 **Edad:** 24 años  
@@ -1282,7 +1480,7 @@ Estas herramientas ayudan a traducir datos reales en perfiles comprensibles y ac
 
 #### Persona 2: Inquilina Justiciera Digital
 
-![User-persona-2](https://imgur.com/5kPZO0O.png)
+![User-persona-2](htTB1s://imgur.com/5kPZO0O.png)
 
 **Nombre:** Gabriel Torres  
 **Edad:** 19 años  
@@ -1350,13 +1548,13 @@ La actividad se centró en dos segmentos clave:
 
 Segmento Objetivo 1: **Propietario de vehículos** 
 
-![journey map 2](https://imgur.com/KQpnHqr.png)
+![journey map 2](htTB1s://imgur.com/KQpnHqr.png)
 
 Se puede evidenciar el flujo de trabajo y captación de Roy para encontrar nuevos clientes, no es ideal y se encuentra frustrado con la poca seguridad que le ofrecen las plataformas gratuitas, por eso no las usa.
 
 Segmento Objetivo 2: **Inquilinos**
 
-![journey map 2](https://imgur.com/Lp7j1dd.png)
+![journey map 2](htTB1s://imgur.com/Lp7j1dd.png)
 
 Por su lado Gabriel se siente frustrado por la falta de opciones y la poca seguridad que le ofrecen las plataformas gratuitas, por ello una vez identifica dueños confiables, deja de utilizar dicha plataforma a menos que sea estrictamente necesario.
 
@@ -1369,23 +1567,23 @@ Como parte del proceso de diseño centrado en el usuario para **Moveo**, se elab
 
 Segmento 1: **Propietarios**
 
-![empathy map Gabriel](https://imgur.com/0Evcxvs.png)
+![empathy map Gabriel](htTB1s://imgur.com/0Evcxvs.png)
 
 Segmento 2: **Inquilinos**
 
-![empathy map Gabriel](https://imgur.com/a6JFPF1.png)
+![empathy map Gabriel](htTB1s://imgur.com/a6JFPF1.png)
 
 #### 2.3.5. As-is Scenario Mapping
 <u><strong>Segmento 1: Propietario (Roy)</strong></u>
 Roy quiere generar ingresos extra alquilando su auto, pero actualmente depende de grupos de Facebook, WhatsApp y recomendaciones informales para encontrar clientes. Publica fotos manualmente, responde mensajes de desconocidos y negocia precios o condiciones
 
-![As-is-roy](https://imgur.com/8Ib58hp.png)
+![As-is-roy](htTB1s://imgur.com/8Ib58hp.png)
 
 <u><strong>Segmento 2: Propietario (Gabriel) </strong></u>
 
-Gabriel necesita alquilar un auto de manera rápida y segura, pero actualmente busca opciones en Marketplace, redes sociales o contactos informales. Debe revisar publicaciones poco confiables, preguntar manualmente por disponibilidad y negociar directamente con propietarios desconocidos. 
+Gabriel necesita alquilar un auto de manera rápida y segura, pero actualmente busca opciones en MarkeTB1lace, redes sociales o contactos informales. Debe revisar publicaciones poco confiables, preguntar manualmente por disponibilidad y negociar directamente con propietarios desconocidos. 
 
-![As-is-roy](https://imgur.com/I7vM37p.png)
+![As-is-roy](htTB1s://imgur.com/I7vM37p.png)
 
 ## 2.4. Ubiquitous Language
 
@@ -1422,14 +1620,14 @@ Este mapa describe la experiencia ideal de dos usuarios clave en la plataforma:
  **Segmento 1: Propietario (Roy)**  
 Busca una forma segura y sencilla de ganar dinero extra alquilando su auto. Valora la verificación de identidad, la publicación guiada, el chat seguro dentro de la app, los contratos automáticos y los pagos sin contacto. Su motivación principal: confianza, simplicidad y profesionalismo.
 
-![Segmento-1](https://imgur.com/E5oS6IL.png)
+![Segmento-1](htTB1s://imgur.com/E5oS6IL.png)
 
  **Segmento 2: Inquilino (Gabriel)**  
 Necesita un auto rápido, confiable y sin riesgos. Confía en fotos verificadas, reseñas reales, historial del vehículo y procesos claros. Valora la reserva con un clic, el pago digital, las llaves virtuales y el soporte integrado. Su motivación: seguridad, ahorro de tiempo y tranquilidad.
 
-![Segmento-2](https://imgur.com/Fcc2HKB.png)
+![Segmento-2](htTB1s://imgur.com/Fcc2HKB.png)
 
-Miro con el To-Be: https://miro.com/app/board/uXjVJHk66ZY=/?share_link_id=390494907497
+Miro con el To-Be: htTB1s://miro.com/app/board/uXjVJHk66ZY=/?share_link_id=390494907497
 
 ## 3.2. User Stories
 
@@ -1521,7 +1719,7 @@ El Product Backlog está ordenado según el **valor para el negocio**, priorizan
 | 33     | TS04          | API de Aventuras                 | Como Developer, necesito gestionar aventuras vía API. | 8            |
 
 
-> **URL del Product Backlog público**: https://trello.com/b/VJ8IEYK1/moveo
+> **URL del Product Backlog público**: htTB1s://trello.com/b/VJ8IEYK1/moveo
 
 ## 3.4. Impact Mapping:
 
@@ -1537,7 +1735,7 @@ Deliverables: Las soluciones que la plataforma ofrece para provocar esos cambios
 
 User Stories: Las historias de usuario concretas que implementan cada deliverable, asegurando trazabilidad desde la estrategia hasta la funcionalidad
 
-![Impact-map](https://imgur.com/7ARrxmj.png)
+![Impact-map](htTB1s://imgur.com/7ARrxmj.png)
 
 
 # Capítulo IV: Product Design
@@ -1761,7 +1959,7 @@ Organizamos las secciones, permitiendo a los usuarios desplazarse sin dificultad
 ### 4.3.1. Landing Page Wireframe
 
 > ** Enlace al prototipo interactivo en Figma:**  
-> https://www.figma.com/proto/c6kJu6j0YZv51u6Ml2kypY/Moveo-Landing-Mockup?node-id=1-2&p=f&t=oOjM7PCRDBGHla3t-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4006%3A1560
+> htTB1s://www.figma.com/proto/c6kJu6j0YZv51u6Ml2kypY/Moveo-Landing-Mockup?node-id=1-2&p=f&t=oOjM7PCRDBGHla3t-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4006%3A1560
 
 Los wireframes representan la estructura básica y funcional de la landing page de **Moveo**, sin elementos visuales finales. Su objetivo es definir la jerarquía de contenido, los flujos de navegación y la disposición de componentes clave antes de pasar al diseño visual.
 
@@ -1812,7 +2010,7 @@ Los wireframes representan la estructura básica y funcional de la landing page 
 ### 4.3.2. Landing Page Mock-up
 
 > ** Enlace al diseño final en Figma:**  
-> https://www.figma.com/design/JCgS0FsRQH1cDtJ1FkeWuZ/MOVEO?node-id=0-1&t=4ws5TAukXrjL9hsQ-1
+> htTB1s://www.figma.com/design/JCgS0FsRQH1cDtJ1FkeWuZ/MOVEO?node-id=0-1&t=4ws5TAukXrjL9hsQ-1
 
 Los mock-ups son la versión visual final de la landing page, con colores, tipografías, imágenes reales y microinteracciones definidas. Representan la identidad de marca y la experiencia estética que el usuario final verá.
 
@@ -1900,7 +2098,7 @@ Los mock-ups son la versión visual final de la landing page, con colores, tipog
 *Prototipo interactivo de alta fidelidad. Permite simular la navegación real entre pantallas, probar transiciones, microinteracciones y flujos completos. Herramienta esencial para pruebas de usabilidad con usuarios reales antes del desarrollo.*
 
 > **Enlace al prototipo interactivo en Figma:**  
-> https://www.figma.com/proto/c6kJu6j0YZv51u6Ml2kypY/Moveo-Landing-Mockup?node-id=1-2&p=f&t=oOjM7PCRDBGHla3t-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4006%3A1560
+> htTB1s://www.figma.com/proto/c6kJu6j0YZv51u6Ml2kypY/Moveo-Landing-Mockup?node-id=1-2&p=f&t=oOjM7PCRDBGHla3t-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4006%3A1560
 
 ---
 
@@ -2003,21 +2201,21 @@ En esta sección, se explican los softwares utilziados para el desarrollo de nue
 
 |Nombre de Producto|Descripción|Propósito de Uso|Categoría|Ruta Descarga o Link|
 |---|---|---|---|---|
-| Vue 3                   | Framework progresivo de JavaScript para construir interfaces de usuario modernas y reactivas. Vue 3 introduce mejoras significativas en rendimiento, tamaño del bundle y reactividad con el sistema de reactividad basado en Proxy. Ideal para SPAs y aplicaciones escalables.                           | Nuestro propósito de uso es desarrollar interfaces frontend dinámicas, modulares y altamente interactivas, aprovechando la simplicidad de Vue, su ecosistema robusto (Vue Router, Pinia, Vite) y su integración fluida con herramientas modernas de desarrollo, permitiendo un ciclo de desarrollo ágil y mantenible. | Software Development    | https://vuejs.org/                            |
-| Microsoft .NET          | Plataforma de desarrollo gratuita, multiplataforma y de código abierto para construir aplicaciones web, móviles, de escritorio, microservicios y APIs. Compatible con Windows, Linux y macOS. Incluye bibliotecas, lenguajes y herramientas para todo el ciclo de vida del desarrollo.                  | Nuestro propósito de uso es construir servicios backend robustos, escalables y de alto rendimiento utilizando .NET 8 (o superior), aprovechando su soporte para APIs REST, gRPC, Entity Framework Core y su integración nativa con Azure, garantizando productividad y estabilidad en entornos empresariales.      | Software Development    | https://dotnet.microsoft.com/download         |
-| C#                      | Lenguaje de programación moderno, orientado a objetos y de tipado estático, desarrollado por Microsoft como parte de la plataforma .NET. Es conocido por su claridad, seguridad y potencia para construir desde aplicaciones simples hasta sistemas empresariales complejos.                            | Nuestro propósito de uso es implementar la lógica de negocio de nuestros servicios backend con C# 12 (o superior), aprovechando sus características avanzadas (record types, pattern matching, async/await) para escribir código limpio, mantenible y eficiente dentro del ecosistema .NET.                         | Software Development    | Incluido en .NET SDK: https://dotnet.microsoft.com/download |
-| JetBrains WebStorm      | IDE especializado en desarrollo web moderno, con soporte integral para JavaScript, TypeScript, Vue, HTML/CSS y herramientas de depuración, linting y refactorización inteligente.                                                                                                        | Nuestro propósito de uso es desarrollar interfaces frontend complejas con Vue 3 y TypeScript, aprovechando su autocompletado avanzado, navegación rápida, integración con terminal y debugging en tiempo real, sin necesidad de plugins adicionales.                                                              | Software Development    | https://www.jetbrains.com/webstorm/           |
-| Postman                 | Plataforma colaborativa para diseñar, probar, documentar y monitorear APIs. Ofrece colecciones, entornos, pruebas automáticas, mocks, documentación dinámica y soporte para MCP (Model Context Protocol) para IA.                                                                                          | Nuestro propósito de uso es validar endpoints de nuestros servicios .NET, crear y mantener documentación actualizada, compartir colecciones con el equipo, y automatizar pruebas de integración y regresión, eliminando la dependencia de herramientas externas.                                                  | Software Development    | https://www.postman.com/downloads/ \| https://identity.getpostman.com/login — Disponible como app de escritorio y SaaS. |
-| UXPressia               | Plataforma visual para crear mapas de experiencia del usuario (journey maps), personas y servicios, con plantillas profesionales, exportación a PDF/PPTX y vinculación con datos en tiempo real.                                                                                                           | Nuestro propósito de uso es comprender y comunicar de forma visual el recorrido del usuario, identificar puntos de dolor, alinear equipos no técnicos y fundamentar decisiones de diseño con evidencia centrada en el cliente.                                                                                       | Product UX/UI Design    | https://uxpressia.com/                        |
-| Lucidchart              | Plataforma de diagramación visual con soporte para IA, diagramas C4, arquitectura de sistemas, flujos de proceso, ERD, org charts y más. Permite colaboración en tiempo real e integración con Jira, Confluence, Notion, etc.                                                                                 | Nuestro propósito de uso es documentar y comunicar la arquitectura del sistema mediante diagramas claros, visuales y actualizables, facilitando la comprensión entre desarrolladores, testers y stakeholders no técnicos.                                                                                            | Product UX/UI Design    | https://www.lucidchart.com/                   |
-| Structurizr             | Herramienta basada en "diagramas como código" (Diagrams as Code) para modelar arquitecturas de software según el modelo C4. Usa DSL para definir elementos, relaciones y vistas, generando diagramas interactivos automáticamente.                                                                           | Nuestro propósito de uso es documentar nuestra arquitectura de manera sistemática, reproducible y mantenible, siguiendo el modelo C4, y generar automáticamente diagramas de contexto, contenedores, componentes y código, integrados con nuestro repositorio.                                                       | Software Documentation  | https://structurizr.com/                      |
-| JetBrains Toolbox App   | Aplicación centralizada para gestionar, actualizar y ejecutar múltiples IDEs de JetBrains (Rider, WebStorm, IntelliJ, etc.) en paralelo, con soporte para EAP, Canary, actualizaciones automáticas y apertura rápida de proyectos.                                                                          | Nuestro propósito de uso es administrar de forma unificada nuestras herramientas de desarrollo (Rider para .NET, WebStorm para frontend), mantener versiones estables y experimentales simultáneamente, y evitar instalaciones manuales o conflictos entre versiones.                                              | Software Development    | https://www.jetbrains.com/es-es/toolbox-app/ — Instala y gestiona Rider, WebStorm y otros IDEs de JetBrains. |
-| Git                     | Sistema de control de versiones distribuido creado por Linus Torvalds, fundamental para el seguimiento de cambios, colaboración en equipo y gestión de ramas en proyectos de software.                                                                                                                    | Nuestro propósito de uso es llevar un historial confiable de todos los cambios en el código, facilitar la colaboración entre desarrolladores, gestionar ramas de característica y corrección, y permitir el rollback seguro ante errores.                                                                          | Software Development    | https://git-scm.com/downloads — Se instala localmente; se usa junto con GitHub para colaboración remota. |
-| GitHub                  | Plataforma de desarrollo colaborativo basada en Git, que permite gestionar repositorios, realizar pull requests, revisiones de código, seguimiento de issues y alojar documentación. Esencial para workflows ágiles y CI/CD.                                                                               | Nuestro propósito de uso es centralizar el código, facilitar la revisión colaborativa, gestionar ramas de desarrollo y correción, y actuar como fuente única de verdad para el ciclo de vida del producto digital, sin usar GitHub Desktop.                                                                       | Software Development    | https://github.com/ — Plataforma SaaS. No se instala; se accede exclusivamente por web. |
-| MySQL                   | Sistema de gestión de bases de datos relacional (RDBMS) de código abierto, ampliamente utilizado en producción. Ofrece alta disponibilidad, seguridad y rendimiento para aplicaciones empresariales.                                                                                                       | Nuestro propósito de uso es almacenar, consultar y gestionar datos estructurados de forma confiable, escalable y segura, utilizando MySQL Server 8.0 como base de datos principal para servicios backend.                                                                                                            | Software Development    | https://www.mysql.com/ \| https://dev.mysql.com/downloads/installer/ — Se puede usar localmente (installer) o en la nube (MySQL HeatWave). |
-| MySQL Installer         | Asistente gráfico para instalar MySQL Server, MySQL Workbench y otros componentes en Windows. Único instalador oficial para MySQL 8.0 y versiones anteriores. A partir de MySQL 8.1, se recomienda usar MSI o Zip directamente.                                                                            | Nuestro propósito de uso es facilitar la instalación y configuración inicial de MySQL Server y herramientas asociadas (como Workbench) en entornos locales de desarrollo, garantizando una configuración correcta y consistente entre miembros del equipo.                                                              | Software Development    | https://dev.mysql.com/downloads/installer/ — Solo para MySQL 8.0 y versiones anteriores. Para nuevas versiones, usar MSI/ZIP. |
-| MySQL Workbench         | Herramienta visual de diseño, desarrollo y administración de bases de datos MySQL. Permite crear modelos E/R, ejecutar consultas SQL, gestionar usuarios y sincronizar esquemas.                                                                                                                          | Nuestro propósito de uso es diseñar y modificar el esquema de la base de datos de forma visual, generar scripts SQL, y ejecutar consultas de prueba y validación durante el desarrollo de servicios backend.                                                                                                        | Software Development    | Incluido en: https://dev.mysql.com/downloads/installer/ — No se instala por separado si ya se usa el instalador completo. |
-| Postman CLI / Newman    | Herramientas de línea de comandos para ejecutar colecciones de Postman en entornos de CI/CD. Newman es compatible con Jenkins, GitHub Actions, etc. El CLI de Postman permite validar APIs, hacer lints y autenticación programática.                                                                     | Nuestro propósito de uso es integrar pruebas de API en pipelines de integración continua (CI), asegurar calidad automática en cada commit, y validar contratos de API sin intervención manual.                                                                                                                       | Software Deployment     | https://learning.postman.com/docs/developer/postman-cli/ \| https://github.com/postmanlabs/newman — Se instalan vía npm (`npm install -g newman postman`) |
+| Vue 3                   | Framework progresivo de JavaScript para construir interfaces de usuario modernas y reactivas. Vue 3 introduce mejoras significativas en rendimiento, tamaño del bundle y reactividad con el sistema de reactividad basado en Proxy. Ideal para SPAs y aplicaciones escalables.                           | Nuestro propósito de uso es desarrollar interfaces frontend dinámicas, modulares y altamente interactivas, aprovechando la simplicidad de Vue, su ecosistema robusto (Vue Router, Pinia, Vite) y su integración fluida con herramientas modernas de desarrollo, permitiendo un ciclo de desarrollo ágil y mantenible. | Software Development    | htTB1s://vuejs.org/                            |
+| Microsoft .NET          | Plataforma de desarrollo gratuita, multiplataforma y de código abierto para construir aplicaciones web, móviles, de escritorio, microservicios y APIs. Compatible con Windows, Linux y macOS. Incluye bibliotecas, lenguajes y herramientas para todo el ciclo de vida del desarrollo.                  | Nuestro propósito de uso es construir servicios backend robustos, escalables y de alto rendimiento utilizando .NET 8 (o superior), aprovechando su soporte para APIs REST, gRPC, Entity Framework Core y su integración nativa con Azure, garantizando productividad y estabilidad en entornos empresariales.      | Software Development    | htTB1s://dotnet.microsoft.com/download         |
+| C#                      | Lenguaje de programación moderno, orientado a objetos y de tipado estático, desarrollado por Microsoft como parte de la plataforma .NET. Es conocido por su claridad, seguridad y potencia para construir desde aplicaciones simples hasta sistemas empresariales complejos.                            | Nuestro propósito de uso es implementar la lógica de negocio de nuestros servicios backend con C# 12 (o superior), aprovechando sus características avanzadas (record types, pattern matching, async/await) para escribir código limpio, mantenible y eficiente dentro del ecosistema .NET.                         | Software Development    | Incluido en .NET SDK: htTB1s://dotnet.microsoft.com/download |
+| JetBrains WebStorm      | IDE especializado en desarrollo web moderno, con soporte integral para JavaScript, TypeScript, Vue, HTML/CSS y herramientas de depuración, linting y refactorización inteligente.                                                                                                        | Nuestro propósito de uso es desarrollar interfaces frontend complejas con Vue 3 y TypeScript, aprovechando su autocompletado avanzado, navegación rápida, integración con terminal y debugging en tiempo real, sin necesidad de plugins adicionales.                                                              | Software Development    | htTB1s://www.jetbrains.com/webstorm/           |
+| Postman                 | Plataforma colaborativa para diseñar, probar, documentar y monitorear APIs. Ofrece colecciones, entornos, pruebas automáticas, mocks, documentación dinámica y soporte para MCP (Model Context Protocol) para IA.                                                                                          | Nuestro propósito de uso es validar endpoints de nuestros servicios .NET, crear y mantener documentación actualizada, compartir colecciones con el equipo, y automatizar pruebas de integración y regresión, eliminando la dependencia de herramientas externas.                                                  | Software Development    | htTB1s://www.postman.com/downloads/ \| htTB1s://identity.geTB1ostman.com/login — Disponible como app de escritorio y SaaS. |
+| UXPressia               | Plataforma visual para crear mapas de experiencia del usuario (journey maps), personas y servicios, con plantillas profesionales, exportación a PDF/PPTX y vinculación con datos en tiempo real.                                                                                                           | Nuestro propósito de uso es comprender y comunicar de forma visual el recorrido del usuario, identificar puntos de dolor, alinear equipos no técnicos y fundamentar decisiones de diseño con evidencia centrada en el cliente.                                                                                       | Product UX/UI Design    | htTB1s://uxpressia.com/                        |
+| Lucidchart              | Plataforma de diagramación visual con soporte para IA, diagramas C4, arquitectura de sistemas, flujos de proceso, ERD, org charts y más. Permite colaboración en tiempo real e integración con Jira, Confluence, Notion, etc.                                                                                 | Nuestro propósito de uso es documentar y comunicar la arquitectura del sistema mediante diagramas claros, visuales y actualizables, facilitando la comprensión entre desarrolladores, testers y stakeholders no técnicos.                                                                                            | Product UX/UI Design    | htTB1s://www.lucidchart.com/                   |
+| Structurizr             | Herramienta basada en "diagramas como código" (Diagrams as Code) para modelar arquitecturas de software según el modelo C4. Usa DSL para definir elementos, relaciones y vistas, generando diagramas interactivos automáticamente.                                                                           | Nuestro propósito de uso es documentar nuestra arquitectura de manera sistemática, reproducible y mantenible, siguiendo el modelo C4, y generar automáticamente diagramas de contexto, contenedores, componentes y código, integrados con nuestro repositorio.                                                       | Software Documentation  | htTB1s://structurizr.com/                      |
+| JetBrains Toolbox App   | Aplicación centralizada para gestionar, actualizar y ejecutar múltiples IDEs de JetBrains (Rider, WebStorm, IntelliJ, etc.) en paralelo, con soporte para EAP, Canary, actualizaciones automáticas y apertura rápida de proyectos.                                                                          | Nuestro propósito de uso es administrar de forma unificada nuestras herramientas de desarrollo (Rider para .NET, WebStorm para frontend), mantener versiones estables y experimentales simultáneamente, y evitar instalaciones manuales o conflictos entre versiones.                                              | Software Development    | htTB1s://www.jetbrains.com/es-es/toolbox-app/ — Instala y gestiona Rider, WebStorm y otros IDEs de JetBrains. |
+| Git                     | Sistema de control de versiones distribuido creado por Linus Torvalds, fundamental para el seguimiento de cambios, colaboración en equipo y gestión de ramas en proyectos de software.                                                                                                                    | Nuestro propósito de uso es llevar un historial confiable de todos los cambios en el código, facilitar la colaboración entre desarrolladores, gestionar ramas de característica y corrección, y permitir el rollback seguro ante errores.                                                                          | Software Development    | htTB1s://git-scm.com/downloads — Se instala localmente; se usa junto con GitHub para colaboración remota. |
+| GitHub                  | Plataforma de desarrollo colaborativo basada en Git, que permite gestionar repositorios, realizar pull requests, revisiones de código, seguimiento de issues y alojar documentación. Esencial para workflows ágiles y CI/CD.                                                                               | Nuestro propósito de uso es centralizar el código, facilitar la revisión colaborativa, gestionar ramas de desarrollo y correción, y actuar como fuente única de verdad para el ciclo de vida del producto digital, sin usar GitHub Desktop.                                                                       | Software Development    | htTB1s://github.com/ — Plataforma SaaS. No se instala; se accede exclusivamente por web. |
+| MySQL                   | Sistema de gestión de bases de datos relacional (RDBMS) de código abierto, ampliamente utilizado en producción. Ofrece alta disponibilidad, seguridad y rendimiento para aplicaciones empresariales.                                                                                                       | Nuestro propósito de uso es almacenar, consultar y gestionar datos estructurados de forma confiable, escalable y segura, utilizando MySQL Server 8.0 como base de datos principal para servicios backend.                                                                                                            | Software Development    | htTB1s://www.mysql.com/ \| htTB1s://dev.mysql.com/downloads/installer/ — Se puede usar localmente (installer) o en la nube (MySQL HeatWave). |
+| MySQL Installer         | Asistente gráfico para instalar MySQL Server, MySQL Workbench y otros componentes en Windows. Único instalador oficial para MySQL 8.0 y versiones anteriores. A partir de MySQL 8.1, se recomienda usar MSI o Zip directamente.                                                                            | Nuestro propósito de uso es facilitar la instalación y configuración inicial de MySQL Server y herramientas asociadas (como Workbench) en entornos locales de desarrollo, garantizando una configuración correcta y consistente entre miembros del equipo.                                                              | Software Development    | htTB1s://dev.mysql.com/downloads/installer/ — Solo para MySQL 8.0 y versiones anteriores. Para nuevas versiones, usar MSI/ZIP. |
+| MySQL Workbench         | Herramienta visual de diseño, desarrollo y administración de bases de datos MySQL. Permite crear modelos E/R, ejecutar consultas SQL, gestionar usuarios y sincronizar esquemas.                                                                                                                          | Nuestro propósito de uso es diseñar y modificar el esquema de la base de datos de forma visual, generar scripts SQL, y ejecutar consultas de prueba y validación durante el desarrollo de servicios backend.                                                                                                        | Software Development    | Incluido en: htTB1s://dev.mysql.com/downloads/installer/ — No se instala por separado si ya se usa el instalador completo. |
+| Postman CLI / Newman    | Herramientas de línea de comandos para ejecutar colecciones de Postman en entornos de CI/CD. Newman es compatible con Jenkins, GitHub Actions, etc. El CLI de Postman permite validar APIs, hacer lints y autenticación programática.                                                                     | Nuestro propósito de uso es integrar pruebas de API en pipelines de integración continua (CI), asegurar calidad automática en cada commit, y validar contratos de API sin intervención manual.                                                                                                                       | Software Deployment     | htTB1s://learning.postman.com/docs/developer/postman-cli/ \| htTB1s://github.com/postmanlabs/newman — Se instalan vía npm (`npm install -g newman postman`) |
 
 
 #### 5.1.2. Source Code Management
@@ -2027,13 +2225,13 @@ Los repositorios del proyecto se encuentran en la organización de GitHub del eq
 
 Además, se han definido repositorios independientes para cada componente del sistema, según su funcionalidad:
 
-- Reporte: https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/MOVEO-Report.git 
+- Reporte: htTB1s://github.com/UPC-1ASI0732-2610-17821-PointFlavor/MOVEO-Report.git 
 
-- Landing Page: https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/MOVEO-Landing-Page.git 
+- Landing Page: htTB1s://github.com/UPC-1ASI0732-2610-17821-PointFlavor/MOVEO-Landing-Page.git 
 
-- Frontend Web Application (Vue + Vite): https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/MOVEO-Frontend.git 
+- Frontend Web Application (Vue + Vite): htTB1s://github.com/UPC-1ASI0732-2610-17821-PointFlavor/MOVEO-Frontend.git 
 
-- Backend Web Service (RESTful API - .NET): https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/MOVEO-Backend.git 
+- Backend Web Service (RESTful API - .NET): htTB1s://github.com/UPC-1ASI0732-2610-17821-PointFlavor/MOVEO-Backend.git 
 
 
 #### Estructura de Ramas (GitFlow)
@@ -2053,12 +2251,12 @@ El equipo de Moveo adopta estrictamente las convenciones de codificación estand
 
 | Lenguaje | Referencia Adoptada | Convenciones Aplicadas |
 |----------|---------------------|------------------------|
-| **HTML** | HTML Style Guide and Coding Conventions: https://google.github.io/styleguide/htmlcssguide.html   | Uso de minúsculas, indentación de 2 espacios, atributos entre comillas dobles, elementos semánticos (`<header>`, `<main>`, `<section>`, `<article>`, `<nav>`), nombres de clases e IDs en `kebab-case` (ej. `patient-card`, `login-button`). Se prioriza accesibilidad mediante atributos `alt`, `aria-*` y estructura lógica. |
-| **CSS** | Google HTML/CSS Style Guide: https://google.github.io/styleguide/htmlcssguide.html   | Nombres de clases en `kebab-case` (ej. `btn-primary`, `card-vertical`), uso de BEM-like naming para modularidad (`block__element--modifier`), orden alfabético de propiedades, comentarios en inglés para estilos complejos, evitación de selectores profundos o anidados. |
-| **JavaScript / TypeScript** | Google TypeScript Style Guide: https://google.github.io/styleguide/jsguide.html   | Uso de `const` y `let` en lugar de `var`, funciones flecha (`() => {}`), desestructuración, módulos ES6 (`import/export`), nombres en `lowerCamelCase` (ej. `getPatientById`, `validateEmail`), tipado explícito, y programación funcional inmutable. Estructura por capas: `components/`, `services/`, `models/`, `utils/`. |
-| **Vue 3** | Vue 3 Style Guide: https://vuejs.org/style-guide/   | Uso de componentes en `PascalCase` (ej. `PatientCard.vue`), archivos en `kebab-case` (ej. `patient-card.vue`), Single File Components (SFC) con secciones `<script setup>`, `<template>`, `<style scoped>`. Uso de Composition API, nombres de props y emits en `kebab-case`, variables reactivas con `ref()` o `reactive()`, y funciones en `lowerCamelCase`. Evitar `v-if` con `v-for`, usar `key` en listas, y mantener componentes pequeños y reutilizables. |
-| **C#** | Microsoft C# Coding Conventions: https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions   | Nombres de clases, interfaces y métodos en `PascalCase` (ej. `PatientService`, `GetMedicalRecordAsync`), variables locales y parámetros en `lowerCamelCase` (ej. `patientId`, `emailAddress`), constantes en `PascalCase` (ej. `MaxPatientAge`), uso de `async/await` para operaciones asíncronas, anotaciones de nulabilidad (`string?`, `int value = 0`), y comentarios XML para documentación pública (`/// <summary>...</summary>`). Evitar `var` cuando el tipo no es obvio. |
-| **Microsoft .NET** | .NET Coding Conventions: https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/   | Estructura de proyecto por capas: `Controllers/`, `Services/`, `Repositories/`, `Models/`, `DTOs/`. Uso de Dependency Injection nativo, configuración en `appsettings.json`, validación con `FluentValidation` o atributos de Data Annotations (`[Required]`, `[EmailAddress]`), manejo de errores con `ProblemDetails` y middleware centralizado. Uso de Entity Framework Core con convenciones de nombres de tablas en plural y propiedades en `PascalCase`. |
+| **HTML** | HTML Style Guide and Coding Conventions: htTB1s://google.github.io/styleguide/htmlcssguide.html   | Uso de minúsculas, indentación de 2 espacios, atributos entre comillas dobles, elementos semánticos (`<header>`, `<main>`, `<section>`, `<article>`, `<nav>`), nombres de clases e IDs en `kebab-case` (ej. `patient-card`, `login-button`). Se prioriza accesibilidad mediante atributos `alt`, `aria-*` y estructura lógica. |
+| **CSS** | Google HTML/CSS Style Guide: htTB1s://google.github.io/styleguide/htmlcssguide.html   | Nombres de clases en `kebab-case` (ej. `btn-primary`, `card-vertical`), uso de BEM-like naming para modularidad (`block__element--modifier`), orden alfabético de propiedades, comentarios en inglés para estilos complejos, evitación de selectores profundos o anidados. |
+| **JavaScript / TypeScript** | Google TypeScript Style Guide: htTB1s://google.github.io/styleguide/jsguide.html   | Uso de `const` y `let` en lugar de `var`, funciones flecha (`() => {}`), desestructuración, módulos ES6 (`import/export`), nombres en `lowerCamelCase` (ej. `geTB1atientById`, `validateEmail`), tipado explícito, y programación funcional inmutable. Estructura por capas: `components/`, `services/`, `models/`, `utils/`. |
+| **Vue 3** | Vue 3 Style Guide: htTB1s://vuejs.org/style-guide/   | Uso de componentes en `PascalCase` (ej. `PatientCard.vue`), archivos en `kebab-case` (ej. `patient-card.vue`), Single File Components (SFC) con secciones `<script setup>`, `<template>`, `<style scoped>`. Uso de Composition API, nombres de props y emits en `kebab-case`, variables reactivas con `ref()` o `reactive()`, y funciones en `lowerCamelCase`. Evitar `v-if` con `v-for`, usar `key` en listas, y mantener componentes pequeños y reutilizables. |
+| **C#** | Microsoft C# Coding Conventions: htTB1s://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions   | Nombres de clases, interfaces y métodos en `PascalCase` (ej. `PatientService`, `GetMedicalRecordAsync`), variables locales y parámetros en `lowerCamelCase` (ej. `patientId`, `emailAddress`), constantes en `PascalCase` (ej. `MaxPatientAge`), uso de `async/await` para operaciones asíncronas, anotaciones de nulabilidad (`string?`, `int value = 0`), y comentarios XML para documentación pública (`/// <summary>...</summary>`). Evitar `var` cuando el tipo no es obvio. |
+| **Microsoft .NET** | .NET Coding Conventions: htTB1s://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/   | Estructura de proyecto por capas: `Controllers/`, `Services/`, `Repositories/`, `Models/`, `DTOs/`. Uso de Dependency Injection nativo, configuración en `appsettings.json`, validación con `FluentValidation` o atributos de Data Annotations (`[Required]`, `[EmailAddress]`), manejo de errores con `ProblemDetails` y middleware centralizado. Uso de Entity Framework Core con convenciones de nombres de tablas en plural y propiedades en `PascalCase`. |
 
 Además, se aplica **Conventional Commits** para los mensajes de Git, en inglés, con formato:  
 `<tipo>(<alcance>): <descripción breve>`  
@@ -2073,9 +2271,9 @@ Todas las convenciones son validadas automáticamente mediante herramientas inte
 - Conectar el repositorio de GitHub (Frontend/Landing Page) a un nuevo proyecto en Vercel. 
 - Vercel detectará automáticamente que es un proyecto de Vite/Vue. 
 - El comando de build se configura como npm run build o vite build. 
-- El directorio de salida (Output Directory) se establece en dist. 
+- El directorio de salida (OuTB1ut Directory) se establece en dist. 
 - Se configuran las variables de entorno necesarias (ej. VITE_API_BASE_URL). 
-- Cualquier push a la rama main disparará automáticamente un nuevo build y despliegue en Vercel, generando una URL pública segura (HTTPS). 
+- Cualquier push a la rama main disparará automáticamente un nuevo build y despliegue en Vercel, generando una URL pública segura (HTTB1S). 
 ##### Backend / RESTful API — Railway 
 - Crear un nuevo servicio en Railway y conectarlo al repositorio del backend (C# .NET) en GitHub. 
 - Railway detectará automáticamente el archivo .csproj o Dockerfile para la construcción. 
@@ -2146,7 +2344,7 @@ La implementación y despliegue de la landing page es un paso crucial para hacer
 
 Durante este sprint, se sentaron las bases de la aplicación Frontend utilizando **Vue 3** y **Vite**. La elección de Vite permite tiempos de carga y reemplazo de módulos en caliente (HMR) casi instantáneos, mejorando la experiencia de desarrollo.
 
-**URL de Despliegue (Frontend):** https://moveo-frontend.vercel.app  
+**URL de Despliegue (Frontend):** htTB1s://moveo-frontend.vercel.app  
 
 - **Paso 1:** Vinculación del repositorio Frontend a la plataforma de Vercel. 
 - **Paso 2:** Vercel detecta automáticamente el framework (Vite/Vue) y configura el directorio raíz. 
@@ -2211,7 +2409,7 @@ Este acuerdo se rige por las leyes vigentes de la República del Perú.
 
 La arquitectura de la solución backend se fundamentó en **C# y .NET Core**. Se estructuró siguiendo el patrón de diseño Domain-Driven Design (DDD) con separación de responsabilidades. Para su despliegue se utilizó Railway.
 
-**URL de Documentación (Swagger API):** [https://moveo-backend-production.up.railway.app/swagger/index.html](https://moveo-backend-production.up.railway.app/swagger/index.html)
+**URL de Documentación (Swagger API):** [htTB1s://moveo-backend-production.up.railway.app/swagger/index.html](htTB1s://moveo-backend-production.up.railway.app/swagger/index.html)
 
 - **Paso 1:** Conectar el repositorio de GitHub que contiene el backend en .NET a un nuevo proyecto en Railway.
 
@@ -2223,33 +2421,33 @@ La arquitectura de la solución backend se fundamentó en **C# y .NET Core**. Se
 
 
 <p align="center">
-  <img src="https://i.imgur.com/Zq8luJF.png" alt="WF2" width="500">
+  <img src="htTB1s://i.imgur.com/Zq8luJF.png" alt="WF2" width="500">
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/hESnWY1.png" alt="WF2" width="500">
+  <img src="htTB1s://i.imgur.com/hESnWY1.png" alt="WF2" width="500">
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/bnfhe8n.png" alt="WF2" width="500">
+  <img src="htTB1s://i.imgur.com/bnfhe8n.png" alt="WF2" width="500">
 </p>
 
 
 <p align="center">
-  <img src="https://i.imgur.com/vsBdKfB.png" alt="WF2" width="500">
+  <img src="htTB1s://i.imgur.com/vsBdKfB.png" alt="WF2" width="500">
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/f5lj6f0.png" alt="WF2" width="500">
+  <img src="htTB1s://i.imgur.com/f5lj6f0.png" alt="WF2" width="500">
 </p>
 
 
-- Swagger Link: https://moveo-backend-production.up.railway.app/swagger/index.html
+- Swagger Link: htTB1s://moveo-backend-production.up.railway.app/swagger/index.html
 
 
 #### 5.2.6. RESTful API documentation
 
-La plataforma MOVEO proporciona una RESTful API que permite la comunicación entre el frontend y el backend mediante solicitudes HTTP. La API fue implementada siguiendo los principios de arquitectura REST y documentada utilizando Swagger/OpenAPI. Esta documentación permite a los desarrolladores visualizar, probar y validar todos los endpoints disponibles de manera interactiva.
+La plataforma MOVEO proporciona una RESTful API que permite la comunicación entre el frontend y el backend mediante solicitudes HTTB1. La API fue implementada siguiendo los principios de arquitectura REST y documentada utilizando Swagger/OpenAPI. Esta documentación permite a los desarrolladores visualizar, probar y validar todos los endpoints disponibles de manera interactiva.
 
 La API soporta operaciones CRUD (Crear, Leer, Actualizar y Eliminar) para distintos módulos del sistema como usuarios, vehículos, alquileres, pagos, reseñas, notificaciones, tickets de soporte y rutas de aventura.
 
@@ -2400,7 +2598,7 @@ La API soporta operaciones CRUD (Crear, Leer, Actualizar y Eliminar) para distin
 La documentación del backend fue implementada utilizando Swagger/OpenAPI, permitiendo probar interactivamente los endpoints y visualizar las estructuras de request y response directamente desde el navegador. La documentación incluye parámetros, cuerpos de solicitud, códigos de respuesta y esquemas para todos los recursos del sistema.
 
 **URL de Swagger:**  
-https://moveo-backend-production.up.railway.app/swagger/index.html
+htTB1s://moveo-backend-production.up.railway.app/swagger/index.html
 
   
 #### 5.2.7. Team Collaboration Insights
@@ -2409,9 +2607,9 @@ Durante el presente Sprint, las actividades de implementación se llevaron a cab
 
 A continuación, se presentan las capturas de los analíticos de colaboración y el registro de commits extraídos de GitHub:
 
-<img src="https://i.imgur.com/PsemYlE.png" alt="Evidencia de Commits 1" width="80%"><br><br>
-<img src="https://i.imgur.com/iw9qoA8.png" alt="Evidencia de Commits 2" width="80%"><br><br>
-<img src="https://i.imgur.com/CDxDBnU.png" alt="Gráfico de Insights" width="80%">
+<img src="htTB1s://i.imgur.com/PsemYlE.png" alt="Evidencia de Commits 1" width="80%"><br><br>
+<img src="htTB1s://i.imgur.com/iw9qoA8.png" alt="Evidencia de Commits 2" width="80%"><br><br>
+<img src="htTB1s://i.imgur.com/CDxDBnU.png" alt="Gráfico de Insights" width="80%">
 
 ### 5.3. Video About-the-Product
 
@@ -2422,8 +2620,8 @@ En esta sección, se presenta una introducción de la plataforma PointFlavor, de
 </p>
 
 Duración: 1:05 <br>
-Enlace a Microsoft Stream: [VIDEO ABOUT THE PRODUCT.mp4 ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/IQDsa8mQseqyS5hASHUOF2etATteMgp7d6JY2BW7lKFNwJQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=in1oh2) <br>
-Enlace a YouTube: https://youtu.be/-X0c1uzO5KU 
+Enlace a Microsoft Stream: [VIDEO ABOUT THE PRODUCT.mp4 ](htTB1s://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/IQDsa8mQseqyS5hASHUOF2etATteMgp7d6JY2BW7lKFNwJQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=in1oh2) <br>
+Enlace a YouTube: htTB1s://youtu.be/-X0c1uzO5KU 
 
 
 ## Capítulo VI: Product Verification & Validation
@@ -2432,7 +2630,7 @@ Enlace a YouTube: https://youtu.be/-X0c1uzO5KU
 
 #### 6.1.1. Core Entities Unit Tests.
 
-Validan la lógica de negocio de cada servicio de forma aislada, sin base de datos real ni llamadas HTTP. Se usan **mocks** (objetos simulados) para reemplazar los repositorios y verificar que el servicio se comporta correctamente.
+Validan la lógica de negocio de cada servicio de forma aislada, sin base de datos real ni llamadas HTTB1. Se usan **mocks** (objetos simulados) para reemplazar los repositorios y verificar que el servicio se comporta correctamente.
 
 ### IAM
 
@@ -2449,8 +2647,8 @@ Prueba el servicio de autenticación `AuthService`:
 * Cambio de contraseña correcto → retorna `true`
 * Cambio de contraseña con contraseña actual incorrecta → retorna `false`
 
-![IAM AuthService 1](https://i.imgur.com/7q8QMUq.png)
-![IAM AuthService 2](https://i.imgur.com/IqHkMmq.png)
+![IAM AuthService 1](htTB1s://i.imgur.com/7q8QMUq.png)
+![IAM AuthService 2](htTB1s://i.imgur.com/IqHkMmq.png)
 
 ### UserManagement
 
@@ -2467,8 +2665,8 @@ Prueba el servicio `UserCommandService`:
 * Eliminar usuario existente → se elimina correctamente
 * Eliminar usuario inexistente → lanza excepción
 
-![UserCommandService 1](https://i.imgur.com/6U5VwTv.png)
-![UserCommandService 2](https://i.imgur.com/dp8H9HP.png)
+![UserCommandService 1](htTB1s://i.imgur.com/6U5VwTv.png)
+![UserCommandService 2](htTB1s://i.imgur.com/dp8H9HP.png)
 
 `Moveo_backend.Tests/UserManagement/Domain/Model/Aggregates/UserTests.cs`
 <br>
@@ -2481,8 +2679,8 @@ Prueba el aggregate `User` directamente:
 * Cálculo de ganancias como propietario y gasto como inquilino
 * Cancelación de renta decrementa contadores
 
-![UserTests 1](https://i.imgur.com/hXgoBXr.png)
-![UserTests 2](https://i.imgur.com/a8dxNG4.png)
+![UserTests 1](htTB1s://i.imgur.com/hXgoBXr.png)
+![UserTests 2](htTB1s://i.imgur.com/a8dxNG4.png)
 
 ### Rental
 
@@ -2497,8 +2695,8 @@ Prueba el servicio `RentalCommandService`:
 * Eliminar renta inexistente → retorna `false`
 * Eliminar renta llama al delete exactamente una vez
 
-![RentalCommandService 1](https://i.imgur.com/McpeQTq.png)
-![RentalCommandService 2](https://i.imgur.com/5at3BRU.png)
+![RentalCommandService 1](htTB1s://i.imgur.com/McpeQTq.png)
+![RentalCommandService 2](htTB1s://i.imgur.com/5at3BRU.png)
 
 `Moveo_backend.Tests/Rental/Domain/Model/Aggregates/RentalTests.cs`
 <br>
@@ -2515,8 +2713,8 @@ Prueba el aggregate `Rental`:
 * Calificar vehículo con rating válido (1-5) → guarda calificación
 * Calificar con rating inválido (0, -1, 6) → lanza excepción
 
-![RentalTests 1](https://i.imgur.com/9rkH2tU.png)
-![RentalTests 2](https://i.imgur.com/PMeDYus.png)
+![RentalTests 1](htTB1s://i.imgur.com/9rkH2tU.png)
+![RentalTests 2](htTB1s://i.imgur.com/PMeDYus.png)
 
 `Moveo_backend.Tests/Rental/Domain/Model/Aggregates/VehicleTests.cs`
 <br>
@@ -2530,8 +2728,8 @@ Prueba el aggregate `Vehicle`:
 * Actualización de precio diario solo modifica ese campo
 * Lista de features se serializa correctamente como JSON
 
-![VehicleTests 1](https://i.imgur.com/bUPpvcx.png)
-![VehicleTests 2](https://i.imgur.com/6q3nYde.png)
+![VehicleTests 1](htTB1s://i.imgur.com/bUPpvcx.png)
+![VehicleTests 2](htTB1s://i.imgur.com/6q3nYde.png)
 
 `Moveo_backend.Tests/Rental/Domain/Model/ValueObjects/MoneyTests.cs` +
 <br>
@@ -2545,8 +2743,8 @@ Prueba el value object `Money`:
 * Sumar `Money` de distinta moneda → lanza excepción
 * `Zero()` retorna un `Money` con monto 0
 
-![MoneyTests 1](https://i.imgur.com/DwRFmRH.png)
-![MoneyTests 2](https://i.imgur.com/ObMagOB.png)
+![MoneyTests 1](htTB1s://i.imgur.com/DwRFmRH.png)
+![MoneyTests 2](htTB1s://i.imgur.com/ObMagOB.png)
 
 
 ### Payment
@@ -2562,8 +2760,8 @@ Prueba el servicio `PaymentCommandService`:
 * Eliminar pago existente → retorna `true`
 * Eliminar pago inexistente → retorna `false`
 
-![PaymentCommandService 1](https://i.imgur.com/2D32XNH.png)
-![PaymentCommandService 2](https://i.imgur.com/gw9qQaf.png)
+![PaymentCommandService 1](htTB1s://i.imgur.com/2D32XNH.png)
+![PaymentCommandService 2](htTB1s://i.imgur.com/gw9qQaf.png)
 
 `Moveo_backend.Tests/Payment/Domain/Model/Aggregate/PaymentTests.cs`
 <br>
@@ -2578,8 +2776,8 @@ Prueba el aggregate `Payment`:
 * `Refund()` → cambia estado a `refunded`
 * Actualización parcial con nuevo estado → solo modifica el estado
 
-![PaymentTests 1](https://i.imgur.com/y9uHDPw.png)
-![PaymentTests 2](https://i.imgur.com/g9OGLHh.png)
+![PaymentTests 1](htTB1s://i.imgur.com/y9uHDPw.png)
+![PaymentTests 2](htTB1s://i.imgur.com/g9OGLHh.png)
 
 
 ### Adventure
@@ -2595,8 +2793,8 @@ Prueba el servicio `AdventureRouteCommandService`:
 * Eliminar ruta existente → retorna `true` y llama al repositorio
 * Eliminar ruta inexistente → retorna `false`
 
-![AdventureRouteCommandService 1](https://i.imgur.com/rFkmi2P.png)
-![AdventureRouteCommandService 2](https://i.imgur.com/WFRAkit.png)
+![AdventureRouteCommandService 1](htTB1s://i.imgur.com/rFkmi2P.png)
+![AdventureRouteCommandService 2](htTB1s://i.imgur.com/WFRAkit.png)
 
 
 ### Notification
@@ -2612,8 +2810,8 @@ Prueba el servicio `NotificationCommandService`:
 * Eliminar notificación existente → retorna `true`
 * Eliminar notificación inexistente → retorna `false`
 
-![NotificationCommandService 1](https://i.imgur.com/TlYX1HA.png)
-![NotificationCommandService 2](https://i.imgur.com/bZPFrcW.png)
+![NotificationCommandService 1](htTB1s://i.imgur.com/TlYX1HA.png)
+![NotificationCommandService 2](htTB1s://i.imgur.com/bZPFrcW.png)
 
 
 ### Support
@@ -2629,8 +2827,8 @@ Prueba el servicio `SupportTicketCommandService`:
 * Eliminar ticket existente → retorna `true`
 * Eliminar ticket inexistente → retorna `false`
 
-![SupportTicketCommandService 1](https://i.imgur.com/z2MXw3c.png)
-![SupportTicketCommandService 2](https://i.imgur.com/fhhZL0y.png)
+![SupportTicketCommandService 1](htTB1s://i.imgur.com/z2MXw3c.png)
+![SupportTicketCommandService 2](htTB1s://i.imgur.com/fhhZL0y.png)
 
 
 ### UserReview
@@ -2646,12 +2844,12 @@ Prueba el servicio `UserReviewCommandService`:
 * Eliminar reseña existente → retorna `true`
 * Eliminar reseña inexistente → retorna `false`
 
-![UserReviewCommandService 1](https://i.imgur.com/uArVedG.png)
-![UserReviewCommandService 2](https://i.imgur.com/oajVcg7.png)
+![UserReviewCommandService 1](htTB1s://i.imgur.com/uArVedG.png)
+![UserReviewCommandService 2](htTB1s://i.imgur.com/oajVcg7.png)
 
 #### 6.1.2. Core Integration Tests.
 
-Levantan la aplicación completa con una base de datos en memoria (InMemoryDatabase) usando WebApplicationFactory. Ejecutan llamadas HTTP reales a los controladores y verifican que respondan con los status codes correctos. `Moveo_backend.Tests/Integration/MoveoWebApplicationFactory.cs` — configura el entorno de prueba reemplazando MySQL por InMemory.
+Levantan la aplicación completa con una base de datos en memoria (InMemoryDatabase) usando WebApplicationFactory. Ejecutan llamadas HTTB1 reales a los controladores y verifican que respondan con los status codes correctos. `Moveo_backend.Tests/Integration/MoveoWebApplicationFactory.cs` — configura el entorno de prueba reemplazando MySQL por InMemory.
 
 
 ### IAM
@@ -2662,8 +2860,8 @@ Levantan la aplicación completa con una base de datos en memoria (InMemoryDatab
 * `POST /api/v1/auth/register` con email ya registrado → responde `409 Conflict`
 * `POST /api/v1/auth/login` con email inexistente → responde `401 Unauthorized`
 
-![AuthControllerTests 1](https://i.imgur.com/2WXErEj.png)
-![AuthControllerTests 2](https://i.imgur.com/nqPbKOy.png)
+![AuthControllerTests 1](htTB1s://i.imgur.com/2WXErEj.png)
+![AuthControllerTests 2](htTB1s://i.imgur.com/nqPbKOy.png)
 
 
 ### Rental
@@ -2674,8 +2872,8 @@ Levantan la aplicación completa con una base de datos en memoria (InMemoryDatab
 * `GET /api/v1/vehicles/9999` con ID inexistente → responde `404 Not Found`
 * `DELETE /api/v1/vehicles/9999` con ID inexistente → responde `404 Not Found`
 
-![VehicleControllerTests 1](https://i.imgur.com/tHX51Xr.png)
-![VehicleControllerTests 2](https://i.imgur.com/piIJGmh.png)
+![VehicleControllerTests 1](htTB1s://i.imgur.com/tHX51Xr.png)
+![VehicleControllerTests 2](htTB1s://i.imgur.com/piIJGmh.png)
 
 
 ### Payment
@@ -2686,26 +2884,26 @@ Levantan la aplicación completa con una base de datos en memoria (InMemoryDatab
 * `GET /api/v1/payments/9999` con ID inexistente → responde `404 Not Found`
 * `POST /api/v1/payments` con datos válidos → responde `201 Created`
 
-![PaymentControllerTests 1](https://i.imgur.com/LjBkx2D.png)
-![PaymentControllerTests 2](https://i.imgur.com/IoGVvAq.png)
+![PaymentControllerTests 1](htTB1s://i.imgur.com/LjBkx2D.png)
+![PaymentControllerTests 2](htTB1s://i.imgur.com/IoGVvAq.png)
 
 #### 6.1.3. Core Behavior-Driven Development
 
 **BDD Feature File: IAM (Autenticación y Registro)**
 
-![IAM](https://i.imgur.com/GYoJI9u.png)
+![IAM](htTB1s://i.imgur.com/GYoJI9u.png)
 
 **BDD Feature File: Payment (Pagos)**
 
-![Payment](https://i.imgur.com/y7Z8zFJ.png)
+![Payment](htTB1s://i.imgur.com/y7Z8zFJ.png)
 
 **BDD Feature File: User Management (Gestión de Usuarios)**
 
-![User Management](https://i.imgur.com/CTsmutW.png)
+![User Management](htTB1s://i.imgur.com/CTsmutW.png)
 
 **BDD Feature File: Rental (Alquiler)**
 
-![Rental](https://i.imgur.com/e8urTSp.png)
+![Rental](htTB1s://i.imgur.com/e8urTSp.png)
 
 #### 6.1.4. Core System Tests.
 
@@ -2728,9 +2926,9 @@ Levantan la aplicación completa con una base de datos en memoria (InMemoryDatab
   </tbody>
 </table>
 
-![imagen1](https://i.imgur.com/eJS2nx7.png)
+![imagen1](htTB1s://i.imgur.com/eJS2nx7.png)
 
-![imagen2](https://i.imgur.com/jxiCmbZ.png)
+![imagen2](htTB1s://i.imgur.com/jxiCmbZ.png)
 
 ---
 
@@ -2753,11 +2951,11 @@ Levantan la aplicación completa con una base de datos en memoria (InMemoryDatab
   </tbody>
 </table>
 
-![imagen3](https://i.imgur.com/y8oY8xH.png)
+![imagen3](htTB1s://i.imgur.com/y8oY8xH.png)
 
-![imagen4](https://i.imgur.com/mzbWawS.png)
+![imagen4](htTB1s://i.imgur.com/mzbWawS.png)
 
-![imagen5](https://i.imgur.com/W0dGjoA.png)
+![imagen5](htTB1s://i.imgur.com/W0dGjoA.png)
 
 ### 6.2. Static testing & Verification
 
@@ -2777,11 +2975,11 @@ Las normas de codificación y convenciones son directrices que todo el equipo de
 
 En el backend (.NET 9) se aplica la separación clásica de DDD por capas: Domain (Model con Aggregates, Commands, Queries; Repositories y Services), Application (CommandServices y QueryServices, siguiendo CQRS con el patrón Mediator vía Cortex.Mediator), Infrastructure (persistencia con Entity Framework Core sobre MySQL, hashing, etc.) e Interfaces (controladores REST y Resources). Por ejemplo, el contexto IAM contiene Domain/Services/IAuthService.cs, Application/Internal/AuthService.cs, Infrastructure/Hashing/BcryptHashingService.cs e Interfaces/REST/AuthController.cs.
 
-![Estructura DDD del backend (IAM) en Rider](https://i.imgur.com/fBK5sQ7.png)
+![Estructura DDD del backend (IAM) en Rider](htTB1s://i.imgur.com/fBK5sQ7.png)
 
 En el frontend (Vue 3) se replica esa misma estructura por bounded context dentro de src/app/, separando domain (modelos de entidad como Vehicle.entity.js), application (stores de Pinia como rental.store.js), infrastructure (clientes API y assemblers) y presentation (componentes, vistas y routers). Esto promueve una arquitectura organizada, alineada con el negocio y consistente entre ambas capas del sistema.
 
-![Estructura DDD del frontend (módulo Rental) en VS Code](https://i.imgur.com/Opzh5RO.png)
+![Estructura DDD del frontend (módulo Rental) en VS Code](htTB1s://i.imgur.com/Opzh5RO.png)
 
 **Convenciones por lenguaje:** En el backend se siguen las convenciones idiomáticas de C#/.NET (PascalCase para clases, métodos y propiedades; interfaces con prefijo I; nullable reference types habilitados con Nullable enable e implicit usings). En el frontend se siguen las convenciones de Vue 3 con Composition API y el ecosistema Vite (componentes .vue, stores de Pinia, enrutamiento con Vue Router e internacionalización con Vue I18n y archivos de locales en.json / es.json).
 
@@ -2791,13 +2989,13 @@ La calidad y la seguridad del código son esenciales para el desarrollo de un so
 
 **Calidad del Código:** La calidad se mide mediante métricas como la cobertura de pruebas, apoyada en las suites de pruebas unitarias e integración del proyecto (xUnit en el backend y Vitest en el frontend), y la consistencia del estilo de código. En el frontend se adopta ESLint, con la configuración recomendada de eslint-plugin-vue, para el análisis estático del código JavaScript y Vue, detectando errores potenciales, variables sin uso, malas prácticas y desviaciones de las convenciones de Vue 3; y Prettier como formateador automático que garantiza un estilo uniforme (comillas, indentación, longitud de línea) en todos los archivos .js, .vue, .css y .json. Ambas herramientas se ejecutan mediante los scripts npm run lint y npm run format. En el backend (.NET 9) se aprovechan los analizadores de Roslyn integrados en el SDK junto con dotnet format, que aplican reglas de estilo y calidad sobre el código C# de forma análoga.
 
-![Ejecución de ESLint (npm run lint) mostrando los problemas detectados](https://i.imgur.com/CvXqWfQ.png)
+![Ejecución de ESLint (npm run lint) mostrando los problemas detectados](htTB1s://i.imgur.com/CvXqWfQ.png)
 
-![Verificación de formato con Prettier (npm run format:check)](https://i.imgur.com/oYGxwLG.png)
+![Verificación de formato con Prettier (npm run format:check)](htTB1s://i.imgur.com/oYGxwLG.png)
 
 **Seguridad del Código:** Es crucial identificar y mitigar vulnerabilidades comunes (como inyecciones SQL y XSS) mediante la revisión del código. En MOVEO esto se refuerza con prácticas de codificación segura ya presentes en el proyecto, como el almacenamiento de contraseñas mediante hashing con BCrypt (BcryptHashingService en el contexto IAM del backend) en lugar de texto plano, el uso de Entity Framework Core con consultas parametrizadas que mitigan la inyección SQL, y la validación adecuada de las entradas del usuario tanto en los Resources/Requests del backend como en los formularios del frontend.
 
-![Hashing seguro de contraseñas con BCrypt (BcryptHashingService)](https://i.imgur.com/VzkFuG4.png)
+![Hashing seguro de contraseñas con BCrypt (BcryptHashingService)](htTB1s://i.imgur.com/VzkFuG4.png)
 
 ESLint y Prettier se integran con los IDEs utilizados por el equipo (Visual Studio / Rider para el backend en .NET y Visual Studio Code / WebStorm para el frontend en Vue), permitiendo análisis y formateo en tiempo real mientras se desarrolla. Esto ayuda a los desarrolladores a detectar problemas de calidad y estilo a medida que escriben código, con recomendaciones inmediatas para resolverlos, fomentando una cultura de calidad y mejora continua desde el inicio del desarrollo y asegurando que los problemas se aborden antes de llegar a las etapas de revisión y prueba.
 
@@ -2809,7 +3007,7 @@ La revisión manual se realiza de forma colaborativa entre los integrantes del e
 
 La revisión automática se realiza directamente en el entorno de desarrollo: ESLint y Prettier en el frontend, y los analizadores de Roslyn junto con dotnet format en el backend, detectan errores, malas prácticas e inconsistencias de estilo de manera temprana, antes de que el código se integre. De esta forma, cada desarrollador recibe retroalimentación inmediata mientras escribe, lo que reduce los defectos y mantiene un estándar uniforme en todo el código base.
 
-![Historial de commits del repositorio con Conventional Commits](https://i.imgur.com/eq3AJIW.png)
+![Historial de commits del repositorio con Conventional Commits](htTB1s://i.imgur.com/eq3AJIW.png)
 
 Como criterios de aceptación, el equipo verifica que el código cumpla con los estándares de calidad y no introduzca vulnerabilidades de seguridad, y que las nuevas funcionalidades cuenten con una cobertura de pruebas adecuada. Estas revisiones se realizan de forma regular, preferiblemente al final de cada sprint, para evitar la acumulación de cambios y mantener la calidad de forma sostenida a lo largo del proyecto.
 
@@ -2856,7 +3054,7 @@ Estos flujos fueron evaluados en una versión funcional del frontend desplegado 
 Se realizaron un total de **6 entrevistas de validación**, cumpliendo con el rango requerido de 3 a 5 por segmento (3 propietarios, 3 inquilinos). Cada sesión fue grabada en video, almacenada en Microsoft Stream y referenciada con tiempo exacto de inicio y duración. Todas las pruebas se realizaron en entorno web, iniciando desde la Landing Page.
 
 **Video completo de todas las entrevistas:**  
-[https://acortar.link/4jIxfQ](https://acortar.link/4jIxfQ)
+[htTB1s://acortar.link/4jIxfQ](htTB1s://acortar.link/4jIxfQ)
 
 **Segmento 1: Propietarios**
 
@@ -2872,7 +3070,7 @@ Se realizaron un total de **6 entrevistas de validación**, cumpliendo con el ra
 **Resumen:**
 Alisa comenzó en el Landing Page y destacó la claridad del mensaje principal: "Alquila tu auto fácil y seguro". Hizo clic en "Regístrate" sin dudar. Valoró positivamente el formulario de registro y publicación, completando ambos flujos en menos de 5 minutos. Evaluó la apertura de un ticket como "clara y útil", especialmente al poder adjuntar fotos del daño. No intentó cancelar una reserva (no aplica a su rol), pero expresó que debería ser posible hacerlo sin penalidad si es con anticipación.
 
-![ValidationInterview#1](https://i.imgur.com/2pnQRSG.png)
+![ValidationInterview#1](htTB1s://i.imgur.com/2pnQRSG.png)
 
 **Entrevistado 2: Mathías Peña**
 
@@ -2886,7 +3084,7 @@ Alisa comenzó en el Landing Page y destacó la claridad del mensaje principal: 
 **Resumen:**
 Mathías navegó desde el Landing Page, interesándose por la sección "¿Cómo funciona?". Publicó un vehículo rápidamente. Al probar la apertura de un ticket, sugirió permitir adjuntar videos cortos además de fotos. Consideró que el sistema de cancelación debería incluir un resumen de condiciones (¿se devuelve el depósito?) antes de confirmar.
 
-![ValidationInterview#2](https://i.imgur.com/axjrlPA.png)
+![ValidationInterview#2](htTB1s://i.imgur.com/axjrlPA.png)
 
 **Entrevistado 3: Mauricio Salas**
 
@@ -2900,7 +3098,7 @@ Mathías navegó desde el Landing Page, interesándose por la sección "¿Cómo 
 **Resumen:**
 Mauricio completó el flujo de publicación y apertura de ticket. Valoró que el ticket quede vinculado a la reserva específica. Sugirió que al cancelar una reserva, el sistema muestre claramente si hay penalidades o devolución parcial de fondos.
 
-![ValidationInterview#3](https://i.imgur.com/wH786Tb.png)
+![ValidationInterview#3](htTB1s://i.imgur.com/wH786Tb.png)
 
 **Segmento 2: Inquilinos**
 
@@ -2916,7 +3114,7 @@ Mauricio completó el flujo de publicación y apertura de ticket. Valoró que el
 **Resumen:**
 Claudia reservó un auto desde el Landing Page. Posteriormente, canceló una reserva simulada y consideró el proceso "simple y transparente". También abrió un ticket por "asiento roto" y valoró que el formulario sea claro. Criticó que no haya un chat integrado para aclarar dudas antes de abrir un ticket.
 
-![ValidationInterview#4](https://i.imgur.com/tC3MInH.png)
+![ValidationInterview#4](htTB1s://i.imgur.com/tC3MInH.png)
 
 **Entrevistado 5: Jackelin Peña Pariona**
 
@@ -2930,7 +3128,7 @@ Claudia reservó un auto desde el Landing Page. Posteriormente, canceló una res
 **Resumen:**
 Gabriel completó la reserva y luego la canceló. Notó que el sistema no muestra un mensaje de confirmación de cancelación por correo. Al abrir un ticket, sugirió incluir categorías predefinidas de incidencias (mecánicas, limpieza, documentación) para agilizar el reporte.
 
-![ValidationInterview#5](https://i.imgur.com/8duzHeO.png)
+![ValidationInterview#5](htTB1s://i.imgur.com/8duzHeO.png)
 
 **Entrevistado 6: Angie Leyva**
 
@@ -2944,7 +3142,7 @@ Gabriel completó la reserva y luego la canceló. Notó que el sistema no muestr
 **Resumen:**
 Angie navegó desde el Landing Page y reservó un auto. Al cancelar, solicitó que el sistema muestre un resumen del reembolso esperado. Al abrir un ticket, criticó que no haya un número de seguimiento visible en la interfaz ("¿cómo sé que lo recibieron?"). Recomendó añadir un sistema de notificaciones que confirme la recepción del ticket y cualquier actualización posterior. 
 
-![ValidationInterview#6](https://i.imgur.com/aHMaiN8.png)
+![ValidationInterview#6](htTB1s://i.imgur.com/aHMaiN8.png)
 
 ### 6.3.3. Evaluacones según heurísticas.
 
@@ -3096,7 +3294,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 | 9 | Mensaje en inglés en una aplicación completamente en español | 2 | Usabilidad – Consistencia y estándares |
 | 10 | La biblioteca del psicólogo no ofrece contenido diferenciado ni recursos profesionales | 2 | Usabilidad – Adecuación al usuario |
 | 11 | El toggle para elegir tipo de cuenta en el registro tiene baja visibilidad | 2 | Usabilidad – Reconocimiento antes que recuerdo |
-| 12 | Error HTTP 400 también aparece en el formulario de registro del psicólogo | 4 | Usabilidad – Lenguaje del usuario |
+| 12 | Error HTTB1 400 también aparece en el formulario de registro del psicólogo | 4 | Usabilidad – Lenguaje del usuario |
 
 **PROBLEMA \#1: El sistema muestra mensajes de error técnicos incomprensibles en el login**
 
@@ -3104,7 +3302,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 **Heurística violada:** Usabilidad – Lenguaje del usuario
 
-**Problema:** Al intentar iniciar sesión con credenciales incorrectas, la aplicación muestra directamente el mensaje "HTTP 400 Bad Request" debajo del botón de login. Este mensaje corresponde al protocolo HTTP y carece de significado para un usuario sin conocimientos técnicos, generando confusión e inseguridad sobre qué acción correctiva tomar. Adicionalmente, el botón "Iniciar Sesión" aparece deshabilitado y en gris cuando los campos están vacíos, sin comunicar visualmente el motivo.
+**Problema:** Al intentar iniciar sesión con credenciales incorrectas, la aplicación muestra directamente el mensaje "HTTB1 400 Bad Request" debajo del botón de login. Este mensaje corresponde al protocolo HTTB1 y carece de significado para un usuario sin conocimientos técnicos, generando confusión e inseguridad sobre qué acción correctiva tomar. Adicionalmente, el botón "Iniciar Sesión" aparece deshabilitado y en gris cuando los campos están vacíos, sin comunicar visualmente el motivo.
 
 **Capturas de referencia:**
 
@@ -3112,7 +3310,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 ![][image2]
 
-**Recomendación:** Reemplazar los mensajes de error técnicos por mensajes en lenguaje natural y empático, tales como "El usuario o contraseña son incorrectos. Por favor, inténtalo de nuevo." Implementar un sistema centralizado de manejo de errores que traduzca todos los códigos HTTP a mensajes comprensibles para el usuario final.
+**Recomendación:** Reemplazar los mensajes de error técnicos por mensajes en lenguaje natural y empático, tales como "El usuario o contraseña son incorrectos. Por favor, inténtalo de nuevo." Implementar un sistema centralizado de manejo de errores que traduzca todos los códigos HTTB1 a mensajes comprensibles para el usuario final.
 
 **PROBLEMA \#2: El perfil del psicólogo muestra múltiples campos con "No especificado"**
 
@@ -3260,19 +3458,19 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 **Recomendación:** Reemplazar el toggle por dos botones o tarjetas claramente diferenciados visualmente (ej. "Soy Paciente" / "Soy Psicólogo") con íconos representativos. Esto hace la selección más evidente y reduce el riesgo de error en el registro.
 
-**PROBLEMA \#12: Error HTTP 400 también aparece en el formulario de registro del psicólogo**
+**PROBLEMA \#12: Error HTTB1 400 también aparece en el formulario de registro del psicólogo**
 
 **Severidad:** 4
 
 **Heurística violada:** Usabilidad – Lenguaje del usuario
 
-**Problema:** Al igual que en el login del usuario general, el formulario de registro del psicólogo muestra "HTTP 400 Bad Request" directamente en la interfaz cuando el registro falla. Este comportamiento confirma que el manejo de errores HTTP es un problema transversal de toda la aplicación que afecta tanto al flujo del usuario como al del psicólogo. El psicólogo no comprende qué campo está incorrecto ni qué acción debe tomar para completar el registro exitosamente.
+**Problema:** Al igual que en el login del usuario general, el formulario de registro del psicólogo muestra "HTTB1 400 Bad Request" directamente en la interfaz cuando el registro falla. Este comportamiento confirma que el manejo de errores HTTB1 es un problema transversal de toda la aplicación que afecta tanto al flujo del usuario como al del psicólogo. El psicólogo no comprende qué campo está incorrecto ni qué acción debe tomar para completar el registro exitosamente.
 
 **Capturas de referencia:**
 
 ![][image16]
 
-**Recomendación:** Implementar un sistema centralizado de manejo de errores que traduzca los códigos HTTP a mensajes comprensibles y específicos por campo (ej. "El número de colegiatura ya está registrado" o "El correo electrónico ingresado ya tiene una cuenta"). Este sistema debe aplicarse de forma consistente en todos los flujos de la aplicación.
+**Recomendación:** Implementar un sistema centralizado de manejo de errores que traduzca los códigos HTTB1 a mensajes comprensibles y específicos por campo (ej. "El número de colegiatura ya está registrado" o "El correo electrónico ingresado ya tiene una cuenta"). Este sistema debe aplicarse de forma consistente en todos los flujos de la aplicación.
 
 ### **6.4.2. Auditoría recibida.**
 
@@ -3591,9 +3789,9 @@ El pipeline de integración continua de MOVEO se compone de una serie de etapas 
 3. **Ejecución de pruebas:** Se ejecutan las pruebas unitarias y funcionales con Vitest (`npm run test:unit` y `npm run test:functional`), validando componentes, stores y lógica de dominio.
 4. **Construcción del bundle:** Se genera el build de producción con `npm run build`, produciendo el bundle optimizado en la carpeta `dist/`.
 
-![Ejecución de la suite de pruebas del frontend (npm run test:unit)](https://i.imgur.com/uhmpfBF.png)
+![Ejecución de la suite de pruebas del frontend (npm run test:unit)](htTB1s://i.imgur.com/uhmpfBF.png)
 
-![Construcción de producción del frontend (npm run build)](https://i.imgur.com/lcSEBR7.png)
+![Construcción de producción del frontend (npm run build)](htTB1s://i.imgur.com/lcSEBR7.png)
 
 **Backend (C# / .NET 9):**
 
@@ -3601,9 +3799,9 @@ El pipeline de integración continua de MOVEO se compone de una serie de etapas 
 2. **Compilación:** Se compila la solución con `dotnet build` en configuración Release, verificando que el proyecto compile sin errores.
 3. **Contenerización:** Se construye la imagen Docker del backend a partir del `Dockerfile` (build multi-stage de .NET 9), dejando el artefacto listo para su despliegue.
 
-![Compilación del backend con dotnet build en configuración Release](https://i.imgur.com/yxjXIKq.png)
+![Compilación del backend con dotnet build en configuración Release](htTB1s://i.imgur.com/yxjXIKq.png)
 
-![Dockerfile del backend para la contenerización del servicio](https://i.imgur.com/ILRpCmc.png)
+![Dockerfile del backend para la contenerización del servicio](htTB1s://i.imgur.com/ILRpCmc.png)
 
 ### 7.2. Continuous Delivery
 
@@ -3637,9 +3835,9 @@ Este apartado describe las etapas que componen el pipeline de entrega continua d
 4. **Despliegue exitoso:** Ambos servicios quedan en estado activo y en línea, confirmando que la nueva versión fue entregada correctamente.
 5. **Monitoreo y Feedback:** Después de la liberación, se observa el comportamiento de la nueva versión (estado de los servicios, rendimiento y disponibilidad) para confirmar el éxito del despliegue y, de ser necesario, ejecutar un rollback controlado desde los dashboards de Vercel y Railway.
 
-![Despliegue del frontend MOVEO (Vue 3 + Vite) en Vercel desde la rama main de GitHub](https://i.imgur.com/Z9LWHZc.png)
+![Despliegue del frontend MOVEO (Vue 3 + Vite) en Vercel desde la rama main de GitHub](htTB1s://i.imgur.com/Z9LWHZc.png)
 
-![Despliegue del backend MOVEO (.NET + MySQL) en Railway, disparado desde un commit en GitHub, con ambos servicios en línea](https://i.imgur.com/EBac5Ut.png)
+![Despliegue del backend MOVEO (.NET + MySQL) en Railway, disparado desde un commit en GitHub, con ambos servicios en línea](htTB1s://i.imgur.com/EBac5Ut.png)
 
 ### 7.3. Continuous deployment
 
@@ -3653,7 +3851,7 @@ En este apartado se detallan las herramientas y prácticas que aseguran un despl
 
 - **GitHub Actions:** Para automatizar el pipeline de CI/CD. Permite configurar workflows definidos en archivos .github/workflows/ que incluyen la ejecución de pruebas y el despliegue automático a los entornos de staging y producción ante cada push en las ramas develop o main.
 - **Railway:** Plataforma utilizada para el despliegue del backend en C# .NET y para la gestión de la base de datos MySQL. Railway detecta automáticamente el archivo .csproj del proyecto, construye el contenedor del servicio y gestiona las variables de entorno de producción, incluyendo la cadena de conexión a la base de datos y el entorno de ejecución. También ofrece soporte para migraciones automáticas mediante Entity Framework Core y generación de backups periódicos.
-- **Vercel:** Plataforma encargada del despliegue automático del frontend en Vue 3 + Vite. Cada push a la rama main activa un nuevo deployment de producción, distribuyendo la aplicación a través de la CDN global de Vercel y generando una URL pública segura con HTTPS de forma inmediata.
+- **Vercel:** Plataforma encargada del despliegue automático del frontend en Vue 3 + Vite. Cada push a la rama main activa un nuevo deployment de producción, distribuyendo la aplicación a través de la CDN global de Vercel y generando una URL pública segura con HTTB1S de forma inmediata.
 
 **Feature Branching:**
 
@@ -3673,9 +3871,9 @@ Este apartado describe los componentes que forman parte del pipeline de desplieg
 4. Validación de Esquema: Después de aplicar las migraciones, los integration tests del backend ejecutados con WebApplicationFactory validan que las entidades, relaciones y endpoints del dominio funcionen correctamente con el nuevo esquema de la base de datos.
 5. Despliegue Continuo: Una vez aplicadas y validadas las migraciones, los cambios se reflejan automáticamente en el entorno de producción, permitiendo un flujo de trabajo continuo y ágil para el equipo de Moveo.
 
-![Pipeline de la base de datos MySQL en Railway](https://i.imgur.com/rU27jJi.png)
+![Pipeline de la base de datos MySQL en Railway](htTB1s://i.imgur.com/rU27jJi.png)
 
-![Migraciones y estado de la base de datos en Railway](https://i.imgur.com/IFxSKD6.png)
+![Migraciones y estado de la base de datos en Railway](htTB1s://i.imgur.com/IFxSKD6.png)
 
 **Componentes del Pipeline del Backend (Railway — C# .NET):**
 
@@ -3685,7 +3883,7 @@ Este apartado describe los componentes que forman parte del pipeline de desplieg
 4. Despliegue: Railway reemplaza la versión anterior del servicio con la nueva versión desplegada y expone el dominio público de la API, incluyendo la interfaz de Swagger para la verificación interactiva de los endpoints.
 5. Monitoreo y alerta: Después del despliegue, Railway monitorea el estado del contenedor y envía alertas al equipo si el servicio se reinicia de forma inesperada o si el proceso de construcción falla durante el deployment.
 
-![Pipeline de despliegue del backend en Railway](https://i.imgur.com/qw7OJRz.png)
+![Pipeline de despliegue del backend en Railway](htTB1s://i.imgur.com/qw7OJRz.png)
 
 **Componentes del Pipeline del Frontend (Vercel — Vue 3 + Vite):**
 
@@ -4482,7 +4680,7 @@ El backlog se ordena priorizando primero la instrumentación (necesaria para med
 | 7 | HU38 | Seleccionar una categoría predefinida al reportar una incidencia | Como usuario, quiero elegir una categoría predefinida al crear un ticket. | 2 |
 | 8 | HU37 | Ver número de seguimiento al crear un ticket | Como usuario, quiero recibir un número de seguimiento y estado inicial al crear un ticket. | 3 |
 
-> **URL del Product Backlog público**: https://trello.com/b/VJ8IEYK1/moveo (las tarjetas HU33-HU39 y TS05 se incorporan a este mismo tablero).
+> **URL del Product Backlog público**: htTB1s://trello.com/b/VJ8IEYK1/moveo (las tarjetas HU33-HU39 y TS05 se incorporan a este mismo tablero).
 
 #### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
 
@@ -4514,7 +4712,7 @@ Los experimentos se planificaron y ejecutaron en el **Sprint 4**, priorizando pr
 
 En la Landing Page (`index.html` + `main.js` + `styles.css`), los experimentos con impacto directo fueron la mejora de accesibilidad (HU39: agregar atributos `alt` descriptivos a las imágenes, que actualmente no los tienen) y la instrumentación de analítica (TS05: eventos de clic en la navegación `.wp-navlink` y en los CTA `.wp-btn-accent` "Start now" / `.wp-btn-ghost` "Log in" que enlazan a la aplicación). El despliegue se mantiene en Vercel a partir del pipeline de CI/CD.
 
-**URL de Despliegue (Landing Page):** https://upc-1asi0732-2610-17821-pointflavor.github.io/MOVEO-Landing-Page/
+**URL de Despliegue (Landing Page):** htTB1s://upc-1asi0732-2610-17821-pointflavor.github.io/MOVEO-Landing-Page/
 
 <p align="center">
   <img src="assets/Chapter-8/serviciosMoveo.PNG" alt="Sección Servicios de la Landing Page de Moveo con imágenes que incluyen atributo alt descriptivo" width="80%"><br><br>
@@ -4525,7 +4723,7 @@ En la Landing Page (`index.html` + `main.js` + `styles.css`), los experimentos c
 
 Las mejoras experimentales se implementaron sobre la aplicación web (Vue 3 / Vite, estructura por bounded contexts en `src/app/`) y se desplegaron mediante el pipeline en Vercel. A continuación se presentan las evidencias por cada historia de usuario, indicando la ruta y el componente involucrado.
 
-**URL de Despliegue (Frontend):** https://moveo-frontend.vercel.app
+**URL de Despliegue (Frontend):** htTB1s://moveo-frontend.vercel.app
 
 **HU33 – Botón "Reservar" fijo durante el scroll**
 Ruta: `/rental/vehicles/:id` · Componentes: `vehicle-detail-page.vue`, `vehicle-detail-content.vue`
@@ -4583,7 +4781,7 @@ Para la fase de experimentación, el equipo priorizó una estrategia **mobile-fi
 
 Las mejoras se apoyan en la RESTful API (C# / .NET Core, arquitectura DDD por bounded contexts) desplegada en Railway, con documentación en Swagger. Los experimentos puramente de frontend (HU33, HU34, HU39) no requirieron cambios en el backend, mientras que las mejoras de cancelación y soporte se apoyan en los endpoints y campos ya existentes de los controllers `RentalController` y `SupportTicketsController`.
 
-**URL de Documentación (Swagger API):** [https://moveo-backend-production.up.railway.app/swagger/index.html](https://moveo-backend-production.up.railway.app/swagger/index.html)
+**URL de Documentación (Swagger API):** [htTB1s://moveo-backend-production.up.railway.app/swagger/index.html](htTB1s://moveo-backend-production.up.railway.app/swagger/index.html)
 
 Principales endpoints y campos usados para la experimentación:
 
@@ -4643,7 +4841,7 @@ Se diseñó un guion de preguntas orientadas a los experimentos implementados (H
 ##### 8.3.4.2. Registro de Entrevistas
 
 **Video completo de todas las entrevistas:**  
-[https://acortar.link/FPs37x](https://acortar.link/FPs37x)
+[htTB1s://acortar.link/FPs37x](htTB1s://acortar.link/FPs37x)
 
 **Segmento 1: Propietarios**
 
@@ -4659,7 +4857,7 @@ Se diseñó un guion de preguntas orientadas a los experimentos implementados (H
 **Resumen:**
 Alisa comenzó en el Landing Page y destacó la claridad del mensaje principal: "Alquila tu auto fácil y seguro". Hizo clic en "Regístrate" sin dudar. Valoró positivamente el formulario de registro y publicación, completando ambos flujos en menos de 5 minutos. Evaluó la apertura de un ticket como "clara y útil", especialmente al poder adjuntar fotos del daño. No intentó cancelar una reserva (no aplica a su rol), pero expresó que debería ser posible hacerlo sin penalidad si es con anticipación.
 
-![ValidationInterview#1](https://i.imgur.com/zGI5Jkm.png)
+![ValidationInterview#1](htTB1s://i.imgur.com/zGI5Jkm.png)
 
 **Entrevistado 2: Mathías Peña**
 
@@ -4673,7 +4871,7 @@ Alisa comenzó en el Landing Page y destacó la claridad del mensaje principal: 
 **Resumen:**
 Mathías navegó desde el Landing Page, interesándose por la sección "¿Cómo funciona?". Publicó un vehículo rápidamente. Al probar la apertura de un ticket, sugirió permitir adjuntar videos cortos además de fotos. Consideró que el sistema de cancelación debería incluir un resumen de condiciones (¿se devuelve el depósito?) antes de confirmar.
 
-![ValidationInterview#2](https://i.imgur.com/pxOwY8d.png)
+![ValidationInterview#2](htTB1s://i.imgur.com/pxOwY8d.png)
 
 **Entrevistado 3: Mauricio Salas**
 
@@ -4687,7 +4885,7 @@ Mathías navegó desde el Landing Page, interesándose por la sección "¿Cómo 
 **Resumen:**
 Mauricio completó el flujo de publicación y apertura de ticket. Valoró que el ticket quede vinculado a la reserva específica. Sugirió que al cancelar una reserva, el sistema muestre claramente si hay penalidades o devolución parcial de fondos.
 
-![ValidationInterview#3](https://i.imgur.com/yel0R0L.png)
+![ValidationInterview#3](htTB1s://i.imgur.com/yel0R0L.png)
 
 **Segmento 2: Inquilinos**
 
@@ -4703,7 +4901,7 @@ Mauricio completó el flujo de publicación y apertura de ticket. Valoró que el
 **Resumen:**
 Claudia reservó un auto desde el Landing Page. Posteriormente, canceló una reserva simulada y consideró el proceso "simple y transparente". También abrió un ticket por "asiento roto" y valoró que el formulario sea claro. Criticó que no haya un chat integrado para aclarar dudas antes de abrir un ticket.
 
-![ValidationInterview#4](https://i.imgur.com/1lDoER4.png)
+![ValidationInterview#4](htTB1s://i.imgur.com/1lDoER4.png)
 
 **Entrevistado 5: Jackelin Peña Pariona**
 
@@ -4717,7 +4915,7 @@ Claudia reservó un auto desde el Landing Page. Posteriormente, canceló una res
 **Resumen:**
 Gabriel completó la reserva y luego la canceló. Notó que el sistema no muestra un mensaje de confirmación de cancelación por correo. Al abrir un ticket, sugirió incluir categorías predefinidas de incidencias (mecánicas, limpieza, documentación) para agilizar el reporte.
 
-![ValidationInterview#5](https://i.imgur.com/n1OIr9E.png)
+![ValidationInterview#5](htTB1s://i.imgur.com/n1OIr9E.png)
 
 **Entrevistado 6: Angie Leyva**
 
@@ -4731,7 +4929,7 @@ Gabriel completó la reserva y luego la canceló. Notó que el sistema no muestr
 **Resumen:**
 Angie navegó desde el Landing Page y reservó un auto. Al cancelar, solicitó que el sistema muestre un resumen del reembolso esperado. Al abrir un ticket, criticó que no haya un número de seguimiento visible en la interfaz ("¿cómo sé que lo recibieron?"). Recomendó añadir un sistema de notificaciones que confirme la recepción del ticket y cualquier actualización posterior. 
 
-![ValidationInterview#6](https://i.imgur.com/PRglvc2.png)
+![ValidationInterview#6](htTB1s://i.imgur.com/PRglvc2.png)
 
 ## 8.4. Experimentation
 
@@ -4849,9 +5047,10 @@ A partir de la evidencia recogida, el equipo volvió a revisar el Question Backl
 
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
 
+
 **Figma (Prototipo):** El prototipo interactivo desarrollado en Figma refleja las interfaces y soluciones propuestas para Moveo, diseñadas con base en las necesidades y expectativas de los usuarios. Este artefacto muestra cómo el equipo iteró y ajustó los elementos visuales y funcionales durante el proceso de diseño, desde el inicio de sesión y la exploración de vehículos hasta el detalle con el botón de reserva y la gestión de alquileres.
 
-Enlace Figma: https://www.figma.com/design/JCgS0FsRQH1cDtJ1FkeWuZ/MOVEO?node-id=0-1&t=4ws5TAukXrjL9hsQ-1
+Enlace Figma: htTB1s://www.figma.com/design/JCgS0FsRQH1cDtJ1FkeWuZ/MOVEO?node-id=0-1&t=4ws5TAukXrjL9hsQ-1
 
 <p align="center">
   <img src="assets/Chapter-8/FigmaPrototipo.PNG" alt="Diseño y prototipo de Moveo en Figma con las pantallas de login, dashboard, exploración de vehículos, detalle con botón Reservar y mis alquileres" width="90%">
@@ -4859,11 +5058,113 @@ Enlace Figma: https://www.figma.com/design/JCgS0FsRQH1cDtJ1FkeWuZ/MOVEO?node-id=
 
 **Encuesta de Google Forms:** Se utilizó una encuesta creada en Google Forms para recopilar el feedback de los usuarios y validar las mejoras implementadas durante la experimentación. Esta encuesta permitió evaluar la experiencia del usuario y recopilar los datos que respaldan las decisiones tomadas sobre cada mejora de la aplicación.
 
-Enlace encuesta: https://docs.google.com/forms/d/e/1FAIpQLSflrC7ERxr2JTRtT2nr2ZGu-e2Lrd9_4WItOXWjiSh1AI-6bg/viewform
+Enlace encuesta: htTB1s://docs.google.com/forms/d/e/1FAIpQLSflrC7ERxr2JTRtT2nr2ZGu-e2Lrd9_4WItOXWjiSh1AI-6bg/viewform
 
 <p align="center">
   <img src="assets/Chapter-8/EncuestaForms.PNG" alt="Encabezado y descripción de la encuesta de validación de Moveo en Google Forms" width="70%">
 </p>
+
+# 8.6. To-Be Software Platform Pre-launch
+## 8.6.1. About-the-Product Intro Video
+
+En esta sección, se presenta una introducción de la plataforma PointFlavor, destacando sus características clave y cómo la app web conecta a los usuarios con huariques locales, ofreciendo una experiencia única para descubrir y apoyar pequeños negocios de comida tradicional. A través de este video, se busca mostrar de manera visual y atractiva cómo la aplicación facilita tanto a usuarios como a dueños de huariques la interacción y gestión de este valioso ecosistema gastronómico.
+
+<p align="center">
+  <img src="assets/Chapter-5/bout the product moveo.png" alt="moveo_product"/>
+</p>
+
+Duración: 1:05 <br>
+Enlace a Microsoft Stream: [VIDEO ABOUT THE PRODUCT.mp4 ](htTB1s://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/IQDsa8mQseqyS5hASHUOF2etATteMgp7d6JY2BW7lKFNwJQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=in1oh2) <br>
+
+# Matriz de Evaluación Ética y de Impacto
+
+## Introducción
+ 
+La matriz permite demostrar la capacidad de reconocer responsabilidades éticas y profesionales, y emitir juicios informados considerando el impacto de la solución de ingeniería de software. Se busca evitar el "sentido mercenario de la ingeniería" (donde solo se busca lograr un fin contratado sin cuestionarse el fin en sí mismo) y evidenciar un pensamiento crítico y reflexivo sobre las implicaciones sociales, ambientales y económicas de **Moveo**.
+ 
+**Proyecto:** "Moveo" (App de alquiler de autos entre particulares)
+ 
+---
+ 
+## 1. Seguridad y Protección de Datos
+ 
+| Dimensión | Identificación de Riesgos e Impactos | Evaluación del Impacto | Estrategias de Mitigación |
+|---|---|---|---|
+| **Seguridad y Protección de Datos** | **Negativo:** Recopilación de datos personales (DNI, licencia, información de pago, ubicación real-time) expuesta a brechas. Suplantación de identidades. Seguimiento de ubicación permite persecución o robo. **Positivo:** Sistema de verificación de identidad. Contratos digitales protegen a ambas partes. | **Afectados:** Propietarios e inquilinos (información personal, financiera, ubicación). **Magnitud:** CRÍTICO | **Acciones:** Encriptación end-to-end. OAuth 2.0. Limitar ubicación solo durante alquiler. Consentimiento granular. Auditorías trimestrales. RGPD/LGPD compliance. Descarga/eliminación de datos. Política de retención clara. |
+ 
+---
+ 
+## 2. Inclusión y Accesibilidad
+ 
+| Dimensión | Identificación de Riesgos e Impactos | Evaluación del Impacto | Estrategias de Mitigación |
+|---|---|---|---|
+| **Inclusión y Accesibilidad** | **Negativo:** Requiere acceso digital (excluye sin internet). Comisiones inaccesibles para pobres. Tarjeta de crédito excluye sin acceso bancario. **Positivo:** Democratiza acceso a vehículos. Ingresos para propietarios. | **Afectados:** Bajo ingreso, adultos mayores, discapacidades, poblaciones rurales. **Magnitud:** ALTO | **Acciones:** Versión "Lite". Múltiples pagos (transferencia, Yape, Plin, efectivo). WCAG 2.1 AA. Soporte telefónico gratis. Idiomas locales. Capacitaciones gratuitas. |
+ 
+---
+ 
+## 3. Impacto Social y Laboral
+ 
+| Dimensión | Identificación de Riesgos e Impactos | Evaluación del Impacto | Estrategias de Mitigación |
+|---|---|---|---|
+| **Impacto Social y Laboral** | **Negativo:** Competencia desleal con agencias reguladas. Conflicto laboral. Precarización (pseudo-choferes sin protección). **Positivo:** Empleo flexible. Acceso equitativo. Comunidad. | **Afectados:** Trabajadores de agencias, propietarios informales, bajo ingreso. **Magnitud:** ALTO | **Acciones:** Marcos legales con reguladores. Inscripción tributaria. Educación fiscal/seguros. Fondo protección social. Reputación transparente. Seguros integrados. Validar licencia vigente. |
+ 
+---
+ 
+## 4. Impacto Ambiental (Antrópico)
+ 
+| Dimensión | Identificación de Riesgos e Impactos | Evaluación del Impacto | Estrategias de Mitigación |
+|---|---|---|---|
+| **Impacto Ambiental** | **Negativo:** Mayor oferta de autos = menos transporte público, más CO2. **Positivo:** Autos subutilizados se aprovechan. Filtros eco-friendly. Menos manufactura. | **Afectados:** Atmósfera urbana, aire, clima. **Magnitud:** MEDIO-ALTO | **Acciones:** Huella de carbono por viaje. Descuentos para eléctricos. Integrar transporte público. Meta 2027: 30% eco-friendly. Compensar con reforestación. |
+ 
+---
+ 
+## 5. Seguridad Vial
+ 
+| Dimensión | Identificación de Riesgos e Impactos | Evaluación del Impacto | Estrategias de Mitigación |
+|---|---|---|---|
+| **Seguridad Vial** | **Negativo:** Conductores sin experiencia. Cansancio causando accidentes. Responsabilidad unclear. **Positivo:** Verificación de licencia. Reputación desalienta conducta peligrosa. | **Afectados:** Inquilinos, propietarios, terceros. **Magnitud:** ALTO | **Acciones:** Verificar licencia RENIEC/SUNARP. Antecedentes limpios. Test conducción. Recordatorios descanso. Seguro terceros obligatorio. Historial infracciones. Limitar nocturnos. Emergencias en app. |
+ 
+---
+ 
+## 6. Privacidad y Vigilancia
+ 
+| Dimensión | Identificación de Riesgos e Impactos | Evaluación del Impacto | Estrategias de Mitigación |
+|---|---|---|---|
+| **Privacidad y Vigilancia** | **Negativo:** Vigilancia continua permite acoso/control. Historial revela patrones de vida. Recopilación masiva de movimiento. **Positivo:** Ubicación real-time aumenta seguridad. Ayuda resolver disputas. | **Afectados:** Privacidad de usuarios, sociedades. **Magnitud:** ALTO | **Acciones:** Ubicación solo durante alquiler. Ocultar destino final. No guardar post-alquiler. Explicar datos/duración. Anonimizar análisis. No vender sin consentimiento. PDPA/CCPA. Reportes autoridades anuales. |
+ 
+---
+ 
+## 7. Acceso a Justicia y Resolución de Disputas
+ 
+| Dimensión | Identificación de Riesgos e Impactos | Evaluación del Impacto | Estrategias de Mitigación |
+|---|---|---|---|
+| **Acceso a Justicia** | **Negativo:** Plataforma resuelve (no juzgados). Favorece poder. Pobres desconocen derechos. Arbitraje privado caro. **Positivo:** Resolución rápida. Reputación disuade mala conducta. | **Afectados:** Bajo ingreso, discapacidades mentales, migrantes. **Magnitud:** MEDIO | **Acciones:** Estándares transparentes. Apelación humana. Asesoría legal gratuita. Ombudsman. Documentación automática. Evidencia visible. Apelación a juzgados. INDECOPI. |
+ 
+---
+ 
+## 8. Impacto Económico Desigual
+ 
+| Dimensión | Identificación de Riesgos e Impactos | Evaluación del Impacto | Estrategias de Mitigación |
+|---|---|---|---|
+| **Impacto Económico** | **Negativo:** Comisiones (10%) a Moveo. Pobres pagan más. Flotas extraen más valor. Concentración. **Positivo:** Ingresos para propietarios pobres. Acceso barato. | **Afectados:** Propietarios pobres, inquilinos pobres, economía local. **Magnitud:** MEDIO-ALTO | **Acciones:** Transparencia comisiones. Escala progresiva (5% / 15%). Fondo reinversión 1%. Capacitaciones gratis. 80%+ a usuarios. Auditoría anual. Publicar ganancias promedio. |
+ 
+---
+ 
+## Conclusión
+ 
+Esta matriz refleja un análisis profundo de los impactos éticos y sociales de **Moveo**. El equipo se compromete a:
+ 
+1. **Seguridad primero:** Proteger datos y vidas
+2. **Inclusión real:** Acceso equitativo
+3. **Transparencia:** Usuarios entienden cómo funciona
+4. **Responsabilidad:** Responder cuando falla
+5. **Mejora continua:** Revisar anualmente
+---
+ 
+**Creación:** Julio 2026  
+**Equipo:** NextMobility  
+**Próxima revisión:** Julio 2027  
+**Disponible en:** Footer de la app - "Ética y Responsabilidad" 
 
 # Conclusiones y recomendaciones
 
@@ -4879,7 +5180,7 @@ Enlace encuesta: https://docs.google.com/forms/d/e/1FAIpQLSflrC7ERxr2JTRtT2nr2ZG
 
 - La implementación de GitFlow acoplada a pipelines automatizados en GitHub Actions, Vercel y Railway demostró ser altamente eficiente para mitigar conflictos de integración de código. El enfoque de despliegue basado en commits redujo a cero la intervención manual en los despliegues de producción, manteniendo la consistencia de los entornos y aislando de forma segura las variables técnicas.   
     
-- El proceso de auditoría heurística recibida por SoftFocus y las entrevistas de validación cualitativa permitieron identificar brechas críticas de correspondencia visual, consistencia lingüística y visibilidad en los flujos de soporte y cancelaciones de Moveo. Este ejercicio cualitativo demostró que exponer errores HTTP crudos (como el error 400\) o descuidar el contraste visual daña directamente la confianza del cliente.  
+- El proceso de auditoría heurística recibida por SoftFocus y las entrevistas de validación cualitativa permitieron identificar brechas críticas de correspondencia visual, consistencia lingüística y visibilidad en los flujos de soporte y cancelaciones de Moveo. Este ejercicio cualitativo demostró que exponer errores HTTB1 crudos (como el error 400\) o descuidar el contraste visual daña directamente la confianza del cliente.  
     
 - El diseño experimental estructurado implementado en esta entrega permitió abandonar la ideación empírica reactiva en favor de una metodología rigurosa basada en el testeo de hipótesis falsificables. El uso de métricas de dominio específicas previene el sesgo de las métricas de vanidad y justifica la inversión de tiempo de desarrollo con base en el retorno de inversión y la retención real de inquilinos.  
     
@@ -4893,53 +5194,63 @@ Enlace encuesta: https://docs.google.com/forms/d/e/1FAIpQLSflrC7ERxr2JTRtT2nr2ZG
 
 - Se recomienda ampliar las futuras entrevistas de validación con una muestra más diversa de usuarios, incluyendo propietarios, inquilinos frecuentes y usuarios con necesidades de accesibilidad. Esto permitiría validar con mayor precisión la utilidad de las mejoras implementadas en web y mobile, especialmente en flujos críticos como reserva, cancelación, soporte y seguimiento de tickets. Además, los hallazgos deberían convertirse directamente en nuevas historias de usuario dentro del backlog para asegurar que la retroalimentación obtenida se transforme en mejoras concretas del producto.
 
+# Video About the Team
+
+<p align="center">
+  <a href="https://tinyurl.com/about-the-team-moveo">
+    <img src="https://i.imgur.com/lMSazfL.jpeg" alt="Preview del video de exposición TB2" width="480"/>
+  </a>
+</p>
+
+**Video de Exposición TB2:** [https://tinyurl.com/about-the-team-moveo](https://tinyurl.com/about-the-team-moveo)
+
 
 # Bibliografía
 
-* Gothelf, J. (2022, 29 de agosto). FAQ: WHAT DOES A COMPLETE LEAN UX CANVAS LOOK LIKE?. jeff Gothelf. Recuperado el 24 de abril del 2024 de URL https://jeffgothelf.com/blog/faq-what-does-a-complete-lean-ux-canvas-look-like/
+* Gothelf, J. (2022, 29 de agosto). FAQ: WHAT DOES A COMPLETE LEAN UX CANVAS LOOK LIKE?. jeff Gothelf. Recuperado el 24 de abril del 2024 de URL htTB1s://jeffgothelf.com/blog/faq-what-does-a-complete-lean-ux-canvas-look-like/
 
-* Gothelf, J. Seiden, J. (2021). Lean UX, 3rd Edition. O'Reilly Media, inc. https://www.oreilly.com/library/view/lean-ux-3rd/9781098116293/.
+* Gothelf, J. Seiden, J. (2021). Lean UX, 3rd Edition. O'Reilly Media, inc. htTB1s://www.oreilly.com/library/view/lean-ux-3rd/9781098116293/.
 
-* Buenas prácticas para el desarrollo de grandes proyectos con Vue.js. (s/f). Solucionex. Recuperado el 29 de abril de 2024. https://www.solucionex.com/blog/buenas-practicas-para-el-desarrollo-de-grandes-proyectos-con-vuejs
+* Buenas prácticas para el desarrollo de grandes proyectos con Vue.js. (s/f). Solucionex. Recuperado el 29 de abril de 2024. htTB1s://www.solucionex.com/blog/buenas-practicas-para-el-desarrollo-de-grandes-proyectos-con-vuejs
 
-* Eseme, S. (2021, agosto 12). 10 cosas que debes saber sobre Vue.js Frontend Framework. Kinsta®; Kinsta. https://kinsta.com/es/blog/vue-js/
+* Eseme, S. (2021, agosto 12). 10 cosas que debes saber sobre Vue.js Frontend Framework. Kinsta®; Kinsta. htTB1s://kinsta.com/es/blog/vue-js/
 
-* de Javier, V. M. C. (s/f). DDD y arquitectura Onion, todo lo que necesitas saber. Paradigmadigital.com. Recuperado el 29 de abril de 2024 de https://www.paradigmadigital.com/techbiz/domain-driven-design-y-arquitectura-onion/
+* de Javier, V. M. C. (s/f). DDD y arquitectura Onion, todo lo que necesitas saber. Paradigmadigital.com. Recuperado el 29 de abril de 2024 de htTB1s://www.paradigmadigital.com/techbiz/domain-driven-design-y-arquitectura-onion/
 
 
-* Arquitectura DDD(Domain Driven Design). (2021, junio 21). Sergio Tapia. https://sergiotapia.net/arquitectura-ddddomain-driven-design/
+* Arquitectura DDD(Domain Driven Design). (2021, junio 21). Sergio Tapia. htTB1s://sergiotapia.net/arquitectura-ddddomain-driven-design/
 
 
 # Anexos
 
-## Enlace Organización: https://github.com/UPC-1ASI0732-2610-17821-PointFlavor
-
+## Enlace Organización: htTB1s://github.com/UPC-1ASI0732-2610-17821-PointFlavor
+## Video de Exposición TB2: [https://tinyurl.com/video-expo-tb2](https://tinyurl.com/video-expo-tb2)
 
 ## Repositorios Github
 
-- **Enlace Repositorio Project Report:**  https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/MOVEO-Report/tree/develop <br>
+- **Enlace Repositorio Project Report:**  htTB1s://github.com/UPC-1ASI0732-2610-17821-PointFlavor/MOVEO-Report/tree/develop <br>
 
-- **Enlace Repositorio Landing Page:** https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/MOVEO-Landing-Page <br>
+- **Enlace Repositorio Landing Page:** htTB1s://github.com/UPC-1ASI0732-2610-17821-PointFlavor/MOVEO-Landing-Page <br>
 
-- **Enlace Repositorio Frontend Web Application (Vue + Vite):** https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/MOVEO-Frontend <br>
+- **Enlace Repositorio Frontend Web Application (Vue + Vite):** htTB1s://github.com/UPC-1ASI0732-2610-17821-PointFlavor/MOVEO-Frontend <br>
 
-- **Enlace Repositorio Backend Web Service (RESTful API - .NET):** https://github.com/UPC-1ASI0732-2610-17821-PointFlavor/MOVEO-Backend <br>
+- **Enlace Repositorio Backend Web Service (RESTful API - .NET):** htTB1s://github.com/UPC-1ASI0732-2610-17821-PointFlavor/MOVEO-Backend <br>
 
-- **URL de Despliegue (Landing Page):** https://upc-1asi0732-2610-17821-pointflavor.github.io/MOVEO-Landing-Page/ <br>
+- **URL de Despliegue (Landing Page):** htTB1s://upc-1asi0732-2610-17821-pointflavor.github.io/MOVEO-Landing-Page/ <br>
 
-- **URL de Despliegue (Frontend Web Application):** https://moveo-frontend.vercel.app <br>
+- **URL de Despliegue (Frontend Web Application):** htTB1s://moveo-frontend.vercel.app <br>
 
-- **URL de Documentación (Swagger API):** https://moveo-backend-production.up.railway.app/swagger/index.html <br>
+- **URL de Documentación (Swagger API):** htTB1s://moveo-backend-production.up.railway.app/swagger/index.html <br>
 
-- Link del formulario segmento propietarios: https://forms.gle/uyVSkqSiuiKx1nb69 <br>
+- Link del formulario segmento propietarios: htTB1s://forms.gle/uyVSkqSiuiKx1nb69 <br>
 
-- Link del formulario segmento Inquilinos: https://forms.gle/kz3BdxPoZHKNgqUg9 <br>
+- Link del formulario segmento Inquilinos: htTB1s://forms.gle/kz3BdxPoZHKNgqUg9 <br>
 
-- Link del To-Be Scenario Mapping: https://miro.com/app/board/uXjVJHk66ZY=/?share_link_id=390494907497 <br>
+- Link del To-Be Scenario Mapping: htTB1s://miro.com/app/board/uXjVJHk66ZY=/?share_link_id=390494907497 <br>
 
-- Link del diseño final en figma: https://www.figma.com/design/JCgS0FsRQH1cDtJ1FkeWuZ/MOVEO?node-id=0-1&t=4ws5TAukXrjL9hsQ-1 <br>
+- Link del diseño final en figma: htTB1s://www.figma.com/design/JCgS0FsRQH1cDtJ1FkeWuZ/MOVEO?node-id=0-1&t=4ws5TAukXrjL9hsQ-1 <br>
 
-- Link del prototipo interactivo en figma: https://www.figma.com/proto/c6kJu6j0YZv51u6Ml2kypY/Moveo-Landing-Mockup?node-id=1-2&p=f&t=oOjM7PCRDBGHla3t-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4006%3A1560 <br>
+- Link del prototipo interactivo en figma: htTB1s://www.figma.com/proto/c6kJu6j0YZv51u6Ml2kypY/Moveo-Landing-Mockup?node-id=1-2&p=f&t=oOjM7PCRDBGHla3t-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4006%3A1560 <br>
 
 
 ---
